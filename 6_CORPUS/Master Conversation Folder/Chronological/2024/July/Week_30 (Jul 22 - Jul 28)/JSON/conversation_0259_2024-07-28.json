@@ -1,0 +1,1074 @@
+{
+  "title": "Tokyo Weather in August",
+  "create_time": 1722175507.446127,
+  "update_time": 1722175518.730938,
+  "mapping": {
+    "bdade459-cbb1-4291-be6c-267d5c20c575": {
+      "id": "bdade459-cbb1-4291-be6c-267d5c20c575",
+      "message": null,
+      "parent": null,
+      "children": [
+        "9df1f92d-b1db-4560-b4c3-e1ce25bd9213"
+      ]
+    },
+    "9df1f92d-b1db-4560-b4c3-e1ce25bd9213": {
+      "id": "9df1f92d-b1db-4560-b4c3-e1ce25bd9213",
+      "message": {
+        "id": "9df1f92d-b1db-4560-b4c3-e1ce25bd9213",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bdade459-cbb1-4291-be6c-267d5c20c575",
+      "children": [
+        "2b4605fd-6a48-4926-a7c4-3a2f53983f6e"
+      ]
+    },
+    "2b4605fd-6a48-4926-a7c4-3a2f53983f6e": {
+      "id": "2b4605fd-6a48-4926-a7c4-3a2f53983f6e",
+      "message": {
+        "id": "2b4605fd-6a48-4926-a7c4-3a2f53983f6e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722175507.448286,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the weather in Tokyo like in august"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8aa56c183ab456fe-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9df1f92d-b1db-4560-b4c3-e1ce25bd9213",
+      "children": [
+        "d4a9e134-c458-41d8-b4f2-2396476b8458"
+      ]
+    },
+    "d4a9e134-c458-41d8-b4f2-2396476b8458": {
+      "id": "d4a9e134-c458-41d8-b4f2-2396476b8458",
+      "message": {
+        "id": "d4a9e134-c458-41d8-b4f2-2396476b8458",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722175517.000437,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2b4605fd-6a48-4926-a7c4-3a2f53983f6e",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b4605fd-6a48-4926-a7c4-3a2f53983f6e",
+      "children": [
+        "c7598ad5-4c7b-4a1b-976a-9b95961c3bff"
+      ]
+    },
+    "c7598ad5-4c7b-4a1b-976a-9b95961c3bff": {
+      "id": "c7598ad5-4c7b-4a1b-976a-9b95961c3bff",
+      "message": {
+        "id": "c7598ad5-4c7b-4a1b-976a-9b95961c3bff",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722175517.000532,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Tokyo weather in August 2024\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d4a9e134-c458-41d8-b4f2-2396476b8458",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "d4a9e134-c458-41d8-b4f2-2396476b8458",
+      "children": [
+        "5ea05d58-7508-48d1-b65f-99b3d8954bb5"
+      ]
+    },
+    "5ea05d58-7508-48d1-b65f-99b3d8954bb5": {
+      "id": "5ea05d58-7508-48d1-b65f-99b3d8954bb5",
+      "message": {
+        "id": "5ea05d58-7508-48d1-b65f-99b3d8954bb5",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722175517.000606,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020Tokyo travel: Best and worst times to visit\u2020www.newsbytesapp.com\u3011\nEach season in Tokyo presents a distinct experience, making the timing of visits crucial for travelers aiming to fully enjoy the city's diverse offerings. This unique blend of old and new makes Tokyo an unforgettable destination for all visitors.\n# \u30101\u2020Japan to experience record heat, extreme temperatures on July 21\u2020www.thestar.com.my\u3011\nTOKYO: Record-breaking heat is expected to hit Japan on Sunday (July 21), with over 200 locations across Japan forecast to experience extreme temperatures.\n# \u30102\u2020Japan to experience record heat, extreme temperatures on Sunday\u2020theshillongtimes.com\u3011\nRecord-breaking heat is expected to hit Japan on Sunday, with over 200 locations across Japan forecasted to experience extreme temperatures. Scorching temperatures were recorded from Kanto to Okinawa on Saturday,\n# \u30103\u2020Japan to experience record heat, extreme temperatures\u2020www.chinaview.cn\u3011\nShizuoka city was the hottest place in the country, recording 38.9 degrees Celcius, followed by Fuchu city in the Tokyo area at 38 degrees Celcius. The temperature reached 35.8 degrees Celcius in Tokyo, marking the first day of severe heat in nearly two weeks.\n# \u30104\u2020Weather in Tokyo in August 2024\u2020world-weather.info\u3011\nTokyo Weather Forecast for August 2024 is based on long term prognosis and previous years' statistical data. 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025. Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec. August. Start Week On. Sunday. Monday. Sun. Mon. Tue. Wed. Thu. Fri. Sat. 1. +90\u00b0. +82\u00b0. 2. +90\u00b0. +81\u00b0. 3. +88\u00b0. +79\u00b0. 4. +86\u00b0. +81\u00b0. 5.\n# \u30105\u2020Tokyo weather in August 2024 | Tokyo 14 day weather\u2020www.weather25.com\u3011\nTokyo weather in August 2024. Click on a day for an hourly weather forecast. Thursday. Jul 25. 0.12 in. 91\u00b0 / 82\u00b0. Friday. Jul 26. 0 in. 93\u00b0 / 84\u00b0. Saturday. Jul 27. 0.06 in. 95\u00b0 / 80\u00b0. Sunday. Jul 28. 0.11 in. 86\u00b0 / 78\u00b0. Monday. Jul 29. 0.01 in. 93\u00b0 / 80\u00b0. Tuesday. Jul 30. 0 in. 91\u00b0 / 80\u00b0. Wednesday. Jul 31. 0.02 in. 95\u00b0 / 78\u00b0.\n# \u30106\u2020Tokyo weather in August 2024 - METEOPROG.COM\u2020www.meteoprog.com\u3011\n+31\u00b0+26\u00b0. 8 August.\n# \u30107\u2020Tokyo weather in August 2024 | Japan: How hot? - Weather2Travel.com\u2020www.weather2travel.com\u3011\nTokyo weather in August 2024. Expect 31\u00b0C daytime maximum temperatures in the shade with on average 6 hours of sunshine per day in Tokyo in August. Check more long-term weather averages for Tokyo in August before you book your next holiday to Japan in 2024/2025. 31\u00b0C max day temperature. 6 hours of sunshine per day. 16 days with some rainfall.\n# \u30108\u2020August weather - Summer 2024 - Tokyo, Japan\u2020www.weather-atlas.com\u3011\nAugust, marked by an average high-temperature of 31\u00b0C (87.8\u00b0F) and a low-temperature of 25.1\u00b0C (77.2\u00b0F), is the warmest month in Tokyo. Heat index. In August, the average heat index is appraised at a very hot 39\u00b0C (102.2\u00b0F). Incorporate additional preventive steps, heat exhaustion and heat cramps are possible.\n# \u30109\u2020Tokyo, T\u014dky\u014d-to Weather Forecast August 2024: Daily Highs/Lows & Rain ...\u2020www.weathertab.com\u3011\nDetailed Tokyo Weather Forecast for August 2024: Daily Precipitation Risks and Temperature Trends. Welcome to WeatherTAB's in-depth weather outlook for Tokyo for August 2024. Leveraging our proprietary long-range forecast model, this comprehensive guide delivers an unparalleled view into the forecasted weather conditions throughout the month.\n# \u301010\u2020Weather Tokyo in August 2024: Temperature & Climate\u2020en.climate-data.org\u3011\nAre you planning a holiday with hopefully nice weather in Tokyo in August 2024? Here you can find all information about the weather in Tokyo in August: >> Overview: Tokyo Weather and Climate in August. >> Tokyo weather by month // weather averages. >> Tokyo weather in August // weather averages. >> Current temperature and weather forecast for Tokyo\n# \u301011\u2020Weather in Tokyo in August: Temperature, Rainfall, Sunshine... for ...\u2020www.whereandwhen.net\u3011\nWeather in Tokyo in august 2024. The weather in Tokyo in august comes from statistical datas on the last years. You can view the weather statistics the entire month, but also by using the tabs for the beginning, the middle and the end of the month. All month. Beginning of the month. Mid-month. End of the month. Average weather throughout august.\n# \u301012\u2020Weather Tokyo in August 2024: Temperature & Climate - Climate-Data.org\u2020en.climate-data.org\u3011\nAre you planning a holiday with hopefully nice weather in Tokyo in August 2024? Here you can find all information about the weather in Tokyo in August: >> Overview: Tokyo Weather and Climate in August. >> Tokyo weather by month // weather averages. >> Tokyo weather in August // weather averages. >> Current temperature and weather forecast for Tokyo\n# \u301013\u2020Best (and Worst) Times to Visit Tokyo in 2024 - Asia Highlights\u2020www.asiahighlights.com\u3011\nAugust is the hottest month in Tokyo with an average daily high of about 31\u00b0C (88\u00b0F). The coldest month is January, with an average daily high of 10\u00b0C (50\u00b0F). The \"plum rainy season\" extends from June to mid-July and brings persistent light rain.\n# \u301014\u2020Tokyo August Weather, Average Temperature (Japan) - Weather Spark\u2020weatherspark.com\u3011\nFor reference, on August 8, the hottest day of the year, temperatures in Tokyo typically range from 77\u00b0F to 87\u00b0F, while on January 26, the coldest day of the year, they range from 36\u00b0F to 48\u00b0F. Average High and Low Temperature in August in Tokyo. Summer. Link. Download. Compare. Averages: J F M A M J J Aug S O N D. History: 2023 2022 2021 2020 2019\n# \u301015\u2020Complete Guide to Visiting Japan in August 2024: Weather, What to See ...\u2020livejapan.com\u3011\nComplete Guide to Visiting Japan in August 2024: Weather, What to See & Do. Last updated: 22 January 2021. Albeit quite hot, Japanese summer is absolutely gorgeous, colorful, and rich of events, festivals, and entertainment to complement the amazing sights. August is when the Japanese rainy season is over.\n# \u301016\u2020Japan Weather in August 2024: Travel Tips for First Visit - Asia Highlights\u2020www.asiahighlights.com\u3011\nAverage daily temperatures peak at 88\u00b0F (31\u00b0C). As the rainy season (June to August) fades away, you would be rewarded with the driest weather of Japan's summer with just a few short downpours. Rainfall increases again in late August as the typhoon season (September to October) approaches.\n# \u301017\u2020Tokyo, Weather for August, Japan - Holiday Weather\u2020www.holiday-weather.com\u3011\n79 \u00b0F.\n# \u301018\u2020[2024] Embracing Weather in Japan in August and Unveiling Summer's ...\u2020www.trip.com\u3011\nIn August, Tokyo experiences warm weather with average maximum temperatures reaching around 31\u00b0C (88\u00b0F) and average minimum temperatures hovering around 24\u00b0C (75\u00b0F). The city also receives an average precipitation of 170mm (6.7 inches) during this month.\n# \u301019\u2020Japan august Weather 2024: Forecast and temperature city by city\u2020www.whereandwhen.net\u3011\nWeather in Japan in august 2024. Here, you have access to the weather forecast for august for most popular cities in Japan. These predictions are probabilities for the month of august from weather reports for over 10 years. The percentage indicates the probability of having the weather indicated. Tokyo. Fukuoka. Hiroshima. Kochi. Kyoto. Nagoya.\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Tokyo travel: Best and worst times to visit",
+                "url": "https://www.newsbytesapp.com/news/lifestyle/tokyo-travel-best-and-worst-times-to-visit/story",
+                "text": "\nEach season in Tokyo presents a distinct experience, making the timing of visits crucial for travelers aiming to fully enjoy the city's diverse offerings. This unique blend of old and new makes Tokyo an unforgettable destination for all visitors.\n",
+                "pub_date": "2024-07-15T06:21:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Japan to experience record heat, extreme temperatures on July 21",
+                "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2024/07/21/japan-to-experience-record-heat-extreme-temperatures-on-july-21",
+                "text": "\nTOKYO: Record-breaking heat is expected to hit Japan on Sunday (July 21), with over 200 locations across Japan forecast to experience extreme temperatures.\n",
+                "pub_date": "2024-07-21T00:38:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Japan to experience record heat, extreme temperatures on Sunday",
+                "url": "https://theshillongtimes.com/2024/07/20/japan-to-experience-record-heat-extreme-temperatures-on-sunday/",
+                "text": "\nRecord-breaking heat is expected to hit Japan on Sunday, with over 200 locations across Japan forecasted to experience extreme temperatures. Scorching temperatures were recorded from Kanto to Okinawa on Saturday,\n",
+                "pub_date": "2024-07-20T14:57:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Japan to experience record heat, extreme temperatures",
+                "url": "http://www.chinaview.cn/20240720/7bdceeaf4d13489db1badb52aa038e5e/c.html",
+                "text": "\nShizuoka city was the hottest place in the country, recording 38.9 degrees Celcius, followed by Fuchu city in the Tokyo area at 38 degrees Celcius. The temperature reached 35.8 degrees Celcius in Tokyo, marking the first day of severe heat in nearly two weeks.\n",
+                "pub_date": "2024-07-20T14:05:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Weather in Tokyo in August 2024",
+                "url": "https://world-weather.info/forecast/japan/tokyo/august-2024/",
+                "text": "\nTokyo Weather Forecast for August 2024 is based on long term prognosis and previous years' statistical data. 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025. Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec. August. Start Week On. Sunday. Monday. Sun. Mon. Tue. Wed. Thu. Fri. Sat. 1. +90\u00b0. +82\u00b0. 2. +90\u00b0. +81\u00b0. 3. +88\u00b0. +79\u00b0. 4. +86\u00b0. +81\u00b0. 5.\n",
+                "pub_date": "2024-07-26T13:26:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo weather in August 2024 | Tokyo 14 day weather",
+                "url": "https://www.weather25.com/asia/japan/tokyo?page=month&month=August",
+                "text": "\nTokyo weather in August 2024. Click on a day for an hourly weather forecast. Thursday. Jul 25. 0.12 in. 91\u00b0 / 82\u00b0. Friday. Jul 26. 0 in. 93\u00b0 / 84\u00b0. Saturday. Jul 27. 0.06 in. 95\u00b0 / 80\u00b0. Sunday. Jul 28. 0.11 in. 86\u00b0 / 78\u00b0. Monday. Jul 29. 0.01 in. 93\u00b0 / 80\u00b0. Tuesday. Jul 30. 0 in. 91\u00b0 / 80\u00b0. Wednesday. Jul 31. 0.02 in. 95\u00b0 / 78\u00b0.\n",
+                "pub_date": "2024-07-24T21:13:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo weather in August 2024 - METEOPROG.COM",
+                "url": "https://www.meteoprog.com/weather/Tokyo/month/august/",
+                "text": "\n+31\u00b0+26\u00b0. 8 August.\n",
+                "pub_date": "2024-07-24T16:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo weather in August 2024 | Japan: How hot? - Weather2Travel.com",
+                "url": "https://www.weather2travel.com/japan/tokyo/august/",
+                "text": "\nTokyo weather in August 2024. Expect 31\u00b0C daytime maximum temperatures in the shade with on average 6 hours of sunshine per day in Tokyo in August. Check more long-term weather averages for Tokyo in August before you book your next holiday to Japan in 2024/2025. 31\u00b0C max day temperature. 6 hours of sunshine per day. 16 days with some rainfall.\n",
+                "pub_date": "2024-07-26T15:06:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "August weather - Summer 2024 - Tokyo, Japan",
+                "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+                "text": "\nAugust, marked by an average high-temperature of 31\u00b0C (87.8\u00b0F) and a low-temperature of 25.1\u00b0C (77.2\u00b0F), is the warmest month in Tokyo. Heat index. In August, the average heat index is appraised at a very hot 39\u00b0C (102.2\u00b0F). Incorporate additional preventive steps, heat exhaustion and heat cramps are possible.\n",
+                "pub_date": "2024-07-26T05:45:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo, T\u014dky\u014d-to Weather Forecast August 2024: Daily Highs/Lows & Rain ...",
+                "url": "https://www.weathertab.com/en/c/e/08/japan/tokyo-to/tokyo/",
+                "text": "\nDetailed Tokyo Weather Forecast for August 2024: Daily Precipitation Risks and Temperature Trends. Welcome to WeatherTAB's in-depth weather outlook for Tokyo for August 2024. Leveraging our proprietary long-range forecast model, this comprehensive guide delivers an unparalleled view into the forecasted weather conditions throughout the month.\n",
+                "pub_date": "2024-07-28T05:48:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Weather Tokyo in August 2024: Temperature & Climate",
+                "url": "https://en.climate-data.org/asia/japan/tokyo/tokyo-3292/t/august-8/",
+                "text": "\nAre you planning a holiday with hopefully nice weather in Tokyo in August 2024? Here you can find all information about the weather in Tokyo in August: >> Overview: Tokyo Weather and Climate in August. >> Tokyo weather by month // weather averages. >> Tokyo weather in August // weather averages. >> Current temperature and weather forecast for Tokyo\n",
+                "pub_date": "2024-07-23T14:30:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Weather in Tokyo in August: Temperature, Rainfall, Sunshine... for ...",
+                "url": "https://www.whereandwhen.net/when/east-asia/japan/tokyo/august/",
+                "text": "\nWeather in Tokyo in august 2024. The weather in Tokyo in august comes from statistical datas on the last years. You can view the weather statistics the entire month, but also by using the tabs for the beginning, the middle and the end of the month. All month. Beginning of the month. Mid-month. End of the month. Average weather throughout august.\n",
+                "pub_date": "2024-07-26T06:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Weather Tokyo in August 2024: Temperature & Climate - Climate-Data.org",
+                "url": "https://en.climate-data.org/asia/japan/tokyo-2442/r/august-8/",
+                "text": "\nAre you planning a holiday with hopefully nice weather in Tokyo in August 2024? Here you can find all information about the weather in Tokyo in August: >> Overview: Tokyo Weather and Climate in August. >> Tokyo weather by month // weather averages. >> Tokyo weather in August // weather averages. >> Current temperature and weather forecast for Tokyo\n",
+                "pub_date": "2024-07-20T05:55:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Best (and Worst) Times to Visit Tokyo in 2024 - Asia Highlights",
+                "url": "https://www.asiahighlights.com/japan/tokyo/best-time-to-visit",
+                "text": "\nAugust is the hottest month in Tokyo with an average daily high of about 31\u00b0C (88\u00b0F). The coldest month is January, with an average daily high of 10\u00b0C (50\u00b0F). The \"plum rainy season\" extends from June to mid-July and brings persistent light rain.\n",
+                "pub_date": "2024-07-27T21:21:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo August Weather, Average Temperature (Japan) - Weather Spark",
+                "url": "https://weatherspark.com/m/143809/8/Average-Weather-in-August-in-Tokyo-Japan",
+                "text": "\nFor reference, on August 8, the hottest day of the year, temperatures in Tokyo typically range from 77\u00b0F to 87\u00b0F, while on January 26, the coldest day of the year, they range from 36\u00b0F to 48\u00b0F. Average High and Low Temperature in August in Tokyo. Summer. Link. Download. Compare. Averages: J F M A M J J Aug S O N D. History: 2023 2022 2021 2020 2019\n",
+                "pub_date": "2024-07-24T17:27:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Complete Guide to Visiting Japan in August 2024: Weather, What to See ...",
+                "url": "https://livejapan.com/en/article-a0004513/",
+                "text": "\nComplete Guide to Visiting Japan in August 2024: Weather, What to See & Do. Last updated: 22 January 2021. Albeit quite hot, Japanese summer is absolutely gorgeous, colorful, and rich of events, festivals, and entertainment to complement the amazing sights. August is when the Japanese rainy season is over.\n",
+                "pub_date": "2024-07-26T08:53:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Japan Weather in August 2024: Travel Tips for First Visit - Asia Highlights",
+                "url": "https://www.asiahighlights.com/japan/weather-in-august",
+                "text": "\nAverage daily temperatures peak at 88\u00b0F (31\u00b0C). As the rainy season (June to August) fades away, you would be rewarded with the driest weather of Japan's summer with just a few short downpours. Rainfall increases again in late August as the typhoon season (September to October) approaches.\n",
+                "pub_date": "2024-07-27T11:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo, Weather for August, Japan - Holiday Weather",
+                "url": "https://www.holiday-weather.com/tokyo/averages/august",
+                "text": "\n79 \u00b0F.\n",
+                "pub_date": "2024-07-25T05:26:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "[2024] Embracing Weather in Japan in August and Unveiling Summer's ...",
+                "url": "https://www.trip.com/guide/info/weather-in-japan-in-august.html",
+                "text": "\nIn August, Tokyo experiences warm weather with average maximum temperatures reaching around 31\u00b0C (88\u00b0F) and average minimum temperatures hovering around 24\u00b0C (75\u00b0F). The city also receives an average precipitation of 170mm (6.7 inches) during this month.\n",
+                "pub_date": "2024-07-26T11:50:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Japan august Weather 2024: Forecast and temperature city by city",
+                "url": "https://www.whereandwhen.net/when/east-asia/japan/august/",
+                "text": "\nWeather in Japan in august 2024. Here, you have access to the weather forecast for august for most popular cities in Japan. These predictions are probabilities for the month of august from weather reports for over 10 years. The percentage indicates the probability of having the weather indicated. Tokyo. Fukuoka. Hiroshima. Kochi. Kyoto. Nagoya.\nVisible: 0% - 100%",
+                "pub_date": "2024-07-23T12:16:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'Tokyo weather in August 2024'",
+                "url": "",
+                "text": "# \u30100\u2020Tokyo travel: Best and worst times to visit\u2020www.newsbytesapp.com\u3011\nEach season in Tokyo presents a distinct experience, making the timing of visits crucial for travelers aiming to fully enjoy the city's diverse offerings. This unique blend of old and new makes Tokyo an unforgettable destination for all visitors.\n# \u30101\u2020Japan to experience record heat, extreme temperatures on July 21\u2020www.thestar.com.my\u3011\nTOKYO: Record-breaking heat is expected to hit Japan on Sunday (July 21), with over 200 locations across Japan forecast to experience extreme temperatures.\n# \u30102\u2020Japan to experience record heat, extreme temperatures on Sunday\u2020theshillongtimes.com\u3011\nRecord-breaking heat is expected to hit Japan on Sunday, with over 200 locations across Japan forecasted to experience extreme temperatures. Scorching temperatures were recorded from Kanto to Okinawa on Saturday,\n# \u30103\u2020Japan to experience record heat, extreme temperatures\u2020www.chinaview.cn\u3011\nShizuoka city was the hottest place in the country, recording 38.9 degrees Celcius, followed by Fuchu city in the Tokyo area at 38 degrees Celcius. The temperature reached 35.8 degrees Celcius in Tokyo, marking the first day of severe heat in nearly two weeks.\n# \u30104\u2020Weather in Tokyo in August 2024\u2020world-weather.info\u3011\nTokyo Weather Forecast for August 2024 is based on long term prognosis and previous years' statistical data. 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025. Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec. August. Start Week On. Sunday. Monday. Sun. Mon. Tue. Wed. Thu. Fri. Sat. 1. +90\u00b0. +82\u00b0. 2. +90\u00b0. +81\u00b0. 3. +88\u00b0. +79\u00b0. 4. +86\u00b0. +81\u00b0. 5.\n# \u30105\u2020Tokyo weather in August 2024 | Tokyo 14 day weather\u2020www.weather25.com\u3011\nTokyo weather in August 2024. Click on a day for an hourly weather forecast. Thursday. Jul 25. 0.12 in. 91\u00b0 / 82\u00b0. Friday. Jul 26. 0 in. 93\u00b0 / 84\u00b0. Saturday. Jul 27. 0.06 in. 95\u00b0 / 80\u00b0. Sunday. Jul 28. 0.11 in. 86\u00b0 / 78\u00b0. Monday. Jul 29. 0.01 in. 93\u00b0 / 80\u00b0. Tuesday. Jul 30. 0 in. 91\u00b0 / 80\u00b0. Wednesday. Jul 31. 0.02 in. 95\u00b0 / 78\u00b0.\n# \u30106\u2020Tokyo weather in August 2024 - METEOPROG.COM\u2020www.meteoprog.com\u3011\n+31\u00b0+26\u00b0. 8 August.\n# \u30107\u2020Tokyo weather in August 2024 | Japan: How hot? - Weather2Travel.com\u2020www.weather2travel.com\u3011\nTokyo weather in August 2024. Expect 31\u00b0C daytime maximum temperatures in the shade with on average 6 hours of sunshine per day in Tokyo in August. Check more long-term weather averages for Tokyo in August before you book your next holiday to Japan in 2024/2025. 31\u00b0C max day temperature. 6 hours of sunshine per day. 16 days with some rainfall.\n# \u30108\u2020August weather - Summer 2024 - Tokyo, Japan\u2020www.weather-atlas.com\u3011\nAugust, marked by an average high-temperature of 31\u00b0C (87.8\u00b0F) and a low-temperature of 25.1\u00b0C (77.2\u00b0F), is the warmest month in Tokyo. Heat index. In August, the average heat index is appraised at a very hot 39\u00b0C (102.2\u00b0F). Incorporate additional preventive steps, heat exhaustion and heat cramps are possible.\n# \u30109\u2020Tokyo, T\u014dky\u014d-to Weather Forecast August 2024: Daily Highs/Lows & Rain ...\u2020www.weathertab.com\u3011\nDetailed Tokyo Weather Forecast for August 2024: Daily Precipitation Risks and Temperature Trends. Welcome to WeatherTAB's in-depth weather outlook for Tokyo for August 2024. Leveraging our proprietary long-range forecast model, this comprehensive guide delivers an unparalleled view into the forecasted weather conditions throughout the month.\n# \u301010\u2020Weather Tokyo in August 2024: Temperature & Climate\u2020en.climate-data.org\u3011\nAre you planning a holiday with hopefully nice weather in Tokyo in August 2024? Here you can find all information about the weather in Tokyo in August: >> Overview: Tokyo Weather and Climate in August. >> Tokyo weather by month // weather averages. >> Tokyo weather in August // weather averages. >> Current temperature and weather forecast for Tokyo\n# \u301011\u2020Weather in Tokyo in August: Temperature, Rainfall, Sunshine... for ...\u2020www.whereandwhen.net\u3011\nWeather in Tokyo in august 2024. The weather in Tokyo in august comes from statistical datas on the last years. You can view the weather statistics the entire month, but also by using the tabs for the beginning, the middle and the end of the month. All month. Beginning of the month. Mid-month. End of the month. Average weather throughout august.\n# \u301012\u2020Weather Tokyo in August 2024: Temperature & Climate - Climate-Data.org\u2020en.climate-data.org\u3011\nAre you planning a holiday with hopefully nice weather in Tokyo in August 2024? Here you can find all information about the weather in Tokyo in August: >> Overview: Tokyo Weather and Climate in August. >> Tokyo weather by month // weather averages. >> Tokyo weather in August // weather averages. >> Current temperature and weather forecast for Tokyo\n# \u301013\u2020Best (and Worst) Times to Visit Tokyo in 2024 - Asia Highlights\u2020www.asiahighlights.com\u3011\nAugust is the hottest month in Tokyo with an average daily high of about 31\u00b0C (88\u00b0F). The coldest month is January, with an average daily high of 10\u00b0C (50\u00b0F). The \"plum rainy season\" extends from June to mid-July and brings persistent light rain.\n# \u301014\u2020Tokyo August Weather, Average Temperature (Japan) - Weather Spark\u2020weatherspark.com\u3011\nFor reference, on August 8, the hottest day of the year, temperatures in Tokyo typically range from 77\u00b0F to 87\u00b0F, while on January 26, the coldest day of the year, they range from 36\u00b0F to 48\u00b0F. Average High and Low Temperature in August in Tokyo. Summer. Link. Download. Compare. Averages: J F M A M J J Aug S O N D. History: 2023 2022 2021 2020 2019\n# \u301015\u2020Complete Guide to Visiting Japan in August 2024: Weather, What to See ...\u2020livejapan.com\u3011\nComplete Guide to Visiting Japan in August 2024: Weather, What to See & Do. Last updated: 22 January 2021. Albeit quite hot, Japanese summer is absolutely gorgeous, colorful, and rich of events, festivals, and entertainment to complement the amazing sights. August is when the Japanese rainy season is over.\n# \u301016\u2020Japan Weather in August 2024: Travel Tips for First Visit - Asia Highlights\u2020www.asiahighlights.com\u3011\nAverage daily temperatures peak at 88\u00b0F (31\u00b0C). As the rainy season (June to August) fades away, you would be rewarded with the driest weather of Japan's summer with just a few short downpours. Rainfall increases again in late August as the typhoon season (September to October) approaches.\n# \u301017\u2020Tokyo, Weather for August, Japan - Holiday Weather\u2020www.holiday-weather.com\u3011\n79 \u00b0F.\n# \u301018\u2020[2024] Embracing Weather in Japan in August and Unveiling Summer's ...\u2020www.trip.com\u3011\nIn August, Tokyo experiences warm weather with average maximum temperatures reaching around 31\u00b0C (88\u00b0F) and average minimum temperatures hovering around 24\u00b0C (75\u00b0F). The city also receives an average precipitation of 170mm (6.7 inches) during this month.\n# \u301019\u2020Japan august Weather 2024: Forecast and temperature city by city\u2020www.whereandwhen.net\u3011\nWeather in Japan in august 2024. Here, you have access to the weather forecast for august for most popular cities in Japan. These predictions are probabilities for the month of august from weather reports for over 10 years. The percentage indicates the probability of having the weather indicated. Tokyo. Fukuoka. Hiroshima. Kochi. Kyoto. Nagoya.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "Tokyo weather in August 2024"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c7598ad5-4c7b-4a1b-976a-9b95961c3bff",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c7598ad5-4c7b-4a1b-976a-9b95961c3bff",
+      "children": [
+        "e082155e-b024-4564-baf3-1bf588259538"
+      ]
+    },
+    "e082155e-b024-4564-baf3-1bf588259538": {
+      "id": "e082155e-b024-4564-baf3-1bf588259538",
+      "message": {
+        "id": "e082155e-b024-4564-baf3-1bf588259538",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722175517.000682,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "mclick([4, 7, 8, 11, 16])"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "5ea05d58-7508-48d1-b65f-99b3d8954bb5",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "5ea05d58-7508-48d1-b65f-99b3d8954bb5",
+      "children": [
+        "8c28f7c1-f50e-48f9-8976-4095b42af217"
+      ]
+    },
+    "8c28f7c1-f50e-48f9-8976-4095b42af217": {
+      "id": "8c28f7c1-f50e-48f9-8976-4095b42af217",
+      "message": {
+        "id": "8c28f7c1-f50e-48f9-8976-4095b42af217",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722175517.000754,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://world-weather.info/forecast/japan/tokyo/august-2024/",
+          "domain": "world-weather.info",
+          "text": "\nURL: https://world-weather.info/forecast/japan/tokyo/august-2024/\n\u30100\u2020World Weather\u3011\n\nAdd the current city \n\nSearch\n\n  * Weather\n  * \u30101\u2020Archive\u3011\n  * \u30102\u2020Widgets\u3011\n\n\u00b0F\n\n  * \u30103\u2020World\u3011\n  * \u30104\u2020Japan\u3011\n  * \u30105\u2020T\u014dky\u014d-to\u3011\n  * \u30106\u2020Weather in Tokyo\u3011\n\n# Weather in Tokyo in August 2024 \n\nTokyo Weather Forecast for August 2024, is based on previous years' statistical data.\n\n\u30107\u20202015\u3011\u30108\u20202016\u3011\u30109\u20202017\u3011\u301010\u20202018\u3011\u301011\u20202019\u3011\u301012\u20202020\u3011\u301013\u20202021\u3011\u301014\u20202022\u3011\u301015\u20202023\u30112024\u301016\u20202025\u3011\n\n\u301017\u2020Jan\u3011\u301018\u2020Feb\u3011\u301019\u2020Mar\u3011\u301020\u2020Apr\u3011\u301021\u2020May\u3011\u301022\u2020Jun\u3011\u301023\u2020Jul\u3011Aug\u301024\u2020Sep\u3011\u301025\u2020Oct\u3011\u301026\u2020Nov\u3011\u301027\u2020Dec\u3011\n\n## August \n\nStart Week On\n\nSunday\n\nMonday \n\n  * Sun \n  * Mon \n  * Tue \n  * Wed \n  * Thu \n  * Fri \n  * Sat \n\n  *   *   *   *   * 1\n\n+91\u00b0\n\n+81\u00b0\n\n  * 2\n\n+91\u00b0\n\n+81\u00b0\n\n  * 3\n\n+91\u00b0\n\n+82\u00b0\n\n  * 4\n\n+90\u00b0\n\n+81\u00b0\n\n  * 5\n\n+91\u00b0\n\n+82\u00b0\n\n  * 6\n\n+91\u00b0\n\n+82\u00b0\n\n  * 7\n\n+91\u00b0\n\n+82\u00b0\n\n  * 8\n\n+90\u00b0\n\n+81\u00b0\n\n  * 9\n\n+91\u00b0\n\n+82\u00b0\n\n  * 10\n\n+91\u00b0\n\n+82\u00b0\n\n  * 11\n\n+90\u00b0\n\n+82\u00b0\n\n  * 12\n\n+88\u00b0\n\n+81\u00b0\n\n  * 13\n\n+88\u00b0\n\n+81\u00b0\n\n  * 14\n\n+88\u00b0\n\n+81\u00b0\n\n  * 15\n\n+88\u00b0\n\n+81\u00b0\n\n  * 16\n\n+88\u00b0\n\n+81\u00b0\n\n  * 17\n\n+88\u00b0\n\n+81\u00b0\n\n  * 18\n\n+88\u00b0\n\n+81\u00b0\n\n  * 19\n\n+88\u00b0\n\n+79\u00b0\n\n  * 20\n\n+88\u00b0\n\n+79\u00b0\n\n  * 21\n\n+86\u00b0\n\n+79\u00b0\n\n  * 22\n\n+88\u00b0\n\n+79\u00b0\n\n  * 23\n\n+86\u00b0\n\n+79\u00b0\n\n  * 24\n\n+88\u00b0\n\n+81\u00b0\n\n  * 25\n\n+88\u00b0\n\n+79\u00b0\n\n  * 26\n\n+90\u00b0\n\n+81\u00b0\n\n  * 27\n\n+86\u00b0\n\n+77\u00b0\n\n  * 28\n\n+84\u00b0\n\n+77\u00b0\n\n  * 29\n\n+88\u00b0\n\n+81\u00b0\n\n  * 30\n\n+88\u00b0\n\n+79\u00b0\n\n  * 31\n\n+88\u00b0\n\n+79\u00b0\n\n## Extended weather forecast in Tokyo\n\n\u301028\u2020Hourly\u3011\u301029\u2020Week\u3011\u301030\u202010 days\u3011\u301031\u202014 days\u3011\u301032\u202030 days\u3011\u301033\u2020Year\u3011\n\n## Weather in large and nearby cities\n\n\u301034\u2020Kawaguchi\u3011+73\u00b0\n\n\u301035\u2020Fuch\u016b\u3011+73\u00b0\n\n\u301036\u2020Kashiwa\u3011+70\u00b0\n\n\u301037\u2020Tokorozawa\u3011+72\u00b0\n\n\u301038\u2020Kasukabe\u3011+73\u00b0\n\n\u301039\u2020Ageo\u3011+72\u00b0\n\n\u301040\u2020Kawagoe\u3011+72\u00b0\n\n\u301041\u2020Yokohama\u3011+73\u00b0\n\n\u301042\u2020Machida\u3011+73\u00b0\n\n\u301043\u2020Kawasaki\u3011+73\u00b0\n\n\u301044\u2020Kodaira\u3011+73\u00b0\n\n\u301045\u2020Funabashi\u3011+73\u00b0\n\n\u301046\u2020Nerima\u3011+73\u00b0\n\n\u301047\u2020S\u014dka\u3011+73\u00b0\n\n\u301048\u2020Ichikawa\u3011+72\u00b0\n\n\u301049\u2020Matsudo\u3011+72\u00b0\n\n\u301050\u2020Koshigaya\u3011+72\u00b0\n\n\u301051\u2020Kami-renjaku\u3011+73\u00b0\n\nMinimum and maximum   \nworld's temperature today\n\nArgentina   \nEl Calafate \n\nday\n    +37\u00b0F \nnight\n    +9\u00b0F \n\nPakistan   \nSh\u0101hd\u0101dkot \n\nday\n    +120\u00b0F \nnight\n    +88\u00b0F\n\nServices \n\nSupport\n\n  * \u301052\u2020User agreement\u3011\n  * \u301053\u2020Feedback\u3011\n  * \u301054\u2020About Us\u3011\n\nSearch \n\nCity or place\u2026\n\nCopyright \u00a9 2024 \u00abWorld-Weather.info\u00bb All rights reserved. \u301055\u2020Privacy policy\u3011\n\nWeather data provided by:\n\nTemperature units\n\n\u00b0F\u00b0C \n\nIcons\nVisible: 0% - 100%",
+          "title": "Weather in Tokyo in August 2024 (T\u014dky\u014d-to)  - Detailed Weather Forecast for a Month",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Weather in Tokyo in August 2024 (T\u014dky\u014d-to)  - Detailed Weather Forecast for a Month",
+                "url": "https://world-weather.info/forecast/japan/tokyo/august-2024/",
+                "text": "\nURL: https://world-weather.info/forecast/japan/tokyo/august-2024/\n\u30100\u2020World Weather\u3011\n\nAdd the current city \n\nSearch\n\n  * Weather\n  * \u30101\u2020Archive\u3011\n  * \u30102\u2020Widgets\u3011\n\n\u00b0F\n\n  * \u30103\u2020World\u3011\n  * \u30104\u2020Japan\u3011\n  * \u30105\u2020T\u014dky\u014d-to\u3011\n  * \u30106\u2020Weather in Tokyo\u3011\n\n# Weather in Tokyo in August 2024 \n\nTokyo Weather Forecast for August 2024, is based on previous years' statistical data.\n\n\u30107\u20202015\u3011\u30108\u20202016\u3011\u30109\u20202017\u3011\u301010\u20202018\u3011\u301011\u20202019\u3011\u301012\u20202020\u3011\u301013\u20202021\u3011\u301014\u20202022\u3011\u301015\u20202023\u30112024\u301016\u20202025\u3011\n\n\u301017\u2020Jan\u3011\u301018\u2020Feb\u3011\u301019\u2020Mar\u3011\u301020\u2020Apr\u3011\u301021\u2020May\u3011\u301022\u2020Jun\u3011\u301023\u2020Jul\u3011Aug\u301024\u2020Sep\u3011\u301025\u2020Oct\u3011\u301026\u2020Nov\u3011\u301027\u2020Dec\u3011\n\n## August \n\nStart Week On\n\nSunday\n\nMonday \n\n  * Sun \n  * Mon \n  * Tue \n  * Wed \n  * Thu \n  * Fri \n  * Sat \n\n  *   *   *   *   * 1\n\n+91\u00b0\n\n+81\u00b0\n\n  * 2\n\n+91\u00b0\n\n+81\u00b0\n\n  * 3\n\n+91\u00b0\n\n+82\u00b0\n\n  * 4\n\n+90\u00b0\n\n+81\u00b0\n\n  * 5\n\n+91\u00b0\n\n+82\u00b0\n\n  * 6\n\n+91\u00b0\n\n+82\u00b0\n\n  * 7\n\n+91\u00b0\n\n+82\u00b0\n\n  * 8\n\n+90\u00b0\n\n+81\u00b0\n\n  * 9\n\n+91\u00b0\n\n+82\u00b0\n\n  * 10\n\n+91\u00b0\n\n+82\u00b0\n\n  * 11\n\n+90\u00b0\n\n+82\u00b0\n\n  * 12\n\n+88\u00b0\n\n+81\u00b0\n\n  * 13\n\n+88\u00b0\n\n+81\u00b0\n\n  * 14\n\n+88\u00b0\n\n+81\u00b0\n\n  * 15\n\n+88\u00b0\n\n+81\u00b0\n\n  * 16\n\n+88\u00b0\n\n+81\u00b0\n\n  * 17\n\n+88\u00b0\n\n+81\u00b0\n\n  * 18\n\n+88\u00b0\n\n+81\u00b0\n\n  * 19\n\n+88\u00b0\n\n+79\u00b0\n\n  * 20\n\n+88\u00b0\n\n+79\u00b0\n\n  * 21\n\n+86\u00b0\n\n+79\u00b0\n\n  * 22\n\n+88\u00b0\n\n+79\u00b0\n\n  * 23\n\n+86\u00b0\n\n+79\u00b0\n\n  * 24\n\n+88\u00b0\n\n+81\u00b0\n\n  * 25\n\n+88\u00b0\n\n+79\u00b0\n\n  * 26\n\n+90\u00b0\n\n+81\u00b0\n\n  * 27\n\n+86\u00b0\n\n+77\u00b0\n\n  * 28\n\n+84\u00b0\n\n+77\u00b0\n\n  * 29\n\n+88\u00b0\n\n+81\u00b0\n\n  * 30\n\n+88\u00b0\n\n+79\u00b0\n\n  * 31\n\n+88\u00b0\n\n+79\u00b0\n\n## Extended weather forecast in Tokyo\n\n\u301028\u2020Hourly\u3011\u301029\u2020Week\u3011\u301030\u202010 days\u3011\u301031\u202014 days\u3011\u301032\u202030 days\u3011\u301033\u2020Year\u3011\n\n## Weather in large and nearby cities\n\n\u301034\u2020Kawaguchi\u3011+73\u00b0\n\n\u301035\u2020Fuch\u016b\u3011+73\u00b0\n\n\u301036\u2020Kashiwa\u3011+70\u00b0\n\n\u301037\u2020Tokorozawa\u3011+72\u00b0\n\n\u301038\u2020Kasukabe\u3011+73\u00b0\n\n\u301039\u2020Ageo\u3011+72\u00b0\n\n\u301040\u2020Kawagoe\u3011+72\u00b0\n\n\u301041\u2020Yokohama\u3011+73\u00b0\n\n\u301042\u2020Machida\u3011+73\u00b0\n\n\u301043\u2020Kawasaki\u3011+73\u00b0\n\n\u301044\u2020Kodaira\u3011+73\u00b0\n\n\u301045\u2020Funabashi\u3011+73\u00b0\n\n\u301046\u2020Nerima\u3011+73\u00b0\n\n\u301047\u2020S\u014dka\u3011+73\u00b0\n\n\u301048\u2020Ichikawa\u3011+72\u00b0\n\n\u301049\u2020Matsudo\u3011+72\u00b0\n\n\u301050\u2020Koshigaya\u3011+72\u00b0\n\n\u301051\u2020Kami-renjaku\u3011+73\u00b0\n\nMinimum and maximum   \nworld's temperature today\n\nArgentina   \nEl Calafate \n\nday\n    +37\u00b0F \nnight\n    +9\u00b0F \n\nPakistan   \nSh\u0101hd\u0101dkot \n\nday\n    +120\u00b0F \nnight\n    +88\u00b0F\n\nServices \n\nSupport\n\n  * \u301052\u2020User agreement\u3011\n  * \u301053\u2020Feedback\u3011\n  * \u301054\u2020About Us\u3011\n\nSearch \n\nCity or place\u2026\n\nCopyright \u00a9 2024 \u00abWorld-Weather.info\u00bb All rights reserved. \u301055\u2020Privacy policy\u3011\n\nWeather data provided by:\n\nTemperature units\n\n\u00b0F\u00b0C \n\nIcons\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[4, 7, 8, 11, 16]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e082155e-b024-4564-baf3-1bf588259538",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e082155e-b024-4564-baf3-1bf588259538",
+      "children": [
+        "a1ee5aa7-b2d4-4aa1-b68b-d2f452e0acb1"
+      ]
+    },
+    "a1ee5aa7-b2d4-4aa1-b68b-d2f452e0acb1": {
+      "id": "a1ee5aa7-b2d4-4aa1-b68b-d2f452e0acb1",
+      "message": {
+        "id": "a1ee5aa7-b2d4-4aa1-b68b-d2f452e0acb1",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722175517.000824,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.weather2travel.com/japan/tokyo/august/",
+          "domain": "www.weather2travel.com",
+          "text": "\nMetric (\u00b0C / mm) \u00a0|\u00a0 \u301038\u2020Imperial (\u00b0F / inches)\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\nBack to top\n\n### More about Japan\n\n  * \u301042\u2020 Seeking out the teahouses of Tokyo, Japan \u3011 \n  * \u301043\u2020 A first timer's guide to Japan's most beguiling big cities \u3011 \n  * \u301044\u2020 7 ways to sample Osaka \u3011 \n\n### How hot is it in Tokyo in August?\n\nDaytime temperatures usually reach 31\u00b0C in Tokyo in August with high heat and humidity, falling to 24\u00b0C at night. \n\n### How sunny is it in Tokyo in August?\n\nThere are normally 6 hours of bright sunshine each day in Tokyo in August - that's 43% of daylight hours. \n\n### How warm is the sea around Tokyo in August?\n\nThe average sea temperature around Tokyo in August is 26\u00b0C.\n\n### Does it rain in Tokyo in August?\n\nThere are usually 16 days with some rain in Tokyo in August and the average monthly rainfall is 147mm. \n\n### What is the chance of a typhoon in Tokyo in August?\n\nOn average 1.8 days in August in Tokyo are likely to be affected by the passage of one or more tropical storms. \n\n## Tokyo August sunrise & sunset times\n\nBrowse the sunrise and sunset times for Tokyo in August 2024. Select a month to view Tokyo sunrise and sunset times for the next 12 months. \n\n\u301045\u2020Jan\u3011\u301046\u2020Feb\u3011\u301047\u2020Mar\u3011\u301048\u2020Apr\u3011\u301049\u2020May\u3011\u301050\u2020Jun\u3011\u301051\u2020Jul\u3011\u301052\u2020Aug\u3011\u301053\u2020Sep\u3011\u301054\u2020Oct\u3011\u301055\u2020Nov\u3011\u301056\u2020Dec\u3011 \n\nDate Sunrise times Sunset times  \nThursday, 1st August 2024 04:49 18:45  \nFriday, 16th August 2024 05:01 18:29  \nSaturday, 31st August 2024 05:12 18:10  \n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from some of the world's best travel writers plus save on your next trip with the latest exclusive offers\n\nWe promise not to share your details\n\n## Related posts\n\n  * \u301057\u2020 7 of the best destinations for a solo adventure \u3011 \n  * \u301058\u2020 Top 10 sunny holiday destinations year round \u3011 \n  * \u301059\u2020 Top winter sun holiday destinations under \u00a3500 \u3011 \n\n## Popular travel offers\n\n  * \u301036\u2020 TUI: up to \u00a3150 off summer 2024 + free kids places \u3011 \n  * \u301060\u2020 Travel Republic: Top deals on last minute holidays \u3011 \n  * \u301061\u2020 Love Holidays sale: up to \u00a3275 off selected holidays \u3011 \n\n### Explore holidays in the sun for less\n\n  * \u301062\u2020Beach holidays\u3011\n  * \u301063\u2020Family holidays\u3011\n  * \u301064\u2020City breaks\u3011\n  * \u301065\u2020Summer holidays\u3011\n  * \u301066\u2020Winter sun holidays\u3011\n  * \u301067\u2020Holiday offers\u3011\n  * \u301068\u2020Top travel brands\u3011\n  * \u301069\u2020Airlines & flights\u3011\n  * \u301070\u2020Discount hotels\u3011\n  * \u301071\u2020Airport parking deals\u3011\n  * \u301036\u2020TUI\u3011\n  * \u301072\u2020Jet2holidays\u3011\n  * \u301073\u2020easyJet holidays\u3011\n  * \u301061\u2020Love Holidays\u3011\n  * \u301074\u2020British Airways\u3011\n\n\u30105\u2020More holidays\u3011\n\n### Airport parking\n\n  * \u301075\u2020Manchester Airport\u3011\n  * \u301076\u2020Stansted Airport\u3011\n  * \u301077\u2020Bristol Airport\u3011\n  * \u301078\u2020Luton Airport\u3011\n  * \u301079\u2020Birmingham Airport\u3011\n  * \u301080\u2020Edinburgh Airport\u3011\n  * \u301081\u2020Gatwick Airport\u3011\n  * \u301082\u2020Glasgow Airport\u3011\n  * \u301083\u2020Newcastle Airport\u3011\n\n\u301084\u2020More parking\u3011\n\n### Airport lounges\n\n  * \u301085\u2020Manchester Airport\u3011\n  * \u301086\u2020Birmingham Airport\u3011\n  * \u301087\u2020Bristol Airport\u3011\n  * \u301088\u2020Edinburgh Airport\u3011\n  * \u301089\u2020Glasgow Airport\u3011\n  * \u301090\u2020Heathrow Airport\u3011\n  * \u301091\u2020Newcastle Airport\u3011\n  * \u301092\u2020Stansted Airport\u3011\n  * \u301093\u2020Gatwick Airport\u3011\n\n\u301094\u2020More lounges\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\n\u301095\u2020Top ^\u3011 \n\nJapan - quick facts  \nFlight time\u271d \u301096\u202011.5 to 15 hours\u3011  \nTime difference  \u301097\u2020UK +9 hours\u3011  \nLanguage(s) \u301098\u2020Japanese\u3011  \nCurrency \u301099\u2020Japanese Yen\u3011  \nElectricity \u3010100\u2020A + B plug (100V)\u3011  \nDriving side \u3010101\u2020Left\u3011  \nWhy visit? Culture  \nNature  \nNightlife  \n\nTourist info \u3010102\u2020Japan National Tourism Organization\u3011  \n\n\u271d = Typical flight time from the UK.\n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from leading travel writers\n\nWe promise not to share your details\n\n## Top online deals\n\n  * \u301036\u2020TUI: up to \u00a3150 off summer 2024 + free kids places\u3011\n  * \u301060\u2020Travel Republic: Top deals on last minute holidays\u3011\n  * \u301061\u2020Love Holidays sale: up to \u00a3275 off selected holidays\u3011\n  * \u301074\u2020British Airways sale: Top deals on holidays & flights\u3011\n  * \u3010103\u2020C",
+          "title": "Tokyo weather in August 2024 | Japan: How hot?",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Tokyo weather in August 2024 | Japan: How hot?",
+                "url": "https://www.weather2travel.com/japan/tokyo/august/",
+                "text": "\nMetric (\u00b0C / mm) \u00a0|\u00a0 \u301038\u2020Imperial (\u00b0F / inches)\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\nBack to top\n\n### More about Japan\n\n  * \u301042\u2020 Seeking out the teahouses of Tokyo, Japan \u3011 \n  * \u301043\u2020 A first timer's guide to Japan's most beguiling big cities \u3011 \n  * \u301044\u2020 7 ways to sample Osaka \u3011 \n\n### How hot is it in Tokyo in August?\n\nDaytime temperatures usually reach 31\u00b0C in Tokyo in August with high heat and humidity, falling to 24\u00b0C at night. \n\n### How sunny is it in Tokyo in August?\n\nThere are normally 6 hours of bright sunshine each day in Tokyo in August - that's 43% of daylight hours. \n\n### How warm is the sea around Tokyo in August?\n\nThe average sea temperature around Tokyo in August is 26\u00b0C.\n\n### Does it rain in Tokyo in August?\n\nThere are usually 16 days with some rain in Tokyo in August and the average monthly rainfall is 147mm. \n\n### What is the chance of a typhoon in Tokyo in August?\n\nOn average 1.8 days in August in Tokyo are likely to be affected by the passage of one or more tropical storms. \n\n## Tokyo August sunrise & sunset times\n\nBrowse the sunrise and sunset times for Tokyo in August 2024. Select a month to view Tokyo sunrise and sunset times for the next 12 months. \n\n\u301045\u2020Jan\u3011\u301046\u2020Feb\u3011\u301047\u2020Mar\u3011\u301048\u2020Apr\u3011\u301049\u2020May\u3011\u301050\u2020Jun\u3011\u301051\u2020Jul\u3011\u301052\u2020Aug\u3011\u301053\u2020Sep\u3011\u301054\u2020Oct\u3011\u301055\u2020Nov\u3011\u301056\u2020Dec\u3011 \n\nDate Sunrise times Sunset times  \nThursday, 1st August 2024 04:49 18:45  \nFriday, 16th August 2024 05:01 18:29  \nSaturday, 31st August 2024 05:12 18:10  \n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from some of the world's best travel writers plus save on your next trip with the latest exclusive offers\n\nWe promise not to share your details\n\n## Related posts\n\n  * \u301057\u2020 7 of the best destinations for a solo adventure \u3011 \n  * \u301058\u2020 Top 10 sunny holiday destinations year round \u3011 \n  * \u301059\u2020 Top winter sun holiday destinations under \u00a3500 \u3011 \n\n## Popular travel offers\n\n  * \u301036\u2020 TUI: up to \u00a3150 off summer 2024 + free kids places \u3011 \n  * \u301060\u2020 Travel Republic: Top deals on last minute holidays \u3011 \n  * \u301061\u2020 Love Holidays sale: up to \u00a3275 off selected holidays \u3011 \n\n### Explore holidays in the sun for less\n\n  * \u301062\u2020Beach holidays\u3011\n  * \u301063\u2020Family holidays\u3011\n  * \u301064\u2020City breaks\u3011\n  * \u301065\u2020Summer holidays\u3011\n  * \u301066\u2020Winter sun holidays\u3011\n  * \u301067\u2020Holiday offers\u3011\n  * \u301068\u2020Top travel brands\u3011\n  * \u301069\u2020Airlines & flights\u3011\n  * \u301070\u2020Discount hotels\u3011\n  * \u301071\u2020Airport parking deals\u3011\n  * \u301036\u2020TUI\u3011\n  * \u301072\u2020Jet2holidays\u3011\n  * \u301073\u2020easyJet holidays\u3011\n  * \u301061\u2020Love Holidays\u3011\n  * \u301074\u2020British Airways\u3011\n\n\u30105\u2020More holidays\u3011\n\n### Airport parking\n\n  * \u301075\u2020Manchester Airport\u3011\n  * \u301076\u2020Stansted Airport\u3011\n  * \u301077\u2020Bristol Airport\u3011\n  * \u301078\u2020Luton Airport\u3011\n  * \u301079\u2020Birmingham Airport\u3011\n  * \u301080\u2020Edinburgh Airport\u3011\n  * \u301081\u2020Gatwick Airport\u3011\n  * \u301082\u2020Glasgow Airport\u3011\n  * \u301083\u2020Newcastle Airport\u3011\n\n\u301084\u2020More parking\u3011\n\n### Airport lounges\n\n  * \u301085\u2020Manchester Airport\u3011\n  * \u301086\u2020Birmingham Airport\u3011\n  * \u301087\u2020Bristol Airport\u3011\n  * \u301088\u2020Edinburgh Airport\u3011\n  * \u301089\u2020Glasgow Airport\u3011\n  * \u301090\u2020Heathrow Airport\u3011\n  * \u301091\u2020Newcastle Airport\u3011\n  * \u301092\u2020Stansted Airport\u3011\n  * \u301093\u2020Gatwick Airport\u3011\n\n\u301094\u2020More lounges\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\n\u301095\u2020Top ^\u3011 \n\nJapan - quick facts  \nFlight time\u271d \u301096\u202011.5 to 15 hours\u3011  \nTime difference  \u301097\u2020UK +9 hours\u3011  \nLanguage(s) \u301098\u2020Japanese\u3011  \nCurrency \u301099\u2020Japanese Yen\u3011  \nElectricity \u3010100\u2020A + B plug (100V)\u3011  \nDriving side \u3010101\u2020Left\u3011  \nWhy visit? Culture  \nNature  \nNightlife  \n\nTourist info \u3010102\u2020Japan National Tourism Organization\u3011  \n\n\u271d = Typical flight time from the UK.\n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from leading travel writers\n\nWe promise not to share your details\n\n## Top online deals\n\n  * \u301036\u2020TUI: up to \u00a3150 off summer 2024 + free kids places\u3011\n  * \u301060\u2020Travel Republic: Top deals on last minute holidays\u3011\n  * \u301061\u2020Love Holidays sale: up to \u00a3275 off selected holidays\u3011\n  * \u301074\u2020British Airways sale: Top deals on holidays & flights\u3011\n  * \u3010103\u2020C",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[4, 7, 8, 11, 16]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8c28f7c1-f50e-48f9-8976-4095b42af217",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8c28f7c1-f50e-48f9-8976-4095b42af217",
+      "children": [
+        "e592498f-b71f-4d56-bac0-329dacb16f58"
+      ]
+    },
+    "e592498f-b71f-4d56-bac0-329dacb16f58": {
+      "id": "e592498f-b71f-4d56-bac0-329dacb16f58",
+      "message": {
+        "id": "e592498f-b71f-4d56-bac0-329dacb16f58",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722175517.000883,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+          "domain": "www.weather-atlas.com",
+          "text": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+          "title": "August weather - Summer 2024 - Tokyo, Japan",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "August weather - Summer 2024 - Tokyo, Japan",
+                "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+                "text": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[4, 7, 8, 11, 16]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a1ee5aa7-b2d4-4aa1-b68b-d2f452e0acb1",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a1ee5aa7-b2d4-4aa1-b68b-d2f452e0acb1",
+      "children": [
+        "2915dc5f-f8d0-4c60-b04d-bc0ae4f24cb3"
+      ]
+    },
+    "2915dc5f-f8d0-4c60-b04d-bc0ae4f24cb3": {
+      "id": "2915dc5f-f8d0-4c60-b04d-bc0ae4f24cb3",
+      "message": {
+        "id": "2915dc5f-f8d0-4c60-b04d-bc0ae4f24cb3",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722175517.000958,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.whereandwhen.net/when/east-asia/japan/tokyo/august/",
+          "domain": "www.whereandwhen.net",
+          "text": "Rainfall 4.2in 3.7in 5.5in  \nNumber of days with rainfall 5 day(s)  \n(17%)5 day(s)  \n(16%)6 day(s)  \n(22%)  \nRecord daily rainfall 2.6in  \n(2009)6.2in  \n(2016)5.1in  \n(2019)  \nOther climate data  \nHumidity 83%81%80%  \nVisibility 9.37km 9.55km 9.37km  \nCloud cover 40%33%42%  \nUV index 7 8 7  \nDaily sunshine hours 13 13 11  \nSunrise and sunset  \nTime of sunrise 04:36 05:00 05:24  \nTime of sunset 18:57 18:31 17:49  \nLength of day 14:21 13:31 12:25  \nOur opinion about the weather in august  \nOur opinion at whereandwhen.net good good good  \n\n* * *\n\n  * \u301017\u2020Flight\u3011\n  * \u301018\u2020Flight+Hotel BEST DEAL\u3011\n  * \u301019\u2020Hotel\u3011\n  * \u301020\u2020Car hire\u3011\n\n##  Japan: get the best price!\n\nfrom choose a departure city Prague-----Frankfurt Berlin Munich Zurich Vienna Dusseldorf-----London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago-----Madrid Barcelona Malaga Alicante-----Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice-----Athens-----Budapest-----Rome Milan-----Amsterdam-----Warsaw-----Lisbon Rio de Janeiro Brasilia-----Bucharest-----Stockholm Copenhagen Oslo Helsinki\n\n[Image 20]  \nFinding flights. Thank you for waiting.\n\n### Find a flight to Japan:\n\nDeparture city:\n\n Prague Frankfurt Berlin Munich Zurich Vienna Dusseldorf London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago Madrid Barcelona Malaga Alicante Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice Athens Budapest Rome Milan Amsterdam Warsaw Lisbon Rio de Janeiro Brasilia Bucharest Stockholm Copenhagen Oslo Helsinki\n\nArrival city:\n\n Main airport(s)Tokyo Fukuoka Osaka Sapporo (Hokkaido)Sendai (Honshu)Other airport(s)Hiroshima Kagoshima (Kyushu)Kobe Nagasaki Nagoya\n\nDepart on:\n\nReturn on:\n\nAdults (over 16):\n\n 1 2 3 4 5 6 7 8 9 10\n\nChildren (under 16):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nBabies (under 2):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nClass:\n\n Economic Eco Premium Business First\n\nFind a flight \n\n[Image 21: skyscanner]Try it! The search engine checks several airline and travel agents to guarantee you the best price!\n\n### Find the best price for your hotel room\n\nTry it out! This search engine queries multiple sites such as Booking.com, Hotels.com, and Expedia to guarantee you the best price!\n\n### Find the best price for your car rental\n\nTry it out! This search engine queries hundreds of car rental agencies to guarantee you the best price!\n\n### Search for a Flight+Hotel package to Japan in august\n\nDestination:\n\n Tokyo Fukuoka Hiroshima Kochi Kyoto Nagoya Okinawa Osaka Sapporo (Hokkaido)Akita Aomori Hakodate Izumo Kagoshima (Kyushu)Kobe Miyakojima Nagasaki Naha Okayama Sendai (Honshu)Takamatsu Tokushima Kitakyushu Kumamoto Matsumoto Monbetsu Niigata Okinoshima Tottori Toyooka Wajima Yakushima Yokohama Asahikawa Chiba Fukushima Hachinohe Kushiro Masuda Matsuyama Miyazaki Muroran Niihama Obihiro Otaru Shizuoka Tomakomai Toyama Ube Wakkanai\n\nDeparture airport:\n\n London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago\n\nDepart on:\n\nReturn on:\n\nFlexible dates +/- 3 days\n\nAdults (+18):\n\n 1 2 3 4\n\nChildren (-18):\n\n 0 1 2 3\n\nSearch for trips \n\nTry it out! Save money by using this comparison tool that searches through hundreds of travel agencies to find the best deals for your next trip: packages including flights and hotels at the best price!\n\n* * *\n\n* * *\n\n##  How was the weather last august?\n\nHere is the day by day recorded weather in Tokyo in august 2023:\n\n01-08-2023  \n[Image 22: Cloudy]  \n81\u00b0F to 92\u00b0F \n\n02-08-2023  \n[Image 23: Clear/Sunny]  \n83\u00b0F to 94\u00b0F \n\n03-08-2023  \n[Image 24: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n04-08-2023  \n[Image 25: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n05-08-2023  \n[Image 26: Clear/Sunny]  \n83\u00b0F to 92\u00b0F \n\n06-08-2023  \n[Image 27: Partly Cloudy]  \n81\u00b0F to 90\u00b0F \n\n07-08-2023  \n[Image 28: Cloudy]  \n81\u00b0F to 90\u00b0F \n\n08-08-2023  \n[Image 29: Patchy rain nearby]  \n81\u00b0F to 90\u00b0F \n\n09-08-2023  \n[Image 30: Patchy rain nearby]  \n83\u00b0F to 86\u00b0F \n\n10-08-2023  \n[Image 31:",
+          "title": "Weather in Tokyo in August: Temperature, Rainfall, Sunshine... for August 2024! - Japan - Where And When",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Weather in Tokyo in August: Temperature, Rainfall, Sunshine... for August 2024! - Japan - Where And When",
+                "url": "https://www.whereandwhen.net/when/east-asia/japan/tokyo/august/",
+                "text": "Rainfall 4.2in 3.7in 5.5in  \nNumber of days with rainfall 5 day(s)  \n(17%)5 day(s)  \n(16%)6 day(s)  \n(22%)  \nRecord daily rainfall 2.6in  \n(2009)6.2in  \n(2016)5.1in  \n(2019)  \nOther climate data  \nHumidity 83%81%80%  \nVisibility 9.37km 9.55km 9.37km  \nCloud cover 40%33%42%  \nUV index 7 8 7  \nDaily sunshine hours 13 13 11  \nSunrise and sunset  \nTime of sunrise 04:36 05:00 05:24  \nTime of sunset 18:57 18:31 17:49  \nLength of day 14:21 13:31 12:25  \nOur opinion about the weather in august  \nOur opinion at whereandwhen.net good good good  \n\n* * *\n\n  * \u301017\u2020Flight\u3011\n  * \u301018\u2020Flight+Hotel BEST DEAL\u3011\n  * \u301019\u2020Hotel\u3011\n  * \u301020\u2020Car hire\u3011\n\n##  Japan: get the best price!\n\nfrom choose a departure city Prague-----Frankfurt Berlin Munich Zurich Vienna Dusseldorf-----London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago-----Madrid Barcelona Malaga Alicante-----Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice-----Athens-----Budapest-----Rome Milan-----Amsterdam-----Warsaw-----Lisbon Rio de Janeiro Brasilia-----Bucharest-----Stockholm Copenhagen Oslo Helsinki\n\n[Image 20]  \nFinding flights. Thank you for waiting.\n\n### Find a flight to Japan:\n\nDeparture city:\n\n Prague Frankfurt Berlin Munich Zurich Vienna Dusseldorf London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago Madrid Barcelona Malaga Alicante Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice Athens Budapest Rome Milan Amsterdam Warsaw Lisbon Rio de Janeiro Brasilia Bucharest Stockholm Copenhagen Oslo Helsinki\n\nArrival city:\n\n Main airport(s)Tokyo Fukuoka Osaka Sapporo (Hokkaido)Sendai (Honshu)Other airport(s)Hiroshima Kagoshima (Kyushu)Kobe Nagasaki Nagoya\n\nDepart on:\n\nReturn on:\n\nAdults (over 16):\n\n 1 2 3 4 5 6 7 8 9 10\n\nChildren (under 16):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nBabies (under 2):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nClass:\n\n Economic Eco Premium Business First\n\nFind a flight \n\n[Image 21: skyscanner]Try it! The search engine checks several airline and travel agents to guarantee you the best price!\n\n### Find the best price for your hotel room\n\nTry it out! This search engine queries multiple sites such as Booking.com, Hotels.com, and Expedia to guarantee you the best price!\n\n### Find the best price for your car rental\n\nTry it out! This search engine queries hundreds of car rental agencies to guarantee you the best price!\n\n### Search for a Flight+Hotel package to Japan in august\n\nDestination:\n\n Tokyo Fukuoka Hiroshima Kochi Kyoto Nagoya Okinawa Osaka Sapporo (Hokkaido)Akita Aomori Hakodate Izumo Kagoshima (Kyushu)Kobe Miyakojima Nagasaki Naha Okayama Sendai (Honshu)Takamatsu Tokushima Kitakyushu Kumamoto Matsumoto Monbetsu Niigata Okinoshima Tottori Toyooka Wajima Yakushima Yokohama Asahikawa Chiba Fukushima Hachinohe Kushiro Masuda Matsuyama Miyazaki Muroran Niihama Obihiro Otaru Shizuoka Tomakomai Toyama Ube Wakkanai\n\nDeparture airport:\n\n London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago\n\nDepart on:\n\nReturn on:\n\nFlexible dates +/- 3 days\n\nAdults (+18):\n\n 1 2 3 4\n\nChildren (-18):\n\n 0 1 2 3\n\nSearch for trips \n\nTry it out! Save money by using this comparison tool that searches through hundreds of travel agencies to find the best deals for your next trip: packages including flights and hotels at the best price!\n\n* * *\n\n* * *\n\n##  How was the weather last august?\n\nHere is the day by day recorded weather in Tokyo in august 2023:\n\n01-08-2023  \n[Image 22: Cloudy]  \n81\u00b0F to 92\u00b0F \n\n02-08-2023  \n[Image 23: Clear/Sunny]  \n83\u00b0F to 94\u00b0F \n\n03-08-2023  \n[Image 24: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n04-08-2023  \n[Image 25: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n05-08-2023  \n[Image 26: Clear/Sunny]  \n83\u00b0F to 92\u00b0F \n\n06-08-2023  \n[Image 27: Partly Cloudy]  \n81\u00b0F to 90\u00b0F \n\n07-08-2023  \n[Image 28: Cloudy]  \n81\u00b0F to 90\u00b0F \n\n08-08-2023  \n[Image 29: Patchy rain nearby]  \n81\u00b0F to 90\u00b0F \n\n09-08-2023  \n[Image 30: Patchy rain nearby]  \n83\u00b0F to 86\u00b0F \n\n10-08-2023  \n[Image 31:",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[4, 7, 8, 11, 16]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e592498f-b71f-4d56-bac0-329dacb16f58",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e592498f-b71f-4d56-bac0-329dacb16f58",
+      "children": [
+        "1bb7d80c-2f6e-456c-8f55-fc5f1a71f705"
+      ]
+    },
+    "1bb7d80c-2f6e-456c-8f55-fc5f1a71f705": {
+      "id": "1bb7d80c-2f6e-456c-8f55-fc5f1a71f705",
+      "message": {
+        "id": "1bb7d80c-2f6e-456c-8f55-fc5f1a71f705",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722175517.001031,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.asiahighlights.com/japan/weather-in-august",
+          "domain": "www.asiahighlights.com",
+          "text": "\nFestivals: August in Japan is the perfect time to experience culture-rich festival celebrations and grand fireworks displays. Don't miss the chance to immerse yourself in the huge parades, traditional dance performances, and colorful fireworks.\n\n  * The Jingu Gaien Fireworks Festival in Tokyo (mid-August in 2024)\n  * The Obon Festival in Kyoto (August 13 to 16, 2024)\n  * The Yodogawa Fireworks Festival in Osaka (August 3, 2024)\n\nSuggest reading: \u301032\u2020Plan a Family Trip to Japan \u3011>>>\n\n\u301043\u2020 \u3011 \n\n\u301043\u20209-Day Japan Highlights Tour Tokyo - Hakone - Kyoto - Osaka \u3011\n\n## Hokkaido and Northern Japan in August: Summer Retreats\n\n  * Sapporo, Otaru, and Noboribetsu\n\nWith its higher latitudes, you could enjoy cooler weather and more-bearable humidity in northern Japan than in central and southern Japan. The average high is 77\u00b0F (25\u00b0C).\n\nIn late August, Hokkaido receives its heaviest rainfall, averaging 5 in (127 mm) for the month. If you're looking for outdoor adventures, such as hiking in the national parks, early August should be a better time.\n\nAugust is also the best time to spot wildlife from a sightseeing boat, such as brown bears, whales, and a variety of birds.\n\nFestival: The Noboribetsu Hell Festival is held in Hell Valley (Jidokudai) on the last Saturday in August every year in Noboribetsu. You would see locals playing the drums and performing traditional dances in the grand parade.\n\nHere are some popular travel lengths in Japan for your inspiration: \u301044\u20207 days\u3011, \u301045\u202010 days\u3011, \u301046\u202012 days\u3011, and \u301047\u202014 days\u3011.\n\n\u301048\u2020 \u3011 \n\n\u301048\u20208-Day Hokkaido Summer Vacation \u2014 Nature & Traditions\u3011\n\n## Okinawa in Southern Japan in August: Best for Water Sports\n\n  * Naha\n\nIn August, average daily temperatures range from 81\u00b0F (27\u00b0C) to 88\u00b0F (31\u00b0C ) in Okinawa. It rains about every other day and the average rainfall is high at about 9 in (240 mm).\n\nPacked with white-sand beaches and water sports, Okinawa is a popular destination for summer vacations. You could enjoy exciting activities, such as snorkeling/diving in the caves, swimming with sea turtles, and surfing.\n\nFestival: The Okinawa All-Island Eisa Festival is usually held in late August and is one of the big celebrations in summer. You could better understand the culture of Okinawa by witnessing performances with traditional drums and other instruments, alongside unique dancing.\n\n\u301049\u2020 \u3011 \n\n\u301049\u202012-Day Tokyo, Okinawa, Osaka, Kyoto and Nara Tour\u3011\n\n## Costs and Crowding in August\n\nAugust in Japan is one of the most popular times to travel, especially for families with school-age children. You may see crowds in many sightseeing spots.\n\nDue to the high demand, the cost of hotels and international flights might be about 10% more expensive than usual.\n\nWe suggest that you book at least 3 months in advance to guarantee your favorite rooms and professional guides. Our Japanese travel advisor would \u301042\u2020create a wonderful trip\u3011 based on your interests.\n\nGet more ideas about\u301050\u2020 How Much Is a Trip to Japan\u3011>>>\n\n## What Should I Wear in August?\n\nBecause of the hot weather, summer clothing with breathable fabrics is advisable, such as short-sleeved shirts, dresses, shorts, and sandals.\n\nSun protection is a must due to the high UV rays on sunny days, so pack your sunscreen, hat, and sunglasses.\n\nYou're also advised to take some insect repellent as mosquito numbers peak in summer.\n\n## Monthly Weather and Travel Information for Japan\n\nLearn about the weather in Japan for 12 months and find out the best places to visit each month.\n\n\u301051\u2020Japan in January\u3011 \u301052\u2020Japan in February\u3011 \u301053\u2020Japan in March\u3011  \n\u301054\u2020Japan in April\u3011 \u301055\u2020Japan in May\u3011 \u301056\u2020Japan in June\u3011  \n\u301057\u2020Japan in July\u3011 \u301058\u2020Japan in August\u3011 \u301059\u2020Japan in September\u3011  \n\u301060\u2020Japan in October\u3011 \u301061\u2020Japan in November\u3011 \u301062\u2020Japan in December\u3011  \n\n### Why Asia Highlights (10,000+ reviews & 98.8% 5-star rating)\n\n  * Save Your Time:\n  * Less research, more enjoyment!\n  * Real-time 1V1 expert planning\n  * Maximize Your Flexibility:\n  * Personal local guide and ride\n  * Explore at your own pace\n  * Celebrate Your Journeys:\n  * Specially-crafted family adventures\n  * Celebrate milestones with style!\n\nPopular tours\n\n  * \u301063\u202010-Day Japan Cherry Blossom Spring 2025 Mini-Group Tour\u3011\n  * \u301064\u20202-Week Japan Private Family Vacation\u3011\n  * \u301065\u202012-Day Classic Japan Tour\u3011\n  * \u301043\u20209-Day Japan Highlights Tour\u3011\n\nMake the most of your time\n\n  * \u301032\u2020How to Plan a Family Trip to Japan 2024/2025: Insider Tips\u3011\n  * \u301066\u2020Plan a Japan Cherry Blossom Trip 2025, Dates and Avoid Crowds\u3011\n  * \u301046\u202012 Days in Japan: Top 4 Itineraries for First Visit 2024/2025\u3011\n  * \u301044\u20201 Week in Japan: Top 5 Itineraries for First Visit 2024/2025\u3011\n\n",
+          "title": "\n        Japan Weather in August 2024: Travel Tips for First Visit\n    ",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "\n        Japan Weather in August 2024: Travel Tips for First Visit\n    ",
+                "url": "https://www.asiahighlights.com/japan/weather-in-august",
+                "text": "\nFestivals: August in Japan is the perfect time to experience culture-rich festival celebrations and grand fireworks displays. Don't miss the chance to immerse yourself in the huge parades, traditional dance performances, and colorful fireworks.\n\n  * The Jingu Gaien Fireworks Festival in Tokyo (mid-August in 2024)\n  * The Obon Festival in Kyoto (August 13 to 16, 2024)\n  * The Yodogawa Fireworks Festival in Osaka (August 3, 2024)\n\nSuggest reading: \u301032\u2020Plan a Family Trip to Japan \u3011>>>\n\n\u301043\u2020 \u3011 \n\n\u301043\u20209-Day Japan Highlights Tour Tokyo - Hakone - Kyoto - Osaka \u3011\n\n## Hokkaido and Northern Japan in August: Summer Retreats\n\n  * Sapporo, Otaru, and Noboribetsu\n\nWith its higher latitudes, you could enjoy cooler weather and more-bearable humidity in northern Japan than in central and southern Japan. The average high is 77\u00b0F (25\u00b0C).\n\nIn late August, Hokkaido receives its heaviest rainfall, averaging 5 in (127 mm) for the month. If you're looking for outdoor adventures, such as hiking in the national parks, early August should be a better time.\n\nAugust is also the best time to spot wildlife from a sightseeing boat, such as brown bears, whales, and a variety of birds.\n\nFestival: The Noboribetsu Hell Festival is held in Hell Valley (Jidokudai) on the last Saturday in August every year in Noboribetsu. You would see locals playing the drums and performing traditional dances in the grand parade.\n\nHere are some popular travel lengths in Japan for your inspiration: \u301044\u20207 days\u3011, \u301045\u202010 days\u3011, \u301046\u202012 days\u3011, and \u301047\u202014 days\u3011.\n\n\u301048\u2020 \u3011 \n\n\u301048\u20208-Day Hokkaido Summer Vacation \u2014 Nature & Traditions\u3011\n\n## Okinawa in Southern Japan in August: Best for Water Sports\n\n  * Naha\n\nIn August, average daily temperatures range from 81\u00b0F (27\u00b0C) to 88\u00b0F (31\u00b0C ) in Okinawa. It rains about every other day and the average rainfall is high at about 9 in (240 mm).\n\nPacked with white-sand beaches and water sports, Okinawa is a popular destination for summer vacations. You could enjoy exciting activities, such as snorkeling/diving in the caves, swimming with sea turtles, and surfing.\n\nFestival: The Okinawa All-Island Eisa Festival is usually held in late August and is one of the big celebrations in summer. You could better understand the culture of Okinawa by witnessing performances with traditional drums and other instruments, alongside unique dancing.\n\n\u301049\u2020 \u3011 \n\n\u301049\u202012-Day Tokyo, Okinawa, Osaka, Kyoto and Nara Tour\u3011\n\n## Costs and Crowding in August\n\nAugust in Japan is one of the most popular times to travel, especially for families with school-age children. You may see crowds in many sightseeing spots.\n\nDue to the high demand, the cost of hotels and international flights might be about 10% more expensive than usual.\n\nWe suggest that you book at least 3 months in advance to guarantee your favorite rooms and professional guides. Our Japanese travel advisor would \u301042\u2020create a wonderful trip\u3011 based on your interests.\n\nGet more ideas about\u301050\u2020 How Much Is a Trip to Japan\u3011>>>\n\n## What Should I Wear in August?\n\nBecause of the hot weather, summer clothing with breathable fabrics is advisable, such as short-sleeved shirts, dresses, shorts, and sandals.\n\nSun protection is a must due to the high UV rays on sunny days, so pack your sunscreen, hat, and sunglasses.\n\nYou're also advised to take some insect repellent as mosquito numbers peak in summer.\n\n## Monthly Weather and Travel Information for Japan\n\nLearn about the weather in Japan for 12 months and find out the best places to visit each month.\n\n\u301051\u2020Japan in January\u3011 \u301052\u2020Japan in February\u3011 \u301053\u2020Japan in March\u3011  \n\u301054\u2020Japan in April\u3011 \u301055\u2020Japan in May\u3011 \u301056\u2020Japan in June\u3011  \n\u301057\u2020Japan in July\u3011 \u301058\u2020Japan in August\u3011 \u301059\u2020Japan in September\u3011  \n\u301060\u2020Japan in October\u3011 \u301061\u2020Japan in November\u3011 \u301062\u2020Japan in December\u3011  \n\n### Why Asia Highlights (10,000+ reviews & 98.8% 5-star rating)\n\n  * Save Your Time:\n  * Less research, more enjoyment!\n  * Real-time 1V1 expert planning\n  * Maximize Your Flexibility:\n  * Personal local guide and ride\n  * Explore at your own pace\n  * Celebrate Your Journeys:\n  * Specially-crafted family adventures\n  * Celebrate milestones with style!\n\nPopular tours\n\n  * \u301063\u202010-Day Japan Cherry Blossom Spring 2025 Mini-Group Tour\u3011\n  * \u301064\u20202-Week Japan Private Family Vacation\u3011\n  * \u301065\u202012-Day Classic Japan Tour\u3011\n  * \u301043\u20209-Day Japan Highlights Tour\u3011\n\nMake the most of your time\n\n  * \u301032\u2020How to Plan a Family Trip to Japan 2024/2025: Insider Tips\u3011\n  * \u301066\u2020Plan a Japan Cherry Blossom Trip 2025, Dates and Avoid Crowds\u3011\n  * \u301046\u202012 Days in Japan: Top 4 Itineraries for First Visit 2024/2025\u3011\n  * \u301044\u20201 Week in Japan: Top 5 Itineraries for First Visit 2024/2025\u3011\n\n",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[4, 7, 8, 11, 16]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2915dc5f-f8d0-4c60-b04d-bc0ae4f24cb3",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2915dc5f-f8d0-4c60-b04d-bc0ae4f24cb3",
+      "children": [
+        "aed54cd7-9617-4ec2-bc1d-0025a5d937e7"
+      ]
+    },
+    "aed54cd7-9617-4ec2-bc1d-0025a5d937e7": {
+      "id": "aed54cd7-9617-4ec2-bc1d-0025a5d937e7",
+      "message": {
+        "id": "aed54cd7-9617-4ec2-bc1d-0025a5d937e7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722175517.001102,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In August, Tokyo experiences hot and humid weather, with average daytime temperatures around 31\u00b0C (88\u00b0F) and nighttime temperatures around 25\u00b0C (77\u00b0F). The high humidity can make it feel even warmer, with a heat index that can reach up to 39\u00b0C (102\u00b0F)\u30107\u2020source\u3011\u30108\u2020source\u3011.\n\nRainfall is relatively common, with about 16 days of rain and an average precipitation of 147 mm (5.8 inches) throughout the month\u30106\u2020source\u3011\u30108\u2020source\u3011. August also sees the highest sea temperatures of the year, making it a good time for coastal activities, with water temperatures averaging around 25.7\u00b0C (78.3\u00b0F)\u30108\u2020source\u3011.\n\nFor those planning outdoor activities, it's important to note that Tokyo also has around 10.3 hours of sunshine per day, providing plenty of daylight despite the occasional rain\u30109\u2020source\u3011. Be prepared for the possibility of tropical storms, which can affect the region for about 1.8 days in August\u30107\u2020source\u3011.\n\nIf you're traveling to Tokyo in August, it's advisable to wear lightweight, breathable clothing and ensure you have adequate sun protection and hydration\u301010\u2020source\u3011."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 251,
+              "end_ix": 261,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Tokyo weather in August 2024 | Japan: How hot?",
+                "url": "https://www.weather2travel.com/japan/tokyo/august/",
+                "text": "\nMetric (\u00b0C / mm) \u00a0|\u00a0 \u301038\u2020Imperial (\u00b0F / inches)\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\nBack to top\n\n### More about Japan\n\n  * \u301042\u2020 Seeking out the teahouses of Tokyo, Japan \u3011 \n  * \u301043\u2020 A first timer's guide to Japan's most beguiling big cities \u3011 \n  * \u301044\u2020 7 ways to sample Osaka \u3011 \n\n### How hot is it in Tokyo in August?\n\nDaytime temperatures usually reach 31\u00b0C in Tokyo in August with high heat and humidity, falling to 24\u00b0C at night. \n\n### How sunny is it in Tokyo in August?\n\nThere are normally 6 hours of bright sunshine each day in Tokyo in August - that's 43% of daylight hours. \n\n### How warm is the sea around Tokyo in August?\n\nThe average sea temperature around Tokyo in August is 26\u00b0C.\n\n### Does it rain in Tokyo in August?\n\nThere are usually 16 days with some rain in Tokyo in August and the average monthly rainfall is 147mm. \n\n### What is the chance of a typhoon in Tokyo in August?\n\nOn average 1.8 days in August in Tokyo are likely to be affected by the passage of one or more tropical storms. \n\n## Tokyo August sunrise & sunset times\n\nBrowse the sunrise and sunset times for Tokyo in August 2024. Select a month to view Tokyo sunrise and sunset times for the next 12 months. \n\n\u301045\u2020Jan\u3011\u301046\u2020Feb\u3011\u301047\u2020Mar\u3011\u301048\u2020Apr\u3011\u301049\u2020May\u3011\u301050\u2020Jun\u3011\u301051\u2020Jul\u3011\u301052\u2020Aug\u3011\u301053\u2020Sep\u3011\u301054\u2020Oct\u3011\u301055\u2020Nov\u3011\u301056\u2020Dec\u3011 \n\nDate Sunrise times Sunset times  \nThursday, 1st August 2024 04:49 18:45  \nFriday, 16th August 2024 05:01 18:29  \nSaturday, 31st August 2024 05:12 18:10  \n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from some of the world's best travel writers plus save on your next trip with the latest exclusive offers\n\nWe promise not to share your details\n\n## Related posts\n\n  * \u301057\u2020 7 of the best destinations for a solo adventure \u3011 \n  * \u301058\u2020 Top 10 sunny holiday destinations year round \u3011 \n  * \u301059\u2020 Top winter sun holiday destinations under \u00a3500 \u3011 \n\n## Popular travel offers\n\n  * \u301036\u2020 TUI: up to \u00a3150 off summer 2024 + free kids places \u3011 \n  * \u301060\u2020 Travel Republic: Top deals on last minute holidays \u3011 \n  * \u301061\u2020 Love Holidays sale: up to \u00a3275 off selected holidays \u3011 \n\n### Explore holidays in the sun for less\n\n  * \u301062\u2020Beach holidays\u3011\n  * \u301063\u2020Family holidays\u3011\n  * \u301064\u2020City breaks\u3011\n  * \u301065\u2020Summer holidays\u3011\n  * \u301066\u2020Winter sun holidays\u3011\n  * \u301067\u2020Holiday offers\u3011\n  * \u301068\u2020Top travel brands\u3011\n  * \u301069\u2020Airlines & flights\u3011\n  * \u301070\u2020Discount hotels\u3011\n  * \u301071\u2020Airport parking deals\u3011\n  * \u301036\u2020TUI\u3011\n  * \u301072\u2020Jet2holidays\u3011\n  * \u301073\u2020easyJet holidays\u3011\n  * \u301061\u2020Love Holidays\u3011\n  * \u301074\u2020British Airways\u3011\n\n\u30105\u2020More holidays\u3011\n\n### Airport parking\n\n  * \u301075\u2020Manchester Airport\u3011\n  * \u301076\u2020Stansted Airport\u3011\n  * \u301077\u2020Bristol Airport\u3011\n  * \u301078\u2020Luton Airport\u3011\n  * \u301079\u2020Birmingham Airport\u3011\n  * \u301080\u2020Edinburgh Airport\u3011\n  * \u301081\u2020Gatwick Airport\u3011\n  * \u301082\u2020Glasgow Airport\u3011\n  * \u301083\u2020Newcastle Airport\u3011\n\n\u301084\u2020More parking\u3011\n\n### Airport lounges\n\n  * \u301085\u2020Manchester Airport\u3011\n  * \u301086\u2020Birmingham Airport\u3011\n  * \u301087\u2020Bristol Airport\u3011\n  * \u301088\u2020Edinburgh Airport\u3011\n  * \u301089\u2020Glasgow Airport\u3011\n  * \u301090\u2020Heathrow Airport\u3011\n  * \u301091\u2020Newcastle Airport\u3011\n  * \u301092\u2020Stansted Airport\u3011\n  * \u301093\u2020Gatwick Airport\u3011\n\n\u301094\u2020More lounges\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\n\u301095\u2020Top ^\u3011 \n\nJapan - quick facts  \nFlight time\u271d \u301096\u202011.5 to 15 hours\u3011  \nTime difference  \u301097\u2020UK +9 hours\u3011  \nLanguage(s) \u301098\u2020Japanese\u3011  \nCurrency \u301099\u2020Japanese Yen\u3011  \nElectricity \u3010100\u2020A + B plug (100V)\u3011  \nDriving side \u3010101\u2020Left\u3011  \nWhy visit? Culture  \nNature  \nNightlife  \n\nTourist info \u3010102\u2020Japan National Tourism Organization\u3011  \n\n\u271d = Typical flight time from the UK.\n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from leading travel writers\n\nWe promise not to share your details\n\n## Top online deals\n\n  * \u301036\u2020TUI: up to \u00a3150 off summer 2024 + free kids places\u3011\n  * \u301060\u2020Travel Republic: Top deals on last minute holidays\u3011\n  * \u301061\u2020Love Holidays sale: up to \u00a3275 off selected holidays\u3011\n  * \u301074\u2020British Airways sale: Top deals on holidays & flights\u3011\n  * \u3010103\u2020C",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 7,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 261,
+              "end_ix": 271,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "August weather - Summer 2024 - Tokyo, Japan",
+                "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+                "text": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 404,
+              "end_ix": 414,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Weather in Tokyo in August 2024 (T\u014dky\u014d-to)  - Detailed Weather Forecast for a Month",
+                "url": "https://world-weather.info/forecast/japan/tokyo/august-2024/",
+                "text": "\nURL: https://world-weather.info/forecast/japan/tokyo/august-2024/\n\u30100\u2020World Weather\u3011\n\nAdd the current city \n\nSearch\n\n  * Weather\n  * \u30101\u2020Archive\u3011\n  * \u30102\u2020Widgets\u3011\n\n\u00b0F\n\n  * \u30103\u2020World\u3011\n  * \u30104\u2020Japan\u3011\n  * \u30105\u2020T\u014dky\u014d-to\u3011\n  * \u30106\u2020Weather in Tokyo\u3011\n\n# Weather in Tokyo in August 2024 \n\nTokyo Weather Forecast for August 2024, is based on previous years' statistical data.\n\n\u30107\u20202015\u3011\u30108\u20202016\u3011\u30109\u20202017\u3011\u301010\u20202018\u3011\u301011\u20202019\u3011\u301012\u20202020\u3011\u301013\u20202021\u3011\u301014\u20202022\u3011\u301015\u20202023\u30112024\u301016\u20202025\u3011\n\n\u301017\u2020Jan\u3011\u301018\u2020Feb\u3011\u301019\u2020Mar\u3011\u301020\u2020Apr\u3011\u301021\u2020May\u3011\u301022\u2020Jun\u3011\u301023\u2020Jul\u3011Aug\u301024\u2020Sep\u3011\u301025\u2020Oct\u3011\u301026\u2020Nov\u3011\u301027\u2020Dec\u3011\n\n## August \n\nStart Week On\n\nSunday\n\nMonday \n\n  * Sun \n  * Mon \n  * Tue \n  * Wed \n  * Thu \n  * Fri \n  * Sat \n\n  *   *   *   *   * 1\n\n+91\u00b0\n\n+81\u00b0\n\n  * 2\n\n+91\u00b0\n\n+81\u00b0\n\n  * 3\n\n+91\u00b0\n\n+82\u00b0\n\n  * 4\n\n+90\u00b0\n\n+81\u00b0\n\n  * 5\n\n+91\u00b0\n\n+82\u00b0\n\n  * 6\n\n+91\u00b0\n\n+82\u00b0\n\n  * 7\n\n+91\u00b0\n\n+82\u00b0\n\n  * 8\n\n+90\u00b0\n\n+81\u00b0\n\n  * 9\n\n+91\u00b0\n\n+82\u00b0\n\n  * 10\n\n+91\u00b0\n\n+82\u00b0\n\n  * 11\n\n+90\u00b0\n\n+82\u00b0\n\n  * 12\n\n+88\u00b0\n\n+81\u00b0\n\n  * 13\n\n+88\u00b0\n\n+81\u00b0\n\n  * 14\n\n+88\u00b0\n\n+81\u00b0\n\n  * 15\n\n+88\u00b0\n\n+81\u00b0\n\n  * 16\n\n+88\u00b0\n\n+81\u00b0\n\n  * 17\n\n+88\u00b0\n\n+81\u00b0\n\n  * 18\n\n+88\u00b0\n\n+81\u00b0\n\n  * 19\n\n+88\u00b0\n\n+79\u00b0\n\n  * 20\n\n+88\u00b0\n\n+79\u00b0\n\n  * 21\n\n+86\u00b0\n\n+79\u00b0\n\n  * 22\n\n+88\u00b0\n\n+79\u00b0\n\n  * 23\n\n+86\u00b0\n\n+79\u00b0\n\n  * 24\n\n+88\u00b0\n\n+81\u00b0\n\n  * 25\n\n+88\u00b0\n\n+79\u00b0\n\n  * 26\n\n+90\u00b0\n\n+81\u00b0\n\n  * 27\n\n+86\u00b0\n\n+77\u00b0\n\n  * 28\n\n+84\u00b0\n\n+77\u00b0\n\n  * 29\n\n+88\u00b0\n\n+81\u00b0\n\n  * 30\n\n+88\u00b0\n\n+79\u00b0\n\n  * 31\n\n+88\u00b0\n\n+79\u00b0\n\n## Extended weather forecast in Tokyo\n\n\u301028\u2020Hourly\u3011\u301029\u2020Week\u3011\u301030\u202010 days\u3011\u301031\u202014 days\u3011\u301032\u202030 days\u3011\u301033\u2020Year\u3011\n\n## Weather in large and nearby cities\n\n\u301034\u2020Kawaguchi\u3011+73\u00b0\n\n\u301035\u2020Fuch\u016b\u3011+73\u00b0\n\n\u301036\u2020Kashiwa\u3011+70\u00b0\n\n\u301037\u2020Tokorozawa\u3011+72\u00b0\n\n\u301038\u2020Kasukabe\u3011+73\u00b0\n\n\u301039\u2020Ageo\u3011+72\u00b0\n\n\u301040\u2020Kawagoe\u3011+72\u00b0\n\n\u301041\u2020Yokohama\u3011+73\u00b0\n\n\u301042\u2020Machida\u3011+73\u00b0\n\n\u301043\u2020Kawasaki\u3011+73\u00b0\n\n\u301044\u2020Kodaira\u3011+73\u00b0\n\n\u301045\u2020Funabashi\u3011+73\u00b0\n\n\u301046\u2020Nerima\u3011+73\u00b0\n\n\u301047\u2020S\u014dka\u3011+73\u00b0\n\n\u301048\u2020Ichikawa\u3011+72\u00b0\n\n\u301049\u2020Matsudo\u3011+72\u00b0\n\n\u301050\u2020Koshigaya\u3011+72\u00b0\n\n\u301051\u2020Kami-renjaku\u3011+73\u00b0\n\nMinimum and maximum   \nworld's temperature today\n\nArgentina   \nEl Calafate \n\nday\n    +37\u00b0F \nnight\n    +9\u00b0F \n\nPakistan   \nSh\u0101hd\u0101dkot \n\nday\n    +120\u00b0F \nnight\n    +88\u00b0F\n\nServices \n\nSupport\n\n  * \u301052\u2020User agreement\u3011\n  * \u301053\u2020Feedback\u3011\n  * \u301054\u2020About Us\u3011\n\nSearch \n\nCity or place\u2026\n\nCopyright \u00a9 2024 \u00abWorld-Weather.info\u00bb All rights reserved. \u301055\u2020Privacy policy\u3011\n\nWeather data provided by:\n\nTemperature units\n\n\u00b0F\u00b0C \n\nIcons\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 414,
+              "end_ix": 424,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "August weather - Summer 2024 - Tokyo, Japan",
+                "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+                "text": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 587,
+              "end_ix": 597,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "August weather - Summer 2024 - Tokyo, Japan",
+                "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+                "text": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 777,
+              "end_ix": 787,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Weather in Tokyo in August: Temperature, Rainfall, Sunshine... for August 2024! - Japan - Where And When",
+                "url": "https://www.whereandwhen.net/when/east-asia/japan/tokyo/august/",
+                "text": "Rainfall 4.2in 3.7in 5.5in  \nNumber of days with rainfall 5 day(s)  \n(17%)5 day(s)  \n(16%)6 day(s)  \n(22%)  \nRecord daily rainfall 2.6in  \n(2009)6.2in  \n(2016)5.1in  \n(2019)  \nOther climate data  \nHumidity 83%81%80%  \nVisibility 9.37km 9.55km 9.37km  \nCloud cover 40%33%42%  \nUV index 7 8 7  \nDaily sunshine hours 13 13 11  \nSunrise and sunset  \nTime of sunrise 04:36 05:00 05:24  \nTime of sunset 18:57 18:31 17:49  \nLength of day 14:21 13:31 12:25  \nOur opinion about the weather in august  \nOur opinion at whereandwhen.net good good good  \n\n* * *\n\n  * \u301017\u2020Flight\u3011\n  * \u301018\u2020Flight+Hotel BEST DEAL\u3011\n  * \u301019\u2020Hotel\u3011\n  * \u301020\u2020Car hire\u3011\n\n##  Japan: get the best price!\n\nfrom choose a departure city Prague-----Frankfurt Berlin Munich Zurich Vienna Dusseldorf-----London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago-----Madrid Barcelona Malaga Alicante-----Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice-----Athens-----Budapest-----Rome Milan-----Amsterdam-----Warsaw-----Lisbon Rio de Janeiro Brasilia-----Bucharest-----Stockholm Copenhagen Oslo Helsinki\n\n[Image 20]  \nFinding flights. Thank you for waiting.\n\n### Find a flight to Japan:\n\nDeparture city:\n\n Prague Frankfurt Berlin Munich Zurich Vienna Dusseldorf London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago Madrid Barcelona Malaga Alicante Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice Athens Budapest Rome Milan Amsterdam Warsaw Lisbon Rio de Janeiro Brasilia Bucharest Stockholm Copenhagen Oslo Helsinki\n\nArrival city:\n\n Main airport(s)Tokyo Fukuoka Osaka Sapporo (Hokkaido)Sendai (Honshu)Other airport(s)Hiroshima Kagoshima (Kyushu)Kobe Nagasaki Nagoya\n\nDepart on:\n\nReturn on:\n\nAdults (over 16):\n\n 1 2 3 4 5 6 7 8 9 10\n\nChildren (under 16):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nBabies (under 2):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nClass:\n\n Economic Eco Premium Business First\n\nFind a flight \n\n[Image 21: skyscanner]Try it! The search engine checks several airline and travel agents to guarantee you the best price!\n\n### Find the best price for your hotel room\n\nTry it out! This search engine queries multiple sites such as Booking.com, Hotels.com, and Expedia to guarantee you the best price!\n\n### Find the best price for your car rental\n\nTry it out! This search engine queries hundreds of car rental agencies to guarantee you the best price!\n\n### Search for a Flight+Hotel package to Japan in august\n\nDestination:\n\n Tokyo Fukuoka Hiroshima Kochi Kyoto Nagoya Okinawa Osaka Sapporo (Hokkaido)Akita Aomori Hakodate Izumo Kagoshima (Kyushu)Kobe Miyakojima Nagasaki Naha Okayama Sendai (Honshu)Takamatsu Tokushima Kitakyushu Kumamoto Matsumoto Monbetsu Niigata Okinoshima Tottori Toyooka Wajima Yakushima Yokohama Asahikawa Chiba Fukushima Hachinohe Kushiro Masuda Matsuyama Miyazaki Muroran Niihama Obihiro Otaru Shizuoka Tomakomai Toyama Ube Wakkanai\n\nDeparture airport:\n\n London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago\n\nDepart on:\n\nReturn on:\n\nFlexible dates +/- 3 days\n\nAdults (+18):\n\n 1 2 3 4\n\nChildren (-18):\n\n 0 1 2 3\n\nSearch for trips \n\nTry it out! Save money by using this comparison tool that searches through hundreds of travel agencies to find the best deals for your next trip: packages including flights and hotels at the best price!\n\n* * *\n\n* * *\n\n##  How was the weather last august?\n\nHere is the day by day recorded weather in Tokyo in august 2023:\n\n01-08-2023  \n[Image 22: Cloudy]  \n81\u00b0F to 92\u00b0F \n\n02-08-2023  \n[Image 23: Clear/Sunny]  \n83\u00b0F to 94\u00b0F \n\n03-08-2023  \n[Image 24: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n04-08-2023  \n[Image 25: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n05-08-2023  \n[Image 26: Clear/Sunny]  \n83\u00b0F to 92\u00b0F \n\n06-08-2023  \n[Image 27: Partly Cloudy]  \n81\u00b0F to 90\u00b0F \n\n07-08-2023  \n[Image 28: Cloudy]  \n81\u00b0F to 90\u00b0F \n\n08-08-2023  \n[Image 29: Patchy rain nearby]  \n81\u00b0F to 90\u00b0F \n\n09-08-2023  \n[Image 30: Patchy rain nearby]  \n83\u00b0F to 86\u00b0F \n\n10-08-2023  \n[Image 31:",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 9,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 897,
+              "end_ix": 907,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Tokyo weather in August 2024 | Japan: How hot?",
+                "url": "https://www.weather2travel.com/japan/tokyo/august/",
+                "text": "\nMetric (\u00b0C / mm) \u00a0|\u00a0 \u301038\u2020Imperial (\u00b0F / inches)\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\nBack to top\n\n### More about Japan\n\n  * \u301042\u2020 Seeking out the teahouses of Tokyo, Japan \u3011 \n  * \u301043\u2020 A first timer's guide to Japan's most beguiling big cities \u3011 \n  * \u301044\u2020 7 ways to sample Osaka \u3011 \n\n### How hot is it in Tokyo in August?\n\nDaytime temperatures usually reach 31\u00b0C in Tokyo in August with high heat and humidity, falling to 24\u00b0C at night. \n\n### How sunny is it in Tokyo in August?\n\nThere are normally 6 hours of bright sunshine each day in Tokyo in August - that's 43% of daylight hours. \n\n### How warm is the sea around Tokyo in August?\n\nThe average sea temperature around Tokyo in August is 26\u00b0C.\n\n### Does it rain in Tokyo in August?\n\nThere are usually 16 days with some rain in Tokyo in August and the average monthly rainfall is 147mm. \n\n### What is the chance of a typhoon in Tokyo in August?\n\nOn average 1.8 days in August in Tokyo are likely to be affected by the passage of one or more tropical storms. \n\n## Tokyo August sunrise & sunset times\n\nBrowse the sunrise and sunset times for Tokyo in August 2024. Select a month to view Tokyo sunrise and sunset times for the next 12 months. \n\n\u301045\u2020Jan\u3011\u301046\u2020Feb\u3011\u301047\u2020Mar\u3011\u301048\u2020Apr\u3011\u301049\u2020May\u3011\u301050\u2020Jun\u3011\u301051\u2020Jul\u3011\u301052\u2020Aug\u3011\u301053\u2020Sep\u3011\u301054\u2020Oct\u3011\u301055\u2020Nov\u3011\u301056\u2020Dec\u3011 \n\nDate Sunrise times Sunset times  \nThursday, 1st August 2024 04:49 18:45  \nFriday, 16th August 2024 05:01 18:29  \nSaturday, 31st August 2024 05:12 18:10  \n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from some of the world's best travel writers plus save on your next trip with the latest exclusive offers\n\nWe promise not to share your details\n\n## Related posts\n\n  * \u301057\u2020 7 of the best destinations for a solo adventure \u3011 \n  * \u301058\u2020 Top 10 sunny holiday destinations year round \u3011 \n  * \u301059\u2020 Top winter sun holiday destinations under \u00a3500 \u3011 \n\n## Popular travel offers\n\n  * \u301036\u2020 TUI: up to \u00a3150 off summer 2024 + free kids places \u3011 \n  * \u301060\u2020 Travel Republic: Top deals on last minute holidays \u3011 \n  * \u301061\u2020 Love Holidays sale: up to \u00a3275 off selected holidays \u3011 \n\n### Explore holidays in the sun for less\n\n  * \u301062\u2020Beach holidays\u3011\n  * \u301063\u2020Family holidays\u3011\n  * \u301064\u2020City breaks\u3011\n  * \u301065\u2020Summer holidays\u3011\n  * \u301066\u2020Winter sun holidays\u3011\n  * \u301067\u2020Holiday offers\u3011\n  * \u301068\u2020Top travel brands\u3011\n  * \u301069\u2020Airlines & flights\u3011\n  * \u301070\u2020Discount hotels\u3011\n  * \u301071\u2020Airport parking deals\u3011\n  * \u301036\u2020TUI\u3011\n  * \u301072\u2020Jet2holidays\u3011\n  * \u301073\u2020easyJet holidays\u3011\n  * \u301061\u2020Love Holidays\u3011\n  * \u301074\u2020British Airways\u3011\n\n\u30105\u2020More holidays\u3011\n\n### Airport parking\n\n  * \u301075\u2020Manchester Airport\u3011\n  * \u301076\u2020Stansted Airport\u3011\n  * \u301077\u2020Bristol Airport\u3011\n  * \u301078\u2020Luton Airport\u3011\n  * \u301079\u2020Birmingham Airport\u3011\n  * \u301080\u2020Edinburgh Airport\u3011\n  * \u301081\u2020Gatwick Airport\u3011\n  * \u301082\u2020Glasgow Airport\u3011\n  * \u301083\u2020Newcastle Airport\u3011\n\n\u301084\u2020More parking\u3011\n\n### Airport lounges\n\n  * \u301085\u2020Manchester Airport\u3011\n  * \u301086\u2020Birmingham Airport\u3011\n  * \u301087\u2020Bristol Airport\u3011\n  * \u301088\u2020Edinburgh Airport\u3011\n  * \u301089\u2020Glasgow Airport\u3011\n  * \u301090\u2020Heathrow Airport\u3011\n  * \u301091\u2020Newcastle Airport\u3011\n  * \u301092\u2020Stansted Airport\u3011\n  * \u301093\u2020Gatwick Airport\u3011\n\n\u301094\u2020More lounges\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\n\u301095\u2020Top ^\u3011 \n\nJapan - quick facts  \nFlight time\u271d \u301096\u202011.5 to 15 hours\u3011  \nTime difference  \u301097\u2020UK +9 hours\u3011  \nLanguage(s) \u301098\u2020Japanese\u3011  \nCurrency \u301099\u2020Japanese Yen\u3011  \nElectricity \u3010100\u2020A + B plug (100V)\u3011  \nDriving side \u3010101\u2020Left\u3011  \nWhy visit? Culture  \nNature  \nNightlife  \n\nTourist info \u3010102\u2020Japan National Tourism Organization\u3011  \n\n\u271d = Typical flight time from the UK.\n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from leading travel writers\n\nWe promise not to share your details\n\n## Top online deals\n\n  * \u301036\u2020TUI: up to \u00a3150 off summer 2024 + free kids places\u3011\n  * \u301060\u2020Travel Republic: Top deals on last minute holidays\u3011\n  * \u301061\u2020Love Holidays sale: up to \u00a3275 off selected holidays\u3011\n  * \u301074\u2020British Airways sale: Top deals on holidays & flights\u3011\n  * \u3010103\u2020C",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 7,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 1063,
+              "end_ix": 1074,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "\n        Japan Weather in August 2024: Travel Tips for First Visit\n    ",
+                "url": "https://www.asiahighlights.com/japan/weather-in-august",
+                "text": "\nFestivals: August in Japan is the perfect time to experience culture-rich festival celebrations and grand fireworks displays. Don't miss the chance to immerse yourself in the huge parades, traditional dance performances, and colorful fireworks.\n\n  * The Jingu Gaien Fireworks Festival in Tokyo (mid-August in 2024)\n  * The Obon Festival in Kyoto (August 13 to 16, 2024)\n  * The Yodogawa Fireworks Festival in Osaka (August 3, 2024)\n\nSuggest reading: \u301032\u2020Plan a Family Trip to Japan \u3011>>>\n\n\u301043\u2020 \u3011 \n\n\u301043\u20209-Day Japan Highlights Tour Tokyo - Hakone - Kyoto - Osaka \u3011\n\n## Hokkaido and Northern Japan in August: Summer Retreats\n\n  * Sapporo, Otaru, and Noboribetsu\n\nWith its higher latitudes, you could enjoy cooler weather and more-bearable humidity in northern Japan than in central and southern Japan. The average high is 77\u00b0F (25\u00b0C).\n\nIn late August, Hokkaido receives its heaviest rainfall, averaging 5 in (127 mm) for the month. If you're looking for outdoor adventures, such as hiking in the national parks, early August should be a better time.\n\nAugust is also the best time to spot wildlife from a sightseeing boat, such as brown bears, whales, and a variety of birds.\n\nFestival: The Noboribetsu Hell Festival is held in Hell Valley (Jidokudai) on the last Saturday in August every year in Noboribetsu. You would see locals playing the drums and performing traditional dances in the grand parade.\n\nHere are some popular travel lengths in Japan for your inspiration: \u301044\u20207 days\u3011, \u301045\u202010 days\u3011, \u301046\u202012 days\u3011, and \u301047\u202014 days\u3011.\n\n\u301048\u2020 \u3011 \n\n\u301048\u20208-Day Hokkaido Summer Vacation \u2014 Nature & Traditions\u3011\n\n## Okinawa in Southern Japan in August: Best for Water Sports\n\n  * Naha\n\nIn August, average daily temperatures range from 81\u00b0F (27\u00b0C) to 88\u00b0F (31\u00b0C ) in Okinawa. It rains about every other day and the average rainfall is high at about 9 in (240 mm).\n\nPacked with white-sand beaches and water sports, Okinawa is a popular destination for summer vacations. You could enjoy exciting activities, such as snorkeling/diving in the caves, swimming with sea turtles, and surfing.\n\nFestival: The Okinawa All-Island Eisa Festival is usually held in late August and is one of the big celebrations in summer. You could better understand the culture of Okinawa by witnessing performances with traditional drums and other instruments, alongside unique dancing.\n\n\u301049\u2020 \u3011 \n\n\u301049\u202012-Day Tokyo, Okinawa, Osaka, Kyoto and Nara Tour\u3011\n\n## Costs and Crowding in August\n\nAugust in Japan is one of the most popular times to travel, especially for families with school-age children. You may see crowds in many sightseeing spots.\n\nDue to the high demand, the cost of hotels and international flights might be about 10% more expensive than usual.\n\nWe suggest that you book at least 3 months in advance to guarantee your favorite rooms and professional guides. Our Japanese travel advisor would \u301042\u2020create a wonderful trip\u3011 based on your interests.\n\nGet more ideas about\u301050\u2020 How Much Is a Trip to Japan\u3011>>>\n\n## What Should I Wear in August?\n\nBecause of the hot weather, summer clothing with breathable fabrics is advisable, such as short-sleeved shirts, dresses, shorts, and sandals.\n\nSun protection is a must due to the high UV rays on sunny days, so pack your sunscreen, hat, and sunglasses.\n\nYou're also advised to take some insect repellent as mosquito numbers peak in summer.\n\n## Monthly Weather and Travel Information for Japan\n\nLearn about the weather in Japan for 12 months and find out the best places to visit each month.\n\n\u301051\u2020Japan in January\u3011 \u301052\u2020Japan in February\u3011 \u301053\u2020Japan in March\u3011  \n\u301054\u2020Japan in April\u3011 \u301055\u2020Japan in May\u3011 \u301056\u2020Japan in June\u3011  \n\u301057\u2020Japan in July\u3011 \u301058\u2020Japan in August\u3011 \u301059\u2020Japan in September\u3011  \n\u301060\u2020Japan in October\u3011 \u301061\u2020Japan in November\u3011 \u301062\u2020Japan in December\u3011  \n\n### Why Asia Highlights (10,000+ reviews & 98.8% 5-star rating)\n\n  * Save Your Time:\n  * Less research, more enjoyment!\n  * Real-time 1V1 expert planning\n  * Maximize Your Flexibility:\n  * Personal local guide and ride\n  * Explore at your own pace\n  * Celebrate Your Journeys:\n  * Specially-crafted family adventures\n  * Celebrate milestones with style!\n\nPopular tours\n\n  * \u301063\u202010-Day Japan Cherry Blossom Spring 2025 Mini-Group Tour\u3011\n  * \u301064\u20202-Week Japan Private Family Vacation\u3011\n  * \u301065\u202012-Day Classic Japan Tour\u3011\n  * \u301043\u20209-Day Japan Highlights Tour\u3011\n\nMake the most of your time\n\n  * \u301032\u2020How to Plan a Family Trip to Japan 2024/2025: Insider Tips\u3011\n  * \u301066\u2020Plan a Japan Cherry Blossom Trip 2025, Dates and Avoid Crowds\u3011\n  * \u301046\u202012 Days in Japan: Top 4 Itineraries for First Visit 2024/2025\u3011\n  * \u301044\u20201 Week in Japan: Top 5 Itineraries for First Visit 2024/2025\u3011\n\n",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 10,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            }
+          ],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAA",
+          "parent_id": "1bb7d80c-2f6e-456c-8f55-fc5f1a71f705",
+          "request_id": "8aa56c183ab456fe-IAD",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u30107\u2020source\u3011",
+              "start_idx": 251,
+              "end_idx": 261,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Tokyo weather in August 2024 | Japan: How hot?",
+              "url": "https://www.weather2travel.com/japan/tokyo/august/",
+              "pub_date": null,
+              "snippet": "\nMetric (\u00b0C / mm) \u00a0|\u00a0 \u301038\u2020Imperial (\u00b0F / inches)\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\nBack to top\n\n### More about Japan\n\n  * \u301042\u2020 Seeking out the teahouses of Tokyo, Japan \u3011 \n  * \u301043\u2020 A first timer's guide to Japan's most beguiling big cities \u3011 \n  * \u301044\u2020 7 ways to sample Osaka \u3011 \n\n### How hot is it in Tokyo in August?\n\nDaytime temperatures usually reach 31\u00b0C in Tokyo in August with high heat and humidity, falling to 24\u00b0C at night. \n\n### How sunny is it in Tokyo in August?\n\nThere are normally 6 hours of bright sunshine each day in Tokyo in August - that's 43% of daylight hours. \n\n### How warm is the sea around Tokyo in August?\n\nThe average sea temperature around Tokyo in August is 26\u00b0C.\n\n### Does it rain in Tokyo in August?\n\nThere are usually 16 days with some rain in Tokyo in August and the average monthly rainfall is 147mm. \n\n### What is the chance of a typhoon in Tokyo in August?\n\nOn average 1.8 days in August in Tokyo are likely to be affected by the passage of one or more tropical storms. \n\n## Tokyo August sunrise & sunset times\n\nBrowse the sunrise and sunset times for Tokyo in August 2024. Select a month to view Tokyo sunrise and sunset times for the next 12 months. \n\n\u301045\u2020Jan\u3011\u301046\u2020Feb\u3011\u301047\u2020Mar\u3011\u301048\u2020Apr\u3011\u301049\u2020May\u3011\u301050\u2020Jun\u3011\u301051\u2020Jul\u3011\u301052\u2020Aug\u3011\u301053\u2020Sep\u3011\u301054\u2020Oct\u3011\u301055\u2020Nov\u3011\u301056\u2020Dec\u3011 \n\nDate Sunrise times Sunset times  \nThursday, 1st August 2024 04:49 18:45  \nFriday, 16th August 2024 05:01 18:29  \nSaturday, 31st August 2024 05:12 18:10  \n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from some of the world's best travel writers plus save on your next trip with the latest exclusive offers\n\nWe promise not to share your details\n\n## Related posts\n\n  * \u301057\u2020 7 of the best destinations for a solo adventure \u3011 \n  * \u301058\u2020 Top 10 sunny holiday destinations year round \u3011 \n  * \u301059\u2020 Top winter sun holiday destinations under \u00a3500 \u3011 \n\n## Popular travel offers\n\n  * \u301036\u2020 TUI: up to \u00a3150 off summer 2024 + free kids places \u3011 \n  * \u301060\u2020 Travel Republic: Top deals on last minute holidays \u3011 \n  * \u301061\u2020 Love Holidays sale: up to \u00a3275 off selected holidays \u3011 \n\n### Explore holidays in the sun for less\n\n  * \u301062\u2020Beach holidays\u3011\n  * \u301063\u2020Family holidays\u3011\n  * \u301064\u2020City breaks\u3011\n  * \u301065\u2020Summer holidays\u3011\n  * \u301066\u2020Winter sun holidays\u3011\n  * \u301067\u2020Holiday offers\u3011\n  * \u301068\u2020Top travel brands\u3011\n  * \u301069\u2020Airlines & flights\u3011\n  * \u301070\u2020Discount hotels\u3011\n  * \u301071\u2020Airport parking deals\u3011\n  * \u301036\u2020TUI\u3011\n  * \u301072\u2020Jet2holidays\u3011\n  * \u301073\u2020easyJet holidays\u3011\n  * \u301061\u2020Love Holidays\u3011\n  * \u301074\u2020British Airways\u3011\n\n\u30105\u2020More holidays\u3011\n\n### Airport parking\n\n  * \u301075\u2020Manchester Airport\u3011\n  * \u301076\u2020Stansted Airport\u3011\n  * \u301077\u2020Bristol Airport\u3011\n  * \u301078\u2020Luton Airport\u3011\n  * \u301079\u2020Birmingham Airport\u3011\n  * \u301080\u2020Edinburgh Airport\u3011\n  * \u301081\u2020Gatwick Airport\u3011\n  * \u301082\u2020Glasgow Airport\u3011\n  * \u301083\u2020Newcastle Airport\u3011\n\n\u301084\u2020More parking\u3011\n\n### Airport lounges\n\n  * \u301085\u2020Manchester Airport\u3011\n  * \u301086\u2020Birmingham Airport\u3011\n  * \u301087\u2020Bristol Airport\u3011\n  * \u301088\u2020Edinburgh Airport\u3011\n  * \u301089\u2020Glasgow Airport\u3011\n  * \u301090\u2020Heathrow Airport\u3011\n  * \u301091\u2020Newcastle Airport\u3011\n  * \u301092\u2020Stansted Airport\u3011\n  * \u301093\u2020Gatwick Airport\u3011\n\n\u301094\u2020More lounges\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\n\u301095\u2020Top ^\u3011 \n\nJapan - quick facts  \nFlight time\u271d \u301096\u202011.5 to 15 hours\u3011  \nTime difference  \u301097\u2020UK +9 hours\u3011  \nLanguage(s) \u301098\u2020Japanese\u3011  \nCurrency \u301099\u2020Japanese Yen\u3011  \nElectricity \u3010100\u2020A + B plug (100V)\u3011  \nDriving side \u3010101\u2020Left\u3011  \nWhy visit? Culture  \nNature  \nNightlife  \n\nTourist info \u3010102\u2020Japan National Tourism Organization\u3011  \n\n\u271d = Typical flight time from the UK.\n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from leading travel writers\n\nWe promise not to share your details\n\n## Top online deals\n\n  * \u301036\u2020TUI: up to \u00a3150 off summer 2024 + free kids places\u3011\n  * \u301060\u2020Travel Republic: Top deals on last minute holidays\u3011\n  * \u301061\u2020Love Holidays sale: up to \u00a3275 off selected holidays\u3011\n  * \u301074\u2020British Airways sale: Top deals on holidays & flights\u3011\n  * \u3010103\u2020C",
+              "attribution": "weather2travel.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 261,
+              "end_idx": 271,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "August weather - Summer 2024 - Tokyo, Japan",
+              "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+              "pub_date": null,
+              "snippet": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+              "attribution": "weather-atlas.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 404,
+              "end_idx": 414,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Weather in Tokyo in August 2024 (T\u014dky\u014d-to)  - Detailed Weather Forecast for a Month",
+              "url": "https://world-weather.info/forecast/japan/tokyo/august-2024/",
+              "pub_date": null,
+              "snippet": "\nURL: https://world-weather.info/forecast/japan/tokyo/august-2024/\n\u30100\u2020World Weather\u3011\n\nAdd the current city \n\nSearch\n\n  * Weather\n  * \u30101\u2020Archive\u3011\n  * \u30102\u2020Widgets\u3011\n\n\u00b0F\n\n  * \u30103\u2020World\u3011\n  * \u30104\u2020Japan\u3011\n  * \u30105\u2020T\u014dky\u014d-to\u3011\n  * \u30106\u2020Weather in Tokyo\u3011\n\n# Weather in Tokyo in August 2024 \n\nTokyo Weather Forecast for August 2024, is based on previous years' statistical data.\n\n\u30107\u20202015\u3011\u30108\u20202016\u3011\u30109\u20202017\u3011\u301010\u20202018\u3011\u301011\u20202019\u3011\u301012\u20202020\u3011\u301013\u20202021\u3011\u301014\u20202022\u3011\u301015\u20202023\u30112024\u301016\u20202025\u3011\n\n\u301017\u2020Jan\u3011\u301018\u2020Feb\u3011\u301019\u2020Mar\u3011\u301020\u2020Apr\u3011\u301021\u2020May\u3011\u301022\u2020Jun\u3011\u301023\u2020Jul\u3011Aug\u301024\u2020Sep\u3011\u301025\u2020Oct\u3011\u301026\u2020Nov\u3011\u301027\u2020Dec\u3011\n\n## August \n\nStart Week On\n\nSunday\n\nMonday \n\n  * Sun \n  * Mon \n  * Tue \n  * Wed \n  * Thu \n  * Fri \n  * Sat \n\n  *   *   *   *   * 1\n\n+91\u00b0\n\n+81\u00b0\n\n  * 2\n\n+91\u00b0\n\n+81\u00b0\n\n  * 3\n\n+91\u00b0\n\n+82\u00b0\n\n  * 4\n\n+90\u00b0\n\n+81\u00b0\n\n  * 5\n\n+91\u00b0\n\n+82\u00b0\n\n  * 6\n\n+91\u00b0\n\n+82\u00b0\n\n  * 7\n\n+91\u00b0\n\n+82\u00b0\n\n  * 8\n\n+90\u00b0\n\n+81\u00b0\n\n  * 9\n\n+91\u00b0\n\n+82\u00b0\n\n  * 10\n\n+91\u00b0\n\n+82\u00b0\n\n  * 11\n\n+90\u00b0\n\n+82\u00b0\n\n  * 12\n\n+88\u00b0\n\n+81\u00b0\n\n  * 13\n\n+88\u00b0\n\n+81\u00b0\n\n  * 14\n\n+88\u00b0\n\n+81\u00b0\n\n  * 15\n\n+88\u00b0\n\n+81\u00b0\n\n  * 16\n\n+88\u00b0\n\n+81\u00b0\n\n  * 17\n\n+88\u00b0\n\n+81\u00b0\n\n  * 18\n\n+88\u00b0\n\n+81\u00b0\n\n  * 19\n\n+88\u00b0\n\n+79\u00b0\n\n  * 20\n\n+88\u00b0\n\n+79\u00b0\n\n  * 21\n\n+86\u00b0\n\n+79\u00b0\n\n  * 22\n\n+88\u00b0\n\n+79\u00b0\n\n  * 23\n\n+86\u00b0\n\n+79\u00b0\n\n  * 24\n\n+88\u00b0\n\n+81\u00b0\n\n  * 25\n\n+88\u00b0\n\n+79\u00b0\n\n  * 26\n\n+90\u00b0\n\n+81\u00b0\n\n  * 27\n\n+86\u00b0\n\n+77\u00b0\n\n  * 28\n\n+84\u00b0\n\n+77\u00b0\n\n  * 29\n\n+88\u00b0\n\n+81\u00b0\n\n  * 30\n\n+88\u00b0\n\n+79\u00b0\n\n  * 31\n\n+88\u00b0\n\n+79\u00b0\n\n## Extended weather forecast in Tokyo\n\n\u301028\u2020Hourly\u3011\u301029\u2020Week\u3011\u301030\u202010 days\u3011\u301031\u202014 days\u3011\u301032\u202030 days\u3011\u301033\u2020Year\u3011\n\n## Weather in large and nearby cities\n\n\u301034\u2020Kawaguchi\u3011+73\u00b0\n\n\u301035\u2020Fuch\u016b\u3011+73\u00b0\n\n\u301036\u2020Kashiwa\u3011+70\u00b0\n\n\u301037\u2020Tokorozawa\u3011+72\u00b0\n\n\u301038\u2020Kasukabe\u3011+73\u00b0\n\n\u301039\u2020Ageo\u3011+72\u00b0\n\n\u301040\u2020Kawagoe\u3011+72\u00b0\n\n\u301041\u2020Yokohama\u3011+73\u00b0\n\n\u301042\u2020Machida\u3011+73\u00b0\n\n\u301043\u2020Kawasaki\u3011+73\u00b0\n\n\u301044\u2020Kodaira\u3011+73\u00b0\n\n\u301045\u2020Funabashi\u3011+73\u00b0\n\n\u301046\u2020Nerima\u3011+73\u00b0\n\n\u301047\u2020S\u014dka\u3011+73\u00b0\n\n\u301048\u2020Ichikawa\u3011+72\u00b0\n\n\u301049\u2020Matsudo\u3011+72\u00b0\n\n\u301050\u2020Koshigaya\u3011+72\u00b0\n\n\u301051\u2020Kami-renjaku\u3011+73\u00b0\n\nMinimum and maximum   \nworld's temperature today\n\nArgentina   \nEl Calafate \n\nday\n    +37\u00b0F \nnight\n    +9\u00b0F \n\nPakistan   \nSh\u0101hd\u0101dkot \n\nday\n    +120\u00b0F \nnight\n    +88\u00b0F\n\nServices \n\nSupport\n\n  * \u301052\u2020User agreement\u3011\n  * \u301053\u2020Feedback\u3011\n  * \u301054\u2020About Us\u3011\n\nSearch \n\nCity or place\u2026\n\nCopyright \u00a9 2024 \u00abWorld-Weather.info\u00bb All rights reserved. \u301055\u2020Privacy policy\u3011\n\nWeather data provided by:\n\nTemperature units\n\n\u00b0F\u00b0C \n\nIcons\nVisible: 0% - 100%",
+              "attribution": "world-weather.info",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 414,
+              "end_idx": 424,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "August weather - Summer 2024 - Tokyo, Japan",
+              "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+              "pub_date": null,
+              "snippet": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+              "attribution": "weather-atlas.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 587,
+              "end_idx": 597,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "August weather - Summer 2024 - Tokyo, Japan",
+              "url": "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+              "pub_date": null,
+              "snippet": "\nUpdated: Jan 31, 2024   \nPublished by: \u30107\u2020Weather Atlas\u3011 | \u301048\u2020About Us\u3011  \n\u301049\u2020Data Sources\u3011 | \u301050\u2020Weather Forecasting & Climate\u3011\n\n## Frequently asked questions \n\n### What is the warmest month in Tokyo?\n\nIn Tokyo, Japan, the peak temperatures are generally noted in August, averaging a high of 31\u00b0C (87.8\u00b0F) and a low of 25.1\u00b0C (77.2\u00b0F).\n\n### How hot is it in Tokyo in August?\n\nIn Tokyo, 31\u00b0C (87.8\u00b0F) is the average high-temperature and 25.1\u00b0C (77.2\u00b0F) is the average low-temperature during August. The average heat index (a.k.a. 'feels like', 'real feel'), which factors the actual air temperature with the relative humidity, in August is appraised at 39\u00b0C (102.2\u00b0F).\n\n### What is the average humidity in August in Tokyo?\n\nIn Tokyo, Japan, the average relative humidity in August is 73%.\n\n### How many days does it rain in August in Tokyo?\n\nIn Tokyo, Japan, in August, it is raining for 9.7 days, with typically 26mm (1.02\") of accumulated precipitation.\n\n### When it does not snow in Tokyo?\n\nIn Tokyo, Japan, snow does not fall in April through December.\n\n### What is the month with the warmest sea water in Tokyo?\n\nAugust is the month with the warmest seawater in Tokyo, with an average sea temperature of 25.7\u00b0C (78.3\u00b0F).\n\n### What is the water temperature in August in Tokyo?\n\nIn Tokyo, Japan, in August, the average water temperature is 25.7\u00b0C (78.3\u00b0F). For swimming, diving, and other water activities, temperatures between 25\u00b0C (77\u00b0F) and 29\u00b0C (84.2\u00b0F) are perceived as very enjoyable and pleasurable for prolonged periods without feeling uncomfortable.\n\n### What is the average length of the day in August in Tokyo?\n\nIn Tokyo, the average day length in August is 13h and 29min.\n\n### When are sunrise and sunset in August in Tokyo?\n\nIn August, on the first day of the month, sunrise is at 04:49 and sunset at 18:45. On the last day of the month, in Tokyo, sunrise is at 05:12 and sunset at 18:10 JST.\n\n### What month has the most sunshine in Tokyo?\n\nWith an average of 10.3h of sunshine, August has the most sunshine of the year in Tokyo, Japan.\n\n### How many hours of sunshine does Tokyo have in August?\n\nThe average sunshine duration in August in Tokyo is 10.3h.\n\n### What is the UV index reading in August in Tokyo?\n\nIn Tokyo, the average daily maximum UV index in August is 6. A UV Index value of 6 to 7 symbolizes a high health vulnerability from unsafe exposure to Sun's UV rays.\n\n\u301015\u2020Today\u3011\n\n\u301017\u2020Tomorrow\u3011\n\n\u301018\u2020Long-term\u3011\n\n\u301016\u2020Year\u3011\u301019\u2020J\u3011\u301020\u2020F\u3011\u301021\u2020M\u3011\u301022\u2020A\u3011\u301023\u2020M\u3011\u301024\u2020J\u3011\u301025\u2020J\u3011\u30104\u2020August\u3011\u301026\u2020S\u3011\u301027\u2020O\u3011\u301028\u2020N\u3011\u301029\u2020D\u3011\n\n\u301025\u2020Jul\u3011\n\n\u30104\u2020August\u3011\n\n\u301026\u2020Sep\u3011\n\nAverage high temperature\n\n\u301051\u202029.3\u00b0C 84.7\u00b0F\u3011\n\n\u301034\u202031\u00b0C 87.8\u00b0F\u3011\n\n\u301052\u202026.8\u00b0C 80.2\u00b0F\u3011\n\nAverage low temperature\n\n\u301051\u202023.3\u00b0C 73.9\u00b0F\u3011\n\n\u301034\u202025.1\u00b0C 77.2\u00b0F\u3011\n\n\u301052\u202021.3\u00b0C 70.3\u00b0F\u3011\n\nAverage pressure\n\n\u301053\u20201009.8mbar 29.82inHg\u3011\n\n\u301035\u20201010.2mbar 29.83inHg\u3011\n\n\u301054\u20201013.5mbar 29.93inHg\u3011\n\nAverage wind speed\n\n\u301055\u202013km/h 8.1mph\u3011\n\n\u301036\u202012.5km/h 7.8mph\u3011\n\n\u301056\u202012.4km/h 7.7mph\u3011\n\nAverage max. wind speed\n\n\u301055\u202014.4km/h 8.9mph\u3011\n\n\u301036\u202013.9km/h 8.6mph\u3011\n\n\u301056\u202013.2km/h 8.2mph\u3011\n\nAverage wind speed gusts\n\n\u301055\u202017.6km/h 10.9mph\u3011\n\n\u301036\u202016.4km/h 10.2mph\u3011\n\n\u301056\u202016.7km/h 10.4mph\u3011\n\nAverage humidity\n\n\u301057\u202077%\u3011\n\n\u301037\u202073%\u3011\n\n\u301058\u202074%\u3011\n\nAverage rainfall\n\n\u301059\u202048mm 1.89\"\u3011\n\n\u301038\u202026mm 1.02\"\u3011\n\n\u301060\u202046mm 1.81\"\u3011\n\nAverage rainfall days\n\n\u301061\u202012.2\u3011\n\n\u301039\u20209.7\u3011\n\n\u301062\u202012.5\u3011\n\nAverage snowfall\n\n\u301063\u20200mm 0\"\u3011\n\n\u301040\u20200mm 0\"\u3011\n\n\u301064\u20200mm 0\"\u3011\n\nAverage snowfall days\n\n\u301065\u20200\u3011\n\n\u301041\u20200\u3011\n\n\u301066\u20200\u3011\n\nAverage sea temperature\n\n\u301067\u202024.2\u00b0C 75.6\u00b0F\u3011\n\n\u301042\u202025.7\u00b0C 78.3\u00b0F\u3011\n\n\u301068\u202025.3\u00b0C 77.5\u00b0F\u3011\n\nAverage daylight\n\n\u301069\u202014h 2min\u3011\n\n\u301043\u202013h 3min\u3011\n\n\u301070\u202012h 2min\u3011\n\nAverage sunshine\n\n\u301069\u20209h 4min\u3011\n\n\u301043\u202010h 2min\u3011\n\n\u301070\u20208h 1min\u3011\n\nAverage sunshine days",
+              "attribution": "weather-atlas.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30109\u2020source\u3011",
+              "start_idx": 777,
+              "end_idx": 787,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Weather in Tokyo in August: Temperature, Rainfall, Sunshine... for August 2024! - Japan - Where And When",
+              "url": "https://www.whereandwhen.net/when/east-asia/japan/tokyo/august/",
+              "pub_date": null,
+              "snippet": "Rainfall 4.2in 3.7in 5.5in  \nNumber of days with rainfall 5 day(s)  \n(17%)5 day(s)  \n(16%)6 day(s)  \n(22%)  \nRecord daily rainfall 2.6in  \n(2009)6.2in  \n(2016)5.1in  \n(2019)  \nOther climate data  \nHumidity 83%81%80%  \nVisibility 9.37km 9.55km 9.37km  \nCloud cover 40%33%42%  \nUV index 7 8 7  \nDaily sunshine hours 13 13 11  \nSunrise and sunset  \nTime of sunrise 04:36 05:00 05:24  \nTime of sunset 18:57 18:31 17:49  \nLength of day 14:21 13:31 12:25  \nOur opinion about the weather in august  \nOur opinion at whereandwhen.net good good good  \n\n* * *\n\n  * \u301017\u2020Flight\u3011\n  * \u301018\u2020Flight+Hotel BEST DEAL\u3011\n  * \u301019\u2020Hotel\u3011\n  * \u301020\u2020Car hire\u3011\n\n##  Japan: get the best price!\n\nfrom choose a departure city Prague-----Frankfurt Berlin Munich Zurich Vienna Dusseldorf-----London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago-----Madrid Barcelona Malaga Alicante-----Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice-----Athens-----Budapest-----Rome Milan-----Amsterdam-----Warsaw-----Lisbon Rio de Janeiro Brasilia-----Bucharest-----Stockholm Copenhagen Oslo Helsinki\n\n[Image 20]  \nFinding flights. Thank you for waiting.\n\n### Find a flight to Japan:\n\nDeparture city:\n\n Prague Frankfurt Berlin Munich Zurich Vienna Dusseldorf London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago Madrid Barcelona Malaga Alicante Paris Nantes Marseille Bordeaux Brussels Geneva Lyon Toulouse Nice Athens Budapest Rome Milan Amsterdam Warsaw Lisbon Rio de Janeiro Brasilia Bucharest Stockholm Copenhagen Oslo Helsinki\n\nArrival city:\n\n Main airport(s)Tokyo Fukuoka Osaka Sapporo (Hokkaido)Sendai (Honshu)Other airport(s)Hiroshima Kagoshima (Kyushu)Kobe Nagasaki Nagoya\n\nDepart on:\n\nReturn on:\n\nAdults (over 16):\n\n 1 2 3 4 5 6 7 8 9 10\n\nChildren (under 16):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nBabies (under 2):\n\n 0 1 2 3 4 5 6 7 8 9 10\n\nClass:\n\n Economic Eco Premium Business First\n\nFind a flight \n\n[Image 21: skyscanner]Try it! The search engine checks several airline and travel agents to guarantee you the best price!\n\n### Find the best price for your hotel room\n\nTry it out! This search engine queries multiple sites such as Booking.com, Hotels.com, and Expedia to guarantee you the best price!\n\n### Find the best price for your car rental\n\nTry it out! This search engine queries hundreds of car rental agencies to guarantee you the best price!\n\n### Search for a Flight+Hotel package to Japan in august\n\nDestination:\n\n Tokyo Fukuoka Hiroshima Kochi Kyoto Nagoya Okinawa Osaka Sapporo (Hokkaido)Akita Aomori Hakodate Izumo Kagoshima (Kyushu)Kobe Miyakojima Nagasaki Naha Okayama Sendai (Honshu)Takamatsu Tokushima Kitakyushu Kumamoto Matsumoto Monbetsu Niigata Okinoshima Tottori Toyooka Wajima Yakushima Yokohama Asahikawa Chiba Fukushima Hachinohe Kushiro Masuda Matsuyama Miyazaki Muroran Niihama Obihiro Otaru Shizuoka Tomakomai Toyama Ube Wakkanai\n\nDeparture airport:\n\n London Dublin Manchester Edinburgh Los Angeles New York City Montreal Toronto Sydney Melbourne Auckland Vancouver Calgary Atlanta Chicago\n\nDepart on:\n\nReturn on:\n\nFlexible dates +/- 3 days\n\nAdults (+18):\n\n 1 2 3 4\n\nChildren (-18):\n\n 0 1 2 3\n\nSearch for trips \n\nTry it out! Save money by using this comparison tool that searches through hundreds of travel agencies to find the best deals for your next trip: packages including flights and hotels at the best price!\n\n* * *\n\n* * *\n\n##  How was the weather last august?\n\nHere is the day by day recorded weather in Tokyo in august 2023:\n\n01-08-2023  \n[Image 22: Cloudy]  \n81\u00b0F to 92\u00b0F \n\n02-08-2023  \n[Image 23: Clear/Sunny]  \n83\u00b0F to 94\u00b0F \n\n03-08-2023  \n[Image 24: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n04-08-2023  \n[Image 25: Clear/Sunny]  \n81\u00b0F to 94\u00b0F \n\n05-08-2023  \n[Image 26: Clear/Sunny]  \n83\u00b0F to 92\u00b0F \n\n06-08-2023  \n[Image 27: Partly Cloudy]  \n81\u00b0F to 90\u00b0F \n\n07-08-2023  \n[Image 28: Cloudy]  \n81\u00b0F to 90\u00b0F \n\n08-08-2023  \n[Image 29: Patchy rain nearby]  \n81\u00b0F to 90\u00b0F \n\n09-08-2023  \n[Image 30: Patchy rain nearby]  \n83\u00b0F to 86\u00b0F \n\n10-08-2023  \n[Image 31:",
+              "attribution": "whereandwhen.net",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30107\u2020source\u3011",
+              "start_idx": 897,
+              "end_idx": 907,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Tokyo weather in August 2024 | Japan: How hot?",
+              "url": "https://www.weather2travel.com/japan/tokyo/august/",
+              "pub_date": null,
+              "snippet": "\nMetric (\u00b0C / mm) \u00a0|\u00a0 \u301038\u2020Imperial (\u00b0F / inches)\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\nBack to top\n\n### More about Japan\n\n  * \u301042\u2020 Seeking out the teahouses of Tokyo, Japan \u3011 \n  * \u301043\u2020 A first timer's guide to Japan's most beguiling big cities \u3011 \n  * \u301044\u2020 7 ways to sample Osaka \u3011 \n\n### How hot is it in Tokyo in August?\n\nDaytime temperatures usually reach 31\u00b0C in Tokyo in August with high heat and humidity, falling to 24\u00b0C at night. \n\n### How sunny is it in Tokyo in August?\n\nThere are normally 6 hours of bright sunshine each day in Tokyo in August - that's 43% of daylight hours. \n\n### How warm is the sea around Tokyo in August?\n\nThe average sea temperature around Tokyo in August is 26\u00b0C.\n\n### Does it rain in Tokyo in August?\n\nThere are usually 16 days with some rain in Tokyo in August and the average monthly rainfall is 147mm. \n\n### What is the chance of a typhoon in Tokyo in August?\n\nOn average 1.8 days in August in Tokyo are likely to be affected by the passage of one or more tropical storms. \n\n## Tokyo August sunrise & sunset times\n\nBrowse the sunrise and sunset times for Tokyo in August 2024. Select a month to view Tokyo sunrise and sunset times for the next 12 months. \n\n\u301045\u2020Jan\u3011\u301046\u2020Feb\u3011\u301047\u2020Mar\u3011\u301048\u2020Apr\u3011\u301049\u2020May\u3011\u301050\u2020Jun\u3011\u301051\u2020Jul\u3011\u301052\u2020Aug\u3011\u301053\u2020Sep\u3011\u301054\u2020Oct\u3011\u301055\u2020Nov\u3011\u301056\u2020Dec\u3011 \n\nDate Sunrise times Sunset times  \nThursday, 1st August 2024 04:49 18:45  \nFriday, 16th August 2024 05:01 18:29  \nSaturday, 31st August 2024 05:12 18:10  \n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from some of the world's best travel writers plus save on your next trip with the latest exclusive offers\n\nWe promise not to share your details\n\n## Related posts\n\n  * \u301057\u2020 7 of the best destinations for a solo adventure \u3011 \n  * \u301058\u2020 Top 10 sunny holiday destinations year round \u3011 \n  * \u301059\u2020 Top winter sun holiday destinations under \u00a3500 \u3011 \n\n## Popular travel offers\n\n  * \u301036\u2020 TUI: up to \u00a3150 off summer 2024 + free kids places \u3011 \n  * \u301060\u2020 Travel Republic: Top deals on last minute holidays \u3011 \n  * \u301061\u2020 Love Holidays sale: up to \u00a3275 off selected holidays \u3011 \n\n### Explore holidays in the sun for less\n\n  * \u301062\u2020Beach holidays\u3011\n  * \u301063\u2020Family holidays\u3011\n  * \u301064\u2020City breaks\u3011\n  * \u301065\u2020Summer holidays\u3011\n  * \u301066\u2020Winter sun holidays\u3011\n  * \u301067\u2020Holiday offers\u3011\n  * \u301068\u2020Top travel brands\u3011\n  * \u301069\u2020Airlines & flights\u3011\n  * \u301070\u2020Discount hotels\u3011\n  * \u301071\u2020Airport parking deals\u3011\n  * \u301036\u2020TUI\u3011\n  * \u301072\u2020Jet2holidays\u3011\n  * \u301073\u2020easyJet holidays\u3011\n  * \u301061\u2020Love Holidays\u3011\n  * \u301074\u2020British Airways\u3011\n\n\u30105\u2020More holidays\u3011\n\n### Airport parking\n\n  * \u301075\u2020Manchester Airport\u3011\n  * \u301076\u2020Stansted Airport\u3011\n  * \u301077\u2020Bristol Airport\u3011\n  * \u301078\u2020Luton Airport\u3011\n  * \u301079\u2020Birmingham Airport\u3011\n  * \u301080\u2020Edinburgh Airport\u3011\n  * \u301081\u2020Gatwick Airport\u3011\n  * \u301082\u2020Glasgow Airport\u3011\n  * \u301083\u2020Newcastle Airport\u3011\n\n\u301084\u2020More parking\u3011\n\n### Airport lounges\n\n  * \u301085\u2020Manchester Airport\u3011\n  * \u301086\u2020Birmingham Airport\u3011\n  * \u301087\u2020Bristol Airport\u3011\n  * \u301088\u2020Edinburgh Airport\u3011\n  * \u301089\u2020Glasgow Airport\u3011\n  * \u301090\u2020Heathrow Airport\u3011\n  * \u301091\u2020Newcastle Airport\u3011\n  * \u301092\u2020Stansted Airport\u3011\n  * \u301093\u2020Gatwick Airport\u3011\n\n\u301094\u2020More lounges\u3011\n\n  * \u301039\u2020Facebook\u2020www.facebook.com\u3011\n  * \u301040\u2020Twitter\u2020twitter.com\u3011\n  * \u301041\u2020Pinterest (1 share)\u2020pinterest.com\u3011\n\n\u301095\u2020Top ^\u3011 \n\nJapan - quick facts  \nFlight time\u271d \u301096\u202011.5 to 15 hours\u3011  \nTime difference  \u301097\u2020UK +9 hours\u3011  \nLanguage(s) \u301098\u2020Japanese\u3011  \nCurrency \u301099\u2020Japanese Yen\u3011  \nElectricity \u3010100\u2020A + B plug (100V)\u3011  \nDriving side \u3010101\u2020Left\u3011  \nWhy visit? Culture  \nNature  \nNightlife  \n\nTourist info \u3010102\u2020Japan National Tourism Organization\u3011  \n\n\u271d = Typical flight time from the UK.\n\n## Be inspired\n\nGet your weekly fix of holiday inspiration from leading travel writers\n\nWe promise not to share your details\n\n## Top online deals\n\n  * \u301036\u2020TUI: up to \u00a3150 off summer 2024 + free kids places\u3011\n  * \u301060\u2020Travel Republic: Top deals on last minute holidays\u3011\n  * \u301061\u2020Love Holidays sale: up to \u00a3275 off selected holidays\u3011\n  * \u301074\u2020British Airways sale: Top deals on holidays & flights\u3011\n  * \u3010103\u2020C",
+              "attribution": "weather2travel.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301010\u2020source\u3011",
+              "start_idx": 1063,
+              "end_idx": 1074,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "\n        Japan Weather in August 2024: Travel Tips for First Visit\n    ",
+              "url": "https://www.asiahighlights.com/japan/weather-in-august",
+              "pub_date": null,
+              "snippet": "\nFestivals: August in Japan is the perfect time to experience culture-rich festival celebrations and grand fireworks displays. Don't miss the chance to immerse yourself in the huge parades, traditional dance performances, and colorful fireworks.\n\n  * The Jingu Gaien Fireworks Festival in Tokyo (mid-August in 2024)\n  * The Obon Festival in Kyoto (August 13 to 16, 2024)\n  * The Yodogawa Fireworks Festival in Osaka (August 3, 2024)\n\nSuggest reading: \u301032\u2020Plan a Family Trip to Japan \u3011>>>\n\n\u301043\u2020 \u3011 \n\n\u301043\u20209-Day Japan Highlights Tour Tokyo - Hakone - Kyoto - Osaka \u3011\n\n## Hokkaido and Northern Japan in August: Summer Retreats\n\n  * Sapporo, Otaru, and Noboribetsu\n\nWith its higher latitudes, you could enjoy cooler weather and more-bearable humidity in northern Japan than in central and southern Japan. The average high is 77\u00b0F (25\u00b0C).\n\nIn late August, Hokkaido receives its heaviest rainfall, averaging 5 in (127 mm) for the month. If you're looking for outdoor adventures, such as hiking in the national parks, early August should be a better time.\n\nAugust is also the best time to spot wildlife from a sightseeing boat, such as brown bears, whales, and a variety of birds.\n\nFestival: The Noboribetsu Hell Festival is held in Hell Valley (Jidokudai) on the last Saturday in August every year in Noboribetsu. You would see locals playing the drums and performing traditional dances in the grand parade.\n\nHere are some popular travel lengths in Japan for your inspiration: \u301044\u20207 days\u3011, \u301045\u202010 days\u3011, \u301046\u202012 days\u3011, and \u301047\u202014 days\u3011.\n\n\u301048\u2020 \u3011 \n\n\u301048\u20208-Day Hokkaido Summer Vacation \u2014 Nature & Traditions\u3011\n\n## Okinawa in Southern Japan in August: Best for Water Sports\n\n  * Naha\n\nIn August, average daily temperatures range from 81\u00b0F (27\u00b0C) to 88\u00b0F (31\u00b0C ) in Okinawa. It rains about every other day and the average rainfall is high at about 9 in (240 mm).\n\nPacked with white-sand beaches and water sports, Okinawa is a popular destination for summer vacations. You could enjoy exciting activities, such as snorkeling/diving in the caves, swimming with sea turtles, and surfing.\n\nFestival: The Okinawa All-Island Eisa Festival is usually held in late August and is one of the big celebrations in summer. You could better understand the culture of Okinawa by witnessing performances with traditional drums and other instruments, alongside unique dancing.\n\n\u301049\u2020 \u3011 \n\n\u301049\u202012-Day Tokyo, Okinawa, Osaka, Kyoto and Nara Tour\u3011\n\n## Costs and Crowding in August\n\nAugust in Japan is one of the most popular times to travel, especially for families with school-age children. You may see crowds in many sightseeing spots.\n\nDue to the high demand, the cost of hotels and international flights might be about 10% more expensive than usual.\n\nWe suggest that you book at least 3 months in advance to guarantee your favorite rooms and professional guides. Our Japanese travel advisor would \u301042\u2020create a wonderful trip\u3011 based on your interests.\n\nGet more ideas about\u301050\u2020 How Much Is a Trip to Japan\u3011>>>\n\n## What Should I Wear in August?\n\nBecause of the hot weather, summer clothing with breathable fabrics is advisable, such as short-sleeved shirts, dresses, shorts, and sandals.\n\nSun protection is a must due to the high UV rays on sunny days, so pack your sunscreen, hat, and sunglasses.\n\nYou're also advised to take some insect repellent as mosquito numbers peak in summer.\n\n## Monthly Weather and Travel Information for Japan\n\nLearn about the weather in Japan for 12 months and find out the best places to visit each month.\n\n\u301051\u2020Japan in January\u3011 \u301052\u2020Japan in February\u3011 \u301053\u2020Japan in March\u3011  \n\u301054\u2020Japan in April\u3011 \u301055\u2020Japan in May\u3011 \u301056\u2020Japan in June\u3011  \n\u301057\u2020Japan in July\u3011 \u301058\u2020Japan in August\u3011 \u301059\u2020Japan in September\u3011  \n\u301060\u2020Japan in October\u3011 \u301061\u2020Japan in November\u3011 \u301062\u2020Japan in December\u3011  \n\n### Why Asia Highlights (10,000+ reviews & 98.8% 5-star rating)\n\n  * Save Your Time:\n  * Less research, more enjoyment!\n  * Real-time 1V1 expert planning\n  * Maximize Your Flexibility:\n  * Personal local guide and ride\n  * Explore at your own pace\n  * Celebrate Your Journeys:\n  * Specially-crafted family adventures\n  * Celebrate milestones with style!\n\nPopular tours\n\n  * \u301063\u202010-Day Japan Cherry Blossom Spring 2025 Mini-Group Tour\u3011\n  * \u301064\u20202-Week Japan Private Family Vacation\u3011\n  * \u301065\u202012-Day Classic Japan Tour\u3011\n  * \u301043\u20209-Day Japan Highlights Tour\u3011\n\nMake the most of your time\n\n  * \u301032\u2020How to Plan a Family Trip to Japan 2024/2025: Insider Tips\u3011\n  * \u301066\u2020Plan a Japan Cherry Blossom Trip 2025, Dates and Avoid Crowds\u3011\n  * \u301046\u202012 Days in Japan: Top 4 Itineraries for First Visit 2024/2025\u3011\n  * \u301044\u20201 Week in Japan: Top 5 Itineraries for First Visit 2024/2025\u3011\n\n",
+              "attribution": "asiahighlights.com",
+              "icon_type": null
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1bb7d80c-2f6e-456c-8f55-fc5f1a71f705",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "aed54cd7-9617-4ec2-bc1d-0025a5d937e7",
+  "plugin_ids": null,
+  "conversation_id": "8f1d057a-c209-4b60-95d1-5cb0e70ccfa8",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://world-weather.info/forecast/japan/tokyo/august-2024/\u30100\u2020World",
+    "https://www.whereandwhen.net/when/east-asia/japan/tokyo/august/",
+    "https://www.asiahighlights.com/japan/weather-in-august",
+    "https://www.weather-atlas.com/en/japan/tokyo-weather-august",
+    "https://world-weather.info/forecast/japan/tokyo/august-2024/",
+    "https://www.weather2travel.com/japan/tokyo/august/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "8f1d057a-c209-4b60-95d1-5cb0e70ccfa8"
+}

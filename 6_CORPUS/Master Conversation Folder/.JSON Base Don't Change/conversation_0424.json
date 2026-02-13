@@ -1,0 +1,387 @@
+{
+  "title": "Iceland Northern Lights Trip",
+  "create_time": 1728252772.901654,
+  "update_time": 1728253477.937976,
+  "mapping": {
+    "4a365d69-845f-42db-8046-e49cec258ab0": {
+      "id": "4a365d69-845f-42db-8046-e49cec258ab0",
+      "message": null,
+      "parent": null,
+      "children": [
+        "e4deefee-7b2c-4cb8-a57c-8fce850c1cb3"
+      ]
+    },
+    "e4deefee-7b2c-4cb8-a57c-8fce850c1cb3": {
+      "id": "e4deefee-7b2c-4cb8-a57c-8fce850c1cb3",
+      "message": {
+        "id": "e4deefee-7b2c-4cb8-a57c-8fce850c1cb3",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4a365d69-845f-42db-8046-e49cec258ab0",
+      "children": [
+        "a351f942-89d4-4147-a59b-6991dfa708d7"
+      ]
+    },
+    "a351f942-89d4-4147-a59b-6991dfa708d7": {
+      "id": "a351f942-89d4-4147-a59b-6991dfa708d7",
+      "message": {
+        "id": "a351f942-89d4-4147-a59b-6991dfa708d7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728252772.907019,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I am planning a trip to Iceland from dec 27 to Jan 1. I want to stay away from a big city; preferably in a cabin or small house in the middle of nowhere. I love the cold and the snow but most importantly I want to see the northern lights. What should I do "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8ce8fed579f81759-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4deefee-7b2c-4cb8-a57c-8fce850c1cb3",
+      "children": [
+        "bdefab57-14b4-4e13-bdcf-cb3e35b978b2"
+      ]
+    },
+    "bdefab57-14b4-4e13-bdcf-cb3e35b978b2": {
+      "id": "bdefab57-14b4-4e13-bdcf-cb3e35b978b2",
+      "message": {
+        "id": "bdefab57-14b4-4e13-bdcf-cb3e35b978b2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728252792.523204,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a351f942-89d4-4147-a59b-6991dfa708d7",
+          "request_id": "8ce8fed579f81759-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a351f942-89d4-4147-a59b-6991dfa708d7",
+      "children": [
+        "93b7c354-d515-469f-80e0-3ca232895f77"
+      ]
+    },
+    "93b7c354-d515-469f-80e0-3ca232895f77": {
+      "id": "93b7c354-d515-469f-80e0-3ca232895f77",
+      "message": {
+        "id": "93b7c354-d515-469f-80e0-3ca232895f77",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728252792.523355,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User is planning a trip to Iceland from Dec 27 to Jan 1 and wants to stay away from a big city, preferably in a cabin or small house in the middle of nowhere. They love the cold and snow and most importantly want to see the northern lights."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bdefab57-14b4-4e13-bdcf-cb3e35b978b2",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8ce8fed579f81759-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "bdefab57-14b4-4e13-bdcf-cb3e35b978b2",
+      "children": [
+        "ae1d0e8d-4373-4e39-a712-1b218c3f3eda"
+      ]
+    },
+    "ae1d0e8d-4373-4e39-a712-1b218c3f3eda": {
+      "id": "ae1d0e8d-4373-4e39-a712-1b218c3f3eda",
+      "message": {
+        "id": "ae1d0e8d-4373-4e39-a712-1b218c3f3eda",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1728252792.523435,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "ae1d0e8d-4373-4e39-a712-1b218c3f3eda",
+            "pending_message_id": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "93b7c354-d515-469f-80e0-3ca232895f77",
+          "request_id": "8ce8fed579f81759-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "93b7c354-d515-469f-80e0-3ca232895f77",
+      "children": [
+        "a1b0b9b1-38dc-4abf-93ea-1119a680f5d0"
+      ]
+    },
+    "a1b0b9b1-38dc-4abf-93ea-1119a680f5d0": {
+      "id": "a1b0b9b1-38dc-4abf-93ea-1119a680f5d0",
+      "message": {
+        "id": "a1b0b9b1-38dc-4abf-93ea-1119a680f5d0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728252792.523495,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Your trip to Iceland sounds amazing! Here\u2019s how to make the most of it, especially for viewing the northern lights:\n\n1. **Where to Stay**:\n   - **South or West Iceland**: Regions like the Snaefellsnes Peninsula or around the small towns of Borgarnes or Vik are great for remote stays. These areas are far from city lights and offer spectacular views.\n   - **Cabins**: Look for cabins or small houses on platforms like Airbnb, Vrbo, or specialized sites like **Buubble** or **Icelandic Cottages**. These cabins often come with large windows or even glass domes for aurora viewing.\n   - **Thingvellir National Park**: This UNESCO site is both remote and beautiful, offering great landscapes for the Northern Lights.\n\n2. **When to See the Northern Lights**:\n   - December to January is peak season for the northern lights in Iceland. The key is to have clear skies and low light pollution.\n   - Use apps like **My Aurora Forecast** or **Vedur.is** (Iceland\u2019s weather service) to track aurora activity.\n\n3. **Activities**:\n   - **Explore Ice Caves**: December is the perfect time for exploring Iceland\u2019s crystal blue ice caves in the Vatnaj\u00f6kull Glacier.\n   - **Snowmobiling or Dog Sledding**: Consider an adventure with snowmobiles or dog sledding in areas like Langj\u00f6kull Glacier.\n   - **Hot Springs**: After a day in the cold, warm up in a hot spring. Popular options include the **Secret Lagoon** or **Hrunalaug**, both offering a more secluded experience than the Blue Lagoon.\n   - **Golden Circle Tour**: If you have time, you can still explore some of Iceland\u2019s famous spots like Gullfoss Waterfall, Geysir, and Thingvellir, which are relatively close to some remote areas.\n\n4. **Transport**:\n   - Renting a 4x4 is a good idea in December due to snow and ice conditions on the roads. Make sure it\u2019s equipped for winter driving.\n\n5. **Safety Tips**:\n   - Always check the weather and road conditions before heading out. In winter, storms can come quickly, making some areas impassable. The website **safetravel.is** has updated info on road and weather safety.\n\nWith some luck, you\u2019ll have incredible views of the northern lights and enjoy Iceland's serene, snowy landscapes!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ae1d0e8d-4373-4e39-a712-1b218c3f3eda",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8ce8fed579f81759-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ae1d0e8d-4373-4e39-a712-1b218c3f3eda",
+      "children": [
+        "1f0247ef-48d2-48a7-b315-d211fd46a395"
+      ]
+    },
+    "1f0247ef-48d2-48a7-b315-d211fd46a395": {
+      "id": "1f0247ef-48d2-48a7-b315-d211fd46a395",
+      "message": {
+        "id": "1f0247ef-48d2-48a7-b315-d211fd46a395",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728253456.038617,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is vrbo or airBNB better "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8ce90f832ce87fd5-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a1b0b9b1-38dc-4abf-93ea-1119a680f5d0",
+      "children": [
+        "1789ffda-10fd-45f3-a328-f1a28524339b"
+      ]
+    },
+    "1789ffda-10fd-45f3-a328-f1a28524339b": {
+      "id": "1789ffda-10fd-45f3-a328-f1a28524339b",
+      "message": {
+        "id": "1789ffda-10fd-45f3-a328-f1a28524339b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728253477.505489,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1f0247ef-48d2-48a7-b315-d211fd46a395",
+          "request_id": "8ce90f832ce87fd5-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f0247ef-48d2-48a7-b315-d211fd46a395",
+      "children": [
+        "3ef6594e-669c-4911-870c-6189d2ccf800"
+      ]
+    },
+    "3ef6594e-669c-4911-870c-6189d2ccf800": {
+      "id": "3ef6594e-669c-4911-870c-6189d2ccf800",
+      "message": {
+        "id": "3ef6594e-669c-4911-870c-6189d2ccf800",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728253477.50563,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Both **Vrbo** and **Airbnb** are excellent platforms, but which is better for your Iceland trip depends on what you're looking for. Here's a comparison based on factors that matter for your stay:\n\n### 1. **Property Types**:\n   - **Vrbo**: Primarily focuses on entire homes, which might suit you better if you're looking for a private cabin or house in a remote area.\n   - **Airbnb**: Offers a wider variety of property types, including shared spaces and unique stays like glass domes or yurts. If you\u2019re interested in something more unconventional, Airbnb might be worth exploring.\n\n### 2. **Remote Locations**:\n   - **Vrbo**: Often better for vacation homes and cabins in more remote or rural areas, which might align well with your preference for a secluded stay.\n   - **Airbnb**: Airbnb has more listings in city and suburban areas, but it also offers remote options, especially in Iceland.\n\n### 3. **Pricing & Fees**:\n   - **Vrbo**: Typically charges a lower service fee compared to Airbnb. However, cleaning fees and taxes may vary depending on the property.\n   - **Airbnb**: While there are more budget options on Airbnb, they tend to have higher service fees. Make sure to compare the total cost, including cleaning and service fees, before booking.\n\n### 4. **Host Interaction**:\n   - **Vrbo**: Typically more professional or corporate hosts, as it caters to entire homes and vacation rentals.\n   - **Airbnb**: You\u2019ll find a mix of individual hosts and vacation rental companies. Airbnb hosts often provide more personal touches like local guides or personal recommendations.\n\n### 5. **Cancellation Policies**:\n   - **Vrbo**: Offers more lenient cancellation policies, especially for vacation homes, which can be useful if you need flexibility due to weather or other travel plans.\n   - **Airbnb**: Has stricter cancellation policies depending on the host, so make sure to double-check before booking.\n\n### 6. **Unique Features**:\n   - **Vrbo**: Often better for larger groups or families because it tends to list larger homes and full properties.\n   - **Airbnb**: Airbnb offers \u201cExperiences,\u201d which could give you the chance to book local activities directly through the platform, such as northern lights tours or glacier hikes.\n\n### Conclusion:\n- **Vrbo** might be better if you want a secluded, fully private cabin or house with a simpler booking process and lower fees.\n- **Airbnb** could be better if you're seeking a unique stay (like a glass cabin) or you want the flexibility of both budget and high-end options, plus the added bonus of unique local experiences.\n\nGiven your preferences for a remote stay, you may want to start with **Vrbo** for the best cabin options, but also check Airbnb for any unique or alternative properties."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1789ffda-10fd-45f3-a328-f1a28524339b",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8ce90f832ce87fd5-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1789ffda-10fd-45f3-a328-f1a28524339b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3ef6594e-669c-4911-870c-6189d2ccf800",
+  "plugin_ids": null,
+  "conversation_id": "67030b64-b8ac-8009-9629-d2ed47062f5e",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67030b64-b8ac-8009-9629-d2ed47062f5e"
+}

@@ -1,0 +1,185 @@
+{
+  "title": "Apple Inquiry Clarification",
+  "create_time": 1722104435.000939,
+  "update_time": 1722104437.101057,
+  "mapping": {
+    "9224246d-7482-4c4f-96c3-bb002631361e": {
+      "id": "9224246d-7482-4c4f-96c3-bb002631361e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "5209b6b6-11d5-4b81-8aa6-3020ce2880a8"
+      ]
+    },
+    "5209b6b6-11d5-4b81-8aa6-3020ce2880a8": {
+      "id": "5209b6b6-11d5-4b81-8aa6-3020ce2880a8",
+      "message": {
+        "id": "5209b6b6-11d5-4b81-8aa6-3020ce2880a8",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9224246d-7482-4c4f-96c3-bb002631361e",
+      "children": [
+        "8d9419d3-94a6-4698-bd11-6022f00b766c"
+      ]
+    },
+    "8d9419d3-94a6-4698-bd11-6022f00b766c": {
+      "id": "8d9419d3-94a6-4698-bd11-6022f00b766c",
+      "message": {
+        "id": "8d9419d3-94a6-4698-bd11-6022f00b766c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722104435.003524,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you write an Apple"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8a9ea4ed587282f3-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5209b6b6-11d5-4b81-8aa6-3020ce2880a8",
+      "children": [
+        "6dd53939-0a3d-4ed8-b893-d4c2e9231400"
+      ]
+    },
+    "6dd53939-0a3d-4ed8-b893-d4c2e9231400": {
+      "id": "6dd53939-0a3d-4ed8-b893-d4c2e9231400",
+      "message": {
+        "id": "6dd53939-0a3d-4ed8-b893-d4c2e9231400",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722104436.040917,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8d9419d3-94a6-4698-bd11-6022f00b766c",
+          "request_id": "8a9ea4ed587282f3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8d9419d3-94a6-4698-bd11-6022f00b766c",
+      "children": [
+        "134f9d0a-0cd7-412c-b7da-afb01b251b06"
+      ]
+    },
+    "134f9d0a-0cd7-412c-b7da-afb01b251b06": {
+      "id": "134f9d0a-0cd7-412c-b7da-afb01b251b06",
+      "message": {
+        "id": "134f9d0a-0cd7-412c-b7da-afb01b251b06",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722104436.040997,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, could you please clarify what kind of Apple you are referring to? Are you asking for information on the company Apple Inc., a description of an apple fruit, or something else related to Apple?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "6dd53939-0a3d-4ed8-b893-d4c2e9231400",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8a9ea4ed587282f3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6dd53939-0a3d-4ed8-b893-d4c2e9231400",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "134f9d0a-0cd7-412c-b7da-afb01b251b06",
+  "plugin_ids": null,
+  "conversation_id": "d4c2e5c5-2623-45c2-a284-99bbcea6dde0",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "d4c2e5c5-2623-45c2-a284-99bbcea6dde0"
+}

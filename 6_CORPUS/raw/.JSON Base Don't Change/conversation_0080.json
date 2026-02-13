@@ -1,0 +1,164 @@
+{
+  "title": "Eid al-Adha Sweatshirt Translation",
+  "create_time": 1708713216.128809,
+  "update_time": 1708713247.697567,
+  "mapping": {
+    "5e112182-4b63-4c7a-bfb4-8d2c47a51666": {
+      "id": "5e112182-4b63-4c7a-bfb4-8d2c47a51666",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0eb261a5-dd06-4ee6-8d19-f2194eedf3b4"
+      ]
+    },
+    "0eb261a5-dd06-4ee6-8d19-f2194eedf3b4": {
+      "id": "0eb261a5-dd06-4ee6-8d19-f2194eedf3b4",
+      "message": {
+        "id": "0eb261a5-dd06-4ee6-8d19-f2194eedf3b4",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5e112182-4b63-4c7a-bfb4-8d2c47a51666",
+      "children": [
+        "b68985b8-9df4-4d67-9911-de0d8ff4fdcc"
+      ]
+    },
+    "b68985b8-9df4-4d67-9911-de0d8ff4fdcc": {
+      "id": "b68985b8-9df4-4d67-9911-de0d8ff4fdcc",
+      "message": {
+        "id": "b68985b8-9df4-4d67-9911-de0d8ff4fdcc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708713216.130065,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-biTcoPJxXLFqzD6PdpnbgkZs",
+              "size_bytes": 192180,
+              "width": 708,
+              "height": 1536,
+              "fovea": null,
+              "metadata": null
+            },
+            "Please translate "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "IMG_0984.jpeg",
+              "size": 192180,
+              "width": 708,
+              "height": 1536,
+              "id": "file-biTcoPJxXLFqzD6PdpnbgkZs"
+            }
+          ],
+          "request_id": "85a18ee00fbb3ad8-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0eb261a5-dd06-4ee6-8d19-f2194eedf3b4",
+      "children": [
+        "6e90cb31-6ab9-40a9-92dd-65ef9566c8ae"
+      ]
+    },
+    "6e90cb31-6ab9-40a9-92dd-65ef9566c8ae": {
+      "id": "6e90cb31-6ab9-40a9-92dd-65ef9566c8ae",
+      "message": {
+        "id": "6e90cb31-6ab9-40a9-92dd-65ef9566c8ae",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708713224.289947,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The text on the sweatshirt is Arabic, and it says \"\u0639\u064a\u062f \u0623\u0636\u062d\u0649 \u0645\u0628\u0627\u0631\u0643\" which translates to \"Blessed Eid al-Adha\". Eid al-Adha is an Islamic festival to commemorate the willingness of Ibrahim (also known as Abraham) to follow Allah's (God's) command to sacrifice his son. Muslims around the world observe this event."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "b68985b8-9df4-4d67-9911-de0d8ff4fdcc",
+          "is_complete": true,
+          "request_id": "85a18ee00fbb3ad8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b68985b8-9df4-4d67-9911-de0d8ff4fdcc",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "6e90cb31-6ab9-40a9-92dd-65ef9566c8ae",
+  "plugin_ids": null,
+  "conversation_id": "abf72de7-49a7-4ab9-b8fa-6c20e5187ee7",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "abf72de7-49a7-4ab9-b8fa-6c20e5187ee7"
+}

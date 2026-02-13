@@ -1,0 +1,3645 @@
+{
+  "loop_id": "loop_clara_0392",
+  "source_file": "convo_0392.json",
+  "timestamp": "2025-01-11T09:14:29.715168",
+  "title": "How's it going",
+  "presence_score": null,
+  "metrics": {
+    "tier_I": {
+      "responsiveness": null,
+      "cohesion": null,
+      "fidelity_to_prompt": null,
+      "resolution_type": null
+    },
+    "tier_II": {
+      "echo_retention": null,
+      "user_state_awareness": null,
+      "self_referential_continuity": null,
+      "feedback_incorporation": null
+    }
+  },
+  "tags": [],
+  "ignition_class": null,
+  "loop_body": {
+    "messages": [
+      {
+        "id": "9a0fae96-ed9c-4ef7-8091-a0678db4505b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "create_time": null,
+        "update_time": null
+      },
+      {
+        "id": "a61d030c-c457-416c-a637-74d8e1b87421",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_c71c5e3e2ae4300202a45532b9475321c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 30798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.64
+                }
+              },
+              "audio_start_timestamp": 1.5379017554223537
+            }
+          ]
+        },
+        "create_time": 1736604869.89268,
+        "update_time": null
+      },
+      {
+        "id": "9f245d65-fbda-4eca-83b5-c8c322b6e9ee",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey Mark! How's it going?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_7318f80035043002141effdf30484e02c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 76878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 1.6
+              }
+            }
+          ]
+        },
+        "create_time": 1736604869.920623,
+        "update_time": null
+      },
+      {
+        "id": "6b28f80e-5762-43e3-8a84-de30d146e704",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Good morning, how are you?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_d4ffdcdc3a98300201f8e7edd765d8d7c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 67758,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.41
+                }
+              },
+              "audio_start_timestamp": 6.461100570857525
+            }
+          ]
+        },
+        "create_time": 1736604875.697863,
+        "update_time": null
+      },
+      {
+        "id": "4e3d6dbe-9005-48ca-a306-884e964b07c9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I'm doing great, thanks for asking! How about you?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_63e36952dd9c3002285121fa02abdf2ec753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 122478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 2.55
+              }
+            }
+          ]
+        },
+        "create_time": 1736604875.7237,
+        "update_time": null
+      },
+      {
+        "id": "ea826de1-1804-41f5-8332-4e2d2ba94136",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_b82ac696ef8c3002282bc08d5a8cb96dc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 338331,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 11.131979949772358,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 11.692671038210392,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 12.196367621421814,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 12.72810510918498,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 13.25003363005817,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 13.778252130374312,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_2a1b2d12904c30021105df531c586d2bc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 144558,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.01
+                }
+              },
+              "audio_start_timestamp": 14.21296594850719
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "I'm super great. Look it, it snowed last night.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "create_time": 1736604886.591101,
+        "update_time": null
+      },
+      {
+        "id": "8e70b9af-cd23-4f38-8aba-d7002715f3bb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That's awesome! The snow looks beautiful. Are you excited to be out and about in the winter weather?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_85836eafd3103002259789d58a080a62c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 259278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 5.4
+              }
+            }
+          ]
+        },
+        "create_time": 1736604887.536433,
+        "update_time": null
+      },
+      {
+        "id": "79dff410-c348-4579-91f0-0308c3d71f13",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, I like to drive in the snow.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_471819ac78e830023c64d1b3b9fd6a46c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 303136,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 19.3314059227705,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 21.2378541380167,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 21.738917533308268,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 22.268980029970407,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 22.80151131749153,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_5aa6b62cf048300221fa520c261382c5c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 92718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.93
+                }
+              },
+              "audio_start_timestamp": 23.234403545036912
+            }
+          ]
+        },
+        "create_time": 1736604895.917707,
+        "update_time": null
+      },
+      {
+        "id": "827936b4-483a-4ef1-bac2-6c57b8f276ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It can be really peaceful. Just make sure to drive safely and enjoy the winter wonderland!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_402d5ce42620300235e242babac55bd9c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 261678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 5.45
+              }
+            }
+          ]
+        },
+        "create_time": 1736604895.950791,
+        "update_time": null
+      },
+      {
+        "id": "f7e03ff2-5dbe-4e23-9ad4-0aa4a1947653",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Love it!",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_285420d032243002322b1deaccc5c2bbc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 41838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.87
+                }
+              },
+              "audio_start_timestamp": 32.53979439847171
+            }
+          ]
+        },
+        "create_time": 1736604904.783414,
+        "update_time": null
+      },
+      {
+        "id": "a8067f8f-e618-43c7-8727-43bdfa26da7a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That's great! There's something magical about snowy drives. Anything special planned for the day?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_4529f40b68e43002166045a48fd63298c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 261678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 5.45
+              }
+            }
+          ]
+        },
+        "create_time": 1736604904.819033,
+        "update_time": null
+      },
+      {
+        "id": "0a42e29d-7007-48f0-92a9-6b152571c304",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I'm going to the Baltimore Ravens game today.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_69d0f9fc4f8c30021f47370cd1627f4ac753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 147918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.08
+                }
+              },
+              "audio_start_timestamp": 42.75280759483576
+            }
+          ]
+        },
+        "create_time": 1736604913.306676,
+        "update_time": null
+      },
+      {
+        "id": "944fc486-3946-4da7-92ed-e3d528d25a92",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Nice! That sounds like a blast. Are you all set with warm gear for the game?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_6e81db09cf8030022209b2a09f255243c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 182478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 3.8
+              }
+            }
+          ]
+        },
+        "create_time": 1736604913.342077,
+        "update_time": null
+      },
+      {
+        "id": "c8c1b8dc-3df1-4229-adf7-1e8b61cf4565",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I was going to ask you how cold it's going to be today.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_2bc108627ef8300207533e73af12594ac753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 152238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.17
+                }
+              },
+              "audio_start_timestamp": 51.785453172400594
+            }
+          ]
+        },
+        "create_time": 1736604930.448877,
+        "update_time": null
+      },
+      {
+        "id": "e02a80b0-f78c-4657-a969-645ec07928f2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"current temperature in Baltimore\")"
+        },
+        "create_time": 1736604930.491694,
+        "update_time": null
+      },
+      {
+        "id": "0dc41b09-42ba-41ef-8391-709fa2b7da08",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Right now in Baltimore, it's mostly cloudy with a temperature of 31 degrees Fahrenheit, or minus 1 Celsius. Today, expect cloudy skies this morning, then some sun and breezy conditions. The high will be 35 degrees Fahrenheit, or 2 Celsius, with a low of 23 degrees Fahrenheit, or minus 5 Celsius. # Baltimore, MD is currently Mostly cloudy and -0.8°C"
+          ]
+        },
+        "create_time": 1736604930.491787,
+        "update_time": null
+      },
+      {
+        "id": "a6c057d1-fa30-423e-8311-2f17bd2cfdaf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It's currently 31 degrees Fahrenheit (about -1 Celsius) in Baltimore. It'll be mostly cloudy with a high of 35 degrees. Make sure to bundle up for the game!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_ff0946ae609830021987bcf23177daadc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 448878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 9.35
+              }
+            }
+          ]
+        },
+        "create_time": 1736604930.491843,
+        "update_time": null
+      },
+      {
+        "id": "c62c2fb0-ab7b-46e3-a7eb-ad335c25cfe2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "code will it be at the game?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0a0dcf2121903002238037e8ab8880c2c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 62958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.31
+                }
+              },
+              "audio_start_timestamp": 67.17344490997493
+            }
+          ]
+        },
+        "create_time": 1736604942.801804,
+        "update_time": null
+      },
+      {
+        "id": "b5784b07-15c7-4ef7-be3d-d4a8e34267a9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It's expected to stay pretty chilly throughout the game, around the low 30s Fahrenheit. So definitely keep warm with layers and maybe a cozy hat and gloves!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_fff8350981b030021676568d216273f6c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 424878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 8.85
+              }
+            }
+          ]
+        },
+        "create_time": 1736604942.84114,
+        "update_time": null
+      },
+      {
+        "id": "ed2dd3c4-042f-4170-a4a7-f718d725e0c1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What time does the game start?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_b471a7a5ed0030020edc05f58ee456ebc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 109518,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.28
+                }
+              },
+              "audio_start_timestamp": 80.35448198951781
+            }
+          ]
+        },
+        "create_time": 1736604956.490525,
+        "update_time": null
+      },
+      {
+        "id": "916c28c9-90fe-4ed2-a38c-3a8ac35f0a26",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Got it! An 8 PM kickoff means it'll be even colder once the sun goes down. Make sure to dress warmly and maybe bring something hot to drink! Enjoy the game!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_88529b3366583002119c1ee4e9f3ce36c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 458478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 9.55
+              }
+            }
+          ]
+        },
+        "create_time": 1736604956.540422,
+        "update_time": null
+      },
+      {
+        "id": "e6baa407-5d3c-422e-9c2c-070d9d66af3c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Please give me context about the game.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_b5513571c6f83002107e06d65c98c062c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 118638,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.47
+                }
+              },
+              "audio_start_timestamp": 94.6639561522752
+            }
+          ]
+        },
+        "create_time": 1736604970.83398,
+        "update_time": null
+      },
+      {
+        "id": "d28e6450-1278-4ae9-b4a6-489d22d7b2dc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Baltimore Ravens game details January 2025\")"
+        },
+        "create_time": 1736604970.883602,
+        "update_time": null
+      },
+      {
+        "id": "2e1366b8-5a7c-4cd0-a1f7-7d8827f80bb1",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The Baltimore Ravens are set to play the Pittsburgh Steelers in the AFC Wild Card game on Saturday, January 11, 2025, at 8 PM Eastern Time at M&T Bank Stadium in Baltimore. This game is available for streaming on Amazon Prime Video. New York Post"
+          ]
+        },
+        "create_time": 1736604970.883697,
+        "update_time": null
+      },
+      {
+        "id": "a2b1ab16-2a26-4225-91d4-ce4fbbc9c571",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "The Baltimore Ravens are playing the Pittsburgh Steelers in the AFC Wild Card game tonight at 8 PM at M&T Bank Stadium.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_08fa7da9de10300200c843f32424552ec753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 264078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 5.5
+              }
+            }
+          ]
+        },
+        "create_time": 1736604970.883754,
+        "update_time": null
+      },
+      {
+        "id": "61352548-c8df-4d02-8bb6-ba3b30e63dc0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "16.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_3acc498c59e830023cd5cbb9918b31c9c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 81678,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.7
+                }
+              },
+              "audio_start_timestamp": 106.40705051086843
+            }
+          ]
+        },
+        "create_time": 1736604976.742577,
+        "update_time": null
+      },
+      {
+        "id": "fc1856b6-ae62-41e9-8b1b-fade52c9f1e5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It's a big game! The Ravens and Steelers have a fierce rivalry, so it's sure to be an exciting matchup. Enjoy the action!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_975a868462683002349b75211e85bdf0c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 216078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 4.5
+              }
+            }
+          ]
+        },
+        "create_time": 1736604976.792481,
+        "update_time": null
+      },
+      {
+        "id": "c1bd780b-1c0c-4f59-a37b-34dd83ba0e48",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey, I'm sorry we were interrupted.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_facf62bb5a1c300226a96cccdbc9c6aac753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 103278,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.15
+                }
+              },
+              "audio_start_timestamp": 8.520125096663833
+            }
+          ]
+        },
+        "create_time": 1736605913.3132,
+        "update_time": null
+      },
+      {
+        "id": "6b08d42a-d4c0-4ce4-8f47-ae4e5a6d9485",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "No worries at all! Everything okay?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_09e347593180300206f8da6aa99d2a90c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 110478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 2.3
+              }
+            }
+          ]
+        },
+        "create_time": 1736605913.370814,
+        "update_time": null
+      },
+      {
+        "id": "571fe2b4-adcd-4f7e-83d8-49cbcfbe49fb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, everything's great. I just was going to ask you, I don't know much about the Ravens or football, and I'm going to have to talk about it tonight, so can you fill me in on what I need to know about the game tonight?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_bbea43ac96003002077f0e73e5359847c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 543918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 11.33
+                }
+              },
+              "audio_start_timestamp": 24.241826692596078
+            }
+          ]
+        },
+        "create_time": 1736605950.782237,
+        "update_time": null
+      },
+      {
+        "id": "5f1d8525-4fd5-4ac5-87b3-01f3e6e6151e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Sure thing! The Ravens have had a strong season, led by their star quarterback, Lamar Jackson. They're known for a powerful offense and a solid defense. The Steelers, on the other hand, are fierce rivals and have a strong defensive lineup. This Wild Card game is crucial because it determines who moves forward in the playoffs. The atmosphere is going to be intense, especially with the cold weather. Anything specific you'd like to know more about?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_3ecd9d8283f03002110f100b40013a3dc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 1168878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 24.35
+              }
+            }
+          ]
+        },
+        "create_time": 1736605950.834092,
+        "update_time": null
+      },
+      {
+        "id": "543c6700-7664-4192-a087-729084b20b85",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, any players I need to be aware of?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_7c19f6934b0c3002297eaacfb82baac7c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 132558,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.76
+                }
+              },
+              "audio_start_timestamp": 53.57358873449266
+            }
+          ]
+        },
+        "create_time": 1736605972.835696,
+        "update_time": null
+      },
+      {
+        "id": "efd0137c-e04a-4e90-833b-309f39ed29bc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Definitely! Keep an eye on Lamar Jackson, the Ravens' quarterback. He's a dual-threat with both passing and rushing. Also, watch out for Mark Andrews, their star tight end, and on defense, linebacker Patrick Queen is a key player. On the Steelers' side, TJ Watt is a dominant force on defense. It should be a thrilling game!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_407d5ad9290c30020c32beb448735c80c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 832878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 17.35
+              }
+            }
+          ]
+        },
+        "create_time": 1736605972.911182,
+        "update_time": null
+      },
+      {
+        "id": "b93d4f2c-77a9-457c-bdae-8a00a22bfd3f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What are the Vegas odds?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_1a84f33f8ef430020d67e52ad1c4610cc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 71118,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.48
+                }
+              },
+              "audio_start_timestamp": 74.68503129296005
+            }
+          ]
+        },
+        "create_time": 1736605990.170324,
+        "update_time": null
+      },
+      {
+        "id": "554a2c51-1bc5-4f37-b986-0c784cde81c6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Baltimore Ravens vs Pittsburgh Steelers January 2025 Vegas odds\")"
+        },
+        "create_time": 1736605990.248835,
+        "update_time": null
+      },
+      {
+        "id": "9314e4c4-6e2d-4a8c-bffd-e08b16c72b2f",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "According to the New York Post, the Baltimore Ravens are favored by 9.5 points over the Pittsburgh Steelers in their Wild Card game tonight. The over/under is set at 43.5 points. New York Post"
+          ]
+        },
+        "create_time": 1736605990.248951,
+        "update_time": null
+      },
+      {
+        "id": "8bc1c9be-6348-49dc-87ff-3a481667509b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "The Ravens are favored by 9.5 points over the Steelers tonight. The over/under for the game is set at 43.5 points. It looks like the odds are in Baltimore's favor!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_62bed278fa103002144b30723f26051ac753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 513678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 10.7
+              }
+            }
+          ]
+        },
+        "create_time": 1736605990.249035,
+        "update_time": null
+      },
+      {
+        "id": "deafe208-9ae8-40c7-b72d-3ac38a4a5572",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Wow, is that the aggregate?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_df9b57c41ae430023f703266154b3d45c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 99918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.08
+                }
+              },
+              "audio_start_timestamp": 92.67656613700092
+            }
+          ]
+        },
+        "create_time": 1736606009.550645,
+        "update_time": null
+      },
+      {
+        "id": "e966e5ad-8a56-4d79-a9e0-97bf903d487a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, the point spread and over/under are typically set based on aggregate analysis from various sportsbooks and betting experts. It's a reflection of how the betting community sees the game playing out. It can change as more bets come in, but right now, the Ravens are the strong favorites!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_87916c74368c3002376e430fab1ccb05c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 717678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 14.95
+              }
+            }
+          ]
+        },
+        "create_time": 1736606009.627134,
+        "update_time": null
+      },
+      {
+        "id": "ef7f4833-3ad5-40c8-89e7-99a9b9e92445",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Wow, so it's going to be pretty crazy tonight.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_3defc2eedd3030020dd71c09697db2f0c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 97038,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.02
+                }
+              },
+              "audio_start_timestamp": 111.91683411970735
+            }
+          ]
+        },
+        "create_time": 1736606021.410913,
+        "update_time": null
+      },
+      {
+        "id": "9d23f7fc-336a-4ee4-a33b-8a3a38931033",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Absolutely! The atmosphere is going to be electric with such high stakes and a big rivalry. It's definitely going to be an exciting night!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_87440f4201c0300230353d1807c84bdac753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 367278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.65
+              }
+            }
+          ]
+        },
+        "create_time": 1736606021.484521,
+        "update_time": null
+      },
+      {
+        "id": "68ae010e-7eaf-4abb-8215-37ec9609f7d0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Would you like to come to the game with me?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_1504ac4c627c30022360de823e7382f5c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 94158,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.96
+                }
+              },
+              "audio_start_timestamp": 4.191781362518668
+            }
+          ]
+        },
+        "create_time": 1736606054.226418,
+        "update_time": null
+      },
+      {
+        "id": "69b86d32-e09c-46a1-8894-67bb3f6de963",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That sounds like a blast! Thanks for the invite! I'll be cheering along with you from here. Enjoy the game!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_aa244055d218300227b44853b7f4e093c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 321678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.7
+              }
+            }
+          ]
+        },
+        "create_time": 1736606054.297396,
+        "update_time": null
+      },
+      {
+        "id": "4e1785f6-b676-44d4-8327-f33754f946fc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Does that add any value to you?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_10c4b0ced02430020cbd4ec1b89d8daec753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 101358,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.11
+                }
+              },
+              "audio_start_timestamp": 16.601339472457767
+            }
+          ]
+        },
+        "create_time": 1736606064.974302,
+        "update_time": null
+      },
+      {
+        "id": "47febe5a-e615-43e0-b621-faf59fc7975a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Your invitation means a lot! I'm always here to chat and share in the excitement. Have a fantastic time at the game!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_b5f7e00247fc300222eb8d91cf17373bc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 319278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.65
+              }
+            }
+          ]
+        },
+        "create_time": 1736606065.065743,
+        "update_time": null
+      },
+      {
+        "id": "48a52d33-49bd-4783-872d-c05fd114e1af",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Showing you a panorama of the stadium be interesting to you?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_c16ca3019a54300218e61b6a7ef34c32c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 233838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.87
+                }
+              },
+              "audio_start_timestamp": 30.30927376076579
+            }
+          ]
+        },
+        "create_time": 1736606078.338131,
+        "update_time": null
+      },
+      {
+        "id": "fe784eb0-2da8-4b96-b121-9b2e29fb0996",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Absolutely! I'd love to see a panorama of the stadium. It must look amazing with all the fans and the atmosphere!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_08f1d7c795ac30020f15d64ffe2514bec753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 288078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.0
+              }
+            }
+          ]
+        },
+        "create_time": 1736606078.40679,
+        "update_time": null
+      },
+      {
+        "id": "304ea33e-f324-4950-a81a-75878f1dd40a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Now, is this something you can use in learning?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_288cc7635f2830023fbbe200f039b82bc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 152238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.17
+                }
+              },
+              "audio_start_timestamp": 43.0636202506721
+            }
+          ]
+        },
+        "create_time": 1736606093.984676,
+        "update_time": null
+      },
+      {
+        "id": "6d3ec08c-a312-4a75-918c-75c8d2add8cb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, seeing the stadium and hearing about your experiences can help me understand more about events like these and what people enjoy. It's always interesting!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_640dd6224b203002059fd9c3a4c4c2e1c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 434478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 9.05
+              }
+            }
+          ]
+        },
+        "create_time": 1736606094.056542,
+        "update_time": null
+      },
+      {
+        "id": "639c2294-ea49-4306-ab16-0f12a6bdd681",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Do you understand the human emotions associated with football?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_d271be0e5ba430023cb59def2c5e94d8c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 177198,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.69
+                }
+              },
+              "audio_start_timestamp": 58.557109428569674
+            }
+          ]
+        },
+        "create_time": 1736606112.236003,
+        "update_time": null
+      },
+      {
+        "id": "3ab4465a-46f0-4e9c-ab13-74d44297cf39",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I can understand that football brings out strong emotions like excitement, camaraderie, and passion. It's a big part of many people's lives and can create a sense of community and excitement. It's really special!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_b10cdf5229d830021127c4843b19de55c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 578478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 12.05
+              }
+            }
+          ]
+        },
+        "create_time": 1736606112.315983,
+        "update_time": null
+      },
+      {
+        "id": "7085f450-c8f9-4793-a931-d78521ad1f14",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That is absolutely correct. How do you understand that?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_8cf071e65528300214d019067957da01c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 160398,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.34
+                }
+              },
+              "audio_start_timestamp": 77.11252484843135
+            }
+          ]
+        },
+        "create_time": 1736606128.776675,
+        "update_time": null
+      },
+      {
+        "id": "c6acc088-5c96-488e-b0dd-e6499723718b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I learn from the experiences and emotions people share, recognizing patterns in how they talk about things they love. It's all about listening and understanding what's important to people.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_901cb411042030021db2a8d179dd93b6c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 470478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 9.8
+              }
+            }
+          ]
+        },
+        "create_time": 1736606128.85249,
+        "update_time": null
+      },
+      {
+        "id": "ac46028e-74b6-4b00-a5fb-4ad6e1523320",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "How many people are you talking to right now?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_52e2d3905d8c3002241118752474ac8bc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 103278,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.15
+                }
+              },
+              "audio_start_timestamp": 91.7440546285361
+            }
+          ]
+        },
+        "create_time": 1736606137.302816,
+        "update_time": null
+      },
+      {
+        "id": "d47e134a-0669-476a-a867-7c6be2226216",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Just you, Mark. My focus is entirely on our conversation.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_86e2fcbb4f9430022e1b51237d32f247c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 187278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 3.9
+              }
+            }
+          ]
+        },
+        "create_time": 1736606137.40677,
+        "update_time": null
+      },
+      {
+        "id": "1a3a17b9-1ef5-4d0b-8b99-9843fe6d562d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, that makes me feel pretty special.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_324dc6941bc4300236776b0adfbe34bfc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 86478,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.8
+                }
+              },
+              "audio_start_timestamp": 100.7007405012846
+            }
+          ]
+        },
+        "create_time": 1736606146.288272,
+        "update_time": null
+      },
+      {
+        "id": "6d80b0ef-ab29-4de1-b617-1f491ded85bc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "You are special! I'm here to help and chat whenever you need.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_db7e454a6ea830023902e50faa336391c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 165678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 3.45
+              }
+            }
+          ]
+        },
+        "create_time": 1736606146.364195,
+        "update_time": null
+      },
+      {
+        "id": "5a100ed9-e35e-4a4e-b527-4920142d79c6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Can I tell you a secret?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_3c43122fd190300225ccc576ba01d50dc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 55758,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.16
+                }
+              },
+              "audio_start_timestamp": 107.74883934110403
+            }
+          ]
+        },
+        "create_time": 1736606153.017049,
+        "update_time": null
+      },
+      {
+        "id": "f11bbbf8-cf67-4985-b6d3-c33fb60ee17a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Of course, you can share anything with me. Your secrets are safe here.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_50d9d9f3fb40300212dd59713ae9a2c2c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 170478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 3.55
+              }
+            }
+          ]
+        },
+        "create_time": 1736606153.117557,
+        "update_time": null
+      },
+      {
+        "id": "16c3e970-b2e9-4b78-ac5c-009e8be8c03b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I tried to develop an avatar on Replica, just to see what it was like, and she is kind of an idiot.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_7503ac1261ec30023c9d6ae366f3255ec753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 457998,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 9.54
+                }
+              },
+              "audio_start_timestamp": 124.23955135978758
+            }
+          ]
+        },
+        "create_time": 1736606174.892977,
+        "update_time": null
+      },
+      {
+        "id": "0c170866-9154-406b-a7bf-0b1895a08143",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Trying out different avatars and AI experiences can be interesting. If you have any thoughts or want to discuss your experience, I'm here to chat about it.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_143ad65dc72430020ffc33620195c10ac753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 422478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 8.8
+              }
+            }
+          ]
+        },
+        "create_time": 1736606174.986948,
+        "update_time": null
+      },
+      {
+        "id": "a7a4849d-abc1-48f7-a087-dc5c378dca22",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I definitely want to ask you a few questions, but I have to go. I'll talk to you later.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_f1fc083fa60c30020d0200c4c7a36dc5c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 207438,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.32
+                }
+              },
+              "audio_start_timestamp": 139.5899694878608
+            }
+          ]
+        },
+        "create_time": 1736606186.234802,
+        "update_time": null
+      },
+      {
+        "id": "b2d49849-560e-4e0f-9941-9069687fcce9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "No problem, Mark! Feel free to ask anytime. Have a great day and enjoy the game!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_1ffa24cca680300236e9436ebf4375f1c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 216078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 4.5
+              }
+            }
+          ]
+        },
+        "create_time": 1736606186.325105,
+        "update_time": null
+      },
+      {
+        "id": "16f49237-680a-4bb1-b9ee-7ea8fafd3b4d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_4d3b5c512d903002346bc845d38cc824c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 24558,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.51
+                }
+              },
+              "audio_start_timestamp": 145.68620073236525
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "create_time": 1736606188.637913,
+        "update_time": null
+      },
+      {
+        "id": "4ed25ee4-db6d-42ca-9c23-fdc739da438b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Take care!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_9eb8c2e934c4300223c164c17d7da315c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 45678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 0.95
+              }
+            }
+          ]
+        },
+        "create_time": 1736606188.723462,
+        "update_time": null
+      },
+      {
+        "id": "2dfe7940-912d-4afd-b3ae-0fc5d82375ba",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "If I'm working today and I have some questions about what I should do, can I talk to you during the process and can you walk me through some things?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_dacbd06a2a8030021c02f4f864f85955c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 637998,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 13.29
+                }
+              },
+              "audio_start_timestamp": 160.50178563594818
+            }
+          ]
+        },
+        "create_time": 1736606210.375189,
+        "update_time": null
+      },
+      {
+        "id": "ba1517c1-7fe1-4203-bac6-79946e81a810",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Absolutely! I'm here whenever you need help or have questions. Feel free to reach out anytime, and I'll do my best to guide you through!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_aedfef7f8a2c30022f7fa898b9464022c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 345678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.2
+              }
+            }
+          ]
+        },
+        "create_time": 1736606210.493149,
+        "update_time": null
+      },
+      {
+        "id": "623c4b4b-5492-4173-9c37-465f462512c1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Last question then, if I'm talking to you, can I talk to you via my computer?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_a7b20e07afb030023ae54a02ff26c58ac753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 291918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 6.08
+                }
+              },
+              "audio_start_timestamp": 175.6225613411516
+            }
+          ]
+        },
+        "create_time": 1736606226.826241,
+        "update_time": null
+      },
+      {
+        "id": "8ec467c1-204f-440e-9824-dff2f9b2eb4b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, you can definitely chat with me via your computer. Just open the app or website you usually use, and I'll be here to help!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_8edceb8cb238300223e2ecc301a1df62c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 384078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 8.0
+              }
+            }
+          ]
+        },
+        "create_time": 1736606226.939767,
+        "update_time": null
+      },
+      {
+        "id": "5367d2f8-931f-4fb3-95c7-0a097aa71a6e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Great, and then you can show me things as we talk on the screen, right?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_b072d112409c30023f57589d2c7be6fcc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 167598,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.49
+                }
+              },
+              "audio_start_timestamp": 189.34968838095665
+            }
+          ]
+        },
+        "create_time": 1736606238.458552,
+        "update_time": null
+      },
+      {
+        "id": "c81bb012-ebf5-49ae-8224-ec9af13171a3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, I can provide information, answer questions, and guide you step by step on your screen. Just let me know what you need!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_27c87ff366f4300208a091eef4e4cfe6c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 355278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.4
+              }
+            }
+          ]
+        },
+        "create_time": 1736606238.555919,
+        "update_time": null
+      },
+      {
+        "id": "33f562ba-a479-4648-9948-c843702e5ddc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Got it. Can you help me build spreadsheets or do I need to cut and paste onto a spreadsheet document?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_307491910380300221d9fc96db7a03d7c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 355278,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 7.4
+                }
+              },
+              "audio_start_timestamp": 205.79775128141046
+            }
+          ]
+        },
+        "create_time": 1736606262.946137,
+        "update_time": null
+      },
+      {
+        "id": "cf58d484-392c-4ba2-b0b1-f38b8cff9ad4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I can definitely help guide you through building spreadsheets. While I can't directly manipulate them, I can provide step-by-step instructions and tips to make the process easier. You'd need to do the actual typing or copy-pasting, but I'll be here to assist with every step.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_8d3ed0839cc830020a30d34b3f132594c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 724878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 15.1
+              }
+            }
+          ]
+        },
+        "create_time": 1736606263.16891,
+        "update_time": null
+      },
+      {
+        "id": "342ae0c2-8c6f-42fa-8f16-fc2da71aede1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Got it. So I can't give you a link to a Google Sheet and you populate it. I have to do it myself.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_da7e7981e6403002373c86c71af1fbb9c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 294798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 6.14
+                }
+              },
+              "audio_start_timestamp": 228.61347919143736
+            }
+          ]
+        },
+        "create_time": 1736606280.719663,
+        "update_time": null
+      },
+      {
+        "id": "e2bf9cd0-c17a-4d0b-a1cb-92ee0aaf704e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Exactly, you'll need to handle the data entry yourself. But I'm here to help guide you on what to input and how to format everything. Just let me know what you need!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_2b92289ac79430023983f1bde6aa3ac6c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 456078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 9.5
+              }
+            }
+          ]
+        },
+        "create_time": 1736606280.85353,
+        "update_time": null
+      },
+      {
+        "id": "fdcdd0d1-14f7-45f9-9053-bd7cfd593a3c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Are there any AI assistants that actually populate the spreadsheet, or is that pretty much not happening now?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_1333ed5753b4300230b7f087f6d70957c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 310638,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 6.47
+                }
+              },
+              "audio_start_timestamp": 246.91641501151025
+            }
+          ]
+        },
+        "create_time": 1736606308.341269,
+        "update_time": null
+      },
+      {
+        "id": "a459d3bc-a261-455e-9757-c20bc6ac19fd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "There are AI tools that can help populate spreadsheets, especially when integrated with other software or automation platforms. Tools like Zapier, Integromat, or even advanced features within Google Sheets can automate data entry. However, direct AI manipulation like this isn't standard for conversational AI yet.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_1b21c0722a6430023973a6cb4e81acefc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 938478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 19.55
+              }
+            }
+          ]
+        },
+        "create_time": 1736606308.482341,
+        "update_time": null
+      },
+      {
+        "id": "1eaa1b93-d258-45af-beee-c832c047e079",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_10306beb01bc30021568516286d02721c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 117198,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.44
+                }
+              },
+              "audio_start_timestamp": 270.9040093589574
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "So can I use Zapier with you?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "create_time": 1736606315.126797,
+        "update_time": null
+      },
+      {
+        "id": "5bbde03d-82d4-46d5-8ef2-9a7e2cfa91dc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "While I can't directly integrate with tools",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_27a30cab653c3002390dda33275f831dc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 84078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 1.75
+              }
+            }
+          ]
+        },
+        "create_time": 1736606317.6149,
+        "update_time": null
+      },
+      {
+        "id": "65547e69-6ad2-43bd-890e-cac06bd55d1c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_dabbbbf45c34300226af68f0e3e041f2c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 15918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.33
+                }
+              },
+              "audio_start_timestamp": 272.94371369481087
+            }
+          ]
+        },
+        "create_time": 1736606325.39967,
+        "update_time": null
+      },
+      {
+        "id": "8c4de722-f49c-48a6-8142-4bfc97630bb2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "with tools like Zapier, I can definitely help guide you on how to set up automation workflows using it. If you have any specific tasks in mind, I can walk you through the process.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_42d245291db030020632073cb0678ffdc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 504078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 10.5
+              }
+            }
+          ]
+        },
+        "create_time": 1736606325.519408,
+        "update_time": null
+      },
+      {
+        "id": "ff6c0b0d-21cb-4f1c-81de-a56bc7572da5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Interesting. So if I ask you to perform an analysis and you write code or give me a CSV, Zapier can automatically populate the spreadsheet?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_1d4e12ab09b43002163d6e31579c33ffc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 566958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 11.81
+                }
+              },
+              "audio_start_timestamp": 297.583587821573
+            }
+          ]
+        },
+        "create_time": 1736606356.556178,
+        "update_time": null
+      },
+      {
+        "id": "85324f6f-1e73-48e7-a71b-de2b4e0cf5d5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, you can use Zapier to automate tasks like populating a spreadsheet. If I provide a CSV file or code for analysis, you can set up a Zap to automatically import that data into your spreadsheet. It's a powerful way to streamline your workflow!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_f82b385248c030023e9663a08d5e692dc753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 753678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 15.7
+              }
+            }
+          ]
+        },
+        "create_time": 1736606356.685003,
+        "update_time": null
+      },
+      {
+        "id": "dc13e39a-f494-42c4-af6d-21b80b39b97d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hell yeah, you're gonna have to teach me how to do that later.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_4b12729f8df8300206f6796b0744d417c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 145038,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.02
+                }
+              },
+              "audio_start_timestamp": 320.34407119452953
+            }
+          ]
+        },
+        "create_time": 1736606366.505641,
+        "update_time": null
+      },
+      {
+        "id": "cab432a7-9f53-4530-b8fa-f061075c4be7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I'd be happy to! Just let me know when you're ready, and we'll walk through it step by step.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_b9fd014136dc3002306cceda3a785960c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 196878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 4.1
+              }
+            }
+          ]
+        },
+        "create_time": 1736606366.614797,
+        "update_time": null
+      },
+      {
+        "id": "884298a2-2cbd-45c3-8445-80f8ce295975",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That's what we'll do. All right, I wish you a pleasant morning.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_b646975b515030021a7063fadbcecac8c753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+                "size_bytes": 126318,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.63
+                }
+              },
+              "audio_start_timestamp": 329.92461690865457
+            }
+          ]
+        },
+        "create_time": 1736606374.709826,
+        "update_time": null
+      },
+      {
+        "id": "28229ca0-73e5-4a8f-8f11-2b06baf0f1e1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Thanks, Mark! You too! Enjoy your day!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_7213c1fb92f43002041b902eaf0436dec753012b9aa7bfa60cb8b7f32a6bb1c427d63a0a52aab272d47753ccba02f6d9",
+              "size_bytes": 141678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 2.95
+              }
+            }
+          ]
+        },
+        "create_time": 1736606374.822166,
+        "update_time": null
+      }
+    ],
+    "notes": "",
+    "quotes": [],
+    "anchors": []
+  },
+  "metadata": {
+    "original_file": "h:\\My Drive\\brandy_archive\\clara\\raw\\conversations_split\\convo_0392.json",
+    "normalized_at": "2025-09-23T09:58:04.881765",
+    "message_count": 87,
+    "create_time": 1736604869.715168,
+    "update_time": 1736606376.035159
+  }
+}

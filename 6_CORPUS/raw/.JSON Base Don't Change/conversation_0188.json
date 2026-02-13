@@ -1,0 +1,185 @@
+{
+  "title": "Clean Foam Off Fingers",
+  "create_time": 1717971315.993084,
+  "update_time": 1717971322.473047,
+  "mapping": {
+    "a38001d4-6b66-4163-a1f4-6521f1ca8f81": {
+      "id": "a38001d4-6b66-4163-a1f4-6521f1ca8f81",
+      "message": null,
+      "parent": null,
+      "children": [
+        "f5d45841-9e82-4866-b916-d45fc6d3a36f"
+      ]
+    },
+    "f5d45841-9e82-4866-b916-d45fc6d3a36f": {
+      "id": "f5d45841-9e82-4866-b916-d45fc6d3a36f",
+      "message": {
+        "id": "f5d45841-9e82-4866-b916-d45fc6d3a36f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a38001d4-6b66-4163-a1f4-6521f1ca8f81",
+      "children": [
+        "760cb4ef-602f-4cc0-8bdf-7782108e8c3f"
+      ]
+    },
+    "760cb4ef-602f-4cc0-8bdf-7782108e8c3f": {
+      "id": "760cb4ef-602f-4cc0-8bdf-7782108e8c3f",
+      "message": {
+        "id": "760cb4ef-602f-4cc0-8bdf-7782108e8c3f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717971315.99643,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do I clean spray foam insulation off of my fingers?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "89147ab3afcb174f-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f5d45841-9e82-4866-b916-d45fc6d3a36f",
+      "children": [
+        "8bd4f9c0-4458-4ce1-ba62-c8fe797d67e4"
+      ]
+    },
+    "8bd4f9c0-4458-4ce1-ba62-c8fe797d67e4": {
+      "id": "8bd4f9c0-4458-4ce1-ba62-c8fe797d67e4",
+      "message": {
+        "id": "8bd4f9c0-4458-4ce1-ba62-c8fe797d67e4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717971321.906213,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "760cb4ef-602f-4cc0-8bdf-7782108e8c3f",
+          "request_id": "89147ab3afcb174f-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "760cb4ef-602f-4cc0-8bdf-7782108e8c3f",
+      "children": [
+        "b1e06de3-474a-42d6-8505-ee00ef3c2f72"
+      ]
+    },
+    "b1e06de3-474a-42d6-8505-ee00ef3c2f72": {
+      "id": "b1e06de3-474a-42d6-8505-ee00ef3c2f72",
+      "message": {
+        "id": "b1e06de3-474a-42d6-8505-ee00ef3c2f72",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717971321.906266,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To clean spray foam insulation off your fingers, follow these steps:\n\n1. **Act Quickly:** If the foam is still wet, you can try to wipe it off immediately with a paper towel or a cloth.\n\n2. **Use a Solvent:** For wet foam, you can use a solvent such as acetone (found in nail polish remover) or a specific spray foam cleaner. Be cautious with acetone as it can be harsh on the skin.\n\n3. **Warm Soapy Water:** Wash your hands with warm soapy water to remove as much of the foam as possible.\n\n4. **Pumice Stone or Abrasive Pad:** If the foam has dried, use a pumice stone or an abrasive pad to gently rub off the dried foam. Be careful not to irritate your skin.\n\n5. **Moisturize:** After removing the foam, wash your hands thoroughly with soap and water, then apply a moisturizer to soothe your skin.\n\nRemember to always wear gloves when working with spray foam insulation to prevent this issue in the future."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAA",
+          "parent_id": "8bd4f9c0-4458-4ce1-ba62-c8fe797d67e4",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "89147ab3afcb174f-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8bd4f9c0-4458-4ce1-ba62-c8fe797d67e4",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "b1e06de3-474a-42d6-8505-ee00ef3c2f72",
+  "plugin_ids": null,
+  "conversation_id": "642adcdb-7569-433e-b1f2-ce0509ed2843",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "642adcdb-7569-433e-b1f2-ce0509ed2843"
+}

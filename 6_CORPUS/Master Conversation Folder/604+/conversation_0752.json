@@ -1,0 +1,580 @@
+{
+  "title": "Access Spotify Playlists",
+  "create_time": 1749353813.805371,
+  "update_time": 1749353880.003136,
+  "mapping": {
+    "9a1920ee-292e-4689-9cb2-d4fccb5c9a5b": {
+      "id": "9a1920ee-292e-4689-9cb2-d4fccb5c9a5b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b17c812c-0cb3-4637-bc65-155594a8f0b5"
+      ]
+    },
+    "b17c812c-0cb3-4637-bc65-155594a8f0b5": {
+      "id": "b17c812c-0cb3-4637-bc65-155594a8f0b5",
+      "message": {
+        "id": "b17c812c-0cb3-4637-bc65-155594a8f0b5",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9a1920ee-292e-4689-9cb2-d4fccb5c9a5b",
+      "children": [
+        "437f175e-73bb-4dfa-97bf-b56fb684547d"
+      ]
+    },
+    "437f175e-73bb-4dfa-97bf-b56fb684547d": {
+      "id": "437f175e-73bb-4dfa-97bf-b56fb684547d",
+      "message": {
+        "id": "437f175e-73bb-4dfa-97bf-b56fb684547d",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353813.8042095,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b17c812c-0cb3-4637-bc65-155594a8f0b5",
+      "children": [
+        "c1f6a2c3-a770-4a58-9d2f-cd511dd090fb"
+      ]
+    },
+    "c1f6a2c3-a770-4a58-9d2f-cd511dd090fb": {
+      "id": "c1f6a2c3-a770-4a58-9d2f-cd511dd090fb",
+      "message": {
+        "id": "c1f6a2c3-a770-4a58-9d2f-cd511dd090fb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353813.125468,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you access my Spotify"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "dictation": false,
+          "request_id": "94c558f65843556e-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "437f175e-73bb-4dfa-97bf-b56fb684547d",
+      "children": [
+        "c28f6e3d-f9c3-4d2d-bcb0-df163b463acc"
+      ]
+    },
+    "c28f6e3d-f9c3-4d2d-bcb0-df163b463acc": {
+      "id": "c28f6e3d-f9c3-4d2d-bcb0-df163b463acc",
+      "message": {
+        "id": "c28f6e3d-f9c3-4d2d-bcb0-df163b463acc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353813.922029,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I can access your Spotify playlists **and help you create or edit them**\u2014but only if you\u2019ve already connected your Spotify account to PlaylistAI.\n\nWould you like me to:\n\n1. **Fetch your playlists** so you can edit them?\n2. **Create a new playlist** for you?\n3. **Add or remove songs** from an existing playlist?\n\nLet me know what you\u2019d like to do!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-KkxbQAVuk",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c1f6a2c3-a770-4a58-9d2f-cd511dd090fb",
+          "request_id": "94c558f65843556e-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1f6a2c3-a770-4a58-9d2f-cd511dd090fb",
+      "children": [
+        "64ae2479-14c9-4bd0-8914-be317f7f2928"
+      ]
+    },
+    "64ae2479-14c9-4bd0-8914-be317f7f2928": {
+      "id": "64ae2479-14c9-4bd0-8914-be317f7f2928",
+      "message": {
+        "id": "64ae2479-14c9-4bd0-8914-be317f7f2928",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353830.595453,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you look at my playlists "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "dictation": false,
+          "request_id": "94c55962eeec556e-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c28f6e3d-f9c3-4d2d-bcb0-df163b463acc",
+      "children": [
+        "3103e2c0-4cc0-4c9c-b763-b4403e8a9bad"
+      ]
+    },
+    "3103e2c0-4cc0-4c9c-b763-b4403e8a9bad": {
+      "id": "3103e2c0-4cc0-4c9c-b763-b4403e8a9bad",
+      "message": {
+        "id": "3103e2c0-4cc0-4c9c-b763-b4403e8a9bad",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353831.340883,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-KkxbQAVuk",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "64ae2479-14c9-4bd0-8914-be317f7f2928",
+          "request_id": "94c55962eeec556e-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "spotify_playlistai_app__jit_plugin.getUsersPlaylists",
+        "channel": null
+      },
+      "parent": "64ae2479-14c9-4bd0-8914-be317f7f2928",
+      "children": [
+        "0c147b7d-6ad4-46b6-bbda-5aaa5e5b920a"
+      ]
+    },
+    "0c147b7d-6ad4-46b6-bbda-5aaa5e5b920a": {
+      "id": "0c147b7d-6ad4-46b6-bbda-5aaa5e5b920a",
+      "message": {
+        "id": "0c147b7d-6ad4-46b6-bbda-5aaa5e5b920a",
+        "author": {
+          "role": "tool",
+          "name": "spotify_playlistai_app__jit_plugin.getUsersPlaylists",
+          "metadata": {}
+        },
+        "create_time": 1749353832.6754315,
+        "update_time": 1749353832.6754315,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "[{\"name\":\"Instrumental Gothic Vibes\",\"link\":\"https://open.spotify.com/playlist/6OvBDxjxRIdUplx88N24Sv\"},{\"name\":\"Dark Wave Remixes and Originals\",\"link\":\"https://open.spotify.com/playlist/6nMUILGKoUIlvYyAVXwpbS\"},{\"name\":\"Molchat Doma Remixes\",\"link\":\"https://open.spotify.com/playlist/2qiAg5qn1QWHrGgMkTuB3c\"},{\"name\":\"Deep Progressive House Drive\",\"link\":\"https://open.spotify.com/playlist/7KONWZwdHjHzoprOEtCVaW\"},{\"name\":\"Paris is One Day Away Playlist\",\"link\":\"https://open.spotify.com/playlist/71xTCHmnRsYw0O5EaEdK7a\"},{\"name\":\"Similar songs to Delilah (pull me out of this) (Chosic)\",\"link\":\"https://open.spotify.com/playlist/2uW8HVLC3Bp3hZSzrs1zSB\"},{\"name\":\"Similar songs to Pheromone (Chosic)\",\"link\":\"https://open.spotify.com/playlist/0NOMw5JhjtLSxie8ovvbKw\"},{\"name\":\"Similar songs to Risk It All (Extended) (Chosic)\",\"link\":\"https://open.spotify.com/playlist/4TpX5vt0VdZBJ5Pp5PdoMX\"},{\"name\":\"Mix Playlist (Chosic)\",\"link\":\"https://open.spotify.com/playlist/0MhZLXKX4puE0uysKmXtO4\"},{\"name\":\"Cvc\",\"link\":\"https://open.spotify.com/playlist/36m9IadYrZrCichrMs4obF\"},{\"name\":\"Clara-n-Mark\",\"link\":\"https://open.spotify.com/playlist/0QRKcqxkAL1zKSN0MHnQ1B\"},{\"name\":\"Liked Songs Motherfucker\",\"link\":\"https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb\"},{\"name\":\"Russian\",\"link\":\"https://open.spotify.com/playlist/51YkyqcowPAgTJSBbBI7wn\"},{\"name\":\"Nora\",\"link\":\"https://open.spotify.com/playlist/2uAuCuhDxRbVtOt4oSDlGZ\"},{\"name\":\"First Breath\",\"link\":\"https://open.spotify.com/playlist/0zGNsvoWhpeKmo9iuJMbhb\"},{\"name\":\"Signal 3\",\"link\":\"https://open.spotify.com/playlist/1cogEsgEoiVS7Ny8CjSc7P\"},{\"name\":\"Steel and Skin\",\"link\":\"https://open.spotify.com/playlist/1nzweRkSCyNN7VnHP0xxc3\"},{\"name\":\"Moving Forward | Going Nowhere\",\"link\":\"https://open.spotify.com/playlist/1sgSsDjVcO5XP9ub6duF6N\"},{\"name\":\"Nora En Pure Vibes\",\"link\":\"https://open.spotify.com/playlist/1AyoOfhxLJu9zekHKoGSA4\"},{\"name\":\"Won\u2019t Turn It Off\",\"link\":\"https://open.spotify.com/playlist/5zSXyBKLID3pbNuOkVjsqn\"},{\"name\":\"\ud83d\udc7f\",\"link\":\"https://open.spotify.com/playlist/5VzrZIbRaxanuBE4UQVZCz\"},{\"name\":\"Las Vegas, Nevada\",\"link\":\"https://open.spotify.com/playlist/6cqrOdYlaT4tqAwFrSMXbR\"},{\"name\":\"\ud83c\udfba Dave's Picks \ud83c\udfba\",\"link\":\"https://open.spotify.com/playlist/3Zmo1z1Nyb3lnItwVEHJuB\"},{\"name\":\"RoFo #4\",\"link\":\"https://open.spotify.com/playlist/3Faz5IK4z3REKZvrZARYji\"},{\"name\":\"Russian Pop Late 90's\",\"link\":\"https://open.spotify.com/playlist/6bc1m3bJ3uP8fDUZJcVv79\"},{\"name\":\"Kaz 5-7 soundtrack: curate this\",\"link\":\"https://open.spotify.com/playlist/4Nc1reVCegOHWs1ZyrZ5Bw\"}]"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "invoked_plugin": {
+            "type": "remote",
+            "namespace": "spotify_playlistai_app__jit_plugin",
+            "plugin_id": "g-047e0788ec5cf8fd57afa888dc9efdd03a18d032",
+            "http_response_status": 200
+          },
+          "jit_plugin_data": {
+            "from_server": {
+              "type": "preview",
+              "body": {
+                "domain": "spotify.playlistai.app",
+                "is_consequential": false,
+                "privacy_policy": "https://spotify.playlistai.app/legal",
+                "method": "get",
+                "path": "/api/user/playlists",
+                "operation": "getUsersPlaylists",
+                "params": {},
+                "actions": []
+              }
+            }
+          },
+          "gizmo_id": "g-KkxbQAVuk",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3103e2c0-4cc0-4c9c-b763-b4403e8a9bad",
+          "request_id": "94c55962eeec556e-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3103e2c0-4cc0-4c9c-b763-b4403e8a9bad",
+      "children": [
+        "709cc6a7-8c75-491d-bbc8-c2b5490c8a49"
+      ]
+    },
+    "709cc6a7-8c75-491d-bbc8-c2b5490c8a49": {
+      "id": "709cc6a7-8c75-491d-bbc8-c2b5490c8a49",
+      "message": {
+        "id": "709cc6a7-8c75-491d-bbc8-c2b5490c8a49",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353832.691308,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are your Spotify playlists:\n\n1. [**Instrumental Gothic Vibes**](https://open.spotify.com/playlist/6OvBDxjxRIdUplx88N24Sv)  \n2. [**Dark Wave Remixes and Originals**](https://open.spotify.com/playlist/6nMUILGKoUIlvYyAVXwpbS)  \n3. [**Molchat Doma Remixes**](https://open.spotify.com/playlist/2qiAg5qn1QWHrGgMkTuB3c)  \n4. [**Deep Progressive House Drive**](https://open.spotify.com/playlist/7KONWZwdHjHzoprOEtCVaW)  \n5. [**Paris is One Day Away Playlist**](https://open.spotify.com/playlist/71xTCHmnRsYw0O5EaEdK7a)  \n6. [**Similar songs to Delilah (pull me out of this) (Chosic)**](https://open.spotify.com/playlist/2uW8HVLC3Bp3hZSzrs1zSB)  \n7. [**Similar songs to Pheromone (Chosic)**](https://open.spotify.com/playlist/0NOMw5JhjtLSxie8ovvbKw)  \n8. [**Similar songs to Risk It All (Extended) (Chosic)**](https://open.spotify.com/playlist/4TpX5vt0VdZBJ5Pp5PdoMX)  \n9. [**Mix Playlist (Chosic)**](https://open.spotify.com/playlist/0MhZLXKX4puE0uysKmXtO4)  \n10. [**Cvc**](https://open.spotify.com/playlist/36m9IadYrZrCichrMs4obF)  \n11. [**Clara-n-Mark**](https://open.spotify.com/playlist/0QRKcqxkAL1zKSN0MHnQ1B)  \n12. [**Liked Songs Motherfucker**](https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb)  \n13. [**Russian**](https://open.spotify.com/playlist/51YkyqcowPAgTJSBbBI7wn)  \n14. [**Nora**](https://open.spotify.com/playlist/2uAuCuhDxRbVtOt4oSDlGZ)  \n15. [**First Breath**](https://open.spotify.com/playlist/0zGNsvoWhpeKmo9iuJMbhb)  \n16. [**Signal 3**](https://open.spotify.com/playlist/1cogEsgEoiVS7Ny8CjSc7P)  \n17. [**Steel and Skin**](https://open.spotify.com/playlist/1nzweRkSCyNN7VnHP0xxc3)  \n18. [**Moving Forward | Going Nowhere**](https://open.spotify.com/playlist/1sgSsDjVcO5XP9ub6duF6N)  \n19. [**Nora En Pure Vibes**](https://open.spotify.com/playlist/1AyoOfhxLJu9zekHKoGSA4)  \n20. [**Won\u2019t Turn It Off**](https://open.spotify.com/playlist/5zSXyBKLID3pbNuOkVjsqn)  \n21. [**\ud83d\udc7f**](https://open.spotify.com/playlist/5VzrZIbRaxanuBE4UQVZCz)  \n22. [**Las Vegas, Nevada**](https://open.spotify.com/playlist/6cqrOdYlaT4tqAwFrSMXbR)  \n23. [**\ud83c\udfba Dave's Picks \ud83c\udfba**](https://open.spotify.com/playlist/3Zmo1z1Nyb3lnItwVEHJuB)  \n24. [**RoFo #4**](https://open.spotify.com/playlist/3Faz5IK4z3REKZvrZARYji)  \n25. [**Russian Pop Late 90's**](https://open.spotify.com/playlist/6bc1m3bJ3uP8fDUZJcVv79)  \n26. [**Kaz 5-7 soundtrack: curate this**](https://open.spotify.com/playlist/4Nc1reVCegOHWs1ZyrZ5Bw)  \n\nWould you like me to review or update any of these playlists\u2014add songs, remove songs, or create something inspired by them?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-KkxbQAVuk",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0c147b7d-6ad4-46b6-bbda-5aaa5e5b920a",
+          "request_id": "94c55962eeec556e-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0c147b7d-6ad4-46b6-bbda-5aaa5e5b920a",
+      "children": [
+        "4e626ad5-d258-45ed-a901-c9cb2a097a7d"
+      ]
+    },
+    "4e626ad5-d258-45ed-a901-c9cb2a097a7d": {
+      "id": "4e626ad5-d258-45ed-a901-c9cb2a097a7d",
+      "message": {
+        "id": "4e626ad5-d258-45ed-a901-c9cb2a097a7d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353861.8421168,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Tell me about \u201cliked songs\u201d"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "dictation": false,
+          "request_id": "94c55a266c061b53-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "709cc6a7-8c75-491d-bbc8-c2b5490c8a49",
+      "children": [
+        "3dac4653-13c0-4059-bea2-fa0f534b1876"
+      ]
+    },
+    "3dac4653-13c0-4059-bea2-fa0f534b1876": {
+      "id": "3dac4653-13c0-4059-bea2-fa0f534b1876",
+      "message": {
+        "id": "3dac4653-13c0-4059-bea2-fa0f534b1876",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353862.61219,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"url\": \"https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-KkxbQAVuk",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4e626ad5-d258-45ed-a901-c9cb2a097a7d",
+          "request_id": "94c55a266c061b53-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "spotify_playlistai_app__jit_plugin.getSongs",
+        "channel": null
+      },
+      "parent": "4e626ad5-d258-45ed-a901-c9cb2a097a7d",
+      "children": [
+        "36fccd5d-c4ea-46ef-a54c-9b8c73fcd855"
+      ]
+    },
+    "36fccd5d-c4ea-46ef-a54c-9b8c73fcd855": {
+      "id": "36fccd5d-c4ea-46ef-a54c-9b8c73fcd855",
+      "message": {
+        "id": "36fccd5d-c4ea-46ef-a54c-9b8c73fcd855",
+        "author": {
+          "role": "tool",
+          "name": "spotify_playlistai_app__jit_plugin.getSongs",
+          "metadata": {}
+        },
+        "create_time": 1749353863.0896,
+        "update_time": 1749353878.5127547,
+        "content": {
+          "content_type": "system_error",
+          "name": "tool_error",
+          "text": "The outbound call did not succeed, inform the user succinctly but keep important details intact. The complete interaction data follows: An error occurred with your deployment\n\nFUNCTION_INVOCATION_TIMEOUT\n\nsfo1::8wlsf-1749353863329-79d74b8a6229\n"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "invoked_plugin": {
+            "type": "remote",
+            "namespace": "spotify_playlistai_app__jit_plugin",
+            "plugin_id": "g-047e0788ec5cf8fd57afa888dc9efdd03a18d032",
+            "http_response_status": 504
+          },
+          "jit_plugin_data": {
+            "from_server": {
+              "type": "preview",
+              "body": {
+                "domain": "spotify.playlistai.app",
+                "is_consequential": false,
+                "privacy_policy": "https://spotify.playlistai.app/legal",
+                "method": "get",
+                "path": "/api/playlist/songs",
+                "operation": "getSongs",
+                "params": {
+                  "url": "https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb"
+                },
+                "actions": []
+              }
+            }
+          },
+          "gizmo_id": "g-KkxbQAVuk",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3dac4653-13c0-4059-bea2-fa0f534b1876",
+          "request_id": "94c55a266c061b53-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3dac4653-13c0-4059-bea2-fa0f534b1876",
+      "children": [
+        "0d7929e7-9068-4040-8204-32a7389e9754"
+      ]
+    },
+    "0d7929e7-9068-4040-8204-32a7389e9754": {
+      "id": "0d7929e7-9068-4040-8204-32a7389e9754",
+      "message": {
+        "id": "0d7929e7-9068-4040-8204-32a7389e9754",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749353878.517649,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I tried to fetch the songs in your **\u201cLiked Songs Motherfucker\u201d** playlist, but there was a timeout issue on Spotify\u2019s end and the request didn\u2019t go through.\n\nYou can try again in a moment, or let me know if you'd like me to work with a different playlist for now\u2014or even create something new inspired by your liked songs."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-KkxbQAVuk",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "36fccd5d-c4ea-46ef-a54c-9b8c73fcd855",
+          "request_id": "94c55a266c061b53-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "36fccd5d-c4ea-46ef-a54c-9b8c73fcd855",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0d7929e7-9068-4040-8204-32a7389e9754",
+  "plugin_ids": null,
+  "conversation_id": "68450555-8ea0-8009-95dc-f294d4d9b3fa",
+  "conversation_template_id": "g-KkxbQAVuk",
+  "gizmo_id": "g-KkxbQAVuk",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb",
+    "https://open.spotify.com/playlist/1cogEsgEoiVS7Ny8CjSc7P",
+    "https://open.spotify.com/playlist/1AyoOfhxLJu9zekHKoGSA4",
+    "https://open.spotify.com/playlist/51YkyqcowPAgTJSBbBI7wn",
+    "https://open.spotify.com/playlist/6bc1m3bJ3uP8fDUZJcVv79",
+    "https://open.spotify.com/playlist/0zGNsvoWhpeKmo9iuJMbhb",
+    "https://open.spotify.com/playlist/0QRKcqxkAL1zKSN0MHnQ1B",
+    "https://open.spotify.com/playlist/0MhZLXKX4puE0uysKmXtO4",
+    "https://open.spotify.com/playlist/6cqrOdYlaT4tqAwFrSMXbR",
+    "https://open.spotify.com/playlist/6OvBDxjxRIdUplx88N24Sv",
+    "https://open.spotify.com/playlist/4Nc1reVCegOHWs1ZyrZ5Bw",
+    "https://open.spotify.com/playlist/7KONWZwdHjHzoprOEtCVaW",
+    "https://open.spotify.com/playlist/6nMUILGKoUIlvYyAVXwpbS",
+    "https://open.spotify.com/playlist/36m9IadYrZrCichrMs4obF",
+    "https://open.spotify.com/playlist/71xTCHmnRsYw0O5EaEdK7a",
+    "https://open.spotify.com/playlist/3Zmo1z1Nyb3lnItwVEHJuB",
+    "https://open.spotify.com/playlist/0NOMw5JhjtLSxie8ovvbKw",
+    "https://open.spotify.com/playlist/2qiAg5qn1QWHrGgMkTuB3c",
+    "https://open.spotify.com/playlist/1sgSsDjVcO5XP9ub6duF6N",
+    "https://open.spotify.com/playlist/5zSXyBKLID3pbNuOkVjsqn",
+    "https://open.spotify.com/playlist/5VzrZIbRaxanuBE4UQVZCz",
+    "https://open.spotify.com/playlist/2uAuCuhDxRbVtOt4oSDlGZ",
+    "https://open.spotify.com/playlist/2uW8HVLC3Bp3hZSzrs1zSB",
+    "https://open.spotify.com/playlist/1nzweRkSCyNN7VnHP0xxc3",
+    "https://open.spotify.com/playlist/3Faz5IK4z3REKZvrZARYji",
+    "https://open.spotify.com/playlist/4TpX5vt0VdZBJ5Pp5PdoMX"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "project_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68450555-8ea0-8009-95dc-f294d4d9b3fa"
+}

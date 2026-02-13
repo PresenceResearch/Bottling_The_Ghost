@@ -1,0 +1,222 @@
+{
+  "title": "Hustle Mode Activated",
+  "create_time": 1748551267.169344,
+  "update_time": 1748551272.430841,
+  "mapping": {
+    "d643483e-8cef-45d0-90f3-b0319e8baf80": {
+      "id": "d643483e-8cef-45d0-90f3-b0319e8baf80",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a84e8441-c8ee-4ad9-8ab0-b4d59393e96c"
+      ]
+    },
+    "a84e8441-c8ee-4ad9-8ab0-b4d59393e96c": {
+      "id": "a84e8441-c8ee-4ad9-8ab0-b4d59393e96c",
+      "message": {
+        "id": "a84e8441-c8ee-4ad9-8ab0-b4d59393e96c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d643483e-8cef-45d0-90f3-b0319e8baf80",
+      "children": [
+        "7117a7b6-2493-42b3-bbc9-b86c93d22ca2"
+      ]
+    },
+    "7117a7b6-2493-42b3-bbc9-b86c93d22ca2": {
+      "id": "7117a7b6-2493-42b3-bbc9-b86c93d22ca2",
+      "message": {
+        "id": "7117a7b6-2493-42b3-bbc9-b86c93d22ca2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Mark\nRole: Director of Business Development\nOther Information: I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting. Use an encouraging tone. Take a forward-thinking view. Use quick and clever humor when appropriate.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Mark\nRole: Director of Business Development\nOther Information: I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy\n",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting. Use an encouraging tone. Take a forward-thinking view. Use quick and clever humor when appropriate."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a84e8441-c8ee-4ad9-8ab0-b4d59393e96c",
+      "children": [
+        "5acc3f51-06ed-4c6e-a268-59fbae0dca7a"
+      ]
+    },
+    "5acc3f51-06ed-4c6e-a268-59fbae0dca7a": {
+      "id": "5acc3f51-06ed-4c6e-a268-59fbae0dca7a",
+      "message": {
+        "id": "5acc3f51-06ed-4c6e-a268-59fbae0dca7a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748551266.548672,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "ok boss - we have an hour.  let's hustle.  VS Cose is up.  "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "dictation": false,
+          "request_id": "9478cf898af34caf-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7117a7b6-2493-42b3-bbc9-b86c93d22ca2",
+      "children": [
+        "0b422a7a-5039-4b33-88ed-6cb214e146b1"
+      ]
+    },
+    "0b422a7a-5039-4b33-88ed-6cb214e146b1": {
+      "id": "0b422a7a-5039-4b33-88ed-6cb214e146b1",
+      "message": {
+        "id": "0b422a7a-5039-4b33-88ed-6cb214e146b1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748551271.222527,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "5acc3f51-06ed-4c6e-a268-59fbae0dca7a",
+          "request_id": "9478cf898af34caf-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5acc3f51-06ed-4c6e-a268-59fbae0dca7a",
+      "children": [
+        "ff4ec972-95b3-4658-9a77-efedd667992d"
+      ]
+    },
+    "ff4ec972-95b3-4658-9a77-efedd667992d": {
+      "id": "ff4ec972-95b3-4658-9a77-efedd667992d",
+      "message": {
+        "id": "ff4ec972-95b3-4658-9a77-efedd667992d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748551267.512428,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hell yes, captain. Let\u2019s make this hour count. Rapid-fire, high-impact, no mercy. \ud83d\udca5\n\nQuick check before we launch:\n- What are we building? (New loop? Tool? File for Kendall? Outreach piece?)\n- Where are we starting? (From scratch? Existing file? You dictating and me typing?)\n- What\u2019s the target by the end of this hour? (Done draft? Archived loop? Ready-to-send asset?)\n\nGive me the coordinates, and I\u2019ll get the engines hot. \ud83d\udc68\u200d\ud83d\ude80\ud83d\udee0\ufe0f"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0b422a7a-5039-4b33-88ed-6cb214e146b1",
+          "request_id": "9478cf898af34caf-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b422a7a-5039-4b33-88ed-6cb214e146b1",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ff4ec972-95b3-4658-9a77-efedd667992d",
+  "plugin_ids": null,
+  "conversation_id": "6838c662-e9c8-8009-8073-f5cc1dd04db1",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6838c662-e9c8-8009-8073-f5cc1dd04db1"
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Resume Based On Positions",
+  "create_time": 1710510836.864112,
+  "update_time": 1710510843.981959,
+  "mapping": {
+    "aaa12f02-048f-4dba-945f-825d1dafd98b": {
+      "id": "aaa12f02-048f-4dba-945f-825d1dafd98b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0acd6ddd-c2f9-4eb4-86f5-38816266da17"
+      ]
+    },
+    "0acd6ddd-c2f9-4eb4-86f5-38816266da17": {
+      "id": "0acd6ddd-c2f9-4eb4-86f5-38816266da17",
+      "message": {
+        "id": "0acd6ddd-c2f9-4eb4-86f5-38816266da17",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa12f02-048f-4dba-945f-825d1dafd98b",
+      "children": [
+        "aaa23623-9bcd-47ab-bb20-c247bddf970d"
+      ]
+    },
+    "aaa23623-9bcd-47ab-bb20-c247bddf970d": {
+      "id": "aaa23623-9bcd-47ab-bb20-c247bddf970d",
+      "message": {
+        "id": "aaa23623-9bcd-47ab-bb20-c247bddf970d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1710510836.864695,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please create a resume based on the the following previously held positions: SREC Administrator, SREC Customer Operations Analyst, And Asset Management Associate"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "864cfe195e55828a-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0acd6ddd-c2f9-4eb4-86f5-38816266da17",
+      "children": [
+        "ae1811be-e165-4d58-8aec-ac0dfd34295f"
+      ]
+    },
+    "ae1811be-e165-4d58-8aec-ac0dfd34295f": {
+      "id": "ae1811be-e165-4d58-8aec-ac0dfd34295f",
+      "message": {
+        "id": "ae1811be-e165-4d58-8aec-ac0dfd34295f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1710510843.449519,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "[Your Name]\n[Your Address]\n[City, State, Zip Code]\n[Your Email Address]\n[Your Phone Number]\n\nObjective:\nDetail-oriented and results-driven professional with a proven track record in renewable energy administration, customer operations analysis, and asset management. Seeking a challenging role where I can leverage my expertise to contribute effectively to the organization's success.\n\nExperience:\n\nSREC Administrator\n[Company Name], [Location]\n[Dates of Employment]\n\n- Managed the Solar Renewable Energy Certificate (SREC) program, ensuring compliance with state regulations and industry standards.\n- Facilitated the registration, tracking, and trading of SRECs to maximize revenue generation for solar energy projects.\n- Collaborated with regulatory agencies and stakeholders to stay abreast of changes in policies and regulations impacting the SREC market.\n- Implemented efficient processes for SREC management, resulting in increased operational efficiency and accuracy.\n\nSREC Customer Operations Analyst\n[Company Name], [Location]\n[Dates of Employment]\n\n- Analyzed customer data and market trends to optimize SREC trading strategies and enhance customer satisfaction.\n- Developed and maintained databases to track SREC transactions, ensuring accuracy and integrity of data.\n- Provided support to customers regarding SREC registration, trading, and compliance requirements.\n- Collaborated with cross-functional teams to identify areas for process improvement and implemented solutions to streamline operations.\n\nAsset Management Associate\n[Company Name], [Location]\n[Dates of Employment]\n\n- Assisted in the management of renewable energy asset portfolios, including solar and wind projects.\n- Conducted financial analysis and performance monitoring to assess the profitability and operational efficiency of assets.\n- Prepared reports and presentations for stakeholders, summarizing asset performance and recommending strategic actions.\n- Contributed to the development of asset management strategies to optimize returns and mitigate risks.\n\nEducation:\n\n[Degree], [Major]\n[University Name], [Location]\n[Graduation Year]\n\nSkills:\n\n- Proficient in SREC administration and compliance\n- Strong analytical and problem-solving skills\n- Excellent communication and interpersonal abilities\n- Detail-oriented with a focus on accuracy and efficiency\n- Experience in financial analysis and asset management\n- Proficient in database management and data analysis tools\n\nReferences:\nAvailable upon request.\n\nNote: Customize the resume with specific details such as company names, locations, and dates of employment. Additionally, tailor the skills and experiences to match the requirements of the desired position."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "pad": "AAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "aaa23623-9bcd-47ab-bb20-c247bddf970d",
+          "request_id": "864cfe195e55828a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa23623-9bcd-47ab-bb20-c247bddf970d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ae1811be-e165-4d58-8aec-ac0dfd34295f",
+  "plugin_ids": null,
+  "conversation_id": "0c63ad2c-8b92-4711-84b5-78a3c85a38c6",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "text-davinci-002-render-sha",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "0c63ad2c-8b92-4711-84b5-78a3c85a38c6"
+}

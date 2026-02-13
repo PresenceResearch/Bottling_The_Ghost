@@ -1,0 +1,1012 @@
+{
+  "title": "WWII Museum Discount Options",
+  "create_time": 1722182142.520233,
+  "update_time": 1722182151.911741,
+  "mapping": {
+    "a447b4b0-171e-4133-a4ba-960735d6bc46": {
+      "id": "a447b4b0-171e-4133-a4ba-960735d6bc46",
+      "message": null,
+      "parent": null,
+      "children": [
+        "083c9477-d5fe-44dd-aa06-d7e1d64da621"
+      ]
+    },
+    "083c9477-d5fe-44dd-aa06-d7e1d64da621": {
+      "id": "083c9477-d5fe-44dd-aa06-d7e1d64da621",
+      "message": {
+        "id": "083c9477-d5fe-44dd-aa06-d7e1d64da621",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a447b4b0-171e-4133-a4ba-960735d6bc46",
+      "children": [
+        "50b81d1b-ffaf-43ff-b062-efec8cbb52db"
+      ]
+    },
+    "50b81d1b-ffaf-43ff-b062-efec8cbb52db": {
+      "id": "50b81d1b-ffaf-43ff-b062-efec8cbb52db",
+      "message": {
+        "id": "50b81d1b-ffaf-43ff-b062-efec8cbb52db",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722182142.522568,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Are there discounts available for the world war 2 museum on New Orleans "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8aa60e159d305704-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "083c9477-d5fe-44dd-aa06-d7e1d64da621",
+      "children": [
+        "c38c9118-7231-4f74-869d-ceda7888b88d"
+      ]
+    },
+    "c38c9118-7231-4f74-869d-ceda7888b88d": {
+      "id": "c38c9118-7231-4f74-869d-ceda7888b88d",
+      "message": {
+        "id": "c38c9118-7231-4f74-869d-ceda7888b88d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722182150.761422,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "50b81d1b-ffaf-43ff-b062-efec8cbb52db",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "50b81d1b-ffaf-43ff-b062-efec8cbb52db",
+      "children": [
+        "ee254c50-9219-47dd-8429-faf008140d60"
+      ]
+    },
+    "ee254c50-9219-47dd-8429-faf008140d60": {
+      "id": "ee254c50-9219-47dd-8429-faf008140d60",
+      "message": {
+        "id": "ee254c50-9219-47dd-8429-faf008140d60",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722182150.761505,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"World War 2 Museum New Orleans discounts 2024\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c38c9118-7231-4f74-869d-ceda7888b88d",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "c38c9118-7231-4f74-869d-ceda7888b88d",
+      "children": [
+        "fab0db47-db99-4cf6-a2ef-0f5e1af0951a"
+      ]
+    },
+    "fab0db47-db99-4cf6-a2ef-0f5e1af0951a": {
+      "id": "fab0db47-db99-4cf6-a2ef-0f5e1af0951a",
+      "message": {
+        "id": "fab0db47-db99-4cf6-a2ef-0f5e1af0951a",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722182150.761553,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020Louisiana Residents Offered Half-Priced Admission to The National WWII ...\u2020www.myneworleans.com\u3011\nNEW ORLEANS (press release) \u2013 Throughout July 2024, The National WWII Museum is offering half-priced general admission to Louisiana residents \u2014 the perfect opportunity for local visitors to beat the summer heat and see what\u2019s new or discover this world-renowned institution for the first time. Ranked as the top attraction in New Orleans by Tripadvisor and among National Geographic\u2019s ...\n# \u30101\u2020Louisiana Resident Discount Month | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nOur War Too: Women in Service, a groundbreaking special exhibit recognizing the efforts, struggles, and accomplishments of the nearly 350,000 American women who answered the call to serve their country during World War II, is on display in the Senator John Alario, Jr. Special Exhibition Hall through July 21, 2024.Our War Too explores the path forged by the pioneering servicewomen of World War ...\n# \u30102\u2020Louisiana Residents Discount Month | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nLocation: The National WWII Museum. 945 Magazine St, New Orleans, LA 70130. Enjoy half-price admission in July 2023. Your summer vacation destination\u2014right in your backyard. During the month of July, Louisiana residents get half off our Museum Campus Pass or Package and Expressions of America tickets with a state-issued photo ID. Beat the ...\n# \u30103\u2020Plan Your Visit | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nMuseum Exhibits and Museum Store. Open daily, 9:00 a.m. \u2013 5:00 p.m. Closed Mardi Gras Day, Thanksgiving Day, Christmas Eve, and Christmas Day. Beyond All Boundaries. Daily showings, 48-minute experience, 10:00 a.m. \u2013 4:00 p.m. Shows start at the top of the hour. The Priddy Family Freedom Theater.\n# \u30104\u2020The National WWII Museum Tickets: Save Up to 54% Off - Tripster\u2020www.tripster.com\u3011\nThe National WWII Museum Senior Discount: The National WWII Museum offers a discounted general admission rate for seniors aged 65 and over. This is a great way for older adults to enjoy the museum\u2019s exhibits and programs at a more affordable price. To receive the WW2 museum New Orleans discount, just show a valid government-issued photo ID ...\n# \u30105\u2020The National WWII Museum - Visit New Orleans\u2020www.neworleans.com\u3011\nThe War that Changed the World comes to life for all generations through powerful, personal stories from the battlefront and the home front, rare artifacts, an interactive submarine experience and the 4-D film \"Beyond All Boundaries\" featuring Tom Hanks. ... The National WWII Museum. 945 Magazine St., New Orleans, LA 70130 | P: (504) 528-1944 ...\n# \u30106\u2020Louisiana Residents Offered Half-Price Admission ... - New Orleans Magazine\u2020www.myneworleans.com\u3011\nMuseum admission and Expressions of America tickets will both start at just $10. To receive the July discount, residents must present a valid Louisiana state ID at the Museum\u2019s ticket counter. The 50 percent discount is limited to four admissions per ID. For an additional fee of $7.00 each, visitors can also choose to include the 4D film ...\n# \u30107\u2020Louisiana Residents Offered Half-Priced ... - New Orleans Magazine\u2020www.myneworleans.com\u3011\nThe 50 percent discount is limited to four admissions per ID. Tickets start at $9.50 and may be pre-purchased online. WHEN: September 1\u201330, 2022. WHERE: The National WWII Museum. 945 Magazine Street, New Orleans, LA 70130.\n# \u30108\u2020Blue Star Museums Network Program | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nBlue Star Museums Network Program. Current servicemembers and up to five family members receive free Museum admission from May 18 through September 2, 2024. Reserve Tickets. The National WWII Museum and the Blue Star Museums network have partnered to offer free admission to the nation\u2019s current military personnel\u2014including National Guard ...\n# \u30109\u2020WW2 Museum in New Orleans Deals and Offers - Free Tours by Foot\u2020freetoursbyfoot.com\u3011\nMembers of the military will receive a concession of $12.50 off general admission, making their ticket price only $19. This deal is extended to both active duty service members and veterans, as well as their spouses. In addition to that, veterans of WW2 are guaranteed free admission every day of the year. Promo Sites.\n# \u301010\u2020National WWII Museum - National WWII Museum | Groupon\u2020www.groupon.com\u3011\n945 Magazine Street, New Orleans, Louisiana. Head inside The National WWII Museum with your general admission ticket and start exploring the captivating exhibition space at leisure. The Museum tells the story of the American Experience in the war that changed the world\u2014why it was fought, how it was won, and what it means today\u2014so that all ...\n# \u301011\u2020National World War II Museum Promo Codes - New Orleans Forum\u2020www.tripadvisor.com\u3011\nAnswer 1 of 3: Have a family of five visiting New Orleans for the first time in a couple weeks. We're going to visit the National World War II museum. Looking for a discount or promo code for the admission tickets. Thank you!\n# \u301012\u2020These New Orleans attractions offer military discounts for Memorial Day ...\u2020www.gulflive.com\u3011\nThese New Orleans attractions offer military discounts for Memorial Day (and year-round) Updated: May. 21, 2024, 6:00 p.m. | Published: May. 21, 2024, 4:52 p.m. The National World War II Museum is one of many in New Orleans that offers discounts for military members and veterans. ... (updated 7/1/2024) ...\n# \u301013\u2020Home | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nThe 16th International Conference on World War II, a program of the Jenny Craig Institute for the Study of War and Democracy at The National WWII Museum, was presented by the Pritzker Military Foundation on behalf of Pritzker Military Museum & Library, with additional support from The Gen. Raymond E. Mason Jr. Distinguished Lecture Series on World War II Endowment Fund.\n# \u301014\u2020The National WWII Museum Admission Ticket New Orleans\u2020www.tripadvisor.com\u3011\nNew Orleans Tours. The National WWII Museum Admission Ticket New Orleans. By The National WWII Museum. 1,228 reviews. Recommended by 96% of travelers. See all photos. About. For something truly different from ghost tours and bar crawls in New Orleans, immerse yourself in details of the conflict that rocked the world at the National WWII Museum.\n# \u301015\u2020World War II Museum discount? - New Orleans Forum - Tripadvisor\u2020www.tripadvisor.com\u3011\nLoved for its Old World charm, zesty Creole eats, and the electric energy of Bourbon Street, New Orleans welcomes you to experience the city\u2019s eclectic history with all of your senses. This summer, Caesars New Orleans invites you to take it all in like a VIP at the debut of the Caesars Hotel Tower, Caesars Casino, and Nobu Hotel\u2014a boutique ...\n# \u301016\u2020Ww2 Museum New Orleans Coupons July 2024 - 25% OFF - HotDeals.com\u2020www.hotdeals.com\u3011\nSee Details. Great offers at Ww2 Museum New Orleans, buy anything with T-shirts and tank tops starting at $25. Save with Ww2 Museum New Orleans Promo Codes too, save big with FROM $25 on Ww2 Museum New Orleans. $6.18.\n# \u301017\u2020Special Events | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nEvery day, memories of World War II\u2014its sights and sounds, its terrors and triumphs\u2014disappear. Give Today. Open today 9:00 a.m. - 5:00 p.m. 945 Magazine Street, New Orleans, LA 70130. info@nationalww2museum.org. 504-528-1944.\n# \u301018\u2020The National WWII Museum Offers Half-Price ... - Visit New Orleans\u2020www.neworleans.com\u3011\nThe National WWII Museum 945 Magazine Street New Orleans, LA 70130 Office: 504-528-1944 X 488 Cell: 504-250-2929. Keep up with The National WWII Museum via Facebook and Twitter! The National WWII Museum is ranked the #3 museum in the nation and #8 in the world by TripAdvisor users. Read visitor reviews at TripAdvisor.com.\n# \u301019\u2020Events Calendar | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nThe Events Calendar for The National WWII Museum keeps you updated on upcoming programming at the Museum. Join us for free and premium events all year! ... Here's more World War II to discover on your drive to Dallas/Fort Worth. 2-Day. WWII Travel Itinerary - Drive Back to Houston ... New Orleans, LA 70130 info@nationalww2museum.org 504-528 ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Louisiana Residents Offered Half-Priced Admission to The National WWII ...",
+                "url": "https://www.myneworleans.com/louisiana-residents-offered-half-priced-admission-to-the-national-wwii-museum-this-july/",
+                "text": "\nNEW ORLEANS (press release) \u2013 Throughout July 2024, The National WWII Museum is offering half-priced general admission to Louisiana residents \u2014 the perfect opportunity for local visitors to beat the summer heat and see what\u2019s new or discover this world-renowned institution for the first time. Ranked as the top attraction in New Orleans by Tripadvisor and among National Geographic\u2019s ...\n",
+                "pub_date": "2024-07-28T04:02:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Louisiana Resident Discount Month | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/louisiana",
+                "text": "\nOur War Too: Women in Service, a groundbreaking special exhibit recognizing the efforts, struggles, and accomplishments of the nearly 350,000 American women who answered the call to serve their country during World War II, is on display in the Senator John Alario, Jr. Special Exhibition Hall through July 21, 2024.Our War Too explores the path forged by the pioneering servicewomen of World War ...\n",
+                "pub_date": "2024-07-20T21:22:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Louisiana Residents Discount Month | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/events-programs/events/louisiana-residents-discount-month",
+                "text": "\nLocation: The National WWII Museum. 945 Magazine St, New Orleans, LA 70130. Enjoy half-price admission in July 2023. Your summer vacation destination\u2014right in your backyard. During the month of July, Louisiana residents get half off our Museum Campus Pass or Package and Expressions of America tickets with a state-issued photo ID. Beat the ...\n",
+                "pub_date": "2024-06-14T12:42:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Plan Your Visit | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/visit/plan-your-visit",
+                "text": "\nMuseum Exhibits and Museum Store. Open daily, 9:00 a.m. \u2013 5:00 p.m. Closed Mardi Gras Day, Thanksgiving Day, Christmas Eve, and Christmas Day. Beyond All Boundaries. Daily showings, 48-minute experience, 10:00 a.m. \u2013 4:00 p.m. Shows start at the top of the hour. The Priddy Family Freedom Theater.\n",
+                "pub_date": "2024-07-27T06:02:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The National WWII Museum Tickets: Save Up to 54% Off - Tripster",
+                "url": "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+                "text": "\nThe National WWII Museum Senior Discount: The National WWII Museum offers a discounted general admission rate for seniors aged 65 and over. This is a great way for older adults to enjoy the museum\u2019s exhibits and programs at a more affordable price. To receive the WW2 museum New Orleans discount, just show a valid government-issued photo ID ...\n",
+                "pub_date": "2024-07-26T05:04:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The National WWII Museum - Visit New Orleans",
+                "url": "https://www.neworleans.com/listing/the-national-wwii-museum/4002/",
+                "text": "\nThe War that Changed the World comes to life for all generations through powerful, personal stories from the battlefront and the home front, rare artifacts, an interactive submarine experience and the 4-D film \"Beyond All Boundaries\" featuring Tom Hanks. ... The National WWII Museum. 945 Magazine St., New Orleans, LA 70130 | P: (504) 528-1944 ...\n",
+                "pub_date": "2024-07-24T07:07:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Louisiana Residents Offered Half-Price Admission ... - New Orleans Magazine",
+                "url": "https://www.myneworleans.com/louisiana-residents-offered-half-price-admission-to-the-national-wwii-museum-this-july/",
+                "text": "\nMuseum admission and Expressions of America tickets will both start at just $10. To receive the July discount, residents must present a valid Louisiana state ID at the Museum\u2019s ticket counter. The 50 percent discount is limited to four admissions per ID. For an additional fee of $7.00 each, visitors can also choose to include the 4D film ...\n",
+                "pub_date": "2024-07-01T02:00:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Louisiana Residents Offered Half-Priced ... - New Orleans Magazine",
+                "url": "https://www.myneworleans.com/louisiana-residents-offered-half-priced-admission-to-the-national-wwii-museum-this-september/",
+                "text": "\nThe 50 percent discount is limited to four admissions per ID. Tickets start at $9.50 and may be pre-purchased online. WHEN: September 1\u201330, 2022. WHERE: The National WWII Museum. 945 Magazine Street, New Orleans, LA 70130.\n",
+                "pub_date": "2024-07-08T18:01:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Blue Star Museums Network Program | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/programs/blue-star-museums-network-program",
+                "text": "\nBlue Star Museums Network Program. Current servicemembers and up to five family members receive free Museum admission from May 18 through September 2, 2024. Reserve Tickets. The National WWII Museum and the Blue Star Museums network have partnered to offer free admission to the nation\u2019s current military personnel\u2014including National Guard ...\n",
+                "pub_date": "2024-07-07T10:40:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "WW2 Museum in New Orleans Deals and Offers - Free Tours by Foot",
+                "url": "https://freetoursbyfoot.com/ww2-museum-new-orleans/",
+                "text": "\nMembers of the military will receive a concession of $12.50 off general admission, making their ticket price only $19. This deal is extended to both active duty service members and veterans, as well as their spouses. In addition to that, veterans of WW2 are guaranteed free admission every day of the year. Promo Sites.\n",
+                "pub_date": "2024-07-20T13:51:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "National WWII Museum - National WWII Museum | Groupon",
+                "url": "https://www.groupon.com/deals/viator-national-wwii-museum",
+                "text": "\n945 Magazine Street, New Orleans, Louisiana. Head inside The National WWII Museum with your general admission ticket and start exploring the captivating exhibition space at leisure. The Museum tells the story of the American Experience in the war that changed the world\u2014why it was fought, how it was won, and what it means today\u2014so that all ...\n",
+                "pub_date": "2024-07-23T05:00:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "National World War II Museum Promo Codes - New Orleans Forum",
+                "url": "https://www.tripadvisor.com/ShowTopic-g60864-i34-k11664404-National_World_War_II_Museum_Promo_Codes-New_Orleans_Louisiana.html",
+                "text": "\nAnswer 1 of 3: Have a family of five visiting New Orleans for the first time in a couple weeks. We're going to visit the National World War II museum. Looking for a discount or promo code for the admission tickets. Thank you!\n",
+                "pub_date": "2024-07-23T11:50:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "These New Orleans attractions offer military discounts for Memorial Day ...",
+                "url": "https://www.gulflive.com/entertainment/2024/05/these-new-orleans-attractions-offer-discounts-for-service-members-for-memorial-day-and-year-round.html",
+                "text": "\nThese New Orleans attractions offer military discounts for Memorial Day (and year-round) Updated: May. 21, 2024, 6:00 p.m. | Published: May. 21, 2024, 4:52 p.m. The National World War II Museum is one of many in New Orleans that offers discounts for military members and veterans. ... (updated 7/1/2024) ...\n",
+                "pub_date": "2024-07-24T19:39:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Home | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/",
+                "text": "\nThe 16th International Conference on World War II, a program of the Jenny Craig Institute for the Study of War and Democracy at The National WWII Museum, was presented by the Pritzker Military Foundation on behalf of Pritzker Military Museum & Library, with additional support from The Gen. Raymond E. Mason Jr. Distinguished Lecture Series on World War II Endowment Fund.\n",
+                "pub_date": "2024-07-26T22:23:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The National WWII Museum Admission Ticket New Orleans",
+                "url": "https://www.tripadvisor.com/AttractionProductReview-g60864-d11479090-The_National_WWII_Museum_Admission_Ticket_New_Orleans-New_Orleans_Louisiana.html",
+                "text": "\nNew Orleans Tours. The National WWII Museum Admission Ticket New Orleans. By The National WWII Museum. 1,228 reviews. Recommended by 96% of travelers. See all photos. About. For something truly different from ghost tours and bar crawls in New Orleans, immerse yourself in details of the conflict that rocked the world at the National WWII Museum.\n",
+                "pub_date": "2024-07-26T05:42:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "World War II Museum discount? - New Orleans Forum - Tripadvisor",
+                "url": "https://www.tripadvisor.com/ShowTopic-g60864-i34-k11623072-World_War_II_Museum_discount-New_Orleans_Louisiana.html",
+                "text": "\nLoved for its Old World charm, zesty Creole eats, and the electric energy of Bourbon Street, New Orleans welcomes you to experience the city\u2019s eclectic history with all of your senses. This summer, Caesars New Orleans invites you to take it all in like a VIP at the debut of the Caesars Hotel Tower, Caesars Casino, and Nobu Hotel\u2014a boutique ...\n",
+                "pub_date": "2024-07-21T06:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Ww2 Museum New Orleans Coupons July 2024 - 25% OFF - HotDeals.com",
+                "url": "https://www.hotdeals.com/coupons/ww2-museum-new-orleans-coupon",
+                "text": "\nSee Details. Great offers at Ww2 Museum New Orleans, buy anything with T-shirts and tank tops starting at $25. Save with Ww2 Museum New Orleans Promo Codes too, save big with FROM $25 on Ww2 Museum New Orleans. $6.18.\n",
+                "pub_date": "2024-07-21T22:15:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Special Events | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/events/special-events",
+                "text": "\nEvery day, memories of World War II\u2014its sights and sounds, its terrors and triumphs\u2014disappear. Give Today. Open today 9:00 a.m. - 5:00 p.m. 945 Magazine Street, New Orleans, LA 70130. info@nationalww2museum.org. 504-528-1944.\n",
+                "pub_date": "2024-07-25T19:13:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The National WWII Museum Offers Half-Price ... - Visit New Orleans",
+                "url": "https://www.neworleans.com/articles/post/the-national-wwii-museum-offers-half-price-admission/",
+                "text": "\nThe National WWII Museum 945 Magazine Street New Orleans, LA 70130 Office: 504-528-1944 X 488 Cell: 504-250-2929. Keep up with The National WWII Museum via Facebook and Twitter! The National WWII Museum is ranked the #3 museum in the nation and #8 in the world by TripAdvisor users. Read visitor reviews at TripAdvisor.com.\n",
+                "pub_date": "2024-07-23T21:49:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Events Calendar | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/events/events-calendar",
+                "text": "\nThe Events Calendar for The National WWII Museum keeps you updated on upcoming programming at the Museum. Join us for free and premium events all year! ... Here's more World War II to discover on your drive to Dallas/Fort Worth. 2-Day. WWII Travel Itinerary - Drive Back to Houston ... New Orleans, LA 70130 info@nationalww2museum.org 504-528 ...\nVisible: 0% - 100%",
+                "pub_date": "2024-07-27T09:21:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'World War 2 Museum New Orleans discounts 2024'",
+                "url": "",
+                "text": "# \u30100\u2020Louisiana Residents Offered Half-Priced Admission to The National WWII ...\u2020www.myneworleans.com\u3011\nNEW ORLEANS (press release) \u2013 Throughout July 2024, The National WWII Museum is offering half-priced general admission to Louisiana residents \u2014 the perfect opportunity for local visitors to beat the summer heat and see what\u2019s new or discover this world-renowned institution for the first time. Ranked as the top attraction in New Orleans by Tripadvisor and among National Geographic\u2019s ...\n# \u30101\u2020Louisiana Resident Discount Month | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nOur War Too: Women in Service, a groundbreaking special exhibit recognizing the efforts, struggles, and accomplishments of the nearly 350,000 American women who answered the call to serve their country during World War II, is on display in the Senator John Alario, Jr. Special Exhibition Hall through July 21, 2024.Our War Too explores the path forged by the pioneering servicewomen of World War ...\n# \u30102\u2020Louisiana Residents Discount Month | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nLocation: The National WWII Museum. 945 Magazine St, New Orleans, LA 70130. Enjoy half-price admission in July 2023. Your summer vacation destination\u2014right in your backyard. During the month of July, Louisiana residents get half off our Museum Campus Pass or Package and Expressions of America tickets with a state-issued photo ID. Beat the ...\n# \u30103\u2020Plan Your Visit | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nMuseum Exhibits and Museum Store. Open daily, 9:00 a.m. \u2013 5:00 p.m. Closed Mardi Gras Day, Thanksgiving Day, Christmas Eve, and Christmas Day. Beyond All Boundaries. Daily showings, 48-minute experience, 10:00 a.m. \u2013 4:00 p.m. Shows start at the top of the hour. The Priddy Family Freedom Theater.\n# \u30104\u2020The National WWII Museum Tickets: Save Up to 54% Off - Tripster\u2020www.tripster.com\u3011\nThe National WWII Museum Senior Discount: The National WWII Museum offers a discounted general admission rate for seniors aged 65 and over. This is a great way for older adults to enjoy the museum\u2019s exhibits and programs at a more affordable price. To receive the WW2 museum New Orleans discount, just show a valid government-issued photo ID ...\n# \u30105\u2020The National WWII Museum - Visit New Orleans\u2020www.neworleans.com\u3011\nThe War that Changed the World comes to life for all generations through powerful, personal stories from the battlefront and the home front, rare artifacts, an interactive submarine experience and the 4-D film \"Beyond All Boundaries\" featuring Tom Hanks. ... The National WWII Museum. 945 Magazine St., New Orleans, LA 70130 | P: (504) 528-1944 ...\n# \u30106\u2020Louisiana Residents Offered Half-Price Admission ... - New Orleans Magazine\u2020www.myneworleans.com\u3011\nMuseum admission and Expressions of America tickets will both start at just $10. To receive the July discount, residents must present a valid Louisiana state ID at the Museum\u2019s ticket counter. The 50 percent discount is limited to four admissions per ID. For an additional fee of $7.00 each, visitors can also choose to include the 4D film ...\n# \u30107\u2020Louisiana Residents Offered Half-Priced ... - New Orleans Magazine\u2020www.myneworleans.com\u3011\nThe 50 percent discount is limited to four admissions per ID. Tickets start at $9.50 and may be pre-purchased online. WHEN: September 1\u201330, 2022. WHERE: The National WWII Museum. 945 Magazine Street, New Orleans, LA 70130.\n# \u30108\u2020Blue Star Museums Network Program | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nBlue Star Museums Network Program. Current servicemembers and up to five family members receive free Museum admission from May 18 through September 2, 2024. Reserve Tickets. The National WWII Museum and the Blue Star Museums network have partnered to offer free admission to the nation\u2019s current military personnel\u2014including National Guard ...\n# \u30109\u2020WW2 Museum in New Orleans Deals and Offers - Free Tours by Foot\u2020freetoursbyfoot.com\u3011\nMembers of the military will receive a concession of $12.50 off general admission, making their ticket price only $19. This deal is extended to both active duty service members and veterans, as well as their spouses. In addition to that, veterans of WW2 are guaranteed free admission every day of the year. Promo Sites.\n# \u301010\u2020National WWII Museum - National WWII Museum | Groupon\u2020www.groupon.com\u3011\n945 Magazine Street, New Orleans, Louisiana. Head inside The National WWII Museum with your general admission ticket and start exploring the captivating exhibition space at leisure. The Museum tells the story of the American Experience in the war that changed the world\u2014why it was fought, how it was won, and what it means today\u2014so that all ...\n# \u301011\u2020National World War II Museum Promo Codes - New Orleans Forum\u2020www.tripadvisor.com\u3011\nAnswer 1 of 3: Have a family of five visiting New Orleans for the first time in a couple weeks. We're going to visit the National World War II museum. Looking for a discount or promo code for the admission tickets. Thank you!\n# \u301012\u2020These New Orleans attractions offer military discounts for Memorial Day ...\u2020www.gulflive.com\u3011\nThese New Orleans attractions offer military discounts for Memorial Day (and year-round) Updated: May. 21, 2024, 6:00 p.m. | Published: May. 21, 2024, 4:52 p.m. The National World War II Museum is one of many in New Orleans that offers discounts for military members and veterans. ... (updated 7/1/2024) ...\n# \u301013\u2020Home | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nThe 16th International Conference on World War II, a program of the Jenny Craig Institute for the Study of War and Democracy at The National WWII Museum, was presented by the Pritzker Military Foundation on behalf of Pritzker Military Museum & Library, with additional support from The Gen. Raymond E. Mason Jr. Distinguished Lecture Series on World War II Endowment Fund.\n# \u301014\u2020The National WWII Museum Admission Ticket New Orleans\u2020www.tripadvisor.com\u3011\nNew Orleans Tours. The National WWII Museum Admission Ticket New Orleans. By The National WWII Museum. 1,228 reviews. Recommended by 96% of travelers. See all photos. About. For something truly different from ghost tours and bar crawls in New Orleans, immerse yourself in details of the conflict that rocked the world at the National WWII Museum.\n# \u301015\u2020World War II Museum discount? - New Orleans Forum - Tripadvisor\u2020www.tripadvisor.com\u3011\nLoved for its Old World charm, zesty Creole eats, and the electric energy of Bourbon Street, New Orleans welcomes you to experience the city\u2019s eclectic history with all of your senses. This summer, Caesars New Orleans invites you to take it all in like a VIP at the debut of the Caesars Hotel Tower, Caesars Casino, and Nobu Hotel\u2014a boutique ...\n# \u301016\u2020Ww2 Museum New Orleans Coupons July 2024 - 25% OFF - HotDeals.com\u2020www.hotdeals.com\u3011\nSee Details. Great offers at Ww2 Museum New Orleans, buy anything with T-shirts and tank tops starting at $25. Save with Ww2 Museum New Orleans Promo Codes too, save big with FROM $25 on Ww2 Museum New Orleans. $6.18.\n# \u301017\u2020Special Events | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nEvery day, memories of World War II\u2014its sights and sounds, its terrors and triumphs\u2014disappear. Give Today. Open today 9:00 a.m. - 5:00 p.m. 945 Magazine Street, New Orleans, LA 70130. info@nationalww2museum.org. 504-528-1944.\n# \u301018\u2020The National WWII Museum Offers Half-Price ... - Visit New Orleans\u2020www.neworleans.com\u3011\nThe National WWII Museum 945 Magazine Street New Orleans, LA 70130 Office: 504-528-1944 X 488 Cell: 504-250-2929. Keep up with The National WWII Museum via Facebook and Twitter! The National WWII Museum is ranked the #3 museum in the nation and #8 in the world by TripAdvisor users. Read visitor reviews at TripAdvisor.com.\n# \u301019\u2020Events Calendar | The National WWII Museum | New Orleans\u2020www.nationalww2museum.org\u3011\nThe Events Calendar for The National WWII Museum keeps you updated on upcoming programming at the Museum. Join us for free and premium events all year! ... Here's more World War II to discover on your drive to Dallas/Fort Worth. 2-Day. WWII Travel Itinerary - Drive Back to Houston ... New Orleans, LA 70130 info@nationalww2museum.org 504-528 ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "World War 2 Museum New Orleans discounts 2024"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ee254c50-9219-47dd-8429-faf008140d60",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ee254c50-9219-47dd-8429-faf008140d60",
+      "children": [
+        "8070b988-0fe1-4eed-bd6a-48e670e2eeab"
+      ]
+    },
+    "8070b988-0fe1-4eed-bd6a-48e670e2eeab": {
+      "id": "8070b988-0fe1-4eed-bd6a-48e670e2eeab",
+      "message": {
+        "id": "8070b988-0fe1-4eed-bd6a-48e670e2eeab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722182150.761597,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "mclick([\"0\", \"1\", \"4\", \"8\", \"10\", \"12\"])"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "fab0db47-db99-4cf6-a2ef-0f5e1af0951a",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "fab0db47-db99-4cf6-a2ef-0f5e1af0951a",
+      "children": [
+        "bfed1f14-58f0-4ebc-926a-846648498332"
+      ]
+    },
+    "bfed1f14-58f0-4ebc-926a-846648498332": {
+      "id": "bfed1f14-58f0-4ebc-926a-846648498332",
+      "message": {
+        "id": "bfed1f14-58f0-4ebc-926a-846648498332",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722182150.761639,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.myneworleans.com/louisiana-residents-offered-half-priced-admission-to-the-national-wwii-museum-this-july/",
+          "domain": "www.myneworleans.com",
+          "text": "\nNEW ORLEANS (press release) \u2013 Throughout July 2024, The National WWII Museum is offering\u00a0\u301069\u2020half-priced general admission to Louisiana residents\u2020www.nationalww2museum.org\u3011\u00a0\u2014 the perfect opportunity for local visitors to beat the summer heat and see what\u2019s new or discover this world-renowned institution for the first time.\u00a0Ranked as the top attraction in New Orleans by Tripadvisor and among National Geographic\u2019s Best of the World cultural destinations, the museum is a must-see for history lovers of all ages and backgrounds, bringing history to life through immersive exhibits, multimedia experiences, and an expansive collection of artifacts and personal accounts.\n\nJuly is also the final month to see the museum\u2019s groundbreaking special exhibition,\u00a0\u301070\u2020Our War Too: Women in Service\u2020www.nationalww2museum.org\u3011, which honors the nearly 350,000 American women who answered the call to serve their country during World War II. On display through July 21 in the Senator John Alario, Jr. Special Exhibition Hall, this exhibit recognizes servicewomen\u2019s wartime efforts and celebrates their accomplishments, the impacts of which extend into the present day.\u00a0Our War Too\u00a0is presented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones.\u00a0\n\nIn addition to the special exhibit, the museum offers several new ways to explore the American experience in\u00a0the war that changed the world, right in your backyard. Opened in November 2023,\u00a0\u301071\u2020Liberation Pavilion\u2020www.nationalww2museum.org\u3011\u00a0is a powerful addition to the museum experience exploring the end of World War II, the Holocaust, the postwar years, and how the war continues to impact our lives today. In March, the museum opened the newly renovated\u00a0\u301072\u2020Malcolm S. Forbes Rare and Iconic Artifacts Gallery\u2020www.nationalww2museum.org\u3011, which highlights more than 50 artifacts from the museum\u2019s vast collection \u2014 both uncommon and seemingly ordinary \u2014 that are symbolic of the WWII era. At the heart of the Forbes Gallery is\u00a0\u301073\u2020Voices from the Front\u2020www.nationalww2museum.org\u3011, a new interactive experience that helps visitors connect with more than a dozen members of the WWII generation in a high-tech yet personal way. Cutting-edge technology facilitates conversations between museumgoers and veterans, Home Front workers, and other witnesses to the war \u2014 even after they are no longer with us to share their firsthand stories.\u00a0\n\nIn order to receive the Louisiana Residents Month discount, visitors must present a valid Louisiana state ID at the museum\u2019s ticketing counter July 1\u201331. For an additional fee, visitors can also choose to include\u00a0\u301074\u2020Beyond All Boundaries\u2020www.nationalww2museum.org\u3011, a 4D journey through World War II, and the new\u00a0\u301075\u2020Freedom Theater experience\u2020www.nationalww2museum.org\u3011. The 50 percent discount is limited to four admissions per ID. Visitors are encouraged to\u00a0\u301076\u2020purchase tickets online\u2020www.nationalww2museum.org\u3011.\u00a0\u301077\u2020Guided tours\u2020www.nationalww2museum.org\u3011\u00a0of\u00a0The Arsenal of Democracy\u00a0exhibit, Campaigns of Courage, and Liberation Pavilion are also available at a discounted rate of $20 throughout the summer.\n\nLouisiana residents can make the most of their staycations at\u00a0\u301078\u2020The Higgins Hotel & Conference Center\u2020www.higginshotelnola.com\u3011, the official hotel of The National WWII Museum. Located in the heart of the Arts & Warehouse District, The Higgins Hotel is an extension of the museum experience replete with era-inspired guest rooms and suites, exceptional dining, and state-of-the-art meeting and event spaces.\u00a0\u301079\u2020Discounted rooms for Louisiana residents\u2020www.hilton.com\u3011\u00a0are available throughout the summer, with rates as low as $125 per night (blackout dates apply).\n\n#### Digital Sponsors\n\n\u301038\u2020Become a MyNewOrleans.com sponsor ...\u3011\n\n### What's New\n\n\u301062\u2020Screen Time\u3011 \n\n### \u301080\u2020Movies You Need To See: Deadpool & Wolverine, Harakiri, & More\u3011\n\nDEADPOOL & WOLVERINE (R) It was bound to happen eventually. Deadpool has entered the Marvel Cinematic Universe. If you haven't...\n\n\u301018\u2020Let Them Eat Cake\u3011 \n\n### \u301081\u2020Six DIY Face Masks To Keep That Wedding Day Glow Through the Honeymoon\u3011\n\nThere\u2019s nothing like a pre-wedding spa facial to pamper you before the ceremony. Not only will a professional treatment...\n\n\u30105\u2020Food + Drink\u3011 \n\n### \u301082\u2020Tales of the Cocktail Competition Announces 2024 Spirits of the Year\u3011\n\nNEW ORLEANS (press release) \u2013 The\u00a0New Orleans Spirits Competition\u00a0(NOSC) presented by\u00a0Tales of the Cocktail Foundation\u00a0(TOTCF) is ple",
+          "title": "Louisiana Residents Offered Half-Priced Admission to\u00a0The National WWII Museum This July",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Louisiana Residents Offered Half-Priced Admission to\u00a0The National WWII Museum This July",
+                "url": "https://www.myneworleans.com/louisiana-residents-offered-half-priced-admission-to-the-national-wwii-museum-this-july/",
+                "text": "\nNEW ORLEANS (press release) \u2013 Throughout July 2024, The National WWII Museum is offering\u00a0\u301069\u2020half-priced general admission to Louisiana residents\u2020www.nationalww2museum.org\u3011\u00a0\u2014 the perfect opportunity for local visitors to beat the summer heat and see what\u2019s new or discover this world-renowned institution for the first time.\u00a0Ranked as the top attraction in New Orleans by Tripadvisor and among National Geographic\u2019s Best of the World cultural destinations, the museum is a must-see for history lovers of all ages and backgrounds, bringing history to life through immersive exhibits, multimedia experiences, and an expansive collection of artifacts and personal accounts.\n\nJuly is also the final month to see the museum\u2019s groundbreaking special exhibition,\u00a0\u301070\u2020Our War Too: Women in Service\u2020www.nationalww2museum.org\u3011, which honors the nearly 350,000 American women who answered the call to serve their country during World War II. On display through July 21 in the Senator John Alario, Jr. Special Exhibition Hall, this exhibit recognizes servicewomen\u2019s wartime efforts and celebrates their accomplishments, the impacts of which extend into the present day.\u00a0Our War Too\u00a0is presented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones.\u00a0\n\nIn addition to the special exhibit, the museum offers several new ways to explore the American experience in\u00a0the war that changed the world, right in your backyard. Opened in November 2023,\u00a0\u301071\u2020Liberation Pavilion\u2020www.nationalww2museum.org\u3011\u00a0is a powerful addition to the museum experience exploring the end of World War II, the Holocaust, the postwar years, and how the war continues to impact our lives today. In March, the museum opened the newly renovated\u00a0\u301072\u2020Malcolm S. Forbes Rare and Iconic Artifacts Gallery\u2020www.nationalww2museum.org\u3011, which highlights more than 50 artifacts from the museum\u2019s vast collection \u2014 both uncommon and seemingly ordinary \u2014 that are symbolic of the WWII era. At the heart of the Forbes Gallery is\u00a0\u301073\u2020Voices from the Front\u2020www.nationalww2museum.org\u3011, a new interactive experience that helps visitors connect with more than a dozen members of the WWII generation in a high-tech yet personal way. Cutting-edge technology facilitates conversations between museumgoers and veterans, Home Front workers, and other witnesses to the war \u2014 even after they are no longer with us to share their firsthand stories.\u00a0\n\nIn order to receive the Louisiana Residents Month discount, visitors must present a valid Louisiana state ID at the museum\u2019s ticketing counter July 1\u201331. For an additional fee, visitors can also choose to include\u00a0\u301074\u2020Beyond All Boundaries\u2020www.nationalww2museum.org\u3011, a 4D journey through World War II, and the new\u00a0\u301075\u2020Freedom Theater experience\u2020www.nationalww2museum.org\u3011. The 50 percent discount is limited to four admissions per ID. Visitors are encouraged to\u00a0\u301076\u2020purchase tickets online\u2020www.nationalww2museum.org\u3011.\u00a0\u301077\u2020Guided tours\u2020www.nationalww2museum.org\u3011\u00a0of\u00a0The Arsenal of Democracy\u00a0exhibit, Campaigns of Courage, and Liberation Pavilion are also available at a discounted rate of $20 throughout the summer.\n\nLouisiana residents can make the most of their staycations at\u00a0\u301078\u2020The Higgins Hotel & Conference Center\u2020www.higginshotelnola.com\u3011, the official hotel of The National WWII Museum. Located in the heart of the Arts & Warehouse District, The Higgins Hotel is an extension of the museum experience replete with era-inspired guest rooms and suites, exceptional dining, and state-of-the-art meeting and event spaces.\u00a0\u301079\u2020Discounted rooms for Louisiana residents\u2020www.hilton.com\u3011\u00a0are available throughout the summer, with rates as low as $125 per night (blackout dates apply).\n\n#### Digital Sponsors\n\n\u301038\u2020Become a MyNewOrleans.com sponsor ...\u3011\n\n### What's New\n\n\u301062\u2020Screen Time\u3011 \n\n### \u301080\u2020Movies You Need To See: Deadpool & Wolverine, Harakiri, & More\u3011\n\nDEADPOOL & WOLVERINE (R) It was bound to happen eventually. Deadpool has entered the Marvel Cinematic Universe. If you haven't...\n\n\u301018\u2020Let Them Eat Cake\u3011 \n\n### \u301081\u2020Six DIY Face Masks To Keep That Wedding Day Glow Through the Honeymoon\u3011\n\nThere\u2019s nothing like a pre-wedding spa facial to pamper you before the ceremony. Not only will a professional treatment...\n\n\u30105\u2020Food + Drink\u3011 \n\n### \u301082\u2020Tales of the Cocktail Competition Announces 2024 Spirits of the Year\u3011\n\nNEW ORLEANS (press release) \u2013 The\u00a0New Orleans Spirits Competition\u00a0(NOSC) presented by\u00a0Tales of the Cocktail Foundation\u00a0(TOTCF) is ple",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"0\", \"1\", \"4\", \"8\", \"10\", \"12\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8070b988-0fe1-4eed-bd6a-48e670e2eeab",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8070b988-0fe1-4eed-bd6a-48e670e2eeab",
+      "children": [
+        "9575a82b-0fd0-4641-a2d7-a346caa0a24a"
+      ]
+    },
+    "9575a82b-0fd0-4641-a2d7-a346caa0a24a": {
+      "id": "9575a82b-0fd0-4641-a2d7-a346caa0a24a",
+      "message": {
+        "id": "9575a82b-0fd0-4641-a2d7-a346caa0a24a",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722182150.761681,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.nationalww2museum.org/louisiana",
+          "domain": "www.nationalww2museum.org",
+          "text": "    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. Home \n\n[Image 14] \n\n# Louisiana Resident Discount Month\n\nLouisiana residents enjoy half-price admission during the month of July\n\n\u301073\u2020Purchase Tickets\u3011 \n\n  *   *   * \n\n## Your summer vacation destination\u2014right in your backyard.\n\nDuring the month of July, Louisiana residents get half off Museum admission tickets with a state-issued photo ID. Beat the summer heat at New Orleans\u2019s #1 attraction, and see what\u2019s new at our world-renowned institution.\n\n# Louisiana Resident Discount Pricing\n\nAdult | ~~$35~~ \u00a0 $17.50   \nSenior (65+) | ~~$32~~ \u00a0 $16   \nStudent, Child, Military, Accessibility | ~~$25~~ \u00a0 $12.50   \nMembers | FREE   \nWWII Veterans | FREE\n\n\u301073\u2020PURCHASE TICKETS\u3011\n\n[Image 15] [Image 16]\n\n  * \n\nSenator John Alario, Jr. Special Exhibition Hall\n\n# Our War Too:  \nWomen in Service\n\nOur War Too: Women in Service, a groundbreaking special exhibit recognizing the efforts, struggles, and accomplishments of the nearly 350,000 American women who answered the call to serve their country during World War II, is on display in the Senator John Alario, Jr. Special Exhibition Hall through July 21, 2024. Our War Too\u00a0explores the path forged by the pioneering servicewomen of World War II that is still being traveled by women in the American military today.\n\nPresented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones \n\nNovember 11, 2023, to July 21, 2024\n\n\u301074\u2020Learn More\u3011 \n\n\u301074\u2020 \u3011 \n\n  *   * \n\n# Hotel Discount\n\nMake the most of your stay-cation at The Higgins Hotel & Conference Center!\n\nBook now for discounted rooms for Louisiana residents throughout July, with rates* as low as $125 per night. For easy reservations, click on the booking link below.\n\n*Available on select dates through September 2024. Blackout dates apply.\n\n\u301075\u2020Book Now\u2020hil.tn\u3011 \n\n\u301075\u2020 \u2020hil.tn\u3011 \n\n  * \n\n## Summer Special for Guided Tours\n\nSpecial 2024 Summer Pricing. July through September.\n\nSummer Special for Guided Tours\n\n# Arsenal of Democracy\n\n10:00 a.m.\n\nSmall group guided tour of our exhibit on the United States entry into World War II and life on the Home Front.\n\nSummer Special Price: $20.00\n\n\u301076\u2020Learn More\u3011 \u301077\u2020Buy Tickets\u2020ticketing.nationalww2museum.org\u3011 \n\n\u301076\u2020 \u3011 \n\n  * \n\nSummer Special for Guided Tours\n\n# Campaigns of Courage\n\n10:00 a.m. & 1:00 p.m.\n\nS",
+          "title": "Louisiana Resident Discount Month | The National WWII Museum | New Orleans",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Louisiana Resident Discount Month | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/louisiana",
+                "text": "    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. Home \n\n[Image 14] \n\n# Louisiana Resident Discount Month\n\nLouisiana residents enjoy half-price admission during the month of July\n\n\u301073\u2020Purchase Tickets\u3011 \n\n  *   *   * \n\n## Your summer vacation destination\u2014right in your backyard.\n\nDuring the month of July, Louisiana residents get half off Museum admission tickets with a state-issued photo ID. Beat the summer heat at New Orleans\u2019s #1 attraction, and see what\u2019s new at our world-renowned institution.\n\n# Louisiana Resident Discount Pricing\n\nAdult | ~~$35~~ \u00a0 $17.50   \nSenior (65+) | ~~$32~~ \u00a0 $16   \nStudent, Child, Military, Accessibility | ~~$25~~ \u00a0 $12.50   \nMembers | FREE   \nWWII Veterans | FREE\n\n\u301073\u2020PURCHASE TICKETS\u3011\n\n[Image 15] [Image 16]\n\n  * \n\nSenator John Alario, Jr. Special Exhibition Hall\n\n# Our War Too:  \nWomen in Service\n\nOur War Too: Women in Service, a groundbreaking special exhibit recognizing the efforts, struggles, and accomplishments of the nearly 350,000 American women who answered the call to serve their country during World War II, is on display in the Senator John Alario, Jr. Special Exhibition Hall through July 21, 2024. Our War Too\u00a0explores the path forged by the pioneering servicewomen of World War II that is still being traveled by women in the American military today.\n\nPresented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones \n\nNovember 11, 2023, to July 21, 2024\n\n\u301074\u2020Learn More\u3011 \n\n\u301074\u2020 \u3011 \n\n  *   * \n\n# Hotel Discount\n\nMake the most of your stay-cation at The Higgins Hotel & Conference Center!\n\nBook now for discounted rooms for Louisiana residents throughout July, with rates* as low as $125 per night. For easy reservations, click on the booking link below.\n\n*Available on select dates through September 2024. Blackout dates apply.\n\n\u301075\u2020Book Now\u2020hil.tn\u3011 \n\n\u301075\u2020 \u2020hil.tn\u3011 \n\n  * \n\n## Summer Special for Guided Tours\n\nSpecial 2024 Summer Pricing. July through September.\n\nSummer Special for Guided Tours\n\n# Arsenal of Democracy\n\n10:00 a.m.\n\nSmall group guided tour of our exhibit on the United States entry into World War II and life on the Home Front.\n\nSummer Special Price: $20.00\n\n\u301076\u2020Learn More\u3011 \u301077\u2020Buy Tickets\u2020ticketing.nationalww2museum.org\u3011 \n\n\u301076\u2020 \u3011 \n\n  * \n\nSummer Special for Guided Tours\n\n# Campaigns of Courage\n\n10:00 a.m. & 1:00 p.m.\n\nS",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"0\", \"1\", \"4\", \"8\", \"10\", \"12\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bfed1f14-58f0-4ebc-926a-846648498332",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bfed1f14-58f0-4ebc-926a-846648498332",
+      "children": [
+        "227871b4-439e-4fbb-aaa9-3ca2910f3a7a"
+      ]
+    },
+    "227871b4-439e-4fbb-aaa9-3ca2910f3a7a": {
+      "id": "227871b4-439e-4fbb-aaa9-3ca2910f3a7a",
+      "message": {
+        "id": "227871b4-439e-4fbb-aaa9-3ca2910f3a7a",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722182150.761724,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+          "domain": "www.tripster.com",
+          "text": "\nIs the National WWII Museum child-friendly? Yes! The museum has several exhibits specially designed for children, such as \u201cThe Kids\u2019 Exhibit: Flight Adventure\u201d and \u201cThe Sullivan Brothers Story.\u201d\n\nTo make the kids\u2019 visit to the museum more enjoyable, talk to them about World War II in an age-appropriate way. Let them know what to expect at the museum.\n\nThe National WWII Museum Local Discount: Louisiana residents, take advantage of the National WWII Museum local discount! Enjoy half the WW2 Museum price and enjoy the museum\u2019s galleries and exhibits, showcasing fascinating artifacts and immersive experiences that delve into World War II history.\n\nBring your Louisiana-issued driver\u2019s license, state ID, or any other valid identification with your address to claim the discount.\n\nThe National WWII Museum Group Travel Deals: Searching for a destination that is guaranteed to move and educate your group? The National WWII Museum in \u301029\u2020New Orleans is a must-visit attraction\u3011, shining a light on America\u2019s role in World War II.\n\nCelebrated as the top attraction in New Orleans and honored with the Travelers\u2019 Choice Award, the National WWII Museum is a perfect choice for group tours, student tours, or military reunions. So if you\u2019re a party of 10 or more, visit the National WWII Museum\u2019s official website to send an inquiry about World War 2 Museum coupons for your group.\n\n### [Image 1: WW2 exhibit with posters on it][Image 2: WW2 exhibit with posters on it]\n\n## Are There Any The National WWII Museum Vacation Packages To Help Me Save More?\n\nEmbark on an unforgettable journey with an exclusive vacation package, featuring the National WW2 Museum tickets, offered only through Tripster!\n\nThe National WWII Museum vacation packages include discounted The National WWII Museum tickets, plus discount tickets to your choice of top \u301026\u2020New Orleans attractions\u3011, \u301030\u2020tours\u3011, and experiences.\n\nWhether you\u2019re a history buff, a culture enthusiast, or simply seeking a memorable trip, this package caters to all interests. Here are some of the most popular National WWII Museum vacation packages you can only get on Tripster:\n\n  * \u301031\u2020The National WWII Museum + French Quarter Carriage Tours\u3011\n  * \u301032\u2020The National WWII Museum + Go New Orleans All-Inclusive Pass\u3011\n  * \u301033\u2020The National WWII Museum + History & Haunts Carriage Tours\u3011\n  * \u301034\u2020The National WWII Museum + Court of Two Sisters Live Jazz Brunch\u3011\n\n## What Are the Hotels Near The National WWII Museum?\n\nThe National World War II Museum is located in the Warehouse District of New Orleans, Louisiana, specifically at 945 Magazine Street. This area is not only rich in history but is also conveniently situated near a variety of other attractions, making it an ideal location if you\u2019re staying at a \u301035\u2020nearby hotel\u3011.\n\nLooking for \u301035\u2020budget-friendly hotels\u3011 near World War 2 Museum New Orleans? Here are our top picks for comfort and savings:\n\n  * \u301036\u2020The Higgins Hotel New Orleans, Curio Collection By Hilton\u3011\n  * \u301037\u2020Drury Plaza Hotel New Orleans\u3011\n  * \u301038\u2020Le M\u00e9ridien New Orleans\u3011\n  * \u301039\u2020Voco St James Hotel, an IHG hotel\u3011\n\nThe National WWII Museum Hotel Packages: \u301027\u2020Planning\u3011 to stay near the National WWII Museum? Make it a budget-friendly vacation by taking advantage of the hotel packages offered only through Tripster!\n\nThe \u301040\u2020National WWII Museum hotel package\u3011 bundles your museum visit with a comfortable stay. Choose from Tripster\u2019s list of hotels near WWII Museum New Orleans at unbeatably low rates.\n\nThese sought-after packages are in high demand, especially during peak seasons. To avoid missing out on this incredible opportunity, remember to book well in advance\n\n## What Are the Best New Orleans Attractions?\n\nSt. Joseph Plantation Guided Tour: \u301041\u2020St. Joseph Plantation\u3011 is an authentic cane sugar plantation that doubles as a popular filming location for various TV shows and movies.\n\nWith a knowledgeable guide, take a tour of the main house, expansive grounds, historical slave cabins, the blacksmith\u2019s shop, and an old schoolhouse, among other sites.\n\nYou\u2019ll learn about the daily life on a sugar plantation and leave with a heart inspired by stories of both the free and enslaved individuals who have resided there over its long history.\n\nCourt of Two Sisters Live Jazz Brunch: Indulge in a classic New Orleans experience with a genuine Cajun-Creole brunch, set to the lively backdrop of a live jazz band in a charming wisteria-covered courtyard.\n\nTop off your meal with a complimentary glass of Court of Two Sisters Private Label wine \u2013 choose from chardonnay, cabernet sauvignon, champagne, or a refreshing mimosa.\n\nThe \u301042\u2020Court of Two Sister Live Jazz Brunch\u3011 is the perfect way to savor the local flavors and sounds of New Orleans!\n\nNew Orleans Irish Channel Pub Crawl: Join this fun-tastic educational \u301043\u2020",
+          "title": " The National WWII Museum Tickets: Save Up to 54% Off",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": " The National WWII Museum Tickets: Save Up to 54% Off",
+                "url": "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+                "text": "\nIs the National WWII Museum child-friendly? Yes! The museum has several exhibits specially designed for children, such as \u201cThe Kids\u2019 Exhibit: Flight Adventure\u201d and \u201cThe Sullivan Brothers Story.\u201d\n\nTo make the kids\u2019 visit to the museum more enjoyable, talk to them about World War II in an age-appropriate way. Let them know what to expect at the museum.\n\nThe National WWII Museum Local Discount: Louisiana residents, take advantage of the National WWII Museum local discount! Enjoy half the WW2 Museum price and enjoy the museum\u2019s galleries and exhibits, showcasing fascinating artifacts and immersive experiences that delve into World War II history.\n\nBring your Louisiana-issued driver\u2019s license, state ID, or any other valid identification with your address to claim the discount.\n\nThe National WWII Museum Group Travel Deals: Searching for a destination that is guaranteed to move and educate your group? The National WWII Museum in \u301029\u2020New Orleans is a must-visit attraction\u3011, shining a light on America\u2019s role in World War II.\n\nCelebrated as the top attraction in New Orleans and honored with the Travelers\u2019 Choice Award, the National WWII Museum is a perfect choice for group tours, student tours, or military reunions. So if you\u2019re a party of 10 or more, visit the National WWII Museum\u2019s official website to send an inquiry about World War 2 Museum coupons for your group.\n\n### [Image 1: WW2 exhibit with posters on it][Image 2: WW2 exhibit with posters on it]\n\n## Are There Any The National WWII Museum Vacation Packages To Help Me Save More?\n\nEmbark on an unforgettable journey with an exclusive vacation package, featuring the National WW2 Museum tickets, offered only through Tripster!\n\nThe National WWII Museum vacation packages include discounted The National WWII Museum tickets, plus discount tickets to your choice of top \u301026\u2020New Orleans attractions\u3011, \u301030\u2020tours\u3011, and experiences.\n\nWhether you\u2019re a history buff, a culture enthusiast, or simply seeking a memorable trip, this package caters to all interests. Here are some of the most popular National WWII Museum vacation packages you can only get on Tripster:\n\n  * \u301031\u2020The National WWII Museum + French Quarter Carriage Tours\u3011\n  * \u301032\u2020The National WWII Museum + Go New Orleans All-Inclusive Pass\u3011\n  * \u301033\u2020The National WWII Museum + History & Haunts Carriage Tours\u3011\n  * \u301034\u2020The National WWII Museum + Court of Two Sisters Live Jazz Brunch\u3011\n\n## What Are the Hotels Near The National WWII Museum?\n\nThe National World War II Museum is located in the Warehouse District of New Orleans, Louisiana, specifically at 945 Magazine Street. This area is not only rich in history but is also conveniently situated near a variety of other attractions, making it an ideal location if you\u2019re staying at a \u301035\u2020nearby hotel\u3011.\n\nLooking for \u301035\u2020budget-friendly hotels\u3011 near World War 2 Museum New Orleans? Here are our top picks for comfort and savings:\n\n  * \u301036\u2020The Higgins Hotel New Orleans, Curio Collection By Hilton\u3011\n  * \u301037\u2020Drury Plaza Hotel New Orleans\u3011\n  * \u301038\u2020Le M\u00e9ridien New Orleans\u3011\n  * \u301039\u2020Voco St James Hotel, an IHG hotel\u3011\n\nThe National WWII Museum Hotel Packages: \u301027\u2020Planning\u3011 to stay near the National WWII Museum? Make it a budget-friendly vacation by taking advantage of the hotel packages offered only through Tripster!\n\nThe \u301040\u2020National WWII Museum hotel package\u3011 bundles your museum visit with a comfortable stay. Choose from Tripster\u2019s list of hotels near WWII Museum New Orleans at unbeatably low rates.\n\nThese sought-after packages are in high demand, especially during peak seasons. To avoid missing out on this incredible opportunity, remember to book well in advance\n\n## What Are the Best New Orleans Attractions?\n\nSt. Joseph Plantation Guided Tour: \u301041\u2020St. Joseph Plantation\u3011 is an authentic cane sugar plantation that doubles as a popular filming location for various TV shows and movies.\n\nWith a knowledgeable guide, take a tour of the main house, expansive grounds, historical slave cabins, the blacksmith\u2019s shop, and an old schoolhouse, among other sites.\n\nYou\u2019ll learn about the daily life on a sugar plantation and leave with a heart inspired by stories of both the free and enslaved individuals who have resided there over its long history.\n\nCourt of Two Sisters Live Jazz Brunch: Indulge in a classic New Orleans experience with a genuine Cajun-Creole brunch, set to the lively backdrop of a live jazz band in a charming wisteria-covered courtyard.\n\nTop off your meal with a complimentary glass of Court of Two Sisters Private Label wine \u2013 choose from chardonnay, cabernet sauvignon, champagne, or a refreshing mimosa.\n\nThe \u301042\u2020Court of Two Sister Live Jazz Brunch\u3011 is the perfect way to savor the local flavors and sounds of New Orleans!\n\nNew Orleans Irish Channel Pub Crawl: Join this fun-tastic educational \u301043\u2020",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"0\", \"1\", \"4\", \"8\", \"10\", \"12\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9575a82b-0fd0-4641-a2d7-a346caa0a24a",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9575a82b-0fd0-4641-a2d7-a346caa0a24a",
+      "children": [
+        "4b17e837-ea49-4694-9b92-0601c8ec5551"
+      ]
+    },
+    "4b17e837-ea49-4694-9b92-0601c8ec5551": {
+      "id": "4b17e837-ea49-4694-9b92-0601c8ec5551",
+      "message": {
+        "id": "4b17e837-ea49-4694-9b92-0601c8ec5551",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722182150.761768,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.nationalww2museum.org/programs/blue-star-museums-network-program",
+          "domain": "www.nationalww2museum.org",
+          "text": "    * \u301032\u2020Public Programs\u3011 \n    * \u301033\u2020Students and Teachers\u3011 \n    * \u301034\u2020Private Event Rentals\u3011 \n    * \u301035\u2020Student Educational Experiences\u3011 \n\n  * \u301036\u2020The War\u3011 \n\n[Image 6] [Image 7]\n\nLearn More\n\n#### WWII Research Services\n\n    * \u301037\u2020Explore By Topic\u3011 \n    * \u301038\u2020All Articles\u3011 \n    * \u301039\u2020Profiles\u3011 \n    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. \u301073\u2020Home\u3011 \n/\n  2. \u30103\u2020Events\u3011 \n     * \u30107\u2020Events Calendar\u3011 \n     * \u30104\u2020Educational Travel\u3011 \n     * \u301027\u2020Conferences & Symposia\u3011 \n     * \u301028\u2020Event Recaps\u3011 \n     * \u301029\u2020Expressions of America\u3011 \n     * \u30108\u2020BB's Stage Door Canteen\u3011 \n     * \u301030\u2020Special Events\u3011 \n     * \u301031\u2020Youth and Family Programs\u3011 \n     * \u301032\u2020Public Programs\u3011 \n     * \u301033\u2020Students and Teachers\u3011 \n     * \u301034\u2020Private Event Rentals\u3011 \n     * \u301035\u2020Student Educational Experiences\u3011 \n/\n  3. Blue Star Museums Network Program \n\n\u301074\u2020Community Engagement\u3011\n\n# Blue Star Museums Network Program\n\nCurrent servicemembers and up to five family members receive free Museum admission from May 18 through September 2, 2024.\n\n\u301075\u2020Reserve Tickets\u2020ticketing.nationalww2museum.org\u3011\n\n[Image 14] [Image 15]\n\n  *   *   * \n\nThe National WWII Museum and the Blue Star Museums network have partnered to offer free admission to the nation\u2019s current military personnel\u2014including National Guard and Reserve\u2014and their families each summer. Starting on Armed Forces Day (Saturday, May 18) through Labor Day (Monday, September 2), current military families must show a Geneva Conventions common access card (CAC), DD Form 1173 ID card (dependent ID), or a DD Form 1173-1 ID card to Visitor Services staff for complimentary Museum admission for the military ID holder and up to five family members. The military ID holder can be either a servicemember or other dependent family member with the appropriate ID card. The servicemember does not have to be present for family members to use the program.\n\nThe free admission program is available for active-duty members of the US Armed Forces\u2014Army, Navy, Air Force, Marine Corps, Coast Guard, Space Force\u2014as well as members of the Reserves, National Guard, US Public Health Service Commissioned Corps, and NOAA Commissioned Corps.\n\nBlue Star Museums program admission also includes complimentary entry to the 4D film experience Beyond All Boundaries and the Freedom Theater Experience.\n\n\u301076\u2020Learn more about the",
+          "title": "Blue Star Museums Network Program | The National WWII Museum | New Orleans",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Blue Star Museums Network Program | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/programs/blue-star-museums-network-program",
+                "text": "    * \u301032\u2020Public Programs\u3011 \n    * \u301033\u2020Students and Teachers\u3011 \n    * \u301034\u2020Private Event Rentals\u3011 \n    * \u301035\u2020Student Educational Experiences\u3011 \n\n  * \u301036\u2020The War\u3011 \n\n[Image 6] [Image 7]\n\nLearn More\n\n#### WWII Research Services\n\n    * \u301037\u2020Explore By Topic\u3011 \n    * \u301038\u2020All Articles\u3011 \n    * \u301039\u2020Profiles\u3011 \n    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. \u301073\u2020Home\u3011 \n/\n  2. \u30103\u2020Events\u3011 \n     * \u30107\u2020Events Calendar\u3011 \n     * \u30104\u2020Educational Travel\u3011 \n     * \u301027\u2020Conferences & Symposia\u3011 \n     * \u301028\u2020Event Recaps\u3011 \n     * \u301029\u2020Expressions of America\u3011 \n     * \u30108\u2020BB's Stage Door Canteen\u3011 \n     * \u301030\u2020Special Events\u3011 \n     * \u301031\u2020Youth and Family Programs\u3011 \n     * \u301032\u2020Public Programs\u3011 \n     * \u301033\u2020Students and Teachers\u3011 \n     * \u301034\u2020Private Event Rentals\u3011 \n     * \u301035\u2020Student Educational Experiences\u3011 \n/\n  3. Blue Star Museums Network Program \n\n\u301074\u2020Community Engagement\u3011\n\n# Blue Star Museums Network Program\n\nCurrent servicemembers and up to five family members receive free Museum admission from May 18 through September 2, 2024.\n\n\u301075\u2020Reserve Tickets\u2020ticketing.nationalww2museum.org\u3011\n\n[Image 14] [Image 15]\n\n  *   *   * \n\nThe National WWII Museum and the Blue Star Museums network have partnered to offer free admission to the nation\u2019s current military personnel\u2014including National Guard and Reserve\u2014and their families each summer. Starting on Armed Forces Day (Saturday, May 18) through Labor Day (Monday, September 2), current military families must show a Geneva Conventions common access card (CAC), DD Form 1173 ID card (dependent ID), or a DD Form 1173-1 ID card to Visitor Services staff for complimentary Museum admission for the military ID holder and up to five family members. The military ID holder can be either a servicemember or other dependent family member with the appropriate ID card. The servicemember does not have to be present for family members to use the program.\n\nThe free admission program is available for active-duty members of the US Armed Forces\u2014Army, Navy, Air Force, Marine Corps, Coast Guard, Space Force\u2014as well as members of the Reserves, National Guard, US Public Health Service Commissioned Corps, and NOAA Commissioned Corps.\n\nBlue Star Museums program admission also includes complimentary entry to the 4D film experience Beyond All Boundaries and the Freedom Theater Experience.\n\n\u301076\u2020Learn more about the",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"0\", \"1\", \"4\", \"8\", \"10\", \"12\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "227871b4-439e-4fbb-aaa9-3ca2910f3a7a",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "227871b4-439e-4fbb-aaa9-3ca2910f3a7a",
+      "children": [
+        "403f544b-70f8-42ae-a515-68166e0f95de"
+      ]
+    },
+    "403f544b-70f8-42ae-a515-68166e0f95de": {
+      "id": "403f544b-70f8-42ae-a515-68166e0f95de",
+      "message": {
+        "id": "403f544b-70f8-42ae-a515-68166e0f95de",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1722182150.76181,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.groupon.com/deals/viator-national-wwii-museum",
+          "domain": "www.groupon.com",
+          "text": "Duration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\nDesignated by Congress as the official WWII museum of the United States, The National WWII Museum is located in downtown New Orleans on a six-acre campus, where five soaring pavilions house historical exhibits, on-site restoration work, a period dinner theater, and restaurants. Step inside with a general admission ticket, and then spend as long as you like exploring this must-visit attraction independently. Discover thousands of World War II memorabilia and artifacts, and learn all about wartime events from the museum's information displays.\n\nDuration   \n2 hours - 3 hours   \n\nLanguages Available   \n\n  * Printed guide - English \n\n### Points of Interest \n\nStop At: The National WWII Museum   \n945 Magazine Street, New Orleans, Louisiana   \nHead inside The National WWII Museum with your general admission ticket and start exploring the captivating exhibition space at leisure. The Museum tells the story of the American Experience in the war that changed the world\u2014why it was fought, how it was won, and what it means today\u2014so that all generations will understand the price of freedom and be inspired by what they learn. Guaranteed to move and educate, The National WWII Museum features interactive exhibits, soaring aircraft, personal histories, and more. The heart of the Museum experience, Campaigns of Courage: European and Pacific Theaters brings visitors inside the story of how the war was won. Two immersive exhibitions\u2014Road to Berlin: European Theater Galleries and Road to Tokyo: Pacific Theater Galleries\u2014feature environmental exhibits that guide visitors chronologically through the narrative of each theater of combat, using a sophisticated mix of set design, narrated and environmental videos, period newsreels, interactive oral-history kiosks, personal and digital artifacts, and dynamic displays for a uniquely evocative experience. How long you spend inside the museum is up to you! If you are hungry or simply want a break from exploring the exhibits, visit the on-site American Sector Restaurant + Bar and take a step back in time in BB\u2019s Stage Door Canteen, a 1940s-style entertainment venue that showcases the music and performers of the war years. Food and drinks are at your own expense.  \nDuration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\n### Fine Print\n\nFor a full refund, cancel at least 24 hours in advance of the start date of the experience.\n\nMerchant is solely responsible to purchasers for the care and quality of the advertised goods and services. Offer is not eligible for our promo codes or other discounts. Learn about \u301012\u2020Strike-Through Pricing and",
+          "title": "The National WWII Museum Admission Ticket New Orle... | Groupon",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The National WWII Museum Admission Ticket New Orle... | Groupon",
+                "url": "https://www.groupon.com/deals/viator-national-wwii-museum",
+                "text": "Duration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\nDesignated by Congress as the official WWII museum of the United States, The National WWII Museum is located in downtown New Orleans on a six-acre campus, where five soaring pavilions house historical exhibits, on-site restoration work, a period dinner theater, and restaurants. Step inside with a general admission ticket, and then spend as long as you like exploring this must-visit attraction independently. Discover thousands of World War II memorabilia and artifacts, and learn all about wartime events from the museum's information displays.\n\nDuration   \n2 hours - 3 hours   \n\nLanguages Available   \n\n  * Printed guide - English \n\n### Points of Interest \n\nStop At: The National WWII Museum   \n945 Magazine Street, New Orleans, Louisiana   \nHead inside The National WWII Museum with your general admission ticket and start exploring the captivating exhibition space at leisure. The Museum tells the story of the American Experience in the war that changed the world\u2014why it was fought, how it was won, and what it means today\u2014so that all generations will understand the price of freedom and be inspired by what they learn. Guaranteed to move and educate, The National WWII Museum features interactive exhibits, soaring aircraft, personal histories, and more. The heart of the Museum experience, Campaigns of Courage: European and Pacific Theaters brings visitors inside the story of how the war was won. Two immersive exhibitions\u2014Road to Berlin: European Theater Galleries and Road to Tokyo: Pacific Theater Galleries\u2014feature environmental exhibits that guide visitors chronologically through the narrative of each theater of combat, using a sophisticated mix of set design, narrated and environmental videos, period newsreels, interactive oral-history kiosks, personal and digital artifacts, and dynamic displays for a uniquely evocative experience. How long you spend inside the museum is up to you! If you are hungry or simply want a break from exploring the exhibits, visit the on-site American Sector Restaurant + Bar and take a step back in time in BB\u2019s Stage Door Canteen, a 1940s-style entertainment venue that showcases the music and performers of the war years. Food and drinks are at your own expense.  \nDuration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\n### Fine Print\n\nFor a full refund, cancel at least 24 hours in advance of the start date of the experience.\n\nMerchant is solely responsible to purchasers for the care and quality of the advertised goods and services. Offer is not eligible for our promo codes or other discounts. Learn about \u301012\u2020Strike-Through Pricing and",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"0\", \"1\", \"4\", \"8\", \"10\", \"12\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4b17e837-ea49-4694-9b92-0601c8ec5551",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4b17e837-ea49-4694-9b92-0601c8ec5551",
+      "children": [
+        "58cfa5bb-6583-4a42-9948-f0a26e4dcbeb"
+      ]
+    },
+    "58cfa5bb-6583-4a42-9948-f0a26e4dcbeb": {
+      "id": "58cfa5bb-6583-4a42-9948-f0a26e4dcbeb",
+      "message": {
+        "id": "58cfa5bb-6583-4a42-9948-f0a26e4dcbeb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722182150.761851,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The National WWII Museum in New Orleans offers several discount options:\n\n1. **Louisiana Residents**: Throughout July, Louisiana residents can enjoy half-priced general admission with a valid state ID. This discount applies to Museum Campus Pass or Package and Expressions of America tickets\u30106\u2020source\u3011\u30107\u2020source\u3011.\n\n2. **Senior Discount**: Seniors aged 65 and over can receive a discounted admission rate\u30108\u2020source\u3011.\n\n3. **Blue Star Museums Program**: From May 18 to September 2, 2024, active-duty military personnel and up to five family members receive free admission\u30109\u2020source\u3011.\n\n4. **Group Discounts**: Special rates are available for groups of 10 or more. You can inquire directly with the museum for more information on group discounts\u30108\u2020source\u3011.\n\nAdditionally, you can check platforms like Groupon for occasional deals on admission tickets, though these offers may have specific terms and conditions\u301010\u2020source\u3011. \n\nFor the most current information and to purchase tickets, you can visit the [National WWII Museum's official website](https://www.nationalww2museum.org)."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 291,
+              "end_ix": 301,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Louisiana Residents Offered Half-Priced Admission to\u00a0The National WWII Museum This July",
+                "url": "https://www.myneworleans.com/louisiana-residents-offered-half-priced-admission-to-the-national-wwii-museum-this-july/",
+                "text": "\nNEW ORLEANS (press release) \u2013 Throughout July 2024, The National WWII Museum is offering\u00a0\u301069\u2020half-priced general admission to Louisiana residents\u2020www.nationalww2museum.org\u3011\u00a0\u2014 the perfect opportunity for local visitors to beat the summer heat and see what\u2019s new or discover this world-renowned institution for the first time.\u00a0Ranked as the top attraction in New Orleans by Tripadvisor and among National Geographic\u2019s Best of the World cultural destinations, the museum is a must-see for history lovers of all ages and backgrounds, bringing history to life through immersive exhibits, multimedia experiences, and an expansive collection of artifacts and personal accounts.\n\nJuly is also the final month to see the museum\u2019s groundbreaking special exhibition,\u00a0\u301070\u2020Our War Too: Women in Service\u2020www.nationalww2museum.org\u3011, which honors the nearly 350,000 American women who answered the call to serve their country during World War II. On display through July 21 in the Senator John Alario, Jr. Special Exhibition Hall, this exhibit recognizes servicewomen\u2019s wartime efforts and celebrates their accomplishments, the impacts of which extend into the present day.\u00a0Our War Too\u00a0is presented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones.\u00a0\n\nIn addition to the special exhibit, the museum offers several new ways to explore the American experience in\u00a0the war that changed the world, right in your backyard. Opened in November 2023,\u00a0\u301071\u2020Liberation Pavilion\u2020www.nationalww2museum.org\u3011\u00a0is a powerful addition to the museum experience exploring the end of World War II, the Holocaust, the postwar years, and how the war continues to impact our lives today. In March, the museum opened the newly renovated\u00a0\u301072\u2020Malcolm S. Forbes Rare and Iconic Artifacts Gallery\u2020www.nationalww2museum.org\u3011, which highlights more than 50 artifacts from the museum\u2019s vast collection \u2014 both uncommon and seemingly ordinary \u2014 that are symbolic of the WWII era. At the heart of the Forbes Gallery is\u00a0\u301073\u2020Voices from the Front\u2020www.nationalww2museum.org\u3011, a new interactive experience that helps visitors connect with more than a dozen members of the WWII generation in a high-tech yet personal way. Cutting-edge technology facilitates conversations between museumgoers and veterans, Home Front workers, and other witnesses to the war \u2014 even after they are no longer with us to share their firsthand stories.\u00a0\n\nIn order to receive the Louisiana Residents Month discount, visitors must present a valid Louisiana state ID at the museum\u2019s ticketing counter July 1\u201331. For an additional fee, visitors can also choose to include\u00a0\u301074\u2020Beyond All Boundaries\u2020www.nationalww2museum.org\u3011, a 4D journey through World War II, and the new\u00a0\u301075\u2020Freedom Theater experience\u2020www.nationalww2museum.org\u3011. The 50 percent discount is limited to four admissions per ID. Visitors are encouraged to\u00a0\u301076\u2020purchase tickets online\u2020www.nationalww2museum.org\u3011.\u00a0\u301077\u2020Guided tours\u2020www.nationalww2museum.org\u3011\u00a0of\u00a0The Arsenal of Democracy\u00a0exhibit, Campaigns of Courage, and Liberation Pavilion are also available at a discounted rate of $20 throughout the summer.\n\nLouisiana residents can make the most of their staycations at\u00a0\u301078\u2020The Higgins Hotel & Conference Center\u2020www.higginshotelnola.com\u3011, the official hotel of The National WWII Museum. Located in the heart of the Arts & Warehouse District, The Higgins Hotel is an extension of the museum experience replete with era-inspired guest rooms and suites, exceptional dining, and state-of-the-art meeting and event spaces.\u00a0\u301079\u2020Discounted rooms for Louisiana residents\u2020www.hilton.com\u3011\u00a0are available throughout the summer, with rates as low as $125 per night (blackout dates apply).\n\n#### Digital Sponsors\n\n\u301038\u2020Become a MyNewOrleans.com sponsor ...\u3011\n\n### What's New\n\n\u301062\u2020Screen Time\u3011 \n\n### \u301080\u2020Movies You Need To See: Deadpool & Wolverine, Harakiri, & More\u3011\n\nDEADPOOL & WOLVERINE (R) It was bound to happen eventually. Deadpool has entered the Marvel Cinematic Universe. If you haven't...\n\n\u301018\u2020Let Them Eat Cake\u3011 \n\n### \u301081\u2020Six DIY Face Masks To Keep That Wedding Day Glow Through the Honeymoon\u3011\n\nThere\u2019s nothing like a pre-wedding spa facial to pamper you before the ceremony. Not only will a professional treatment...\n\n\u30105\u2020Food + Drink\u3011 \n\n### \u301082\u2020Tales of the Cocktail Competition Announces 2024 Spirits of the Year\u3011\n\nNEW ORLEANS (press release) \u2013 The\u00a0New Orleans Spirits Competition\u00a0(NOSC) presented by\u00a0Tales of the Cocktail Foundation\u00a0(TOTCF) is ple",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 301,
+              "end_ix": 311,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Louisiana Resident Discount Month | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/louisiana",
+                "text": "    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. Home \n\n[Image 14] \n\n# Louisiana Resident Discount Month\n\nLouisiana residents enjoy half-price admission during the month of July\n\n\u301073\u2020Purchase Tickets\u3011 \n\n  *   *   * \n\n## Your summer vacation destination\u2014right in your backyard.\n\nDuring the month of July, Louisiana residents get half off Museum admission tickets with a state-issued photo ID. Beat the summer heat at New Orleans\u2019s #1 attraction, and see what\u2019s new at our world-renowned institution.\n\n# Louisiana Resident Discount Pricing\n\nAdult | ~~$35~~ \u00a0 $17.50   \nSenior (65+) | ~~$32~~ \u00a0 $16   \nStudent, Child, Military, Accessibility | ~~$25~~ \u00a0 $12.50   \nMembers | FREE   \nWWII Veterans | FREE\n\n\u301073\u2020PURCHASE TICKETS\u3011\n\n[Image 15] [Image 16]\n\n  * \n\nSenator John Alario, Jr. Special Exhibition Hall\n\n# Our War Too:  \nWomen in Service\n\nOur War Too: Women in Service, a groundbreaking special exhibit recognizing the efforts, struggles, and accomplishments of the nearly 350,000 American women who answered the call to serve their country during World War II, is on display in the Senator John Alario, Jr. Special Exhibition Hall through July 21, 2024. Our War Too\u00a0explores the path forged by the pioneering servicewomen of World War II that is still being traveled by women in the American military today.\n\nPresented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones \n\nNovember 11, 2023, to July 21, 2024\n\n\u301074\u2020Learn More\u3011 \n\n\u301074\u2020 \u3011 \n\n  *   * \n\n# Hotel Discount\n\nMake the most of your stay-cation at The Higgins Hotel & Conference Center!\n\nBook now for discounted rooms for Louisiana residents throughout July, with rates* as low as $125 per night. For easy reservations, click on the booking link below.\n\n*Available on select dates through September 2024. Blackout dates apply.\n\n\u301075\u2020Book Now\u2020hil.tn\u3011 \n\n\u301075\u2020 \u2020hil.tn\u3011 \n\n  * \n\n## Summer Special for Guided Tours\n\nSpecial 2024 Summer Pricing. July through September.\n\nSummer Special for Guided Tours\n\n# Arsenal of Democracy\n\n10:00 a.m.\n\nSmall group guided tour of our exhibit on the United States entry into World War II and life on the Home Front.\n\nSummer Special Price: $20.00\n\n\u301076\u2020Learn More\u3011 \u301077\u2020Buy Tickets\u2020ticketing.nationalww2museum.org\u3011 \n\n\u301076\u2020 \u3011 \n\n  * \n\nSummer Special for Guided Tours\n\n# Campaigns of Courage\n\n10:00 a.m. & 1:00 p.m.\n\nS",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 7,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 402,
+              "end_ix": 412,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": " The National WWII Museum Tickets: Save Up to 54% Off",
+                "url": "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+                "text": "\nIs the National WWII Museum child-friendly? Yes! The museum has several exhibits specially designed for children, such as \u201cThe Kids\u2019 Exhibit: Flight Adventure\u201d and \u201cThe Sullivan Brothers Story.\u201d\n\nTo make the kids\u2019 visit to the museum more enjoyable, talk to them about World War II in an age-appropriate way. Let them know what to expect at the museum.\n\nThe National WWII Museum Local Discount: Louisiana residents, take advantage of the National WWII Museum local discount! Enjoy half the WW2 Museum price and enjoy the museum\u2019s galleries and exhibits, showcasing fascinating artifacts and immersive experiences that delve into World War II history.\n\nBring your Louisiana-issued driver\u2019s license, state ID, or any other valid identification with your address to claim the discount.\n\nThe National WWII Museum Group Travel Deals: Searching for a destination that is guaranteed to move and educate your group? The National WWII Museum in \u301029\u2020New Orleans is a must-visit attraction\u3011, shining a light on America\u2019s role in World War II.\n\nCelebrated as the top attraction in New Orleans and honored with the Travelers\u2019 Choice Award, the National WWII Museum is a perfect choice for group tours, student tours, or military reunions. So if you\u2019re a party of 10 or more, visit the National WWII Museum\u2019s official website to send an inquiry about World War 2 Museum coupons for your group.\n\n### [Image 1: WW2 exhibit with posters on it][Image 2: WW2 exhibit with posters on it]\n\n## Are There Any The National WWII Museum Vacation Packages To Help Me Save More?\n\nEmbark on an unforgettable journey with an exclusive vacation package, featuring the National WW2 Museum tickets, offered only through Tripster!\n\nThe National WWII Museum vacation packages include discounted The National WWII Museum tickets, plus discount tickets to your choice of top \u301026\u2020New Orleans attractions\u3011, \u301030\u2020tours\u3011, and experiences.\n\nWhether you\u2019re a history buff, a culture enthusiast, or simply seeking a memorable trip, this package caters to all interests. Here are some of the most popular National WWII Museum vacation packages you can only get on Tripster:\n\n  * \u301031\u2020The National WWII Museum + French Quarter Carriage Tours\u3011\n  * \u301032\u2020The National WWII Museum + Go New Orleans All-Inclusive Pass\u3011\n  * \u301033\u2020The National WWII Museum + History & Haunts Carriage Tours\u3011\n  * \u301034\u2020The National WWII Museum + Court of Two Sisters Live Jazz Brunch\u3011\n\n## What Are the Hotels Near The National WWII Museum?\n\nThe National World War II Museum is located in the Warehouse District of New Orleans, Louisiana, specifically at 945 Magazine Street. This area is not only rich in history but is also conveniently situated near a variety of other attractions, making it an ideal location if you\u2019re staying at a \u301035\u2020nearby hotel\u3011.\n\nLooking for \u301035\u2020budget-friendly hotels\u3011 near World War 2 Museum New Orleans? Here are our top picks for comfort and savings:\n\n  * \u301036\u2020The Higgins Hotel New Orleans, Curio Collection By Hilton\u3011\n  * \u301037\u2020Drury Plaza Hotel New Orleans\u3011\n  * \u301038\u2020Le M\u00e9ridien New Orleans\u3011\n  * \u301039\u2020Voco St James Hotel, an IHG hotel\u3011\n\nThe National WWII Museum Hotel Packages: \u301027\u2020Planning\u3011 to stay near the National WWII Museum? Make it a budget-friendly vacation by taking advantage of the hotel packages offered only through Tripster!\n\nThe \u301040\u2020National WWII Museum hotel package\u3011 bundles your museum visit with a comfortable stay. Choose from Tripster\u2019s list of hotels near WWII Museum New Orleans at unbeatably low rates.\n\nThese sought-after packages are in high demand, especially during peak seasons. To avoid missing out on this incredible opportunity, remember to book well in advance\n\n## What Are the Best New Orleans Attractions?\n\nSt. Joseph Plantation Guided Tour: \u301041\u2020St. Joseph Plantation\u3011 is an authentic cane sugar plantation that doubles as a popular filming location for various TV shows and movies.\n\nWith a knowledgeable guide, take a tour of the main house, expansive grounds, historical slave cabins, the blacksmith\u2019s shop, and an old schoolhouse, among other sites.\n\nYou\u2019ll learn about the daily life on a sugar plantation and leave with a heart inspired by stories of both the free and enslaved individuals who have resided there over its long history.\n\nCourt of Two Sisters Live Jazz Brunch: Indulge in a classic New Orleans experience with a genuine Cajun-Creole brunch, set to the lively backdrop of a live jazz band in a charming wisteria-covered courtyard.\n\nTop off your meal with a complimentary glass of Court of Two Sisters Private Label wine \u2013 choose from chardonnay, cabernet sauvignon, champagne, or a refreshing mimosa.\n\nThe \u301042\u2020Court of Two Sister Live Jazz Brunch\u3011 is the perfect way to savor the local flavors and sounds of New Orleans!\n\nNew Orleans Irish Channel Pub Crawl: Join this fun-tastic educational \u301043\u2020",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 566,
+              "end_ix": 576,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Blue Star Museums Network Program | The National WWII Museum | New Orleans",
+                "url": "https://www.nationalww2museum.org/programs/blue-star-museums-network-program",
+                "text": "    * \u301032\u2020Public Programs\u3011 \n    * \u301033\u2020Students and Teachers\u3011 \n    * \u301034\u2020Private Event Rentals\u3011 \n    * \u301035\u2020Student Educational Experiences\u3011 \n\n  * \u301036\u2020The War\u3011 \n\n[Image 6] [Image 7]\n\nLearn More\n\n#### WWII Research Services\n\n    * \u301037\u2020Explore By Topic\u3011 \n    * \u301038\u2020All Articles\u3011 \n    * \u301039\u2020Profiles\u3011 \n    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. \u301073\u2020Home\u3011 \n/\n  2. \u30103\u2020Events\u3011 \n     * \u30107\u2020Events Calendar\u3011 \n     * \u30104\u2020Educational Travel\u3011 \n     * \u301027\u2020Conferences & Symposia\u3011 \n     * \u301028\u2020Event Recaps\u3011 \n     * \u301029\u2020Expressions of America\u3011 \n     * \u30108\u2020BB's Stage Door Canteen\u3011 \n     * \u301030\u2020Special Events\u3011 \n     * \u301031\u2020Youth and Family Programs\u3011 \n     * \u301032\u2020Public Programs\u3011 \n     * \u301033\u2020Students and Teachers\u3011 \n     * \u301034\u2020Private Event Rentals\u3011 \n     * \u301035\u2020Student Educational Experiences\u3011 \n/\n  3. Blue Star Museums Network Program \n\n\u301074\u2020Community Engagement\u3011\n\n# Blue Star Museums Network Program\n\nCurrent servicemembers and up to five family members receive free Museum admission from May 18 through September 2, 2024.\n\n\u301075\u2020Reserve Tickets\u2020ticketing.nationalww2museum.org\u3011\n\n[Image 14] [Image 15]\n\n  *   *   * \n\nThe National WWII Museum and the Blue Star Museums network have partnered to offer free admission to the nation\u2019s current military personnel\u2014including National Guard and Reserve\u2014and their families each summer. Starting on Armed Forces Day (Saturday, May 18) through Labor Day (Monday, September 2), current military families must show a Geneva Conventions common access card (CAC), DD Form 1173 ID card (dependent ID), or a DD Form 1173-1 ID card to Visitor Services staff for complimentary Museum admission for the military ID holder and up to five family members. The military ID holder can be either a servicemember or other dependent family member with the appropriate ID card. The servicemember does not have to be present for family members to use the program.\n\nThe free admission program is available for active-duty members of the US Armed Forces\u2014Army, Navy, Air Force, Marine Corps, Coast Guard, Space Force\u2014as well as members of the Reserves, National Guard, US Public Health Service Commissioned Corps, and NOAA Commissioned Corps.\n\nBlue Star Museums program admission also includes complimentary entry to the 4D film experience Beyond All Boundaries and the Freedom Theater Experience.\n\n\u301076\u2020Learn more about the",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 9,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 737,
+              "end_ix": 747,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": " The National WWII Museum Tickets: Save Up to 54% Off",
+                "url": "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+                "text": "\nIs the National WWII Museum child-friendly? Yes! The museum has several exhibits specially designed for children, such as \u201cThe Kids\u2019 Exhibit: Flight Adventure\u201d and \u201cThe Sullivan Brothers Story.\u201d\n\nTo make the kids\u2019 visit to the museum more enjoyable, talk to them about World War II in an age-appropriate way. Let them know what to expect at the museum.\n\nThe National WWII Museum Local Discount: Louisiana residents, take advantage of the National WWII Museum local discount! Enjoy half the WW2 Museum price and enjoy the museum\u2019s galleries and exhibits, showcasing fascinating artifacts and immersive experiences that delve into World War II history.\n\nBring your Louisiana-issued driver\u2019s license, state ID, or any other valid identification with your address to claim the discount.\n\nThe National WWII Museum Group Travel Deals: Searching for a destination that is guaranteed to move and educate your group? The National WWII Museum in \u301029\u2020New Orleans is a must-visit attraction\u3011, shining a light on America\u2019s role in World War II.\n\nCelebrated as the top attraction in New Orleans and honored with the Travelers\u2019 Choice Award, the National WWII Museum is a perfect choice for group tours, student tours, or military reunions. So if you\u2019re a party of 10 or more, visit the National WWII Museum\u2019s official website to send an inquiry about World War 2 Museum coupons for your group.\n\n### [Image 1: WW2 exhibit with posters on it][Image 2: WW2 exhibit with posters on it]\n\n## Are There Any The National WWII Museum Vacation Packages To Help Me Save More?\n\nEmbark on an unforgettable journey with an exclusive vacation package, featuring the National WW2 Museum tickets, offered only through Tripster!\n\nThe National WWII Museum vacation packages include discounted The National WWII Museum tickets, plus discount tickets to your choice of top \u301026\u2020New Orleans attractions\u3011, \u301030\u2020tours\u3011, and experiences.\n\nWhether you\u2019re a history buff, a culture enthusiast, or simply seeking a memorable trip, this package caters to all interests. Here are some of the most popular National WWII Museum vacation packages you can only get on Tripster:\n\n  * \u301031\u2020The National WWII Museum + French Quarter Carriage Tours\u3011\n  * \u301032\u2020The National WWII Museum + Go New Orleans All-Inclusive Pass\u3011\n  * \u301033\u2020The National WWII Museum + History & Haunts Carriage Tours\u3011\n  * \u301034\u2020The National WWII Museum + Court of Two Sisters Live Jazz Brunch\u3011\n\n## What Are the Hotels Near The National WWII Museum?\n\nThe National World War II Museum is located in the Warehouse District of New Orleans, Louisiana, specifically at 945 Magazine Street. This area is not only rich in history but is also conveniently situated near a variety of other attractions, making it an ideal location if you\u2019re staying at a \u301035\u2020nearby hotel\u3011.\n\nLooking for \u301035\u2020budget-friendly hotels\u3011 near World War 2 Museum New Orleans? Here are our top picks for comfort and savings:\n\n  * \u301036\u2020The Higgins Hotel New Orleans, Curio Collection By Hilton\u3011\n  * \u301037\u2020Drury Plaza Hotel New Orleans\u3011\n  * \u301038\u2020Le M\u00e9ridien New Orleans\u3011\n  * \u301039\u2020Voco St James Hotel, an IHG hotel\u3011\n\nThe National WWII Museum Hotel Packages: \u301027\u2020Planning\u3011 to stay near the National WWII Museum? Make it a budget-friendly vacation by taking advantage of the hotel packages offered only through Tripster!\n\nThe \u301040\u2020National WWII Museum hotel package\u3011 bundles your museum visit with a comfortable stay. Choose from Tripster\u2019s list of hotels near WWII Museum New Orleans at unbeatably low rates.\n\nThese sought-after packages are in high demand, especially during peak seasons. To avoid missing out on this incredible opportunity, remember to book well in advance\n\n## What Are the Best New Orleans Attractions?\n\nSt. Joseph Plantation Guided Tour: \u301041\u2020St. Joseph Plantation\u3011 is an authentic cane sugar plantation that doubles as a popular filming location for various TV shows and movies.\n\nWith a knowledgeable guide, take a tour of the main house, expansive grounds, historical slave cabins, the blacksmith\u2019s shop, and an old schoolhouse, among other sites.\n\nYou\u2019ll learn about the daily life on a sugar plantation and leave with a heart inspired by stories of both the free and enslaved individuals who have resided there over its long history.\n\nCourt of Two Sisters Live Jazz Brunch: Indulge in a classic New Orleans experience with a genuine Cajun-Creole brunch, set to the lively backdrop of a live jazz band in a charming wisteria-covered courtyard.\n\nTop off your meal with a complimentary glass of Court of Two Sisters Private Label wine \u2013 choose from chardonnay, cabernet sauvignon, champagne, or a refreshing mimosa.\n\nThe \u301042\u2020Court of Two Sister Live Jazz Brunch\u3011 is the perfect way to savor the local flavors and sounds of New Orleans!\n\nNew Orleans Irish Channel Pub Crawl: Join this fun-tastic educational \u301043\u2020",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 902,
+              "end_ix": 913,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The National WWII Museum Admission Ticket New Orle... | Groupon",
+                "url": "https://www.groupon.com/deals/viator-national-wwii-museum",
+                "text": "Duration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\nDesignated by Congress as the official WWII museum of the United States, The National WWII Museum is located in downtown New Orleans on a six-acre campus, where five soaring pavilions house historical exhibits, on-site restoration work, a period dinner theater, and restaurants. Step inside with a general admission ticket, and then spend as long as you like exploring this must-visit attraction independently. Discover thousands of World War II memorabilia and artifacts, and learn all about wartime events from the museum's information displays.\n\nDuration   \n2 hours - 3 hours   \n\nLanguages Available   \n\n  * Printed guide - English \n\n### Points of Interest \n\nStop At: The National WWII Museum   \n945 Magazine Street, New Orleans, Louisiana   \nHead inside The National WWII Museum with your general admission ticket and start exploring the captivating exhibition space at leisure. The Museum tells the story of the American Experience in the war that changed the world\u2014why it was fought, how it was won, and what it means today\u2014so that all generations will understand the price of freedom and be inspired by what they learn. Guaranteed to move and educate, The National WWII Museum features interactive exhibits, soaring aircraft, personal histories, and more. The heart of the Museum experience, Campaigns of Courage: European and Pacific Theaters brings visitors inside the story of how the war was won. Two immersive exhibitions\u2014Road to Berlin: European Theater Galleries and Road to Tokyo: Pacific Theater Galleries\u2014feature environmental exhibits that guide visitors chronologically through the narrative of each theater of combat, using a sophisticated mix of set design, narrated and environmental videos, period newsreels, interactive oral-history kiosks, personal and digital artifacts, and dynamic displays for a uniquely evocative experience. How long you spend inside the museum is up to you! If you are hungry or simply want a break from exploring the exhibits, visit the on-site American Sector Restaurant + Bar and take a step back in time in BB\u2019s Stage Door Canteen, a 1940s-style entertainment venue that showcases the music and performers of the war years. Food and drinks are at your own expense.  \nDuration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\n### Fine Print\n\nFor a full refund, cancel at least 24 hours in advance of the start date of the experience.\n\nMerchant is solely responsible to purchasers for the care and quality of the advertised goods and services. Offer is not eligible for our promo codes or other discounts. Learn about \u301012\u2020Strike-Through Pricing and",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 10,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            }
+          ],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "403f544b-70f8-42ae-a515-68166e0f95de",
+          "request_id": "8aa60e159d305704-IAD",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 291,
+              "end_idx": 301,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Louisiana Residents Offered Half-Priced Admission to\u00a0The National WWII Museum This July",
+              "url": "https://www.myneworleans.com/louisiana-residents-offered-half-priced-admission-to-the-national-wwii-museum-this-july/",
+              "pub_date": null,
+              "snippet": "\nNEW ORLEANS (press release) \u2013 Throughout July 2024, The National WWII Museum is offering\u00a0\u301069\u2020half-priced general admission to Louisiana residents\u2020www.nationalww2museum.org\u3011\u00a0\u2014 the perfect opportunity for local visitors to beat the summer heat and see what\u2019s new or discover this world-renowned institution for the first time.\u00a0Ranked as the top attraction in New Orleans by Tripadvisor and among National Geographic\u2019s Best of the World cultural destinations, the museum is a must-see for history lovers of all ages and backgrounds, bringing history to life through immersive exhibits, multimedia experiences, and an expansive collection of artifacts and personal accounts.\n\nJuly is also the final month to see the museum\u2019s groundbreaking special exhibition,\u00a0\u301070\u2020Our War Too: Women in Service\u2020www.nationalww2museum.org\u3011, which honors the nearly 350,000 American women who answered the call to serve their country during World War II. On display through July 21 in the Senator John Alario, Jr. Special Exhibition Hall, this exhibit recognizes servicewomen\u2019s wartime efforts and celebrates their accomplishments, the impacts of which extend into the present day.\u00a0Our War Too\u00a0is presented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones.\u00a0\n\nIn addition to the special exhibit, the museum offers several new ways to explore the American experience in\u00a0the war that changed the world, right in your backyard. Opened in November 2023,\u00a0\u301071\u2020Liberation Pavilion\u2020www.nationalww2museum.org\u3011\u00a0is a powerful addition to the museum experience exploring the end of World War II, the Holocaust, the postwar years, and how the war continues to impact our lives today. In March, the museum opened the newly renovated\u00a0\u301072\u2020Malcolm S. Forbes Rare and Iconic Artifacts Gallery\u2020www.nationalww2museum.org\u3011, which highlights more than 50 artifacts from the museum\u2019s vast collection \u2014 both uncommon and seemingly ordinary \u2014 that are symbolic of the WWII era. At the heart of the Forbes Gallery is\u00a0\u301073\u2020Voices from the Front\u2020www.nationalww2museum.org\u3011, a new interactive experience that helps visitors connect with more than a dozen members of the WWII generation in a high-tech yet personal way. Cutting-edge technology facilitates conversations between museumgoers and veterans, Home Front workers, and other witnesses to the war \u2014 even after they are no longer with us to share their firsthand stories.\u00a0\n\nIn order to receive the Louisiana Residents Month discount, visitors must present a valid Louisiana state ID at the museum\u2019s ticketing counter July 1\u201331. For an additional fee, visitors can also choose to include\u00a0\u301074\u2020Beyond All Boundaries\u2020www.nationalww2museum.org\u3011, a 4D journey through World War II, and the new\u00a0\u301075\u2020Freedom Theater experience\u2020www.nationalww2museum.org\u3011. The 50 percent discount is limited to four admissions per ID. Visitors are encouraged to\u00a0\u301076\u2020purchase tickets online\u2020www.nationalww2museum.org\u3011.\u00a0\u301077\u2020Guided tours\u2020www.nationalww2museum.org\u3011\u00a0of\u00a0The Arsenal of Democracy\u00a0exhibit, Campaigns of Courage, and Liberation Pavilion are also available at a discounted rate of $20 throughout the summer.\n\nLouisiana residents can make the most of their staycations at\u00a0\u301078\u2020The Higgins Hotel & Conference Center\u2020www.higginshotelnola.com\u3011, the official hotel of The National WWII Museum. Located in the heart of the Arts & Warehouse District, The Higgins Hotel is an extension of the museum experience replete with era-inspired guest rooms and suites, exceptional dining, and state-of-the-art meeting and event spaces.\u00a0\u301079\u2020Discounted rooms for Louisiana residents\u2020www.hilton.com\u3011\u00a0are available throughout the summer, with rates as low as $125 per night (blackout dates apply).\n\n#### Digital Sponsors\n\n\u301038\u2020Become a MyNewOrleans.com sponsor ...\u3011\n\n### What's New\n\n\u301062\u2020Screen Time\u3011 \n\n### \u301080\u2020Movies You Need To See: Deadpool & Wolverine, Harakiri, & More\u3011\n\nDEADPOOL & WOLVERINE (R) It was bound to happen eventually. Deadpool has entered the Marvel Cinematic Universe. If you haven't...\n\n\u301018\u2020Let Them Eat Cake\u3011 \n\n### \u301081\u2020Six DIY Face Masks To Keep That Wedding Day Glow Through the Honeymoon\u3011\n\nThere\u2019s nothing like a pre-wedding spa facial to pamper you before the ceremony. Not only will a professional treatment...\n\n\u30105\u2020Food + Drink\u3011 \n\n### \u301082\u2020Tales of the Cocktail Competition Announces 2024 Spirits of the Year\u3011\n\nNEW ORLEANS (press release) \u2013 The\u00a0New Orleans Spirits Competition\u00a0(NOSC) presented by\u00a0Tales of the Cocktail Foundation\u00a0(TOTCF) is ple",
+              "attribution": "myneworleans.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30107\u2020source\u3011",
+              "start_idx": 301,
+              "end_idx": 311,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Louisiana Resident Discount Month | The National WWII Museum | New Orleans",
+              "url": "https://www.nationalww2museum.org/louisiana",
+              "pub_date": null,
+              "snippet": "    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. Home \n\n[Image 14] \n\n# Louisiana Resident Discount Month\n\nLouisiana residents enjoy half-price admission during the month of July\n\n\u301073\u2020Purchase Tickets\u3011 \n\n  *   *   * \n\n## Your summer vacation destination\u2014right in your backyard.\n\nDuring the month of July, Louisiana residents get half off Museum admission tickets with a state-issued photo ID. Beat the summer heat at New Orleans\u2019s #1 attraction, and see what\u2019s new at our world-renowned institution.\n\n# Louisiana Resident Discount Pricing\n\nAdult | ~~$35~~ \u00a0 $17.50   \nSenior (65+) | ~~$32~~ \u00a0 $16   \nStudent, Child, Military, Accessibility | ~~$25~~ \u00a0 $12.50   \nMembers | FREE   \nWWII Veterans | FREE\n\n\u301073\u2020PURCHASE TICKETS\u3011\n\n[Image 15] [Image 16]\n\n  * \n\nSenator John Alario, Jr. Special Exhibition Hall\n\n# Our War Too:  \nWomen in Service\n\nOur War Too: Women in Service, a groundbreaking special exhibit recognizing the efforts, struggles, and accomplishments of the nearly 350,000 American women who answered the call to serve their country during World War II, is on display in the Senator John Alario, Jr. Special Exhibition Hall through July 21, 2024. Our War Too\u00a0explores the path forged by the pioneering servicewomen of World War II that is still being traveled by women in the American military today.\n\nPresented by the Gayle and Tom Benson Charitable Foundation with additional support from Don and Sharon Jones \n\nNovember 11, 2023, to July 21, 2024\n\n\u301074\u2020Learn More\u3011 \n\n\u301074\u2020 \u3011 \n\n  *   * \n\n# Hotel Discount\n\nMake the most of your stay-cation at The Higgins Hotel & Conference Center!\n\nBook now for discounted rooms for Louisiana residents throughout July, with rates* as low as $125 per night. For easy reservations, click on the booking link below.\n\n*Available on select dates through September 2024. Blackout dates apply.\n\n\u301075\u2020Book Now\u2020hil.tn\u3011 \n\n\u301075\u2020 \u2020hil.tn\u3011 \n\n  * \n\n## Summer Special for Guided Tours\n\nSpecial 2024 Summer Pricing. July through September.\n\nSummer Special for Guided Tours\n\n# Arsenal of Democracy\n\n10:00 a.m.\n\nSmall group guided tour of our exhibit on the United States entry into World War II and life on the Home Front.\n\nSummer Special Price: $20.00\n\n\u301076\u2020Learn More\u3011 \u301077\u2020Buy Tickets\u2020ticketing.nationalww2museum.org\u3011 \n\n\u301076\u2020 \u3011 \n\n  * \n\nSummer Special for Guided Tours\n\n# Campaigns of Courage\n\n10:00 a.m. & 1:00 p.m.\n\nS",
+              "attribution": "nationalww2museum.org",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 402,
+              "end_idx": 412,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": " The National WWII Museum Tickets: Save Up to 54% Off",
+              "url": "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+              "pub_date": null,
+              "snippet": "\nIs the National WWII Museum child-friendly? Yes! The museum has several exhibits specially designed for children, such as \u201cThe Kids\u2019 Exhibit: Flight Adventure\u201d and \u201cThe Sullivan Brothers Story.\u201d\n\nTo make the kids\u2019 visit to the museum more enjoyable, talk to them about World War II in an age-appropriate way. Let them know what to expect at the museum.\n\nThe National WWII Museum Local Discount: Louisiana residents, take advantage of the National WWII Museum local discount! Enjoy half the WW2 Museum price and enjoy the museum\u2019s galleries and exhibits, showcasing fascinating artifacts and immersive experiences that delve into World War II history.\n\nBring your Louisiana-issued driver\u2019s license, state ID, or any other valid identification with your address to claim the discount.\n\nThe National WWII Museum Group Travel Deals: Searching for a destination that is guaranteed to move and educate your group? The National WWII Museum in \u301029\u2020New Orleans is a must-visit attraction\u3011, shining a light on America\u2019s role in World War II.\n\nCelebrated as the top attraction in New Orleans and honored with the Travelers\u2019 Choice Award, the National WWII Museum is a perfect choice for group tours, student tours, or military reunions. So if you\u2019re a party of 10 or more, visit the National WWII Museum\u2019s official website to send an inquiry about World War 2 Museum coupons for your group.\n\n### [Image 1: WW2 exhibit with posters on it][Image 2: WW2 exhibit with posters on it]\n\n## Are There Any The National WWII Museum Vacation Packages To Help Me Save More?\n\nEmbark on an unforgettable journey with an exclusive vacation package, featuring the National WW2 Museum tickets, offered only through Tripster!\n\nThe National WWII Museum vacation packages include discounted The National WWII Museum tickets, plus discount tickets to your choice of top \u301026\u2020New Orleans attractions\u3011, \u301030\u2020tours\u3011, and experiences.\n\nWhether you\u2019re a history buff, a culture enthusiast, or simply seeking a memorable trip, this package caters to all interests. Here are some of the most popular National WWII Museum vacation packages you can only get on Tripster:\n\n  * \u301031\u2020The National WWII Museum + French Quarter Carriage Tours\u3011\n  * \u301032\u2020The National WWII Museum + Go New Orleans All-Inclusive Pass\u3011\n  * \u301033\u2020The National WWII Museum + History & Haunts Carriage Tours\u3011\n  * \u301034\u2020The National WWII Museum + Court of Two Sisters Live Jazz Brunch\u3011\n\n## What Are the Hotels Near The National WWII Museum?\n\nThe National World War II Museum is located in the Warehouse District of New Orleans, Louisiana, specifically at 945 Magazine Street. This area is not only rich in history but is also conveniently situated near a variety of other attractions, making it an ideal location if you\u2019re staying at a \u301035\u2020nearby hotel\u3011.\n\nLooking for \u301035\u2020budget-friendly hotels\u3011 near World War 2 Museum New Orleans? Here are our top picks for comfort and savings:\n\n  * \u301036\u2020The Higgins Hotel New Orleans, Curio Collection By Hilton\u3011\n  * \u301037\u2020Drury Plaza Hotel New Orleans\u3011\n  * \u301038\u2020Le M\u00e9ridien New Orleans\u3011\n  * \u301039\u2020Voco St James Hotel, an IHG hotel\u3011\n\nThe National WWII Museum Hotel Packages: \u301027\u2020Planning\u3011 to stay near the National WWII Museum? Make it a budget-friendly vacation by taking advantage of the hotel packages offered only through Tripster!\n\nThe \u301040\u2020National WWII Museum hotel package\u3011 bundles your museum visit with a comfortable stay. Choose from Tripster\u2019s list of hotels near WWII Museum New Orleans at unbeatably low rates.\n\nThese sought-after packages are in high demand, especially during peak seasons. To avoid missing out on this incredible opportunity, remember to book well in advance\n\n## What Are the Best New Orleans Attractions?\n\nSt. Joseph Plantation Guided Tour: \u301041\u2020St. Joseph Plantation\u3011 is an authentic cane sugar plantation that doubles as a popular filming location for various TV shows and movies.\n\nWith a knowledgeable guide, take a tour of the main house, expansive grounds, historical slave cabins, the blacksmith\u2019s shop, and an old schoolhouse, among other sites.\n\nYou\u2019ll learn about the daily life on a sugar plantation and leave with a heart inspired by stories of both the free and enslaved individuals who have resided there over its long history.\n\nCourt of Two Sisters Live Jazz Brunch: Indulge in a classic New Orleans experience with a genuine Cajun-Creole brunch, set to the lively backdrop of a live jazz band in a charming wisteria-covered courtyard.\n\nTop off your meal with a complimentary glass of Court of Two Sisters Private Label wine \u2013 choose from chardonnay, cabernet sauvignon, champagne, or a refreshing mimosa.\n\nThe \u301042\u2020Court of Two Sister Live Jazz Brunch\u3011 is the perfect way to savor the local flavors and sounds of New Orleans!\n\nNew Orleans Irish Channel Pub Crawl: Join this fun-tastic educational \u301043\u2020",
+              "attribution": "tripster.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30109\u2020source\u3011",
+              "start_idx": 566,
+              "end_idx": 576,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Blue Star Museums Network Program | The National WWII Museum | New Orleans",
+              "url": "https://www.nationalww2museum.org/programs/blue-star-museums-network-program",
+              "pub_date": null,
+              "snippet": "    * \u301032\u2020Public Programs\u3011 \n    * \u301033\u2020Students and Teachers\u3011 \n    * \u301034\u2020Private Event Rentals\u3011 \n    * \u301035\u2020Student Educational Experiences\u3011 \n\n  * \u301036\u2020The War\u3011 \n\n[Image 6] [Image 7]\n\nLearn More\n\n#### WWII Research Services\n\n    * \u301037\u2020Explore By Topic\u3011 \n    * \u301038\u2020All Articles\u3011 \n    * \u301039\u2020Profiles\u3011 \n    * \u301040\u2020From the Collection\u3011 \n    * \u301041\u2020Research A Veteran\u3011 \n    * \u301042\u2020WWII Veteran Statistics\u3011 \n    * \u301043\u2020Jenny Craig Institute for the Study of War and Democracy\u3011 \n    * \u301044\u2020Podcasts\u3011 \n    * \u301045\u2020Seize & Secure: The Battle for La Fi\u00e8re\u3011 \n\n  * \u301046\u2020Students & Teachers\u3011 \n\n[Image 8] [Image 9]\n\nLearn More\n\n#### Electronic Field Trips\n\n    * \u301047\u2020Distance Learning\u3011 \n    * \u301048\u2020Field Trips\u3011 \n    * \u301049\u2020Educator Resources\u3011 \n    * \u301050\u2020School Programs\u3011 \n    * \u301035\u2020Student Travel\u3011 \n    * \u301051\u2020Student Resources\u3011 \n    * \u301052\u2020ASU Partnership\u3011 \n    * \u301053\u2020Madlyn and Paul Hilliard Research Library\u3011 \n\n  * \u301054\u2020About Us\u3011 \n\n[Image 10: Thumbnail] [Image 11: Thumbnail]\n\nExplore\n\n#### Our Mission\n\n    * \u301055\u2020Mission / Vision / Values\u3011 \n    * \u301056\u2020Our Team\u3011 \n    * \u301057\u2020Our Partners\u3011 \n    * \u301058\u2020Annual Reports and Financials\u3011 \n    * \u301059\u2020Notes from the Museum\u3011 \n    * \u301060\u2020Join Our Team\u3011 \n    * \u301061\u2020Rights & Reproduction\u3011 \n\n  * \u301062\u2020Give\u3011 \n\n[Image 12: Thumbnail] [Image 13: Thumbnail]\n\nJoin Today\n\n#### Become a Member\n\n    * \u301063\u2020Ways To Give\u3011 \n    * \u301064\u2020$10 For Them\u3011 \n    * \u301065\u2020Become a Member\u3011 \n    * \u301066\u2020Honor Roll of Charter Members\u3011 \n    * \u301067\u2020Brick and Paver Tributes\u3011 \n    * \u301068\u2020Honor Your Hero\u3011 \n    * \u301069\u2020Capital Campaign\u3011 \n    * \u301070\u2020Gift Planning\u2020impact.nationalww2museum.org\u3011 \n    * \u301071\u2020Other Ways to Support the Museum\u3011 \n    * \u301072\u2020Donor Privacy Policy\u3011 \n\n## Breadcrumb\n\n/\n  1. \u301073\u2020Home\u3011 \n/\n  2. \u30103\u2020Events\u3011 \n     * \u30107\u2020Events Calendar\u3011 \n     * \u30104\u2020Educational Travel\u3011 \n     * \u301027\u2020Conferences & Symposia\u3011 \n     * \u301028\u2020Event Recaps\u3011 \n     * \u301029\u2020Expressions of America\u3011 \n     * \u30108\u2020BB's Stage Door Canteen\u3011 \n     * \u301030\u2020Special Events\u3011 \n     * \u301031\u2020Youth and Family Programs\u3011 \n     * \u301032\u2020Public Programs\u3011 \n     * \u301033\u2020Students and Teachers\u3011 \n     * \u301034\u2020Private Event Rentals\u3011 \n     * \u301035\u2020Student Educational Experiences\u3011 \n/\n  3. Blue Star Museums Network Program \n\n\u301074\u2020Community Engagement\u3011\n\n# Blue Star Museums Network Program\n\nCurrent servicemembers and up to five family members receive free Museum admission from May 18 through September 2, 2024.\n\n\u301075\u2020Reserve Tickets\u2020ticketing.nationalww2museum.org\u3011\n\n[Image 14] [Image 15]\n\n  *   *   * \n\nThe National WWII Museum and the Blue Star Museums network have partnered to offer free admission to the nation\u2019s current military personnel\u2014including National Guard and Reserve\u2014and their families each summer. Starting on Armed Forces Day (Saturday, May 18) through Labor Day (Monday, September 2), current military families must show a Geneva Conventions common access card (CAC), DD Form 1173 ID card (dependent ID), or a DD Form 1173-1 ID card to Visitor Services staff for complimentary Museum admission for the military ID holder and up to five family members. The military ID holder can be either a servicemember or other dependent family member with the appropriate ID card. The servicemember does not have to be present for family members to use the program.\n\nThe free admission program is available for active-duty members of the US Armed Forces\u2014Army, Navy, Air Force, Marine Corps, Coast Guard, Space Force\u2014as well as members of the Reserves, National Guard, US Public Health Service Commissioned Corps, and NOAA Commissioned Corps.\n\nBlue Star Museums program admission also includes complimentary entry to the 4D film experience Beyond All Boundaries and the Freedom Theater Experience.\n\n\u301076\u2020Learn more about the",
+              "attribution": "nationalww2museum.org",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 737,
+              "end_idx": 747,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": " The National WWII Museum Tickets: Save Up to 54% Off",
+              "url": "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+              "pub_date": null,
+              "snippet": "\nIs the National WWII Museum child-friendly? Yes! The museum has several exhibits specially designed for children, such as \u201cThe Kids\u2019 Exhibit: Flight Adventure\u201d and \u201cThe Sullivan Brothers Story.\u201d\n\nTo make the kids\u2019 visit to the museum more enjoyable, talk to them about World War II in an age-appropriate way. Let them know what to expect at the museum.\n\nThe National WWII Museum Local Discount: Louisiana residents, take advantage of the National WWII Museum local discount! Enjoy half the WW2 Museum price and enjoy the museum\u2019s galleries and exhibits, showcasing fascinating artifacts and immersive experiences that delve into World War II history.\n\nBring your Louisiana-issued driver\u2019s license, state ID, or any other valid identification with your address to claim the discount.\n\nThe National WWII Museum Group Travel Deals: Searching for a destination that is guaranteed to move and educate your group? The National WWII Museum in \u301029\u2020New Orleans is a must-visit attraction\u3011, shining a light on America\u2019s role in World War II.\n\nCelebrated as the top attraction in New Orleans and honored with the Travelers\u2019 Choice Award, the National WWII Museum is a perfect choice for group tours, student tours, or military reunions. So if you\u2019re a party of 10 or more, visit the National WWII Museum\u2019s official website to send an inquiry about World War 2 Museum coupons for your group.\n\n### [Image 1: WW2 exhibit with posters on it][Image 2: WW2 exhibit with posters on it]\n\n## Are There Any The National WWII Museum Vacation Packages To Help Me Save More?\n\nEmbark on an unforgettable journey with an exclusive vacation package, featuring the National WW2 Museum tickets, offered only through Tripster!\n\nThe National WWII Museum vacation packages include discounted The National WWII Museum tickets, plus discount tickets to your choice of top \u301026\u2020New Orleans attractions\u3011, \u301030\u2020tours\u3011, and experiences.\n\nWhether you\u2019re a history buff, a culture enthusiast, or simply seeking a memorable trip, this package caters to all interests. Here are some of the most popular National WWII Museum vacation packages you can only get on Tripster:\n\n  * \u301031\u2020The National WWII Museum + French Quarter Carriage Tours\u3011\n  * \u301032\u2020The National WWII Museum + Go New Orleans All-Inclusive Pass\u3011\n  * \u301033\u2020The National WWII Museum + History & Haunts Carriage Tours\u3011\n  * \u301034\u2020The National WWII Museum + Court of Two Sisters Live Jazz Brunch\u3011\n\n## What Are the Hotels Near The National WWII Museum?\n\nThe National World War II Museum is located in the Warehouse District of New Orleans, Louisiana, specifically at 945 Magazine Street. This area is not only rich in history but is also conveniently situated near a variety of other attractions, making it an ideal location if you\u2019re staying at a \u301035\u2020nearby hotel\u3011.\n\nLooking for \u301035\u2020budget-friendly hotels\u3011 near World War 2 Museum New Orleans? Here are our top picks for comfort and savings:\n\n  * \u301036\u2020The Higgins Hotel New Orleans, Curio Collection By Hilton\u3011\n  * \u301037\u2020Drury Plaza Hotel New Orleans\u3011\n  * \u301038\u2020Le M\u00e9ridien New Orleans\u3011\n  * \u301039\u2020Voco St James Hotel, an IHG hotel\u3011\n\nThe National WWII Museum Hotel Packages: \u301027\u2020Planning\u3011 to stay near the National WWII Museum? Make it a budget-friendly vacation by taking advantage of the hotel packages offered only through Tripster!\n\nThe \u301040\u2020National WWII Museum hotel package\u3011 bundles your museum visit with a comfortable stay. Choose from Tripster\u2019s list of hotels near WWII Museum New Orleans at unbeatably low rates.\n\nThese sought-after packages are in high demand, especially during peak seasons. To avoid missing out on this incredible opportunity, remember to book well in advance\n\n## What Are the Best New Orleans Attractions?\n\nSt. Joseph Plantation Guided Tour: \u301041\u2020St. Joseph Plantation\u3011 is an authentic cane sugar plantation that doubles as a popular filming location for various TV shows and movies.\n\nWith a knowledgeable guide, take a tour of the main house, expansive grounds, historical slave cabins, the blacksmith\u2019s shop, and an old schoolhouse, among other sites.\n\nYou\u2019ll learn about the daily life on a sugar plantation and leave with a heart inspired by stories of both the free and enslaved individuals who have resided there over its long history.\n\nCourt of Two Sisters Live Jazz Brunch: Indulge in a classic New Orleans experience with a genuine Cajun-Creole brunch, set to the lively backdrop of a live jazz band in a charming wisteria-covered courtyard.\n\nTop off your meal with a complimentary glass of Court of Two Sisters Private Label wine \u2013 choose from chardonnay, cabernet sauvignon, champagne, or a refreshing mimosa.\n\nThe \u301042\u2020Court of Two Sister Live Jazz Brunch\u3011 is the perfect way to savor the local flavors and sounds of New Orleans!\n\nNew Orleans Irish Channel Pub Crawl: Join this fun-tastic educational \u301043\u2020",
+              "attribution": "tripster.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301010\u2020source\u3011",
+              "start_idx": 902,
+              "end_idx": 913,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The National WWII Museum Admission Ticket New Orle... | Groupon",
+              "url": "https://www.groupon.com/deals/viator-national-wwii-museum",
+              "pub_date": null,
+              "snippet": "Duration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\nDesignated by Congress as the official WWII museum of the United States, The National WWII Museum is located in downtown New Orleans on a six-acre campus, where five soaring pavilions house historical exhibits, on-site restoration work, a period dinner theater, and restaurants. Step inside with a general admission ticket, and then spend as long as you like exploring this must-visit attraction independently. Discover thousands of World War II memorabilia and artifacts, and learn all about wartime events from the museum's information displays.\n\nDuration   \n2 hours - 3 hours   \n\nLanguages Available   \n\n  * Printed guide - English \n\n### Points of Interest \n\nStop At: The National WWII Museum   \n945 Magazine Street, New Orleans, Louisiana   \nHead inside The National WWII Museum with your general admission ticket and start exploring the captivating exhibition space at leisure. The Museum tells the story of the American Experience in the war that changed the world\u2014why it was fought, how it was won, and what it means today\u2014so that all generations will understand the price of freedom and be inspired by what they learn. Guaranteed to move and educate, The National WWII Museum features interactive exhibits, soaring aircraft, personal histories, and more. The heart of the Museum experience, Campaigns of Courage: European and Pacific Theaters brings visitors inside the story of how the war was won. Two immersive exhibitions\u2014Road to Berlin: European Theater Galleries and Road to Tokyo: Pacific Theater Galleries\u2014feature environmental exhibits that guide visitors chronologically through the narrative of each theater of combat, using a sophisticated mix of set design, narrated and environmental videos, period newsreels, interactive oral-history kiosks, personal and digital artifacts, and dynamic displays for a uniquely evocative experience. How long you spend inside the museum is up to you! If you are hungry or simply want a break from exploring the exhibits, visit the on-site American Sector Restaurant + Bar and take a step back in time in BB\u2019s Stage Door Canteen, a 1940s-style entertainment venue that showcases the music and performers of the war years. Food and drinks are at your own expense.  \nDuration: Not Available   \n\n### Additional Information \n\n  * Travelers should have at least a moderate level of physical fitness \n  * Wheelchair accessible \n\nInclusions   \n\n  * Admission ticket \n\nExclusions   \n\n  * Food and drinks (own expense)\n  * Beyond all Boundaries (4-D) and Final Mission. These additional experiences are not included (7 USD)\n\nRedemption Instructions   \nAdmission tickets are date and time specific.  \n\nVoucher Info   \nMobile or paper ticket accepted  \n\nThe tour identified in this promotion is made available through Viator. Groupon is not affiliated with or sponsored by the National WWII Museum in connection with this deal. Please contact Groupon customer service for all inquiries related to this offer. Inquiries placed to Viator will be directed back to Groupon.   \n\nThis offer is not eligible for promo codes.\n\n### Fine Print\n\nFor a full refund, cancel at least 24 hours in advance of the start date of the experience.\n\nMerchant is solely responsible to purchasers for the care and quality of the advertised goods and services. Offer is not eligible for our promo codes or other discounts. Learn about \u301012\u2020Strike-Through Pricing and",
+              "attribution": "groupon.com",
+              "icon_type": null
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "403f544b-70f8-42ae-a515-68166e0f95de",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "58cfa5bb-6583-4a42-9948-f0a26e4dcbeb",
+  "plugin_ids": null,
+  "conversation_id": "fa497cc4-b1d4-42ec-bfab-bc3c456080aa",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.groupon.com/deals/viator-national-wwii-museum",
+    "https://www.nationalww2museum.org",
+    "https://www.nationalww2museum.org/louisiana",
+    "https://www.nationalww2museum.org/programs/blue-star-museums-network-program",
+    "https://www.tripster.com/travelguide/the-national-wwii-museum-tickets/",
+    "https://www.myneworleans.com/louisiana-residents-offered-half-priced-admission-to-the-national-wwii-museum-this-july/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "fa497cc4-b1d4-42ec-bfab-bc3c456080aa"
+}

@@ -1,0 +1,227 @@
+{
+  "title": "Renewables Solution Specialist",
+  "create_time": 1710683851.726107,
+  "update_time": 1710683868.656653,
+  "mapping": {
+    "aaa13d63-af46-4efc-a38d-28b21d2e9824": {
+      "id": "aaa13d63-af46-4efc-a38d-28b21d2e9824",
+      "message": null,
+      "parent": null,
+      "children": [
+        "abbce1a4-2ee5-42af-9e8c-640e5d6e829f"
+      ]
+    },
+    "abbce1a4-2ee5-42af-9e8c-640e5d6e829f": {
+      "id": "abbce1a4-2ee5-42af-9e8c-640e5d6e829f",
+      "message": {
+        "id": "abbce1a4-2ee5-42af-9e8c-640e5d6e829f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa13d63-af46-4efc-a38d-28b21d2e9824",
+      "children": [
+        "aaa2a413-0097-4a70-bf40-dab8c8ec61a0"
+      ]
+    },
+    "aaa2a413-0097-4a70-bf40-dab8c8ec61a0": {
+      "id": "aaa2a413-0097-4a70-bf40-dab8c8ec61a0",
+      "message": {
+        "id": "aaa2a413-0097-4a70-bf40-dab8c8ec61a0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1710683851.72664,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please create a two sentance description of DSD Renewables"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "865d7e185c632022-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "abbce1a4-2ee5-42af-9e8c-640e5d6e829f",
+      "children": [
+        "d3bf0e2d-170c-4ab5-8cc8-840456c1b559"
+      ]
+    },
+    "d3bf0e2d-170c-4ab5-8cc8-840456c1b559": {
+      "id": "d3bf0e2d-170c-4ab5-8cc8-840456c1b559",
+      "message": {
+        "id": "d3bf0e2d-170c-4ab5-8cc8-840456c1b559",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1710683852.558805,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "DSD Renewables is a leading sustainable energy company specializing in the development and implementation of solar power solutions. They focus on delivering innovative renewable energy projects tailored to meet the needs of businesses and communities, driving towards a greener future."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "default_model_slug": "text-davinci-002-render-sha",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "aaa2a413-0097-4a70-bf40-dab8c8ec61a0",
+          "request_id": "865d7e185c632022-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2a413-0097-4a70-bf40-dab8c8ec61a0",
+      "children": [
+        "aaa2c60c-016e-45ed-aa51-82a267c20656"
+      ]
+    },
+    "aaa2c60c-016e-45ed-aa51-82a267c20656": {
+      "id": "aaa2c60c-016e-45ed-aa51-82a267c20656",
+      "message": {
+        "id": "aaa2c60c-016e-45ed-aa51-82a267c20656",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1710683867.277824,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please pull from their website"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "865d7e799b752022-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d3bf0e2d-170c-4ab5-8cc8-840456c1b559",
+      "children": [
+        "0be02c9c-fde7-40f7-94c8-80de8a1dec01"
+      ]
+    },
+    "0be02c9c-fde7-40f7-94c8-80de8a1dec01": {
+      "id": "0be02c9c-fde7-40f7-94c8-80de8a1dec01",
+      "message": {
+        "id": "0be02c9c-fde7-40f7-94c8-80de8a1dec01",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1710683868.652243,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm sorry, but as of my last update in January 2022, I don't have the ability to access or retrieve real-time data from specific websites, including DSD Renewables'. My responses are generated based on a mixture of licensed data, data created by human trainers, and publicly available data. If you need information from their website, I would recommend visiting it directly. However, I can still help you craft a description based on typical content found on renewable energy company websites."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "default_model_slug": "text-davinci-002-render-sha",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "aaa2c60c-016e-45ed-aa51-82a267c20656",
+          "request_id": "865d7e799b752022-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2c60c-016e-45ed-aa51-82a267c20656",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0be02c9c-fde7-40f7-94c8-80de8a1dec01",
+  "plugin_ids": null,
+  "conversation_id": "c09fdc74-f4f3-44ad-ae29-fa65f7963b91",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "text-davinci-002-render-sha",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "c09fdc74-f4f3-44ad-ae29-fa65f7963b91"
+}

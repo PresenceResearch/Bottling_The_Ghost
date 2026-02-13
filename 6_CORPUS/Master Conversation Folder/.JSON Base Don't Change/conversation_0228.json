@@ -1,0 +1,185 @@
+{
+  "title": "Podcasts about MJ's music",
+  "create_time": 1719876666.148637,
+  "update_time": 1719876676.493476,
+  "mapping": {
+    "39c20c23-700f-4615-8a1d-4a246c078b94": {
+      "id": "39c20c23-700f-4615-8a1d-4a246c078b94",
+      "message": null,
+      "parent": null,
+      "children": [
+        "4bb8b03e-b7ef-4d6e-81dd-0a511f9040e0"
+      ]
+    },
+    "4bb8b03e-b7ef-4d6e-81dd-0a511f9040e0": {
+      "id": "4bb8b03e-b7ef-4d6e-81dd-0a511f9040e0",
+      "message": {
+        "id": "4bb8b03e-b7ef-4d6e-81dd-0a511f9040e0",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "39c20c23-700f-4615-8a1d-4a246c078b94",
+      "children": [
+        "fa891556-040d-452a-82de-09c0167c3427"
+      ]
+    },
+    "fa891556-040d-452a-82de-09c0167c3427": {
+      "id": "fa891556-040d-452a-82de-09c0167c3427",
+      "message": {
+        "id": "fa891556-040d-452a-82de-09c0167c3427",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719876666.152092,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Podcasts about Michael Jackson\u2019s music "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "89ca300a4e8a59e6-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4bb8b03e-b7ef-4d6e-81dd-0a511f9040e0",
+      "children": [
+        "69bf89b8-a598-48e6-bdfa-90263531109c"
+      ]
+    },
+    "69bf89b8-a598-48e6-bdfa-90263531109c": {
+      "id": "69bf89b8-a598-48e6-bdfa-90263531109c",
+      "message": {
+        "id": "69bf89b8-a598-48e6-bdfa-90263531109c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719876674.478852,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "fa891556-040d-452a-82de-09c0167c3427",
+          "request_id": "89ca300a4e8a59e6-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fa891556-040d-452a-82de-09c0167c3427",
+      "children": [
+        "2a6d0d7e-dc92-4f5e-982a-e26bd2926cdc"
+      ]
+    },
+    "2a6d0d7e-dc92-4f5e-982a-e26bd2926cdc": {
+      "id": "2a6d0d7e-dc92-4f5e-982a-e26bd2926cdc",
+      "message": {
+        "id": "2a6d0d7e-dc92-4f5e-982a-e26bd2926cdc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719876674.478919,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are some podcasts that focus on Michael Jackson's music:\n\n1. **The MJCast**: A podcast dedicated to the life and work of Michael Jackson. It features in-depth discussions on his albums, songs, and performances, along with interviews with people who worked with him.\n\n2. **Michael Jackson Podcast**: Hosted by Jamon Bull and Q, this podcast covers various aspects of Michael Jackson's career, including his music, influence, and legacy.\n\n3. **Moonwalk Talks**: This podcast delves into Michael Jackson's music, exploring the stories behind his songs, albums, and artistic choices.\n\n4. **MJ News Digest**: While primarily a news podcast, it often features segments that discuss Michael Jackson's music and its impact.\n\n5. **Dissect Podcast - Season 7**: This season of the popular Dissect podcast is dedicated to analyzing Michael Jackson's \"Thriller\" album, providing a deep dive into the creation and significance of the songs.\n\nThese podcasts offer a range of perspectives and insights into Michael Jackson's musical legacy."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAA",
+          "parent_id": "69bf89b8-a598-48e6-bdfa-90263531109c",
+          "request_id": "89ca300a4e8a59e6-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "69bf89b8-a598-48e6-bdfa-90263531109c",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2a6d0d7e-dc92-4f5e-982a-e26bd2926cdc",
+  "plugin_ids": null,
+  "conversation_id": "3cd59faf-fc3d-4052-9664-552c4cfacdd3",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "3cd59faf-fc3d-4052-9664-552c4cfacdd3"
+}

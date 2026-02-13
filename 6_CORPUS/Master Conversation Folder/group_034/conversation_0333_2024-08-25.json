@@ -1,0 +1,266 @@
+{
+  "title": "Cosa significa agnello",
+  "create_time": 1724577480.520132,
+  "update_time": 1724577887.218922,
+  "mapping": {
+    "41a9e56f-6d5b-4c53-99ab-9e7f287ae4a2": {
+      "id": "41a9e56f-6d5b-4c53-99ab-9e7f287ae4a2",
+      "message": null,
+      "parent": null,
+      "children": [
+        "621f906e-220b-4599-8203-b79078e27586"
+      ]
+    },
+    "621f906e-220b-4599-8203-b79078e27586": {
+      "id": "621f906e-220b-4599-8203-b79078e27586",
+      "message": {
+        "id": "621f906e-220b-4599-8203-b79078e27586",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "41a9e56f-6d5b-4c53-99ab-9e7f287ae4a2",
+      "children": [
+        "8d3148f7-aebe-4f7a-8955-d613fc531239"
+      ]
+    },
+    "8d3148f7-aebe-4f7a-8955-d613fc531239": {
+      "id": "8d3148f7-aebe-4f7a-8955-d613fc531239",
+      "message": {
+        "id": "8d3148f7-aebe-4f7a-8955-d613fc531239",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724577480.523612,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is agnello "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b8a7e03efbb3469-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "621f906e-220b-4599-8203-b79078e27586",
+      "children": [
+        "3391f116-c6cf-483a-b32f-d44c04104107"
+      ]
+    },
+    "3391f116-c6cf-483a-b32f-d44c04104107": {
+      "id": "3391f116-c6cf-483a-b32f-d44c04104107",
+      "message": {
+        "id": "3391f116-c6cf-483a-b32f-d44c04104107",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724577482.374482,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8d3148f7-aebe-4f7a-8955-d613fc531239",
+          "request_id": "8b8a7e03efbb3469-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8d3148f7-aebe-4f7a-8955-d613fc531239",
+      "children": [
+        "fb5de881-da83-472c-a7e5-8c59e13addf1"
+      ]
+    },
+    "fb5de881-da83-472c-a7e5-8c59e13addf1": {
+      "id": "fb5de881-da83-472c-a7e5-8c59e13addf1",
+      "message": {
+        "id": "fb5de881-da83-472c-a7e5-8c59e13addf1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724577482.374545,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Agnello\" is the Italian word for \"lamb.\" In culinary contexts, it often refers to dishes made with lamb, such as \"agnello al forno\" (roast lamb) or \"agnello alla scottadito\" (grilled lamb chops). Lamb is a popular ingredient in many Italian dishes, especially in regions like Tuscany and Sardinia, where it is prepared in various traditional ways."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3391f116-c6cf-483a-b32f-d44c04104107",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b8a7e03efbb3469-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3391f116-c6cf-483a-b32f-d44c04104107",
+      "children": [
+        "247d9803-12cc-40cf-b5d2-a5341c676072"
+      ]
+    },
+    "247d9803-12cc-40cf-b5d2-a5341c676072": {
+      "id": "247d9803-12cc-40cf-b5d2-a5341c676072",
+      "message": {
+        "id": "247d9803-12cc-40cf-b5d2-a5341c676072",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724577883.946349,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Chitarra con ayu e rucola "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b8a87dd58d880d2-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fb5de881-da83-472c-a7e5-8c59e13addf1",
+      "children": [
+        "a354c302-7016-4e44-a420-03da450f4027"
+      ]
+    },
+    "a354c302-7016-4e44-a420-03da450f4027": {
+      "id": "a354c302-7016-4e44-a420-03da450f4027",
+      "message": {
+        "id": "a354c302-7016-4e44-a420-03da450f4027",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724577886.874727,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Chitarra con ayu e rucola\" refers to a pasta dish where \"chitarra\" is a type of pasta, \"ayu\" likely refers to sweetfish (a type of fish found in Japan), and \"rucola\" is arugula, a peppery green often used in salads.\n\nIn this dish, the chitarra pasta, which is a square-shaped spaghetti made using a traditional tool called a \"chitarra\" (meaning \"guitar\" in Italian), would be paired with the delicate flavor of sweetfish and the sharpness of arugula. It's a fusion dish combining Italian pasta with Japanese ingredients, creating a unique flavor profile."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAA",
+          "parent_id": "247d9803-12cc-40cf-b5d2-a5341c676072",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b8a87dd58d880d2-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "247d9803-12cc-40cf-b5d2-a5341c676072",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a354c302-7016-4e44-a420-03da450f4027",
+  "plugin_ids": null,
+  "conversation_id": "38291497-22e2-4099-b0da-e0904d88d5bf",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "38291497-22e2-4099-b0da-e0904d88d5bf"
+}

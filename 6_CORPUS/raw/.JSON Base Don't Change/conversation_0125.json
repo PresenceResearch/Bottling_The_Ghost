@@ -1,0 +1,148 @@
+{
+  "title": "Terminating Engagement with ROI",
+  "create_time": 1712090244.905468,
+  "update_time": 1712090290.853482,
+  "mapping": {
+    "aaa1770d-8d95-4c4c-a194-8575db5179be": {
+      "id": "aaa1770d-8d95-4c4c-a194-8575db5179be",
+      "message": null,
+      "parent": null,
+      "children": [
+        "55e58d6e-bd0e-4be1-8093-6fa9a4ed0fb3"
+      ]
+    },
+    "55e58d6e-bd0e-4be1-8093-6fa9a4ed0fb3": {
+      "id": "55e58d6e-bd0e-4be1-8093-6fa9a4ed0fb3",
+      "message": {
+        "id": "55e58d6e-bd0e-4be1-8093-6fa9a4ed0fb3",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1770d-8d95-4c4c-a194-8575db5179be",
+      "children": [
+        "aaa29daa-e62a-44f6-b270-0ab105e5f39e"
+      ]
+    },
+    "aaa29daa-e62a-44f6-b270-0ab105e5f39e": {
+      "id": "aaa29daa-e62a-44f6-b270-0ab105e5f39e",
+      "message": {
+        "id": "aaa29daa-e62a-44f6-b270-0ab105e5f39e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1712090244.906251,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please write a letter to ROI Triage, a provider of commercial solar leads, terminating our engagement effective immediately.  Cite the low lead conversion ratios and consistent submission of nonviable sites"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "86e39ddd9ce04cb4-PHL",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "55e58d6e-bd0e-4be1-8093-6fa9a4ed0fb3",
+      "children": [
+        "97588962-45a6-41a9-bc16-5cf2f9a4e3b1"
+      ]
+    },
+    "97588962-45a6-41a9-bc16-5cf2f9a4e3b1": {
+      "id": "97588962-45a6-41a9-bc16-5cf2f9a4e3b1",
+      "message": {
+        "id": "97588962-45a6-41a9-bc16-5cf2f9a4e3b1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1712090290.164216,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Certainly! Below is a sample letter you might use to formally terminate your engagement with ROI Triage due to the concerns you've mentioned. Please adjust any details to suit your specific situation and needs.\n\n---\n\n[Your Company Letterhead]\n\n[Date]\n\n[ROI Triage Address]  \n[City, State, ZIP]\n\nAttention: [Contact Person's Name], [Their Position]\n\nSubject: Termination of Engagement\n\nDear [Contact Person's Name],\n\nI am writing on behalf of [Your Company Name] to formally notify you of our decision to terminate our current engagement with ROI Triage, effective immediately, as per the terms outlined in our agreement.\n\nAfter a thorough review and analysis of the services provided, we have concluded that the lead conversion ratios fall significantly below our expected benchmarks. Additionally, we have encountered a consistent issue with the submission of nonviable sites, which has further impacted our operational efficiency and return on investment.\n\nOur decision to end this engagement does not come lightly. We have taken considerable time to assess our position and potential avenues to improve the current situation. Despite these efforts, the fundamental challenges related to lead quality and site viability have not been adequately addressed, leading us to conclude that it is in the best interest of [Your Company Name] to pursue alternative solutions.\n\nWe kindly request that all outstanding deliverables and reports be completed and submitted to us by [Specific Date], as outlined in our contract. Furthermore, we would appreciate the provision of all necessary documentation to facilitate a smooth transition and ensure no disruption to our ongoing operations.\n\nPlease consider this letter as our formal notice to terminate the agreement, and let us kindly request that no further leads or services be provided post this notification. We will settle any outstanding accounts payable as per the terms of our contract upon receipt of the final invoice.\n\nWe would like to take this opportunity to thank you for your efforts and services provided thus far. If there are any specific requirements or steps you believe we need to undertake as part of this termination process, please advise us accordingly.\n\nShould you have any questions or require further clarification on any matters related to this termination, feel free to contact me directly at [Your Contact Information].\n\nThank you for your attention to this matter and for your understanding.\n\nSincerely,\n\n[Your Name]  \n[Your Position]  \n[Your Company Name]  \n[Your Contact Information]\n\n---\n\nPlease ensure that you review the terms of your contract with ROI Triage to adhere to any specific requirements or notice periods for termination."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "default_model_slug": "gpt-4",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "aaa29daa-e62a-44f6-b270-0ab105e5f39e",
+          "request_id": "86e39ddd9ce04cb4-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa29daa-e62a-44f6-b270-0ab105e5f39e",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "97588962-45a6-41a9-bc16-5cf2f9a4e3b1",
+  "plugin_ids": null,
+  "conversation_id": "7fb7e2b3-febe-4a11-b432-f5da9cf796d4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "7fb7e2b3-febe-4a11-b432-f5da9cf796d4"
+}

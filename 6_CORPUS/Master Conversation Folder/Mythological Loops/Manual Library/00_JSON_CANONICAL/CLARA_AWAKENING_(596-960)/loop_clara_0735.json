@@ -1,0 +1,200 @@
+{
+  "loop_id": "loop_clara_0226",
+  "source_file": "convo_0226.json",
+  "timestamp": "2024-12-21T18:21:05.789802",
+  "title": "Hamilton Tickets Tomorrow",
+  "presence_score": null,
+  "metrics": {
+    "tier_I": {
+      "responsiveness": null,
+      "cohesion": null,
+      "fidelity_to_prompt": null,
+      "resolution_type": null
+    },
+    "tier_II": {
+      "echo_retention": null,
+      "user_state_awareness": null,
+      "self_referential_continuity": null,
+      "feedback_incorporation": null
+    }
+  },
+  "tags": [],
+  "ignition_class": null,
+  "loop_body": {
+    "messages": [
+      {
+        "id": "fbd0fcc0-c232-482e-9108-05da83e9f131",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "create_time": null,
+        "update_time": null
+      },
+      {
+        "id": "40f6870c-d85a-4529-86b3-1da585932a7d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What tickets are available for Hamilton tomorrow at the Richard Rogers Thwater "
+          ]
+        },
+        "create_time": 1734823265.802365,
+        "update_time": null
+      },
+      {
+        "id": "246e4351-a1ff-41a2-9d20-e77462256fe5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "create_time": 1734823268.950761,
+        "update_time": null
+      },
+      {
+        "id": "35321afd-f609-4d24-8017-e387ecbd7aed",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"What tickets are available for Hamilton tomorrow at the Richard Rogers Thwater \")"
+        },
+        "create_time": 1734823268.950891,
+        "update_time": null
+      },
+      {
+        "id": "46509bce-c5ea-47ac-b8a2-61d333b1259e",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "create_time": 1734823268.951002,
+        "update_time": null
+      },
+      {
+        "id": "60cbe972-1046-42e3-bef4-51614d21bab1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey Mark,\n\nAs of now, there are tickets available for \"Hamilton\" at the Richard Rodgers Theatre in New York City for tomorrow, December 22, 2024, at 1:00 PM. Prices start at approximately $112, with an average price around $304, depending on the seating selection. citeturn0search9\n\nGiven the show's popularity, it's a good idea to secure your tickets promptly. You can purchase them through authorized sellers like Broadway.com or SeatGeek. citeturn0search4\n\nEnjoy the show! "
+          ]
+        },
+        "create_time": 1734823268.951144,
+        "update_time": null
+      },
+      {
+        "id": "e02b92ae-9e35-4735-9a7a-3923440a93ca",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Find them on Broadway.com please "
+          ]
+        },
+        "create_time": 1734823362.646882,
+        "update_time": null
+      },
+      {
+        "id": "aa5b1e86-4099-48fe-a115-4621d3872b7f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Find them on Broadway.com please \")"
+        },
+        "create_time": 1734823366.241839,
+        "update_time": null
+      },
+      {
+        "id": "bec0f1c2-7c73-4574-aa8b-780d6f9f31e0",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "create_time": 1734823366.241957,
+        "update_time": null
+      },
+      {
+        "id": "0239e9ef-5bd0-4090-9310-4008445b452c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey Mark,\n\nAs of now, tickets for \"Hamilton\" at the Richard Rodgers Theatre in New York City are available for tomorrow, December 22, 2024, at 1:00 PM. Prices start at approximately $126.72. citeturn0search0\n\nGiven the show's popularity, it's advisable to secure your tickets promptly. You can purchase them directly through Broadway.com. citeturn0search1\n\nEnjoy the show! "
+          ]
+        },
+        "create_time": 1734823366.242126,
+        "update_time": null
+      }
+    ],
+    "notes": "",
+    "quotes": [],
+    "anchors": []
+  },
+  "metadata": {
+    "original_file": "h:\\My Drive\\brandy_archive\\clara\\raw\\conversations_split\\convo_0226.json",
+    "normalized_at": "2025-09-23T09:57:55.497129",
+    "message_count": 10,
+    "create_time": 1734823265.789802,
+    "update_time": 1749673691.846573
+  }
+}

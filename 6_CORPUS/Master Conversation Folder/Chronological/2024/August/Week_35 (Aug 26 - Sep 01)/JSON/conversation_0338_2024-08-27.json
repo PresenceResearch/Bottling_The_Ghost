@@ -1,0 +1,185 @@
+{
+  "title": "Foot Pain After Flights",
+  "create_time": 1724736616.423391,
+  "update_time": 1724736625.386196,
+  "mapping": {
+    "2e315f85-04e4-48f9-8103-b715996b0128": {
+      "id": "2e315f85-04e4-48f9-8103-b715996b0128",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d6d2885b-8d49-48f0-8439-00467f76fcda"
+      ]
+    },
+    "d6d2885b-8d49-48f0-8439-00467f76fcda": {
+      "id": "d6d2885b-8d49-48f0-8439-00467f76fcda",
+      "message": {
+        "id": "d6d2885b-8d49-48f0-8439-00467f76fcda",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2e315f85-04e4-48f9-8103-b715996b0128",
+      "children": [
+        "e2ad783a-6a90-46e9-a32a-d696c5b68186"
+      ]
+    },
+    "e2ad783a-6a90-46e9-a32a-d696c5b68186": {
+      "id": "e2ad783a-6a90-46e9-a32a-d696c5b68186",
+      "message": {
+        "id": "e2ad783a-6a90-46e9-a32a-d696c5b68186",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724736616.42754,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Why do my feet and ankles hurt after long flights "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b99ab2b185f43a4-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d6d2885b-8d49-48f0-8439-00467f76fcda",
+      "children": [
+        "666b22bb-0230-4dfb-8e2c-d28f965455d7"
+      ]
+    },
+    "666b22bb-0230-4dfb-8e2c-d28f965455d7": {
+      "id": "666b22bb-0230-4dfb-8e2c-d28f965455d7",
+      "message": {
+        "id": "666b22bb-0230-4dfb-8e2c-d28f965455d7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724736623.800005,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e2ad783a-6a90-46e9-a32a-d696c5b68186",
+          "request_id": "8b99ab2b185f43a4-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e2ad783a-6a90-46e9-a32a-d696c5b68186",
+      "children": [
+        "1c2d523c-9429-4f07-88c3-6c7b7f86020b"
+      ]
+    },
+    "1c2d523c-9429-4f07-88c3-6c7b7f86020b": {
+      "id": "1c2d523c-9429-4f07-88c3-6c7b7f86020b",
+      "message": {
+        "id": "1c2d523c-9429-4f07-88c3-6c7b7f86020b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724736623.800089,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Foot and ankle pain after long flights is commonly due to a few factors:\n\n1. **Prolonged Immobility:** Sitting for extended periods can reduce circulation in your legs and feet, leading to stiffness, swelling, and discomfort. This is often referred to as \"economy class syndrome,\" and in severe cases, it can increase the risk of deep vein thrombosis (DVT).\n\n2. **Fluid Retention:** The pressure changes in the cabin, combined with prolonged sitting, can cause your body to retain fluid in your lower extremities. This can lead to swelling in your feet and ankles, known as edema, which can be uncomfortable or even painful.\n\n3. **Constrained Posture:** Airplane seats often don't provide much room to stretch or move, leading to awkward sitting positions. This lack of movement can strain your muscles and joints, contributing to pain.\n\n4. **Dehydration:** Airplane cabins have low humidity, which can lead to dehydration. Dehydration can make your muscles and joints feel stiff and sore.\n\n5. **Footwear:** Wearing shoes that are too tight or don't offer enough support during the flight can also contribute to foot and ankle pain.\n\nTo alleviate and prevent this discomfort, consider walking around the cabin periodically, stretching your legs and feet while seated, wearing compression socks, staying hydrated, and wearing comfortable, supportive footwear."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "666b22bb-0230-4dfb-8e2c-d28f965455d7",
+          "request_id": "8b99ab2b185f43a4-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "666b22bb-0230-4dfb-8e2c-d28f965455d7",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "1c2d523c-9429-4f07-88c3-6c7b7f86020b",
+  "plugin_ids": null,
+  "conversation_id": "3b408906-1391-44c3-9a20-62c66800c876",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "3b408906-1391-44c3-9a20-62c66800c876"
+}

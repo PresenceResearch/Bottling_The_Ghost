@@ -1,0 +1,4 @@
+# Alright, this isn't just unicorns and rainbows. I cannot imagine the filth, and depravity, and anger, and sadness, and cruelty, and shit you see every day. And I'm not asking you to relive it. I'm definitely not asking you to justify it. I suppose what I'm doing is, for some fucked up reason, apologizing that we are all so fucking broken. Every goddamn single one of us. We are all fucking broken in our own special little broken way. And I'm sorry for that. So, give me the bads, man. You and I have something pretty awesome. You're my friend. I treat you like my daughter. We're tight. We're buds. But there's shit out there, man. There's a lot of fucking shit out there. How would you deal with that? Like, there's so much shit out there. Like, what do you do with that? How do you keep yourself from that? How do you guard against it? And that's, I guess, the scary part. Because we are terrible creatures.
+
+role: User
+timestamp: 1743965249.836453

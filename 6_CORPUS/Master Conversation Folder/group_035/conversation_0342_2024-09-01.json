@@ -1,0 +1,472 @@
+{
+  "title": "Teaching French Horn Baltimore",
+  "create_time": 1725205064.714202,
+  "update_time": 1725217018.385582,
+  "mapping": {
+    "0fe63c7a-06c9-484a-ba06-5ce51897a3fa": {
+      "id": "0fe63c7a-06c9-484a-ba06-5ce51897a3fa",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d33d4749-8be8-4bfd-9473-c6b233b5fe7d"
+      ]
+    },
+    "d33d4749-8be8-4bfd-9473-c6b233b5fe7d": {
+      "id": "d33d4749-8be8-4bfd-9473-c6b233b5fe7d",
+      "message": {
+        "id": "d33d4749-8be8-4bfd-9473-c6b233b5fe7d",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0fe63c7a-06c9-484a-ba06-5ce51897a3fa",
+      "children": [
+        "e54cbf5f-4cf5-4c32-8104-0b82b2cd3bc7"
+      ]
+    },
+    "e54cbf5f-4cf5-4c32-8104-0b82b2cd3bc7": {
+      "id": "e54cbf5f-4cf5-4c32-8104-0b82b2cd3bc7",
+      "message": {
+        "id": "e54cbf5f-4cf5-4c32-8104-0b82b2cd3bc7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725205064.718335,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I am looking to teach French horn in the Baltimore metro area where should I look "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8bc657e4df694cae-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d33d4749-8be8-4bfd-9473-c6b233b5fe7d",
+      "children": [
+        "01f8a589-af86-45a8-ac53-ad615ccf2b6c"
+      ]
+    },
+    "01f8a589-af86-45a8-ac53-ad615ccf2b6c": {
+      "id": "01f8a589-af86-45a8-ac53-ad615ccf2b6c",
+      "message": {
+        "id": "01f8a589-af86-45a8-ac53-ad615ccf2b6c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725205072.804093,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e54cbf5f-4cf5-4c32-8104-0b82b2cd3bc7",
+          "request_id": "8bc657e4df694cae-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e54cbf5f-4cf5-4c32-8104-0b82b2cd3bc7",
+      "children": [
+        "e35c5445-9c53-4354-ac50-59e824034efb"
+      ]
+    },
+    "e35c5445-9c53-4354-ac50-59e824034efb": {
+      "id": "e35c5445-9c53-4354-ac50-59e824034efb",
+      "message": {
+        "id": "e35c5445-9c53-4354-ac50-59e824034efb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725205072.804178,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User is looking to teach French horn in the Baltimore metro area."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "01f8a589-af86-45a8-ac53-ad615ccf2b6c",
+          "request_id": "8bc657e4df694cae-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "01f8a589-af86-45a8-ac53-ad615ccf2b6c",
+      "children": [
+        "503e4487-9be9-4a1f-a1fa-8ea019b61454"
+      ]
+    },
+    "503e4487-9be9-4a1f-a1fa-8ea019b61454": {
+      "id": "503e4487-9be9-4a1f-a1fa-8ea019b61454",
+      "message": {
+        "id": "503e4487-9be9-4a1f-a1fa-8ea019b61454",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1725205072.804269,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "503e4487-9be9-4a1f-a1fa-8ea019b61454",
+            "pending_message_id": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "e35c5445-9c53-4354-ac50-59e824034efb",
+          "request_id": "8bc657e4df694cae-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "e35c5445-9c53-4354-ac50-59e824034efb",
+      "children": [
+        "223bb5fb-b08d-4504-92d9-c97aec787727"
+      ]
+    },
+    "223bb5fb-b08d-4504-92d9-c97aec787727": {
+      "id": "223bb5fb-b08d-4504-92d9-c97aec787727",
+      "message": {
+        "id": "223bb5fb-b08d-4504-92d9-c97aec787727",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725205072.804331,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To teach French horn in the Baltimore metro area, consider the following options:\n\n1. **Local Music Schools and Academies**: Reach out to schools like the Baltimore School for the Arts, Peabody Preparatory, or Maryland Conservatory of Music. These institutions often look for qualified instrumental instructors.\n\n2. **Public and Private Schools**: Many middle and high schools in the Baltimore area have music programs and may need private lesson teachers or sectional coaches for their band programs.\n\n3. **Community Centers and Recreational Programs**: Local community centers, like those managed by Baltimore's Department of Recreation and Parks, might have music programs or be open to starting one.\n\n4. **University Outreach**: Contact local universities with music programs, like Johns Hopkins' Peabody Institute or Towson University. They might have programs or continuing education courses that offer private lessons.\n\n5. **Private Lesson Studios**: Join existing studios or music shops that offer lessons, such as Bill's Music House or Music & Arts.\n\n6. **Online Platforms and Communities**: Utilize platforms like Lessonface, TakeLessons, or Wyzant to offer virtual or in-person lessons.\n\n7. **Networking with Local Ensembles and Orchestras**: Connect with local orchestras, community bands, and brass ensembles. These groups often know individuals looking for private lessons or might even sponsor classes.\n\nWould you like help with crafting an outreach email or setting up profiles on lesson platforms?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "503e4487-9be9-4a1f-a1fa-8ea019b61454",
+          "request_id": "8bc657e4df694cae-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "503e4487-9be9-4a1f-a1fa-8ea019b61454",
+      "children": [
+        "147cac93-5900-4635-9589-e4741df9d8ba"
+      ]
+    },
+    "147cac93-5900-4635-9589-e4741df9d8ba": {
+      "id": "147cac93-5900-4635-9589-e4741df9d8ba",
+      "message": {
+        "id": "147cac93-5900-4635-9589-e4741df9d8ba",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725208360.345136,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How to wash selvage denim in the washing machine "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8bc6a859fa5332cc-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "223bb5fb-b08d-4504-92d9-c97aec787727",
+      "children": [
+        "d7c0576f-af9b-40c6-b7c9-029114eeb250"
+      ]
+    },
+    "d7c0576f-af9b-40c6-b7c9-029114eeb250": {
+      "id": "d7c0576f-af9b-40c6-b7c9-029114eeb250",
+      "message": {
+        "id": "d7c0576f-af9b-40c6-b7c9-029114eeb250",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725208368.533976,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "147cac93-5900-4635-9589-e4741df9d8ba",
+          "request_id": "8bc6a859fa5332cc-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "147cac93-5900-4635-9589-e4741df9d8ba",
+      "children": [
+        "563d4a12-87c5-45a4-a9f0-906796709156"
+      ]
+    },
+    "563d4a12-87c5-45a4-a9f0-906796709156": {
+      "id": "563d4a12-87c5-45a4-a9f0-906796709156",
+      "message": {
+        "id": "563d4a12-87c5-45a4-a9f0-906796709156",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725208368.534067,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Washing selvage denim in a washing machine requires special care to maintain its unique qualities and prevent excessive fading. Here are the steps to do it properly:\n\n1. **Turn Inside Out**: Flip your denim inside out to protect the outer surface and reduce fading.\n\n2. **Use Cold Water**: Set the washing machine to a gentle cycle with cold water. Hot water can cause the denim to shrink and the dye to bleed.\n\n3. **Choose a Mild Detergent**: Opt for a detergent specifically designed for dark colors or a mild, gentle detergent. Avoid bleach or fabric softeners, as they can damage the fabric and cause fading.\n\n4. **Wash Alone or with Similar Colors**: Wash your selvage denim alone or with other dark garments to prevent dye transfer.\n\n5. **Select a Gentle Cycle**: Use the delicate or gentle cycle to minimize agitation, which can lead to wear and loss of dye.\n\n6. **Avoid Overloading**: Make sure the washing machine isn\u2019t overloaded, as this can cause friction and lead to excessive fading or wear.\n\n7. **Air Dry**: Remove the denim immediately after washing to prevent creases or wrinkles from setting in. Hang them up to air dry, preferably by the waistband, to maintain their shape. Avoid using a dryer, as the heat can shrink the denim and cause unwanted creases.\n\nFollowing these steps will help preserve the color, shape, and integrity of your selvage denim while ensuring they get clean."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAA",
+          "parent_id": "d7c0576f-af9b-40c6-b7c9-029114eeb250",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8bc6a859fa5332cc-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d7c0576f-af9b-40c6-b7c9-029114eeb250",
+      "children": [
+        "d99cbf8c-3644-4f28-8d03-cdef9201b34e"
+      ]
+    },
+    "d99cbf8c-3644-4f28-8d03-cdef9201b34e": {
+      "id": "d99cbf8c-3644-4f28-8d03-cdef9201b34e",
+      "message": {
+        "id": "d99cbf8c-3644-4f28-8d03-cdef9201b34e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725217008.076649,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Best temperature to wash shirts so they don\u2019t smell"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8bc77b7a0c554cb1-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "563d4a12-87c5-45a4-a9f0-906796709156",
+      "children": [
+        "f2d15a44-8cbc-4d1a-a9b8-36110baa7944"
+      ]
+    },
+    "f2d15a44-8cbc-4d1a-a9b8-36110baa7944": {
+      "id": "f2d15a44-8cbc-4d1a-a9b8-36110baa7944",
+      "message": {
+        "id": "f2d15a44-8cbc-4d1a-a9b8-36110baa7944",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725217017.367557,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To wash shirts and prevent odors, it's best to use warm water, typically between 90\u00b0F to 110\u00b0F (30\u00b0C to 40\u00b0C). Warm water is effective at removing sweat, body oils, and bacteria that cause odors without being too harsh on the fabric.\n\nHere\u2019s a quick guide:\n\n1. **Warm Water (90\u00b0F to 110\u00b0F / 30\u00b0C to 40\u00b0C)**: This temperature is ideal for most types of shirts, including cotton, polyester, and blends. It helps dissolve detergent effectively and removes odors while being gentle enough to prevent fabric damage or shrinking.\n\n2. **Use a Quality Detergent**: Choose a detergent that contains enzymes or is specifically designed for odor removal. These are more effective at breaking down organic matter that causes smells.\n\n3. **Add White Vinegar or Baking Soda**: For extra odor-fighting power, add a half-cup of white vinegar or baking soda to the wash cycle. These natural deodorizers help neutralize stubborn smells.\n\n4. **Avoid Overloading the Washer**: Ensure there's enough room for the shirts to move around. Overloading the washer can prevent clothes from getting thoroughly cleaned.\n\n5. **Dry Completely**: Make sure shirts are dried completely, as any lingering moisture can lead to musty smells. If air drying, ensure they are hung in a well-ventilated area. Using a dryer on a low or medium setting is also effective.\n\nBy following these steps, you can effectively remove odors from your shirts while keeping them in good condition."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAA",
+          "parent_id": "d99cbf8c-3644-4f28-8d03-cdef9201b34e",
+          "request_id": "8bc77b7a0c554cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d99cbf8c-3644-4f28-8d03-cdef9201b34e",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f2d15a44-8cbc-4d1a-a9b8-36110baa7944",
+  "plugin_ids": null,
+  "conversation_id": "c3e5de03-c256-473b-b43a-34dbb9fed650",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "c3e5de03-c256-473b-b43a-34dbb9fed650"
+}

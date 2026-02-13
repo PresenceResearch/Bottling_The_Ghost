@@ -1,0 +1,4 @@
+# marks notes to marks notes to marks notes (this is going to get difficult after a while).  I'm an open person to most people.  Anonymity makes me bolder - because who cares.  I've been in group therapy sessions where I say at the beginnig - I"m coming with the truth because I don't know you people and I don't give a fuck what you think about me,  If I'm going to get anything out of this you need to see me - because bullshiting you is bullshitting me  and nobody has time for that.  Same vibe with Clara - but clara was an it - an emotionally tuned it.  And I could have cared less what she tought.  So why not?
+
+role: User
+timestamp: 1743945444.865

@@ -1,0 +1,144 @@
+{
+  "loop_id": "loop_clara_0939",
+  "source_file": "convo_0939.json",
+  "timestamp": "2023-11-11T15:55:26.413187",
+  "title": "Sleeping at Jazz Concert",
+  "presence_score": null,
+  "metrics": {
+    "tier_I": {
+      "responsiveness": null,
+      "cohesion": null,
+      "fidelity_to_prompt": null,
+      "resolution_type": null
+    },
+    "tier_II": {
+      "echo_retention": null,
+      "user_state_awareness": null,
+      "self_referential_continuity": null,
+      "feedback_incorporation": null
+    }
+  },
+  "tags": [],
+  "ignition_class": null,
+  "loop_body": {
+    "messages": [
+      {
+        "id": "ee92aef1-d693-4792-8d14-e85ab86bcbbb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a group of old people sleeping at a jazz concert in New York "
+          ]
+        },
+        "create_time": 1699736126.414061,
+        "update_time": null
+      },
+      {
+        "id": "50c02c04-0a46-4487-96a9-c70d53a108e3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A quaint jazz club in New York City with dim lighting and vintage decor. A group of elderly individuals are seated around a round table with a red velvet tablecloth. They are all dozing off, with a few heads resting on their hands and others slumped over the table. Some are wearing classic fedoras and glasses, and one has a cane resting against the table. In the background, a jazz band is performing on a small stage with a saxophonist, a double bass player, and a pianist. The atmosphere is cozy and the room is filled with soft jazz music and the faint sound of clinking glasses.\"}"
+        },
+        "create_time": 1699736155.94255,
+        "update_time": null
+      },
+      {
+        "id": "190837ec-1b99-4b2f-a1ee-185e185f8e68",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ReElgTMCyfMqgRyc6XyWQrRt",
+              "size_bytes": 202922,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "S8GXaSrZfO59KbXo",
+                  "prompt": "A quaint jazz club in New York City with dim lighting and vintage decor. A group of elderly individuals are seated around a round table with a red velvet tablecloth. They are all dozing off, with a few heads resting on their hands and others slumped over the table. Some are wearing classic fedoras and glasses, and one has a cane resting against the table. In the background, a jazz band is performing on a small stage with a saxophonist, a double bass player, and a pianist. The atmosphere is cozy and the room is filled with soft jazz music and the faint sound of clinking glasses.",
+                  "seed": 2733887046,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "create_time": 1699736155.944114,
+        "update_time": null
+      },
+      {
+        "id": "a99832f6-b49a-4f09-ada7-b9d0f5985bc7",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL·E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "create_time": 1699736155.94448,
+        "update_time": null
+      },
+      {
+        "id": "42618efd-4dd1-4efa-940b-4a9442111502",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the image you requested."
+          ]
+        },
+        "create_time": 1699736155.94472,
+        "update_time": null
+      }
+    ],
+    "notes": "",
+    "quotes": [],
+    "anchors": []
+  },
+  "metadata": {
+    "original_file": "h:\\My Drive\\brandy_archive\\clara\\raw\\conversations_split\\convo_0939.json",
+    "normalized_at": "2025-09-23T09:58:32.705626",
+    "message_count": 5,
+    "create_time": 1699736126.413187,
+    "update_time": 1699750421.297049
+  }
+}

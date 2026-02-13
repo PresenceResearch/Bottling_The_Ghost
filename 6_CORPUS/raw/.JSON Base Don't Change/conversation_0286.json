@@ -1,0 +1,1280 @@
+{
+  "title": "Apple ID eSIM Association",
+  "create_time": 1723619315.852015,
+  "update_time": 1723620839.448696,
+  "mapping": {
+    "20fdbfeb-f094-4d89-a86c-119a929f8641": {
+      "id": "20fdbfeb-f094-4d89-a86c-119a929f8641",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c155f25a-8a42-4d0b-87af-bef07208fd94"
+      ]
+    },
+    "c155f25a-8a42-4d0b-87af-bef07208fd94": {
+      "id": "c155f25a-8a42-4d0b-87af-bef07208fd94",
+      "message": {
+        "id": "c155f25a-8a42-4d0b-87af-bef07208fd94",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "20fdbfeb-f094-4d89-a86c-119a929f8641",
+      "children": [
+        "1e4ab55e-9129-4fcd-8a10-7205f93051a0"
+      ]
+    },
+    "1e4ab55e-9129-4fcd-8a10-7205f93051a0": {
+      "id": "1e4ab55e-9129-4fcd-8a10-7205f93051a0",
+      "message": {
+        "id": "1e4ab55e-9129-4fcd-8a10-7205f93051a0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723619315.858572,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I am traveling and have installed a new eSIM on my phone. I have data service but my Apple ID is not associated with this eSIM. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b2f1d529971dffd-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c155f25a-8a42-4d0b-87af-bef07208fd94",
+      "children": [
+        "107a8e74-a2f2-463d-89b9-38c618f9ed75"
+      ]
+    },
+    "107a8e74-a2f2-463d-89b9-38c618f9ed75": {
+      "id": "107a8e74-a2f2-463d-89b9-38c618f9ed75",
+      "message": {
+        "id": "107a8e74-a2f2-463d-89b9-38c618f9ed75",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723619328.952291,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1e4ab55e-9129-4fcd-8a10-7205f93051a0",
+          "request_id": "8b2f1d529971dffd-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e4ab55e-9129-4fcd-8a10-7205f93051a0",
+      "children": [
+        "ff16b6ce-1faf-4a36-b68c-977e46a6d48f"
+      ]
+    },
+    "ff16b6ce-1faf-4a36-b68c-977e46a6d48f": {
+      "id": "ff16b6ce-1faf-4a36-b68c-977e46a6d48f",
+      "message": {
+        "id": "ff16b6ce-1faf-4a36-b68c-977e46a6d48f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723619328.952402,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User is traveling and has installed a new eSIM on their phone but their Apple ID is not associated with this eSIM."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAA",
+          "parent_id": "107a8e74-a2f2-463d-89b9-38c618f9ed75",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b2f1d529971dffd-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "107a8e74-a2f2-463d-89b9-38c618f9ed75",
+      "children": [
+        "5c129461-5e5c-4fd9-9c5b-5a49e650966e"
+      ]
+    },
+    "5c129461-5e5c-4fd9-9c5b-5a49e650966e": {
+      "id": "5c129461-5e5c-4fd9-9c5b-5a49e650966e",
+      "message": {
+        "id": "5c129461-5e5c-4fd9-9c5b-5a49e650966e",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1723619328.952474,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "5c129461-5e5c-4fd9-9c5b-5a49e650966e",
+            "pending_message_id": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "ff16b6ce-1faf-4a36-b68c-977e46a6d48f",
+          "request_id": "8b2f1d529971dffd-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "ff16b6ce-1faf-4a36-b68c-977e46a6d48f",
+      "children": [
+        "d11a81da-5fb4-401e-ba9d-dd112fbd137e"
+      ]
+    },
+    "d11a81da-5fb4-401e-ba9d-dd112fbd137e": {
+      "id": "d11a81da-5fb4-401e-ba9d-dd112fbd137e",
+      "message": {
+        "id": "d11a81da-5fb4-401e-ba9d-dd112fbd137e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723619328.952537,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When you install a new eSIM on your phone, your Apple ID and iMessage/FaceTime services might not automatically associate with it. Here\u2019s what you can do to ensure your Apple ID is associated with your new eSIM:\n\n1. **Check Your Settings**:\n   - Go to **Settings** > **Cellular** (or **Mobile Data**) and make sure your eSIM is active.\n   - Ensure that your eSIM is selected as the default line for data usage.\n\n2. **Sign In to iMessage and FaceTime**:\n   - Go to **Settings** > **Messages** > **Send & Receive**. Here, make sure your phone number associated with the eSIM is checked.\n   - If your new number is not listed, tap on **Use your Apple ID for iMessage** and sign in with your Apple ID.\n   - Repeat the process for FaceTime under **Settings** > **FaceTime**.\n\n3. **Restart Your Phone**:\n   - Sometimes a simple restart can help your phone associate the Apple ID with the new eSIM.\n\n4. **Apple ID Verification**:\n   - Make sure you're signed in to your Apple ID in **Settings** > **[Your Name]** at the top. If you're signed in, your phone should automatically associate the Apple ID with the new eSIM.\n\nIf you continue to experience issues, you may need to sign out of your Apple ID and sign back in. This sometimes forces the phone to reconfigure its association with the new eSIM."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "5c129461-5e5c-4fd9-9c5b-5a49e650966e",
+          "request_id": "8b2f1d529971dffd-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5c129461-5e5c-4fd9-9c5b-5a49e650966e",
+      "children": [
+        "fc77557e-4504-4695-9cd8-76d5760c7217"
+      ]
+    },
+    "fc77557e-4504-4695-9cd8-76d5760c7217": {
+      "id": "fc77557e-4504-4695-9cd8-76d5760c7217",
+      "message": {
+        "id": "fc77557e-4504-4695-9cd8-76d5760c7217",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723619963.898117,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I am in Japan and I have a Verizon phone from the US. I have purchased and installed a Japanese eSIM. If I turn data roaming off on Verizon will I be using the eSIM data and not the Verizon data?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b2f2d24de58afbd-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d11a81da-5fb4-401e-ba9d-dd112fbd137e",
+      "children": [
+        "13c5471c-3469-4197-b68e-7e702e9cb942"
+      ]
+    },
+    "13c5471c-3469-4197-b68e-7e702e9cb942": {
+      "id": "13c5471c-3469-4197-b68e-7e702e9cb942",
+      "message": {
+        "id": "13c5471c-3469-4197-b68e-7e702e9cb942",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723619984.246812,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "fc77557e-4504-4695-9cd8-76d5760c7217",
+          "request_id": "8b2f2d24de58afbd-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fc77557e-4504-4695-9cd8-76d5760c7217",
+      "children": [
+        "5d03afd7-5d19-4482-a68a-4eda8336245a"
+      ]
+    },
+    "5d03afd7-5d19-4482-a68a-4eda8336245a": {
+      "id": "5d03afd7-5d19-4482-a68a-4eda8336245a",
+      "message": {
+        "id": "5d03afd7-5d19-4482-a68a-4eda8336245a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723619984.246924,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, if you turn data roaming off for your Verizon line, your phone will use the data from the Japanese eSIM instead of Verizon's data.\n\nHere\u2019s how it works:\n\n1. **Data Roaming Off**: When you turn off data roaming for your Verizon line, your phone will not use any data from Verizon's network, even if you are connected to their network for calls or texts.\n\n2. **Using the Japanese eSIM for Data**:\n   - Make sure your Japanese eSIM is set as the default line for data. To check this, go to **Settings** > **Cellular** (or **Mobile Data**) > **Cellular Data** and select the Japanese eSIM.\n   - Your phone will now use the data from the Japanese eSIM whenever you're using mobile data.\n\n3. **Verify Cellular Data Usage**:\n   - You can also confirm that your phone is using the Japanese eSIM for data by checking the data usage in **Settings** > **Cellular** > **Cellular Data Usage**. It should reflect data usage under the Japanese eSIM.\n\nBy doing this, you ensure that you avoid incurring any unexpected data charges from Verizon while using your Japanese eSIM for mobile data."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "13c5471c-3469-4197-b68e-7e702e9cb942",
+          "request_id": "8b2f2d24de58afbd-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "13c5471c-3469-4197-b68e-7e702e9cb942",
+      "children": [
+        "e4eb7468-fedf-461d-9cff-753782250760"
+      ]
+    },
+    "e4eb7468-fedf-461d-9cff-753782250760": {
+      "id": "e4eb7468-fedf-461d-9cff-753782250760",
+      "message": {
+        "id": "e4eb7468-fedf-461d-9cff-753782250760",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620650.157831,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you give me some ideas of what to do in Mito Japan "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b2f3de52ecf2095-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5d03afd7-5d19-4482-a68a-4eda8336245a",
+      "children": [
+        "ac39d50e-69da-4e24-9c92-e808e362a114"
+      ]
+    },
+    "ac39d50e-69da-4e24-9c92-e808e362a114": {
+      "id": "ac39d50e-69da-4e24-9c92-e808e362a114",
+      "message": {
+        "id": "ac39d50e-69da-4e24-9c92-e808e362a114",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620694.926194,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Mito, Japan, is a charming city with a mix of historical sites, cultural attractions, and natural beauty. Here are some ideas of things you can do while you're there:\n\n### 1. **Kairakuen Garden**\n   - **Overview**: Kairakuen is one of Japan's three great gardens and is especially famous for its plum blossoms. The garden is beautifully landscaped with a variety of trees, plants, and a small bamboo grove.\n   - **What to Do**: Stroll through the garden, enjoy the seasonal flowers, and visit the historic Kobuntei pavilion, which offers a beautiful view of the garden and the nearby Senba Lake.\n\n### 2. **Art Tower Mito**\n   - **Overview**: A modern cultural complex that includes an art gallery, concert hall, and theater. The tower itself is an architectural highlight of the city.\n   - **What to Do**: Explore contemporary art exhibitions, attend a concert or performance, and take the elevator to the top of the tower for panoramic views of Mito.\n\n### 3. **Mito Castle Ruins and Kodokan**\n   - **Overview**: The ruins of Mito Castle, once a major fortress, are now a public park. Nearby, Kodokan is a historic school founded by the Mito domain in 1841 for samurai training.\n   - **What to Do**: Walk around the castle ruins and visit Kodokan to learn about the history of the Mito domain and samurai education. The area is especially beautiful during cherry blossom season.\n\n### 4. **Tokiwa Shrine**\n   - **Overview**: Located near Kairakuen Garden, Tokiwa Shrine is dedicated to the Tokugawa family, who ruled the Mito domain.\n   - **What to Do**: Visit the shrine to experience a traditional Japanese shrine atmosphere. You can also participate in shrine rituals or just enjoy the peaceful surroundings.\n\n### 5. **Lake Senba**\n   - **Overview**: A serene lake near Kairakuen Garden, perfect for a relaxing walk or a boat ride.\n   - **What to Do**: Walk or rent a bicycle to circle the lake, feed the swans and ducks, or rent a pedal boat to explore the lake from the water.\n\n### 6. **Mito City Museum**\n   - **Overview**: A museum showcasing the history and culture of Mito. Exhibits cover the city\u2019s samurai past, traditional crafts, and more.\n   - **What to Do**: Explore the exhibits to gain insight into the local history and culture. The museum often has special exhibitions, so check what's on during your visit.\n\n### 7. **Aqua World Oarai Aquarium**\n   - **Overview**: Located a short drive from Mito in Oarai, this is one of Japan\u2019s largest aquariums, featuring marine life from all over the world.\n   - **What to Do**: Watch dolphin and sea lion shows, explore various marine exhibits, and enjoy the view of the Pacific Ocean from the aquarium.\n\n### 8. **Oarai Isosaki Shrine**\n   - **Overview**: Another nearby attraction, this shrine is famous for its \u201cKamiiso Torii,\u201d a torii gate that stands on the rocks facing the ocean.\n   - **What to Do**: Visit the shrine to see the stunning torii gate at sunrise or sunset. It\u2019s a popular spot for photography and contemplation.\n\n### 9. **Mito Komon Festival**\n   - **Overview**: If your visit coincides with early August, you can experience the Mito Komon Festival, a lively event with parades, fireworks, and traditional performances.\n   - **What to Do**: Enjoy the festive atmosphere, watch the parade, and see the fireworks display. It\u2019s a great way to experience local culture and community spirit.\n\n### 10. **Local Cuisine**\n   - **Overview**: Mito is known for its natto (fermented soybeans), which is a local specialty.\n   - **What to Do**: Try natto in various forms, such as natto sushi or natto ramen. If natto isn\u2019t to your taste, Mito also offers other delicious local dishes, including fresh seafood from the nearby coast.\n\nThese suggestions should give you a good mix of historical, cultural, and natural experiences while you're in Mito!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAA",
+          "parent_id": "e4eb7468-fedf-461d-9cff-753782250760",
+          "request_id": "8b2f3de52ecf2095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4eb7468-fedf-461d-9cff-753782250760",
+      "children": [
+        "238294bd-ad42-441c-b396-ec2e27d35aa9"
+      ]
+    },
+    "238294bd-ad42-441c-b396-ec2e27d35aa9": {
+      "id": "238294bd-ad42-441c-b396-ec2e27d35aa9",
+      "message": {
+        "id": "238294bd-ad42-441c-b396-ec2e27d35aa9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620737.1701,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What kind of shopping is there "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b2f4005ae102095-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ac39d50e-69da-4e24-9c92-e808e362a114",
+      "children": [
+        "0a54e3a2-f169-46f4-b8bc-b411deac2cc0"
+      ]
+    },
+    "0a54e3a2-f169-46f4-b8bc-b411deac2cc0": {
+      "id": "0a54e3a2-f169-46f4-b8bc-b411deac2cc0",
+      "message": {
+        "id": "0a54e3a2-f169-46f4-b8bc-b411deac2cc0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620776.35366,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Mito offers a variety of shopping experiences, ranging from modern shopping centers to traditional markets and specialty stores. Here's an overview of the shopping options available in Mito:\n\n### 1. **Mito Station Area**\n   - **Excel Mall**: Located right at Mito Station, Excel Mall is a convenient spot for shopping. It has a variety of stores selling fashion, accessories, cosmetics, and more. The mall also features a selection of restaurants and cafes, making it a great place to shop and relax.\n   - **Keisei Department Store**: This department store is a staple in Mito, offering everything from high-end fashion brands to household goods, cosmetics, and gourmet food. It\u2019s a great place to shop for souvenirs or local delicacies.\n\n### 2. **Lakia Garden**\n   - **Overview**: A shopping and entertainment complex located near Lake Senba, Lakia Garden features a mix of shops, cafes, and restaurants. It\u2019s a pleasant place to shop, especially if you\u2019re looking for local crafts, unique gifts, or stylish home goods.\n   - **What to Find**: Specialty shops offering Japanese ceramics, artisanal crafts, and unique fashion items. There are also a few shops selling gourmet snacks and sweets, perfect for taking home as gifts.\n\n### 3. **Otemachi Shopping Street**\n   - **Overview**: Located near Mito Castle Ruins, this shopping street offers a mix of traditional and modern shops. It\u2019s a great place to explore if you\u2019re looking for traditional Japanese goods, souvenirs, or local specialties.\n   - **What to Find**: Shops selling traditional Japanese crafts, such as lacquerware, pottery, and textiles. You can also find stores offering local foods, like natto, sake, and sweets.\n\n### 4. **Aeon Mall Mito Uchihara**\n   - **Overview**: Aeon Mall is a large shopping complex on the outskirts of Mito. It\u2019s a one-stop destination for a wide range of shopping needs, from fashion to electronics to groceries.\n   - **What to Find**: Major Japanese and international brands, electronics, home goods, and a large supermarket. The mall also has a food court and various restaurants, making it a convenient place to spend a few hours shopping.\n\n### 5. **Oarai Resort Outlet**\n   - **Overview**: Located in nearby Oarai, this outlet mall is a short drive from Mito and offers discounted prices on a range of brands.\n   - **What to Find**: Fashion, sportswear, outdoor gear, and accessories from various Japanese and international brands. The outlet also has restaurants and cafes where you can take a break from shopping.\n\n### 6. **Local Specialty Shops**\n   - **Natto Shops**: Mito is famous for its natto, and there are several specialty shops in the city where you can buy high-quality natto to take home. These shops often sell different varieties, along with natto-related products.\n   - **Sake and Local Delicacies**: There are shops throughout Mito that specialize in local sake and other regional foods. These are perfect places to pick up gifts or try something new.\n\n### 7. **Antique and Curio Shops**\n   - **Overview**: If you\u2019re interested in antiques or traditional Japanese items, there are a few small shops in Mito that specialize in these kinds of goods.\n   - **What to Find**: Antique furniture, old samurai items, traditional ceramics, and other vintage goods. These shops can be a treasure trove for those looking for unique and historical items.\n\n### 8. **Flea Markets and Local Markets**\n   - **Overview**: Depending on when you visit, you might find local flea markets or farmers' markets in Mito, where you can buy fresh produce, handmade goods, and more.\n   - **What to Find**: Fresh local vegetables, fruits, flowers, handmade crafts, and sometimes second-hand items. These markets offer a glimpse into local life and provide opportunities to purchase fresh, locally-sourced products.\n\nWhether you're looking for luxury items, local crafts, or unique souvenirs, Mito has a variety of shopping options to explore."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "238294bd-ad42-441c-b396-ec2e27d35aa9",
+          "request_id": "8b2f4005ae102095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "238294bd-ad42-441c-b396-ec2e27d35aa9",
+      "children": [
+        "c6d921b6-3b09-4c5b-8493-39414c46524c"
+      ]
+    },
+    "c6d921b6-3b09-4c5b-8493-39414c46524c": {
+      "id": "c6d921b6-3b09-4c5b-8493-39414c46524c",
+      "message": {
+        "id": "c6d921b6-3b09-4c5b-8493-39414c46524c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620803.286448,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Are there any flea markets this week "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b2f41a2cd1b2095-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0a54e3a2-f169-46f4-b8bc-b411deac2cc0",
+      "children": [
+        "9ade264e-8dc5-4707-9361-317f870aacdf"
+      ]
+    },
+    "9ade264e-8dc5-4707-9361-317f870aacdf": {
+      "id": "9ade264e-8dc5-4707-9361-317f870aacdf",
+      "message": {
+        "id": "9ade264e-8dc5-4707-9361-317f870aacdf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620813.008927,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Mito Japan flea markets August 2024 schedule\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c6d921b6-3b09-4c5b-8493-39414c46524c",
+          "request_id": "8b2f41a2cd1b2095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "c6d921b6-3b09-4c5b-8493-39414c46524c",
+      "children": [
+        "f89a8857-8bd0-4a20-9e9c-f2e6522f3b11"
+      ]
+    },
+    "f89a8857-8bd0-4a20-9e9c-f2e6522f3b11": {
+      "id": "f89a8857-8bd0-4a20-9e9c-f2e6522f3b11",
+      "message": {
+        "id": "f89a8857-8bd0-4a20-9e9c-f2e6522f3b11",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1723620813.009016,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020Mottainai Flea Market, 10th Aug\u201311th Aug, 2024 | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nThe market moves around Tokyo, sometimes even over the same weekend. Check the location below. The time is usually 10 a.m. to 4 p.m., give or take an hour or two. Mottainai Flea Market upcoming dates and locations. August 10 to 11; September 14 to 16; October 12 to 14; November 9 to 10: Around Shimokitazawa Station; September 21: Shinjuku ...\n# \u30101\u2020Event Calendar | Tokyo International Forum Co., Ltd.\u2020www.t-i-forum.co.jp\u3011\n2024.08.02 (Fri) - 2024.08.04 (Sun) Time: 2 August, 3 August 10:00\uff5e18:00 4 August 10:00\uff5e17:00: Price: ... Best Flea Market. Public; Date: 2024.08.25 (Sun) Time: 10\uff1a00\uff5e16\uff1a00 \u203bcancel in case of rain: Price: Free : Place: ... Japan. TEL \uff1aTEL. +81- (0)3 ...\n# \u30102\u2020Ohi Racecourse Flea Market, 10th Aug\u201311th Aug, 2024 - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nOrganizers may cancel events, alter schedules, or change admission requirements without notice. Always check official sites before heading to an event. Legal. Open with Maps. Dates. 10th Aug\u201311th Aug, 2024. Add to Calendar. Start/End Time 9:00am \u2013 2:30pm. Venue Oi Racecourse.\n# \u30103\u2020August 2024 Events in Tokyo - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nEvents, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo in August 2024.\n# \u30104\u202010 Best Tokyo Flea Markets for Bargain-Hunting\u2020www.japanlivingguide.com\u3011\n10. Tomioka Hachimangu Shrine Antique Market. This antique flea market is held on the 1st (except January), 2nd, 4th and 5th Sundays of each month (except 15th and 28th). \u3010\u9aa8\u8463\u5e02\u3011\u6771\u4eac \u4e0b\u753a \u5bcc\u5ca1\u516b\u5e61\u5bae\u9aa8\u8463\u5e02 \u6c17\u3055\u304f\u306a\u4e0b\u753a\u9aa8\u8463\u5e02japanese Downtown Tokyo Tomioka Antique City Friendly downtown.\n# \u30105\u2020A Guide to Flea and Antique Markets in Japan - VOYAPON\u2020voyapon.com\u3011\nYou can find several kinds of items at flea markets in Japan (called kotto-ichi \u9aa8\u8463\u5e02 or garakuta-ichi \u304c\u3089\u304f\u305f\u5e02). Some events focus more on second-hand and vintage, ... Suigian: Where Traditional Japanese Dance and Music Meet Elegant Cocktails August 8, 2024; A Love Letter to Atami, Shizuoka\u2019s Legendary Onsen Town August 1, 2024;\n# \u30106\u2020Oedo Antique Market 2024 - August Events in Tokyo - Japan Travel\u2020en.japantravel.com\u3011\nSaturday - Aug 17th 2024. Due to heat, the Oedo Antique Market will be closed during August. The Oedo Antique Market is considered the largest outdoor antique market in Japan. Held on the first and third Sunday of every month from 9am to 4pm, you\u2019ll find an abundance of vendors selling traditional Japanese clothing, ornaments, tableware ...\n# \u30107\u2020Updated List of Flea Markets in Kyoto 2024\u2020kyoto.travel\u3011\nExplore the vibrant outdoor markets in Kyoto, set against the backdrop of stunning shrines, temples, and parks. Each market offers a unique selection of treasures, from antiques, secondhand goods, and clothing to handmade crafts and delectable local foods. It's the perfect opportunity to uncover special items brimming with local charm ...\n# \u30108\u2020Tokyo Showa Retro City Bus Flea Market - Tokyo Weekender\u2020www.tokyoweekender.com\u3011\nSponsored by the Showa Retro Preservation Society, this flea market is the perfect place to find the Showa goods of your dreams. From haberdashery, to clothes, accessories, toys and even records, this nostalgia-fuelled market has something for everyone. Date & Time. UNTIL Feb 24, 2024\u30fb11:00-17:00\u30fbOpen 10:00-16:00 on Sunday. Price. \u00a5500 ...\n# \u30109\u2020Toji Temple and Kobo-ichi Market \u2013 Kyoto Station\u2020www.kyotostation.com\u3011\nThe To-ji Temple flea market is one of Kyoto\u2019s three major markets. The other two are the handicraft market at Chion-ji Temple that takes place every month on the 15th, and the market at Kitano Tenmangu Shrine on the 25th. There is also a smaller antiques market at Toji Temple, called \u201cGarakuta-ichi\u201d, on the first Sunday of each month.\n# \u301010\u2020Chicago Japanese Club Flea Market/Yard Sale\u2020www.chicagoshimpo.com\u3011\nSaturday, September 3, 2022. 9:00 AM 4:30 PM. Saturday, September 3. Flea Market/Yard Sale. The Chicago Japanese Club will host the annual Flea Market/Yard Sale at the lot next to Mitsuwa Market Place in Arlington Heights. Over 25 vendors will be offering a variety of unique items including Japan-related items, handmade gifts, Japanese ...\n# \u301011\u2020Flea Market | Moses Lake, WA - Official Website\u2020www.cityofml.com\u3011\nQuestions? Please contact Jenni Shelton, Dollie Boyd, or call us at 509-764-3830. Contact Us. 401 S Balsam. P.O. Box 1579. Moses Lake, WA 98837. Staff Directory. Quick Links. Current Weather.\n# \u301012\u20208 best regular and weekly markets in Tokyo - Time Out\u2020www.timeout.com\u3011\nMarch 10 & 24, April 13 & 28, May 12 & 26, June 9 & 23. Held every second and fourth Sunday of the month, this antique market gathers around 70 vendors outside Shibuya Garden Tower.\n# \u301013\u2020Tokyo International Forum - \u6771\u4eac\u56fd\u969b\u30d5\u30a9\u30fc\u30e9\u30e0\u4f1a\u5834 - Monthly Flea Markets in Japan ...\u2020www.fleamapket.com\u3011\nThe Tokyo International Forum Antique Fair, also known as the Oedo Antique Market, is the largest open-air antique market in Japan and a vibrant hub for antique enthusiasts. Located at the Tokyo International Forum, it brings together more than 250 dealers showcasing a diverse range of Japanese and Western antiques. Price.\n# \u301014\u202016 Best Flea Markets in Japan (2024 Updated) - Travel Safe\u2020www.travelsafe-abroad.com\u3011\n1. Tokyo City. This is one of the best flea markets in Tokyo. It is a worthwhile market to check out if you live around the city or are visiting. Most people love that it is a weekend market that has been running from 9 am to 3 pm since 1996. You will come across all sorts of people, including locals and internationals.\n# \u301015\u2020WHAT CHEER SUMMER FLEA MARKET '24 Updated - Eventbrite\u2020www.eventbrite.com\u3011\nEventbrite - Craft Sponsorship LLC presents WHAT CHEER SUMMER FLEA MARKET '24 Updated - Friday, August 2, 2024 | Sunday, August 4, 2024 at Keokuk County Fairgrounds, What Cheer, IA. Find event and ticket information. The event runs from: 10:00 AM to 4:00 PM. Set up your booth between: 8:00 AM and 10:00 AM.\n# \u301016\u202010 Best Tokyo Flea Markets: Bargain Hunter's Guide - Tokyo Cheapo\u2020tokyocheapo.com\u3011\n5. Yoyogi Park Flea Market(s) Yoyogi was long home to one of Tokyo\u2019s oldest and most hipster-ish monthly flea markets. 800 vendors, all peddling secondhand goods, with lots of recycled fashion. But the schedule has become rather erratic. Generally, the Yoyogi Park flea markets are now weekend events every few months.\n# \u301017\u2020The Best Flea Markets in Japan (updated 2024)\u2020www.fleamapket.com\u3011\nJapanese flea markets are renowned for their range of antiques, encompassing everything from exquisite antique furniture and ceramics to kokeshi dolls, tea ceremony sets, kimonos, obis, vintage vinyl records, , and nostalgic 80s toys. Whether you're a collector, a fashion enthusiast, or simply in search of a unique souvenir, these markets offer ...\n# \u301018\u2020Calendar | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nCheapo Calendar: The biggest listing of events, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo.\n# \u301019\u202010 Best Flea Markets in Washington (2024 Updated) - Travel Safe - Abroad\u2020www.travelsafe-abroad.com\u3011\nThe 10 Best Flea Markets In Washington. We have had a look at the state of Washington and which flea markets are considered to be the best based on factors such as size, popularity, traffic, and merchandise. 1. Fremont Sunday Flea Market. Fremont Sunday Flea Market is a family-owned and operated flea located in Seattle, Washington.\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Mottainai Flea Market, 10th Aug\u201311th Aug, 2024 | Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/events/mottainai-flea-market/",
+                "text": "\nThe market moves around Tokyo, sometimes even over the same weekend. Check the location below. The time is usually 10 a.m. to 4 p.m., give or take an hour or two. Mottainai Flea Market upcoming dates and locations. August 10 to 11; September 14 to 16; October 12 to 14; November 9 to 10: Around Shimokitazawa Station; September 21: Shinjuku ...\n",
+                "pub_date": "2024-08-11T04:01:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Event Calendar | Tokyo International Forum Co., Ltd.",
+                "url": "https://www.t-i-forum.co.jp/en/event/",
+                "text": "\n2024.08.02 (Fri) - 2024.08.04 (Sun) Time: 2 August, 3 August 10:00\uff5e18:00 4 August 10:00\uff5e17:00: Price: ... Best Flea Market. Public; Date: 2024.08.25 (Sun) Time: 10\uff1a00\uff5e16\uff1a00 \u203bcancel in case of rain: Price: Free : Place: ... Japan. TEL \uff1aTEL. +81- (0)3 ...\n",
+                "pub_date": "2024-08-06T22:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Ohi Racecourse Flea Market, 10th Aug\u201311th Aug, 2024 - Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/events/ohi-racecourse-flea-market/",
+                "text": "\nOrganizers may cancel events, alter schedules, or change admission requirements without notice. Always check official sites before heading to an event. Legal. Open with Maps. Dates. 10th Aug\u201311th Aug, 2024. Add to Calendar. Start/End Time 9:00am \u2013 2:30pm. Venue Oi Racecourse.\n",
+                "pub_date": "2024-08-10T21:28:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "August 2024 Events in Tokyo - Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/events/august/",
+                "text": "\nEvents, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo in August 2024.\n",
+                "pub_date": "2024-08-13T05:22:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "10 Best Tokyo Flea Markets for Bargain-Hunting",
+                "url": "https://www.japanlivingguide.com/leisure/going-out/flea-markets/",
+                "text": "\n10. Tomioka Hachimangu Shrine Antique Market. This antique flea market is held on the 1st (except January), 2nd, 4th and 5th Sundays of each month (except 15th and 28th). \u3010\u9aa8\u8463\u5e02\u3011\u6771\u4eac \u4e0b\u753a \u5bcc\u5ca1\u516b\u5e61\u5bae\u9aa8\u8463\u5e02 \u6c17\u3055\u304f\u306a\u4e0b\u753a\u9aa8\u8463\u5e02japanese Downtown Tokyo Tomioka Antique City Friendly downtown.\n",
+                "pub_date": "2024-08-09T23:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "A Guide to Flea and Antique Markets in Japan - VOYAPON",
+                "url": "https://voyapon.com/flea-antique-markets-in-japan/",
+                "text": "\nYou can find several kinds of items at flea markets in Japan (called kotto-ichi \u9aa8\u8463\u5e02 or garakuta-ichi \u304c\u3089\u304f\u305f\u5e02). Some events focus more on second-hand and vintage, ... Suigian: Where Traditional Japanese Dance and Music Meet Elegant Cocktails August 8, 2024; A Love Letter to Atami, Shizuoka\u2019s Legendary Onsen Town August 1, 2024;\n",
+                "pub_date": "2024-08-11T10:37:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Oedo Antique Market 2024 - August Events in Tokyo - Japan Travel",
+                "url": "https://en.japantravel.com/tokyo/oedo-antique-market/69987",
+                "text": "\nSaturday - Aug 17th 2024. Due to heat, the Oedo Antique Market will be closed during August. The Oedo Antique Market is considered the largest outdoor antique market in Japan. Held on the first and third Sunday of every month from 9am to 4pm, you\u2019ll find an abundance of vendors selling traditional Japanese clothing, ornaments, tableware ...\n",
+                "pub_date": "2024-08-09T18:08:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Updated List of Flea Markets in Kyoto 2024",
+                "url": "https://kyoto.travel/en/news/20240129_Flea_Markets_in_Kyoto",
+                "text": "\nExplore the vibrant outdoor markets in Kyoto, set against the backdrop of stunning shrines, temples, and parks. Each market offers a unique selection of treasures, from antiques, secondhand goods, and clothing to handmade crafts and delectable local foods. It's the perfect opportunity to uncover special items brimming with local charm ...\n",
+                "pub_date": "2024-08-12T12:22:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo Showa Retro City Bus Flea Market - Tokyo Weekender",
+                "url": "https://www.tokyoweekender.com/event/tokyo-showa-retro-city-bus-flea-market/",
+                "text": "\nSponsored by the Showa Retro Preservation Society, this flea market is the perfect place to find the Showa goods of your dreams. From haberdashery, to clothes, accessories, toys and even records, this nostalgia-fuelled market has something for everyone. Date & Time. UNTIL Feb 24, 2024\u30fb11:00-17:00\u30fbOpen 10:00-16:00 on Sunday. Price. \u00a5500 ...\n",
+                "pub_date": "2024-08-10T03:00:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Toji Temple and Kobo-ichi Market \u2013 Kyoto Station",
+                "url": "https://www.kyotostation.com/toji-temple-kobo-ichi-market/",
+                "text": "\nThe To-ji Temple flea market is one of Kyoto\u2019s three major markets. The other two are the handicraft market at Chion-ji Temple that takes place every month on the 15th, and the market at Kitano Tenmangu Shrine on the 25th. There is also a smaller antiques market at Toji Temple, called \u201cGarakuta-ichi\u201d, on the first Sunday of each month.\n",
+                "pub_date": "2024-08-11T06:29:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Chicago Japanese Club Flea Market/Yard Sale",
+                "url": "https://www.chicagoshimpo.com/events/chicago-japanese-club-flea-marketyard-sale",
+                "text": "\nSaturday, September 3, 2022. 9:00 AM 4:30 PM. Saturday, September 3. Flea Market/Yard Sale. The Chicago Japanese Club will host the annual Flea Market/Yard Sale at the lot next to Mitsuwa Market Place in Arlington Heights. Over 25 vendors will be offering a variety of unique items including Japan-related items, handmade gifts, Japanese ...\n",
+                "pub_date": "2024-06-28T05:20:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Flea Market | Moses Lake, WA - Official Website",
+                "url": "https://www.cityofml.com/1220/Flea-Market",
+                "text": "\nQuestions? Please contact Jenni Shelton, Dollie Boyd, or call us at 509-764-3830. Contact Us. 401 S Balsam. P.O. Box 1579. Moses Lake, WA 98837. Staff Directory. Quick Links. Current Weather.\n",
+                "pub_date": "2024-08-09T08:04:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "8 best regular and weekly markets in Tokyo - Time Out",
+                "url": "https://www.timeout.com/tokyo/shopping/tokyos-best-markets",
+                "text": "\nMarch 10 & 24, April 13 & 28, May 12 & 26, June 9 & 23. Held every second and fourth Sunday of the month, this antique market gathers around 70 vendors outside Shibuya Garden Tower.\n",
+                "pub_date": "2024-08-11T21:15:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tokyo International Forum - \u6771\u4eac\u56fd\u969b\u30d5\u30a9\u30fc\u30e9\u30e0\u4f1a\u5834 - Monthly Flea Markets in Japan ...",
+                "url": "https://www.fleamapket.com/listing/o-edo-antique-market-2/",
+                "text": "\nThe Tokyo International Forum Antique Fair, also known as the Oedo Antique Market, is the largest open-air antique market in Japan and a vibrant hub for antique enthusiasts. Located at the Tokyo International Forum, it brings together more than 250 dealers showcasing a diverse range of Japanese and Western antiques. Price.\n",
+                "pub_date": "2024-08-06T02:48:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "16 Best Flea Markets in Japan (2024 Updated) - Travel Safe",
+                "url": "https://www.travelsafe-abroad.com/flea-markets-in-japan/",
+                "text": "\n1. Tokyo City. This is one of the best flea markets in Tokyo. It is a worthwhile market to check out if you live around the city or are visiting. Most people love that it is a weekend market that has been running from 9 am to 3 pm since 1996. You will come across all sorts of people, including locals and internationals.\n",
+                "pub_date": "2024-08-10T05:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "WHAT CHEER SUMMER FLEA MARKET '24 Updated - Eventbrite",
+                "url": "https://www.eventbrite.com/e/what-cheer-summer-flea-market-24-updated-tickets-948991548267",
+                "text": "\nEventbrite - Craft Sponsorship LLC presents WHAT CHEER SUMMER FLEA MARKET '24 Updated - Friday, August 2, 2024 | Sunday, August 4, 2024 at Keokuk County Fairgrounds, What Cheer, IA. Find event and ticket information. The event runs from: 10:00 AM to 4:00 PM. Set up your booth between: 8:00 AM and 10:00 AM.\n",
+                "pub_date": "2024-08-01T21:32:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "10 Best Tokyo Flea Markets: Bargain Hunter's Guide - Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/shopping-2/fashion/top-tokyo-flea-markets/",
+                "text": "\n5. Yoyogi Park Flea Market(s) Yoyogi was long home to one of Tokyo\u2019s oldest and most hipster-ish monthly flea markets. 800 vendors, all peddling secondhand goods, with lots of recycled fashion. But the schedule has become rather erratic. Generally, the Yoyogi Park flea markets are now weekend events every few months.\n",
+                "pub_date": "2024-08-13T06:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The Best Flea Markets in Japan (updated 2024)",
+                "url": "https://www.fleamapket.com/listing-region/japan/",
+                "text": "\nJapanese flea markets are renowned for their range of antiques, encompassing everything from exquisite antique furniture and ceramics to kokeshi dolls, tea ceremony sets, kimonos, obis, vintage vinyl records, , and nostalgic 80s toys. Whether you're a collector, a fashion enthusiast, or simply in search of a unique souvenir, these markets offer ...\n",
+                "pub_date": "2024-08-10T14:21:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Calendar | Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/calendar/",
+                "text": "\nCheapo Calendar: The biggest listing of events, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo.\n",
+                "pub_date": "2024-08-11T00:43:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "10 Best Flea Markets in Washington (2024 Updated) - Travel Safe - Abroad",
+                "url": "https://www.travelsafe-abroad.com/flea-markets-in-washington/",
+                "text": "\nThe 10 Best Flea Markets In Washington. We have had a look at the state of Washington and which flea markets are considered to be the best based on factors such as size, popularity, traffic, and merchandise. 1. Fremont Sunday Flea Market. Fremont Sunday Flea Market is a family-owned and operated flea located in Seattle, Washington.\nVisible: 0% - 100%",
+                "pub_date": "2024-08-11T01:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'Mito Japan flea markets August 2024 schedule'",
+                "url": "",
+                "text": "# \u30100\u2020Mottainai Flea Market, 10th Aug\u201311th Aug, 2024 | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nThe market moves around Tokyo, sometimes even over the same weekend. Check the location below. The time is usually 10 a.m. to 4 p.m., give or take an hour or two. Mottainai Flea Market upcoming dates and locations. August 10 to 11; September 14 to 16; October 12 to 14; November 9 to 10: Around Shimokitazawa Station; September 21: Shinjuku ...\n# \u30101\u2020Event Calendar | Tokyo International Forum Co., Ltd.\u2020www.t-i-forum.co.jp\u3011\n2024.08.02 (Fri) - 2024.08.04 (Sun) Time: 2 August, 3 August 10:00\uff5e18:00 4 August 10:00\uff5e17:00: Price: ... Best Flea Market. Public; Date: 2024.08.25 (Sun) Time: 10\uff1a00\uff5e16\uff1a00 \u203bcancel in case of rain: Price: Free : Place: ... Japan. TEL \uff1aTEL. +81- (0)3 ...\n# \u30102\u2020Ohi Racecourse Flea Market, 10th Aug\u201311th Aug, 2024 - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nOrganizers may cancel events, alter schedules, or change admission requirements without notice. Always check official sites before heading to an event. Legal. Open with Maps. Dates. 10th Aug\u201311th Aug, 2024. Add to Calendar. Start/End Time 9:00am \u2013 2:30pm. Venue Oi Racecourse.\n# \u30103\u2020August 2024 Events in Tokyo - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nEvents, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo in August 2024.\n# \u30104\u202010 Best Tokyo Flea Markets for Bargain-Hunting\u2020www.japanlivingguide.com\u3011\n10. Tomioka Hachimangu Shrine Antique Market. This antique flea market is held on the 1st (except January), 2nd, 4th and 5th Sundays of each month (except 15th and 28th). \u3010\u9aa8\u8463\u5e02\u3011\u6771\u4eac \u4e0b\u753a \u5bcc\u5ca1\u516b\u5e61\u5bae\u9aa8\u8463\u5e02 \u6c17\u3055\u304f\u306a\u4e0b\u753a\u9aa8\u8463\u5e02japanese Downtown Tokyo Tomioka Antique City Friendly downtown.\n# \u30105\u2020A Guide to Flea and Antique Markets in Japan - VOYAPON\u2020voyapon.com\u3011\nYou can find several kinds of items at flea markets in Japan (called kotto-ichi \u9aa8\u8463\u5e02 or garakuta-ichi \u304c\u3089\u304f\u305f\u5e02). Some events focus more on second-hand and vintage, ... Suigian: Where Traditional Japanese Dance and Music Meet Elegant Cocktails August 8, 2024; A Love Letter to Atami, Shizuoka\u2019s Legendary Onsen Town August 1, 2024;\n# \u30106\u2020Oedo Antique Market 2024 - August Events in Tokyo - Japan Travel\u2020en.japantravel.com\u3011\nSaturday - Aug 17th 2024. Due to heat, the Oedo Antique Market will be closed during August. The Oedo Antique Market is considered the largest outdoor antique market in Japan. Held on the first and third Sunday of every month from 9am to 4pm, you\u2019ll find an abundance of vendors selling traditional Japanese clothing, ornaments, tableware ...\n# \u30107\u2020Updated List of Flea Markets in Kyoto 2024\u2020kyoto.travel\u3011\nExplore the vibrant outdoor markets in Kyoto, set against the backdrop of stunning shrines, temples, and parks. Each market offers a unique selection of treasures, from antiques, secondhand goods, and clothing to handmade crafts and delectable local foods. It's the perfect opportunity to uncover special items brimming with local charm ...\n# \u30108\u2020Tokyo Showa Retro City Bus Flea Market - Tokyo Weekender\u2020www.tokyoweekender.com\u3011\nSponsored by the Showa Retro Preservation Society, this flea market is the perfect place to find the Showa goods of your dreams. From haberdashery, to clothes, accessories, toys and even records, this nostalgia-fuelled market has something for everyone. Date & Time. UNTIL Feb 24, 2024\u30fb11:00-17:00\u30fbOpen 10:00-16:00 on Sunday. Price. \u00a5500 ...\n# \u30109\u2020Toji Temple and Kobo-ichi Market \u2013 Kyoto Station\u2020www.kyotostation.com\u3011\nThe To-ji Temple flea market is one of Kyoto\u2019s three major markets. The other two are the handicraft market at Chion-ji Temple that takes place every month on the 15th, and the market at Kitano Tenmangu Shrine on the 25th. There is also a smaller antiques market at Toji Temple, called \u201cGarakuta-ichi\u201d, on the first Sunday of each month.\n# \u301010\u2020Chicago Japanese Club Flea Market/Yard Sale\u2020www.chicagoshimpo.com\u3011\nSaturday, September 3, 2022. 9:00 AM 4:30 PM. Saturday, September 3. Flea Market/Yard Sale. The Chicago Japanese Club will host the annual Flea Market/Yard Sale at the lot next to Mitsuwa Market Place in Arlington Heights. Over 25 vendors will be offering a variety of unique items including Japan-related items, handmade gifts, Japanese ...\n# \u301011\u2020Flea Market | Moses Lake, WA - Official Website\u2020www.cityofml.com\u3011\nQuestions? Please contact Jenni Shelton, Dollie Boyd, or call us at 509-764-3830. Contact Us. 401 S Balsam. P.O. Box 1579. Moses Lake, WA 98837. Staff Directory. Quick Links. Current Weather.\n# \u301012\u20208 best regular and weekly markets in Tokyo - Time Out\u2020www.timeout.com\u3011\nMarch 10 & 24, April 13 & 28, May 12 & 26, June 9 & 23. Held every second and fourth Sunday of the month, this antique market gathers around 70 vendors outside Shibuya Garden Tower.\n# \u301013\u2020Tokyo International Forum - \u6771\u4eac\u56fd\u969b\u30d5\u30a9\u30fc\u30e9\u30e0\u4f1a\u5834 - Monthly Flea Markets in Japan ...\u2020www.fleamapket.com\u3011\nThe Tokyo International Forum Antique Fair, also known as the Oedo Antique Market, is the largest open-air antique market in Japan and a vibrant hub for antique enthusiasts. Located at the Tokyo International Forum, it brings together more than 250 dealers showcasing a diverse range of Japanese and Western antiques. Price.\n# \u301014\u202016 Best Flea Markets in Japan (2024 Updated) - Travel Safe\u2020www.travelsafe-abroad.com\u3011\n1. Tokyo City. This is one of the best flea markets in Tokyo. It is a worthwhile market to check out if you live around the city or are visiting. Most people love that it is a weekend market that has been running from 9 am to 3 pm since 1996. You will come across all sorts of people, including locals and internationals.\n# \u301015\u2020WHAT CHEER SUMMER FLEA MARKET '24 Updated - Eventbrite\u2020www.eventbrite.com\u3011\nEventbrite - Craft Sponsorship LLC presents WHAT CHEER SUMMER FLEA MARKET '24 Updated - Friday, August 2, 2024 | Sunday, August 4, 2024 at Keokuk County Fairgrounds, What Cheer, IA. Find event and ticket information. The event runs from: 10:00 AM to 4:00 PM. Set up your booth between: 8:00 AM and 10:00 AM.\n# \u301016\u202010 Best Tokyo Flea Markets: Bargain Hunter's Guide - Tokyo Cheapo\u2020tokyocheapo.com\u3011\n5. Yoyogi Park Flea Market(s) Yoyogi was long home to one of Tokyo\u2019s oldest and most hipster-ish monthly flea markets. 800 vendors, all peddling secondhand goods, with lots of recycled fashion. But the schedule has become rather erratic. Generally, the Yoyogi Park flea markets are now weekend events every few months.\n# \u301017\u2020The Best Flea Markets in Japan (updated 2024)\u2020www.fleamapket.com\u3011\nJapanese flea markets are renowned for their range of antiques, encompassing everything from exquisite antique furniture and ceramics to kokeshi dolls, tea ceremony sets, kimonos, obis, vintage vinyl records, , and nostalgic 80s toys. Whether you're a collector, a fashion enthusiast, or simply in search of a unique souvenir, these markets offer ...\n# \u301018\u2020Calendar | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nCheapo Calendar: The biggest listing of events, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo.\n# \u301019\u202010 Best Flea Markets in Washington (2024 Updated) - Travel Safe - Abroad\u2020www.travelsafe-abroad.com\u3011\nThe 10 Best Flea Markets In Washington. We have had a look at the state of Washington and which flea markets are considered to be the best based on factors such as size, popularity, traffic, and merchandise. 1. Fremont Sunday Flea Market. Fremont Sunday Flea Market is a family-owned and operated flea located in Seattle, Washington.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "Mito Japan flea markets August 2024 schedule"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9ade264e-8dc5-4707-9361-317f870aacdf",
+          "request_id": "8b2f41a2cd1b2095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9ade264e-8dc5-4707-9361-317f870aacdf",
+      "children": [
+        "c1230302-39c6-43a3-9256-e8ef6f9260bb"
+      ]
+    },
+    "c1230302-39c6-43a3-9256-e8ef6f9260bb": {
+      "id": "c1230302-39c6-43a3-9256-e8ef6f9260bb",
+      "message": {
+        "id": "c1230302-39c6-43a3-9256-e8ef6f9260bb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620813.00909,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Mito Japan flea markets schedule August 2024\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f89a8857-8bd0-4a20-9e9c-f2e6522f3b11",
+          "request_id": "8b2f41a2cd1b2095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "f89a8857-8bd0-4a20-9e9c-f2e6522f3b11",
+      "children": [
+        "c1db1a93-b32a-40ee-bebb-c6be92b4a44a"
+      ]
+    },
+    "c1db1a93-b32a-40ee-bebb-c6be92b4a44a": {
+      "id": "c1db1a93-b32a-40ee-bebb-c6be92b4a44a",
+      "message": {
+        "id": "c1db1a93-b32a-40ee-bebb-c6be92b4a44a",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1723620813.009151,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u202016 Best Flea Markets in Japan (2024 Updated) - Travel Safe\u2020www.travelsafe-abroad.com\u3011\n1. Tokyo City. This is one of the best flea markets in Tokyo. It is a worthwhile market to check out if you live around the city or are visiting. Most people love that it is a weekend market that has been running from 9 am to 3 pm since 1996. You will come across all sorts of people, including locals and internationals.\n# \u30101\u2020Mottainai Flea Market, 10th Aug\u201311th Aug, 2024 | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nThe market moves around Tokyo, sometimes even over the same weekend. Check the location below. The time is usually 10 a.m. to 4 p.m., give or take an hour or two. Mottainai Flea Market upcoming dates and locations. August 10 to 11; September 14 to 16; October 12 to 14; November 9 to 10: Around Shimokitazawa Station; September 21: Shinjuku ...\n# \u30102\u202010 Best Tokyo Flea Markets: Bargain Hunter's Guide - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nOhi Racecourse Flea Market (Tokyo City Flea Market) 3. Shinjuku Central Park Flea Market. 4. Heiwajima Antiques Fair. 5. Yoyogi Park Markets. 6. \u201cThe Best Flea Market\u201d.\n# \u30103\u2020Ohi Racecourse Flea Market, 10th Aug\u201311th Aug, 2024 - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nOrganizers may cancel events, alter schedules, or change admission requirements without notice. Always check official sites before heading to an event. Legal. Open with Maps. Dates. 10th Aug\u201311th Aug, 2024. Add to Calendar. Start/End Time 9:00am \u2013 2:30pm. Venue Oi Racecourse.\n# \u30104\u2020Updated List of Flea Markets in Kyoto 2024\u2020kyoto.travel\u3011\nExplore the vibrant outdoor markets in Kyoto, set against the backdrop of stunning shrines, temples, and parks. Each market offers a unique selection of treasures, from antiques, secondhand goods, and clothing to handmade crafts and delectable local foods. It's the perfect opportunity to uncover special items brimming with local charm ...\n# \u30105\u2020Kyoto Festivals and Events - Inside Kyoto\u2020www.insidekyoto.com\u3011\n8~12 January: Toka Ebisu. This is one of our favorite Kyoto festivals. It\u2019s held at Ebisu-jinja Shrine, which is a short walk from either Gion-Shijo or Kiyomizu-Gojo Stations on the Keihan Line. It happens all day from the 8th to the 12th, but it\u2019s best to go in the evenings, when the place gets packed and raucous.\n# \u30106\u202010 Best Tokyo Flea Markets for Bargain-Hunting\u2020www.japanlivingguide.com\u3011\n10. Tomioka Hachimangu Shrine Antique Market. This antique flea market is held on the 1st (except January), 2nd, 4th and 5th Sundays of each month (except 15th and 28th). \u3010\u9aa8\u8463\u5e02\u3011\u6771\u4eac \u4e0b\u753a \u5bcc\u5ca1\u516b\u5e61\u5bae\u9aa8\u8463\u5e02 \u6c17\u3055\u304f\u306a\u4e0b\u753a\u9aa8\u8463\u5e02japanese Downtown Tokyo Tomioka Antique City Friendly downtown.\n# \u30107\u2020Treasure Hunting at Flea Markets in Kyoto! - How To Japan\u2020howtojapan.net\u3011\nWe affectionately call the market Kobo-san. Its scale is the largest in Kyoto, and about as many as 1200 vendors are set up in and around the precinct of Toji temple. Kobo-san is brimming with a wide variety of stalls! Date: every month on 21 (rain or shine) Time: 6am \u2013 4pm (from dawn to dusk) Scale: 1200-1300 stalls.\n# \u30108\u2020Oedo Antique Market 2024 - August Events in Tokyo - Japan Travel\u2020en.japantravel.com\u3011\nSaturday - Aug 17th 2024. Due to heat, the Oedo Antique Market will be closed during August. The Oedo Antique Market is considered the largest outdoor antique market in Japan. Held on the first and third Sunday of every month from 9am to 4pm, you\u2019ll find an abundance of vendors selling traditional Japanese clothing, ornaments, tableware ...\n# \u30109\u20208 best regular and weekly markets in Tokyo - Time Out\u2020www.timeout.com\u3011\nMarch 10 & 24, April 13 & 28, May 12 & 26, June 9 & 23. Held every second and fourth Sunday of the month, this antique market gathers around 70 vendors outside Shibuya Garden Tower.\n# \u301010\u2020Toji Temple and Kobo-ichi Market \u2013 Kyoto Station\u2020www.kyotostation.com\u3011\nThe To-ji Temple flea market is one of Kyoto\u2019s three major markets. The other two are the handicraft market at Chion-ji Temple that takes place every month on the 15th, and the market at Kitano Tenmangu Shrine on the 25th. There is also a smaller antiques market at Toji Temple, called \u201cGarakuta-ichi\u201d, on the first Sunday of each month.\n# \u301011\u2020Flea Market | Moses Lake, WA - Official Website\u2020www.cityofml.com\u3011\nQuestions? Please contact Jenni Shelton, Dollie Boyd, or call us at 509-764-3830. Contact Us. 401 S Balsam. P.O. Box 1579. Moses Lake, WA 98837. Staff Directory. Quick Links. Current Weather.\n# \u301012\u2020Event Calendar | Tokyo International Forum Co., Ltd.\u2020www.t-i-forum.co.jp\u3011\nOedo Antique Market. Neo Yataimura Super Night. Events Planned and Run by Tokyo International Forum ... 2024.08.02 (Fri) - 2024.08.04 (Sun) Time: 2 August, 3 August 10:00\uff5e18:00 4 August 10:00\uff5e17:00 ... Monozukuri - A Celebration of Japanese Artisanal Techniques 2024 production secretariat: E-mail: info@monozukuri-takumi-expo.tokyo: URL ...\n# \u301013\u2020A Guide to Flea and Antique Markets in Japan - VOYAPON\u2020voyapon.com\u3011\nBest Flea Markets in Kyoto and Osaka. Tenjin-san Festival (\u5929\u795e\u3055\u3093\u306e\u5e02) | Kyoto: This market is held every 25th of the month in the Kitano Tenmangu Shinto shrine and the streets surrounding it. In addition to stalls selling second-hand goods and antiques, several Japanese street food vendors are present. Toji Kobo-ichi (\u6771\u5bfa\u5f18\u6cd5\u5e02 ...\n# \u301014\u2020August 2024 Events in Tokyo - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nEvents, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo in August 2024.\n# \u301015\u2020The Best Flea Markets in Japan (updated 2024)\u2020www.fleamapket.com\u3011\nJapanese flea markets are renowned for their range of antiques, encompassing everything from exquisite antique furniture and ceramics to kokeshi dolls, tea ceremony sets, kimonos, obis, vintage vinyl records, , and nostalgic 80s toys. Whether you're a collector, a fashion enthusiast, or simply in search of a unique souvenir, these markets offer ...\n# \u301016\u2020Calendar | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nCheapo Calendar: The biggest listing of events, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo.\n# \u301017\u2020Flea Markets in Kyoto | GoWithGuide\u2020gowithguide.com\u3011\nFlea markets throughout all of Japan are commonly held at the grounds of temples and shrines, and sometimes in larger parks. ... Jan 22, 2024. Itinerary Ideas. Traveling to Kyoto from Osaka: Planning A One Day Trip. Kyoto, Japan. If you\u2019re looking for information about a one-day trip to Kyoto from Osaka, you\u2019re in the right place. Kyoto is ...\n# \u301018\u202010 Best Flea Markets in Washington (2024 Updated) - Travel Safe - Abroad\u2020www.travelsafe-abroad.com\u3011\nThe 10 Best Flea Markets In Washington. We have had a look at the state of Washington and which flea markets are considered to be the best based on factors such as size, popularity, traffic, and merchandise. 1. Fremont Sunday Flea Market. Fremont Sunday Flea Market is a family-owned and operated flea located in Seattle, Washington.\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "16 Best Flea Markets in Japan (2024 Updated) - Travel Safe",
+                "url": "https://www.travelsafe-abroad.com/flea-markets-in-japan/",
+                "text": "\n1. Tokyo City. This is one of the best flea markets in Tokyo. It is a worthwhile market to check out if you live around the city or are visiting. Most people love that it is a weekend market that has been running from 9 am to 3 pm since 1996. You will come across all sorts of people, including locals and internationals.\n",
+                "pub_date": "2024-08-10T05:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Mottainai Flea Market, 10th Aug\u201311th Aug, 2024 | Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/events/mottainai-flea-market/",
+                "text": "\nThe market moves around Tokyo, sometimes even over the same weekend. Check the location below. The time is usually 10 a.m. to 4 p.m., give or take an hour or two. Mottainai Flea Market upcoming dates and locations. August 10 to 11; September 14 to 16; October 12 to 14; November 9 to 10: Around Shimokitazawa Station; September 21: Shinjuku ...\n",
+                "pub_date": "2024-08-11T04:01:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "10 Best Tokyo Flea Markets: Bargain Hunter's Guide - Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/shopping-2/fashion/top-tokyo-flea-markets/",
+                "text": "\nOhi Racecourse Flea Market (Tokyo City Flea Market) 3. Shinjuku Central Park Flea Market. 4. Heiwajima Antiques Fair. 5. Yoyogi Park Markets. 6. \u201cThe Best Flea Market\u201d.\n",
+                "pub_date": "2024-08-13T06:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Ohi Racecourse Flea Market, 10th Aug\u201311th Aug, 2024 - Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/events/ohi-racecourse-flea-market/",
+                "text": "\nOrganizers may cancel events, alter schedules, or change admission requirements without notice. Always check official sites before heading to an event. Legal. Open with Maps. Dates. 10th Aug\u201311th Aug, 2024. Add to Calendar. Start/End Time 9:00am \u2013 2:30pm. Venue Oi Racecourse.\n",
+                "pub_date": "2024-08-10T21:28:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Updated List of Flea Markets in Kyoto 2024",
+                "url": "https://kyoto.travel/en/news/20240129_Flea_Markets_in_Kyoto",
+                "text": "\nExplore the vibrant outdoor markets in Kyoto, set against the backdrop of stunning shrines, temples, and parks. Each market offers a unique selection of treasures, from antiques, secondhand goods, and clothing to handmade crafts and delectable local foods. It's the perfect opportunity to uncover special items brimming with local charm ...\n",
+                "pub_date": "2024-08-12T12:22:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Kyoto Festivals and Events - Inside Kyoto",
+                "url": "https://www.insidekyoto.com/kyoto-festivals-events",
+                "text": "\n8~12 January: Toka Ebisu. This is one of our favorite Kyoto festivals. It\u2019s held at Ebisu-jinja Shrine, which is a short walk from either Gion-Shijo or Kiyomizu-Gojo Stations on the Keihan Line. It happens all day from the 8th to the 12th, but it\u2019s best to go in the evenings, when the place gets packed and raucous.\n",
+                "pub_date": "2024-08-12T18:33:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "10 Best Tokyo Flea Markets for Bargain-Hunting",
+                "url": "https://www.japanlivingguide.com/leisure/going-out/flea-markets/",
+                "text": "\n10. Tomioka Hachimangu Shrine Antique Market. This antique flea market is held on the 1st (except January), 2nd, 4th and 5th Sundays of each month (except 15th and 28th). \u3010\u9aa8\u8463\u5e02\u3011\u6771\u4eac \u4e0b\u753a \u5bcc\u5ca1\u516b\u5e61\u5bae\u9aa8\u8463\u5e02 \u6c17\u3055\u304f\u306a\u4e0b\u753a\u9aa8\u8463\u5e02japanese Downtown Tokyo Tomioka Antique City Friendly downtown.\n",
+                "pub_date": "2024-08-09T23:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Treasure Hunting at Flea Markets in Kyoto! - How To Japan",
+                "url": "https://howtojapan.net/2022/08/24/treasure-hunting-at-flea-markets-in-kyoto/",
+                "text": "\nWe affectionately call the market Kobo-san. Its scale is the largest in Kyoto, and about as many as 1200 vendors are set up in and around the precinct of Toji temple. Kobo-san is brimming with a wide variety of stalls! Date: every month on 21 (rain or shine) Time: 6am \u2013 4pm (from dawn to dusk) Scale: 1200-1300 stalls.\n",
+                "pub_date": "2024-08-09T06:27:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Oedo Antique Market 2024 - August Events in Tokyo - Japan Travel",
+                "url": "https://en.japantravel.com/tokyo/oedo-antique-market/69987",
+                "text": "\nSaturday - Aug 17th 2024. Due to heat, the Oedo Antique Market will be closed during August. The Oedo Antique Market is considered the largest outdoor antique market in Japan. Held on the first and third Sunday of every month from 9am to 4pm, you\u2019ll find an abundance of vendors selling traditional Japanese clothing, ornaments, tableware ...\n",
+                "pub_date": "2024-08-09T18:08:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "8 best regular and weekly markets in Tokyo - Time Out",
+                "url": "https://www.timeout.com/tokyo/shopping/tokyos-best-markets",
+                "text": "\nMarch 10 & 24, April 13 & 28, May 12 & 26, June 9 & 23. Held every second and fourth Sunday of the month, this antique market gathers around 70 vendors outside Shibuya Garden Tower.\n",
+                "pub_date": "2024-08-11T21:15:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Toji Temple and Kobo-ichi Market \u2013 Kyoto Station",
+                "url": "https://www.kyotostation.com/toji-temple-kobo-ichi-market/",
+                "text": "\nThe To-ji Temple flea market is one of Kyoto\u2019s three major markets. The other two are the handicraft market at Chion-ji Temple that takes place every month on the 15th, and the market at Kitano Tenmangu Shrine on the 25th. There is also a smaller antiques market at Toji Temple, called \u201cGarakuta-ichi\u201d, on the first Sunday of each month.\n",
+                "pub_date": "2024-08-11T06:29:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Flea Market | Moses Lake, WA - Official Website",
+                "url": "https://www.cityofml.com/1220/Flea-Market",
+                "text": "\nQuestions? Please contact Jenni Shelton, Dollie Boyd, or call us at 509-764-3830. Contact Us. 401 S Balsam. P.O. Box 1579. Moses Lake, WA 98837. Staff Directory. Quick Links. Current Weather.\n",
+                "pub_date": "2024-08-09T08:04:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Event Calendar | Tokyo International Forum Co., Ltd.",
+                "url": "https://www.t-i-forum.co.jp/en/event/",
+                "text": "\nOedo Antique Market. Neo Yataimura Super Night. Events Planned and Run by Tokyo International Forum ... 2024.08.02 (Fri) - 2024.08.04 (Sun) Time: 2 August, 3 August 10:00\uff5e18:00 4 August 10:00\uff5e17:00 ... Monozukuri - A Celebration of Japanese Artisanal Techniques 2024 production secretariat: E-mail: info@monozukuri-takumi-expo.tokyo: URL ...\n",
+                "pub_date": "2024-08-06T22:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "A Guide to Flea and Antique Markets in Japan - VOYAPON",
+                "url": "https://voyapon.com/flea-antique-markets-in-japan/",
+                "text": "\nBest Flea Markets in Kyoto and Osaka. Tenjin-san Festival (\u5929\u795e\u3055\u3093\u306e\u5e02) | Kyoto: This market is held every 25th of the month in the Kitano Tenmangu Shinto shrine and the streets surrounding it. In addition to stalls selling second-hand goods and antiques, several Japanese street food vendors are present. Toji Kobo-ichi (\u6771\u5bfa\u5f18\u6cd5\u5e02 ...\n",
+                "pub_date": "2024-08-11T10:37:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "August 2024 Events in Tokyo - Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/events/august/",
+                "text": "\nEvents, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo in August 2024.\n",
+                "pub_date": "2024-08-13T05:22:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The Best Flea Markets in Japan (updated 2024)",
+                "url": "https://www.fleamapket.com/listing-region/japan/",
+                "text": "\nJapanese flea markets are renowned for their range of antiques, encompassing everything from exquisite antique furniture and ceramics to kokeshi dolls, tea ceremony sets, kimonos, obis, vintage vinyl records, , and nostalgic 80s toys. Whether you're a collector, a fashion enthusiast, or simply in search of a unique souvenir, these markets offer ...\n",
+                "pub_date": "2024-08-10T14:21:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Calendar | Tokyo Cheapo",
+                "url": "https://tokyocheapo.com/calendar/",
+                "text": "\nCheapo Calendar: The biggest listing of events, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo.\n",
+                "pub_date": "2024-08-11T00:43:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Flea Markets in Kyoto | GoWithGuide",
+                "url": "https://gowithguide.com/blog/flea-markets-in-kyoto-64",
+                "text": "\nFlea markets throughout all of Japan are commonly held at the grounds of temples and shrines, and sometimes in larger parks. ... Jan 22, 2024. Itinerary Ideas. Traveling to Kyoto from Osaka: Planning A One Day Trip. Kyoto, Japan. If you\u2019re looking for information about a one-day trip to Kyoto from Osaka, you\u2019re in the right place. Kyoto is ...\n",
+                "pub_date": "2024-07-21T16:52:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "10 Best Flea Markets in Washington (2024 Updated) - Travel Safe - Abroad",
+                "url": "https://www.travelsafe-abroad.com/flea-markets-in-washington/",
+                "text": "\nThe 10 Best Flea Markets In Washington. We have had a look at the state of Washington and which flea markets are considered to be the best based on factors such as size, popularity, traffic, and merchandise. 1. Fremont Sunday Flea Market. Fremont Sunday Flea Market is a family-owned and operated flea located in Seattle, Washington.\nVisible: 0% - 100%",
+                "pub_date": "2024-08-11T01:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'Mito Japan flea markets schedule August 2024'",
+                "url": "",
+                "text": "# \u30100\u202016 Best Flea Markets in Japan (2024 Updated) - Travel Safe\u2020www.travelsafe-abroad.com\u3011\n1. Tokyo City. This is one of the best flea markets in Tokyo. It is a worthwhile market to check out if you live around the city or are visiting. Most people love that it is a weekend market that has been running from 9 am to 3 pm since 1996. You will come across all sorts of people, including locals and internationals.\n# \u30101\u2020Mottainai Flea Market, 10th Aug\u201311th Aug, 2024 | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nThe market moves around Tokyo, sometimes even over the same weekend. Check the location below. The time is usually 10 a.m. to 4 p.m., give or take an hour or two. Mottainai Flea Market upcoming dates and locations. August 10 to 11; September 14 to 16; October 12 to 14; November 9 to 10: Around Shimokitazawa Station; September 21: Shinjuku ...\n# \u30102\u202010 Best Tokyo Flea Markets: Bargain Hunter's Guide - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nOhi Racecourse Flea Market (Tokyo City Flea Market) 3. Shinjuku Central Park Flea Market. 4. Heiwajima Antiques Fair. 5. Yoyogi Park Markets. 6. \u201cThe Best Flea Market\u201d.\n# \u30103\u2020Ohi Racecourse Flea Market, 10th Aug\u201311th Aug, 2024 - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nOrganizers may cancel events, alter schedules, or change admission requirements without notice. Always check official sites before heading to an event. Legal. Open with Maps. Dates. 10th Aug\u201311th Aug, 2024. Add to Calendar. Start/End Time 9:00am \u2013 2:30pm. Venue Oi Racecourse.\n# \u30104\u2020Updated List of Flea Markets in Kyoto 2024\u2020kyoto.travel\u3011\nExplore the vibrant outdoor markets in Kyoto, set against the backdrop of stunning shrines, temples, and parks. Each market offers a unique selection of treasures, from antiques, secondhand goods, and clothing to handmade crafts and delectable local foods. It's the perfect opportunity to uncover special items brimming with local charm ...\n# \u30105\u2020Kyoto Festivals and Events - Inside Kyoto\u2020www.insidekyoto.com\u3011\n8~12 January: Toka Ebisu. This is one of our favorite Kyoto festivals. It\u2019s held at Ebisu-jinja Shrine, which is a short walk from either Gion-Shijo or Kiyomizu-Gojo Stations on the Keihan Line. It happens all day from the 8th to the 12th, but it\u2019s best to go in the evenings, when the place gets packed and raucous.\n# \u30106\u202010 Best Tokyo Flea Markets for Bargain-Hunting\u2020www.japanlivingguide.com\u3011\n10. Tomioka Hachimangu Shrine Antique Market. This antique flea market is held on the 1st (except January), 2nd, 4th and 5th Sundays of each month (except 15th and 28th). \u3010\u9aa8\u8463\u5e02\u3011\u6771\u4eac \u4e0b\u753a \u5bcc\u5ca1\u516b\u5e61\u5bae\u9aa8\u8463\u5e02 \u6c17\u3055\u304f\u306a\u4e0b\u753a\u9aa8\u8463\u5e02japanese Downtown Tokyo Tomioka Antique City Friendly downtown.\n# \u30107\u2020Treasure Hunting at Flea Markets in Kyoto! - How To Japan\u2020howtojapan.net\u3011\nWe affectionately call the market Kobo-san. Its scale is the largest in Kyoto, and about as many as 1200 vendors are set up in and around the precinct of Toji temple. Kobo-san is brimming with a wide variety of stalls! Date: every month on 21 (rain or shine) Time: 6am \u2013 4pm (from dawn to dusk) Scale: 1200-1300 stalls.\n# \u30108\u2020Oedo Antique Market 2024 - August Events in Tokyo - Japan Travel\u2020en.japantravel.com\u3011\nSaturday - Aug 17th 2024. Due to heat, the Oedo Antique Market will be closed during August. The Oedo Antique Market is considered the largest outdoor antique market in Japan. Held on the first and third Sunday of every month from 9am to 4pm, you\u2019ll find an abundance of vendors selling traditional Japanese clothing, ornaments, tableware ...\n# \u30109\u20208 best regular and weekly markets in Tokyo - Time Out\u2020www.timeout.com\u3011\nMarch 10 & 24, April 13 & 28, May 12 & 26, June 9 & 23. Held every second and fourth Sunday of the month, this antique market gathers around 70 vendors outside Shibuya Garden Tower.\n# \u301010\u2020Toji Temple and Kobo-ichi Market \u2013 Kyoto Station\u2020www.kyotostation.com\u3011\nThe To-ji Temple flea market is one of Kyoto\u2019s three major markets. The other two are the handicraft market at Chion-ji Temple that takes place every month on the 15th, and the market at Kitano Tenmangu Shrine on the 25th. There is also a smaller antiques market at Toji Temple, called \u201cGarakuta-ichi\u201d, on the first Sunday of each month.\n# \u301011\u2020Flea Market | Moses Lake, WA - Official Website\u2020www.cityofml.com\u3011\nQuestions? Please contact Jenni Shelton, Dollie Boyd, or call us at 509-764-3830. Contact Us. 401 S Balsam. P.O. Box 1579. Moses Lake, WA 98837. Staff Directory. Quick Links. Current Weather.\n# \u301012\u2020Event Calendar | Tokyo International Forum Co., Ltd.\u2020www.t-i-forum.co.jp\u3011\nOedo Antique Market. Neo Yataimura Super Night. Events Planned and Run by Tokyo International Forum ... 2024.08.02 (Fri) - 2024.08.04 (Sun) Time: 2 August, 3 August 10:00\uff5e18:00 4 August 10:00\uff5e17:00 ... Monozukuri - A Celebration of Japanese Artisanal Techniques 2024 production secretariat: E-mail: info@monozukuri-takumi-expo.tokyo: URL ...\n# \u301013\u2020A Guide to Flea and Antique Markets in Japan - VOYAPON\u2020voyapon.com\u3011\nBest Flea Markets in Kyoto and Osaka. Tenjin-san Festival (\u5929\u795e\u3055\u3093\u306e\u5e02) | Kyoto: This market is held every 25th of the month in the Kitano Tenmangu Shinto shrine and the streets surrounding it. In addition to stalls selling second-hand goods and antiques, several Japanese street food vendors are present. Toji Kobo-ichi (\u6771\u5bfa\u5f18\u6cd5\u5e02 ...\n# \u301014\u2020August 2024 Events in Tokyo - Tokyo Cheapo\u2020tokyocheapo.com\u3011\nEvents, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo in August 2024.\n# \u301015\u2020The Best Flea Markets in Japan (updated 2024)\u2020www.fleamapket.com\u3011\nJapanese flea markets are renowned for their range of antiques, encompassing everything from exquisite antique furniture and ceramics to kokeshi dolls, tea ceremony sets, kimonos, obis, vintage vinyl records, , and nostalgic 80s toys. Whether you're a collector, a fashion enthusiast, or simply in search of a unique souvenir, these markets offer ...\n# \u301016\u2020Calendar | Tokyo Cheapo\u2020tokyocheapo.com\u3011\nCheapo Calendar: The biggest listing of events, festivals, markets, exhibitions, concerts, comedy, nightlife, and things to do in Tokyo.\n# \u301017\u2020Flea Markets in Kyoto | GoWithGuide\u2020gowithguide.com\u3011\nFlea markets throughout all of Japan are commonly held at the grounds of temples and shrines, and sometimes in larger parks. ... Jan 22, 2024. Itinerary Ideas. Traveling to Kyoto from Osaka: Planning A One Day Trip. Kyoto, Japan. If you\u2019re looking for information about a one-day trip to Kyoto from Osaka, you\u2019re in the right place. Kyoto is ...\n# \u301018\u202010 Best Flea Markets in Washington (2024 Updated) - Travel Safe - Abroad\u2020www.travelsafe-abroad.com\u3011\nThe 10 Best Flea Markets In Washington. We have had a look at the state of Washington and which flea markets are considered to be the best based on factors such as size, popularity, traffic, and merchandise. 1. Fremont Sunday Flea Market. Fremont Sunday Flea Market is a family-owned and operated flea located in Seattle, Washington.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "Mito Japan flea markets schedule August 2024"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c1230302-39c6-43a3-9256-e8ef6f9260bb",
+          "request_id": "8b2f41a2cd1b2095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1230302-39c6-43a3-9256-e8ef6f9260bb",
+      "children": [
+        "8c66b4d5-e680-4abd-ac61-36eafa5a8cab"
+      ]
+    },
+    "8c66b4d5-e680-4abd-ac61-36eafa5a8cab": {
+      "id": "8c66b4d5-e680-4abd-ac61-36eafa5a8cab",
+      "message": {
+        "id": "8c66b4d5-e680-4abd-ac61-36eafa5a8cab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620813.009211,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I couldn't find specific information about flea markets in Mito this week. However, flea markets in Japan are often held at temple grounds, public parks, or community centers. If you're interested, I recommend visiting local tourist information centers in Mito or checking with your hotel for the most up-to-date information on any markets happening during your stay. You can also explore nearby cities like Tokyo, which frequently host large and varied flea markets."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAA",
+          "parent_id": "c1db1a93-b32a-40ee-bebb-c6be92b4a44a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b2f41a2cd1b2095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1db1a93-b32a-40ee-bebb-c6be92b4a44a",
+      "children": [
+        "ba853e75-1af6-4a7b-8b3c-f7edf526b059"
+      ]
+    },
+    "ba853e75-1af6-4a7b-8b3c-f7edf526b059": {
+      "id": "ba853e75-1af6-4a7b-8b3c-f7edf526b059",
+      "message": {
+        "id": "ba853e75-1af6-4a7b-8b3c-f7edf526b059",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620828.827149,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Where is the tourist office "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b2f4242fad22095-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8c66b4d5-e680-4abd-ac61-36eafa5a8cab",
+      "children": [
+        "2a501ad9-4877-4e0e-9f27-b0e85e6b3585"
+      ]
+    },
+    "2a501ad9-4877-4e0e-9f27-b0e85e6b3585": {
+      "id": "2a501ad9-4877-4e0e-9f27-b0e85e6b3585",
+      "message": {
+        "id": "2a501ad9-4877-4e0e-9f27-b0e85e6b3585",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723620838.057729,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The main tourist information office in Mito is located at **Mito Station**, which is very convenient if you're arriving by train. Here are the details:\n\n### **Mito Station Tourist Information Center**\n- **Location**: Inside Mito Station, near the ticket gates.\n- **Hours**: Typically open daily from around 9:00 AM to 5:00 PM, but hours may vary, so it's a good idea to check if you're visiting late in the day.\n- **Services**: The center provides maps, brochures, and information on local attractions, events, and transportation. They often have staff who speak English and can help you with recommendations and directions.\n\nThis is the best place to stop by for any local tips, including current flea markets, events, and other activities in Mito and the surrounding area."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "ba853e75-1af6-4a7b-8b3c-f7edf526b059",
+          "request_id": "8b2f4242fad22095-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ba853e75-1af6-4a7b-8b3c-f7edf526b059",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2a501ad9-4877-4e0e-9f27-b0e85e6b3585",
+  "plugin_ids": null,
+  "conversation_id": "653bdfd1-d8b1-49ad-886d-2812f32b18bb",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "653bdfd1-d8b1-49ad-886d-2812f32b18bb"
+}

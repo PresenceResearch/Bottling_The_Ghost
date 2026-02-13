@@ -1,0 +1,327 @@
+{
+  "title": "Solar Net Metering Illustration",
+  "create_time": 1716165388.233124,
+  "update_time": 1716165413.874925,
+  "mapping": {
+    "aaa1fe99-7866-4d1b-9bca-473532e6f8ae": {
+      "id": "aaa1fe99-7866-4d1b-9bca-473532e6f8ae",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a70d93cd-a817-496c-8cd1-2104137b1b0a"
+      ]
+    },
+    "a70d93cd-a817-496c-8cd1-2104137b1b0a": {
+      "id": "a70d93cd-a817-496c-8cd1-2104137b1b0a",
+      "message": {
+        "id": "a70d93cd-a817-496c-8cd1-2104137b1b0a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1fe99-7866-4d1b-9bca-473532e6f8ae",
+      "children": [
+        "c259711e-4524-4ed8-8004-df7c4ec4cd0f"
+      ]
+    },
+    "c259711e-4524-4ed8-8004-df7c4ec4cd0f": {
+      "id": "c259711e-4524-4ed8-8004-df7c4ec4cd0f",
+      "message": {
+        "id": "c259711e-4524-4ed8-8004-df7c4ec4cd0f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a70d93cd-a817-496c-8cd1-2104137b1b0a",
+      "children": [
+        "aaa26ef6-3c5c-4e9c-9c83-943711cac810"
+      ]
+    },
+    "aaa26ef6-3c5c-4e9c-9c83-943711cac810": {
+      "id": "aaa26ef6-3c5c-4e9c-9c83-943711cac810",
+      "message": {
+        "id": "aaa26ef6-3c5c-4e9c-9c83-943711cac810",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1716165388.234754,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please generate an image illustrating how solar net metering works\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "886840aa6c7f241e-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c259711e-4524-4ed8-8004-df7c4ec4cd0f",
+      "children": [
+        "a5a28a15-3d9e-432e-981e-ef804fd9a569"
+      ]
+    },
+    "a5a28a15-3d9e-432e-981e-ef804fd9a569": {
+      "id": "a5a28a15-3d9e-432e-981e-ef804fd9a569",
+      "message": {
+        "id": "a5a28a15-3d9e-432e-981e-ef804fd9a569",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1716165411.608434,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"prompt\": \"A detailed illustration showing how solar net metering works. The image includes a house with solar panels on the roof, a utility meter, and an electric grid connection. The solar panels are shown generating electricity which flows into the house. Part of the electricity is used by the house, and the excess electricity flows through the utility meter back into the electric grid. Arrows and labels are used to indicate the direction of electricity flow and the key components: solar panels, inverter, utility meter, and the electric grid. The background includes a sunny sky and a few clouds, emphasizing the use of solar energy.\",\n  \"size\": \"1792x1024\",\n  \"n\": 1\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAA",
+          "parent_id": "aaa26ef6-3c5c-4e9c-9c83-943711cac810",
+          "request_id": "886840aa6c7f241e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa26ef6-3c5c-4e9c-9c83-943711cac810",
+      "children": [
+        "a250860f-4cf0-4970-b4a8-80d9204a2482"
+      ]
+    },
+    "a250860f-4cf0-4970-b4a8-80d9204a2482": {
+      "id": "a250860f-4cf0-4970-b4a8-80d9204a2482",
+      "message": {
+        "id": "a250860f-4cf0-4970-b4a8-80d9204a2482",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1716165411.61323,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-EHmq4FuCZRdmMnTKiTjXtPxT",
+              "size_bytes": 407098,
+              "width": 1792,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "mbv1hRI06QAOmy6t",
+                  "prompt": "A detailed illustration showing how solar net metering works. The image includes a house with solar panels on the roof, a utility meter, and an electric grid connection. The solar panels are shown generating electricity which flows into the house. Part of the electricity is used by the house, and the excess electricity flows through the utility meter back into the electric grid. Arrows and labels are used to indicate the direction of electricity flow and the key components: solar panels, inverter, utility meter, and the electric grid. The background includes a sunny sky and a few clouds, emphasizing the use of solar energy.",
+                  "seed": 3880206723,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a5a28a15-3d9e-432e-981e-ef804fd9a569",
+          "request_id": "886840aa6c7f241e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a5a28a15-3d9e-432e-981e-ef804fd9a569",
+      "children": [
+        "c700a392-3196-42ce-b9bc-dc23de69de44"
+      ]
+    },
+    "c700a392-3196-42ce-b9bc-dc23de69de44": {
+      "id": "c700a392-3196-42ce-b9bc-dc23de69de44",
+      "message": {
+        "id": "c700a392-3196-42ce-b9bc-dc23de69de44",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1716165411.613538,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "a250860f-4cf0-4970-b4a8-80d9204a2482",
+          "request_id": "886840aa6c7f241e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a250860f-4cf0-4970-b4a8-80d9204a2482",
+      "children": [
+        "de34c783-6560-451f-b2f7-a4dc4856d137"
+      ]
+    },
+    "de34c783-6560-451f-b2f7-a4dc4856d137": {
+      "id": "de34c783-6560-451f-b2f7-a4dc4856d137",
+      "message": {
+        "id": "de34c783-6560-451f-b2f7-a4dc4856d137",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1716165411.613727,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the illustration showing how solar net metering works. It includes all the key components and directions of electricity flow. Let me know if you need any modifications or further details!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "c700a392-3196-42ce-b9bc-dc23de69de44",
+          "request_id": "886840aa6c7f241e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c700a392-3196-42ce-b9bc-dc23de69de44",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "de34c783-6560-451f-b2f7-a4dc4856d137",
+  "plugin_ids": null,
+  "conversation_id": "a3a32ee6-8d79-4d9a-afa1-46050fe05856",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "a3a32ee6-8d79-4d9a-afa1-46050fe05856"
+}

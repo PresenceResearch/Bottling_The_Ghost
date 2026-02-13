@@ -1,0 +1,319 @@
+{
+  "title": "Multiplication Calculation Result",
+  "create_time": 1722093418.577545,
+  "update_time": 1722093421.745529,
+  "mapping": {
+    "ca5ad74d-5bb9-4b23-9b93-460096d2a08c": {
+      "id": "ca5ad74d-5bb9-4b23-9b93-460096d2a08c",
+      "message": null,
+      "parent": null,
+      "children": [
+        "1dbec83d-ec4e-4c78-ad84-a8ccfd473fb4"
+      ]
+    },
+    "1dbec83d-ec4e-4c78-ad84-a8ccfd473fb4": {
+      "id": "1dbec83d-ec4e-4c78-ad84-a8ccfd473fb4",
+      "message": {
+        "id": "1dbec83d-ec4e-4c78-ad84-a8ccfd473fb4",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca5ad74d-5bb9-4b23-9b93-460096d2a08c",
+      "children": [
+        "3da1da2a-4e2b-4516-b881-fa9c45e0fd77"
+      ]
+    },
+    "3da1da2a-4e2b-4516-b881-fa9c45e0fd77": {
+      "id": "3da1da2a-4e2b-4516-b881-fa9c45e0fd77",
+      "message": {
+        "id": "3da1da2a-4e2b-4516-b881-fa9c45e0fd77",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722093418.581615,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "3.3 million times .1"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8a9d97f8eab5c54e-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1dbec83d-ec4e-4c78-ad84-a8ccfd473fb4",
+      "children": [
+        "0957cea8-4488-4532-8232-e969258a6005"
+      ]
+    },
+    "0957cea8-4488-4532-8232-e969258a6005": {
+      "id": "0957cea8-4488-4532-8232-e969258a6005",
+      "message": {
+        "id": "0957cea8-4488-4532-8232-e969258a6005",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722093421.020275,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3da1da2a-4e2b-4516-b881-fa9c45e0fd77",
+          "request_id": "8a9d97f8eab5c54e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3da1da2a-4e2b-4516-b881-fa9c45e0fd77",
+      "children": [
+        "c10c6908-6b1a-4627-9a95-71a6846c1d47"
+      ]
+    },
+    "c10c6908-6b1a-4627-9a95-71a6846c1d47": {
+      "id": "c10c6908-6b1a-4627-9a95-71a6846c1d47",
+      "message": {
+        "id": "c10c6908-6b1a-4627-9a95-71a6846c1d47",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722093421.02034,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Performing the multiplication of 3.3 million by 0.1\nresult = 3.3e6 * 0.1\nresult"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0957cea8-4488-4532-8232-e969258a6005",
+          "request_id": "8a9d97f8eab5c54e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "0957cea8-4488-4532-8232-e969258a6005",
+      "children": [
+        "22be3960-7117-407d-b4a5-b0ef5fd331ad"
+      ]
+    },
+    "22be3960-7117-407d-b4a5-b0ef5fd331ad": {
+      "id": "22be3960-7117-407d-b4a5-b0ef5fd331ad",
+      "message": {
+        "id": "22be3960-7117-407d-b4a5-b0ef5fd331ad",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1722093421.020387,
+        "update_time": 1722093420.1055481,
+        "content": {
+          "content_type": "execution_output",
+          "text": "330000.0"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "0a6b15a8-748c-4928-9217-51d3d594cc96",
+            "start_time": 1722093420.0471945,
+            "update_time": 1722093420.1055481,
+            "code": "# Performing the multiplication of 3.3 million by 0.1\nresult = 3.3e6 * 0.1\nresult",
+            "end_time": 1722093420.1055481,
+            "final_expression_output": "330000.0",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "d30ccf72-5f90d3dcc20d3a0738d9163f_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "d30ccf72-5f90d3dcc20d3a0738d9163f_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "d30ccf72-5f90d3dcc20d3a0738d9163f_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "330000.0"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "d30ccf72-5f90d3dcc20d3a0738d9163f_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c10c6908-6b1a-4627-9a95-71a6846c1d47",
+          "request_id": "8a9d97f8eab5c54e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c10c6908-6b1a-4627-9a95-71a6846c1d47",
+      "children": [
+        "5d639c19-bd49-48f2-b38d-24c2fc3c9568"
+      ]
+    },
+    "5d639c19-bd49-48f2-b38d-24c2fc3c9568": {
+      "id": "5d639c19-bd49-48f2-b38d-24c2fc3c9568",
+      "message": {
+        "id": "5d639c19-bd49-48f2-b38d-24c2fc3c9568",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722093421.020432,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "3.3 million multiplied by 0.1 is 330,000."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAA",
+          "parent_id": "22be3960-7117-407d-b4a5-b0ef5fd331ad",
+          "request_id": "8a9d97f8eab5c54e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "22be3960-7117-407d-b4a5-b0ef5fd331ad",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "5d639c19-bd49-48f2-b38d-24c2fc3c9568",
+  "plugin_ids": null,
+  "conversation_id": "69a486a2-846a-4f29-8f0f-b64fce25fb5a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "69a486a2-846a-4f29-8f0f-b64fce25fb5a"
+}

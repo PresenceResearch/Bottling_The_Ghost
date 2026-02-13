@@ -1,0 +1,186 @@
+{
+  "title": "Amanohashidate to Kobe Travel",
+  "create_time": 1724387361.829442,
+  "update_time": 1724387368.973469,
+  "mapping": {
+    "2282ccd8-1450-4182-b1c4-d8b58923a8a2": {
+      "id": "2282ccd8-1450-4182-b1c4-d8b58923a8a2",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3c85912c-56a9-4b6b-aa97-73f09b487122"
+      ]
+    },
+    "3c85912c-56a9-4b6b-aa97-73f09b487122": {
+      "id": "3c85912c-56a9-4b6b-aa97-73f09b487122",
+      "message": {
+        "id": "3c85912c-56a9-4b6b-aa97-73f09b487122",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2282ccd8-1450-4182-b1c4-d8b58923a8a2",
+      "children": [
+        "6bcab5d9-874c-482c-9c49-aabb61d396f7"
+      ]
+    },
+    "6bcab5d9-874c-482c-9c49-aabb61d396f7": {
+      "id": "6bcab5d9-874c-482c-9c49-aabb61d396f7",
+      "message": {
+        "id": "6bcab5d9-874c-482c-9c49-aabb61d396f7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724387361.836801,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the most efficient way to get from Aminahashidate to Kobe today?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b785c70bca5afff-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3c85912c-56a9-4b6b-aa97-73f09b487122",
+      "children": [
+        "456530a2-0554-4fe3-996f-149b4233f599"
+      ]
+    },
+    "456530a2-0554-4fe3-996f-149b4233f599": {
+      "id": "456530a2-0554-4fe3-996f-149b4233f599",
+      "message": {
+        "id": "456530a2-0554-4fe3-996f-149b4233f599",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724387367.271312,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6bcab5d9-874c-482c-9c49-aabb61d396f7",
+          "request_id": "8b785c70bca5afff-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6bcab5d9-874c-482c-9c49-aabb61d396f7",
+      "children": [
+        "2b0848a9-781b-4156-a826-be5604e7b293"
+      ]
+    },
+    "2b0848a9-781b-4156-a826-be5604e7b293": {
+      "id": "2b0848a9-781b-4156-a826-be5604e7b293",
+      "message": {
+        "id": "2b0848a9-781b-4156-a826-be5604e7b293",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724387367.27141,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The most efficient way to travel from Amanohashidate to Kobe today is to take a combination of train services. Here\u2019s the recommended route:\n\n1. **Limited Express Train**: Take the Limited Express \"Hashidate\" from Amanohashidate Station to Kyoto Station. This journey takes approximately 2 to 2.5 hours.\n\n2. **Shinkansen or JR Special Rapid Service**: From Kyoto Station, transfer to either the Shinkansen (if you have a Japan Rail Pass or are willing to pay for the faster service) or the JR Special Rapid Service to get to Kobe's Sannomiya Station. The Shinkansen takes about 30 minutes to Shin-Kobe Station, while the JR Special Rapid Service takes about 50 minutes to Sannomiya Station.\n\nThis combination of trains is generally the fastest and most direct route to Kobe. Total travel time is around 3 to 3.5 hours, depending on the specific train connections."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "456530a2-0554-4fe3-996f-149b4233f599",
+          "request_id": "8b785c70bca5afff-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "456530a2-0554-4fe3-996f-149b4233f599",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2b0848a9-781b-4156-a826-be5604e7b293",
+  "plugin_ids": null,
+  "conversation_id": "0c19317d-9dca-4276-92ae-03ebecefba98",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "0c19317d-9dca-4276-92ae-03ebecefba98"
+}

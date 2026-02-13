@@ -1,0 +1,185 @@
+{
+  "title": "Honda Fit Airbag Types",
+  "create_time": 1721151772.133665,
+  "update_time": 1721151775.486237,
+  "mapping": {
+    "5eb0b74e-ce16-482d-b39d-aa53b56d9ab3": {
+      "id": "5eb0b74e-ce16-482d-b39d-aa53b56d9ab3",
+      "message": null,
+      "parent": null,
+      "children": [
+        "f78acbb7-d1ad-4a68-b7ca-e151a315599b"
+      ]
+    },
+    "f78acbb7-d1ad-4a68-b7ca-e151a315599b": {
+      "id": "f78acbb7-d1ad-4a68-b7ca-e151a315599b",
+      "message": {
+        "id": "f78acbb7-d1ad-4a68-b7ca-e151a315599b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5eb0b74e-ce16-482d-b39d-aa53b56d9ab3",
+      "children": [
+        "edb514d3-4f15-45ce-b4f4-48703af85629"
+      ]
+    },
+    "edb514d3-4f15-45ce-b4f4-48703af85629": {
+      "id": "edb514d3-4f15-45ce-b4f4-48703af85629",
+      "message": {
+        "id": "edb514d3-4f15-45ce-b4f4-48703af85629",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1721151772.13764,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What type of airbags are installed on a 2016 Honda fit?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8a43ca8cff410619-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f78acbb7-d1ad-4a68-b7ca-e151a315599b",
+      "children": [
+        "cea76643-c22b-4c69-869b-4eac0bda6ffd"
+      ]
+    },
+    "cea76643-c22b-4c69-869b-4eac0bda6ffd": {
+      "id": "cea76643-c22b-4c69-869b-4eac0bda6ffd",
+      "message": {
+        "id": "cea76643-c22b-4c69-869b-4eac0bda6ffd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1721151774.669693,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "edb514d3-4f15-45ce-b4f4-48703af85629",
+          "request_id": "8a43ca8cff410619-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "edb514d3-4f15-45ce-b4f4-48703af85629",
+      "children": [
+        "d11bcca0-688b-4fb1-bfab-22b37a894a42"
+      ]
+    },
+    "d11bcca0-688b-4fb1-bfab-22b37a894a42": {
+      "id": "d11bcca0-688b-4fb1-bfab-22b37a894a42",
+      "message": {
+        "id": "d11bcca0-688b-4fb1-bfab-22b37a894a42",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1721151774.669755,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The 2016 Honda Fit is equipped with several types of airbags to enhance passenger safety. These include:\n\n1. **Front Airbags**: For the driver and front passenger.\n2. **Side Airbags**: Located in the front seats to protect the upper body.\n3. **Side Curtain Airbags**: Extend along the side of the car to protect both front and rear passengers.\n4. **Front Knee Airbags**: For the driver to protect the lower body.\n\nThese airbags are designed to provide comprehensive protection in the event of a collision."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "cea76643-c22b-4c69-869b-4eac0bda6ffd",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8a43ca8cff410619-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cea76643-c22b-4c69-869b-4eac0bda6ffd",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d11bcca0-688b-4fb1-bfab-22b37a894a42",
+  "plugin_ids": null,
+  "conversation_id": "517a6e10-01c1-4405-8d90-7ca443984c9a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "517a6e10-01c1-4405-8d90-7ca443984c9a"
+}

@@ -1,0 +1,267 @@
+{
+  "title": "Connecting Apps to TripIt",
+  "create_time": 1723339028.383148,
+  "update_time": 1723339092.425544,
+  "mapping": {
+    "cf1603a0-fb6a-4150-aa24-a4e1729bfc73": {
+      "id": "cf1603a0-fb6a-4150-aa24-a4e1729bfc73",
+      "message": null,
+      "parent": null,
+      "children": [
+        "807d1cfd-51b0-49b6-821c-67a5e2549d17"
+      ]
+    },
+    "807d1cfd-51b0-49b6-821c-67a5e2549d17": {
+      "id": "807d1cfd-51b0-49b6-821c-67a5e2549d17",
+      "message": {
+        "id": "807d1cfd-51b0-49b6-821c-67a5e2549d17",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf1603a0-fb6a-4150-aa24-a4e1729bfc73",
+      "children": [
+        "92aa8bc6-4e46-46af-b37a-15c00af37d44"
+      ]
+    },
+    "92aa8bc6-4e46-46af-b37a-15c00af37d44": {
+      "id": "92aa8bc6-4e46-46af-b37a-15c00af37d44",
+      "message": {
+        "id": "92aa8bc6-4e46-46af-b37a-15c00af37d44",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723339028.390051,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What apps can you connect to tripit"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b14625e6b838292-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "807d1cfd-51b0-49b6-821c-67a5e2549d17",
+      "children": [
+        "4ce7a242-aded-4299-af51-5f74db65a80c"
+      ]
+    },
+    "4ce7a242-aded-4299-af51-5f74db65a80c": {
+      "id": "4ce7a242-aded-4299-af51-5f74db65a80c",
+      "message": {
+        "id": "4ce7a242-aded-4299-af51-5f74db65a80c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723339033.009536,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "92aa8bc6-4e46-46af-b37a-15c00af37d44",
+          "request_id": "8b14625e6b838292-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92aa8bc6-4e46-46af-b37a-15c00af37d44",
+      "children": [
+        "8942e053-408e-4c4f-b02e-acd0a001a396"
+      ]
+    },
+    "8942e053-408e-4c4f-b02e-acd0a001a396": {
+      "id": "8942e053-408e-4c4f-b02e-acd0a001a396",
+      "message": {
+        "id": "8942e053-408e-4c4f-b02e-acd0a001a396",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723339033.009647,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "TripIt can connect to a variety of apps and services to streamline your travel planning and organization. Some of the notable apps and services that you can connect to TripIt include:\n\n1. **Google Calendar**: Sync your travel itinerary with your Google Calendar.\n2. **Apple Calendar (iCal)**: Similar to Google Calendar, you can sync TripIt with your iCal.\n3. **Outlook Calendar**: You can also sync your TripIt itinerary with your Outlook calendar.\n4. **Concur**: If you use Concur for business travel, TripIt can sync with it to consolidate your travel plans.\n5. **Expensify**: You can link TripIt with Expensify for easy expense reporting.\n6. **Evernote**: Save your travel plans directly into Evernote.\n7. **Slack**: Share your TripIt travel plans with teams on Slack.\n8. **Amazon Alexa**: Use voice commands to get information about your upcoming trips from Alexa.\n9. **Uber**: You can request rides directly from TripIt when it\u2019s time to head to the airport.\n10. **Lyft**: Similar to Uber, you can also connect Lyft to TripIt for rides.\n11. **Google Assistant**: Use Google Assistant to access your TripIt travel plans.\n\nAdditionally, TripIt supports connections with various airlines, hotel chains, car rental services, and other travel-related platforms to automatically import your bookings. You can also forward your travel confirmation emails to TripIt, and it will automatically organize them for you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAA",
+          "parent_id": "4ce7a242-aded-4299-af51-5f74db65a80c",
+          "request_id": "8b14625e6b838292-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4ce7a242-aded-4299-af51-5f74db65a80c",
+      "children": [
+        "bc012a80-08aa-40d4-b9e6-b78bab38e0ca"
+      ]
+    },
+    "bc012a80-08aa-40d4-b9e6-b78bab38e0ca": {
+      "id": "bc012a80-08aa-40d4-b9e6-b78bab38e0ca",
+      "message": {
+        "id": "bc012a80-08aa-40d4-b9e6-b78bab38e0ca",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723339086.391894,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the best app that pulls all travel data together "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b1463c899547fae-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8942e053-408e-4c4f-b02e-acd0a001a396",
+      "children": [
+        "0cf497a6-6f47-4c43-afcb-438690d1afce"
+      ]
+    },
+    "0cf497a6-6f47-4c43-afcb-438690d1afce": {
+      "id": "0cf497a6-6f47-4c43-afcb-438690d1afce",
+      "message": {
+        "id": "0cf497a6-6f47-4c43-afcb-438690d1afce",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723339091.890086,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The best app for pulling all travel data together is often considered to be **TripIt**. TripIt excels at consolidating travel information from various sources, such as airlines, hotels, car rentals, and more, into a single, comprehensive itinerary. Here\u2019s why TripIt is highly regarded:\n\n### Key Features:\n1. **Automatic Import of Travel Plans**: TripIt automatically imports travel details from your email confirmations and organizes them into a master itinerary.\n   \n2. **Centralized Itinerary**: All your travel details\u2014flights, hotels, car rentals, and even restaurant reservations\u2014are combined into one easy-to-read itinerary that you can access on your phone, tablet, or computer.\n\n3. **Calendar Syncing**: TripIt can sync with your calendar (Google, Apple, Outlook, etc.), ensuring that your travel plans are integrated with your personal schedule.\n\n4. **Proactive Alerts**: If you opt for TripIt Pro (a paid upgrade), you receive real-time alerts about flight delays, cancellations, gate changes, and even better seat availability.\n\n5. **Team Sharing**: Easily share your itinerary with colleagues, family, or friends, making it ideal for business or group travel.\n\n6. **Integration with Other Services**: TripIt integrates with apps like Uber, Lyft, Google Assistant, Slack, and more to streamline your travel experience.\n\n7. **Maps and Directions**: Provides maps and directions for each segment of your trip, including airport terminal maps.\n\n### Alternatives:\n- **Google Trips (now integrated into Google Travel)**: Google\u2019s travel service pulls together flights, hotel bookings, and activity suggestions but is more focused on trip planning and suggestions rather than detailed itinerary management.\n  \n- **Kayak**: Offers a similar service to TripIt but is more focused on price tracking and booking rather than organizing existing travel plans.\n\n- **App in the Air**: Specializes in flight tracking but also organizes other travel details.\n\nFor most users, **TripIt** remains the go-to app for consolidating travel information from various sources into one streamlined and organized itinerary."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAA",
+          "parent_id": "bc012a80-08aa-40d4-b9e6-b78bab38e0ca",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b1463c899547fae-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bc012a80-08aa-40d4-b9e6-b78bab38e0ca",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0cf497a6-6f47-4c43-afcb-438690d1afce",
+  "plugin_ids": null,
+  "conversation_id": "6efc7473-dc75-48cc-bfe3-3fa86c1584a6",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6efc7473-dc75-48cc-bfe3-3fa86c1584a6"
+}

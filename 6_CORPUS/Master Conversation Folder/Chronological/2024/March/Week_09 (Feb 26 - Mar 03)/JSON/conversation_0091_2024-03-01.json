@@ -1,0 +1,177 @@
+{
+  "title": "Hitler eats pizza.",
+  "create_time": 1709338354.541094,
+  "update_time": 1709338360.626677,
+  "mapping": {
+    "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e": {
+      "id": "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "7008f752-500d-472f-b6bf-cf2e4963ca79"
+      ]
+    },
+    "7008f752-500d-472f-b6bf-cf2e4963ca79": {
+      "id": "7008f752-500d-472f-b6bf-cf2e4963ca79",
+      "message": {
+        "id": "7008f752-500d-472f-b6bf-cf2e4963ca79",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e",
+      "children": [
+        "10c6a95c-11f7-4829-985d-9c4836df2aeb"
+      ]
+    },
+    "10c6a95c-11f7-4829-985d-9c4836df2aeb": {
+      "id": "10c6a95c-11f7-4829-985d-9c4836df2aeb",
+      "message": {
+        "id": "10c6a95c-11f7-4829-985d-9c4836df2aeb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7008f752-500d-472f-b6bf-cf2e4963ca79",
+      "children": [
+        "21fdf639-9a7d-47d8-964e-e07b5e02e8e5"
+      ]
+    },
+    "21fdf639-9a7d-47d8-964e-e07b5e02e8e5": {
+      "id": "21fdf639-9a7d-47d8-964e-e07b5e02e8e5",
+      "message": {
+        "id": "21fdf639-9a7d-47d8-964e-e07b5e02e8e5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338354.54166,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hitler eating pizza"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85dd2d0b39d328a8-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "10c6a95c-11f7-4829-985d-9c4836df2aeb",
+      "children": [
+        "b2c869f6-6b30-440c-85af-9ea49717d193"
+      ]
+    },
+    "b2c869f6-6b30-440c-85af-9ea49717d193": {
+      "id": "b2c869f6-6b30-440c-85af-9ea49717d193",
+      "message": {
+        "id": "b2c869f6-6b30-440c-85af-9ea49717d193",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338355.157343,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm sorry, but I can't create that image."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "21fdf639-9a7d-47d8-964e-e07b5e02e8e5",
+          "request_id": "85dd2d0b39d328a8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "21fdf639-9a7d-47d8-964e-e07b5e02e8e5",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "b2c869f6-6b30-440c-85af-9ea49717d193",
+  "plugin_ids": null,
+  "conversation_id": "492f569f-6e19-42d4-aaab-e7ec6fcc82e0",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "492f569f-6e19-42d4-aaab-e7ec6fcc82e0"
+}

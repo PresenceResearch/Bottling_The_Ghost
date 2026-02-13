@@ -1,0 +1,140 @@
+{
+  "title": "Goodbye!",
+  "create_time": 1702855079.561253,
+  "update_time": 1702855094.8527,
+  "mapping": {
+    "549f9e09-75f7-4d1b-9913-73f73794825b": {
+      "id": "549f9e09-75f7-4d1b-9913-73f73794825b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c853970c-da91-4f34-ba14-d8f9d8a08e27"
+      ]
+    },
+    "c853970c-da91-4f34-ba14-d8f9d8a08e27": {
+      "id": "c853970c-da91-4f34-ba14-d8f9d8a08e27",
+      "message": {
+        "id": "c853970c-da91-4f34-ba14-d8f9d8a08e27",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "549f9e09-75f7-4d1b-9913-73f73794825b",
+      "children": [
+        "3551d781-5024-4b01-923f-5e411f0478ca"
+      ]
+    },
+    "3551d781-5024-4b01-923f-5e411f0478ca": {
+      "id": "3551d781-5024-4b01-923f-5e411f0478ca",
+      "message": {
+        "id": "3551d781-5024-4b01-923f-5e411f0478ca",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702855079.562288,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Later!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c853970c-da91-4f34-ba14-d8f9d8a08e27",
+      "children": [
+        "846a48a9-f655-4266-b386-9d9937c6e7af"
+      ]
+    },
+    "846a48a9-f655-4266-b386-9d9937c6e7af": {
+      "id": "846a48a9-f655-4266-b386-9d9937c6e7af",
+      "message": {
+        "id": "846a48a9-f655-4266-b386-9d9937c6e7af",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702855080.60489,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "voice_mode_message": true,
+          "parent_id": "3551d781-5024-4b01-923f-5e411f0478ca",
+          "finish_details": {
+            "type": "interrupted"
+          },
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3551d781-5024-4b01-923f-5e411f0478ca",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "846a48a9-f655-4266-b386-9d9937c6e7af",
+  "plugin_ids": null,
+  "conversation_id": "9bc1227c-396b-47db-9595-71a50610d747",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "9bc1227c-396b-47db-9595-71a50610d747"
+}

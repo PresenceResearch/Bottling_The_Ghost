@@ -1,0 +1,628 @@
+{
+  "title": "Wi-Fi Network Connection Help",
+  "create_time": 1730038421.985678,
+  "update_time": 1730038732.933226,
+  "mapping": {
+    "9cf9f629-ca2f-49c7-a0d3-bf57fdd513fc": {
+      "id": "9cf9f629-ca2f-49c7-a0d3-bf57fdd513fc",
+      "message": null,
+      "parent": null,
+      "children": [
+        "edd36cff-0a02-42b3-90e9-236f407069de"
+      ]
+    },
+    "edd36cff-0a02-42b3-90e9-236f407069de": {
+      "id": "edd36cff-0a02-42b3-90e9-236f407069de",
+      "message": {
+        "id": "edd36cff-0a02-42b3-90e9-236f407069de",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9cf9f629-ca2f-49c7-a0d3-bf57fdd513fc",
+      "children": [
+        "c620f4a1-652d-4190-93ef-dafca15c704b"
+      ]
+    },
+    "c620f4a1-652d-4190-93ef-dafca15c704b": {
+      "id": "c620f4a1-652d-4190-93ef-dafca15c704b",
+      "message": {
+        "id": "c620f4a1-652d-4190-93ef-dafca15c704b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "edd36cff-0a02-42b3-90e9-236f407069de",
+      "children": [
+        "e283fa7c-b309-43f6-83e1-b41dae454420"
+      ]
+    },
+    "e283fa7c-b309-43f6-83e1-b41dae454420": {
+      "id": "e283fa7c-b309-43f6-83e1-b41dae454420",
+      "message": {
+        "id": "e283fa7c-b309-43f6-83e1-b41dae454420",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038422.386968,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-HPQxOPJq2EOy9OvJUAaSyFAC",
+              "size_bytes": 497710,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "I\nHave a username and password but don\u2019t understand any of this "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "1A780596-2781-408E-9AD0-69AA1E5195C1.jpeg",
+              "height": 1152,
+              "size": 497710,
+              "width": 1536,
+              "id": "file-HPQxOPJq2EOy9OvJUAaSyFAC"
+            }
+          ],
+          "request_id": "8d9349c67a9f3976-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c620f4a1-652d-4190-93ef-dafca15c704b",
+      "children": [
+        "f887bacd-5c2d-4281-adf7-27dea12e1cd8"
+      ]
+    },
+    "f887bacd-5c2d-4281-adf7-27dea12e1cd8": {
+      "id": "f887bacd-5c2d-4281-adf7-27dea12e1cd8",
+      "message": {
+        "id": "f887bacd-5c2d-4281-adf7-27dea12e1cd8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038434.809839,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e283fa7c-b309-43f6-83e1-b41dae454420",
+          "request_id": "8d9349c67a9f3976-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e283fa7c-b309-43f6-83e1-b41dae454420",
+      "children": [
+        "978c56a5-bfec-470f-b357-21766579ce95"
+      ]
+    },
+    "978c56a5-bfec-470f-b357-21766579ce95": {
+      "id": "978c56a5-bfec-470f-b357-21766579ce95",
+      "message": {
+        "id": "978c56a5-bfec-470f-b357-21766579ce95",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038434.810164,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It looks like you're trying to connect to a Wi-Fi network that requires some additional security settings, like a server CA certificate and specific identity options. Here\u2019s a breakdown to help you connect:\n\n1. **Server CA Certificate**: This is often a certificate to verify the network\u2019s identity. If it\u2019s set to \"Default,\" leave it as is unless your network administrator has provided a specific certificate to install.\n\n2. **Subject Match & Subject Alternative Name Match**: These settings ensure that the network\u2019s certificate matches specific criteria. You can usually leave these blank unless instructed otherwise.\n\n3. **Domain Suffix Match**: This is also related to certificate matching. If you don\u2019t have a specific domain suffix, you can skip this.\n\n4. **Identity**: This is typically your **username** for the network. Enter your username here.\n\n5. **Password**: This is where you enter your **password** for the network.\n\nTry filling in just the **Identity** (your username) and **Password** fields and leave the rest as default or blank. If the network still doesn\u2019t connect, you may need additional settings from your IT administrator, such as specific certificate files or domain suffixes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f887bacd-5c2d-4281-adf7-27dea12e1cd8",
+          "request_id": "8d9349c67a9f3976-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f887bacd-5c2d-4281-adf7-27dea12e1cd8",
+      "children": [
+        "519a2623-5ce9-49c1-a436-e9a2f6b733b6"
+      ]
+    },
+    "519a2623-5ce9-49c1-a436-e9a2f6b733b6": {
+      "id": "519a2623-5ce9-49c1-a436-e9a2f6b733b6",
+      "message": {
+        "id": "519a2623-5ce9-49c1-a436-e9a2f6b733b6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038573.065164,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-QYmtuZttS6luSmMz61LVHKYc",
+              "size_bytes": 518645,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "It says this "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-QYmtuZttS6luSmMz61LVHKYc",
+              "size": 518645,
+              "name": "C496120F-D852-4C7A-8C0E-DCE185AAB1D8.jpeg",
+              "width": 1536,
+              "height": 1152
+            }
+          ],
+          "request_id": "8d934d721d4605a5-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "978c56a5-bfec-470f-b357-21766579ce95",
+      "children": [
+        "1ef38985-053b-4602-a733-49a7117cc074"
+      ]
+    },
+    "1ef38985-053b-4602-a733-49a7117cc074": {
+      "id": "1ef38985-053b-4602-a733-49a7117cc074",
+      "message": {
+        "id": "1ef38985-053b-4602-a733-49a7117cc074",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038584.955617,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The message you're seeing, \u201cMissing 'Subject alternative name match' or 'Domain suffix match' to validate the authentication server identity,\u201d indicates that the Wi-Fi network is configured to require additional validation for security. Here\u2019s what you can try:\n\n1. **Domain Suffix Match**: You may need to enter a specific domain suffix, like \u201ccompany.com\u201d or \u201cschool.edu,\u201d depending on the network. If you\u2019re connecting at work or school, check with IT for this information.\n\n2. **Subject Alternative Name Match**: This field is sometimes used to validate the server name. It would also need a specific domain or server name, which IT could provide.\n\n3. **Try Leaving the Fields Blank or as Default**: If you don't have access to the specific information, try leaving both \u201cSubject alternative name match\u201d and \u201cDomain suffix match\u201d blank or set to \"Default\" (if available) and attempt to connect again.\n\n4. **Ask IT Support**: For some enterprise networks, these settings are mandatory, and you\u2019ll need precise details from the network administrator to connect.\n\nGive this a shot, and if it still doesn\u2019t connect, it\u2019s likely you\u2019ll need IT\u2019s input for the exact domain suffix or server name."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "519a2623-5ce9-49c1-a436-e9a2f6b733b6",
+          "request_id": "8d934d721d4605a5-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "519a2623-5ce9-49c1-a436-e9a2f6b733b6",
+      "children": [
+        "4c57510f-1864-443c-a99a-257c198830a8"
+      ]
+    },
+    "4c57510f-1864-443c-a99a-257c198830a8": {
+      "id": "4c57510f-1864-443c-a99a-257c198830a8",
+      "message": {
+        "id": "4c57510f-1864-443c-a99a-257c198830a8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038650.274178,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-xhXbhSgKkSGthpH0fv2e3AIL",
+              "size_bytes": 170070,
+              "width": 708,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "I\u2019m\nLogged in on my iPhone and this is what it says. Can I use this info?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "9361CE2F-EE22-4AAC-968E-21AC7BCAEAD8.jpeg",
+              "size": 170070,
+              "id": "file-xhXbhSgKkSGthpH0fv2e3AIL",
+              "width": 708,
+              "height": 1536
+            }
+          ],
+          "request_id": "8d934f597fc305f6-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1ef38985-053b-4602-a733-49a7117cc074",
+      "children": [
+        "6f3301e1-e9b3-4f98-907b-4f1130224c1d"
+      ]
+    },
+    "6f3301e1-e9b3-4f98-907b-4f1130224c1d": {
+      "id": "6f3301e1-e9b3-4f98-907b-4f1130224c1d",
+      "message": {
+        "id": "6f3301e1-e9b3-4f98-907b-4f1130224c1d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038664.829426,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, some of this information can help in understanding the network settings. Here\u2019s what might be useful and how to apply it on your other device:\n\n1. **IP Address and Subnet Mask**: The IP address (`10.3.2.17`) and subnet mask (`255.255.252.0`) are assigned dynamically by the network, so you usually don\u2019t need to input them manually unless you\u2019re setting a static IP.\n\n2. **Router IP**: The router IP (`10.3.0.1`) is the gateway address for this network. It might not be directly useful unless you need to input specific details for advanced settings.\n\n3. **DNS**: DNS is set to automatic here, which means the network is handling it without requiring manual configuration.\n\nFor networks like these, your login (identity and password) is generally sufficient. If your device is still asking for additional details like a \"Domain suffix match\" or \"Subject alternative name match,\" it may still be necessary to consult IT support for those fields.\n\nIf the network on your other device allows you to leave the more advanced fields (like domain suffix) blank or default, try that first. Let me know if this works or if you see any additional error messages."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4c57510f-1864-443c-a99a-257c198830a8",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d934f597fc305f6-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4c57510f-1864-443c-a99a-257c198830a8",
+      "children": [
+        "a4ff31d9-45e5-4c37-a43d-670f508e6f9b"
+      ]
+    },
+    "a4ff31d9-45e5-4c37-a43d-670f508e6f9b": {
+      "id": "a4ff31d9-45e5-4c37-a43d-670f508e6f9b",
+      "message": {
+        "id": "a4ff31d9-45e5-4c37-a43d-670f508e6f9b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038705.609427,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the subject for Berklee college of music "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d9350b4e9e405f6-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6f3301e1-e9b3-4f98-907b-4f1130224c1d",
+      "children": [
+        "1025047d-2ca0-4771-b9f0-5c44055adcda"
+      ]
+    },
+    "1025047d-2ca0-4771-b9f0-5c44055adcda": {
+      "id": "1025047d-2ca0-4771-b9f0-5c44055adcda",
+      "message": {
+        "id": "1025047d-2ca0-4771-b9f0-5c44055adcda",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038713.200178,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The **Berklee College of Music** specializes in contemporary music education with a strong focus on a wide range of genres and styles beyond classical music, including jazz, rock, electronic, hip-hop, and world music. Berklee is known for its programs in:\n\n- **Music Performance** (for various instruments and voice)\n- **Music Production and Engineering**\n- **Film Scoring**\n- **Songwriting**\n- **Music Business/Management**\n- **Electronic Production and Design**\n- **Jazz Composition**\n- **Music Therapy**\n- **Music Education**\n- **Professional Music** (a customizable degree allowing students"
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a4ff31d9-45e5-4c37-a43d-670f508e6f9b",
+          "finish_details": {
+            "type": "interrupted"
+          },
+          "request_id": "8d9350b4e9e405f6-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a4ff31d9-45e5-4c37-a43d-670f508e6f9b",
+      "children": [
+        "9af34d4e-e8b0-45d8-8abb-ac2ba9286031"
+      ]
+    },
+    "9af34d4e-e8b0-45d8-8abb-ac2ba9286031": {
+      "id": "9af34d4e-e8b0-45d8-8abb-ac2ba9286031",
+      "message": {
+        "id": "9af34d4e-e8b0-45d8-8abb-ac2ba9286031",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038719.809681,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No for the error message "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d93510d7e5305f6-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1025047d-2ca0-4771-b9f0-5c44055adcda",
+      "children": [
+        "e15bb673-8dc7-4b32-8058-f5f5ba0b4264"
+      ]
+    },
+    "e15bb673-8dc7-4b32-8058-f5f5ba0b4264": {
+      "id": "e15bb673-8dc7-4b32-8058-f5f5ba0b4264",
+      "message": {
+        "id": "e15bb673-8dc7-4b32-8058-f5f5ba0b4264",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730038730.127478,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "For the **\"Missing 'Subject alternative name match' or 'Domain suffix match' to validate the authentication server identity\"** error, the \"Subject alternative name match\" and \"Domain suffix match\" fields are additional security requirements that validate the server\u2019s identity.\n\nHere\u2019s what you can try to resolve this:\n\n1. **Subject Alternative Name Match**: This field often requires a specific server name or domain associated with the network. For Berklee, it could be something like `*.berklee.edu` or similar, depending on how they\u2019ve set up their Wi-Fi security. You might need to check with Berklee\u2019s IT support to confirm this exact value.\n\n2. **Domain Suffix Match**: If you don\u2019t have the exact information for \"Subject alternative name match,\" try inputting a general domain like `berklee.edu` in this field, as this might satisfy the requirement.\n\n3. **Check with IT Support**: Berklee\u2019s IT support would have the exact details, as enterprise Wi-Fi networks often require these settings for secure connections. They should be able to provide the precise entries needed for both \"Subject alternative name match\" and \"Domain suffix match.\"\n\nIf neither of these fields can be left blank and you don't have the values, contacting IT is your best bet."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9af34d4e-e8b0-45d8-8abb-ac2ba9286031",
+          "request_id": "8d93510d7e5305f6-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9af34d4e-e8b0-45d8-8abb-ac2ba9286031",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "e15bb673-8dc7-4b32-8058-f5f5ba0b4264",
+  "plugin_ids": null,
+  "conversation_id": "671e4a95-8ea8-8009-9f07-f8229808f2c4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "671e4a95-8ea8-8009-9f07-f8229808f2c4"
+}

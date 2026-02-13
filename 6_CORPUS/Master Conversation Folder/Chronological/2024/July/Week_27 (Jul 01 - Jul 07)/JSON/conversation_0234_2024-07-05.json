@@ -1,0 +1,473 @@
+{
+  "title": "Community Theater Opportunities in Baltimore",
+  "create_time": 1720228640.570692,
+  "update_time": 1720228684.841654,
+  "mapping": {
+    "1d329ee0-71aa-43ca-b9fc-7a68e51ebfa3": {
+      "id": "1d329ee0-71aa-43ca-b9fc-7a68e51ebfa3",
+      "message": null,
+      "parent": null,
+      "children": [
+        "e7b11271-3a5a-403d-bfdc-c70303bd335c"
+      ]
+    },
+    "e7b11271-3a5a-403d-bfdc-c70303bd335c": {
+      "id": "e7b11271-3a5a-403d-bfdc-c70303bd335c",
+      "message": {
+        "id": "e7b11271-3a5a-403d-bfdc-c70303bd335c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1d329ee0-71aa-43ca-b9fc-7a68e51ebfa3",
+      "children": [
+        "31042a81-2bc6-4340-b00c-c58cebdb5119"
+      ]
+    },
+    "31042a81-2bc6-4340-b00c-c58cebdb5119": {
+      "id": "31042a81-2bc6-4340-b00c-c58cebdb5119",
+      "message": {
+        "id": "31042a81-2bc6-4340-b00c-c58cebdb5119",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228640.575104,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I want to participate in a community theater production in Baltimore where should I go "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "89ebc12a0ae21762-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e7b11271-3a5a-403d-bfdc-c70303bd335c",
+      "children": [
+        "65708f37-26d3-4982-bc39-41f812fe26b0"
+      ]
+    },
+    "65708f37-26d3-4982-bc39-41f812fe26b0": {
+      "id": "65708f37-26d3-4982-bc39-41f812fe26b0",
+      "message": {
+        "id": "65708f37-26d3-4982-bc39-41f812fe26b0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228644.201108,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "31042a81-2bc6-4340-b00c-c58cebdb5119",
+          "request_id": "89ebc12a0ae21762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "31042a81-2bc6-4340-b00c-c58cebdb5119",
+      "children": [
+        "5a94377a-b3b1-422d-abd8-8c6bece3c4a8"
+      ]
+    },
+    "5a94377a-b3b1-422d-abd8-8c6bece3c4a8": {
+      "id": "5a94377a-b3b1-422d-abd8-8c6bece3c4a8",
+      "message": {
+        "id": "5a94377a-b3b1-422d-abd8-8c6bece3c4a8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228644.201173,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User is interested in participating in a community theater production in Baltimore."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAA",
+          "parent_id": "65708f37-26d3-4982-bc39-41f812fe26b0",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "89ebc12a0ae21762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "65708f37-26d3-4982-bc39-41f812fe26b0",
+      "children": [
+        "49006a74-6455-4553-8fe5-652872bf2eae"
+      ]
+    },
+    "49006a74-6455-4553-8fe5-652872bf2eae": {
+      "id": "49006a74-6455-4553-8fe5-652872bf2eae",
+      "message": {
+        "id": "49006a74-6455-4553-8fe5-652872bf2eae",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1720228644.201234,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "49006a74-6455-4553-8fe5-652872bf2eae"
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "5a94377a-b3b1-422d-abd8-8c6bece3c4a8",
+          "request_id": "89ebc12a0ae21762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "5a94377a-b3b1-422d-abd8-8c6bece3c4a8",
+      "children": [
+        "476c8739-002b-4ea8-97b4-7d1d96d81542"
+      ]
+    },
+    "476c8739-002b-4ea8-97b4-7d1d96d81542": {
+      "id": "476c8739-002b-4ea8-97b4-7d1d96d81542",
+      "message": {
+        "id": "476c8739-002b-4ea8-97b4-7d1d96d81542",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228644.201276,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Baltimore, there are several community theater groups and venues where you can participate in a production:\n\n1. **Baltimore Center Stage** - Offers community programs and often has auditions for various productions.\n2. **Vagabond Players** - Known as the oldest continuously operating little theater in America, they regularly hold auditions for their productions.\n3. **Fells Point Corner Theatre** - A volunteer-run theater that frequently has open auditions for community members.\n4. **Spotlighters Theatre** - Offers opportunities for community involvement and holds open auditions.\n5. **Theatre Project** - An arts center that supports experimental and community theater productions.\n\nCheck their websites or contact them directly for information on upcoming auditions and opportunities to get involved."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAA",
+          "parent_id": "49006a74-6455-4553-8fe5-652872bf2eae",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "89ebc12a0ae21762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "49006a74-6455-4553-8fe5-652872bf2eae",
+      "children": [
+        "b224f973-116f-4966-8982-537fb98e9956"
+      ]
+    },
+    "b224f973-116f-4966-8982-537fb98e9956": {
+      "id": "b224f973-116f-4966-8982-537fb98e9956",
+      "message": {
+        "id": "b224f973-116f-4966-8982-537fb98e9956",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228675.197732,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I am a 17 year old\nGirl and want to be an extra on tv or movies why do I do "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "89ebc20288f91762-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "476c8739-002b-4ea8-97b4-7d1d96d81542",
+      "children": [
+        "bda696c0-9b22-4995-8cbf-cf41e1f63516"
+      ]
+    },
+    "bda696c0-9b22-4995-8cbf-cf41e1f63516": {
+      "id": "bda696c0-9b22-4995-8cbf-cf41e1f63516",
+      "message": {
+        "id": "bda696c0-9b22-4995-8cbf-cf41e1f63516",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228683.983785,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "b224f973-116f-4966-8982-537fb98e9956",
+          "request_id": "89ebc20288f91762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b224f973-116f-4966-8982-537fb98e9956",
+      "children": [
+        "5af0b09f-617c-4d19-b084-35bbdf6abb15"
+      ]
+    },
+    "5af0b09f-617c-4d19-b084-35bbdf6abb15": {
+      "id": "5af0b09f-617c-4d19-b084-35bbdf6abb15",
+      "message": {
+        "id": "5af0b09f-617c-4d19-b084-35bbdf6abb15",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228683.983877,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User is a 17-year-old girl interested in being an extra on TV or movies."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "bda696c0-9b22-4995-8cbf-cf41e1f63516",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "89ebc20288f91762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "bda696c0-9b22-4995-8cbf-cf41e1f63516",
+      "children": [
+        "c1e52f70-cb3a-4fac-a647-09d1b6445c24"
+      ]
+    },
+    "c1e52f70-cb3a-4fac-a647-09d1b6445c24": {
+      "id": "c1e52f70-cb3a-4fac-a647-09d1b6445c24",
+      "message": {
+        "id": "c1e52f70-cb3a-4fac-a647-09d1b6445c24",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1720228683.984056,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "c1e52f70-cb3a-4fac-a647-09d1b6445c24"
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "5af0b09f-617c-4d19-b084-35bbdf6abb15",
+          "request_id": "89ebc20288f91762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "5af0b09f-617c-4d19-b084-35bbdf6abb15",
+      "children": [
+        "17f887d3-a769-47ca-9213-ee18f2c8350a"
+      ]
+    },
+    "17f887d3-a769-47ca-9213-ee18f2c8350a": {
+      "id": "17f887d3-a769-47ca-9213-ee18f2c8350a",
+      "message": {
+        "id": "17f887d3-a769-47ca-9213-ee18f2c8350a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720228683.984148,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To become an extra on TV or movies, follow these steps:\n\n1. **Create a Portfolio**: Have a few professional headshots taken. A resume detailing any acting or performance experience, even school plays or community theater, can be helpful.\n\n2. **Register with Casting Agencies**: Look for reputable casting agencies that specialize in extras. In Baltimore, you might consider agencies like:\n\n   - **Central Casting**\n   - **Background Inc.**\n   - **Bill Marinella Casting**\n\n3. **Sign Up for Casting Websites**: Websites like Backstage, Casting Networks, and Actors Access often post casting calls for extras.\n\n4. **Attend Open Casting Calls**: Keep an eye out for open casting calls in your area. These are often posted on casting agency websites or social media pages.\n\n5. **Stay Informed**: Follow local film office announcements, such as the Maryland Film Office, for information on productions happening in your area.\n\n6. **Network**: Join local acting or film groups on social media and attend industry events to make connections.\n\n7. **Be Persistent**: Getting cast as an extra can take time, so keep applying to opportunities as they come up.\n\nBeing under 18, ensure that you have parental consent and involvement throughout the process."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAA",
+          "parent_id": "c1e52f70-cb3a-4fac-a647-09d1b6445c24",
+          "request_id": "89ebc20288f91762-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1e52f70-cb3a-4fac-a647-09d1b6445c24",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "17f887d3-a769-47ca-9213-ee18f2c8350a",
+  "plugin_ids": null,
+  "conversation_id": "a8a667fd-b79a-4684-823a-ab390b4647c4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "a8a667fd-b79a-4684-823a-ab390b4647c4"
+}

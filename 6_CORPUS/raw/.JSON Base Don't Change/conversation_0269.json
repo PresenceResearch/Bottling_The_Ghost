@@ -1,0 +1,868 @@
+{
+  "title": "Setting Speaker Listing Price",
+  "create_time": 1722694584.771409,
+  "update_time": 1722696842.113768,
+  "mapping": {
+    "0a3ab0e8-3caf-4873-bcdb-d3dd24c7d5a5": {
+      "id": "0a3ab0e8-3caf-4873-bcdb-d3dd24c7d5a5",
+      "message": null,
+      "parent": null,
+      "children": [
+        "553c7b4c-0f5b-42f3-9ff1-56707db64019"
+      ]
+    },
+    "553c7b4c-0f5b-42f3-9ff1-56707db64019": {
+      "id": "553c7b4c-0f5b-42f3-9ff1-56707db64019",
+      "message": {
+        "id": "553c7b4c-0f5b-42f3-9ff1-56707db64019",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0a3ab0e8-3caf-4873-bcdb-d3dd24c7d5a5",
+      "children": [
+        "a5a4ca17-46c9-4d5a-93ec-33043479877d"
+      ]
+    },
+    "a5a4ca17-46c9-4d5a-93ec-33043479877d": {
+      "id": "a5a4ca17-46c9-4d5a-93ec-33043479877d",
+      "message": {
+        "id": "a5a4ca17-46c9-4d5a-93ec-33043479877d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722694585.807106,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ekSVcO9Oevj7ahhG30xXcjze",
+              "size_bytes": 768249,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "What should I list this for "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "4DA59B94-21E5-4110-A852-EB14574DAC43.jpeg",
+              "id": "file-ekSVcO9Oevj7ahhG30xXcjze",
+              "width": 1152,
+              "height": 1536,
+              "size": 768249
+            }
+          ],
+          "request_id": "8ad6ece0faa87283-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "553c7b4c-0f5b-42f3-9ff1-56707db64019",
+      "children": [
+        "04012a5c-e7fd-44be-a3f5-57e1355d28b4"
+      ]
+    },
+    "04012a5c-e7fd-44be-a3f5-57e1355d28b4": {
+      "id": "04012a5c-e7fd-44be-a3f5-57e1355d28b4",
+      "message": {
+        "id": "04012a5c-e7fd-44be-a3f5-57e1355d28b4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722694593.029498,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a5a4ca17-46c9-4d5a-93ec-33043479877d",
+          "request_id": "8ad6ece0faa87283-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a5a4ca17-46c9-4d5a-93ec-33043479877d",
+      "children": [
+        "0dad1429-0a33-44c3-9204-f3d19d2007a7"
+      ]
+    },
+    "0dad1429-0a33-44c3-9204-f3d19d2007a7": {
+      "id": "0dad1429-0a33-44c3-9204-f3d19d2007a7",
+      "message": {
+        "id": "0dad1429-0a33-44c3-9204-f3d19d2007a7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722694593.02969,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To determine a fair listing price for your DeWalt Bluetooth speaker, consider the following steps:\n\n1. **Research Current Prices:** Look up the current retail price of the same model to see how much it sells for new.\n\n2. **Check Used Prices:** Search online marketplaces like eBay, Amazon, and Craigslist to see what similar used models are selling for.\n\n3. **Assess Condition:** Evaluate the condition of your speaker. If it\u2019s in like-new condition with minimal wear and all original parts, you can price it higher than if it shows signs of heavy use.\n\n4. **Include Accessories:** If you have any accessories, original packaging, or manuals, mention these in your listing as they can add value.\n\n5. **Competitive Pricing:** Consider pricing it slightly lower than the average used price to attract more buyers quickly.\n\n### Example Pricing:\n\n- **Excellent Condition, Like New:** Around 70-80% of the retail price.\n- **Good Condition:** About 50-60% of the retail price.\n- **Fair Condition:** 30-40% of the retail price.\n\nIf you can provide the model number or look up the current retail price and recent listings, I can help narrow down the suggested listing price further."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "04012a5c-e7fd-44be-a3f5-57e1355d28b4",
+          "request_id": "8ad6ece0faa87283-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04012a5c-e7fd-44be-a3f5-57e1355d28b4",
+      "children": [
+        "3d506fe2-bf4d-44c9-ac17-06132aac5798"
+      ]
+    },
+    "3d506fe2-bf4d-44c9-ac17-06132aac5798": {
+      "id": "3d506fe2-bf4d-44c9-ac17-06132aac5798",
+      "message": {
+        "id": "3d506fe2-bf4d-44c9-ac17-06132aac5798",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722694741.879592,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please write eBay post "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8ad6f0b6de6fc407-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0dad1429-0a33-44c3-9204-f3d19d2007a7",
+      "children": [
+        "0db4a0db-8c43-4221-b06a-9ebfd48a06e3"
+      ]
+    },
+    "0db4a0db-8c43-4221-b06a-9ebfd48a06e3": {
+      "id": "0db4a0db-8c43-4221-b06a-9ebfd48a06e3",
+      "message": {
+        "id": "0db4a0db-8c43-4221-b06a-9ebfd48a06e3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722694753.91593,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's a template for your eBay post for the DeWalt Bluetooth speaker:\n\n---\n\n### Title:\n**DeWalt Bluetooth Speaker - Rugged and Portable with Wireless Connectivity**\n\n### Item Description:\nUp for sale is a **DeWalt Bluetooth Speaker**, known for its rugged design and excellent sound quality. This speaker is perfect for work sites, outdoor activities, or anywhere you need robust and reliable audio.\n\n#### Features:\n- **Bluetooth Connectivity:** Easily pair with any Bluetooth-enabled device for wireless streaming.\n- **Durable Design:** Built to withstand tough environments with shock-resistant casing.\n- **Portable:** Compact design with a convenient handle for easy transport.\n- **Controls:** Easy-to-use buttons for volume, playback, and pairing.\n- **Brand:** DeWalt\n\n#### Condition:\nThis speaker is in **excellent condition**, with minimal signs of use. It has been well cared for and functions perfectly. \n\n#### Included:\n- DeWalt Bluetooth Speaker\n- Charging Cable (if applicable)\n- Original Packaging (if applicable)\n\n#### Shipping and Payment:\n- **Shipping:** Item will be carefully packed and shipped within 2 business days of receiving payment. Shipping options available at checkout.\n- **Payment:** PayPal accepted for secure transactions.\n\n#### Why Buy From Me?\n- Fast and reliable shipping\n- Excellent customer service\n- 100% positive feedback\n\nDon't miss out on this great deal for a DeWalt Bluetooth Speaker! Perfect for anyone needing a durable, high-quality speaker for any setting.\n\nFeel free to ask any questions. Thanks for looking!\n\n---\n\n### Tips:\n- **Photos:** Include several high-quality photos showing different angles of the speaker and any accessories.\n- **Pricing:** Set a starting bid or \"Buy It Now\" price based on your research and condition assessment.\n- **Shipping Details:** Be clear about shipping costs and regions you ship to.\n\nLet me know if you'd like any adjustments or additional details added!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "3d506fe2-bf4d-44c9-ac17-06132aac5798",
+          "request_id": "8ad6f0b6de6fc407-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d506fe2-bf4d-44c9-ac17-06132aac5798",
+      "children": [
+        "fe2dac85-3577-4aa5-bfd5-c835c3e77138"
+      ]
+    },
+    "fe2dac85-3577-4aa5-bfd5-c835c3e77138": {
+      "id": "fe2dac85-3577-4aa5-bfd5-c835c3e77138",
+      "message": {
+        "id": "fe2dac85-3577-4aa5-bfd5-c835c3e77138",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722695872.091647,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-N09C8pbE9endupQEIIYxRLjV",
+              "size_bytes": 671710,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please create listing "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "width": 1152,
+              "size": 671710,
+              "name": "2E717233-E61D-4B70-A50F-347D6D59F038.jpeg",
+              "height": 1536,
+              "id": "file-N09C8pbE9endupQEIIYxRLjV"
+            }
+          ],
+          "request_id": "8ad70c47eabe424b-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0db4a0db-8c43-4221-b06a-9ebfd48a06e3",
+      "children": [
+        "cbbdd42c-e03f-4d05-b6a3-9d6a8206a1ea"
+      ]
+    },
+    "cbbdd42c-e03f-4d05-b6a3-9d6a8206a1ea": {
+      "id": "cbbdd42c-e03f-4d05-b6a3-9d6a8206a1ea",
+      "message": {
+        "id": "cbbdd42c-e03f-4d05-b6a3-9d6a8206a1ea",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722695892.399171,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's a template for listing the Memorex Mini Projector with Bluetooth on eBay:\n\n---\n\n### Title:\n**Memorex Mini Projector with Bluetooth - Portable Home Theater System**\n\n### Item Description:\nEnhance your movie nights and presentations with this **Memorex Mini Projector with Bluetooth**. This compact and portable projector offers excellent picture quality and wireless connectivity, making it perfect for both home entertainment and business use.\n\n#### Features:\n- **Resolution Support:** 720p, 1080i, 1080p\n- **Native Resolution:** 800 x 480\n- **Bluetooth:** Built-in wireless transmitter for seamless audio streaming\n- **USB & HDMI Connectivity:** Multiple input options with MicroSD slot and USB port\n- **Projection Size:** Up to 110\" viewable screen size\n- **LED Lamp:** Long-lasting LED lamp with up to 20,000 hours of life\n- **Sound:** Built-in full-range speaker for clear audio\n- **Keystone Correction:** For easy image adjustment\n- **Remote Control:** Included for convenient operation\n- **Accessories:** 3.5mm to RCA audio/video cable, AC/DC power adapter\n\n#### Condition:\nThis Memorex Mini Projector is **brand new and sealed in its original packaging**. The box has some minor wear, as shown in the photos, but the projector itself is untouched and in perfect condition.\n\n#### Included:\n- Memorex Mini Projector\n- Remote Control\n- 3.5mm to RCA Audio/Video Cable\n- AC/DC Power Adapter\n- Original Box\n\n#### Shipping and Payment:\n- **Shipping:** The item will be securely packed and shipped within 2 business days of receiving payment. Multiple shipping options are available at checkout.\n- **Payment:** PayPal is accepted for secure transactions.\n\n#### Why Buy From Me?\n- Fast and reliable shipping\n- Excellent customer service\n- 100% positive feedback\n\nThis projector is ideal for anyone looking to create a versatile and portable viewing experience. Don\u2019t miss out on the chance to own this Memorex Mini Projector with Bluetooth!\n\nFeel free to reach out with any questions. Thank you for viewing my listing!\n\n---\n\n### Tips:\n- **Photos:** Include multiple photos showing the box, any accessories, and details of the features on the packaging.\n- **Pricing:** Set a competitive \"Buy It Now\" price or starting bid based on new prices for similar models.\n- **Shipping Details:** Clearly state shipping policies and options for both domestic and international buyers if applicable.\n\nLet me know if you need any more details or adjustments!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "fe2dac85-3577-4aa5-bfd5-c835c3e77138",
+          "request_id": "8ad70c47eabe424b-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe2dac85-3577-4aa5-bfd5-c835c3e77138",
+      "children": [
+        "c702e647-2adc-47a5-a939-cea8794b249c"
+      ]
+    },
+    "c702e647-2adc-47a5-a939-cea8794b249c": {
+      "id": "c702e647-2adc-47a5-a939-cea8794b249c",
+      "message": {
+        "id": "c702e647-2adc-47a5-a939-cea8794b249c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722696295.365039,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-geHITJb35PNni3WHRannUUX0",
+              "size_bytes": 559658,
+              "width": 637,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-pevNOISLFXpjIJoaIZhUUMNT",
+              "size_bytes": 627175,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please write listing "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "75142B55-69C5-47E1-A858-18E85D169893.jpeg",
+              "id": "file-geHITJb35PNni3WHRannUUX0",
+              "width": 637,
+              "size": 559658,
+              "height": 1536
+            },
+            {
+              "size": 627175,
+              "name": "9FEE87B2-181B-44F4-877D-81A73EAA515F.jpeg",
+              "id": "file-pevNOISLFXpjIJoaIZhUUMNT",
+              "height": 1536,
+              "width": 1152
+            }
+          ],
+          "request_id": "8ad7169bf90cc359-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cbbdd42c-e03f-4d05-b6a3-9d6a8206a1ea",
+      "children": [
+        "d6f8810c-6ff6-4773-aef8-913132ea7d04"
+      ]
+    },
+    "d6f8810c-6ff6-4773-aef8-913132ea7d04": {
+      "id": "d6f8810c-6ff6-4773-aef8-913132ea7d04",
+      "message": {
+        "id": "d6f8810c-6ff6-4773-aef8-913132ea7d04",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722696319.068482,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's a template for listing the LED grow light on eBay:\n\n---\n\n### Title:\n**LED Grow Light with Flexible Gooseneck and Clip - Full Spectrum Plant Lamp**\n\n### Item Description:\nBoost your indoor plants' growth with this **LED Grow Light** featuring a flexible gooseneck and convenient clip for easy positioning. This lamp is perfect for providing the right spectrum of light to stimulate plant growth, whether you\u2019re growing herbs, flowers, or succulents.\n\n#### Features:\n- **Full Spectrum LED:** Provides the optimal light spectrum for plant photosynthesis and growth.\n- **Flexible Gooseneck:** Three adjustable arms allow you to position the light exactly where your plants need it.\n- **Sturdy Clip:** Strong clip can be attached to tables, shelves, or any surface, saving space and providing stability.\n- **Adjustable Brightness:** Multiple brightness settings to suit various stages of plant growth.\n- **Timer Function:** Built-in timer with 3H, 9H, and 12H options to automate the light cycle.\n- **Energy Efficient:** Low power consumption and long-lasting LED technology.\n\n#### Condition:\nThe grow light is in **excellent condition**, barely used, and functions perfectly. There are no signs of wear or damage.\n\n#### Included:\n- LED Grow Light with Three Adjustable Arms\n- Integrated Power Cord and Control Unit\n\n#### Shipping and Payment:\n- **Shipping:** The item will be securely packed and shipped within 2 business days of receiving payment. Multiple shipping options are available at checkout.\n- **Payment:** PayPal is accepted for secure transactions.\n\n#### Why Buy From Me?\n- Fast and reliable shipping\n- Excellent customer service\n- 100% positive feedback\n\nThis LED grow light is ideal for any indoor gardener looking to enhance plant growth with minimal effort. Don't miss out on this great addition to your gardening tools!\n\nFeel free to contact me with any questions. Thanks for checking out my listing!\n\n---\n\n### Tips:\n- **Photos:** Use several clear photos showing different angles of the light, close-ups of the LED bulbs, and the control unit.\n- **Pricing:** Compare with similar products to set a competitive price.\n- **Shipping Details:** Clearly state the shipping options and any international shipping policies.\n\nIf you need further modifications or additional details, let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAA",
+          "parent_id": "c702e647-2adc-47a5-a939-cea8794b249c",
+          "request_id": "8ad7169bf90cc359-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c702e647-2adc-47a5-a939-cea8794b249c",
+      "children": [
+        "2e164c00-f242-4e9f-a6bd-5a572f4d4206"
+      ]
+    },
+    "2e164c00-f242-4e9f-a6bd-5a572f4d4206": {
+      "id": "2e164c00-f242-4e9f-a6bd-5a572f4d4206",
+      "message": {
+        "id": "2e164c00-f242-4e9f-a6bd-5a572f4d4206",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722696796.137143,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Ol1jPHKqDSkyp5XcaAgl4JYQ",
+              "size_bytes": 736251,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-oDkHtWbOte5b2uTx6j7EWXkz",
+              "size_bytes": 771207,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7t72L5R8RQrNiue4USAJgD6O",
+              "size_bytes": 883551,
+              "width": 1079,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please write listin "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "height": 1152,
+              "size": 736251,
+              "id": "file-Ol1jPHKqDSkyp5XcaAgl4JYQ",
+              "name": "CA5732F9-FFE4-4EB6-898E-5CE7680A551A.jpeg",
+              "width": 1536
+            },
+            {
+              "width": 1536,
+              "id": "file-oDkHtWbOte5b2uTx6j7EWXkz",
+              "size": 771207,
+              "height": 1152,
+              "name": "1B86BCB0-99C1-4B26-B096-BE5437A6816C.jpeg"
+            },
+            {
+              "width": 1079,
+              "size": 883551,
+              "height": 1536,
+              "name": "F90F0D9A-794F-4DB3-A02E-61352C4DBF21.jpeg",
+              "id": "file-7t72L5R8RQrNiue4USAJgD6O"
+            }
+          ],
+          "request_id": "8ad722d50c6f3308-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d6f8810c-6ff6-4773-aef8-913132ea7d04",
+      "children": [
+        "457fd176-23c0-4b19-9c7a-973c18b03b65"
+      ]
+    },
+    "457fd176-23c0-4b19-9c7a-973c18b03b65": {
+      "id": "457fd176-23c0-4b19-9c7a-973c18b03b65",
+      "message": {
+        "id": "457fd176-23c0-4b19-9c7a-973c18b03b65",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722696807.292324,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is a suggested eBay listing for the Pioneer Stereo Receiver and additional LED grow lights:\n\n---\n\n### Title:\n**Pioneer Stereo Receiver SX-205 (1999) & LED Grow Lights - Classic Audio System & Plant Lamps**\n\n### Item Description:\nThis listing features a **Pioneer Stereo Receiver SX-205**, manufactured in March 1999, along with a set of LED grow lights, perfect for enhancing your audio experience and plant growth setup.\n\n#### Pioneer Stereo Receiver SX-205:\n- **Model:** SX-205\n- **Power:** AC 120V, 60Hz, 190W\n- **Inputs/Outputs:**\n  - AM/FM Antenna connections\n  - Phono, CD, VCR, and DVD audio inputs\n  - Tape monitor inputs and outputs\n  - Speaker connections for A/B speakers (8~16\u03a9 impedance)\n- **Features:**\n  - Classic stereo sound with multiple input options\n  - Rugged build quality typical of vintage Pioneer electronics\n\n**Condition:** The receiver is in **good working condition**. It has been tested and functions properly with some minor cosmetic wear consistent with its age.\n\n#### LED Grow Lights:\n- **Full Spectrum LEDs:** Provides optimal light spectrum for plant photosynthesis.\n- **Flexible Gooseneck:** Allows for easy positioning to suit your plants' needs.\n- **Sturdy Clip:** Can be securely attached to a variety of surfaces.\n- **Adjustable Brightness & Timer:** Settings for different plant stages and automated light cycles.\n\n**Condition:** The LED grow lights are **lightly used and in excellent condition**, with one set brand new in original wrapping.\n\n"
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAA",
+          "parent_id": "2e164c00-f242-4e9f-a6bd-5a572f4d4206",
+          "request_id": "8ad722d50c6f3308-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2e164c00-f242-4e9f-a6bd-5a572f4d4206",
+      "children": [
+        "72dfb677-5efc-4e2c-908e-9398cb6067eb"
+      ]
+    },
+    "72dfb677-5efc-4e2c-908e-9398cb6067eb": {
+      "id": "72dfb677-5efc-4e2c-908e-9398cb6067eb",
+      "message": {
+        "id": "72dfb677-5efc-4e2c-908e-9398cb6067eb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722696825.119353,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-JvhYLoMPJ9IMXAG88pyNKQFh",
+              "size_bytes": 736251,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-fGVPpfmvVebyiOgCm32MXKPq",
+              "size_bytes": 771207,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ke1Euy5Se6sicMpyfIQjy97r",
+              "size_bytes": 422806,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please write listing "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "C56B8603-BD35-4332-B762-21331ABAA2DB.jpeg",
+              "width": 1536,
+              "height": 1152,
+              "id": "file-JvhYLoMPJ9IMXAG88pyNKQFh",
+              "size": 736251
+            },
+            {
+              "width": 1536,
+              "height": 1152,
+              "size": 771207,
+              "id": "file-fGVPpfmvVebyiOgCm32MXKPq",
+              "name": "606DACA1-C909-4065-850C-3E7DA7FB041B.jpeg"
+            },
+            {
+              "height": 1152,
+              "id": "file-ke1Euy5Se6sicMpyfIQjy97r",
+              "size": 422806,
+              "width": 1536,
+              "name": "89BE42AB-112B-4817-A2B7-9B78853CAC63.jpeg"
+            }
+          ],
+          "request_id": "8ad7238bb8d13308-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "457fd176-23c0-4b19-9c7a-973c18b03b65",
+      "children": [
+        "6d99b566-37a2-4618-9407-c5dd381b973a"
+      ]
+    },
+    "6d99b566-37a2-4618-9407-c5dd381b973a": {
+      "id": "6d99b566-37a2-4618-9407-c5dd381b973a",
+      "message": {
+        "id": "6d99b566-37a2-4618-9407-c5dd381b973a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722696841.49412,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's a suggested eBay listing for the Pioneer Stereo Receiver SX-205:\n\n---\n\n### Title:\n**Pioneer Stereo Receiver SX-205 - Vintage Audio Amplifier**\n\n### Item Description:\nExperience high-quality audio with this **Pioneer Stereo Receiver SX-205**, a classic piece of equipment manufactured in March 1999. Perfect for audiophiles and vintage electronics enthusiasts, this receiver offers excellent sound quality and versatile connectivity options.\n\n#### Features:\n- **Model:** SX-205\n- **Power Output:** AC 120V, 60Hz, 190W\n- **Audio Inputs:**\n  - Phono, CD, VCR, DVD, and Tape Monitor\n- **Antenna Connections:**\n  - FM UNBAL 75\u03a9 and AM Loop Antenna\n- **Speaker Connections:**\n  - Supports A/B speaker setups with 8~16\u03a9 impedance\n- **Additional Features:**\n  - Multiple input options for versatile audio setups\n  - Classic analog control panel for easy operation\n  - Durable build typical of vintage Pioneer electronics\n\n#### Condition:\nThis receiver is in **good working condition**, having been tested and verified for functionality. It shows some minor cosmetic wear consistent with its age, as highlighted in the photos, but these do not affect performance.\n\n#### Included:\n- Pioneer Stereo Receiver SX-205\n- Attached power cable\n\n#### Shipping and Payment:\n- **Shipping:** The item will be carefully packaged and shipped within 2 business days of payment receipt. Multiple shipping options are available at checkout.\n- **Payment:** PayPal accepted for secure transactions.\n\n#### Why Buy From Me?\n- Fast and reliable shipping\n- Excellent customer service\n- 100% positive feedback\n\nDon\u2019t miss out on the opportunity to own this piece of audio history. Perfect for enhancing your home audio setup or as a collectible for vintage electronics fans.\n\nFeel free to contact me with any questions. Thanks for looking!\n\n---\n\n### Tips:\n- **Photos:** Use clear photos showing different angles of the receiver, including close-ups of the control panel and input/output ports.\n- **Pricing:** Set a competitive \"Buy It Now\" price or starting bid based on the condition and market value of similar models.\n- **Shipping Details:** Clearly state your shipping policies, including any international shipping options if applicable.\n\nIf you need further modifications or additional details, let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "72dfb677-5efc-4e2c-908e-9398cb6067eb",
+          "request_id": "8ad7238bb8d13308-EWR",
+          "timestamp_": "absolute",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "72dfb677-5efc-4e2c-908e-9398cb6067eb",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "6d99b566-37a2-4618-9407-c5dd381b973a",
+  "plugin_ids": null,
+  "conversation_id": "2186b78a-4937-46bb-adfa-340d69150648",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "2186b78a-4937-46bb-adfa-340d69150648"
+}

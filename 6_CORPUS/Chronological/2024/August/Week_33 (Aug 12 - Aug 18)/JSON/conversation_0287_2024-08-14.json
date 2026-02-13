@@ -1,0 +1,949 @@
+{
+  "title": "Female Brass Goals Image",
+  "create_time": 1723668966.156136,
+  "update_time": 1723669067.088723,
+  "mapping": {
+    "aaa10b0d-3d14-470c-a3d9-68ac203ef59a": {
+      "id": "aaa10b0d-3d14-470c-a3d9-68ac203ef59a",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c0755cfb-20fd-4187-845d-de7c263bfa93"
+      ]
+    },
+    "c0755cfb-20fd-4187-845d-de7c263bfa93": {
+      "id": "c0755cfb-20fd-4187-845d-de7c263bfa93",
+      "message": {
+        "id": "c0755cfb-20fd-4187-845d-de7c263bfa93",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa10b0d-3d14-470c-a3d9-68ac203ef59a",
+      "children": [
+        "afe4b895-395f-4b3c-ac36-87d2221f6c64"
+      ]
+    },
+    "afe4b895-395f-4b3c-ac36-87d2221f6c64": {
+      "id": "afe4b895-395f-4b3c-ac36-87d2221f6c64",
+      "message": {
+        "id": "afe4b895-395f-4b3c-ac36-87d2221f6c64",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c0755cfb-20fd-4187-845d-de7c263bfa93",
+      "children": [
+        "aaa285d1-ac3e-483a-89f2-51b4605a524c"
+      ]
+    },
+    "aaa285d1-ac3e-483a-89f2-51b4605a524c": {
+      "id": "aaa285d1-ac3e-483a-89f2-51b4605a524c",
+      "message": {
+        "id": "aaa285d1-ac3e-483a-89f2-51b4605a524c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723668966.168613,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please make an image representing the goals of a female brass instrument player"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b33d97bfe9c8a9c-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "afe4b895-395f-4b3c-ac36-87d2221f6c64",
+      "children": [
+        "16b35846-11eb-415f-b53b-542abc0b544f"
+      ]
+    },
+    "16b35846-11eb-415f-b53b-542abc0b544f": {
+      "id": "16b35846-11eb-415f-b53b-542abc0b544f",
+      "message": {
+        "id": "16b35846-11eb-415f-b53b-542abc0b544f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723668978.008199,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"size\": \"1024x1024\",\n  \"prompt\": \"A powerful and inspiring image of a female brass instrument player achieving her goals. She stands confidently on a stage, playing a shining trumpet, surrounded by musical notes that flow around her in vibrant, golden waves. The background features an audience clapping and cheering, with a spotlight illuminating her, symbolizing success and recognition. Her expression is determined and focused, reflecting her dedication and passion for her craft. The scene is filled with energy, highlighting her journey of hard work, talent, and perseverance.\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAA",
+          "parent_id": "aaa285d1-ac3e-483a-89f2-51b4605a524c",
+          "request_id": "8b33d97bfe9c8a9c-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa285d1-ac3e-483a-89f2-51b4605a524c",
+      "children": [
+        "cac27b97-8590-4abd-84b3-b72b562bc1ce"
+      ]
+    },
+    "cac27b97-8590-4abd-84b3-b72b562bc1ce": {
+      "id": "cac27b97-8590-4abd-84b3-b72b562bc1ce",
+      "message": {
+        "id": "cac27b97-8590-4abd-84b3-b72b562bc1ce",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1723668978.008346,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-sponvlubYgWJ4tyI4amMJjlN",
+              "size_bytes": 424804,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "iZmdPfNbXZgzDivx",
+                  "prompt": "A powerful and inspiring image of a female brass instrument player achieving her goals. She stands confidently on a stage, playing a shining trumpet, surrounded by musical notes that flow around her in vibrant, golden waves. The background features an audience clapping and cheering, with a spotlight illuminating her, symbolizing success and recognition. Her expression is determined and focused, reflecting her dedication and passion for her craft. The scene is filled with energy, highlighting her journey of hard work, talent, and perseverance.",
+                  "seed": 608368620,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-PPIiE9xNZ7NZMGItv4XCsOOJ",
+              "size_bytes": 378552,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "Z2XHe9Ax8wCAWFz0",
+                  "prompt": "A powerful and inspiring image of a female brass instrument player achieving her goals. She stands confidently on a stage, playing a shining trumpet, surrounded by musical notes that flow around her in vibrant, golden waves. The background features an audience clapping and cheering, with a spotlight illuminating her, symbolizing success and recognition. Her expression is determined and focused, reflecting her dedication and passion for her craft. The scene is filled with energy, highlighting her journey of hard work, talent, and perseverance.",
+                  "seed": 10314691,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "16b35846-11eb-415f-b53b-542abc0b544f",
+          "request_id": "8b33d97bfe9c8a9c-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "16b35846-11eb-415f-b53b-542abc0b544f",
+      "children": [
+        "e852d564-4be2-4bbe-88cd-bb635d6b879b"
+      ]
+    },
+    "e852d564-4be2-4bbe-88cd-bb635d6b879b": {
+      "id": "e852d564-4be2-4bbe-88cd-bb635d6b879b",
+      "message": {
+        "id": "e852d564-4be2-4bbe-88cd-bb635d6b879b",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1723668978.008415,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "cac27b97-8590-4abd-84b3-b72b562bc1ce",
+          "request_id": "8b33d97bfe9c8a9c-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cac27b97-8590-4abd-84b3-b72b562bc1ce",
+      "children": [
+        "0507def6-ce46-44ed-9e5d-4e5aeece75f9"
+      ]
+    },
+    "0507def6-ce46-44ed-9e5d-4e5aeece75f9": {
+      "id": "0507def6-ce46-44ed-9e5d-4e5aeece75f9",
+      "message": {
+        "id": "0507def6-ce46-44ed-9e5d-4e5aeece75f9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723668978.008474,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images representing the goals of a female brass instrument player. I hope they capture the inspiration and dedication behind her journey!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAA",
+          "parent_id": "e852d564-4be2-4bbe-88cd-bb635d6b879b",
+          "request_id": "8b33d97bfe9c8a9c-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e852d564-4be2-4bbe-88cd-bb635d6b879b",
+      "children": [
+        "aaa26ae8-049e-4cea-81b1-ca4411e3d60c"
+      ]
+    },
+    "aaa26ae8-049e-4cea-81b1-ca4411e3d60c": {
+      "id": "aaa26ae8-049e-4cea-81b1-ca4411e3d60c",
+      "message": {
+        "id": "aaa26ae8-049e-4cea-81b1-ca4411e3d60c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669002.823856,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please create an image of a brass section of all women"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b33da619e646867-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0507def6-ce46-44ed-9e5d-4e5aeece75f9",
+      "children": [
+        "1e9e5123-4692-402c-a105-6686790067ab"
+      ]
+    },
+    "1e9e5123-4692-402c-a105-6686790067ab": {
+      "id": "1e9e5123-4692-402c-a105-6686790067ab",
+      "message": {
+        "id": "1e9e5123-4692-402c-a105-6686790067ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669013.222244,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"size\": \"1024x1024\",\n  \"prompt\": \"A dynamic and empowering image of an all-women brass section. The musicians are playing various brass instruments, including trumpets, trombones, and French horns. They are positioned in a semi-circle, creating a sense of unity and strength. The women are dressed in elegant concert attire, and their expressions are focused and passionate as they perform together. The background shows a grand stage with soft, warm lighting that highlights their instruments, which gleam with polished brass. The scene exudes a sense of camaraderie, professionalism, and musical excellence.\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAA",
+          "parent_id": "aaa26ae8-049e-4cea-81b1-ca4411e3d60c",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b33da619e646867-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa26ae8-049e-4cea-81b1-ca4411e3d60c",
+      "children": [
+        "93c1c9ee-1d76-4330-ad10-241a35326dc2"
+      ]
+    },
+    "93c1c9ee-1d76-4330-ad10-241a35326dc2": {
+      "id": "93c1c9ee-1d76-4330-ad10-241a35326dc2",
+      "message": {
+        "id": "93c1c9ee-1d76-4330-ad10-241a35326dc2",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1723669013.222303,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-2QN9zSjfy3mv4Oj98v4gvrNN",
+              "size_bytes": 441474,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "DVw4sX4ZWHYNMFrD",
+                  "prompt": "A dynamic and empowering image of an all-women brass section. The musicians are playing various brass instruments, including trumpets, trombones, and French horns. They are positioned in a semi-circle, creating a sense of unity and strength. The women are dressed in elegant concert attire, and their expressions are focused and passionate as they perform together. The background shows a grand stage with soft, warm lighting that highlights their instruments, which gleam with polished brass. The scene exudes a sense of camaraderie, professionalism, and musical excellence.",
+                  "seed": 1401014226,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-dM5I6GiePOrXaltVN3IAEMoI",
+              "size_bytes": 381526,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "FKKTWg93wMgEtnks",
+                  "prompt": "A dynamic and empowering image of an all-women brass section. The musicians are playing various brass instruments, including trumpets, trombones, and French horns. They are positioned in a semi-circle, creating a sense of unity and strength. The women are dressed in elegant concert attire, and their expressions are focused and passionate as they perform together. The background shows a grand stage with soft, warm lighting that highlights their instruments, which gleam with polished brass. The scene exudes a sense of camaraderie, professionalism, and musical excellence.",
+                  "seed": 1749505092,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1e9e5123-4692-402c-a105-6686790067ab",
+          "request_id": "8b33da619e646867-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e9e5123-4692-402c-a105-6686790067ab",
+      "children": [
+        "de0301b1-c57d-45ab-9ae9-948a8c8c84ce"
+      ]
+    },
+    "de0301b1-c57d-45ab-9ae9-948a8c8c84ce": {
+      "id": "de0301b1-c57d-45ab-9ae9-948a8c8c84ce",
+      "message": {
+        "id": "de0301b1-c57d-45ab-9ae9-948a8c8c84ce",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1723669013.22235,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "93c1c9ee-1d76-4330-ad10-241a35326dc2",
+          "request_id": "8b33da619e646867-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "93c1c9ee-1d76-4330-ad10-241a35326dc2",
+      "children": [
+        "1e628a44-eb57-4290-9ee1-51c7c71ac439"
+      ]
+    },
+    "1e628a44-eb57-4290-9ee1-51c7c71ac439": {
+      "id": "1e628a44-eb57-4290-9ee1-51c7c71ac439",
+      "message": {
+        "id": "1e628a44-eb57-4290-9ee1-51c7c71ac439",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669013.222393,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of an all-women brass section, showcasing their unity and musical excellence. I hope these reflect the strength and camaraderie of the group!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "de0301b1-c57d-45ab-9ae9-948a8c8c84ce",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b33da619e646867-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "de0301b1-c57d-45ab-9ae9-948a8c8c84ce",
+      "children": [
+        "aaa2850e-5b09-4328-b557-b280656c137b"
+      ]
+    },
+    "aaa2850e-5b09-4328-b557-b280656c137b": {
+      "id": "aaa2850e-5b09-4328-b557-b280656c137b",
+      "message": {
+        "id": "aaa2850e-5b09-4328-b557-b280656c137b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669040.932113,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "#goals"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b33db4fbf52f641-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e628a44-eb57-4290-9ee1-51c7c71ac439",
+      "children": [
+        "b358c051-97ff-4f02-97db-57935512c629"
+      ]
+    },
+    "b358c051-97ff-4f02-97db-57935512c629": {
+      "id": "b358c051-97ff-4f02-97db-57935512c629",
+      "message": {
+        "id": "b358c051-97ff-4f02-97db-57935512c629",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669043.641912,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "#Goals indeed! These images capture the power, unity, and dedication of women in music, especially in the brass section. Keep reaching for those goals! \ud83c\udfba\ud83c\udfb6"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "aaa2850e-5b09-4328-b557-b280656c137b",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b33db4fbf52f641-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2850e-5b09-4328-b557-b280656c137b",
+      "children": [
+        "aaa26de1-cd8a-4bbe-8a7e-5a1ef384268e"
+      ]
+    },
+    "aaa26de1-cd8a-4bbe-8a7e-5a1ef384268e": {
+      "id": "aaa26de1-cd8a-4bbe-8a7e-5a1ef384268e",
+      "message": {
+        "id": "aaa26de1-cd8a-4bbe-8a7e-5a1ef384268e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669056.151467,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "can you make an image emphasizing #goals"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b33dbaef974e02d-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b358c051-97ff-4f02-97db-57935512c629",
+      "children": [
+        "4c390368-e10f-424f-b9dc-716be01432b9"
+      ]
+    },
+    "4c390368-e10f-424f-b9dc-716be01432b9": {
+      "id": "4c390368-e10f-424f-b9dc-716be01432b9",
+      "message": {
+        "id": "4c390368-e10f-424f-b9dc-716be01432b9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669066.024702,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  \"size\": \"1024x1024\",\n  \"prompt\": \"A powerful and inspirational image emphasizing the concept of #goals. The image shows a woman standing on top of a mountain peak, holding a flag with the hashtag '#goals' written boldly on it. The background features a breathtaking sunrise, symbolizing new beginnings and the achievement of ambitions. The woman is in a triumphant pose, looking out over a vast landscape that represents the journey she has taken. The colors are vibrant, with golden light illuminating the scene, highlighting the sense of accomplishment and the ongoing pursuit of new goals.\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa26de1-cd8a-4bbe-8a7e-5a1ef384268e",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b33dbaef974e02d-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa26de1-cd8a-4bbe-8a7e-5a1ef384268e",
+      "children": [
+        "a5ee7466-47cb-46a3-b1c7-766ff51a25fe"
+      ]
+    },
+    "a5ee7466-47cb-46a3-b1c7-766ff51a25fe": {
+      "id": "a5ee7466-47cb-46a3-b1c7-766ff51a25fe",
+      "message": {
+        "id": "a5ee7466-47cb-46a3-b1c7-766ff51a25fe",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1723669066.024774,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7FemyvU7et6ImcEtnYT2sgBP",
+              "size_bytes": 344874,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "WEK6Ema98lX8fAKu",
+                  "prompt": "A powerful and inspirational image emphasizing the concept of #goals. The image shows a woman standing on top of a mountain peak, holding a flag with the hashtag '#goals' written boldly on it. The background features a breathtaking sunrise, symbolizing new beginnings and the achievement of ambitions. The woman is in a triumphant pose, looking out over a vast landscape that represents the journey she has taken. The colors are vibrant, with golden light illuminating the scene, highlighting the sense of accomplishment and the ongoing pursuit of new goals.",
+                  "seed": 633016624,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-rToxQNamjldlbUzadmepcNch",
+              "size_bytes": 311616,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "EBEKd7Z73pqD1lhU",
+                  "prompt": "A powerful and inspirational image emphasizing the concept of #goals. The image shows a woman standing on top of a mountain peak, holding a flag with the hashtag '#goals' written boldly on it. The background features a breathtaking sunrise, symbolizing new beginnings and the achievement of ambitions. The woman is in a triumphant pose, looking out over a vast landscape that represents the journey she has taken. The colors are vibrant, with golden light illuminating the scene, highlighting the sense of accomplishment and the ongoing pursuit of new goals.",
+                  "seed": 3066461855,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4c390368-e10f-424f-b9dc-716be01432b9",
+          "request_id": "8b33dbaef974e02d-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4c390368-e10f-424f-b9dc-716be01432b9",
+      "children": [
+        "73752985-7942-486f-b280-680277e431b0"
+      ]
+    },
+    "73752985-7942-486f-b280-680277e431b0": {
+      "id": "73752985-7942-486f-b280-680277e431b0",
+      "message": {
+        "id": "73752985-7942-486f-b280-680277e431b0",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1723669066.024821,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "a5ee7466-47cb-46a3-b1c7-766ff51a25fe",
+          "request_id": "8b33dbaef974e02d-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a5ee7466-47cb-46a3-b1c7-766ff51a25fe",
+      "children": [
+        "2d5bc2f1-596f-4e3b-9fe8-b46252796fa8"
+      ]
+    },
+    "2d5bc2f1-596f-4e3b-9fe8-b46252796fa8": {
+      "id": "2d5bc2f1-596f-4e3b-9fe8-b46252796fa8",
+      "message": {
+        "id": "2d5bc2f1-596f-4e3b-9fe8-b46252796fa8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723669066.024864,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images emphasizing #goals, capturing the spirit of triumph and the pursuit of new heights. I hope they inspire you!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "73752985-7942-486f-b280-680277e431b0",
+          "request_id": "8b33dbaef974e02d-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "73752985-7942-486f-b280-680277e431b0",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2d5bc2f1-596f-4e3b-9fe8-b46252796fa8",
+  "plugin_ids": null,
+  "conversation_id": "29c78155-00db-47fd-a353-e254a5736db0",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "29c78155-00db-47fd-a353-e254a5736db0"
+}

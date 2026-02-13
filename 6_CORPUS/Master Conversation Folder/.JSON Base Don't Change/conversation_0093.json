@@ -1,0 +1,286 @@
+{
+  "title": "Metal Bars Encounter",
+  "create_time": 1709338690.265332,
+  "update_time": 1709338766.401068,
+  "mapping": {
+    "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e": {
+      "id": "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0a809725-81aa-4e95-b6b6-8bb3298fa4eb"
+      ]
+    },
+    "0a809725-81aa-4e95-b6b6-8bb3298fa4eb": {
+      "id": "0a809725-81aa-4e95-b6b6-8bb3298fa4eb",
+      "message": {
+        "id": "0a809725-81aa-4e95-b6b6-8bb3298fa4eb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e",
+      "children": [
+        "46f8b5cc-eeb9-425d-909b-a08eaffef26e"
+      ]
+    },
+    "46f8b5cc-eeb9-425d-909b-a08eaffef26e": {
+      "id": "46f8b5cc-eeb9-425d-909b-a08eaffef26e",
+      "message": {
+        "id": "46f8b5cc-eeb9-425d-909b-a08eaffef26e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338690.265832,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "An African American man behind vertical lines of metal with a distinguished white man waving at him"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85dd353d6fcc07c9-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0a809725-81aa-4e95-b6b6-8bb3298fa4eb",
+      "children": [
+        "9664291a-f9e8-4c70-b83a-2deaa68426d1"
+      ]
+    },
+    "9664291a-f9e8-4c70-b83a-2deaa68426d1": {
+      "id": "9664291a-f9e8-4c70-b83a-2deaa68426d1",
+      "message": {
+        "id": "9664291a-f9e8-4c70-b83a-2deaa68426d1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338707.139982,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"An African American man standing solemnly behind vertical metal bars, looking forward with a sense of longing. On the other side of the bars, a distinguished white man in a formal suit waves at him with a friendly gesture. The scene is set in a warmly lit environment, suggesting a complex story of friendship, separation, and societal contrasts. The setting is neutral, without any specific landmarks or identifiable locations, focusing solely on the emotional exchange and the stark contrast between the two men's circumstances.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "46f8b5cc-eeb9-425d-909b-a08eaffef26e",
+          "request_id": "85dd353d6fcc07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "46f8b5cc-eeb9-425d-909b-a08eaffef26e",
+      "children": [
+        "f27b18bc-1999-4be2-8429-a40a6a9ae41c"
+      ]
+    },
+    "f27b18bc-1999-4be2-8429-a40a6a9ae41c": {
+      "id": "f27b18bc-1999-4be2-8429-a40a6a9ae41c",
+      "message": {
+        "id": "f27b18bc-1999-4be2-8429-a40a6a9ae41c",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338707.142431,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-STnVwjJvC0wBSirPPhfyDSTi",
+              "size_bytes": 215850,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "nkvvs3IoNhQSbSqb",
+                  "prompt": "An African American man standing solemnly behind vertical metal bars, looking forward with a sense of longing. On the other side of the bars, a distinguished white man in a formal suit waves at him with a friendly gesture. The scene is set in a warmly lit environment, suggesting a complex story of friendship, separation, and societal contrasts. The setting is neutral, without any specific landmarks or identifiable locations, focusing solely on the emotional exchange and the stark contrast between the two men's circumstances.",
+                  "seed": 2864778822,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "9664291a-f9e8-4c70-b83a-2deaa68426d1",
+          "request_id": "85dd353d6fcc07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9664291a-f9e8-4c70-b83a-2deaa68426d1",
+      "children": [
+        "90b439df-4edf-4627-89bc-ff8c3a9567bd"
+      ]
+    },
+    "90b439df-4edf-4627-89bc-ff8c3a9567bd": {
+      "id": "90b439df-4edf-4627-89bc-ff8c3a9567bd",
+      "message": {
+        "id": "90b439df-4edf-4627-89bc-ff8c3a9567bd",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338707.142635,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "f27b18bc-1999-4be2-8429-a40a6a9ae41c",
+          "request_id": "85dd353d6fcc07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f27b18bc-1999-4be2-8429-a40a6a9ae41c",
+      "children": [
+        "0b53f771-a133-4d67-b2c5-6dd698151622"
+      ]
+    },
+    "0b53f771-a133-4d67-b2c5-6dd698151622": {
+      "id": "0b53f771-a133-4d67-b2c5-6dd698151622",
+      "message": {
+        "id": "0b53f771-a133-4d67-b2c5-6dd698151622",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338707.142765,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I've created the image based on your description. Please take a look at the scene with the African American man behind metal bars and the distinguished white man waving at him."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "90b439df-4edf-4627-89bc-ff8c3a9567bd",
+          "request_id": "85dd353d6fcc07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "90b439df-4edf-4627-89bc-ff8c3a9567bd",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0b53f771-a133-4d67-b2c5-6dd698151622",
+  "plugin_ids": null,
+  "conversation_id": "1191093e-1fea-463f-8735-e7ad0929cb5b",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "1191093e-1fea-463f-8735-e7ad0929cb5b"
+}

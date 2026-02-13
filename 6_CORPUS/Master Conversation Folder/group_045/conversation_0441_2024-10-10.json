@@ -1,0 +1,888 @@
+{
+  "title": "Meta Tags for I Will Follow",
+  "create_time": 1728594778.728547,
+  "update_time": 1728595580.191132,
+  "mapping": {
+    "aaa137cf-db80-4819-ba4b-53873243ba98": {
+      "id": "aaa137cf-db80-4819-ba4b-53873243ba98",
+      "message": null,
+      "parent": null,
+      "children": [
+        "852b343c-14c7-445e-a4e3-6912f54371b9"
+      ]
+    },
+    "852b343c-14c7-445e-a4e3-6912f54371b9": {
+      "id": "852b343c-14c7-445e-a4e3-6912f54371b9",
+      "message": {
+        "id": "852b343c-14c7-445e-a4e3-6912f54371b9",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa137cf-db80-4819-ba4b-53873243ba98",
+      "children": [
+        "ded5c510-8f4b-48e9-b30b-17cc4512306d"
+      ]
+    },
+    "ded5c510-8f4b-48e9-b30b-17cc4512306d": {
+      "id": "ded5c510-8f4b-48e9-b30b-17cc4512306d",
+      "message": {
+        "id": "ded5c510-8f4b-48e9-b30b-17cc4512306d",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-kyRe0Ls7v6cjza2zRlE4omA5",
+              "name": "metatags for lycrics.txt",
+              "mimeType": "text/plain",
+              "fileSizeTokens": 2131
+            }
+          ],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "852b343c-14c7-445e-a4e3-6912f54371b9",
+      "children": [
+        "aaa2f211-0175-4483-9d51-2532a39b932f"
+      ]
+    },
+    "aaa2f211-0175-4483-9d51-2532a39b932f": {
+      "id": "aaa2f211-0175-4483-9d51-2532a39b932f",
+      "message": {
+        "id": "aaa2f211-0175-4483-9d51-2532a39b932f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728594778.744908,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "what are all the meta tags you would use for \"I will Follow\" by Jason Robert Brown "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d099c92fc224cb4-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ded5c510-8f4b-48e9-b30b-17cc4512306d",
+      "children": [
+        "bd365408-25a8-408f-b97c-c8ec164e58bc"
+      ]
+    },
+    "bd365408-25a8-408f-b97c-c8ec164e58bc": {
+      "id": "bd365408-25a8-408f-b97c-c8ec164e58bc",
+      "message": {
+        "id": "bd365408-25a8-408f-b97c-c8ec164e58bc",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1728594789.170459,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2f211-0175-4483-9d51-2532a39b932f",
+          "request_id": "8d099c92fc224cb4-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f211-0175-4483-9d51-2532a39b932f",
+      "children": [
+        "cf5a8ef7-7438-460e-be30-15402f1c52ac"
+      ]
+    },
+    "cf5a8ef7-7438-460e-be30-15402f1c52ac": {
+      "id": "cf5a8ef7-7438-460e-be30-15402f1c52ac",
+      "message": {
+        "id": "cf5a8ef7-7438-460e-be30-15402f1c52ac",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1728594789.170711,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-kyRe0Ls7v6cjza2zRlE4omA5",
+          "domain": "metatags for lycrics.txt",
+          "text": "Some useful metatags for lycrics:\r\n\r\n## Bark\r\n- [announcer] - Used to indicate a section where an announcer is speaking.\r\n- [applause] - Indicates the presence of applause in the background.\r\n- [audience laughing] - Signals that the audience is laughing, useful for live performances or shows.\r\n- [barking] - Use this tag when you want to include the sound of a dog barking.\r\n- [beeping] - To add a beeping sound, like an alarm or notification.\r\n- [bell dings] - Signifies the sound of a bell dinging.\r\n- [birds chirping] - To incorporate the ambiance of birds chirping.\r\n- [bleep] - Indicates a bleep sound, often used to censor words.\r\n- [boy] - Use this tag to specify content delivered by or related to a boy.\r\n- [censored] - Marks content that is censored.\r\n- [cheering] - To include the sound of a crowd cheering.\r\n- [cheers and applause] - Indicates both cheers and applause from an audience.\r\n- [chuckles] - Signifies chuckling sound.\r\n- [clapping] - To add the sound of clapping.\r\n- [clears throat] - Used when someone is clearing their throat.\r\n- [cough] - Indicates a coughing sound.\r\n- [female narrator] - Specifies content narrated by a female.\r\n- [female] - Use this tag for content delivered by or related to a female.\r\n- [fighting] - To include sounds or references to fighting.\r\n- [giggles] - Signifies giggling sounds.\r\n- [giggling] - Another tag for giggling sounds, perhaps in a different context or intensity.\r\n- [girl] - Use this tag to specify content delivered by or related to a girl.\r\n- [groaning] - To add a groaning sound.\r\n- [man] - Use this tag for content delivered by or related to a man.\r\n- [phone ringing] - Indicates the sound of a phone ringing.\r\n- [reporter] - Specifies content delivered by a reporter.\r\n- [ringing] - To add a generic ringing sound.\r\n- [screams] - Signifies screaming sounds.\r\n- [sighs] - Used to include a sighing sound.\r\n- [silence] - Indicates a moment of silence.\r\n- [squawking] - To add the sound of squawking, like a bird or an alarm.\r\n- [upbeat music] - Use this tag to indicate a section with upbeat music.\r\n- [whispers] - Signifies whispering sounds.\r\n- [whistling] - To include a whistling sound.\r\n- [woman] - Use this tag for content delivered by or related to a woman.\r\n\r\n## Chirp\r\n- [Chorus] - Indicates the part of the song meant to be the chorus.\r\n- [Intro] - Marks the introduction section of a track.\r\n- [Outro] - Signifies the outro or closing section of the music piece.\r\n- [Verse] - Used to denote the verse part of a song.\r\n- [Acoustic] - Points to an acoustic style of music.\r\n- [African] - Tags the music with African influences or origins.\r\n- [Alternative metal] - Identifies the song as belonging to the alternative metal genre.\r\n- [Alternative pop] - Marks the song as alternative pop in style.\r\n- [Ambient] - For music that has an ambient, atmospheric feel.\r\n- [Atlanta rap] - Denotes rap music that originates from or is styled after Atlanta's rap scene.\r\n- [Ballad] - Marks the piece as a ballad, often slow and emotive.\r\n- [Baroque] - Indicates music influenced by or made in the Baroque style.\r\n- [Blues] - Tags the music as belonging to the blues genre.\r\n- [Boom bap] - Signifies a style of hip-hop that includes hard-hitting beats, often known as Boom bap.\r\n- [Cello] - For pieces that feature the cello.\r\n- [Chill] - Tags music that has a relaxed, chill vibe.\r\n- [Christian & Gospel] - Indicates the music belongs to the Christian & Gospel genres.\r\n- [Christmas] - For music that fits the Christmas holiday theme.\r\n- [Country & Americana] - Marks the music as part of the country or Americana genres.\r\n- [Dance & Electronic] - For music that falls under dance or electronic categories.\r\n- [Drums] - Indicates a focus on or significant use of drums.\r\n- [EDM] - Tags the track as Electronic Dance Music.\r\n- [Girl group] - To denote music by or in the style of a girl group.\r\n- [Gospel] - Marks the piece as gospel music.\r\n- [Hardcore rap] - Indicates a hardcore rap style.\r\n- [Heavy metal] - For music in the heavy metal genre.\r\n- [Hip hop] - Tags the music as hip hop.\r\n- [Indie] - For music that is considered independent or indie in style.\r\n- [Indie rock] - Marks the track as indie rock.\r\n- [J-pop] - For music in the Japanese pop genre.\r\n- [Jazz] - Indicates jazz music.\r\n- [K-pop] - For Korean pop music.\r\n- [Lo-fi] - Tags the music with a lo-fi, understated quality.\r\n- [Orchestra] - Denotes an orchestral music style.\r\n- [Party] - For tracks that set a party mood or vibe.\r\n- [Piano] - Indicates significant use of the piano.\r\n- [Pop] - Tags the track as pop music.\r\n- [Pop-Rock] - For music that blends elements of pop and rock.\r\n- [Post-Hardcore] - Indicates a post-hardcore style in music.\r\n- [Punk Rock] - For music belonging to the punk rock genre.\r\n- [R&B] - Marks the piece as rhythm and blues.\r\n- [R&B & Soul] - Indicates a mix of R&B and soul music.\r\n- [Rap] - Tags the track as rap music.\r\n- [Reggae] - For music with reggae elements.\r\n- [Rock] - Indicates rock music.\r\n- [Romantic] - For music with a romantic theme or tone.\r\n- [Soul] - Marks the track as soul music.\r\n- [Synth] - Denotes a significant use of synthesizers.\r\n- [Synth pop] - For music in the synth-pop style.\r\n- [Techno] - Tags the music as techno.\r\n- [Uk] - Could indicate music from or influenced by the United Kingdom.",
+          "title": "metatags for lycrics.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bd365408-25a8-408f-b97c-c8ec164e58bc",
+          "request_id": "8d099c92fc224cb4-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bd365408-25a8-408f-b97c-c8ec164e58bc",
+      "children": [
+        "7f834ff8-d4c6-4662-b678-5950b29db96f"
+      ]
+    },
+    "7f834ff8-d4c6-4662-b678-5950b29db96f": {
+      "id": "7f834ff8-d4c6-4662-b678-5950b29db96f",
+      "message": {
+        "id": "7f834ff8-d4c6-4662-b678-5950b29db96f",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1728594789.170823,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won't provide additional information."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "cf5a8ef7-7438-460e-be30-15402f1c52ac",
+          "request_id": "8d099c92fc224cb4-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf5a8ef7-7438-460e-be30-15402f1c52ac",
+      "children": [
+        "dfa53f04-2ee2-43b0-868b-21b3812a57ad"
+      ]
+    },
+    "dfa53f04-2ee2-43b0-868b-21b3812a57ad": {
+      "id": "dfa53f04-2ee2-43b0-868b-21b3812a57ad",
+      "message": {
+        "id": "dfa53f04-2ee2-43b0-868b-21b3812a57ad",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728594789.170933,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "For the song \"I Will Follow\" by Jason Robert Brown, here are some relevant metatags that could be used based on its style and structure:\n\n- [Intro] \u2013 to mark the introductory section\n- [Verse] \u2013 for the verse sections\n- [Pre-Chorus] \u2013 if applicable, for a build-up section before the chorus\n- [Chorus] \u2013 for the main chorus or hook of the song\n- [Bridge] \u2013 for any contrasting section or a middle-eight part\n- [Outro] \u2013 to mark the closing section of the song\n- [Ballad] \u2013 since it is a slow, emotive song\n- [Piano] \u2013 as Jason Robert Brown's music often features prominent piano accompaniment\n- [Broadway] \u2013 to highlight its musical theater influence\n- [Soul] \u2013 to capture the emotional depth in the delivery\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "7f834ff8-d4c6-4662-b678-5950b29db96f",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d099c92fc224cb4-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7f834ff8-d4c6-4662-b678-5950b29db96f",
+      "children": [
+        "aaa25d3f-0ca4-40e1-b94f-b946537c65f1"
+      ]
+    },
+    "aaa25d3f-0ca4-40e1-b94f-b946537c65f1": {
+      "id": "aaa25d3f-0ca4-40e1-b94f-b946537c65f1",
+      "message": {
+        "id": "aaa25d3f-0ca4-40e1-b94f-b946537c65f1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728594854.495395,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "how do i indicate 6/8 time?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d099e5c0f7642e5-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dfa53f04-2ee2-43b0-868b-21b3812a57ad",
+      "children": [
+        "eaf3acba-935e-451d-a9d0-656db9afd323"
+      ]
+    },
+    "eaf3acba-935e-451d-a9d0-656db9afd323": {
+      "id": "eaf3acba-935e-451d-a9d0-656db9afd323",
+      "message": {
+        "id": "eaf3acba-935e-451d-a9d0-656db9afd323",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728594858.949013,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To indicate **6/8 time** in a song, you can use the metatag **[6/8 time]** to denote the time signature. This would typically be placed at the start of the lyrics or any section where it's important to note the time signature, especially if it changes during the song.\n\nFor example, you could place it like this:\n\n```\n[Intro][6/8 time]\n```\n\nThis helps specify that the song or section should be performed in 6/8 time."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa25d3f-0ca4-40e1-b94f-b946537c65f1",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d099e5c0f7642e5-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa25d3f-0ca4-40e1-b94f-b946537c65f1",
+      "children": [
+        "aaa297c8-ecd0-446a-81c8-c0512c926fec"
+      ]
+    },
+    "aaa297c8-ecd0-446a-81c8-c0512c926fec": {
+      "id": "aaa297c8-ecd0-446a-81c8-c0512c926fec",
+      "message": {
+        "id": "aaa297c8-ecd0-446a-81c8-c0512c926fec",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728594907.634526,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "i want to modulate up a step what do i write"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d099fb5396542e5-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "eaf3acba-935e-451d-a9d0-656db9afd323",
+      "children": [
+        "968350b6-ff33-4a8f-8d56-0f1332d7dfd8"
+      ]
+    },
+    "968350b6-ff33-4a8f-8d56-0f1332d7dfd8": {
+      "id": "968350b6-ff33-4a8f-8d56-0f1332d7dfd8",
+      "message": {
+        "id": "968350b6-ff33-4a8f-8d56-0f1332d7dfd8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728594912.743372,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To indicate a modulation up by a step in the lyrics or music, you can use a metatag like **[Modulation: Up a step]** or **[Key Change: Up a whole step]** at the point where the modulation occurs.\n\nFor example:\n\n```\n[Bridge][Key Change: Up a whole step]\n```\n\nor\n\n```\n[Chorus][Modulation: Up a step]\n```\n\nThis tells the performer or arranger that the music modulates up by a whole step at that section."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa297c8-ecd0-446a-81c8-c0512c926fec",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d099fb5396542e5-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa297c8-ecd0-446a-81c8-c0512c926fec",
+      "children": [
+        "aaa2f11d-3e63-4e88-b81e-81f11af9c75e"
+      ]
+    },
+    "aaa2f11d-3e63-4e88-b81e-81f11af9c75e": {
+      "id": "aaa2f11d-3e63-4e88-b81e-81f11af9c75e",
+      "message": {
+        "id": "aaa2f11d-3e63-4e88-b81e-81f11af9c75e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728594992.706905,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "how would you emphasize the climax of the sone"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d09a1ba382742e5-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "968350b6-ff33-4a8f-8d56-0f1332d7dfd8",
+      "children": [
+        "0d852979-433e-478c-b5b9-79a0cad5b649"
+      ]
+    },
+    "0d852979-433e-478c-b5b9-79a0cad5b649": {
+      "id": "0d852979-433e-478c-b5b9-79a0cad5b649",
+      "message": {
+        "id": "0d852979-433e-478c-b5b9-79a0cad5b649",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595002.067267,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To emphasize the climax of a song, you can use a combination of metatags that signal increased intensity, emotion, and dynamics. For instance, you might use tags like **[Climax]**, **[Epic]**, **[Crescendo]**, or **[High Energy]** to indicate the peak moment of the song. You could also specify the section where the climax occurs, such as the **[Final Chorus]** or **[Bridge]**.\n\nHere\u2019s an example of how you could structure it:\n\n```\n[Final Chorus][Climax][Crescendo][Epic]\n```\n\nThis indicates that the final chorus is the climax of the song, with a build in intensity (crescendo) and an epic, powerful delivery. You could also combine this with a key change or other techniques to enhance the dramatic effect."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2f11d-3e63-4e88-b81e-81f11af9c75e",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d09a1ba382742e5-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f11d-3e63-4e88-b81e-81f11af9c75e",
+      "children": [
+        "aaa210a9-ea5e-4185-a274-40f4f2cc3a9a"
+      ]
+    },
+    "aaa210a9-ea5e-4185-a274-40f4f2cc3a9a": {
+      "id": "aaa210a9-ea5e-4185-a274-40f4f2cc3a9a",
+      "message": {
+        "id": "aaa210a9-ea5e-4185-a274-40f4f2cc3a9a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595042.949664,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "and then how do you bring it back down "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d09a305694842e5-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0d852979-433e-478c-b5b9-79a0cad5b649",
+      "children": [
+        "03cfe0b7-0c79-4cb5-916c-78911ba2825e"
+      ]
+    },
+    "03cfe0b7-0c79-4cb5-916c-78911ba2825e": {
+      "id": "03cfe0b7-0c79-4cb5-916c-78911ba2825e",
+      "message": {
+        "id": "03cfe0b7-0c79-4cb5-916c-78911ba2825e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595048.628696,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To bring the song back down after the climax, you can use metatags like **[Decrescendo]**, **[Soft]**, **[Calm]**, or **[Fade Out]** to indicate a reduction in intensity or volume. You can also use **[Outro]** if this is the closing section, especially if the mood shifts to something more reflective or subdued.\n\nFor example:\n\n```\n[Outro][Decrescendo][Soft]\n```\n\nor\n\n```\n[Bridge][Calm][Soft]\n```\n\nThis shows that the song should ease into a quieter or softer ending after the climactic moment, bringing the energy back down gently."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa210a9-ea5e-4185-a274-40f4f2cc3a9a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d09a305694842e5-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa210a9-ea5e-4185-a274-40f4f2cc3a9a",
+      "children": [
+        "aaa2be1c-d97d-4997-badf-28d2b623c33d"
+      ]
+    },
+    "aaa2be1c-d97d-4997-badf-28d2b623c33d": {
+      "id": "aaa2be1c-d97d-4997-badf-28d2b623c33d",
+      "message": {
+        "id": "aaa2be1c-d97d-4997-badf-28d2b623c33d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595104.052849,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "how do you indicate what you want background singers to sing"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d09a47fe98042e5-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "03cfe0b7-0c79-4cb5-916c-78911ba2825e",
+      "children": [
+        "9e96e016-497c-4295-913f-ccdc322a1185"
+      ]
+    },
+    "9e96e016-497c-4295-913f-ccdc322a1185": {
+      "id": "9e96e016-497c-4295-913f-ccdc322a1185",
+      "message": {
+        "id": "9e96e016-497c-4295-913f-ccdc322a1185",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595114.385512,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To indicate what you want background singers to sing, you can use metatags like **[Background Vocals]** or **[Backing Vocals]**. You can place these tags around the specific lyrics or sections that the background singers should perform.\n\nFor example:\n\n```\n[Chorus][Background Vocals]\nLead: \"I will follow\"\nBackground: \"Follow\"\n```\n\nor\n\n```\n[Verse][Backing Vocals]\nLead: \"Where you lead, I will go\"\nBackground: \"Oh-oh-oh\"\n```\n\nYou can also specify dynamics or harmonies for the background singers if needed:\n\n```\n[Chorus][Background Vocals][Harmonies][Soft]\nLead: \"I will follow\"\nBackground: \"I will follow\"\n```\n\nThis indicates that the background singers should harmonize softly during the chorus."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2be1c-d97d-4997-badf-28d2b623c33d",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d09a47fe98042e5-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2be1c-d97d-4997-badf-28d2b623c33d",
+      "children": [
+        "aaa29754-52d2-432f-be71-a5f1b76632fe"
+      ]
+    },
+    "aaa29754-52d2-432f-be71-a5f1b76632fe": {
+      "id": "aaa29754-52d2-432f-be71-a5f1b76632fe",
+      "message": {
+        "id": "aaa29754-52d2-432f-be71-a5f1b76632fe",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595485.558996,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "any other tags foer this one?  any more suggestions?  I want it to make people cry"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d09adc7f89a4cb1-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9e96e016-497c-4295-913f-ccdc322a1185",
+      "children": [
+        "2125fdbe-d773-4ab1-9050-40eb7a985851"
+      ]
+    },
+    "2125fdbe-d773-4ab1-9050-40eb7a985851": {
+      "id": "2125fdbe-d773-4ab1-9050-40eb7a985851",
+      "message": {
+        "id": "2125fdbe-d773-4ab1-9050-40eb7a985851",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595511.855621,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To evoke deep emotions and make the audience feel moved, especially with the goal of bringing people to tears, you can use a combination of specific metatags and lyrical elements that enhance the emotional weight of the song. Here are some additional suggestions:\n\n1. **[Emotional]** \u2013 Marks sections that need to have an especially emotional delivery.\n2. **[Sustain]** \u2013 For holding notes longer, increasing their emotional impact.\n3. **[Piano Solo]** or **[Acoustic]** \u2013 If there\u2019s a soft, poignant piano or acoustic section that adds vulnerability.\n4. **[Strings]** \u2013 Strings (violin, cello) are often associated with creating a deeply emotional sound.\n5. **[Breathy]** or **[Whispered]** \u2013 Indicates that the vocals should be soft and delicate, adding intimacy.\n6. **[Falsetto]** \u2013 For using a softer, higher register voice, which can create a fragile, emotional tone.\n7. **[Tearful]** \u2013 Suggests that the vocalist's delivery should sound like they are holding back or on the verge of tears.\n8. **[Quiet]** \u2013 Bringing the dynamics down to almost a whisper can heighten emotional vulnerability.\n9. **[Rubato]** \u2013 Allows for expressive flexibility in the tempo, often used in emotional sections to give it a more \"free\" and natural feel.\n10. **[Heartfelt]** \u2013 For truly sincere and passionate parts, delivered with intense feeling.\n\nHere\u2019s an example of how to structure the final emotional moments of the song:\n\n```\n[Final Chorus][Emotional][Tearful][Strings]\nLead: \"I will follow you\"\nBackground: \"Follow you\" [Soft Harmonies]\n\n[Outro][Piano Solo][Quiet][Sustain][Breathy]\nLead: \"Where you go, I will follow, always...\"\n```\n\nThe **[Tearful]**, **[Breathy]**, and **[Quiet]** metatags will help create that fragile, emotionally charged atmosphere, while **[Strings]** and **[Piano Solo]** can add depth and poignancy. By keeping things soft and delicate towards the end, you allow the emotion to resonate with the listener, leading to a powerful, tear-jerking moment."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa29754-52d2-432f-be71-a5f1b76632fe",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d09adc7f89a4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa29754-52d2-432f-be71-a5f1b76632fe",
+      "children": [
+        "aaa2fb52-640f-47c5-9580-af5b00b27995"
+      ]
+    },
+    "aaa2fb52-640f-47c5-9580-af5b00b27995": {
+      "id": "aaa2fb52-640f-47c5-9580-af5b00b27995",
+      "message": {
+        "id": "aaa2fb52-640f-47c5-9580-af5b00b27995",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595554.762025,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "what about for the outro"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8d09af838fbb4cb1-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2125fdbe-d773-4ab1-9050-40eb7a985851",
+      "children": [
+        "7ae88e43-983b-4250-b74c-699a0b1e2eb5"
+      ]
+    },
+    "7ae88e43-983b-4250-b74c-699a0b1e2eb5": {
+      "id": "7ae88e43-983b-4250-b74c-699a0b1e2eb5",
+      "message": {
+        "id": "7ae88e43-983b-4250-b74c-699a0b1e2eb5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728595578.37871,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "For the **outro**, to make it as emotionally impactful as possible\u2014leaving the audience in tears\u2014you can use tags that emphasize a soft, delicate, and reflective mood. Here are some suggestions for the outro, incorporating elements that build emotional resonance:\n\n1. **[Outro][Quiet]** \u2013 To bring the volume down for an intimate, delicate ending.\n2. **[Decrescendo]** \u2013 Gradually lowering the volume, almost fading out.\n3. **[Whispered]** \u2013 Whispering the final lines to add vulnerability.\n4. **[Breathy]** \u2013 A soft, airy delivery to enhance the emotional fragility.\n5. **[Falsetto]** \u2013 A high, fragile vocal register can be used for a vulnerable finish.\n6. **[Piano Solo]** or **[Acoustic]** \u2013 A gentle, lingering piano or acoustic guitar to close out the song.\n7. **[Strings]** \u2013 Soft strings can give the outro a melancholic, cinematic feel.\n8. **[Sustain]** \u2013 Holding certain notes to prolong the emotional weight.\n9. **[Rubato]** \u2013 Flexibility in tempo for an expressive, natural ending.\n10. **[Silence]** \u2013 A pause or moment of silence at the very end to let the emotions linger.\n\nExample:\n\n```\n[Outro][Quiet][Piano Solo][Strings][Sustain]\nLead: \"Always...\"\n[Breathy][Falsetto]\nLead: \"With you, I'll always stay\"\n\n[Silence]\n```\n\nIn this outro, the use of **[Quiet]**, **[Piano Solo]**, and **[Breathy]** helps to create an intimate, tender ending, while **[Sustain]** ensures that certain notes are held to allow the emotion to settle in. **[Silence]** at the end can leave a powerful, lingering impact, as the audience is left reflecting on the emotional journey of the song."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2fb52-640f-47c5-9580-af5b00b27995",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d09af838fbb4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2fb52-640f-47c5-9580-af5b00b27995",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "7ae88e43-983b-4250-b74c-699a0b1e2eb5",
+  "plugin_ids": null,
+  "conversation_id": "6708435a-2754-8009-9cb9-8910dc908220",
+  "conversation_template_id": "g-y2J4bAO8A",
+  "gizmo_id": "g-y2J4bAO8A",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6708435a-2754-8009-9cb9-8910dc908220"
+}

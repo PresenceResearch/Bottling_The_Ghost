@@ -1,0 +1,278 @@
+{
+  "title": "Clueless Office Worker Image",
+  "create_time": 1699655533.010844,
+  "update_time": 1699655558.905914,
+  "mapping": {
+    "aaa127f6-78fc-4c3f-824b-f4c09ef4484e": {
+      "id": "aaa127f6-78fc-4c3f-824b-f4c09ef4484e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b68fdecf-04d2-4d4c-926e-84e76a517e73"
+      ]
+    },
+    "b68fdecf-04d2-4d4c-926e-84e76a517e73": {
+      "id": "b68fdecf-04d2-4d4c-926e-84e76a517e73",
+      "message": {
+        "id": "b68fdecf-04d2-4d4c-926e-84e76a517e73",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa127f6-78fc-4c3f-824b-f4c09ef4484e",
+      "children": [
+        "aaa2fa82-f50b-4f19-860d-baf4be4cd795"
+      ]
+    },
+    "aaa2fa82-f50b-4f19-860d-baf4be4cd795": {
+      "id": "aaa2fa82-f50b-4f19-860d-baf4be4cd795",
+      "message": {
+        "id": "aaa2fa82-f50b-4f19-860d-baf4be4cd795",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699655533.011808,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please generate an image of a clueless 20 year old man trying to work in an office"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b68fdecf-04d2-4d4c-926e-84e76a517e73",
+      "children": [
+        "b5257b94-335a-4948-9fd1-d017bb418d99"
+      ]
+    },
+    "b5257b94-335a-4948-9fd1-d017bb418d99": {
+      "id": "b5257b94-335a-4948-9fd1-d017bb418d99",
+      "message": {
+        "id": "b5257b94-335a-4948-9fd1-d017bb418d99",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699655558.279959,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A 20-year-old man with a perplexed expression is sitting at an office desk surrounded by paperwork and a computer. He has dark brown hair, is wearing a light blue shirt and a loose tie. His hands are on his temples as if he's trying to concentrate or solve a problem. There are sticky notes with reminders all over the computer monitor, and a cup of coffee is sitting, forgotten, at the edge of the desk. Papers are slightly messy, suggesting a disorganized workspace.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2fa82-f50b-4f19-860d-baf4be4cd795",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2fa82-f50b-4f19-860d-baf4be4cd795",
+      "children": [
+        "e789ff47-67b3-4c1c-b5ce-b0c43d9b1fb3"
+      ]
+    },
+    "e789ff47-67b3-4c1c-b5ce-b0c43d9b1fb3": {
+      "id": "e789ff47-67b3-4c1c-b5ce-b0c43d9b1fb3",
+      "message": {
+        "id": "e789ff47-67b3-4c1c-b5ce-b0c43d9b1fb3",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699655558.28133,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-GAzzUottnG6KCTtE19uhwKDJ",
+              "size_bytes": 160152,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "K2Ato1eMy6SrJEfe",
+                  "prompt": "A 20-year-old man with a perplexed expression is sitting at an office desk surrounded by paperwork and a computer. He has dark brown hair, is wearing a light blue shirt and a loose tie. His hands are on his temples as if he's trying to concentrate or solve a problem. There are sticky notes with reminders all over the computer monitor, and a cup of coffee is sitting, forgotten, at the edge of the desk. Papers are slightly messy, suggesting a disorganized workspace.",
+                  "seed": 3927621294,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "b5257b94-335a-4948-9fd1-d017bb418d99",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b5257b94-335a-4948-9fd1-d017bb418d99",
+      "children": [
+        "65bfc67a-7ab3-4fe5-95f8-e23d46a21221"
+      ]
+    },
+    "65bfc67a-7ab3-4fe5-95f8-e23d46a21221": {
+      "id": "65bfc67a-7ab3-4fe5-95f8-e23d46a21221",
+      "message": {
+        "id": "65bfc67a-7ab3-4fe5-95f8-e23d46a21221",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699655558.281626,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "e789ff47-67b3-4c1c-b5ce-b0c43d9b1fb3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e789ff47-67b3-4c1c-b5ce-b0c43d9b1fb3",
+      "children": [
+        "f820113b-77a5-4931-8033-ba2d964043e1"
+      ]
+    },
+    "f820113b-77a5-4931-8033-ba2d964043e1": {
+      "id": "f820113b-77a5-4931-8033-ba2d964043e1",
+      "message": {
+        "id": "f820113b-77a5-4931-8033-ba2d964043e1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699655558.281826,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the image you requested."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "65bfc67a-7ab3-4fe5-95f8-e23d46a21221",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "65bfc67a-7ab3-4fe5-95f8-e23d46a21221",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f820113b-77a5-4931-8033-ba2d964043e1",
+  "plugin_ids": null,
+  "conversation_id": "2d1460cc-7fec-402e-a56f-361f5ce23608",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "2d1460cc-7fec-402e-a56f-361f5ce23608"
+}

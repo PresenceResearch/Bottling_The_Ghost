@@ -1,0 +1,428 @@
+{
+  "title": "Okusha Matauhaisho Inquiry",
+  "create_time": 1724280957.166683,
+  "update_time": 1724282334.470016,
+  "mapping": {
+    "9862271c-f023-47e9-8411-28b66844d221": {
+      "id": "9862271c-f023-47e9-8411-28b66844d221",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d80fa59b-7710-4e4f-9285-1c179ac73339"
+      ]
+    },
+    "d80fa59b-7710-4e4f-9285-1c179ac73339": {
+      "id": "d80fa59b-7710-4e4f-9285-1c179ac73339",
+      "message": {
+        "id": "d80fa59b-7710-4e4f-9285-1c179ac73339",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9862271c-f023-47e9-8411-28b66844d221",
+      "children": [
+        "a34a43e4-709b-45fd-8dc7-a706a4061ba3"
+      ]
+    },
+    "a34a43e4-709b-45fd-8dc7-a706a4061ba3": {
+      "id": "a34a43e4-709b-45fd-8dc7-a706a4061ba3",
+      "message": {
+        "id": "a34a43e4-709b-45fd-8dc7-a706a4061ba3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724280957.170448,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please give me the history of the Okusha Matauhaisho"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b6e36aca8456873-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d80fa59b-7710-4e4f-9285-1c179ac73339",
+      "children": [
+        "0099359d-7ee2-40f1-914c-cd313dd8456a"
+      ]
+    },
+    "0099359d-7ee2-40f1-914c-cd313dd8456a": {
+      "id": "0099359d-7ee2-40f1-914c-cd313dd8456a",
+      "message": {
+        "id": "0099359d-7ee2-40f1-914c-cd313dd8456a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724280960.650933,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a34a43e4-709b-45fd-8dc7-a706a4061ba3",
+          "request_id": "8b6e36aca8456873-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a34a43e4-709b-45fd-8dc7-a706a4061ba3",
+      "children": [
+        "c1f48b7d-45b5-4b68-945a-6aa23e841640"
+      ]
+    },
+    "c1f48b7d-45b5-4b68-945a-6aa23e841640": {
+      "id": "c1f48b7d-45b5-4b68-945a-6aa23e841640",
+      "message": {
+        "id": "c1f48b7d-45b5-4b68-945a-6aa23e841640",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724280960.65102,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The term \"Okusha Matauhaisho\" appears to be unfamiliar in historical or cultural contexts. It's possible there may be a typo or misunderstanding regarding the name or term you're asking about. If you intended to ask about a particular shrine, temple, or historical site in Japan, could you please clarify or provide more context?\n\nIf \"Okusha\" refers to something related to a shrine or temple, it might relate to a sacred or inner shrine, often seen in Japanese religious sites. \"Matauhaisho\" might be a specific place or a part of a name that needs correction.\n\nPlease provide any additional details, and I'll do my best to assist you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "0099359d-7ee2-40f1-914c-cd313dd8456a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b6e36aca8456873-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0099359d-7ee2-40f1-914c-cd313dd8456a",
+      "children": [
+        "36975a09-1107-4058-b761-598c16652e25",
+        "02628e4b-82e6-472c-818b-76b48bb5a6a2"
+      ]
+    },
+    "36975a09-1107-4058-b761-598c16652e25": {
+      "id": "36975a09-1107-4058-b761-598c16652e25",
+      "message": {
+        "id": "36975a09-1107-4058-b761-598c16652e25",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724281114.656412,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sorry fushimi inari taisha "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b6e3a84da05686f-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1f48b7d-45b5-4b68-945a-6aa23e841640",
+      "children": [
+        "8bd9baf7-d38e-4d2e-92d8-c79d91e8d7f1"
+      ]
+    },
+    "02628e4b-82e6-472c-818b-76b48bb5a6a2": {
+      "id": "02628e4b-82e6-472c-818b-76b48bb5a6a2",
+      "message": {
+        "id": "02628e4b-82e6-472c-818b-76b48bb5a6a2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724282327.212224,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the significance of the two\nDogs "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b6e580c79776849-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c1f48b7d-45b5-4b68-945a-6aa23e841640",
+      "children": [
+        "05c6da45-0c19-4138-bd84-4ed59fe712d7"
+      ]
+    },
+    "8bd9baf7-d38e-4d2e-92d8-c79d91e8d7f1": {
+      "id": "8bd9baf7-d38e-4d2e-92d8-c79d91e8d7f1",
+      "message": {
+        "id": "8bd9baf7-d38e-4d2e-92d8-c79d91e8d7f1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724281128.457608,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Fushimi Inari Taisha (\u4f0f\u898b\u7a32\u8377\u5927\u793e) is one of the most important and iconic Shinto shrines in Japan, located in Fushimi-ku, Kyoto. The shrine is dedicated to Inari, the Shinto god of rice, fertility, agriculture, and industry. It is particularly famous for its thousands of vermilion torii gates that create long, winding paths leading up the sacred Mount Inari.\n\n### **History:**\n\n- **Founding:** Fushimi Inari Taisha was founded in 711 AD, during the Nara period. It was originally located on Inariyama hill in southwestern Kyoto but was later moved to its current location in 816 AD, under the order of the monk K\u016bkai, also known as K\u014db\u014d Daishi.\n\n- **Inari Worship:** Inari worship is one of the most common forms of Shinto practice. Inari is associated with rice, which has historically been the staple food in Japan and a symbol of prosperity. Over time, Inari\u2019s role expanded to include the protection of merchants and manufacturers, making Fushimi Inari a popular site for business people to pray for success.\n\n- **Development:** The shrine grew in importance during the Heian period (794-1185) when it gained imperial patronage. Fushimi Inari Taisha has since become the head shrine for the approximately 30,000 Inari shrines across Japan.\n\n- **Torii Gates:** The most famous feature of Fushimi Inari is its Senbon Torii (\u5343\u672c\u9ce5\u5c45), meaning \"thousands of torii gates.\" These gates are donations from individuals and businesses, each inscribed with the donor\u2019s name. The practice began in the Edo period (1603-1868) and continues to this day, with new gates constantly being added.\n\n- **Pilgrimage:** The torii gates lead to the summit of Mount Inari, which is about 233 meters above sea level. The hike to the summit and back takes approximately 2-3 hours and passes through several smaller shrines, offering stunning views of Kyoto.\n\n- **Modern Times:** Today, Fushimi Inari Taisha remains one of Kyoto\u2019s most visited sites, attracting millions of visitors each year. It is especially popular during New Year's, when many people come to perform the first shrine visit of the year, known as \"hatsumode.\"\n\nFushimi Inari Taisha\u2019s unique atmosphere, with its iconic red gates and rich historical significance, makes it a must-visit location for anyone interested in Japan\u2019s cultural heritage."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "36975a09-1107-4058-b761-598c16652e25",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b6e3a84da05686f-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "36975a09-1107-4058-b761-598c16652e25",
+      "children": [
+        "c09ff170-4111-4c57-a302-04c73e040d56"
+      ]
+    },
+    "05c6da45-0c19-4138-bd84-4ed59fe712d7": {
+      "id": "05c6da45-0c19-4138-bd84-4ed59fe712d7",
+      "message": {
+        "id": "05c6da45-0c19-4138-bd84-4ed59fe712d7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724282333.594427,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Japanese culture, the two \"dogs\" you might be referring to are likely the **Komainu** (\u72db\u72ac), which are often found guarding the entrances of Shinto shrines. Despite their name, Komainu are not exactly dogs but are often seen as lion-dog creatures. They have deep cultural and spiritual significance.\n\n### Significance of Komainu:\n\n1. **Guardians of the Shrine:**\n   - Komainu serve as protectors, guarding the shrine from evil spirits and negative influences. They are usually placed in pairs at the entrance of a shrine or temple.\n\n2. **Symbolism of the Pair:**\n   - The two statues usually consist of one with its mouth open and one with its mouth closed. The open mouth is said to be uttering the sound \"A,\" the first sound in the Japanese alphabet, while the closed mouth represents \"Un,\" the last sound. Together, they symbolize the beginning and the end of all things (similar to the concept of \"Alpha and Omega\" in Western cultures).\n\n3. **Origins:**\n   - The concept of these guardian statues originated from China and Korea, where similar lion-like creatures were used to protect sacred places. Over time, the design and symbolism evolved in Japan, resulting in the Komainu seen today.\n\n4. **Spiritual Protection:**\n   - Beyond their role as physical protectors, Komainu are also believed to ward off spiritual harm. Their fierce appearance is meant to intimidate evil spirits and prevent them from entering sacred spaces.\n\nThe Komainu are an important aspect of Shinto and Japanese cultural heritage, and their presence at shrines is a reminder of the spiritual protection provided by these sacred spaces."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "02628e4b-82e6-472c-818b-76b48bb5a6a2",
+          "request_id": "8b6e580c79776849-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "02628e4b-82e6-472c-818b-76b48bb5a6a2",
+      "children": []
+    },
+    "c09ff170-4111-4c57-a302-04c73e040d56": {
+      "id": "c09ff170-4111-4c57-a302-04c73e040d56",
+      "message": {
+        "id": "c09ff170-4111-4c57-a302-04c73e040d56",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724281461.811499,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you buy valtrex over the counter in Japan "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b6e42fec8eb80ed-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8bd9baf7-d38e-4d2e-92d8-c79d91e8d7f1",
+      "children": [
+        "61afea41-7d42-4999-9d27-7d7440c0d119"
+      ]
+    },
+    "61afea41-7d42-4999-9d27-7d7440c0d119": {
+      "id": "61afea41-7d42-4999-9d27-7d7440c0d119",
+      "message": {
+        "id": "61afea41-7d42-4999-9d27-7d7440c0d119",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724281464.697637,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Japan, Valtrex (valacyclovir) is not available over the counter. It is a prescription medication used primarily to treat infections caused by the herpes virus, including cold sores, genital herpes, and shingles.\n\nTo obtain Valtrex in Japan, you would need to see a doctor who can provide a prescription after evaluating your condition. You can then purchase the medication at a pharmacy with the prescription.\n\nIf you are visiting Japan and need Valtrex, it's advisable to bring a sufficient supply with you or see a local doctor if you need a refill while in the country. Keep in mind that carrying prescription medication into Japan requires adherence to certain regulations, so it's good to have your prescription and medication clearly labeled."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAA",
+          "parent_id": "c09ff170-4111-4c57-a302-04c73e040d56",
+          "request_id": "8b6e42fec8eb80ed-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c09ff170-4111-4c57-a302-04c73e040d56",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "05c6da45-0c19-4138-bd84-4ed59fe712d7",
+  "plugin_ids": null,
+  "conversation_id": "079e2977-aeb5-4695-868d-880cf53401f2",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "079e2977-aeb5-4695-868d-880cf53401f2"
+}

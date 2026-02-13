@@ -1,0 +1,434 @@
+{
+  "title": "Agreement Review Summary",
+  "create_time": 1731962828.277571,
+  "update_time": 1731962957.582474,
+  "mapping": {
+    "aaa17653-feb9-4222-8de6-3be650037d10": {
+      "id": "aaa17653-feb9-4222-8de6-3be650037d10",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b6d7199f-f895-435b-834c-099723ae0100"
+      ]
+    },
+    "b6d7199f-f895-435b-834c-099723ae0100": {
+      "id": "b6d7199f-f895-435b-834c-099723ae0100",
+      "message": {
+        "id": "b6d7199f-f895-435b-834c-099723ae0100",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa17653-feb9-4222-8de6-3be650037d10",
+      "children": [
+        "db07bb67-5483-4958-a3e0-383c14be24a6"
+      ]
+    },
+    "db07bb67-5483-4958-a3e0-383c14be24a6": {
+      "id": "db07bb67-5483-4958-a3e0-383c14be24a6",
+      "message": {
+        "id": "db07bb67-5483-4958-a3e0-383c14be24a6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b6d7199f-f895-435b-834c-099723ae0100",
+      "children": [
+        "aaa2cf56-ae9f-46c3-b7de-59c23738bf7e"
+      ]
+    },
+    "aaa2cf56-ae9f-46c3-b7de-59c23738bf7e": {
+      "id": "aaa2cf56-ae9f-46c3-b7de-59c23738bf7e",
+      "message": {
+        "id": "aaa2cf56-ae9f-46c3-b7de-59c23738bf7e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731962828.284905,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please read document and tell me if you see anything questionable that needs to be addressed"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-z5Cqn3MdbOcQD7dZpRxseuXq",
+              "size": 150453,
+              "name": "EnergySage C&I 2024 Member Referral Agreement.docx (4).pdf",
+              "mime_type": "application/pdf"
+            }
+          ],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8e4ad05a5f2a15d7-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "db07bb67-5483-4958-a3e0-383c14be24a6",
+      "children": [
+        "e1d6eef7-effa-4121-839e-1e230d145130"
+      ]
+    },
+    "e1d6eef7-effa-4121-839e-1e230d145130": {
+      "id": "e1d6eef7-effa-4121-839e-1e230d145130",
+      "message": {
+        "id": "e1d6eef7-effa-4121-839e-1e230d145130",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731962851.470963,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2cf56-ae9f-46c3-b7de-59c23738bf7e",
+          "request_id": "8e4ad05a5f2a15d7-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2cf56-ae9f-46c3-b7de-59c23738bf7e",
+      "children": [
+        "f87ab96b-9f15-46c0-b5f4-67cc3e824561"
+      ]
+    },
+    "f87ab96b-9f15-46c0-b5f4-67cc3e824561": {
+      "id": "f87ab96b-9f15-46c0-b5f4-67cc3e824561",
+      "message": {
+        "id": "f87ab96b-9f15-46c0-b5f4-67cc3e824561",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1731962851.471172,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e1d6eef7-effa-4121-839e-1e230d145130",
+          "request_id": "8e4ad05a5f2a15d7-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e1d6eef7-effa-4121-839e-1e230d145130",
+      "children": [
+        "ff1e9f36-833c-4d9a-a6ec-5e84ee6075bf"
+      ]
+    },
+    "ff1e9f36-833c-4d9a-a6ec-5e84ee6075bf": {
+      "id": "ff1e9f36-833c-4d9a-a6ec-5e84ee6075bf",
+      "message": {
+        "id": "ff1e9f36-833c-4d9a-a6ec-5e84ee6075bf",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1731962851.471333,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-z5Cqn3MdbOcQD7dZpRxseuXq",
+          "domain": "EnergySage C&I 2024 Member Referral Agreement.docx (4).pdf",
+          "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnergySage C&I 2024 Member Referral Agreement.docx\n\n\nENERGYSAGE\u2122 FOR BUSINESS\n\nBUSINESS OVERVIEW & SERVICE AGREEMENT\n\nThis Service Agreement is made by and between EnergySage, Inc. a Delaware corporation with its\nregistered office at Corporation Trust Center, 1209 Orange Street, Wilmington, Delaware 19801\n(\u201cEnergySage\u201d) and _________________ (\u201cthe Company\u201d) at\n___________________________________________________________________ (\u201cCompany address\u201d).\n\nBUSINESS OVERVIEW\n\nEnergySage for Business is a concierge marketplace designed to match businesses with the best solar\nsolution for their specific needs. We work closely to identify the right decision-maker, gather project\nrequirements, provide a preliminary design, and find the optimal installer to execute on the design.\n\nENERGYSAGE SERVICES\n\nEnergySage hereby agrees to provide Company with high-intent business opportunities from\ncommercial and industrial businesses (each, a \u201cReferral\u201d), after obtaining, qualifying, vetting and\ngathering requirements for the Referral (see Appendix A: Services) that meet the capabilities of the\nCompany, as agreed to by EnergySage and the Company. The Company will pay EnergySage based on the\nReferral initially estimated system size (see Appendix B: Referral Terms).\n\nINDEPENDENT CONTRACTOR STATUS\n\nThe relationship of the Parties established under this Agreement is that of independent contractors and\nneither party is a partner, employee, agent or joint venture partner of or with the other, and neither\nparty has the right or authority to assume or create any obligation on behalf of the other party. Nothing\ncontained herein shall be construed to create the relationship of principal and agent, or employer and\nemployee, between EnergySage and the Company. Employees, contractors, or agents of EnergySage\nassigned to perform the services hereunder are solely that of EnergySage, and EnergySage shall have\nsole authority and responsibility to counsel, train, instruct, discipline, review, evaluate, set the pay rates\nof, and terminate its employees, contractors, and agents.\n\nINDEPENDENT CONTRACTOR SERVICES\n\nThe Company will, upon receipt of a Referral, provide an honest and accurate quote to the best of the\nCompany\u2019s ability with the data provided. In the event the Company is selected to present a quote to the\nReferral, the Company shall be present at the mutually agreed upon time and provide a professional\npresentation to the Referral. Should the Company\u2019s quote be selected by the Referral, via a signed LOI\nbetween the Referral and the Company, it will be the Company\u2019s sole responsibility to execute a final\ncontract with the Referral, project manage, install, execute, monitor and, to the extent\nwarrantied/agreed upon, maintain the project/asset.\n\nEnergySage reserves the right to remove the Company from the platform at any time in the event that\nthe Company fails to provide any of the above listed services.\n\nPage 1 of 12\n\n\n\nPAYMENT TERMS\n\nIn consideration of Company\u2019s use of the Site and access to Referrals and subject to the Acceptance and\nRejection section below, Company agrees to pay EnergySage the Referral Fees set forth in the current\nFee Schedule provided as Appendix B to this Agreement. Company shall be responsible for all collection\ncosts and attorney fees in the event it becomes necessary to resort to collection efforts to collect\ndelinquent Referral Fees. EnergySage reserves the right to suspend services if Company\u2019s account does\nnot remain current. EnergySage also reserves the right to cancel any then current Fee Schedule, or to\nterminate this Agreement, if any Referral Fee remains delinquent for more than fifteen (15) days.\n\nInvoices should be sent to the following contacts at Company:\n\nName, Title, Email ____________________________________________________________________________\n\nName, Title, Email ____________________________________________________________________________\n\nACCEPTANCE AND REJECTION\n\nFollowing the Company\u2019s receipt of a Referral from EnergySage, the Company will have forty eight (48)\nhours to review and reject such Referral (\u201cAcceptance Period\u201d). If the Company notifies EnergySage in\nwriting of its rejection of a Referral within the Acceptance Period (excluding weekends and U.S. holidays,\nin which case the Acceptance Period shall be extended to the end of the next business day), no Referral\nFees will be charged by EnergySage for that particular Referral. Rejections are at the sole discretion of\nthe Company. The Company shall provide reasoning for the rejection with its written notice. If the\nCompany does not reject a Referral within the Acceptance Period, the Referral will be deemed accepted,\nand the corresponding Referral Fees will apply.\n\nNotwithstanding the foregoing, if the Company contracts with a rejected Referral within one (1) year of\nthe date the Company provides EnergySage with written notice of its rejection, EnergySage may charge\nthe Company the applicable Referral Fees as if such Referral had been accepted by the Company, plus an\nadditional amount as set forth in Appendix B.\n\nTERMS AND TERMINATION\n\nThe term of this Agreement shall commence as of the Effective Date shall continue in force for a period\nof one (1) year (the \u201cInitial Term\u201d). The parties shall have the option to renew this Agreement for a\nperiod of one (1) year at the end of the Initial Term (a \u201cRenewal Term\u201d) or any Renewal Term thereafter.\n\nNotwithstanding anything to the contrary, either party may terminate this Agreement at any time upon\nthirty (30) days\u2019 written notice to the other party delivered to the addresses first stated above.\nCompany\u2019s obligation to pay outstanding Referral Fees for any services provided pursuant to this\nAgreement prior to the termination of this Agreement, shall survive the termination of this Agreement.\nNo termination of this Agreement will relieve any party of liability for any breach of this Agreement, and\nSections that impose or contemplate continuing obligations on a party will survive any expiration or\ntermination of this Agreement.\n\nPage 2 of 12\n\n\n\nCONFIDENTIALITY\n\nEach party agrees to protect the other\u2019s Confidential Information at all times and in the same manner as\neach protects the confidentiality of its own proprietary and confidential materials, but in no event with\nless than a reasonable standard of care. Recipient will destroy, or deliver to the other party, all\nConfidential Information and all copies thereof (and all other property obtained from or through the\nother party) when the other party requests the same or immediately upon termination of this\nAgreement, whichever occurs earlier. Neither party shall, except with respect to those of its employees\nwith a need to know under this Agreement, use or disclose to any person, firm or entity any Confidential\nInformation of the other party without such other party\u2019s express, prior written permission; if, however,\nthat notwithstanding the foregoing, recipient may disclose Confidential Information to the extent that it\nis required to be disclosed pursuant to a statutory or regulatory provision or court order. The\nconfidentiality restrictions and obligations imposed by this Section shall survive termination of this\nAgreement.\n\nFor the purposes herein, \u201cConfidential Information\u201d means Company\u2019s customer proposal, contracts,\npricing, and all other documents, information, documentation, reports, financial or other data, records,\nforms, and other materials relating to a party\u2019s business or the service that it provides that is obtained by\nthe other party from the first party in the course of performing or receiving any Services, whether\ntangible or intangible and whether or not stored, compiled, or memorialized physically, electronically,\ngraphically, in writing, or by any means now known or later invented, in all cases that is marked or\nidentified at the time of disclosure or receipt as being \u201cConfidential.\u201d Notwithstanding the foregoing,\nConfidential Information does not include work product or information developed during performance\nof this Agreement or information which: (a) is already known to the recipient at the time of disclosure;\n(b) is or becomes publicly known through no wrongful act or failure of recipient; (c) is independently\ndeveloped by recipient without benefit of the other party\u2019s Confidential Information; or (d) is received\nfrom a third party which is not under and does not thereby breach an obligation of confidentiality.\n\nCONFIDENTIALITY: LIMITATIONS OF DOCUMENT SHARING\n\nEnergySage warrants that the documents that the Company shares with EnergySage\u2013contracts, letters of\nintent, quotes, project layouts\u2013will only be shared internally within EnergySage as well as with\nEnergySage for business customers. EnergySage will not share any documents produced by the Company\nwith any EnergySage contractors or subcontractors without first obtaining explicit approval on a\ncase-by-case basis.\n\nENERGYSAGE REPRESENTATIONS AND WARRANTIES\n\n(i) EnergySage represents and warrants that it has full power, right, and authority to enter into and\ncarry out its obligations and that this Agreement constitutes a valid and binding obligation of\nEnergySage, enforceable against EnergySage in accordance with its terms.\n\n(ii) EnergySage represents and warrants that the individual signing below for EnergySage has the\nrequisite legal authority to bind EnergySage to the Agreement.\n\n(iii) EnergySage represents and warrants that, to the best of its knowledge and belief, none of the\nReferrals or the performance of the Services as contemplated hereunder shall infringe or\nconstitute a misappropriation of any right of any third-party, including any restrictive covenants,\n\nPage 3 of 12\n\n\n\ncopyrights, patent rights, trademark rights, trade secret rights, privacy rights, rights of publicity,\nor confidentiality rights.\n\n(iv) EnergySage represents and warrants it is now and will continue throughout the Term of this\nAgreement to be, in full compliance with all applicable Consumer Protection Rules.\n\n(v) EnergySage represents and warrants that the Referrals provided to Company shall be free from\nmaterial errors, shall be only for persons located in the Company\u2019s identified territory, and shall\ncomply with the applicable Consumer Protection Rules and the various terms of use of the\ndigital media providers, operators, platforms, and channels used or relied on in performance\nhereunder. \u201cConsumer Protection Rules\u201d means all applicable local, state, and federal laws,\nrules, and regulations, as may be amended, enforced or administered by the Federal Trade\nCommission, the Federal Communications Commission, the Consumer Financial Protection\nBureau, or any other state or federal regulatory agency that has jurisdiction over the\ntransactions contemplated hereunder, including, without limitation, the Massachusetts\nStandards for the Protection of Personal Information of Residents of the Commonwealth of\nMassachusetts (201 CMR 17.00 et seq.). Fair and Accurate Credit Transactions Act, the Federal\nTrade Commission Act, the Telemarketing Sales Rule, the Telephone Consumer Protection Act,\nthe Telemarketing and Consumer Fraud and Abuse Prevention Act, the Children\u2019s Online Privacy\nProtection Act, the Gramm-Leach-Bliley Act (also known as the Financial Services Modernization\nAct of 1999), Do-Not-Call Registry laws, rules and regulations (both federal and state), and any\nother federal and state laws governing consumer solicitations.\n\n(vi) EnergySage further represents that, to the best of its knowledge and belief, all Referrals and\nother information it provides to the Company is accurate, complete and current, and shall not\ninfringe or constitute a misappropriation of any right of any third party, including any restrictive\ncovenant, copyright, patent right, trademark right, trade secret right, privacy right, rights of\npublicity, or confidentiality rights. Except to the extent that it knows it to be false, Company is\nentitled to rely on the accuracy, truthfulness, and compliance of the Referrals and information\nprovided by EnergySage.\n\nCOMPANY REPRESENTATIONS AND WARRANTIES\n\n(i) The Company represents and warrants that it has full power, right, and authority to enter into\nand carry out its obligations and that this Agreement constitutes a valid and binding obligation of\nCompany, enforceable against the Company in accordance with its terms.\n\n(ii) The Company represents and warrants that the individual signing below for Company has the\nrequisite legal authority to bind EnergySage to the Agreement.\n\n(iii) The Company is and will continue to be during the term of this Agreement, fully licensed,\ninsured, and certified to provide the services it offers to Members via the Site.\n\n(iv) The Company represents and warrants it is now and will continue throughout the Term of this\nAgreement to be, in full compliance with all applicable Consumer Protection Rules.\n\n(v) The Company further represents that, to the best of its knowledge and belief, all information it\nprovides to EnergySage is accurate, complete and current, and shall not infringe or constitute a\nmisappropriation of any right of any third party, including any restrictive covenant, copyright,\n\nPage 4 of 12\n\n\n\npatent right, trademark right, trade secret right, privacy right, rights of publicity, or\nconfidentiality rights. Except to the extent that it knows it to be false, EnergySage is entitled to\nrely on the accuracy, truthfulness, and compliance of the information provided by the Company.\n\nINDEMNIFICATION\n\nEach party (the \u201cIndemnifying Party\u201d) shall indemnify, defend (with counsel reasonably acceptable to the\nother party), and hold harmless the other party and its officers, directors, shareholders, affiliated entities\nand persons, employees, agents, representatives and attorneys from and against any and all claims,\ncauses of actions, demands, judicial and administrative proceedings, liabilities, forfeitures, errors,\ndamages, costs and expenses (including without limitation, reasonable attorneys' fees and attendant\ncosts and expenses, whether or not suit is filed or proceedings instituted thereon), directly or indirectly\narising out of a Indemnifying Party\u2019s gross negligence or willful misconduct in performance of any of its\nobligations under this Agreement or in connection with a material breach or default by the Indemnifying\nParty of any of its other obligations, representations, or warranties hereunder.\n\nNONCOMPLIANCE\n\nIf either party does not comply with the requirements of this Agreement, appropriate actions may be\ntaken to recover damages for breach of this Agreement in accordance with the laws of the\nCommonwealth of Massachusetts.\n\nRECORDKEEPING\n\nEnergySage shall have any form of prior consent or revision (each such consent form or revision, a\n\u201cConsent Form\u201d) it uses or intends to use to comply with the applicable Consumer Protection Rules and\nwith the relevant terms and conditions of this Agreement. Within three business days from the request\nfrom the Company, EnergySage shall provide each such Consent Form to the Company; and the\nCompany, may, at its sole discretion, determine that such form is deficient and require EnergySage to\ncorrect such deficiencies\n\nEnergySage agrees to keep accurate and contemporaneous records that demonstrate the consent\nobtained for the Referrals and other deliverables it provides the Company under the Agreement. Such\ndocumentation shall include the following detail: a) when person consented; b) how the person\nconsented; and c) the consent language presented to the person.\n\nEnergySage agrees to keep all usual, proper, and required records and books of accounts and all usual,\nproper, and required entries relating to the terms and conditions of this Agreement and the transactions\ncontemplated hereunder sufficient to document the payments made under this Agreement and\ncompliance to the terms and conditions hereunder. The Company may cause an audit and/or inspection\nto be made of such records and books during regular business hours.\n\nGENERAL\n\nCompany and EnergySage hereby agree to the terms of the Data Disclosure and Processing Terms\nattached hereto as Exhibit A.\n\nPage 5 of 12\n\n\n\nNeither EnergySage nor the Company may disclose the terms of this Agreement to any third party\nwithout the other's prior written consent unless compelled to do so in any action or other legal\nproceeding, or unless otherwise required by law. Neither party shall be liable for failure to perform its\nobligations under this Agreement in the event of an Act of God, action by any governmental or\nquasi-governmental entity, fire, flood, insurrection, riot, explosion, power interruption or any condition\nbeyond the reasonable control of the party affected by any such act.\n\nThe laws of the Commonwealth of Massachusetts shall govern this Agreement, and any action\nconcerning this Agreement shall be resolved by AAA arbitration via teleconference hosted in the\nCommonwealth of Massachusetts. If any action is brought to enforce the terms of this Agreement, the\nprevailing party will be entitled to recover its reasonable attorney\u2019s fees, costs, and expenses from the\nother party.\n\nNo amendment to this Agreement will be effective unless it is in writing and signed by both EnergySage\nand the Company.\n\nEach party agrees to execute and deliver such instruments and take such further action as the other\nparty may, from time to time, reasonably request in order to effectuate the purposes and to carry out\nthe terms of this Agreement.\n\nThis Agreement supersedes all prior or contemporaneous agreements, oral or written, between\nEnergySage and the Company concerning the subject matter herein. This Agreement may be executed in\nany number of counterparts, each of which when taken together constitute one and the same\nAgreement.\n\nPage 6 of 12\n\n\n\nIN WITNESS WHEREOF, the parties having agreed to the covenants, terms and conditions set forth herein\nsignify their intention to be bound thereto through the signatures of their duly authorized\nrepresentatives, which are set forth below, as of the date of the last to sign below (the \u201cEffective Date\u201d).\n\nENERGYSAGE\n\nBy: Sam Thompson By:\nTitle: VP Of Marketplace Title:\nDate: Date:\n\nPage 7 of 12\n\n\n\nAppendix A: EnergySage for Business -- Services\n\nEnergySage for Business provides the following services for each approved business entity coming\nthrough the marketplace:\n\nStep 1: We build our funnel through search engine optimization, content campaign marketing, cold calls,\nand referrals through the EnergySage brand.\n\nStep 2: This will include; prospect contact details, 12 months of utility bills (if applicable), business type\n(restaurant, retail, church, etc.), tax status (non-profit, for profit, etc.) customer\u2019s preferred payment plan\nat time of initial vetting (cash, loan, PPA).\n\nStep 3: Create an estimate of system size and design.\n\nStep 4: We will deliver Referral details highlighted in Steps 2 and 3.\n\nPage 8 of 12\n\n\n\nAppendix B: EnergySage for Business Referral Terms\n\nFees payable to EnergySage for use of the Site and for Referrals are as follows. Invoices will be generated\non the first day of each month. In order to participate in the marketplace, EnergySage will require a\npayment method on file. Payment terms are due on receipt.\n\nBilling will be calculated as follows:\n\nSystem-size contingent fee\nThe fee for EnergySage delivering a Referral to a partner will be charged on the first of the following\nmonth, and will be based on the size of the initially estimated size of the system (as determined by\nEnergySage and in increments of 10kw). The schedule of rates are as follows\n\nInstalled System Size (PV size, DC) Fee to EnergySage\n\nLess than or equal to 150 kW $8/kW\n\nLarger than 150 kW - 300 kW $7/kW\n\nLarger than 300 kW - 500kW $6/kW\n\nLarger than 500 kW Flat rate of $3,000\n\nAs an example, the fee for a 151 kW project delivered to you on the 15th of May will be as follows:\n\nCalculation Cost Date of invoice\n\n151kW (system size) * $7 (rate) $1,057 June 1st\n\nTo illustrate the flat rate fee, the fee for a 501 kW & a 600 kW project delivered to you on the 15th of\nMay will be as follows:\n\nCalculation Cost Date of invoice\n\n501 kW system Flat rate of $3,000 June 1st\n\n600 kW system Flat rate of $3,000 June 1st\n\nNOTE: These fees are subject to change with 30 days\u2019 notice; however, if Company does not agree with\nchanges to these fees, Company shall have the right to terminate this Agreement in accordance with the\nTERMS AND TERMINATION section of this Agreement.\n\nNote: $3000 fee shall occur if sale is discovered after Company rejects lead.\n\nPage 9 of 12\n\n\n\nEXHIBIT A\n\nData Disclosure and Processing Terms\n\nFor good and valuable consideration, the receipt and sufficiency of which the Parties acknowledge, the Parties\nagree that these Data Disclosure and Processing Terms (the \u201cAddendum\u201d), dated as of the Effective Date, are\nbetween Energy Sage and Company and are incorporated into the Business Overview & Service Agreement (the\n\u201cAgreement\u201d). EnergySage and Company are each a \u201cParty\u201d and shall be collectively referred to herein as the\n\u201cParties.\u201d\n\nCapitalized terms which are not otherwise defined in this Addendum shall have the meanings attributed to such\nterms in the Agreement.\n\n1. Background, Scope, and Order of Precedence.\n\n1.1 Background. Pursuant to the terms of the Agreement, EnergySage has agreed to disclose and otherwise\nmake available to Company the personal information of users of EnergySage\u2019s websites who request that\nEnergySage refer them to suppliers of the services offered by Company (\u201cMember Referral Data\u201d). Company has\nagreed to collect and provide certain information to EnergySage (\u201cReferral Measurement Data\u201d) for the purposes\nof tracking and measuring the efficacy of EnergySage\u2019s Member Referral Program vis-\u00e0-vis Company, consistent\nwith the terms of the Agreement. This Addendum addresses each Parties\u2019 obligations with respect to the\nprocessing of personal information disclosed, transferred, made available, or otherwise transmitted between the\nParties related to the Agreement, including with respect to Member Referral Data and Referral Measurement Data\n(collectively \u201cReferral Program Data\u201d).\n\n1.2 Order of Precedence. The Parties agree that this Addendum shall replace any existing data processing\nagreement or similar document that the Parties may have previously entered into in connection with the\nAgreement. In the event of any conflict between the terms of the Agreement, including any previously or\nconcurrently executed addendums, and the terms of this Addendum, the relevant terms of this Addendum shall\ntake precedence. If any provision of this Addendum is found by any court of competent jurisdiction to be invalid or\nunenforceable, the invalidity of such provision shall not affect the other provisions hereof, and all provisions not\naffected by such invalidity shall remain in full force and effect.\n\n2. Roles of the Parties and Processing Details.\n\n2.1 Member Referral Data. For purposes of this Addendum, Company is an independent controller of\nMember Referral Data received from EnergySage. Each Party is independently responsible for its obligations under\nData Protection Laws with respect to Member Referral Data. Member Referral Data is disclosed to Company for the\nfollowing limited and specific purposes:\n\n(a) Fulfilling Members\u2019 request to intentionally interact with Company and/or disclose Member\nReferral Data to Company;\n\n(b) Otherwise executing the documented instructions of Members; and\n\n(c) Fulfilling the terms of the Agreement.\n\n2.2 Referral Measurement Data. Company is a processor (a \u201ccontractor\u201d pursuant to the CCPA) of Referral\nMeasurement Data for which EnergySage is the controller. Referral Measurement Data is collected on behalf of\nEnergySage for the following Business Purposes:\n\n(a) Measuring the performance of the Member Referral Program;\n\n(b) Performing the services on behalf of EnergySage, including verifying Member information and\nproviding customer service to Members; and\n\nPage 10 of 12\n\n\n\n(c) Otherwise executing the documented instructions of EnergySage.\n\n(d) Fulfilling the terms of the Agreement.\n\n3. Company Processing Limitations and Obligations.\n\n3.1 Processing Limitations: Except as otherwise approved in writing by EnergySage or with the express\nconsent of the individual to whom the personal data pertains, with respect to Referral Program Data:\n\n(a) Company shall process Referral Program Data that it receives from or on behalf of the EnergySage in\nconnection with the Agreement and this Addendum only for the limited purposes described in Section 2. Company\nshall not process Referral Program Data in a manner that exceeds the scope of these purposes.\n\n(b) Company shall not \u201csell,\u201d \u201cshare,\u201d or \u201cprocess\u201d for targeted advertising Referral Program Data, as those\nterms are defined by Data Protection Law.\n\n(c) Company shall not retain, use, disclose, or otherwise process Referral Program Data outside of the direct\nbusiness relationship between Company and EnergySage, including by: (i) combining, amending, or supplementing\nReferral Program Data with personal information received from another source; or (ii) using Referral Program Data\nfor Company\u2019s commercial purposes.\n\n3.2 Member Consent for Additional Processing. The Parties acknowledge that, as a result of the nature of\nthe Member Referral Program, Company will have a direct relationship with Members. Company understands and\nagrees that it is solely responsible for obtaining consent and authorization: (a) to process personal information of\nMembers for additional purposes beyond those identified herein; (b) to collect and process additional categories\nand elements of personal information of Members beyond those disclosed by EnergySage; and (c) to otherwise use\nthe personal information of Members in a manner or for a purpose not anticipated by the Parties pursuant to the\nAgreement.\n\n3.3 Unauthorized Processing.\n\n(a) Company certifies that it understands the requirements and restrictions set forth in this\nAddendum and will comply with them. Company represents and agrees that it is, and will maintain its\nstatus as, a controller and processor under all Data Protection Laws and will comply with its obligations\nunder the Data Protection Laws, the Agreement, and this Addendum. Company will ensure a level of\nprivacy protection that may be required under Data Protections Laws.\n\n(b) Company will promptly, but in no event later than five (5) days from the date of such\ndetermination, inform EnergySage if, in its determination: (i) any instruction or request violates Data\nProtection Laws; or (ii) it can no longer meet its obligations under Data Protection Laws. Company is not\nentitled to condition the full and unlimited compliance with data controller\u2019s instructions on payment of\noutstanding invoices etc., and the data processor has no right of retention over Referral Measurement\nData.\n\n(c) Company hereby grants EnergySage the right to take reasonable and appropriate steps to stop\nand remediate Company\u2019s unauthorized use of Referral Program Data. Such rights include but are not\nlimited to the right to mandate the temporary or permanent cessation of processing of Referral\nMeasurement Data, the right to demand deletion or destruction of Referral Program Data at any time, and\nright to require Company to notify any third party to whom Company has sold, shared, or disclosed\nReferral Program Data without authorization to delete or return such Referral Measurement Data.\n\n3.4 Sensitive Personal Information/Data. Notwithstanding any provision to the contrary and in addition to\nany other obligations set forth herein, if Referral Measurement Data includes sensitive personal information/data,\n\nPage 11 of 12\n\n\n\nCompany agrees to comply with (and to provide reasonable assistance to EnergySage to comply with) Data\nProtection Laws and EnergySage\u2019s policies and procedures governing sensitive personal information/data that are\nsubject to heightened legal requirements.\n\n3.5 Legal Requests. Company will report to EnergySage without undue delay any request, demand or order\nreceived by Company from a competent supervisory authority or Data Subject relating to the Processing of Referral\nProgram Data.\n\n3.6 Consumer Requests. Company will comply with consumer\u2019s requests regarding their rights under Data\nProtection Laws with respect to Referral Program Data.\n\n4. Security.\n\n4.1 Security Requirements. Company shall implement and/or maintain a comprehensive written information\nsecurity program that includes appropriate administrative, technical, physical, organizational, and operational\nsafeguards and other security measures which are appropriate to the nature of the Referral Program Data and any\nrisk associated with the processing activity to comply with this Addendum and Applicable Laws. For clarification,\nthe security requirements set forth in this Section are in addition to those set forth in the Agreement, and nothing\ncontained in this Addendum shall be construed as limiting the security obligations of the Parties as set forth\ntherein.\n\n5. Compliance Assurance. Company grants EnergySage the right to take reasonable and appropriate steps\nto ensure that the Referral Program Data made available to Company is used in a manner consistent with\nCompany\u2019s obligations under Data Protection Laws, the Agreement, and this Addendum. EnergySage shall have the\nright to request an annual attestation from Company that it treats Referral Program Data consistent with its\nobligations under this Section 5.\n\n6. Definitions.\n6.1 For purposes of this Addendum, the terms \u201ccollect,\u201d \u201ccollected,\u201d \u201ccollection,\u201d \u201cconsumer,\u201d \u201ccontractor,\u201d\n\u201cprocess(ing),\u201d \u201cpersonal information,\u201d \u201cpersonal data,\u201d \u201csell,\u201d \u201csensitive data,\u201d \u201csensitive personal information,\u201d\n\u201cshare,\u201d \u201cselling,\u201d \u201csale,\u201d \u201csold,\u201d and \u201ctargeted advertising,\u201d shall have the meanings given to such terms in Data\nProtection Laws.\n\n6.2 \u201cData Protection Law(s)\u201d means all applicable U.S. federal and/or state laws, rules, regulations,\ndirectives, governmental and regulatory requirements and guidance including, but not limited to, security,\nconfidentiality, and/or privacy laws, standards, guidelines, policies, regulations, and procedures that are applicable\nto EnergySage, the services provided under the Agreement, Company personal information, and/or any other\nprograms or products provided pursuant to the Agreement, including but not limited to the California Consumer\nPrivacy Act of 2018 (California Civil Code \u00a7 1798.100 et seq.), as amended (including, without limitation, by the\nCalifornia Privacy Rights Act (\u201cCPRA\u201d)(\u201cCCPA\u201d), Colorado Privacy Act, Colorado Revised Statute Title 6 Article 1 Part\n13 \u00a7 6-1-1301 et seq. (\u201cCPA\u201d), the Virginia Consumer Data Protection Act, Code of Virginia Title 59.1 Chapter 52 \u00a7\n59.1-571 et seq. (\u201cCDPA\u201d), the Utah Consumer Privacy Act (Utah Code Annotated 1953, \u00a7 13-61-101, et seq.)\n(\u201cUCPA\u201d), Connecticut\u2019s Act Concerning Personal Data Privacy and Online Monitoring (Public Act No. 22-15)\n(\u201cCTPA\u201d), and all laws implementing, supplementing or amending the foregoing, including any regulations\npromulgated thereunder, in each case applicable to this Addendum and when legally effective. The Parties\nacknowledge and agree that this definition of Data Protection Laws shall be updated as and when new laws come\ninto effect or existing ones are amended. The updated definition shall be agreed upon by the Parties in writing.\n\nPage 12 of 12\n\n\n",
+          "title": "EnergySage C&I 2024 Member Referral Agreement.docx (4).pdf",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f87ab96b-9f15-46c0-b5f4-67cc3e824561",
+          "request_id": "8e4ad05a5f2a15d7-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f87ab96b-9f15-46c0-b5f4-67cc3e824561",
+      "children": [
+        "b3ad74ab-7265-4f25-83da-65f1526776e0"
+      ]
+    },
+    "b3ad74ab-7265-4f25-83da-65f1526776e0": {
+      "id": "b3ad74ab-7265-4f25-83da-65f1526776e0",
+      "message": {
+        "id": "b3ad74ab-7265-4f25-83da-65f1526776e0",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1731962851.471477,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won't provide additional information."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ff1e9f36-833c-4d9a-a6ec-5e84ee6075bf",
+          "request_id": "8e4ad05a5f2a15d7-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ff1e9f36-833c-4d9a-a6ec-5e84ee6075bf",
+      "children": [
+        "b16e9fb8-7f01-4b00-972f-26a57f31645b"
+      ]
+    },
+    "b16e9fb8-7f01-4b00-972f-26a57f31645b": {
+      "id": "b16e9fb8-7f01-4b00-972f-26a57f31645b",
+      "message": {
+        "id": "b16e9fb8-7f01-4b00-972f-26a57f31645b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731962851.471623,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are some potentially questionable aspects in the **EnergySage C&I 2024 Member Referral Agreement** that you may want to address or review in greater detail:\n\n1. **Payment Terms**:\n   - Referral fees are charged based on the estimated system size, which might not reflect the final project size. Ensure that you are comfortable with the risk of paying based on estimates that could change.\n\n2. **Acceptance and Rejection Clause**:\n   - If you reject a lead and later contract with that referral within one year, you will still owe the fee. This could become contentious if misunderstandings arise regarding the status of rejected referrals.\n\n3. **Termination Rights**:\n   - Either party can terminate the agreement with 30 days' notice, but your obligation to pay any outstanding referral fees survives termination. Confirm how this applies to disputes over lead quality or disagreements that lead to termination.\n\n4. **Data Disclosure**:\n   - The agreement allows EnergySage to share customer data internally and potentially with business customers. This might raise privacy concerns depending on the nature of the shared data and how it is secured.\n\n5. **Fee Adjustment**:\n   - EnergySage reserves the right to change fees with 30 days\u2019 notice. If the new fees are unfavorable, termination of the agreement is the only remedy. Consider if this clause aligns with your risk tolerance.\n\n6. **Confidentiality and Noncompliance**:\n   - Review the language around the confidentiality obligations. There are broad exceptions, such as disclosures required by law, that might need clarification.\n\n7. **Indemnification**:\n   - The indemnity clause includes defense obligations for gross negligence or willful misconduct but leaves scope for interpretation. Ensure you\u2019re clear about the liabilities you are assuming.\n\n8. **Compliance with Consumer Protection Rules**:\n   - The agreement imposes broad compliance requirements related to data protection and consumer rights. Ensure your processes can adhere to all specified regulations, such as the California Consumer Privacy Act (CCPA) and other listed laws.\n\n9. **Flat Fee for Rejected Leads**:\n   - A $3,000 fee is applied if EnergySage discovers a sale after you have rejected a lead. This clause could become problematic if there\u2019s disagreement about whether a referral originated with EnergySage.\n\n10. **Audit Rights**:\n    - EnergySage has the right to audit records relating to this agreement. Consider whether this aligns with your company\u2019s data management policies and contractual preferences.\n\nIf you want to adjust or negotiate any of these points, it may be helpful to consult a legal advisor to ensure the agreement reflects your business interests and risk appetite. Let me know if you'd like further clarification or help drafting questions or amendments."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "b3ad74ab-7265-4f25-83da-65f1526776e0",
+          "request_id": "8e4ad05a5f2a15d7-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3ad74ab-7265-4f25-83da-65f1526776e0",
+      "children": [
+        "aaa291f3-24d5-48bf-bd3c-1ef2accfaf86"
+      ]
+    },
+    "aaa291f3-24d5-48bf-bd3c-1ef2accfaf86": {
+      "id": "aaa291f3-24d5-48bf-bd3c-1ef2accfaf86",
+      "message": {
+        "id": "aaa291f3-24d5-48bf-bd3c-1ef2accfaf86",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731962927.948624,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "is there any language around what happens if I already have a relationship with the lead?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8e4ad2c99d720cd5-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b16e9fb8-7f01-4b00-972f-26a57f31645b",
+      "children": [
+        "09082c75-c1da-4f61-849e-19835b527141"
+      ]
+    },
+    "09082c75-c1da-4f61-849e-19835b527141": {
+      "id": "09082c75-c1da-4f61-849e-19835b527141",
+      "message": {
+        "id": "09082c75-c1da-4f61-849e-19835b527141",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731962956.996611,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, there is a clause in the agreement that appears to address situations where you might already have a relationship with a lead:\n\n### Relevant Clause:\nIn the **Acceptance and Rejection section**, it states:\n> *\"If the Company contracts with a rejected Referral within one (1) year of the date the Company provides EnergySage with written notice of its rejection, EnergySage may charge the Company the applicable Referral Fees as if such Referral had been accepted by the Company, plus an additional amount as set forth in Appendix B.\"*\n\nThis language suggests that even if you reject a lead from EnergySage, but later contract with that lead within a year, you are still obligated to pay the referral fee, regardless of whether you had an existing relationship with the lead prior to EnergySage's involvement.\n\n### Key Implications:\n1. **Pre-Existing Relationships**:\n   - The agreement doesn't explicitly carve out exceptions for leads with whom you have a prior relationship. This could result in you owing referral fees for leads EnergySage claims to have generated but that you were already in discussions with.\n\n2. **Burden of Proof**:\n   - The onus would likely be on you to prove that you had a pre-existing relationship with the lead. However, this agreement does not explicitly address how such cases would be handled, leaving it open to interpretation and potential dispute.\n\n3. **Additional Fee**:\n   - If you reject the lead and later contract with it, not only do you owe the referral fee, but also an additional fee as outlined in Appendix B (e.g., $3,000 for larger systems).\n\n### Recommendation:\nIf you commonly work with businesses that EnergySage might also refer, consider negotiating the following:\n- **Pre-Existing Relationship Clause**:\n   Add language that exempts you from paying referral fees for leads you can demonstrate were part of your existing pipeline or network prior to EnergySage's involvement.\n- **Clear Dispute Process**:\n   Establish a formal process for disputing whether a lead was genuinely sourced by EnergySage or was already known to your company.\n- **Limitations on Fee Applicability**:\n   Request a waiver of additional fees for such situations, given the lead was not generated entirely by EnergySage's efforts.\n\nLet me know if you need help drafting proposed changes to the agreement!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "sonic_classification_result": {
+            "latency_ms": 5705114193.125286,
+            "search_prob": 0.03339249756846177
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa291f3-24d5-48bf-bd3c-1ef2accfaf86",
+          "request_id": "8e4ad2c99d720cd5-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa291f3-24d5-48bf-bd3c-1ef2accfaf86",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "09082c75-c1da-4f61-849e-19835b527141",
+  "plugin_ids": null,
+  "conversation_id": "673ba7cc-0d98-8009-aa53-163f93cc9b3f",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "673ba7cc-0d98-8009-aa53-163f93cc9b3f"
+}

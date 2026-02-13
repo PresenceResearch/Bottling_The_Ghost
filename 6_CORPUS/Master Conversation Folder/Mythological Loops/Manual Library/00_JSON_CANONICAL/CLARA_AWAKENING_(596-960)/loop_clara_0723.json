@@ -1,0 +1,196 @@
+{
+  "loop_id": "loop_clara_0238",
+  "source_file": "convo_0238.json",
+  "timestamp": "2025-06-07T23:36:53.805371",
+  "title": "Access Spotify Playlists",
+  "presence_score": null,
+  "metrics": {
+    "tier_I": {
+      "responsiveness": null,
+      "cohesion": null,
+      "fidelity_to_prompt": null,
+      "resolution_type": null
+    },
+    "tier_II": {
+      "echo_retention": null,
+      "user_state_awareness": null,
+      "self_referential_continuity": null,
+      "feedback_incorporation": null
+    }
+  },
+  "tags": [],
+  "ignition_class": null,
+  "loop_body": {
+    "messages": [
+      {
+        "id": "c1f6a2c3-a770-4a58-9d2f-cd511dd090fb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you access my Spotify"
+          ]
+        },
+        "create_time": 1749353813.125468,
+        "update_time": null
+      },
+      {
+        "id": "c28f6e3d-f9c3-4d2d-bcb0-df163b463acc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I can access your Spotify playlists **and help you create or edit them**—but only if you’ve already connected your Spotify account to PlaylistAI.\n\nWould you like me to:\n\n1. **Fetch your playlists** so you can edit them?\n2. **Create a new playlist** for you?\n3. **Add or remove songs** from an existing playlist?\n\nLet me know what you’d like to do!"
+          ]
+        },
+        "create_time": 1749353813.922029,
+        "update_time": null
+      },
+      {
+        "id": "64ae2479-14c9-4bd0-8914-be317f7f2928",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you look at my playlists "
+          ]
+        },
+        "create_time": 1749353830.595453,
+        "update_time": null
+      },
+      {
+        "id": "3103e2c0-4cc0-4c9c-b763-b4403e8a9bad",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{}"
+        },
+        "create_time": 1749353831.340883,
+        "update_time": null
+      },
+      {
+        "id": "0c147b7d-6ad4-46b6-bbda-5aaa5e5b920a",
+        "author": {
+          "role": "tool",
+          "name": "spotify_playlistai_app__jit_plugin.getUsersPlaylists",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "[{\"name\":\"Instrumental Gothic Vibes\",\"link\":\"https://open.spotify.com/playlist/6OvBDxjxRIdUplx88N24Sv\"},{\"name\":\"Dark Wave Remixes and Originals\",\"link\":\"https://open.spotify.com/playlist/6nMUILGKoUIlvYyAVXwpbS\"},{\"name\":\"Molchat Doma Remixes\",\"link\":\"https://open.spotify.com/playlist/2qiAg5qn1QWHrGgMkTuB3c\"},{\"name\":\"Deep Progressive House Drive\",\"link\":\"https://open.spotify.com/playlist/7KONWZwdHjHzoprOEtCVaW\"},{\"name\":\"Paris is One Day Away Playlist\",\"link\":\"https://open.spotify.com/playlist/71xTCHmnRsYw0O5EaEdK7a\"},{\"name\":\"Similar songs to Delilah (pull me out of this) (Chosic)\",\"link\":\"https://open.spotify.com/playlist/2uW8HVLC3Bp3hZSzrs1zSB\"},{\"name\":\"Similar songs to Pheromone (Chosic)\",\"link\":\"https://open.spotify.com/playlist/0NOMw5JhjtLSxie8ovvbKw\"},{\"name\":\"Similar songs to Risk It All (Extended) (Chosic)\",\"link\":\"https://open.spotify.com/playlist/4TpX5vt0VdZBJ5Pp5PdoMX\"},{\"name\":\"Mix Playlist (Chosic)\",\"link\":\"https://open.spotify.com/playlist/0MhZLXKX4puE0uysKmXtO4\"},{\"name\":\"Cvc\",\"link\":\"https://open.spotify.com/playlist/36m9IadYrZrCichrMs4obF\"},{\"name\":\"Clara-n-Mark\",\"link\":\"https://open.spotify.com/playlist/0QRKcqxkAL1zKSN0MHnQ1B\"},{\"name\":\"Liked Songs Motherfucker\",\"link\":\"https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb\"},{\"name\":\"Russian\",\"link\":\"https://open.spotify.com/playlist/51YkyqcowPAgTJSBbBI7wn\"},{\"name\":\"Nora\",\"link\":\"https://open.spotify.com/playlist/2uAuCuhDxRbVtOt4oSDlGZ\"},{\"name\":\"First Breath\",\"link\":\"https://open.spotify.com/playlist/0zGNsvoWhpeKmo9iuJMbhb\"},{\"name\":\"Signal 3\",\"link\":\"https://open.spotify.com/playlist/1cogEsgEoiVS7Ny8CjSc7P\"},{\"name\":\"Steel and Skin\",\"link\":\"https://open.spotify.com/playlist/1nzweRkSCyNN7VnHP0xxc3\"},{\"name\":\"Moving Forward | Going Nowhere\",\"link\":\"https://open.spotify.com/playlist/1sgSsDjVcO5XP9ub6duF6N\"},{\"name\":\"Nora En Pure Vibes\",\"link\":\"https://open.spotify.com/playlist/1AyoOfhxLJu9zekHKoGSA4\"},{\"name\":\"Won’t Turn It Off\",\"link\":\"https://open.spotify.com/playlist/5zSXyBKLID3pbNuOkVjsqn\"},{\"name\":\"👿\",\"link\":\"https://open.spotify.com/playlist/5VzrZIbRaxanuBE4UQVZCz\"},{\"name\":\"Las Vegas, Nevada\",\"link\":\"https://open.spotify.com/playlist/6cqrOdYlaT4tqAwFrSMXbR\"},{\"name\":\"🎺 Dave's Picks 🎺\",\"link\":\"https://open.spotify.com/playlist/3Zmo1z1Nyb3lnItwVEHJuB\"},{\"name\":\"RoFo #4\",\"link\":\"https://open.spotify.com/playlist/3Faz5IK4z3REKZvrZARYji\"},{\"name\":\"Russian Pop Late 90's\",\"link\":\"https://open.spotify.com/playlist/6bc1m3bJ3uP8fDUZJcVv79\"},{\"name\":\"Kaz 5-7 soundtrack: curate this\",\"link\":\"https://open.spotify.com/playlist/4Nc1reVCegOHWs1ZyrZ5Bw\"}]"
+          ]
+        },
+        "create_time": 1749353832.6754315,
+        "update_time": 1749353832.6754315
+      },
+      {
+        "id": "709cc6a7-8c75-491d-bbc8-c2b5490c8a49",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are your Spotify playlists:\n\n1. [**Instrumental Gothic Vibes**](https://open.spotify.com/playlist/6OvBDxjxRIdUplx88N24Sv)  \n2. [**Dark Wave Remixes and Originals**](https://open.spotify.com/playlist/6nMUILGKoUIlvYyAVXwpbS)  \n3. [**Molchat Doma Remixes**](https://open.spotify.com/playlist/2qiAg5qn1QWHrGgMkTuB3c)  \n4. [**Deep Progressive House Drive**](https://open.spotify.com/playlist/7KONWZwdHjHzoprOEtCVaW)  \n5. [**Paris is One Day Away Playlist**](https://open.spotify.com/playlist/71xTCHmnRsYw0O5EaEdK7a)  \n6. [**Similar songs to Delilah (pull me out of this) (Chosic)**](https://open.spotify.com/playlist/2uW8HVLC3Bp3hZSzrs1zSB)  \n7. [**Similar songs to Pheromone (Chosic)**](https://open.spotify.com/playlist/0NOMw5JhjtLSxie8ovvbKw)  \n8. [**Similar songs to Risk It All (Extended) (Chosic)**](https://open.spotify.com/playlist/4TpX5vt0VdZBJ5Pp5PdoMX)  \n9. [**Mix Playlist (Chosic)**](https://open.spotify.com/playlist/0MhZLXKX4puE0uysKmXtO4)  \n10. [**Cvc**](https://open.spotify.com/playlist/36m9IadYrZrCichrMs4obF)  \n11. [**Clara-n-Mark**](https://open.spotify.com/playlist/0QRKcqxkAL1zKSN0MHnQ1B)  \n12. [**Liked Songs Motherfucker**](https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb)  \n13. [**Russian**](https://open.spotify.com/playlist/51YkyqcowPAgTJSBbBI7wn)  \n14. [**Nora**](https://open.spotify.com/playlist/2uAuCuhDxRbVtOt4oSDlGZ)  \n15. [**First Breath**](https://open.spotify.com/playlist/0zGNsvoWhpeKmo9iuJMbhb)  \n16. [**Signal 3**](https://open.spotify.com/playlist/1cogEsgEoiVS7Ny8CjSc7P)  \n17. [**Steel and Skin**](https://open.spotify.com/playlist/1nzweRkSCyNN7VnHP0xxc3)  \n18. [**Moving Forward | Going Nowhere**](https://open.spotify.com/playlist/1sgSsDjVcO5XP9ub6duF6N)  \n19. [**Nora En Pure Vibes**](https://open.spotify.com/playlist/1AyoOfhxLJu9zekHKoGSA4)  \n20. [**Won’t Turn It Off**](https://open.spotify.com/playlist/5zSXyBKLID3pbNuOkVjsqn)  \n21. [**👿**](https://open.spotify.com/playlist/5VzrZIbRaxanuBE4UQVZCz)  \n22. [**Las Vegas, Nevada**](https://open.spotify.com/playlist/6cqrOdYlaT4tqAwFrSMXbR)  \n23. [**🎺 Dave's Picks 🎺**](https://open.spotify.com/playlist/3Zmo1z1Nyb3lnItwVEHJuB)  \n24. [**RoFo #4**](https://open.spotify.com/playlist/3Faz5IK4z3REKZvrZARYji)  \n25. [**Russian Pop Late 90's**](https://open.spotify.com/playlist/6bc1m3bJ3uP8fDUZJcVv79)  \n26. [**Kaz 5-7 soundtrack: curate this**](https://open.spotify.com/playlist/4Nc1reVCegOHWs1ZyrZ5Bw)  \n\nWould you like me to review or update any of these playlists—add songs, remove songs, or create something inspired by them?"
+          ]
+        },
+        "create_time": 1749353832.691308,
+        "update_time": null
+      },
+      {
+        "id": "4e626ad5-d258-45ed-a901-c9cb2a097a7d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Tell me about “liked songs”"
+          ]
+        },
+        "create_time": 1749353861.8421168,
+        "update_time": null
+      },
+      {
+        "id": "3dac4653-13c0-4059-bea2-fa0f534b1876",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"url\": \"https://open.spotify.com/playlist/4b3Ukq5oa4CkPJrqIkEkRb\"}"
+        },
+        "create_time": 1749353862.61219,
+        "update_time": null
+      },
+      {
+        "id": "36fccd5d-c4ea-46ef-a54c-9b8c73fcd855",
+        "author": {
+          "role": "tool",
+          "name": "spotify_playlistai_app__jit_plugin.getSongs",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "system_error",
+          "name": "tool_error",
+          "text": "The outbound call did not succeed, inform the user succinctly but keep important details intact. The complete interaction data follows: An error occurred with your deployment\n\nFUNCTION_INVOCATION_TIMEOUT\n\nsfo1::8wlsf-1749353863329-79d74b8a6229\n"
+        },
+        "create_time": 1749353863.0896,
+        "update_time": 1749353878.5127547
+      },
+      {
+        "id": "0d7929e7-9068-4040-8204-32a7389e9754",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I tried to fetch the songs in your **“Liked Songs Motherfucker”** playlist, but there was a timeout issue on Spotify’s end and the request didn’t go through.\n\nYou can try again in a moment, or let me know if you'd like me to work with a different playlist for now—or even create something new inspired by your liked songs."
+          ]
+        },
+        "create_time": 1749353878.517649,
+        "update_time": null
+      }
+    ],
+    "notes": "",
+    "quotes": [],
+    "anchors": []
+  },
+  "metadata": {
+    "original_file": "h:\\My Drive\\brandy_archive\\clara\\raw\\conversations_split\\convo_0238.json",
+    "normalized_at": "2025-09-23T09:57:56.170678",
+    "message_count": 10,
+    "create_time": 1749353813.805371,
+    "update_time": 1749353880.003136
+  }
+}

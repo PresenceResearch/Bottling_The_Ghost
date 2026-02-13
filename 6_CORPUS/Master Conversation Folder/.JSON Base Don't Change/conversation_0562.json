@@ -1,0 +1,302 @@
+{
+  "title": "HomeKit Router Setup",
+  "create_time": 1734731786.163512,
+  "update_time": 1734734617.904854,
+  "mapping": {
+    "ddcfe733-ae5f-458b-b30b-ccb8c2b98c98": {
+      "id": "ddcfe733-ae5f-458b-b30b-ccb8c2b98c98",
+      "message": null,
+      "parent": null,
+      "children": [
+        "5a5e735b-201f-49fa-a343-318a0d7f96b0"
+      ]
+    },
+    "5a5e735b-201f-49fa-a343-318a0d7f96b0": {
+      "id": "5a5e735b-201f-49fa-a343-318a0d7f96b0",
+      "message": {
+        "id": "5a5e735b-201f-49fa-a343-318a0d7f96b0",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ddcfe733-ae5f-458b-b30b-ccb8c2b98c98",
+      "children": [
+        "36369321-b4a2-4ebe-b081-a9d3dc0319a4"
+      ]
+    },
+    "36369321-b4a2-4ebe-b081-a9d3dc0319a4": {
+      "id": "36369321-b4a2-4ebe-b081-a9d3dc0319a4",
+      "message": {
+        "id": "36369321-b4a2-4ebe-b081-a9d3dc0319a4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5a5e735b-201f-49fa-a343-318a0d7f96b0",
+      "children": [
+        "8618b3d3-9840-49ba-bcb2-71551450d063"
+      ]
+    },
+    "8618b3d3-9840-49ba-bcb2-71551450d063": {
+      "id": "8618b3d3-9840-49ba-bcb2-71551450d063",
+      "message": {
+        "id": "8618b3d3-9840-49ba-bcb2-71551450d063",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734731786.171558,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can I add a router to Apple home kit "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8f52e1de3d8042d8-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "36369321-b4a2-4ebe-b081-a9d3dc0319a4",
+      "children": [
+        "093b8adc-cae6-464e-ab2f-233358e64857"
+      ]
+    },
+    "093b8adc-cae6-464e-ab2f-233358e64857": {
+      "id": "093b8adc-cae6-464e-ab2f-233358e64857",
+      "message": {
+        "id": "093b8adc-cae6-464e-ab2f-233358e64857",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734731799.27196,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8618b3d3-9840-49ba-bcb2-71551450d063",
+          "request_id": "8f52e1de3d8042d8-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8618b3d3-9840-49ba-bcb2-71551450d063",
+      "children": [
+        "81a20aef-4268-4744-8337-7bf696e3c94f"
+      ]
+    },
+    "81a20aef-4268-4744-8337-7bf696e3c94f": {
+      "id": "81a20aef-4268-4744-8337-7bf696e3c94f",
+      "message": {
+        "id": "81a20aef-4268-4744-8337-7bf696e3c94f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734731799.27205,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, you can add certain routers to Apple HomeKit, but only specific **HomeKit-enabled routers** are supported. These routers offer enhanced privacy and security features, allowing you to control how your HomeKit accessories communicate on your network. Here's how it works:\n\n### Supported Routers:\nApple HomeKit supports a few select routers that are certified as **HomeKit Secure Routers**, such as:\n- Eero routers (e.g., Eero, Eero Pro, Eero 6, etc.)\n- Linksys Velop routers\n- Certain models from other brands that explicitly mention HomeKit compatibility.\n\n### Features of HomeKit Secure Routers:\n1. **Enhanced Privacy:** You can control which services and devices your HomeKit accessories can connect to. \n   - **Restrict to Home:** Limits devices to communicating only with your Home Hub.\n   - **Automatic:** Allows limited connections to manufacturer-approved services.\n   - **No Restriction:** Lets the accessory connect freely.\n2. **Added Security:** Firewalls and advanced settings protect your devices from unauthorized access.\n\n### How to Add a HomeKit Router:\n1. **Set Up Your Router:**\n   Ensure the router is set up and connected to your network.\n2. **Update Firmware:**\n   Make sure your router's firmware supports HomeKit Secure Router features.\n3. **Add Router to HomeKit:**\n   - Open the **Home app** on your iPhone or iPad.\n   - Tap the **\"+\"** in the upper-right corner, then select **\"Add Accessory.\"**\n   - Follow the on-screen instructions to add your router.\n4. **Configure Accessory Settings:**\n   Once added, you can configure your HomeKit accessories' network permissions under **Home Settings** in the Home app.\n\n### Things to Note:\n- Only HomeKit-compatible routers will work.\n- Not all routers support the advanced features of HomeKit Secure Router.\n- A HomeKit Hub (like an Apple TV, HomePod, or iPad) is required for remote control of accessories.\n\nIf your router isn't compatible, consider upgrading to one of the supported models to take full advantage of these features."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "093b8adc-cae6-464e-ab2f-233358e64857",
+          "request_id": "8f52e1de3d8042d8-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "093b8adc-cae6-464e-ab2f-233358e64857",
+      "children": [
+        "dfe7c97c-3fd7-4a20-a4a8-c2b4df3cfc1b"
+      ]
+    },
+    "dfe7c97c-3fd7-4a20-a4a8-c2b4df3cfc1b": {
+      "id": "dfe7c97c-3fd7-4a20-a4a8-c2b4df3cfc1b",
+      "message": {
+        "id": "dfe7c97c-3fd7-4a20-a4a8-c2b4df3cfc1b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734734599.596311,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do add a neat thermostat to the home kit "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8f53268e08af32d2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "81a20aef-4268-4744-8337-7bf696e3c94f",
+      "children": [
+        "44d3b188-1987-4894-add9-a07bc73120dd"
+      ]
+    },
+    "44d3b188-1987-4894-add9-a07bc73120dd": {
+      "id": "44d3b188-1987-4894-add9-a07bc73120dd",
+      "message": {
+        "id": "44d3b188-1987-4894-add9-a07bc73120dd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734734617.443377,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To add a **Nest Thermostat** to Apple HomeKit, you will need to use a third-party workaround since Google Nest devices are not natively compatible with HomeKit. Here's how to integrate a Nest Thermostat with HomeKit:\n\n---\n\n### Option 1: Use a Third-Party App (e.g., Starling Home Hub)\nThe **Starling Home Hub** is a reliable and straightforward solution for integrating Nest devices with HomeKit.\n\n#### Steps:\n1. **Purchase the Starling Home Hub**:\n   - Go to the [Starling Home Hub website](https://www.starlinghome.io) to purchase the hub.\n   - It works for Nest Thermostats, cameras, and other Nest devices.\n\n2. **Set Up the Starling Home Hub**:\n   - Connect the hub to your Wi-Fi router using an Ethernet cable.\n   - Follow the included instructions to configure the hub.\n\n3. **Link Your Nest Account**:\n   - Log in to your Nest or Google account through the Starling web interface.\n   - Authorize the Starling Home Hub to access your devices.\n\n4. **Add Nest to HomeKit**:\n   - Open the **Home app** on your iPhone or iPad.\n   - Your Nest Thermostat should automatically appear as a new accessory.\n   - Assign it to a room and start controlling it with HomeKit.\n\n---\n\n### Option 2: Use Homebridge (DIY Solution)\nHomebridge is an open-source platform that acts as a bridge to connect non-HomeKit devices to Apple Home.\n\n#### Steps:\n1. **Set Up Homebridge**:\n   - Install Homebridge on a compatible device like a Raspberry Pi, macOS, or a Docker container. You can find detailed setup instructions on the [Homebridge website](https://homebridge.io).\n\n2. **Install the Nest Plugin**:\n   - After Homebridge is running, install the Nest plugin:\n     ```bash\n     sudo npm install -g homebridge-nest\n     ```\n   - Configure the plugin with your Nest/Google account credentials.\n\n3. **Add Homebridge to HomeKit**:\n   - In the Home app, scan the QR code generated by Homebridge to add it as a bridge.\n   - Your Nest Thermostat will then appear as a HomeKit accessory.\n\n---\n\n### Option 3: Use Google Home Automations\nWhile this doesn't directly integrate with HomeKit, you can use Siri Shortcuts for indirect control:\n- Set up automations in the **Google Home** app.\n- Use the **Shortcuts app** on your iPhone to create Siri commands that interact with Google Home.\n\n---\n\n### Key Notes:\n- **Starling Home Hub** is the simplest and most reliable option.\n- **Homebridge** requires technical knowledge but is free.\n- Native integration between Google Nest and HomeKit does not currently exist, so third-party solutions are necessary.\n\nLet me know if you need help setting up any of these options!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "dfe7c97c-3fd7-4a20-a4a8-c2b4df3cfc1b",
+          "request_id": "8f53268e08af32d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dfe7c97c-3fd7-4a20-a4a8-c2b4df3cfc1b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "44d3b188-1987-4894-add9-a07bc73120dd",
+  "plugin_ids": null,
+  "conversation_id": "6765e809-ff10-8009-bc42-851d8b46b773",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://homebridge.io",
+    "https://www.facebook.com/mark.manthy",
+    "https://www.starlinghome.io"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6765e809-ff10-8009-bc42-851d8b46b773"
+}

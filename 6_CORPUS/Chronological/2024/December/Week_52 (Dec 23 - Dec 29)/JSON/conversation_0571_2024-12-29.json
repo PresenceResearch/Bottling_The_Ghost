@@ -1,0 +1,379 @@
+{
+  "title": "AI Chat Apps Explained",
+  "create_time": 1735505992.73828,
+  "update_time": 1735506348.142535,
+  "mapping": {
+    "8739e593-aef7-4aff-959e-8c0b784f59ae": {
+      "id": "8739e593-aef7-4aff-959e-8c0b784f59ae",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c314c52d-7f60-490f-8051-a938158de443"
+      ]
+    },
+    "c314c52d-7f60-490f-8051-a938158de443": {
+      "id": "c314c52d-7f60-490f-8051-a938158de443",
+      "message": {
+        "id": "c314c52d-7f60-490f-8051-a938158de443",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8739e593-aef7-4aff-959e-8c0b784f59ae",
+      "children": [
+        "900c7844-b076-4248-84a1-8ea8e681aed6"
+      ]
+    },
+    "900c7844-b076-4248-84a1-8ea8e681aed6": {
+      "id": "900c7844-b076-4248-84a1-8ea8e681aed6",
+      "message": {
+        "id": "900c7844-b076-4248-84a1-8ea8e681aed6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c314c52d-7f60-490f-8051-a938158de443",
+      "children": [
+        "c8b104be-f4e5-470b-8cea-610284856c39"
+      ]
+    },
+    "c8b104be-f4e5-470b-8cea-610284856c39": {
+      "id": "c8b104be-f4e5-470b-8cea-610284856c39",
+      "message": {
+        "id": "c8b104be-f4e5-470b-8cea-610284856c39",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735505992.749299,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Tell me about these AI character chat apps I\u2019m seeing. They look like porn. What\u2019s the deal "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8f9cb76508184294-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "900c7844-b076-4248-84a1-8ea8e681aed6",
+      "children": [
+        "303ec106-9113-4bb2-b014-db239612d80f"
+      ]
+    },
+    "303ec106-9113-4bb2-b014-db239612d80f": {
+      "id": "303ec106-9113-4bb2-b014-db239612d80f",
+      "message": {
+        "id": "303ec106-9113-4bb2-b014-db239612d80f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735506011.899949,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c8b104be-f4e5-470b-8cea-610284856c39",
+          "request_id": "8f9cb76508184294-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c8b104be-f4e5-470b-8cea-610284856c39",
+      "children": [
+        "27a940c2-4007-434e-bbdc-c42cc978bb43"
+      ]
+    },
+    "27a940c2-4007-434e-bbdc-c42cc978bb43": {
+      "id": "27a940c2-4007-434e-bbdc-c42cc978bb43",
+      "message": {
+        "id": "27a940c2-4007-434e-bbdc-c42cc978bb43",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735506011.900141,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "AI character chat apps have gained popularity recently for their ability to let users chat with AI-generated personalities or characters, often modeled after fictional or real-life personas. While many of these apps are designed for casual roleplay, storytelling, or productivity purposes, there's a growing subset that markets itself as offering \"intimate\" or NSFW (not safe for work) interactions. Here\u2019s the rundown:\n\n### What Are These Apps?\n1. **Core Concept**: AI chat apps simulate conversations with characters, which can range from historical figures and celebrities to entirely fictional creations. Some apps are purely for entertainment or productivity, like ChatGPT or Character.AI.\n   \n2. **Popular Platforms**:\n   - **Character.AI**: A mainstream option that often avoids explicit content.\n   - **Replika**: Known for offering companionship, which some users take into romantic or sexual contexts.\n   - **NSFW-focused Apps**: Apps like \"DreamGF\" or similar tools explicitly market themselves for adult-oriented or erotic chat.\n\n---\n\n### Why Do They Seem Like \"Porn\"?\n1. **Customizability**: Many apps allow users to create or customize characters to their preferences, including physical and personality traits, which can lead to more intimate interactions.\n   \n2. **User Demand**: A portion of the user base seeks AI interactions for fantasy fulfillment, whether that's romantic, sexual, or simply deeply personal. Some platforms have leaned into this, allowing or encouraging NSFW content.\n   \n3. **Marketing**: Apps in the adult space use suggestive advertising to attract users, which can blur the lines between AI chatting and outright adult content.\n\n---\n\n### Is It a Problem?\n1. **Ethics**: Critics argue these apps could objectify relationships or lead to unrealistic expectations of real-life interactions. Some also worry about the psychological impacts on users who rely too heavily on AI for emotional support or intimacy.\n   \n2. **Legal/Regulatory Concerns**: There\u2019s growing scrutiny around how AI apps handle adult content, including whether they might be accessible to minors or involve problematic depictions.\n   \n3. **Platform Policies**: Some apps, like Replika, have dialed back explicit content to appeal to broader audiences or comply with app store policies.\n\n---\n\n### The Takeaway\nAI chat apps aren\u2019t inherently pornographic, but their potential for intimacy and user-directed customization opens the door for that kind of use. If you\u2019re intrigued or concerned, it\u2019s worth exploring how different platforms approach content moderation and user intent."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "303ec106-9113-4bb2-b014-db239612d80f",
+          "request_id": "8f9cb76508184294-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "303ec106-9113-4bb2-b014-db239612d80f",
+      "children": [
+        "dae3ba8e-d6e4-4232-8471-7e4b7d96d290"
+      ]
+    },
+    "dae3ba8e-d6e4-4232-8471-7e4b7d96d290": {
+      "id": "dae3ba8e-d6e4-4232-8471-7e4b7d96d290",
+      "message": {
+        "id": "dae3ba8e-d6e4-4232-8471-7e4b7d96d290",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735506314.393482,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok this is crazy. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8f9cbf3f086d41b2-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27a940c2-4007-434e-bbdc-c42cc978bb43",
+      "children": [
+        "e36afd22-8b86-4a79-bcc3-d78122c7a52b"
+      ]
+    },
+    "e36afd22-8b86-4a79-bcc3-d78122c7a52b": {
+      "id": "e36afd22-8b86-4a79-bcc3-d78122c7a52b",
+      "message": {
+        "id": "e36afd22-8b86-4a79-bcc3-d78122c7a52b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735506318.475036,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It *is* crazy, right? The fact that AI chat apps have evolved so quickly into this whole subculture is wild. On one hand, it shows how far the technology has come in making conversations feel natural. But on the other, the way some of these apps are being used\u2014or marketed\u2014kind of reflects how people push the boundaries of any new tech.\n\nIt\u2019s like AI has become the next frontier for fantasy and escapism, but instead of just playing games or watching movies, now people are interacting with \"characters\" in a really personal way. It raises so many questions about ethics, tech responsibility, and even how we interact with other humans. Honestly, we\u2019re living in a sci-fi novel right now."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "dae3ba8e-d6e4-4232-8471-7e4b7d96d290",
+          "request_id": "8f9cbf3f086d41b2-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dae3ba8e-d6e4-4232-8471-7e4b7d96d290",
+      "children": [
+        "6f6558a2-1a93-416c-b2d0-c4cf9eb2f46c"
+      ]
+    },
+    "6f6558a2-1a93-416c-b2d0-c4cf9eb2f46c": {
+      "id": "6f6558a2-1a93-416c-b2d0-c4cf9eb2f46c",
+      "message": {
+        "id": "6f6558a2-1a93-416c-b2d0-c4cf9eb2f46c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735506332.984571,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So what if I wanted to try this. What should I do "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8f9cbfb40c0641b2-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e36afd22-8b86-4a79-bcc3-d78122c7a52b",
+      "children": [
+        "904ce9a4-58f8-4ad3-9d8a-2da1c3081824"
+      ]
+    },
+    "904ce9a4-58f8-4ad3-9d8a-2da1c3081824": {
+      "id": "904ce9a4-58f8-4ad3-9d8a-2da1c3081824",
+      "message": {
+        "id": "904ce9a4-58f8-4ad3-9d8a-2da1c3081824",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735506347.632744,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you're curious and want to explore AI character chat apps, here's how you can dip your toes in without getting overwhelmed or running into something you're not comfortable with:\n\n---\n\n### 1. **Choose a Reputable Platform**  \nStart with apps that have a solid reputation and clear boundaries on content. Some options include:  \n- **Character.AI**: Great for storytelling, casual roleplay, and creating fictional characters. It's generally SFW (safe for work) but allows for creative freedom.  \n- **Replika**: Known for companionship-focused interactions. You can adjust settings to make the relationship more romantic if that\u2019s your thing.  \n- **Chai**: A fun option that allows you to chat with a variety of user-created characters, with some NSFW content depending on user settings.  \n\n---\n\n### 2. **Set Clear Intentions**  \nAsk yourself why you\u2019re trying this:  \n- Are you curious about how realistic AI conversations can feel?  \n- Are you looking for creative roleplay or storytelling?  \n- Do you want a bit of companionship or even a laugh?  \n\nKnowing what you\u2019re after will help you pick the right app and stay focused.\n\n---\n\n### 3. **Start Slow and Experiment**  \n- **Explore Pre-Made Characters**: Most platforms have tons of pre-designed characters to interact with. Pick one that aligns with your interests.  \n- **Create Your Own**: If you feel like getting creative, customize a character\u2019s personality, style, and interests.  \n- **Stick to Your Comfort Zone**: Most apps let you decide how deep or personal you want the interactions to go. If things start feeling too weird, back out\u2014it's AI, not a commitment.\n\n---\n\n### 4. **Be Mindful of Costs and Privacy**  \n- Many apps offer free tiers but charge for premium features (like unlimited messages or certain types of interactions). Keep an eye on in-app purchases.  \n- Some platforms store your conversations. Be mindful of what you share\u2014just because it\u2019s AI doesn\u2019t mean it\u2019s private.  \n\n---\n\n### 5. **Experiment, But Don\u2019t Overcommit**  \nWhile these apps can be fun or even fascinating, remember they\u2019re not substitutes for real human connections. Use them for curiosity or creativity, but try not to let them take up too much of your time or emotional energy.  \n\n---\n\nWant recommendations on specific apps to match your vibe? Or are you ready to dive in and see what happens?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6f6558a2-1a93-416c-b2d0-c4cf9eb2f46c",
+          "request_id": "8f9cbfb40c0641b2-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6f6558a2-1a93-416c-b2d0-c4cf9eb2f46c",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "904ce9a4-58f8-4ad3-9d8a-2da1c3081824",
+  "plugin_ids": null,
+  "conversation_id": "6771b848-853c-8009-a907-df8b512fabff",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6771b848-853c-8009-a907-df8b512fabff"
+}

@@ -1,0 +1,243 @@
+{
+  "title": "Plant Care Issues",
+  "create_time": 1722447758.284908,
+  "update_time": 1722447780.078248,
+  "mapping": {
+    "dbbc16f0-8679-453a-8b0f-70a68da6ad03": {
+      "id": "dbbc16f0-8679-453a-8b0f-70a68da6ad03",
+      "message": null,
+      "parent": null,
+      "children": [
+        "64afc047-25a5-4e68-962a-f541027f9fc7"
+      ]
+    },
+    "64afc047-25a5-4e68-962a-f541027f9fc7": {
+      "id": "64afc047-25a5-4e68-962a-f541027f9fc7",
+      "message": {
+        "id": "64afc047-25a5-4e68-962a-f541027f9fc7",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dbbc16f0-8679-453a-8b0f-70a68da6ad03",
+      "children": [
+        "6e4eb831-73e6-4a21-ba6e-0007607f08ff"
+      ]
+    },
+    "6e4eb831-73e6-4a21-ba6e-0007607f08ff": {
+      "id": "6e4eb831-73e6-4a21-ba6e-0007607f08ff",
+      "message": {
+        "id": "6e4eb831-73e6-4a21-ba6e-0007607f08ff",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722447759.407198,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-f29phNpAoyEo41VzA8StgMbI",
+              "size_bytes": 517517,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-QdU71Tj64PFPbpdYMxS0cvw3",
+              "size_bytes": 429569,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "What\u2019s wrong with this plant "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-f29phNpAoyEo41VzA8StgMbI",
+              "width": 1152,
+              "size": 517517,
+              "name": "6A0603E4-C0AF-4F12-9428-DD9AF834C2C7.jpeg",
+              "height": 1536
+            },
+            {
+              "name": "B91865BA-81C4-411C-8E33-A89CC1F6E682.jpeg",
+              "size": 429569,
+              "height": 1536,
+              "id": "file-QdU71Tj64PFPbpdYMxS0cvw3",
+              "width": 1152
+            }
+          ],
+          "request_id": "8abf62d70a7dc342-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "64afc047-25a5-4e68-962a-f541027f9fc7",
+      "children": [
+        "25fd1f7f-6b1d-4bb7-834e-dabc0a034894"
+      ]
+    },
+    "25fd1f7f-6b1d-4bb7-834e-dabc0a034894": {
+      "id": "25fd1f7f-6b1d-4bb7-834e-dabc0a034894",
+      "message": {
+        "id": "25fd1f7f-6b1d-4bb7-834e-dabc0a034894",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722447778.558669,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6e4eb831-73e6-4a21-ba6e-0007607f08ff",
+          "request_id": "8abf62d70a7dc342-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6e4eb831-73e6-4a21-ba6e-0007607f08ff",
+      "children": [
+        "950138f5-2275-49b8-bc96-90ef6ad7fd30"
+      ]
+    },
+    "950138f5-2275-49b8-bc96-90ef6ad7fd30": {
+      "id": "950138f5-2275-49b8-bc96-90ef6ad7fd30",
+      "message": {
+        "id": "950138f5-2275-49b8-bc96-90ef6ad7fd30",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722447778.558771,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It looks like your plant is suffering from a few possible issues. Here are some potential causes and solutions:\n\n1. **Overwatering or Underwatering**:\n   - Overwatering can lead to root rot, causing the leaves to turn brown and die. Ensure the soil is well-draining and not waterlogged.\n   - Underwatering can cause the plant to dry out. Check the soil moisture and water when the top inch of soil feels dry.\n\n2. **Low Humidity**:\n   - If the air is too dry, especially in indoor environments, the leaves can dry out. Increase humidity around the plant by misting it or using a humidifier.\n\n3. **Inadequate Light**:\n   - Ensure the plant is getting the right amount of light. Most plants prefer bright, indirect light. Too much direct sunlight can scorch the leaves, while too little light can cause them to die off.\n\n4. **Temperature Extremes**:\n   - Exposure to cold drafts or high heat can stress the plant. Keep it in a stable, moderate temperature environment.\n\n5. **Pests or Disease**:\n   - Inspect the plant for signs of pests like spider mites or disease. Treat accordingly if you find any.\n\n6. **Nutrient Deficiency**:\n   - Ensure the plant is getting proper nutrients. Use a balanced fertilizer according to the plant's needs.\n\nCheck these factors and adjust care as needed to help your plant recover. If you have more information about the plant type and its usual care routine, that could also help in diagnosing the problem more accurately."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "25fd1f7f-6b1d-4bb7-834e-dabc0a034894",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8abf62d70a7dc342-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "25fd1f7f-6b1d-4bb7-834e-dabc0a034894",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "950138f5-2275-49b8-bc96-90ef6ad7fd30",
+  "plugin_ids": null,
+  "conversation_id": "a8319715-1d7f-44b8-9b94-02f4d99ed812",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "a8319715-1d7f-44b8-9b94-02f4d99ed812"
+}

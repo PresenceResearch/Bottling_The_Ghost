@@ -1,0 +1,361 @@
+{
+  "title": "Speeding Penalties in Maryland",
+  "create_time": 1699568257.107904,
+  "update_time": 1699568402.42216,
+  "mapping": {
+    "aaa1c7fb-c2fa-40f2-9296-90fb4ad2bff7": {
+      "id": "aaa1c7fb-c2fa-40f2-9296-90fb4ad2bff7",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c29655bc-cc0e-451d-88fa-67135489fb29"
+      ]
+    },
+    "c29655bc-cc0e-451d-88fa-67135489fb29": {
+      "id": "c29655bc-cc0e-451d-88fa-67135489fb29",
+      "message": {
+        "id": "c29655bc-cc0e-451d-88fa-67135489fb29",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1c7fb-c2fa-40f2-9296-90fb4ad2bff7",
+      "children": [
+        "aaa22fa1-8de5-46e1-ad3c-7c63f46fd662"
+      ]
+    },
+    "aaa22fa1-8de5-46e1-ad3c-7c63f46fd662": {
+      "id": "aaa22fa1-8de5-46e1-ad3c-7c63f46fd662",
+      "message": {
+        "id": "aaa22fa1-8de5-46e1-ad3c-7c63f46fd662",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568257.108441,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please describe the penalties of driving 90 mph in a 55 mph speed limit in maryland"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c29655bc-cc0e-451d-88fa-67135489fb29",
+      "children": [
+        "0423cec7-66d8-4d65-b9f2-6f7915e6667c"
+      ]
+    },
+    "0423cec7-66d8-4d65-b9f2-6f7915e6667c": {
+      "id": "0423cec7-66d8-4d65-b9f2-6f7915e6667c",
+      "message": {
+        "id": "0423cec7-66d8-4d65-b9f2-6f7915e6667c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568283.419959,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Driving significantly over the speed limit, such as going 90 mph in a 55 mph zone, is a serious offense in Maryland and most other places. In Maryland, this could be considered as a major traffic violation that comes with severe penalties. Here are some of the potential consequences:\n\n1. **Heavy Fines**: The fines for speeding in Maryland can be substantial. Going 35 mph over the speed limit could result in fines that are hundreds of dollars.\n\n2. **Points on Driver's License**: Maryland operates on a point system, where points are added to your driver's license for traffic violations. Speeding at such a high rate could result in a significant number of points, which can affect insurance rates and lead to further penalties.\n\n3. **Possible License Suspension**: Accumulating too many points on your license can lead to suspension. Speeding 35 mph over the limit could potentially put you at risk for this.\n\n4. **Mandatory Court Appearance**: For extreme cases of speeding, a court appearance may be mandated. This can add legal fees to the financial penalties and has the potential for additional penalties as determined by the court.\n\n5. **Increased Insurance Premiums**: Insurance companies often raise premiums for drivers with speeding violations, especially for such a serious offense. This can have a long-term financial impact.\n\n6. **Traffic School**: The court may order the offender to attend a driver improvement program or traffic school, which usually comes at the driver\u2019s expense.\n\n7. **Criminal Charges**: In some cases, particularly where reckless driving is involved, speeding could lead to criminal charges.\n\n8. **Impact on Employment**: For those whose job requires a clean driving record, such violations can impact employment status or future job prospects.\n\nPlease note that the exact penalties can vary depending on the specifics of the case, including the driver's previous driving record, whether the speeding occurred in a work zone or school zone, and other mitigating or aggravating circumstances. It's always best to obey traffic laws and drive safely to avoid these penalties."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "aaa22fa1-8de5-46e1-ad3c-7c63f46fd662",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa22fa1-8de5-46e1-ad3c-7c63f46fd662",
+      "children": [
+        "aaa2d30d-7ff3-43dc-8d73-ae5c419c74c0"
+      ]
+    },
+    "aaa2d30d-7ff3-43dc-8d73-ae5c419c74c0": {
+      "id": "aaa2d30d-7ff3-43dc-8d73-ae5c419c74c0",
+      "message": {
+        "id": "aaa2d30d-7ff3-43dc-8d73-ae5c419c74c0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568298.482418,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "can it be considered reckless driving?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0423cec7-66d8-4d65-b9f2-6f7915e6667c",
+      "children": [
+        "85be73c6-8c56-4cd7-8866-6681381c9be8"
+      ]
+    },
+    "85be73c6-8c56-4cd7-8866-6681381c9be8": {
+      "id": "85be73c6-8c56-4cd7-8866-6681381c9be8",
+      "message": {
+        "id": "85be73c6-8c56-4cd7-8866-6681381c9be8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568318.069351,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, driving at 90 mph in a 55 mph zone can be considered reckless driving in Maryland. Reckless driving is defined under Maryland law as driving in a manner that indicates a wanton or willful disregard for the safety of persons or property. Speeding 35 mph over the limit could certainly fall into this category.\n\nHere are some points about how this behavior might be classified as reckless driving:\n\n1. **Excessive Speed**: Going significantly over the speed limit is one of the most common factors in classifying a driving behavior as reckless.\n\n2. **Potential for Harm**: At such high speeds, the driver\u2019s ability to react to road conditions, traffic signals, pedestrians, and other vehicles is greatly reduced, increasing the potential for accidents.\n\n3. **Legal Definition**: Maryland Transportation Code typically defines reckless driving as driving with a wanton disregard for the safety of others, which could easily include driving at such excessive speeds.\n\n4. **Criminal Offense**: Reckless driving is not just a traffic infraction; it's a criminal offense that can result in a misdemeanor charge on one's record.\n\n5. **Aggravating Circumstances**: If the speeding occurs in a particularly dangerous context, like in a school zone or in poor weather conditions, it could further support a reckless driving charge.\n\nThe determination of whether speeding constitutes reckless driving can depend on the judgment of the law enforcement officer and the court. If charged with reckless driving, it's often advisable for the person to seek legal counsel to understand the full implications and prepare a defense or seek a plea if necessary."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "aaa2d30d-7ff3-43dc-8d73-ae5c419c74c0",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2d30d-7ff3-43dc-8d73-ae5c419c74c0",
+      "children": [
+        "aaa217f7-d1fe-4cd5-8414-d7b2d91272c8"
+      ]
+    },
+    "aaa217f7-d1fe-4cd5-8414-d7b2d91272c8": {
+      "id": "aaa217f7-d1fe-4cd5-8414-d7b2d91272c8",
+      "message": {
+        "id": "aaa217f7-d1fe-4cd5-8414-d7b2d91272c8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568336.017026,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "what are the penalties for reckless driving in maryland"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85be73c6-8c56-4cd7-8866-6681381c9be8",
+      "children": [
+        "cd005a1e-c730-4201-9f6a-c7d6e9088df7"
+      ]
+    },
+    "cd005a1e-c730-4201-9f6a-c7d6e9088df7": {
+      "id": "cd005a1e-c730-4201-9f6a-c7d6e9088df7",
+      "message": {
+        "id": "cd005a1e-c730-4201-9f6a-c7d6e9088df7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568359.010504,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Reckless driving is a serious traffic offense in Maryland, and the penalties reflect its severity. Here are the potential penalties for a reckless driving conviction in Maryland as of my last update:\n\n1. **Fines**: The maximum fine for a first offense of reckless driving can be up to $1,000.\n\n2. **Points**: If convicted of reckless driving, 6 points will be added to your driving record. Accumulating points can lead to higher insurance premiums and the potential for license suspension.\n\n3. **Imprisonment**: Reckless driving can carry a potential jail term. For a first offense, you could face up to one year in jail.\n\n4. **License Suspension or Revocation**: Depending on the severity of the offense and the driver\u2019s record, the Maryland Motor Vehicle Administration (MVA) may suspend or revoke the driver's license.\n\n5. **Mandatory Driver Improvement Programs**: The court may order enrollment in a driver improvement program.\n\n6. **Criminal Record**: Since reckless driving is a misdemeanor in Maryland, a conviction will result in a criminal record, which can have long-term consequences for employment and other aspects of life that require background checks.\n\n7. **Probation**: Instead of, or in addition to, other penalties, a person may be placed on probation, during which they must comply with specific terms set by the court.\n\nIt's important to note that these penalties can be affected by the circumstances of the offense, such as the presence of alcohol, the occurrence of an accident, or if there were any injuries or fatalities involved. Repeat offenses will typically result in harsher penalties. Legal outcomes can also vary widely based on the specifics of the case, the defense presented, and the jurisdiction. Legal representation can significantly impact the outcome in such cases."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "aaa217f7-d1fe-4cd5-8414-d7b2d91272c8",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa217f7-d1fe-4cd5-8414-d7b2d91272c8",
+      "children": [
+        "aaa2f498-b6d5-4583-8b9a-1c0f85a00f6d"
+      ]
+    },
+    "aaa2f498-b6d5-4583-8b9a-1c0f85a00f6d": {
+      "id": "aaa2f498-b6d5-4583-8b9a-1c0f85a00f6d",
+      "message": {
+        "id": "aaa2f498-b6d5-4583-8b9a-1c0f85a00f6d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568371.216408,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "what constitutes reckless driving"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cd005a1e-c730-4201-9f6a-c7d6e9088df7",
+      "children": [
+        "f968a558-1bc7-4dc1-ba73-787f086ef855"
+      ]
+    },
+    "f968a558-1bc7-4dc1-ba73-787f086ef855": {
+      "id": "f968a558-1bc7-4dc1-ba73-787f086ef855",
+      "message": {
+        "id": "f968a558-1bc7-4dc1-ba73-787f086ef855",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699568402.418621,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Reckless driving is a traffic violation characterized by a disregard for the rules of the road and an indifference to the safety of persons or property. In Maryland, as in many jurisdictions, the specifics of what constitutes reckless driving can be found in the state's transportation code. Although laws can vary by state, common actions that may constitute reckless driving include:\n\n1. **Excessive Speed**: Driving at a speed that far exceeds the posted speed limit or is too fast for the current road, traffic, or weather conditions.\n\n2. **Aggressive Driving**: Engaging in a series of acts such as tailgating, changing lanes without signaling, or cutting off other drivers.\n\n3. **Evading Traffic Control**: Ignoring traffic signs and signals, or failing to yield the right-of-way.\n\n4. **Passing Dangerously**: Overtaking other vehicles in no-passing zones, on blind curves, or in other situations where it is unsafe to do so.\n\n5. **Driving Under the Influence**: Operating a vehicle while impaired by alcohol or drugs, which is often charged separately but can also be a factor in a reckless driving charge.\n\n6. **Racing**: Participating in unauthorized speed contests on public roads.\n\n7. **Eluding Police**: Attempting to flee or elude a law enforcement officer.\n\n8. **Driving a Vehicle Known to Be Unsafe**: Operating a vehicle with severe mechanical deficiencies that pose a danger to others.\n\nThe legal definition of reckless driving in Maryland is broad enough to cover a wide range of dangerous driving behaviors that show a wanton or willful disregard for safety. Each case of reckless driving is unique, and whether a driving behavior qualifies as reckless will typically depend on the totality of the circumstances and the discretion of law enforcement officers and courts."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "aaa2f498-b6d5-4583-8b9a-1c0f85a00f6d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f498-b6d5-4583-8b9a-1c0f85a00f6d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f968a558-1bc7-4dc1-ba73-787f086ef855",
+  "plugin_ids": null,
+  "conversation_id": "eca94f74-fdf7-4bab-8922-7f0b865f2033",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "eca94f74-fdf7-4bab-8922-7f0b865f2033"
+}

@@ -1,0 +1,1354 @@
+{
+  "title": "Gingerbread Man Suit Images",
+  "create_time": 1702218604.95851,
+  "update_time": 1702855085.099998,
+  "mapping": {
+    "3E282749-C573-445E-BAE5-B4868C24ADBD": {
+      "id": "3E282749-C573-445E-BAE5-B4868C24ADBD",
+      "message": null,
+      "parent": null,
+      "children": [
+        "ee770506-2a6a-460b-b19f-4a352f967464"
+      ]
+    },
+    "ee770506-2a6a-460b-b19f-4a352f967464": {
+      "id": "ee770506-2a6a-460b-b19f-4a352f967464",
+      "message": {
+        "id": "ee770506-2a6a-460b-b19f-4a352f967464",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3E282749-C573-445E-BAE5-B4868C24ADBD",
+      "children": [
+        "4757aff9-b484-4e65-9b91-8dcdf8a110a4"
+      ]
+    },
+    "4757aff9-b484-4e65-9b91-8dcdf8a110a4": {
+      "id": "4757aff9-b484-4e65-9b91-8dcdf8a110a4",
+      "message": {
+        "id": "4757aff9-b484-4e65-9b91-8dcdf8a110a4",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ee770506-2a6a-460b-b19f-4a352f967464",
+      "children": [
+        "e673358a-ae45-4001-819d-013a012a5ff0"
+      ]
+    },
+    "e673358a-ae45-4001-819d-013a012a5ff0": {
+      "id": "e673358a-ae45-4001-819d-013a012a5ff0",
+      "message": {
+        "id": "e673358a-ae45-4001-819d-013a012a5ff0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218604.959182,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of the gingerbread man in a three piece suit "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4757aff9-b484-4e65-9b91-8dcdf8a110a4",
+      "children": [
+        "b719a956-ea02-4d85-b951-238003f99d85"
+      ]
+    },
+    "b719a956-ea02-4d85-b951-238003f99d85": {
+      "id": "b719a956-ea02-4d85-b951-238003f99d85",
+      "message": {
+        "id": "b719a956-ea02-4d85-b951-238003f99d85",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218623.767869,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A gingerbread man wearing a stylish three-piece suit. The suit is well-tailored, featuring a classic single-breasted jacket, a matching vest, and trousers. The gingerbread man's buttons are made of icing, and he has a friendly, inviting smile. His suit is in a deep navy blue color, contrasting with the warm brown of the gingerbread. The gingerbread man is standing confidently with one hand in his trouser pocket, against a simple, neutral background.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e673358a-ae45-4001-819d-013a012a5ff0",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "e673358a-ae45-4001-819d-013a012a5ff0",
+      "children": [
+        "e74d3744-2693-4367-9731-bfb294c72b28"
+      ]
+    },
+    "e74d3744-2693-4367-9731-bfb294c72b28": {
+      "id": "e74d3744-2693-4367-9731-bfb294c72b28",
+      "message": {
+        "id": "e74d3744-2693-4367-9731-bfb294c72b28",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218623.76987,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ECcnExCEZ5F0fwBC3QAzhFBS",
+              "size_bytes": 126148,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "UZFNEuBdankgyYtZ",
+                  "prompt": "A gingerbread man wearing a stylish three-piece suit. The suit is well-tailored, featuring a classic single-breasted jacket, a matching vest, and trousers. The gingerbread man's buttons are made of icing, and he has a friendly, inviting smile. His suit is in a deep navy blue color, contrasting with the warm brown of the gingerbread. The gingerbread man is standing confidently with one hand in his trouser pocket, against a simple, neutral background.",
+                  "seed": 4207837368,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-zMKJBVHXw10eIrrKFqYRz5BD",
+              "size_bytes": 137036,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "ORW1iSrbL9165bUQ",
+                  "prompt": "A gingerbread man wearing a stylish three-piece suit. The suit is well-tailored, featuring a classic single-breasted jacket, a matching vest, and trousers. The gingerbread man's buttons are made of icing, and he has a friendly, inviting smile. His suit is in a deep navy blue color, contrasting with the warm brown of the gingerbread. The gingerbread man is standing confidently with one hand in his trouser pocket, against a simple, neutral background.",
+                  "seed": 1088629546,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "b719a956-ea02-4d85-b951-238003f99d85",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b719a956-ea02-4d85-b951-238003f99d85",
+      "children": [
+        "a1a82e58-6f1b-4ad5-bbda-d07b257d8613"
+      ]
+    },
+    "a1a82e58-6f1b-4ad5-bbda-d07b257d8613": {
+      "id": "a1a82e58-6f1b-4ad5-bbda-d07b257d8613",
+      "message": {
+        "id": "a1a82e58-6f1b-4ad5-bbda-d07b257d8613",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218623.770326,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e74d3744-2693-4367-9731-bfb294c72b28",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e74d3744-2693-4367-9731-bfb294c72b28",
+      "children": [
+        "315b5360-5eee-451a-b2b9-d585feb680aa"
+      ]
+    },
+    "315b5360-5eee-451a-b2b9-d585feb680aa": {
+      "id": "315b5360-5eee-451a-b2b9-d585feb680aa",
+      "message": {
+        "id": "315b5360-5eee-451a-b2b9-d585feb680aa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218623.770576,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the gingerbread man dressed in a stylish three-piece suit."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "a1a82e58-6f1b-4ad5-bbda-d07b257d8613",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a1a82e58-6f1b-4ad5-bbda-d07b257d8613",
+      "children": [
+        "53b8a5ca-04a4-4df0-844a-444da472df62"
+      ]
+    },
+    "53b8a5ca-04a4-4df0-844a-444da472df62": {
+      "id": "53b8a5ca-04a4-4df0-844a-444da472df62",
+      "message": {
+        "id": "53b8a5ca-04a4-4df0-844a-444da472df62",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218680.082975,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a white male in a three piece corduroy suit. Please make the suit look like a gingerbread man costume "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "315b5360-5eee-451a-b2b9-d585feb680aa",
+      "children": [
+        "3d91e72f-bcfc-493d-82d3-7c93279e467a"
+      ]
+    },
+    "3d91e72f-bcfc-493d-82d3-7c93279e467a": {
+      "id": "3d91e72f-bcfc-493d-82d3-7c93279e467a",
+      "message": {
+        "id": "3d91e72f-bcfc-493d-82d3-7c93279e467a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218704.736604,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A white male wearing a unique three-piece corduroy suit designed to resemble a gingerbread man costume. The suit includes a single-breasted jacket, a vest, and trousers, all made of textured corduroy fabric in a rich brown color, mimicking the appearance of gingerbread. The suit is adorned with decorative icing-like trim along the edges and buttonholes, creating an playful gingerbread man look. The man is smiling and standing confidently, showcasing the creative and whimsical nature of his outfit, against a simple background.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "53b8a5ca-04a4-4df0-844a-444da472df62",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "53b8a5ca-04a4-4df0-844a-444da472df62",
+      "children": [
+        "5368dc7c-0a41-4dd5-ab46-a6d349157ae4"
+      ]
+    },
+    "5368dc7c-0a41-4dd5-ab46-a6d349157ae4": {
+      "id": "5368dc7c-0a41-4dd5-ab46-a6d349157ae4",
+      "message": {
+        "id": "5368dc7c-0a41-4dd5-ab46-a6d349157ae4",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218704.737803,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-bUMtpFYEpiNhvqAXohJ191QL",
+              "size_bytes": 201172,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "zIzRjUCstRGuTNhv",
+                  "prompt": "A white male wearing a unique three-piece corduroy suit designed to resemble a gingerbread man costume. The suit includes a single-breasted jacket, a vest, and trousers, all made of textured corduroy fabric in a rich brown color, mimicking the appearance of gingerbread. The suit is adorned with decorative icing-like trim along the edges and buttonholes, creating an playful gingerbread man look. The man is smiling and standing confidently, showcasing the creative and whimsical nature of his outfit, against a simple background.",
+                  "seed": 51001112,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-EVo7ghf8bYhGVjHq77oLvJHk",
+              "size_bytes": 221498,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "gvj84dlLNxSCvk3y",
+                  "prompt": "A white male wearing a unique three-piece corduroy suit designed to resemble a gingerbread man costume. The suit includes a single-breasted jacket, a vest, and trousers, all made of textured corduroy fabric in a rich brown color, mimicking the appearance of gingerbread. The suit is adorned with decorative icing-like trim along the edges and buttonholes, creating an playful gingerbread man look. The man is smiling and standing confidently, showcasing the creative and whimsical nature of his outfit, against a simple background.",
+                  "seed": 2555403837,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "3d91e72f-bcfc-493d-82d3-7c93279e467a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d91e72f-bcfc-493d-82d3-7c93279e467a",
+      "children": [
+        "6e02f980-ae67-43ba-939e-36016f29d4de"
+      ]
+    },
+    "6e02f980-ae67-43ba-939e-36016f29d4de": {
+      "id": "6e02f980-ae67-43ba-939e-36016f29d4de",
+      "message": {
+        "id": "6e02f980-ae67-43ba-939e-36016f29d4de",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218704.7381,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "5368dc7c-0a41-4dd5-ab46-a6d349157ae4",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5368dc7c-0a41-4dd5-ab46-a6d349157ae4",
+      "children": [
+        "27ba3528-ee3a-4f1a-9771-4fbae10bb326"
+      ]
+    },
+    "27ba3528-ee3a-4f1a-9771-4fbae10bb326": {
+      "id": "27ba3528-ee3a-4f1a-9771-4fbae10bb326",
+      "message": {
+        "id": "27ba3528-ee3a-4f1a-9771-4fbae10bb326",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218704.738263,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the white male wearing a three-piece corduroy suit designed to look like a gingerbread man costume."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "6e02f980-ae67-43ba-939e-36016f29d4de",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6e02f980-ae67-43ba-939e-36016f29d4de",
+      "children": [
+        "23a18786-7589-437c-9097-db50402f781c"
+      ]
+    },
+    "23a18786-7589-437c-9097-db50402f781c": {
+      "id": "23a18786-7589-437c-9097-db50402f781c",
+      "message": {
+        "id": "23a18786-7589-437c-9097-db50402f781c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218775.945309,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please make the white red gingham and a solid dark green tir"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27ba3528-ee3a-4f1a-9771-4fbae10bb326",
+      "children": [
+        "06c782bf-75ab-4669-aa32-40734193e71d"
+      ]
+    },
+    "06c782bf-75ab-4669-aa32-40734193e71d": {
+      "id": "06c782bf-75ab-4669-aa32-40734193e71d",
+      "message": {
+        "id": "06c782bf-75ab-4669-aa32-40734193e71d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218797.755017,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A white male wearing a creative three-piece suit with a red gingham pattern, designed to resemble a gingerbread man costume. The suit consists of a single-breasted jacket, vest, and trousers, all featuring the distinctive red and white gingham pattern. The suit maintains the playful gingerbread man aesthetic with decorative icing-like trim. He's also wearing a solid dark green tie, adding a festive touch. The man has a cheerful demeanor, standing confidently to showcase his unique and whimsical outfit, set against a simple background.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "23a18786-7589-437c-9097-db50402f781c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "23a18786-7589-437c-9097-db50402f781c",
+      "children": [
+        "b841e840-2a0b-4a08-9980-e8ca2ce4fc68"
+      ]
+    },
+    "b841e840-2a0b-4a08-9980-e8ca2ce4fc68": {
+      "id": "b841e840-2a0b-4a08-9980-e8ca2ce4fc68",
+      "message": {
+        "id": "b841e840-2a0b-4a08-9980-e8ca2ce4fc68",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218797.756354,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-xR1YAnOOZrIOUgLCdjFjbGSM",
+              "size_bytes": 301100,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "4Ezr6NJMMKmeGAVJ",
+                  "prompt": "A white male wearing a creative three-piece suit with a red gingham pattern, designed to resemble a gingerbread man costume. The suit consists of a single-breasted jacket, vest, and trousers, all featuring the distinctive red and white gingham pattern. The suit maintains the playful gingerbread man aesthetic with decorative icing-like trim. He's also wearing a solid dark green tie, adding a festive touch. The man has a cheerful demeanor, standing confidently to showcase his unique and whimsical outfit, set against a simple background.",
+                  "seed": 3663224504,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-4ZZoP2i2dAvuGvsxkgKdFp5w",
+              "size_bytes": 344148,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "vI1DkCF8WToSnSZW",
+                  "prompt": "A white male wearing a creative three-piece suit with a red gingham pattern, designed to resemble a gingerbread man costume. The suit consists of a single-breasted jacket, vest, and trousers, all featuring the distinctive red and white gingham pattern. The suit maintains the playful gingerbread man aesthetic with decorative icing-like trim. He's also wearing a solid dark green tie, adding a festive touch. The man has a cheerful demeanor, standing confidently to showcase his unique and whimsical outfit, set against a simple background.",
+                  "seed": 4061742696,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "06c782bf-75ab-4669-aa32-40734193e71d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "06c782bf-75ab-4669-aa32-40734193e71d",
+      "children": [
+        "8817e817-8f58-4d84-9be8-8042e5279d25"
+      ]
+    },
+    "8817e817-8f58-4d84-9be8-8042e5279d25": {
+      "id": "8817e817-8f58-4d84-9be8-8042e5279d25",
+      "message": {
+        "id": "8817e817-8f58-4d84-9be8-8042e5279d25",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218797.756659,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "b841e840-2a0b-4a08-9980-e8ca2ce4fc68",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b841e840-2a0b-4a08-9980-e8ca2ce4fc68",
+      "children": [
+        "51730f8d-e620-464d-bae1-f62124c04ad1"
+      ]
+    },
+    "51730f8d-e620-464d-bae1-f62124c04ad1": {
+      "id": "51730f8d-e620-464d-bae1-f62124c04ad1",
+      "message": {
+        "id": "51730f8d-e620-464d-bae1-f62124c04ad1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218797.7568,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the white male in a red gingham three-piece suit with a solid dark green tie, designed to look like a gingerbread man costume."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "8817e817-8f58-4d84-9be8-8042e5279d25",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8817e817-8f58-4d84-9be8-8042e5279d25",
+      "children": [
+        "3d9815eb-1c26-4b4c-846c-2eaab4d7f6d8"
+      ]
+    },
+    "3d9815eb-1c26-4b4c-846c-2eaab4d7f6d8": {
+      "id": "3d9815eb-1c26-4b4c-846c-2eaab4d7f6d8",
+      "message": {
+        "id": "3d9815eb-1c26-4b4c-846c-2eaab4d7f6d8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218837.508527,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a white male in a three piece corduroy suit. Please make the suit look like a gingerbread man costume "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "51730f8d-e620-464d-bae1-f62124c04ad1",
+      "children": [
+        "1e63a7f3-2f8a-4d34-b14c-302f0f31aaf8"
+      ]
+    },
+    "1e63a7f3-2f8a-4d34-b14c-302f0f31aaf8": {
+      "id": "1e63a7f3-2f8a-4d34-b14c-302f0f31aaf8",
+      "message": {
+        "id": "1e63a7f3-2f8a-4d34-b14c-302f0f31aaf8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218839.98726,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A white male wearing a"
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "3d9815eb-1c26-4b4c-846c-2eaab4d7f6d8",
+          "finish_details": {
+            "type": "interrupted"
+          },
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "3d9815eb-1c26-4b4c-846c-2eaab4d7f6d8",
+      "children": [
+        "67c0bb7e-075b-46e9-a963-4116c7423edf"
+      ]
+    },
+    "67c0bb7e-075b-46e9-a963-4116c7423edf": {
+      "id": "67c0bb7e-075b-46e9-a963-4116c7423edf",
+      "message": {
+        "id": "67c0bb7e-075b-46e9-a963-4116c7423edf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218877.169565,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a white male in a three piece corduroy suit. Please make the suit look like a gingerbread man costume and please make the shirt red plaid gingham and the tie a solid dark green "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e63a7f3-2f8a-4d34-b14c-302f0f31aaf8",
+      "children": [
+        "742257fc-8ef4-46e3-9744-b0efca8561a7"
+      ]
+    },
+    "742257fc-8ef4-46e3-9744-b0efca8561a7": {
+      "id": "742257fc-8ef4-46e3-9744-b0efca8561a7",
+      "message": {
+        "id": "742257fc-8ef4-46e3-9744-b0efca8561a7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218899.857875,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A white male wearing a three-piece corduroy suit designed to resemble a gingerbread man costume. The suit includes a tailored jacket, vest, and trousers, all made from textured brown corduroy, mimicking the appearance of gingerbread. The suit is detailed with icing-like trim and candy-like buttons for a playful, festive look. Under the jacket, he wears a red plaid gingham shirt, adding a vibrant contrast. Completing the outfit is a solid dark green tie, enhancing the festive, whimsical theme. The man is standing confidently, against a simple background.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "67c0bb7e-075b-46e9-a963-4116c7423edf",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "67c0bb7e-075b-46e9-a963-4116c7423edf",
+      "children": [
+        "4e69bb7d-fa01-4293-b32e-1e7af5b48ae5"
+      ]
+    },
+    "4e69bb7d-fa01-4293-b32e-1e7af5b48ae5": {
+      "id": "4e69bb7d-fa01-4293-b32e-1e7af5b48ae5",
+      "message": {
+        "id": "4e69bb7d-fa01-4293-b32e-1e7af5b48ae5",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218899.859107,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-qSyrvrz2joUNqkDVDXymOIYN",
+              "size_bytes": 252558,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "96ZXe0MM2yUeRTxx",
+                  "prompt": "A white male wearing a three-piece corduroy suit designed to resemble a gingerbread man costume. The suit includes a tailored jacket, vest, and trousers, all made from textured brown corduroy, mimicking the appearance of gingerbread. The suit is detailed with icing-like trim and candy-like buttons for a playful, festive look. Under the jacket, he wears a red plaid gingham shirt, adding a vibrant contrast. Completing the outfit is a solid dark green tie, enhancing the festive, whimsical theme. The man is standing confidently, against a simple background.",
+                  "seed": 3446406273,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-77xdzb3T6P1GtxyuopZEE4PD",
+              "size_bytes": 231642,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "odhMymBu6ksy3kJ4",
+                  "prompt": "A white male wearing a three-piece corduroy suit designed to resemble a gingerbread man costume. The suit includes a tailored jacket, vest, and trousers, all made from textured brown corduroy, mimicking the appearance of gingerbread. The suit is detailed with icing-like trim and candy-like buttons for a playful, festive look. Under the jacket, he wears a red plaid gingham shirt, adding a vibrant contrast. Completing the outfit is a solid dark green tie, enhancing the festive, whimsical theme. The man is standing confidently, against a simple background.",
+                  "seed": 203548744,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "742257fc-8ef4-46e3-9744-b0efca8561a7",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "742257fc-8ef4-46e3-9744-b0efca8561a7",
+      "children": [
+        "5686f3d1-8cce-45a8-bde6-f015bd7fabcc"
+      ]
+    },
+    "5686f3d1-8cce-45a8-bde6-f015bd7fabcc": {
+      "id": "5686f3d1-8cce-45a8-bde6-f015bd7fabcc",
+      "message": {
+        "id": "5686f3d1-8cce-45a8-bde6-f015bd7fabcc",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218899.859399,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "4e69bb7d-fa01-4293-b32e-1e7af5b48ae5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4e69bb7d-fa01-4293-b32e-1e7af5b48ae5",
+      "children": [
+        "6add6a61-d60e-46e9-826a-4e35b82c87f1"
+      ]
+    },
+    "6add6a61-d60e-46e9-826a-4e35b82c87f1": {
+      "id": "6add6a61-d60e-46e9-826a-4e35b82c87f1",
+      "message": {
+        "id": "6add6a61-d60e-46e9-826a-4e35b82c87f1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218899.859571,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the white male wearing a three-piece corduroy suit designed to look like a gingerbread man costume, with a red plaid gingham shirt and a solid dark green tie."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "5686f3d1-8cce-45a8-bde6-f015bd7fabcc",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5686f3d1-8cce-45a8-bde6-f015bd7fabcc",
+      "children": [
+        "da7a8d87-5f36-46c2-9720-0a9b6fca202f"
+      ]
+    },
+    "da7a8d87-5f36-46c2-9720-0a9b6fca202f": {
+      "id": "da7a8d87-5f36-46c2-9720-0a9b6fca202f",
+      "message": {
+        "id": "da7a8d87-5f36-46c2-9720-0a9b6fca202f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218964.043634,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please make a few more "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6add6a61-d60e-46e9-826a-4e35b82c87f1",
+      "children": [
+        "7c2bd40a-ad22-4343-aae5-fdbf9e2502e3"
+      ]
+    },
+    "7c2bd40a-ad22-4343-aae5-fdbf9e2502e3": {
+      "id": "7c2bd40a-ad22-4343-aae5-fdbf9e2502e3",
+      "message": {
+        "id": "7c2bd40a-ad22-4343-aae5-fdbf9e2502e3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218987.683165,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A white male wearing a whimsical three-piece corduroy suit designed to resemble a gingerbread man costume. The suit, including a jacket, vest, and trousers, is made from textured brown corduroy, styled to mimic the look of gingerbread. The suit is embellished with icing-like white trim and colorful candy-like buttons. He's wearing a vibrant red plaid gingham shirt underneath the suit, providing a striking contrast. Additionally, a solid dark green tie completes his festive outfit. The man stands confidently, showcasing his unique and playful attire, set against a simple, unobtrusive background.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "da7a8d87-5f36-46c2-9720-0a9b6fca202f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "da7a8d87-5f36-46c2-9720-0a9b6fca202f",
+      "children": [
+        "07537530-1d5e-4f49-9e22-ebb69eed4ac6"
+      ]
+    },
+    "07537530-1d5e-4f49-9e22-ebb69eed4ac6": {
+      "id": "07537530-1d5e-4f49-9e22-ebb69eed4ac6",
+      "message": {
+        "id": "07537530-1d5e-4f49-9e22-ebb69eed4ac6",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218987.684354,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-N24l8eBzz4Hibz6yakb5T89V",
+              "size_bytes": 322278,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "qjynTTYyRBr9oW1N",
+                  "prompt": "A white male wearing a whimsical three-piece corduroy suit designed to resemble a gingerbread man costume. The suit, including a jacket, vest, and trousers, is made from textured brown corduroy, styled to mimic the look of gingerbread. The suit is embellished with icing-like white trim and colorful candy-like buttons. He's wearing a vibrant red plaid gingham shirt underneath the suit, providing a striking contrast. Additionally, a solid dark green tie completes his festive outfit. The man stands confidently, showcasing his unique and playful attire, set against a simple, unobtrusive background.",
+                  "seed": 2939139700,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-XQBtaoPJc6FKdNtlG2sMSfOw",
+              "size_bytes": 262112,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "5eH0PvXMRWiXzFXD",
+                  "prompt": "A white male wearing a whimsical three-piece corduroy suit designed to resemble a gingerbread man costume. The suit, including a jacket, vest, and trousers, is made from textured brown corduroy, styled to mimic the look of gingerbread. The suit is embellished with icing-like white trim and colorful candy-like buttons. He's wearing a vibrant red plaid gingham shirt underneath the suit, providing a striking contrast. Additionally, a solid dark green tie completes his festive outfit. The man stands confidently, showcasing his unique and playful attire, set against a simple, unobtrusive background.",
+                  "seed": 2156021048,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "7c2bd40a-ad22-4343-aae5-fdbf9e2502e3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7c2bd40a-ad22-4343-aae5-fdbf9e2502e3",
+      "children": [
+        "61afcae3-e161-4dc9-866f-3f8c7be0c414"
+      ]
+    },
+    "61afcae3-e161-4dc9-866f-3f8c7be0c414": {
+      "id": "61afcae3-e161-4dc9-866f-3f8c7be0c414",
+      "message": {
+        "id": "61afcae3-e161-4dc9-866f-3f8c7be0c414",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1702218987.68463,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "07537530-1d5e-4f49-9e22-ebb69eed4ac6",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "07537530-1d5e-4f49-9e22-ebb69eed4ac6",
+      "children": [
+        "78874d43-98bb-4fdc-9a4a-b0089c7d11ce"
+      ]
+    },
+    "78874d43-98bb-4fdc-9a4a-b0089c7d11ce": {
+      "id": "78874d43-98bb-4fdc-9a4a-b0089c7d11ce",
+      "message": {
+        "id": "78874d43-98bb-4fdc-9a4a-b0089c7d11ce",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1702218987.684764,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are additional images of the white male in the gingerbread man-themed corduroy suit, complete with a red plaid gingham shirt and a dark green tie."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "61afcae3-e161-4dc9-866f-3f8c7be0c414",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "61afcae3-e161-4dc9-866f-3f8c7be0c414",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "78874d43-98bb-4fdc-9a4a-b0089c7d11ce",
+  "plugin_ids": null,
+  "conversation_id": "cd4f7a4e-b4b4-454f-8b72-2122d86520ee",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "cd4f7a4e-b4b4-454f-8b72-2122d86520ee"
+}

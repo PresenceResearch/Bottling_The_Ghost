@@ -1,0 +1,2014 @@
+{
+  "title": "Solution-Based Sales Call Definition",
+  "create_time": 1699905394.475412,
+  "update_time": 1699905589.079419,
+  "mapping": {
+    "aaa1fc9f-7e31-4df4-a958-63ae741a5702": {
+      "id": "aaa1fc9f-7e31-4df4-a958-63ae741a5702",
+      "message": null,
+      "parent": null,
+      "children": [
+        "967a2439-a54e-4159-9585-31063355efac"
+      ]
+    },
+    "967a2439-a54e-4159-9585-31063355efac": {
+      "id": "967a2439-a54e-4159-9585-31063355efac",
+      "message": {
+        "id": "967a2439-a54e-4159-9585-31063355efac",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1fc9f-7e31-4df4-a958-63ae741a5702",
+      "children": [
+        "aaa2dde8-8fce-47d7-b039-c83426445f6b"
+      ]
+    },
+    "aaa2dde8-8fce-47d7-b039-c83426445f6b": {
+      "id": "aaa2dde8-8fce-47d7-b039-c83426445f6b",
+      "message": {
+        "id": "aaa2dde8-8fce-47d7-b039-c83426445f6b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905394.476707,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please provide definition of solutions based sales call"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "967a2439-a54e-4159-9585-31063355efac",
+      "children": [
+        "2ada87de-f26d-4b24-98c1-361555af70f2"
+      ]
+    },
+    "2ada87de-f26d-4b24-98c1-361555af70f2": {
+      "id": "2ada87de-f26d-4b24-98c1-361555af70f2",
+      "message": {
+        "id": "2ada87de-f26d-4b24-98c1-361555af70f2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905493.053985,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"definition of solutions based sales call\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2dde8-8fce-47d7-b039-c83426445f6b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "aaa2dde8-8fce-47d7-b039-c83426445f6b",
+      "children": [
+        "fc929414-7f64-493c-a06c-6c8ae31ea249"
+      ]
+    },
+    "fc929414-7f64-493c-a06c-6c8ae31ea249": {
+      "id": "fc929414-7f64-493c-a06c-6c8ae31ea249",
+      "message": {
+        "id": "fc929414-7f64-493c-a06c-6c8ae31ea249",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905493.055215,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "L0: # \u30100\u2020https://www.pipedrive.com/en/blog/solution-selling\u2020www.pipedrive.com\u3011\nL1: Solution-based sales is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. It emerged in the late 1970s by Michael Bosworth and was a game changer for the sales industry. It focuses on solutions to problems and pain points, rather than features and benefits.\nL2: # \u30101\u2020Solution Selling: The Ultimate Guide - HubSpot Blog\u2020blog.hubspot.com\u3011\nL3: Solution selling is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. Solution selling is one of the best ways salespeople can sell with empathy.\nL4: # \u30102\u2020What Is Solution Selling? | Built In\u2020builtin.com\u3011\nL5: Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.\nL6: # \u30103\u2020What Is Solution Selling? - Salesforce.com\u2020www.salesforce.com\u3011\nL7: Rapport is based on knowing your customer. Maybe they\u2019re about to have a merger, or they\u2019re experiencing challenges with the supply chain. The solution seller\u2019s role is to provide insight that helps customers see a vision of a better future. 3. When should you use solution selling? Solution selling is all about solving a specific challenge.\nL8: # \u30104\u2020Solution-Based Selling [Ultimate Guide + Secrets to Success]\u2020globalpartnerstraining.com\u3011\nL9: What Is Solution-Based Selling? Let\u2019s take a look at several industry definitions of solution-based sales: \u201cSolution selling is a sales methodology where a salesperson holistically considers a prospect\u2019s needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns.\u201d \u2013 HubSpot\nL10: # \u30105\u2020Solution Selling: The Comprehensive Guide | Pipedrive\u2020www.pipedrive.com\u3011\nL11: Solution selling definition Solution selling emerged as a sales methodology coined in the late 1970s by Michael Bosworth. By solving a problem, a rep finds a customer a \u201csolution\u201d. Solution-based selling tends to be a practical approach for sales teams to take.\nL12: # \u30106\u2020What Is Solution Selling? Definition, Steps and Benefits\u2020www.indeed.com\u3011\nL13: Solution selling is the process of identifying a customer's need and providing them with a product or service solution that addresses that need. It requires sales professionals to use empathy and active listening to understand each individual customer's problems and develop a personalized solution that works best for them.\nL14: # \u30107\u2020The 7 Stages of the Solution Selling Process - Simplicable\u2020simplicable.com\u3011\nL15: Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales.\nL16: # \u30108\u2020Defining Solution Selling - richardson.com\u2020www.richardson.com\u3011\nL17: Defining Solution Selling Outbound sales 18 January 2022Article What Is Solution Selling? Solution Selling is a comprehensive, end-to-end sales system. It is a widely used sales execution methodology for winning sales opportunities that involve direct contact with buyers.\nL18: # \u30109\u2020Solution selling definition and techniques: The complete guide - Zendesk\u2020www.zendesk.co.uk\u3011\nL19: Sales reps using solution selling look at the problem first and then recommend products or services that can resolve that issue. This type of relationship selling focuses more on building trust and rapport rather than on aggressive selling techniques.. Customers don\u2019t appreciate generic or pushy sales tactics, and solution selling can be a good antidote to falling into those traps.\nL20: # \u301010\u2020What Is The Solution Selling Methodology? - MTD Sales Training\u2020www.mtdsalestraining.com\u3011\nL21: Solutions based selling means providing answers to problems. A solution is the answer to a problem and therefore, before you can sell a solution, you must identify a problem. If you wish to become a solutions provider and business advisor to your clients, you must first uncover the problem or problems and help educate the buyer to them.\nL22: # \u301011\u2020Solution-Based Selling Techniques - Accent Technologies\u2020accent-technologies.com\u3011\nL23: What is Solution-Based Selling? Before we get into the intricacies of improving your solution-based selling program, let\u2019s take a moment to define what, exactly, solution-based selling is. As Keith M. Eades explains in The New Solution Based Selling, SBS programs are a type of sales and selling methodology.\nL24: # \u301012\u2020A Solutions Mindset is the Way Forward in B2B Sales. Here ... - LinkedIn\u2020www.linkedin.com\u3011\nL25: 1. It is your responsibility to understand your client\u2019s objectives. This is your first goal in any sales conversation. It\u2019s up to you to gain a clear understanding of what your client wants ...\nL26: # \u301013\u2020What is Solution Selling? Definition from SearchITChannel - TechTarget\u2020www.techtarget.com\u3011\nL27: Solution selling refers to the philosophy or practice of uncovering a customer's pain points and then providing products and services that address the underlying business problem. Solution selling vs. 'box pushing'\nL28: # \u301014\u2020Solution selling - Wikipedia\u2020en.wikipedia.org\u3011\nL29: Solution selling is a type and style of sales and selling methodology. Solution selling has a salesperson or sales team use a sales process that is a problem-led (rather than product-led) approach to determine if and how a change in a product could bring specific improvements that are desired by the customer.\nL30: # \u301015\u2020The 6 Principles of a Consultative Sales Process - HubSpot Blog\u2020blog.hubspot.com\u3011\nL31: 5. Qualify. You\u2019re always going to be qualifying the lead. A qualified lead has goals, might or might not have a plan, definitely has challenges to overcome, a defined timeline, and budget. But keep in mind that an unqualified lead is just as good as a qualified lead during the consultative sales process.\nL32: # \u301016\u2020Solution Selling vs. Value Selling: What\u2019s the Difference? - Ecosystems\u2020www.ecosystems.io\u3011\nL33: For example, value selling focuses on real-world quantifiable value, while solution selling focuses on results that are not necessarily measurable. Value selling further leverages customer case studies as proof of measurable success from previous customers. For example, if one of the prospect\u2019s desired outcomes is driving a 99% accuracy rate ...\nL34: # \u301017\u2020How to Get the Most Out of a Sales Call - Salesforce\u2020www.salesforce.com\u3011\nL35: These calls \u2014 most often conducted either in-person or via video \u2014 involve multiple parts, including initial agenda-setting by the rep, the product pitch, a demo, prospect objections and rep responses, negotiation, and outlining of next steps. Ideally, a rep closes a sales call with a verbal agreement from the prospect to make a purchase.\nL36: # \u301018\u2020Sales Calls Explained: 7 Tips for Making a Successful Sales Call\u2020www.masterclass.com\u3011\nL37: Sales Calls Explained: 7 Tips for Making a Successful Sales Call. Sales calls are made by a salesperson to prospective customers. These calls generate sales of a good or service, or set up a collaboration between businesses. Sales calls are made by a salesperson to prospective customers.\nL38: # \u301019\u2020What is a Sales Call: Definition, tips, and question examples - Snov.io\u2020snov.io\u3011\nL39: A sales call refers to the interaction between a sales representative and a potential customer, often via phone. The sales representative\u2019s goal is to persuade the prospect to purchase their company\u2019s offerings. This conversation provides an opportunity for the potential buyer to gain an understanding of the product or service, along with ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "https://www.pipedrive.com/en/blog/solution-selling",
+                "url": "https://www.pipedrive.com/en/blog/solution-selling",
+                "text": "\nL1: Solution-based sales is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. It emerged in the late 1970s by Michael Bosworth and was a game changer for the sales industry. It focuses on solutions to problems and pain points, rather than features and benefits.\nL2: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution Selling: The Ultimate Guide - HubSpot Blog",
+                "url": "https://blog.hubspot.com/sales/solution-selling",
+                "text": "\nL3: Solution selling is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. Solution selling is one of the best ways salespeople can sell with empathy.\nL4: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What Is Solution Selling? | Built In",
+                "url": "https://builtin.com/sales/solution-selling",
+                "text": "\nL5: Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.\nL6: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What Is Solution Selling? - Salesforce.com",
+                "url": "https://www.salesforce.com/resources/articles/what-is-solution-selling/",
+                "text": "\nL7: Rapport is based on knowing your customer. Maybe they\u2019re about to have a merger, or they\u2019re experiencing challenges with the supply chain. The solution seller\u2019s role is to provide insight that helps customers see a vision of a better future. 3. When should you use solution selling? Solution selling is all about solving a specific challenge.\nL8: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution-Based Selling [Ultimate Guide + Secrets to Success]",
+                "url": "https://globalpartnerstraining.com/solution-based-selling/",
+                "text": "\nL9: What Is Solution-Based Selling? Let\u2019s take a look at several industry definitions of solution-based sales: \u201cSolution selling is a sales methodology where a salesperson holistically considers a prospect\u2019s needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns.\u201d \u2013 HubSpot\nL10: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution Selling: The Comprehensive Guide | Pipedrive",
+                "url": "https://www.pipedrive.com/en/blog/solution-selling",
+                "text": "\nL11: Solution selling definition Solution selling emerged as a sales methodology coined in the late 1970s by Michael Bosworth. By solving a problem, a rep finds a customer a \u201csolution\u201d. Solution-based selling tends to be a practical approach for sales teams to take.\nL12: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What Is Solution Selling? Definition, Steps and Benefits",
+                "url": "https://www.indeed.com/career-advice/career-development/solution-selling",
+                "text": "\nL13: Solution selling is the process of identifying a customer's need and providing them with a product or service solution that addresses that need. It requires sales professionals to use empathy and active listening to understand each individual customer's problems and develop a personalized solution that works best for them.\nL14: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "\nL15: Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales.\nL16: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Defining Solution Selling - richardson.com",
+                "url": "https://www.richardson.com/en-gb/sales-resources/solution-selling-sales-approach-methodology/",
+                "text": "\nL17: Defining Solution Selling Outbound sales 18 January 2022Article What Is Solution Selling? Solution Selling is a comprehensive, end-to-end sales system. It is a widely used sales execution methodology for winning sales opportunities that involve direct contact with buyers.\nL18: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution selling definition and techniques: The complete guide - Zendesk",
+                "url": "https://www.zendesk.co.uk/blog/solution-selling/",
+                "text": "\nL19: Sales reps using solution selling look at the problem first and then recommend products or services that can resolve that issue. This type of relationship selling focuses more on building trust and rapport rather than on aggressive selling techniques.. Customers don\u2019t appreciate generic or pushy sales tactics, and solution selling can be a good antidote to falling into those traps.\nL20: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What Is The Solution Selling Methodology? - MTD Sales Training",
+                "url": "https://www.mtdsalestraining.com/selling-skills-training/what-is-solution-selling-methodology",
+                "text": "\nL21: Solutions based selling means providing answers to problems. A solution is the answer to a problem and therefore, before you can sell a solution, you must identify a problem. If you wish to become a solutions provider and business advisor to your clients, you must first uncover the problem or problems and help educate the buyer to them.\nL22: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution-Based Selling Techniques - Accent Technologies",
+                "url": "https://accent-technologies.com/2020/06/10/solution-based-selling-techniques/",
+                "text": "\nL23: What is Solution-Based Selling? Before we get into the intricacies of improving your solution-based selling program, let\u2019s take a moment to define what, exactly, solution-based selling is. As Keith M. Eades explains in The New Solution Based Selling, SBS programs are a type of sales and selling methodology.\nL24: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "A Solutions Mindset is the Way Forward in B2B Sales. Here ... - LinkedIn",
+                "url": "https://www.linkedin.com/business/sales/blog/modern-selling/how-to-have-a-solutions-mindset-in-sales",
+                "text": "\nL25: 1. It is your responsibility to understand your client\u2019s objectives. This is your first goal in any sales conversation. It\u2019s up to you to gain a clear understanding of what your client wants ...\nL26: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What is Solution Selling? Definition from SearchITChannel - TechTarget",
+                "url": "https://www.techtarget.com/searchitchannel/definition/solution-selling",
+                "text": "\nL27: Solution selling refers to the philosophy or practice of uncovering a customer's pain points and then providing products and services that address the underlying business problem. Solution selling vs. 'box pushing'\nL28: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution selling - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Solution_selling",
+                "text": "\nL29: Solution selling is a type and style of sales and selling methodology. Solution selling has a salesperson or sales team use a sales process that is a problem-led (rather than product-led) approach to determine if and how a change in a product could bring specific improvements that are desired by the customer.\nL30: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The 6 Principles of a Consultative Sales Process - HubSpot Blog",
+                "url": "https://blog.hubspot.com/customers/bid/172099/the-consultative-sales-process-6-principles",
+                "text": "\nL31: 5. Qualify. You\u2019re always going to be qualifying the lead. A qualified lead has goals, might or might not have a plan, definitely has challenges to overcome, a defined timeline, and budget. But keep in mind that an unqualified lead is just as good as a qualified lead during the consultative sales process.\nL32: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution Selling vs. Value Selling: What\u2019s the Difference? - Ecosystems",
+                "url": "https://www.ecosystems.io/blog/solution-selling-vs-value-selling-whats-the-difference",
+                "text": "\nL33: For example, value selling focuses on real-world quantifiable value, while solution selling focuses on results that are not necessarily measurable. Value selling further leverages customer case studies as proof of measurable success from previous customers. For example, if one of the prospect\u2019s desired outcomes is driving a 99% accuracy rate ...\nL34: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Get the Most Out of a Sales Call - Salesforce",
+                "url": "https://www.salesforce.com/resources/articles/sales-call/",
+                "text": "\nL35: These calls \u2014 most often conducted either in-person or via video \u2014 involve multiple parts, including initial agenda-setting by the rep, the product pitch, a demo, prospect objections and rep responses, negotiation, and outlining of next steps. Ideally, a rep closes a sales call with a verbal agreement from the prospect to make a purchase.\nL36: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Sales Calls Explained: 7 Tips for Making a Successful Sales Call",
+                "url": "https://www.masterclass.com/articles/sales-calls-explained",
+                "text": "\nL37: Sales Calls Explained: 7 Tips for Making a Successful Sales Call. Sales calls are made by a salesperson to prospective customers. These calls generate sales of a good or service, or set up a collaboration between businesses. Sales calls are made by a salesperson to prospective customers.\nL38: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What is a Sales Call: Definition, tips, and question examples - Snov.io",
+                "url": "https://snov.io/glossary/sales-call/",
+                "text": "\nL39: A sales call refers to the interaction between a sales representative and a potential customer, often via phone. The sales representative\u2019s goal is to persuade the prospect to purchase their company\u2019s offerings. This conversation provides an opportunity for the potential buyer to gain an understanding of the product or service, along with ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'definition of solutions based sales call'",
+                "url": "",
+                "text": "L0: # \u30100\u2020https://www.pipedrive.com/en/blog/solution-selling\u2020www.pipedrive.com\u3011\nL1: Solution-based sales is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. It emerged in the late 1970s by Michael Bosworth and was a game changer for the sales industry. It focuses on solutions to problems and pain points, rather than features and benefits.\nL2: # \u30101\u2020Solution Selling: The Ultimate Guide - HubSpot Blog\u2020blog.hubspot.com\u3011\nL3: Solution selling is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. Solution selling is one of the best ways salespeople can sell with empathy.\nL4: # \u30102\u2020What Is Solution Selling? | Built In\u2020builtin.com\u3011\nL5: Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.\nL6: # \u30103\u2020What Is Solution Selling? - Salesforce.com\u2020www.salesforce.com\u3011\nL7: Rapport is based on knowing your customer. Maybe they\u2019re about to have a merger, or they\u2019re experiencing challenges with the supply chain. The solution seller\u2019s role is to provide insight that helps customers see a vision of a better future. 3. When should you use solution selling? Solution selling is all about solving a specific challenge.\nL8: # \u30104\u2020Solution-Based Selling [Ultimate Guide + Secrets to Success]\u2020globalpartnerstraining.com\u3011\nL9: What Is Solution-Based Selling? Let\u2019s take a look at several industry definitions of solution-based sales: \u201cSolution selling is a sales methodology where a salesperson holistically considers a prospect\u2019s needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns.\u201d \u2013 HubSpot\nL10: # \u30105\u2020Solution Selling: The Comprehensive Guide | Pipedrive\u2020www.pipedrive.com\u3011\nL11: Solution selling definition Solution selling emerged as a sales methodology coined in the late 1970s by Michael Bosworth. By solving a problem, a rep finds a customer a \u201csolution\u201d. Solution-based selling tends to be a practical approach for sales teams to take.\nL12: # \u30106\u2020What Is Solution Selling? Definition, Steps and Benefits\u2020www.indeed.com\u3011\nL13: Solution selling is the process of identifying a customer's need and providing them with a product or service solution that addresses that need. It requires sales professionals to use empathy and active listening to understand each individual customer's problems and develop a personalized solution that works best for them.\nL14: # \u30107\u2020The 7 Stages of the Solution Selling Process - Simplicable\u2020simplicable.com\u3011\nL15: Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales.\nL16: # \u30108\u2020Defining Solution Selling - richardson.com\u2020www.richardson.com\u3011\nL17: Defining Solution Selling Outbound sales 18 January 2022Article What Is Solution Selling? Solution Selling is a comprehensive, end-to-end sales system. It is a widely used sales execution methodology for winning sales opportunities that involve direct contact with buyers.\nL18: # \u30109\u2020Solution selling definition and techniques: The complete guide - Zendesk\u2020www.zendesk.co.uk\u3011\nL19: Sales reps using solution selling look at the problem first and then recommend products or services that can resolve that issue. This type of relationship selling focuses more on building trust and rapport rather than on aggressive selling techniques.. Customers don\u2019t appreciate generic or pushy sales tactics, and solution selling can be a good antidote to falling into those traps.\nL20: # \u301010\u2020What Is The Solution Selling Methodology? - MTD Sales Training\u2020www.mtdsalestraining.com\u3011\nL21: Solutions based selling means providing answers to problems. A solution is the answer to a problem and therefore, before you can sell a solution, you must identify a problem. If you wish to become a solutions provider and business advisor to your clients, you must first uncover the problem or problems and help educate the buyer to them.\nL22: # \u301011\u2020Solution-Based Selling Techniques - Accent Technologies\u2020accent-technologies.com\u3011\nL23: What is Solution-Based Selling? Before we get into the intricacies of improving your solution-based selling program, let\u2019s take a moment to define what, exactly, solution-based selling is. As Keith M. Eades explains in The New Solution Based Selling, SBS programs are a type of sales and selling methodology.\nL24: # \u301012\u2020A Solutions Mindset is the Way Forward in B2B Sales. Here ... - LinkedIn\u2020www.linkedin.com\u3011\nL25: 1. It is your responsibility to understand your client\u2019s objectives. This is your first goal in any sales conversation. It\u2019s up to you to gain a clear understanding of what your client wants ...\nL26: # \u301013\u2020What is Solution Selling? Definition from SearchITChannel - TechTarget\u2020www.techtarget.com\u3011\nL27: Solution selling refers to the philosophy or practice of uncovering a customer's pain points and then providing products and services that address the underlying business problem. Solution selling vs. 'box pushing'\nL28: # \u301014\u2020Solution selling - Wikipedia\u2020en.wikipedia.org\u3011\nL29: Solution selling is a type and style of sales and selling methodology. Solution selling has a salesperson or sales team use a sales process that is a problem-led (rather than product-led) approach to determine if and how a change in a product could bring specific improvements that are desired by the customer.\nL30: # \u301015\u2020The 6 Principles of a Consultative Sales Process - HubSpot Blog\u2020blog.hubspot.com\u3011\nL31: 5. Qualify. You\u2019re always going to be qualifying the lead. A qualified lead has goals, might or might not have a plan, definitely has challenges to overcome, a defined timeline, and budget. But keep in mind that an unqualified lead is just as good as a qualified lead during the consultative sales process.\nL32: # \u301016\u2020Solution Selling vs. Value Selling: What\u2019s the Difference? - Ecosystems\u2020www.ecosystems.io\u3011\nL33: For example, value selling focuses on real-world quantifiable value, while solution selling focuses on results that are not necessarily measurable. Value selling further leverages customer case studies as proof of measurable success from previous customers. For example, if one of the prospect\u2019s desired outcomes is driving a 99% accuracy rate ...\nL34: # \u301017\u2020How to Get the Most Out of a Sales Call - Salesforce\u2020www.salesforce.com\u3011\nL35: These calls \u2014 most often conducted either in-person or via video \u2014 involve multiple parts, including initial agenda-setting by the rep, the product pitch, a demo, prospect objections and rep responses, negotiation, and outlining of next steps. Ideally, a rep closes a sales call with a verbal agreement from the prospect to make a purchase.\nL36: # \u301018\u2020Sales Calls Explained: 7 Tips for Making a Successful Sales Call\u2020www.masterclass.com\u3011\nL37: Sales Calls Explained: 7 Tips for Making a Successful Sales Call. Sales calls are made by a salesperson to prospective customers. These calls generate sales of a good or service, or set up a collaboration between businesses. Sales calls are made by a salesperson to prospective customers.\nL38: # \u301019\u2020What is a Sales Call: Definition, tips, and question examples - Snov.io\u2020snov.io\u3011\nL39: A sales call refers to the interaction between a sales representative and a potential customer, often via phone. The sales representative\u2019s goal is to persuade the prospect to purchase their company\u2019s offerings. This conversation provides an opportunity for the potential buyer to gain an understanding of the product or service, along with ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "definition of solutions based sales call"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "2ada87de-f26d-4b24-98c1-361555af70f2",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2ada87de-f26d-4b24-98c1-361555af70f2",
+      "children": [
+        "7aef5648-5a54-4682-88c3-300319e8951c"
+      ]
+    },
+    "7aef5648-5a54-4682-88c3-300319e8951c": {
+      "id": "7aef5648-5a54-4682-88c3-300319e8951c",
+      "message": {
+        "id": "7aef5648-5a54-4682-88c3-300319e8951c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905493.060824,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "quote_lines(1, 1)\r\nquote_lines(3, 3)\r\nquote_lines(5, 5)\r\nquote_lines(9, 9)\r\nquote_lines(13, 13)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "fc929414-7f64-493c-a06c-6c8ae31ea249",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "fc929414-7f64-493c-a06c-6c8ae31ea249",
+      "children": [
+        "0b9fed95-b167-4e03-9810-e1f10ffacb71"
+      ]
+    },
+    "0b9fed95-b167-4e03-9810-e1f10ffacb71": {
+      "id": "0b9fed95-b167-4e03-9810-e1f10ffacb71",
+      "message": {
+        "id": "0b9fed95-b167-4e03-9810-e1f10ffacb71",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905493.065364,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.pipedrive.com/en/blog/solution-selling",
+          "domain": "www.pipedrive.com",
+          "text": "Solution-based sales is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. It emerged in the late 1970s by Michael Bosworth and was a game changer for the sales industry. It focuses on solutions to problems and pain points, rather than features and benefits.",
+          "title": "https://www.pipedrive.com/en/blog/solution-selling",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "https://www.pipedrive.com/en/blog/solution-selling",
+                "url": "https://www.pipedrive.com/en/blog/solution-selling",
+                "text": "Solution-based sales is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. It emerged in the late 1970s by Michael Bosworth and was a game changer for the sales industry. It focuses on solutions to problems and pain points, rather than features and benefits.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            1,
+            1
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "7aef5648-5a54-4682-88c3-300319e8951c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7aef5648-5a54-4682-88c3-300319e8951c",
+      "children": [
+        "5d1b1f49-92bb-4134-9c56-c1c0ce13dfac"
+      ]
+    },
+    "5d1b1f49-92bb-4134-9c56-c1c0ce13dfac": {
+      "id": "5d1b1f49-92bb-4134-9c56-c1c0ce13dfac",
+      "message": {
+        "id": "5d1b1f49-92bb-4134-9c56-c1c0ce13dfac",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905493.069531,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://blog.hubspot.com/sales/solution-selling",
+          "domain": "blog.hubspot.com",
+          "text": "Solution selling is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. Solution selling is one of the best ways salespeople can sell with empathy.",
+          "title": "Solution Selling: The Ultimate Guide - HubSpot Blog",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Solution Selling: The Ultimate Guide - HubSpot Blog",
+                "url": "https://blog.hubspot.com/sales/solution-selling",
+                "text": "Solution selling is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. Solution selling is one of the best ways salespeople can sell with empathy.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            3,
+            3
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "0b9fed95-b167-4e03-9810-e1f10ffacb71",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b9fed95-b167-4e03-9810-e1f10ffacb71",
+      "children": [
+        "5b54e341-4725-4597-97a4-762dbc7899cb"
+      ]
+    },
+    "5b54e341-4725-4597-97a4-762dbc7899cb": {
+      "id": "5b54e341-4725-4597-97a4-762dbc7899cb",
+      "message": {
+        "id": "5b54e341-4725-4597-97a4-762dbc7899cb",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905493.072992,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://builtin.com/sales/solution-selling",
+          "domain": "builtin.com",
+          "text": "Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.",
+          "title": "What Is Solution Selling? | Built In",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "What Is Solution Selling? | Built In",
+                "url": "https://builtin.com/sales/solution-selling",
+                "text": "Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            5,
+            5
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "5d1b1f49-92bb-4134-9c56-c1c0ce13dfac",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5d1b1f49-92bb-4134-9c56-c1c0ce13dfac",
+      "children": [
+        "791d3968-0038-4f5b-a8c8-408fec6bf174"
+      ]
+    },
+    "791d3968-0038-4f5b-a8c8-408fec6bf174": {
+      "id": "791d3968-0038-4f5b-a8c8-408fec6bf174",
+      "message": {
+        "id": "791d3968-0038-4f5b-a8c8-408fec6bf174",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905493.076641,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://globalpartnerstraining.com/solution-based-selling/",
+          "domain": "globalpartnerstraining.com",
+          "text": "What Is Solution-Based Selling? Let\u2019s take a look at several industry definitions of solution-based sales: \u201cSolution selling is a sales methodology where a salesperson holistically considers a prospect\u2019s needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns.\u201d \u2013 HubSpot",
+          "title": "Solution-Based Selling [Ultimate Guide + Secrets to Success]",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Solution-Based Selling [Ultimate Guide + Secrets to Success]",
+                "url": "https://globalpartnerstraining.com/solution-based-selling/",
+                "text": "What Is Solution-Based Selling? Let\u2019s take a look at several industry definitions of solution-based sales: \u201cSolution selling is a sales methodology where a salesperson holistically considers a prospect\u2019s needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns.\u201d \u2013 HubSpot",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            9,
+            9
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "5b54e341-4725-4597-97a4-762dbc7899cb",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5b54e341-4725-4597-97a4-762dbc7899cb",
+      "children": [
+        "4d4c9c4f-299e-47ee-bb5e-b403f4e87e07"
+      ]
+    },
+    "4d4c9c4f-299e-47ee-bb5e-b403f4e87e07": {
+      "id": "4d4c9c4f-299e-47ee-bb5e-b403f4e87e07",
+      "message": {
+        "id": "4d4c9c4f-299e-47ee-bb5e-b403f4e87e07",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905493.080581,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.indeed.com/career-advice/career-development/solution-selling",
+          "domain": "www.indeed.com",
+          "text": "Solution selling is the process of identifying a customer's need and providing them with a product or service solution that addresses that need. It requires sales professionals to use empathy and active listening to understand each individual customer's problems and develop a personalized solution that works best for them.",
+          "title": "What Is Solution Selling? Definition, Steps and Benefits",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "What Is Solution Selling? Definition, Steps and Benefits",
+                "url": "https://www.indeed.com/career-advice/career-development/solution-selling",
+                "text": "Solution selling is the process of identifying a customer's need and providing them with a product or service solution that addresses that need. It requires sales professionals to use empathy and active listening to understand each individual customer's problems and develop a personalized solution that works best for them.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            13,
+            13
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "791d3968-0038-4f5b-a8c8-408fec6bf174",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "791d3968-0038-4f5b-a8c8-408fec6bf174",
+      "children": [
+        "702ff675-521a-4a47-8365-37b77abb81af"
+      ]
+    },
+    "702ff675-521a-4a47-8365-37b77abb81af": {
+      "id": "702ff675-521a-4a47-8365-37b77abb81af",
+      "message": {
+        "id": "702ff675-521a-4a47-8365-37b77abb81af",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905493.084295,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "A solutions-based sales call is a sales methodology that revolves around the concept of understanding and addressing a prospect's specific needs with suitable products or services. Emerging in the late 1970s by Michael Bosworth, it marked a significant shift in the sales industry by focusing on solutions to the customer's problems and pain points instead of just the features and benefits of a product or service\u30106\u2020source\u3011.\n\nThis approach is consultative; it involves the salesperson taking the time to deeply understand the customer's problem. By doing so, they can align their sales process with the prospect's buying cycle and suggest a product or service that can genuinely resolve the customer's issue\u30108\u2020source\u3011.\n\nEmphasizing empathy and active listening, solution selling enables sales professionals to develop personalized solutions that work best for individual customers. This customer-centric method ensures that the sales process is not about hard selling but about building a relationship based on trust and understanding, offering a solution that genuinely fits the customer's needs\u301010\u2020source\u3011."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [
+            {
+              "start_ix": 414,
+              "end_ix": 424,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "https://www.pipedrive.com/en/blog/solution-selling",
+                "url": "https://www.pipedrive.com/en/blog/solution-selling",
+                "text": "Solution-based sales is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. It emerged in the late 1970s by Michael Bosworth and was a game changer for the sales industry. It focuses on solutions to problems and pain points, rather than features and benefits.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 708,
+              "end_ix": 718,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "What Is Solution Selling? | Built In",
+                "url": "https://builtin.com/sales/solution-selling#:~:text=Solution%20selling%20is%20a%20consultative,career%20around%20the%20sales%20methodology",
+                "text": "Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 1097,
+              "end_ix": 1108,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "What Is Solution Selling? Definition, Steps and Benefits",
+                "url": "https://www.indeed.com/career-advice/career-development/solution-selling#:~:text=Solution%20selling%20is%20the%20process,that%20works%20best%20for%20them",
+                "text": "Solution selling is the process of identifying a customer's need and providing them with a product or service solution that addresses that need. It requires sales professionals to use empathy and active listening to understand each individual customer's problems and develop a personalized solution that works best for them.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 10,
+                  "evidence_text": "source"
+                }
+              }
+            }
+          ],
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "4d4c9c4f-299e-47ee-bb5e-b403f4e87e07",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 414,
+              "end_idx": 424,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "https://www.pipedrive.com/en/blog/solution-selling",
+              "url": "https://www.pipedrive.com/en/blog/solution-selling",
+              "pub_date": null,
+              "snippet": "Solution-based sales is a sales methodology where a salesperson holistically considers a prospect's needs, so they can recommend specific products or services that will best accommodate their individual problems and concerns. It emerged in the late 1970s by Michael Bosworth and was a game changer for the sales industry. It focuses on solutions to problems and pain points, rather than features and benefits.",
+              "attribution": "pipedrive.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 708,
+              "end_idx": 718,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "What Is Solution Selling? | Built In",
+              "url": "https://builtin.com/sales/solution-selling#:~:text=Solution%20selling%20is%20a%20consultative,career%20around%20the%20sales%20methodology",
+              "pub_date": null,
+              "snippet": "Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.",
+              "attribution": "builtin.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301010\u2020source\u3011",
+              "start_idx": 1097,
+              "end_idx": 1108,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "What Is Solution Selling? Definition, Steps and Benefits",
+              "url": "https://www.indeed.com/career-advice/career-development/solution-selling#:~:text=Solution%20selling%20is%20the%20process,that%20works%20best%20for%20them",
+              "pub_date": null,
+              "snippet": "Solution selling is the process of identifying a customer's need and providing them with a product or service solution that addresses that need. It requires sales professionals to use empathy and active listening to understand each individual customer's problems and develop a personalized solution that works best for them.",
+              "attribution": "indeed.com",
+              "icon_type": null
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4d4c9c4f-299e-47ee-bb5e-b403f4e87e07",
+      "children": [
+        "aaa2576a-ac84-4132-9bbe-3046bca7507c"
+      ]
+    },
+    "aaa2576a-ac84-4132-9bbe-3046bca7507c": {
+      "id": "aaa2576a-ac84-4132-9bbe-3046bca7507c",
+      "message": {
+        "id": "aaa2576a-ac84-4132-9bbe-3046bca7507c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905552.952568,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please provide the processes involved in a solution based sales call"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "702ff675-521a-4a47-8365-37b77abb81af",
+      "children": [
+        "d74ce90a-fb99-4aa0-905e-8964fc3e33ec"
+      ]
+    },
+    "d74ce90a-fb99-4aa0-905e-8964fc3e33ec": {
+      "id": "d74ce90a-fb99-4aa0-905e-8964fc3e33ec",
+      "message": {
+        "id": "d74ce90a-fb99-4aa0-905e-8964fc3e33ec",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905588.93741,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"processes involved in solution based sales call\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2576a-ac84-4132-9bbe-3046bca7507c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "aaa2576a-ac84-4132-9bbe-3046bca7507c",
+      "children": [
+        "2eaa41d3-c79d-4daa-a96c-c2baaf2fa37d"
+      ]
+    },
+    "2eaa41d3-c79d-4daa-a96c-c2baaf2fa37d": {
+      "id": "2eaa41d3-c79d-4daa-a96c-c2baaf2fa37d",
+      "message": {
+        "id": "2eaa41d3-c79d-4daa-a96c-c2baaf2fa37d",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905588.943903,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "L0: # \u30100\u20204 Essential Steps of the Solution Selling Process Explained\u2020www.socoselling.com\u3011\nL1: Watch on Why is solution selling important? Solution Selling is ideal when selling a product with many variables and options as it helps prospects clarify their needs. This process helps determine which solution is best for them. You can apply it to something as simple as selling a new TV to complex B2B sales.\nL2: # \u30101\u2020Solution Selling: The Ultimate Guide - HubSpot Blog\u2020blog.hubspot.com\u3011\nL3: Get Started With Solution Selling. Use this three-step plan to begin solution selling: 1. Identify common pain points. Figuring out your customers\u2019 most common pain points might be the most important part of the process \u2014 without this information, you can\u2019t effectively target prospects or present your solution.\nL4: # \u30102\u2020Solution Selling: The Comprehensive Guide | Pipedrive\u2020www.pipedrive.com\u3011\nL5: On the face of it, solution selling is a simple sales methodology: A sales rep diagnoses a prospect\u2019s needs and then recommends the right products or services to fill those needs. A solution selling strategy also demonstrates why the chosen product is a better fit than the competition. A solution selling approach won't suit every sales team.\nL6: # \u30103\u2020The 7 Stages of the Solution Selling Process - Simplicable\u2020simplicable.com\u3011\nL7: This is a process of requirements elicitation whereby the customer outlines issues and the sales team captures requirements. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell. Customer Needs. Customer Needs Analysis. Customer Perceptions.\nL8: # \u30104\u2020Solution Selling Methodology and Process - Pandadoc\u2020www.pandadoc.com\u3011\nL9: 1. Personalization. The entire premise of solution selling is to address the issues of a specific customer instead of pushing a one-size-fits-all product. Personalization has a strong effect on sales effectiveness. The fastest-growing companies get 40% more revenue out of it than their slower counterparts. 2.\nL10: # \u30105\u2020What Is Solution Selling? - Salesforce.com\u2020www.salesforce.com\u3011\nL11: What are the steps to solution selling? 5. Pros and cons of solution selling 1. What Is Solution Selling? Solution selling was developed in 1975 by a man named Frank Watts, who introduced his methodology to the corporate world in the 1980s.\nL12: # \u30106\u2020Solution Selling: The Comprehensive Guide - Deskera\u2020www.deskera.com\u3011\nL13: Solution selling was developed by Mike Bosworth in 1974 and has been used by many major corporations such as IBM, Ford Motor Company, General Motors (GM), Procter & Gamble (P&G), Citibank, and MCI Communications. It's a conversation-based approach to the sales process that focuses on listening more than talking and discovering needs instead of assuming them.\nL14: # \u30107\u2020What Is Solution Selling? | Built In\u2020builtin.com\u3011\nL15: Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.\nL16: # \u30108\u2020Why you should use the solution selling process - Lucidchart\u2020www.lucidchart.com\u3011\nL17: The solution selling process is exactly what it sounds like: selling a customer on a solution (your business or product) that helps them overcome a problem. A solution selling process differs from a more traditional sales process because, instead of just pushing a product, the seller focuses on a specific issue or problem the customer faces and ...\nL18: # \u30109\u2020The 6 Principles of a Consultative Sales Process - HubSpot Blog\u2020blog.hubspot.com\u3011\nL19: The consultative sales process is primarily focused on the experience that the potential customer (the lead) feels and sees during their interactions with you. It\u2019s about the how you find ways to provide your leads with value and make it all about them. Not your product, your business, your numbers.\nL20: # \u301010\u2020Solution-Based Selling Techniques - Accent Technologies\u2020accent-technologies.com\u3011\nL21: Solution selling has a salesperson or sales team use a selling process that is problem-led (rather than product-led). This helps to determine if and how a change in a product could bring about specific improvements that are desired by the customer. This was a pretty dramatic change from the old approach to sales.\nL22: # \u301011\u2020How to Build a Sales Process: A Complete Guide - Salesforce\u2020www.salesforce.com\u3011\nL23: The number of steps in the sales process may change depending on the type of industry you\u2019re in, what product you\u2019re selling, and who your prospect is, but typically include four key stages: research, prospecting, sales call and close, and relationship-building/upsells.\nL24: # \u301012\u2020How to Get the Most Out of a Sales Call - Salesforce\u2020www.salesforce.com\u3011\nL25: The sales process includes product and prospect research, prospecting, the sales call and close, and relationship-building. How do you prepare for a sales call? In a typical sales process, much of the preparation, including prospect research and qualification, occurs days or weeks before the sales call is even scheduled.\nL26: # \u301013\u2020Sales Call Mapping: 7 Key Steps for Structuring Effective Sales Calls\u2020blog.hubspot.com\u3011\nL27: Address objections. Set next steps. 1. Do your research. Every prospect you communicate with is unique, and your call mapping should reflect that \u2014 to a certain extent. You don't want to just jump onto a call without knowing anything about who you're talking to.\nL28: # \u301014\u2020Successful Sales Call Structure: A 5-Step Process Plan\u2020blog.close.com\u3011\nL29: 3. Deliver the pitch. 4. Manage objections. 5. End with a call to action. When selling on the phone, oftentimes sales reps don't understand how to structure a call. If you don\u2019t have the right plan going into a sales call, it\u2019s going to be much harder to close the deal. Every sales call, from a cold call to a closing call, should follow a ...\nL30: # \u301015\u2020How to Make a Successful Sales Call: 13 Tips & Techniques\u2020www.salesforce.com\u3011\nL31: These calls \u2014 most often conducted either in-person or via video \u2014 involve multiple parts, including initial agenda-setting by the rep, the product pitch, a demo, prospect objections and rep responses, negotiation, and outlining of next steps. Ideally, a rep closes a sales call with a verbal agreement from the prospect to make a purchase.\nL32: # \u301016\u2020The sales discovery phase: 10 questions to ask \u2013 Demostack\u2020www.demostack.com\u3011\nL33: Why the discovery phase is key to solution-based selling. Discovery phase questions are core to a solution-based selling approach, a sales model that, according to McKinsey, separates the outperformers from the laggards: \u201cCompanies strongly or moderately effective at solution selling are 1.5-times more likely to be outperformers.\u201d\nL34: # \u301017\u20207 Steps of the Ultimate Sales Process | Freshworks\u2020www.freshworks.com\u3011\nL35: Simply put, a sales process is defined as a repeatable set of steps that a salesperson performs over a sales cycle to convert a prospect into a customer. Usually a tried-and-tested process, it acts as a guide for salespeople to move a deal through the sales pipeline and close it. Why is a sales process important for your sales team?\nL36: # \u301018\u2020Sales Calls Explained: 7 Tips for Making a Successful Sales Call\u2020www.masterclass.com\u3011\nL37: Sales Calls Explained: 7 Tips for Making a Successful Sales Call. Sales calls are made by a salesperson to prospective customers. These calls generate sales of a good or service, or set up a collaboration between businesses. Sales calls are made by a salesperson to prospective customers.\nL38: # \u301019\u2020Sales process fundamentals: The ultimate guide to closing ... - Zendesk\u2020www.zendesk.com\u3011\nL39: A flawed sales process is focused more on the product or service than on the buyer. The sales process is not only made for closing a sale, but also for helping customers get the solutions they need. Sales teams should prioritize building trust and providing value to prospective buyers. An aligned sales process will meet the customer where they are.\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "4 Essential Steps of the Solution Selling Process Explained",
+                "url": "https://www.socoselling.com/solution-selling/",
+                "text": "\nL1: Watch on Why is solution selling important? Solution Selling is ideal when selling a product with many variables and options as it helps prospects clarify their needs. This process helps determine which solution is best for them. You can apply it to something as simple as selling a new TV to complex B2B sales.\nL2: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution Selling: The Ultimate Guide - HubSpot Blog",
+                "url": "https://blog.hubspot.com/sales/solution-selling",
+                "text": "\nL3: Get Started With Solution Selling. Use this three-step plan to begin solution selling: 1. Identify common pain points. Figuring out your customers\u2019 most common pain points might be the most important part of the process \u2014 without this information, you can\u2019t effectively target prospects or present your solution.\nL4: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution Selling: The Comprehensive Guide | Pipedrive",
+                "url": "https://www.pipedrive.com/en/blog/solution-selling",
+                "text": "\nL5: On the face of it, solution selling is a simple sales methodology: A sales rep diagnoses a prospect\u2019s needs and then recommends the right products or services to fill those needs. A solution selling strategy also demonstrates why the chosen product is a better fit than the competition. A solution selling approach won't suit every sales team.\nL6: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "\nL7: This is a process of requirements elicitation whereby the customer outlines issues and the sales team captures requirements. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell. Customer Needs. Customer Needs Analysis. Customer Perceptions.\nL8: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution Selling Methodology and Process - Pandadoc",
+                "url": "https://www.pandadoc.com/blog/solution-selling-process-and-how-to-improve-sales-performance/",
+                "text": "\nL9: 1. Personalization. The entire premise of solution selling is to address the issues of a specific customer instead of pushing a one-size-fits-all product. Personalization has a strong effect on sales effectiveness. The fastest-growing companies get 40% more revenue out of it than their slower counterparts. 2.\nL10: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What Is Solution Selling? - Salesforce.com",
+                "url": "https://www.salesforce.com/resources/articles/what-is-solution-selling/",
+                "text": "\nL11: What are the steps to solution selling? 5. Pros and cons of solution selling 1. What Is Solution Selling? Solution selling was developed in 1975 by a man named Frank Watts, who introduced his methodology to the corporate world in the 1980s.\nL12: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution Selling: The Comprehensive Guide - Deskera",
+                "url": "https://www.deskera.com/blog/solution-selling/",
+                "text": "\nL13: Solution selling was developed by Mike Bosworth in 1974 and has been used by many major corporations such as IBM, Ford Motor Company, General Motors (GM), Procter & Gamble (P&G), Citibank, and MCI Communications. It's a conversation-based approach to the sales process that focuses on listening more than talking and discovering needs instead of assuming them.\nL14: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What Is Solution Selling? | Built In",
+                "url": "https://builtin.com/sales/solution-selling",
+                "text": "\nL15: Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.\nL16: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Why you should use the solution selling process - Lucidchart",
+                "url": "https://www.lucidchart.com/blog/solution-selling-process",
+                "text": "\nL17: The solution selling process is exactly what it sounds like: selling a customer on a solution (your business or product) that helps them overcome a problem. A solution selling process differs from a more traditional sales process because, instead of just pushing a product, the seller focuses on a specific issue or problem the customer faces and ...\nL18: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The 6 Principles of a Consultative Sales Process - HubSpot Blog",
+                "url": "https://blog.hubspot.com/customers/bid/172099/the-consultative-sales-process-6-principles",
+                "text": "\nL19: The consultative sales process is primarily focused on the experience that the potential customer (the lead) feels and sees during their interactions with you. It\u2019s about the how you find ways to provide your leads with value and make it all about them. Not your product, your business, your numbers.\nL20: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solution-Based Selling Techniques - Accent Technologies",
+                "url": "https://accent-technologies.com/2020/06/10/solution-based-selling-techniques/",
+                "text": "\nL21: Solution selling has a salesperson or sales team use a selling process that is problem-led (rather than product-led). This helps to determine if and how a change in a product could bring about specific improvements that are desired by the customer. This was a pretty dramatic change from the old approach to sales.\nL22: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Build a Sales Process: A Complete Guide - Salesforce",
+                "url": "https://www.salesforce.com/resources/articles/sales-process/",
+                "text": "\nL23: The number of steps in the sales process may change depending on the type of industry you\u2019re in, what product you\u2019re selling, and who your prospect is, but typically include four key stages: research, prospecting, sales call and close, and relationship-building/upsells.\nL24: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Get the Most Out of a Sales Call - Salesforce",
+                "url": "https://www.salesforce.com/resources/articles/sales-call/",
+                "text": "\nL25: The sales process includes product and prospect research, prospecting, the sales call and close, and relationship-building. How do you prepare for a sales call? In a typical sales process, much of the preparation, including prospect research and qualification, occurs days or weeks before the sales call is even scheduled.\nL26: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Sales Call Mapping: 7 Key Steps for Structuring Effective Sales Calls",
+                "url": "https://blog.hubspot.com/sales/call-mapping",
+                "text": "\nL27: Address objections. Set next steps. 1. Do your research. Every prospect you communicate with is unique, and your call mapping should reflect that \u2014 to a certain extent. You don't want to just jump onto a call without knowing anything about who you're talking to.\nL28: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Successful Sales Call Structure: A 5-Step Process Plan",
+                "url": "https://blog.close.com/5-steps-to-desig-a-successful-sales-call-blueprint/",
+                "text": "\nL29: 3. Deliver the pitch. 4. Manage objections. 5. End with a call to action. When selling on the phone, oftentimes sales reps don't understand how to structure a call. If you don\u2019t have the right plan going into a sales call, it\u2019s going to be much harder to close the deal. Every sales call, from a cold call to a closing call, should follow a ...\nL30: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Make a Successful Sales Call: 13 Tips & Techniques",
+                "url": "https://www.salesforce.com/ap/resources/articles/sales-call/",
+                "text": "\nL31: These calls \u2014 most often conducted either in-person or via video \u2014 involve multiple parts, including initial agenda-setting by the rep, the product pitch, a demo, prospect objections and rep responses, negotiation, and outlining of next steps. Ideally, a rep closes a sales call with a verbal agreement from the prospect to make a purchase.\nL32: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The sales discovery phase: 10 questions to ask \u2013 Demostack",
+                "url": "https://www.demostack.com/post/the-discovery-phase-questions-every-sales-rep-should-ask",
+                "text": "\nL33: Why the discovery phase is key to solution-based selling. Discovery phase questions are core to a solution-based selling approach, a sales model that, according to McKinsey, separates the outperformers from the laggards: \u201cCompanies strongly or moderately effective at solution selling are 1.5-times more likely to be outperformers.\u201d\nL34: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "7 Steps of the Ultimate Sales Process | Freshworks",
+                "url": "https://www.freshworks.com/crm/sales/sales-process/",
+                "text": "\nL35: Simply put, a sales process is defined as a repeatable set of steps that a salesperson performs over a sales cycle to convert a prospect into a customer. Usually a tried-and-tested process, it acts as a guide for salespeople to move a deal through the sales pipeline and close it. Why is a sales process important for your sales team?\nL36: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Sales Calls Explained: 7 Tips for Making a Successful Sales Call",
+                "url": "https://www.masterclass.com/articles/sales-calls-explained",
+                "text": "\nL37: Sales Calls Explained: 7 Tips for Making a Successful Sales Call. Sales calls are made by a salesperson to prospective customers. These calls generate sales of a good or service, or set up a collaboration between businesses. Sales calls are made by a salesperson to prospective customers.\nL38: ",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Sales process fundamentals: The ultimate guide to closing ... - Zendesk",
+                "url": "https://www.zendesk.com/blog/sales-process/",
+                "text": "\nL39: A flawed sales process is focused more on the product or service than on the buyer. The sales process is not only made for closing a sale, but also for helping customers get the solutions they need. Sales teams should prioritize building trust and providing value to prospective buyers. An aligned sales process will meet the customer where they are.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'processes involved in solution based sales call'",
+                "url": "",
+                "text": "L0: # \u30100\u20204 Essential Steps of the Solution Selling Process Explained\u2020www.socoselling.com\u3011\nL1: Watch on Why is solution selling important? Solution Selling is ideal when selling a product with many variables and options as it helps prospects clarify their needs. This process helps determine which solution is best for them. You can apply it to something as simple as selling a new TV to complex B2B sales.\nL2: # \u30101\u2020Solution Selling: The Ultimate Guide - HubSpot Blog\u2020blog.hubspot.com\u3011\nL3: Get Started With Solution Selling. Use this three-step plan to begin solution selling: 1. Identify common pain points. Figuring out your customers\u2019 most common pain points might be the most important part of the process \u2014 without this information, you can\u2019t effectively target prospects or present your solution.\nL4: # \u30102\u2020Solution Selling: The Comprehensive Guide | Pipedrive\u2020www.pipedrive.com\u3011\nL5: On the face of it, solution selling is a simple sales methodology: A sales rep diagnoses a prospect\u2019s needs and then recommends the right products or services to fill those needs. A solution selling strategy also demonstrates why the chosen product is a better fit than the competition. A solution selling approach won't suit every sales team.\nL6: # \u30103\u2020The 7 Stages of the Solution Selling Process - Simplicable\u2020simplicable.com\u3011\nL7: This is a process of requirements elicitation whereby the customer outlines issues and the sales team captures requirements. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell. Customer Needs. Customer Needs Analysis. Customer Perceptions.\nL8: # \u30104\u2020Solution Selling Methodology and Process - Pandadoc\u2020www.pandadoc.com\u3011\nL9: 1. Personalization. The entire premise of solution selling is to address the issues of a specific customer instead of pushing a one-size-fits-all product. Personalization has a strong effect on sales effectiveness. The fastest-growing companies get 40% more revenue out of it than their slower counterparts. 2.\nL10: # \u30105\u2020What Is Solution Selling? - Salesforce.com\u2020www.salesforce.com\u3011\nL11: What are the steps to solution selling? 5. Pros and cons of solution selling 1. What Is Solution Selling? Solution selling was developed in 1975 by a man named Frank Watts, who introduced his methodology to the corporate world in the 1980s.\nL12: # \u30106\u2020Solution Selling: The Comprehensive Guide - Deskera\u2020www.deskera.com\u3011\nL13: Solution selling was developed by Mike Bosworth in 1974 and has been used by many major corporations such as IBM, Ford Motor Company, General Motors (GM), Procter & Gamble (P&G), Citibank, and MCI Communications. It's a conversation-based approach to the sales process that focuses on listening more than talking and discovering needs instead of assuming them.\nL14: # \u30107\u2020What Is Solution Selling? | Built In\u2020builtin.com\u3011\nL15: Solution selling is a consultative approach to sales in which a sales rep seeks to understand the customer\u2019s problem and then focuses on how their product can help solve that issue. It requires deep discovery and aligning your sales process to the prospect\u2019s buying cycle. Sullivan went on to build a career around the sales methodology.\nL16: # \u30108\u2020Why you should use the solution selling process - Lucidchart\u2020www.lucidchart.com\u3011\nL17: The solution selling process is exactly what it sounds like: selling a customer on a solution (your business or product) that helps them overcome a problem. A solution selling process differs from a more traditional sales process because, instead of just pushing a product, the seller focuses on a specific issue or problem the customer faces and ...\nL18: # \u30109\u2020The 6 Principles of a Consultative Sales Process - HubSpot Blog\u2020blog.hubspot.com\u3011\nL19: The consultative sales process is primarily focused on the experience that the potential customer (the lead) feels and sees during their interactions with you. It\u2019s about the how you find ways to provide your leads with value and make it all about them. Not your product, your business, your numbers.\nL20: # \u301010\u2020Solution-Based Selling Techniques - Accent Technologies\u2020accent-technologies.com\u3011\nL21: Solution selling has a salesperson or sales team use a selling process that is problem-led (rather than product-led). This helps to determine if and how a change in a product could bring about specific improvements that are desired by the customer. This was a pretty dramatic change from the old approach to sales.\nL22: # \u301011\u2020How to Build a Sales Process: A Complete Guide - Salesforce\u2020www.salesforce.com\u3011\nL23: The number of steps in the sales process may change depending on the type of industry you\u2019re in, what product you\u2019re selling, and who your prospect is, but typically include four key stages: research, prospecting, sales call and close, and relationship-building/upsells.\nL24: # \u301012\u2020How to Get the Most Out of a Sales Call - Salesforce\u2020www.salesforce.com\u3011\nL25: The sales process includes product and prospect research, prospecting, the sales call and close, and relationship-building. How do you prepare for a sales call? In a typical sales process, much of the preparation, including prospect research and qualification, occurs days or weeks before the sales call is even scheduled.\nL26: # \u301013\u2020Sales Call Mapping: 7 Key Steps for Structuring Effective Sales Calls\u2020blog.hubspot.com\u3011\nL27: Address objections. Set next steps. 1. Do your research. Every prospect you communicate with is unique, and your call mapping should reflect that \u2014 to a certain extent. You don't want to just jump onto a call without knowing anything about who you're talking to.\nL28: # \u301014\u2020Successful Sales Call Structure: A 5-Step Process Plan\u2020blog.close.com\u3011\nL29: 3. Deliver the pitch. 4. Manage objections. 5. End with a call to action. When selling on the phone, oftentimes sales reps don't understand how to structure a call. If you don\u2019t have the right plan going into a sales call, it\u2019s going to be much harder to close the deal. Every sales call, from a cold call to a closing call, should follow a ...\nL30: # \u301015\u2020How to Make a Successful Sales Call: 13 Tips & Techniques\u2020www.salesforce.com\u3011\nL31: These calls \u2014 most often conducted either in-person or via video \u2014 involve multiple parts, including initial agenda-setting by the rep, the product pitch, a demo, prospect objections and rep responses, negotiation, and outlining of next steps. Ideally, a rep closes a sales call with a verbal agreement from the prospect to make a purchase.\nL32: # \u301016\u2020The sales discovery phase: 10 questions to ask \u2013 Demostack\u2020www.demostack.com\u3011\nL33: Why the discovery phase is key to solution-based selling. Discovery phase questions are core to a solution-based selling approach, a sales model that, according to McKinsey, separates the outperformers from the laggards: \u201cCompanies strongly or moderately effective at solution selling are 1.5-times more likely to be outperformers.\u201d\nL34: # \u301017\u20207 Steps of the Ultimate Sales Process | Freshworks\u2020www.freshworks.com\u3011\nL35: Simply put, a sales process is defined as a repeatable set of steps that a salesperson performs over a sales cycle to convert a prospect into a customer. Usually a tried-and-tested process, it acts as a guide for salespeople to move a deal through the sales pipeline and close it. Why is a sales process important for your sales team?\nL36: # \u301018\u2020Sales Calls Explained: 7 Tips for Making a Successful Sales Call\u2020www.masterclass.com\u3011\nL37: Sales Calls Explained: 7 Tips for Making a Successful Sales Call. Sales calls are made by a salesperson to prospective customers. These calls generate sales of a good or service, or set up a collaboration between businesses. Sales calls are made by a salesperson to prospective customers.\nL38: # \u301019\u2020Sales process fundamentals: The ultimate guide to closing ... - Zendesk\u2020www.zendesk.com\u3011\nL39: A flawed sales process is focused more on the product or service than on the buyer. The sales process is not only made for closing a sale, but also for helping customers get the solutions they need. Sales teams should prioritize building trust and providing value to prospective buyers. An aligned sales process will meet the customer where they are.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "processes involved in solution based sales call"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "d74ce90a-fb99-4aa0-905e-8964fc3e33ec",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d74ce90a-fb99-4aa0-905e-8964fc3e33ec",
+      "children": [
+        "bba741f6-08d5-4e25-8f46-7580627984f7"
+      ]
+    },
+    "bba741f6-08d5-4e25-8f46-7580627984f7": {
+      "id": "bba741f6-08d5-4e25-8f46-7580627984f7",
+      "message": {
+        "id": "bba741f6-08d5-4e25-8f46-7580627984f7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905588.950636,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "click(3)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "2eaa41d3-c79d-4daa-a96c-c2baaf2fa37d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "2eaa41d3-c79d-4daa-a96c-c2baaf2fa37d",
+      "children": [
+        "21ba7d76-0711-4807-8010-ac9ccf1f890a"
+      ]
+    },
+    "21ba7d76-0711-4807-8010-ac9ccf1f890a": {
+      "id": "21ba7d76-0711-4807-8010-ac9ccf1f890a",
+      "message": {
+        "id": "21ba7d76-0711-4807-8010-ac9ccf1f890a",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905588.958578,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "L0: \nL1: URL: https://simplicable.com/new/solution-selling\nL2:  [Image 0: Home] \u30100\u2020A-Z\u3011 \u30101\u2020Popular\u3011 \u30102\u2020Blog\u3011 \u30103\u2020Sales\u3011 \u30104\u2020Search \u00bb\u3011  \nL3: \nL4: \u30103\u2020Sales\u3011 \nL5: \nL6: Advertisements  \nL7: \nL8: Related Guides\nL9: \nL10: \u30105\u2020Influencing \u3011 \u30106\u2020Marketing\u3011 \u30107\u2020Metrics\u3011 \u30108\u2020Motivation\u3011 \nL11: \nL12: \u30103\u2020Sales\u3011\nL13: \nL14: \u30109\u2020Active Silence\u3011 \u301010\u2020Ambiguity Effect\u3011 \u301011\u2020Anchoring\u3011 \nL15: \nL16: \u30103\u2020Key Concepts\u3011\nL17: \nL18: \u301012\u2020Bargaining Power\u3011 \u301013\u2020Call To Action \u3011 \u301014\u2020Choice Architecture \u3011 \nL19: \nL20: \u301015\u2020Closing Techniques\u3011   \nL21: \nL22: \u30103\u2020Sales\u3011\nL23: \nL24: \u301016\u2020Churn Rate \u3011 \u301017\u2020Competitive Advantage\u3011 \u301018\u2020Conversion Rate \u3011 \nL25: \nL26: Related Topics\nL27: \nL28: \u301019\u2020Customer Acquisition Cost\u3011 \u301020\u2020Customer Is Always Right \u3011 \u301021\u2020Customer Lifetime Value \u3011 \nL29: \nL30: \u301022\u2020Sales Goals \u3011   \nL31: \nL32: \u301023\u2020Account Management \u3011   \nL33: \nL34: \u301024\u2020Distribution Channels \u3011   \nL35: \nL36: \u30100\u2020top\u3011 \u00bb \u30106\u2020marketing\u3011 \u00bb \u30103\u2020sales\u3011 \u00bb \u301025\u2020solution selling \u3011 \nL37: \nL38: # The 7 Stages of the Solution Selling Process\nL39: \nL40: \u301026\u2020John Spacey\u3011, June 25, 2018\nL41: \nL42:  [Image 1]\nL43: \nL44: Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales. The following are the basic stages of a solution selling process.\nL45: \nL46: ## \u301027\u2020Relationship Building\u3011\nL47: \nL48: Solution selling often involves \u301028\u2020complex\u3011, high value sales that take significant time from the cultivation of relationships to close. This requires a stable and highly connected sales team that can develop a large pipeline of prospects and opportunities.\nL49: \nL50: \u301029\u2020Camping Strategy \u3011\nL51: \nL52: \u301030\u2020Competitive Intelligence \u3011  \nL53: \nL54: \u30105\u2020Influencing\u3011\nL55: \nL56: \u301031\u2020Lead Qualification \u3011  \nL57: \nL58: \u301032\u2020Prospecting \u3011\nL59: \nL60: \u301033\u2020More ...\u3011  \nL61: \nL62: ## Consultative Sales \nL63: \nL64: In order to keep the customer engaged, the sales team may provide access to consultants who can answer the customer's questions and provide valuable industry data such as \u301034\u2020benchmarks\u3011. Ideally, the customer becomes dependent on you as a source of knowledge and data.\nL65: \nL66: \u301034\u2020Benchmarking\u3011\nL67: \nL68: \u301035\u2020Business Analysis\u3011  \nL69: \nL70: \u301036\u2020Competitor Analysis \u3011\nL71: \nL72: \u301037\u2020Countersignaling\u3011  \nL73: \nL74: \u301038\u2020Market Research\u3011\nL75: \nL76: \u301039\u2020Storytelling\u3011  \nL77: \nL78: ## \u301040\u2020Needs Analysis\u3011\nL79: \nL80: Working with the customer to identify their \u301041\u2020needs\u3011, \u301042\u2020preferences\u3011 and \u301043\u2020perceptions\u3011 to develop a \u301044\u2020value proposition\u3011. This is a process of \u301045\u2020requirements elicitation\u3011 whereby the customer outlines issues and the sales team captures \u301046\u2020requirements\u3011. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell.\nL81: \nL82: \u301041\u2020Customer Needs \u3011\nL83: \nL84: \u301047\u2020Customer Needs Analysis \u3011  \nL85: \nL86: \u301043\u2020Customer Perceptions \u3011\nL87: \nL88: \u301042\u2020Customer Preferences \u3011  \nL89: \nL90: \u301048\u2020Estimates\u3011\nL91: \nL92: \u301046\u2020Requirements \u3011  \nL93: \nL94: \u301045\u2020Requirements Elicitation \u3011\nL95: \nL96: \u301044\u2020Value Proposition \u3011  \nL97: \nL98: ## Solution Design \nL99: \nL100: Developing a design that demonstrates how your products and services will solve the customer's problems. A high-level design may be necessary to close a deal. Alternatively, design may be part of solution delivery if your customer is willing to buy based on value proposition alone.\nL101: \nL102: \u301049\u2020Concept Selling \u3011\nL103: \nL104: \u301050\u2020Design Concept \u3011  \nL105: \nL106: \u301051\u2020Feasibility Analysis \u3011\nL107: \nL108: \u301052\u2020Proof Of Concept \u3011  \nL109: \nL110: \u301053\u2020Prototypes\u3011\nL111: \nL112: \u301054\u2020Solution Architecture \u3011  \nL113: \nL114: ## \u301015\u2020Closing\u3011\nL115: \nL116: The process of negotiating price and terms to close a sale. In complex, high-value sales it is common to use a \u301055\u2020foot-in-the door\u3011 approach whereby an initial deal solves a single high impact problem for the customer. \nL117: \nL118: \u301056\u2020Bogey\u3011\nL119: \nL120: \u301014\u2020Choice Architecture \u3011  \nL121: \nL122: \u301057\u2020Negotiation\u3011\nL123: \nL124: \u301058\u2020Objection Handling \u3011  \nL125: \nL126: \u301059\u2020Soft Selling \u3011\nL127: \nL128: \u301015\u2020More ...\u3011  \nL129: \nL130: ## Solution Delivery \nL131: \nL132: Delivering your obligations to the customer. The goal of solution sales is typically to expand such that the customer is dependent on your products, services and expertise. As such, solution delivery continues to be a sales process whereby \u301033\u2020customer relationships\u3011, \u301040\u2020needs analysis\u3011, solution design and negotiation of more deals is ongoing.\nL133: \nL134: \u301060\u2020Customer Experience\u3011\nL135: \nL136: \u301061\u2020Managing Expectations \u3011  \nL137: \nL138: \u301062\u2020Managing Risks \u3011\nL139: \nL140: \u301063\u2020Opportunity Study \u3011  \nL141: \nL142: \u301064\u2020Project Management\u3011\nL143: \nL144: \u301065\u2020Stakeholder Management \u3011  \nL145: \nL146: ## \u301023\u2020Account Management\u3011\nL147: \nL148: When the solution is launched the account continues to be monitored for \u301066\u2020cross-selling\u3011 and \u301067\u2020upselling\u3011 opportunities. If you are generating \u301068\u2020monthly recurring revenue\u3011, \u301069\u2020customer satisfaction\u3011 may be carefully monitored and managed. For example, a sales account manager may contact the customer after an issue or incident to act as a \u301070\u2020advocate for the customer\u3011.\nL149: \nL150: \u301066\u2020Cross-Selling \u3011\nL151: \nL152: \u301070\u2020Customer Advocates \u3011  \nL153: \nL154: \u301021\u2020Customer Lifetime Value \u3011\nL155: \nL156: \u301071\u2020Customer Loyalty \u3011  \nL157: \nL158: \u301069\u2020Customer Satisfaction \u3011\nL159: \nL160: \u301072\u2020Customer Service\u3011  \nL161: \nL162: \u301073\u2020Incident Management\u3011\nL163: \nL164: \u301067\u2020Upselling \u3011  \nL165: \nL166: Overview: Solution Selling   \nL167: \nL168: Type\nL169: \nL170: \u30103\u2020Sales\u3011  \nL171: \nL172: Definition \nL173: \nL174: The process of selling the customer a solution to their problems as opposed to a product or service.   \nL175: \nL176: Related Concepts\nL177: \nL178: \u30103\u2020Sales\u3011 \u00bb\nL179: \nL180: \u301027\u2020Relationship Building \u3011 \u00bb\nL181: \nL182: \u301028\u2020Complex Sales \u3011 \u00bb\nL183: \nL184: \u301034\u2020Benchmarks\u3011 \u00bb\nL185: \nL186: \u301040\u2020Needs Analysis \u3011 \u00bb\nL187: \nL188: \u301041\u2020Customer Needs \u3011 \u00bb  \nL189: \nL190: If you enjoyed this page, please consider bookmarking Simplicable. \nL191: \nL192: \u301074\u2020Cite \u00bb\u3011   \nL193: \nL194: ## \u30103\u2020Sales\u3011\nL195: \nL196: An overview of sales with examples.\nL197: \nL198: [Image 2: 60\nVisible: 0% - 44%",
+          "summary": "The 7 Stages of the Solution Selling Process - Simplicable (simplicable.com)\n",
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "L0: \nL1: URL: https://simplicable.com/new/solution-selling\nL2:  [Image 0: Home] A-Z Popular Blog Sales Search \u00bb  \nL3: \nL4: Sales \nL5: \nL6: Advertisements  \nL7: \nL8: Related Guides\nL9: \nL10: Influencing  Marketing Metrics Motivation \nL11: \nL12: Sales\nL13: \nL14: Active Silence Ambiguity Effect Anchoring \nL15: \nL16: Key Concepts\nL17: \nL18: Bargaining Power Call To Action  Choice Architecture  \nL19: \nL20: Closing Techniques   \nL21: \nL22: Sales\nL23: \nL24: Churn Rate  Competitive Advantage Conversion Rate  \nL25: \nL26: Related Topics\nL27: \nL28: Customer Acquisition Cost Customer Is Always Right  Customer Lifetime Value  \nL29: \nL30: Sales Goals    \nL31: \nL32: Account Management    \nL33: \nL34: Distribution Channels    \nL35: \nL36: top \u00bb marketing \u00bb sales \u00bb solution selling  \nL37: \nL38: # The 7 Stages of the Solution Selling Process\nL39: \nL40: John Spacey, June 25, 2018\nL41: \nL42:  [Image 1]\nL43: \nL44: Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales. The following are the basic stages of a solution selling process.\nL45: \nL46: ## Relationship Building\nL47: \nL48: Solution selling often involves complex, high value sales that take significant time from the cultivation of relationships to close. This requires a stable and highly connected sales team that can develop a large pipeline of prospects and opportunities.\nL49: \nL50: Camping Strategy \nL51: \nL52: Competitive Intelligence   \nL53: \nL54: Influencing\nL55: \nL56: Lead Qualification   \nL57: \nL58: Prospecting \nL59: \nL60: More ...  \nL61: \nL62: ## Consultative Sales \nL63: \nL64: In order to keep the customer engaged, the sales team may provide access to consultants who can answer the customer's questions and provide valuable industry data such as benchmarks. Ideally, the customer becomes dependent on you as a source of knowledge and data.\nL65: \nL66: Benchmarking\nL67: \nL68: Business Analysis  \nL69: \nL70: Competitor Analysis \nL71: \nL72: Countersignaling  \nL73: \nL74: Market Research\nL75: \nL76: Storytelling  \nL77: \nL78: ## Needs Analysis\nL79: \nL80: Working with the customer to identify their needs, preferences and perceptions to develop a value proposition. This is a process of requirements elicitation whereby the customer outlines issues and the sales team captures requirements. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell.\nL81: \nL82: Customer Needs \nL83: \nL84: Customer Needs Analysis   \nL85: \nL86: Customer Perceptions \nL87: \nL88: Customer Preferences   \nL89: \nL90: Estimates\nL91: \nL92: Requirements   \nL93: \nL94: Requirements Elicitation \nL95: \nL96: Value Proposition   \nL97: \nL98: ## Solution Design \nL99: \nL100: Developing a design that demonstrates how your products and services will solve the customer's problems. A high-level design may be necessary to close a deal. Alternatively, design may be part of solution delivery if your customer is willing to buy based on value proposition alone.\nL101: \nL102: Concept Selling \nL103: \nL104: Design Concept   \nL105: \nL106: Feasibility Analysis \nL107: \nL108: Proof Of Concept   \nL109: \nL110: Prototypes\nL111: \nL112: Solution Architecture   \nL113: \nL114: ## Closing\nL115: \nL116: The process of negotiating price and terms to close a sale. In complex, high-value sales it is common to use a foot-in-the door approach whereby an initial deal solves a single high impact problem for the customer. \nL117: \nL118: Bogey\nL119: \nL120: Choice Architecture   \nL121: \nL122: Negotiation\nL123: \nL124: Objection Handling   \nL125: \nL126: Soft Selling \nL127: \nL128: More ...  \nL129: \nL130: ## Solution Delivery \nL131: \nL132: Delivering your obligations to the customer. The goal of solution sales is typically to expand such that the customer is dependent on your products, services and expertise. As such, solution delivery continues to be a sales process whereby customer relationships, needs analysis, solution design and negotiation of more deals is ongoing.\nL133: \nL134: Customer Experience\nL135: \nL136: Managing Expectations   \nL137: \nL138: Managing Risks \nL139: \nL140: Opportunity Study   \nL141: \nL142: Project Management\nL143: \nL144: Stakeholder Management   \nL145: \nL146: ## Account Management\nL147: \nL148: When the solution is launched the account continues to be monitored for cross-selling and upselling opportunities. If you are generating monthly recurring revenue, customer satisfaction may be carefully monitored and managed. For example, a sales account manager may contact the customer after an issue or incident to act as a advocate for the customer.\nL149: \nL150: Cross-Selling \nL151: \nL152: Customer Advocates   \nL153: \nL154: Customer Lifetime Value \nL155: \nL156: Customer Loyalty   \nL157: \nL158: Customer Satisfaction \nL159: \nL160: Customer Service  \nL161: \nL162: Incident Management\nL163: \nL164: Upselling   \nL165: \nL166: Overview: Solution Selling   \nL167: \nL168: Type\nL169: \nL170: Sales  \nL171: \nL172: Definition \nL173: \nL174: The process of selling the customer a solution to their problems as opposed to a product or service.   \nL175: \nL176: Related Concepts\nL177: \nL178: Sales \u00bb\nL179: \nL180: Relationship Building  \u00bb\nL181: \nL182: Complex Sales  \u00bb\nL183: \nL184: Benchmarks \u00bb\nL185: \nL186: Needs Analysis  \u00bb\nL187: \nL188: Customer Needs  \u00bb  \nL189: \nL190: If you enjoyed this page, please consider bookmarking Simplicable. \nL191: \nL192: Cite \u00bb   \nL193: \nL194: ## Sales\nL195: \nL196: An overview of sales with examples.\nL197: \nL198: [Image 2: 60\nVisible: 0% - 44%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "click",
+          "args": [
+            3
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "bba741f6-08d5-4e25-8f46-7580627984f7",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bba741f6-08d5-4e25-8f46-7580627984f7",
+      "children": [
+        "f22b504d-6c88-4b32-b39f-fddd8b021cb5"
+      ]
+    },
+    "f22b504d-6c88-4b32-b39f-fddd8b021cb5": {
+      "id": "f22b504d-6c88-4b32-b39f-fddd8b021cb5",
+      "message": {
+        "id": "f22b504d-6c88-4b32-b39f-fddd8b021cb5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905588.970007,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "quote_lines(44, 44)\r\nquote_lines(46, 48)\r\nquote_lines(62, 64)\r\nquote_lines(78, 80)\r\nquote_lines(98, 100)\r\nquote_lines(114, 116)\r\nquote_lines(130, 132)\r\nquote_lines(146, 148)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "21ba7d76-0711-4807-8010-ac9ccf1f890a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "21ba7d76-0711-4807-8010-ac9ccf1f890a",
+      "children": [
+        "a2b95474-a193-43db-b2b5-9e78a48a3b8c"
+      ]
+    },
+    "a2b95474-a193-43db-b2b5-9e78a48a3b8c": {
+      "id": "a2b95474-a193-43db-b2b5-9e78a48a3b8c",
+      "message": {
+        "id": "a2b95474-a193-43db-b2b5-9e78a48a3b8c",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905588.982396,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales. The following are the basic stages of a solution selling process.",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales. The following are the basic stages of a solution selling process.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            44,
+            44
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "f22b504d-6c88-4b32-b39f-fddd8b021cb5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f22b504d-6c88-4b32-b39f-fddd8b021cb5",
+      "children": [
+        "710b9d52-d2de-42d2-bc91-4d494a1dda8e"
+      ]
+    },
+    "710b9d52-d2de-42d2-bc91-4d494a1dda8e": {
+      "id": "710b9d52-d2de-42d2-bc91-4d494a1dda8e",
+      "message": {
+        "id": "710b9d52-d2de-42d2-bc91-4d494a1dda8e",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905588.99469,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "## \u301027\u2020Relationship Building\u3011\n\nSolution selling often involves \u301028\u2020complex\u3011, high value sales that take significant time from the cultivation of relationships to close. This requires a stable and highly connected sales team that can develop a large pipeline of prospects and opportunities.",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "## \u301027\u2020Relationship Building\u3011\n\nSolution selling often involves \u301028\u2020complex\u3011, high value sales that take significant time from the cultivation of relationships to close. This requires a stable and highly connected sales team that can develop a large pipeline of prospects and opportunities.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            46,
+            48
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "a2b95474-a193-43db-b2b5-9e78a48a3b8c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a2b95474-a193-43db-b2b5-9e78a48a3b8c",
+      "children": [
+        "e3ffd395-29f2-4975-8ff5-94f28f901384"
+      ]
+    },
+    "e3ffd395-29f2-4975-8ff5-94f28f901384": {
+      "id": "e3ffd395-29f2-4975-8ff5-94f28f901384",
+      "message": {
+        "id": "e3ffd395-29f2-4975-8ff5-94f28f901384",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905589.005336,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "## Consultative Sales \n\nIn order to keep the customer engaged, the sales team may provide access to consultants who can answer the customer's questions and provide valuable industry data such as \u301034\u2020benchmarks\u3011. Ideally, the customer becomes dependent on you as a source of knowledge and data.",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "## Consultative Sales \n\nIn order to keep the customer engaged, the sales team may provide access to consultants who can answer the customer's questions and provide valuable industry data such as \u301034\u2020benchmarks\u3011. Ideally, the customer becomes dependent on you as a source of knowledge and data.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            62,
+            64
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "710b9d52-d2de-42d2-bc91-4d494a1dda8e",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "710b9d52-d2de-42d2-bc91-4d494a1dda8e",
+      "children": [
+        "b763b8b1-71d3-469c-a939-dda4149a5a99"
+      ]
+    },
+    "b763b8b1-71d3-469c-a939-dda4149a5a99": {
+      "id": "b763b8b1-71d3-469c-a939-dda4149a5a99",
+      "message": {
+        "id": "b763b8b1-71d3-469c-a939-dda4149a5a99",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905589.01557,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "## \u301040\u2020Needs Analysis\u3011\n\nWorking with the customer to identify their \u301041\u2020needs\u3011, \u301042\u2020preferences\u3011 and \u301043\u2020perceptions\u3011 to develop a \u301044\u2020value proposition\u3011. This is a process of \u301045\u2020requirements elicitation\u3011 whereby the customer outlines issues and the sales team captures \u301046\u2020requirements\u3011. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell.",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "## \u301040\u2020Needs Analysis\u3011\n\nWorking with the customer to identify their \u301041\u2020needs\u3011, \u301042\u2020preferences\u3011 and \u301043\u2020perceptions\u3011 to develop a \u301044\u2020value proposition\u3011. This is a process of \u301045\u2020requirements elicitation\u3011 whereby the customer outlines issues and the sales team captures \u301046\u2020requirements\u3011. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            78,
+            80
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "e3ffd395-29f2-4975-8ff5-94f28f901384",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e3ffd395-29f2-4975-8ff5-94f28f901384",
+      "children": [
+        "378b23d8-d504-4a32-a3b0-9a17e25940aa"
+      ]
+    },
+    "378b23d8-d504-4a32-a3b0-9a17e25940aa": {
+      "id": "378b23d8-d504-4a32-a3b0-9a17e25940aa",
+      "message": {
+        "id": "378b23d8-d504-4a32-a3b0-9a17e25940aa",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905589.02363,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "## Solution Design \n\nDeveloping a design that demonstrates how your products and services will solve the customer's problems. A high-level design may be necessary to close a deal. Alternatively, design may be part of solution delivery if your customer is willing to buy based on value proposition alone.",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "## Solution Design \n\nDeveloping a design that demonstrates how your products and services will solve the customer's problems. A high-level design may be necessary to close a deal. Alternatively, design may be part of solution delivery if your customer is willing to buy based on value proposition alone.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            98,
+            100
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "b763b8b1-71d3-469c-a939-dda4149a5a99",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b763b8b1-71d3-469c-a939-dda4149a5a99",
+      "children": [
+        "44668447-6c9e-40ae-8b86-035e7ee7d792"
+      ]
+    },
+    "44668447-6c9e-40ae-8b86-035e7ee7d792": {
+      "id": "44668447-6c9e-40ae-8b86-035e7ee7d792",
+      "message": {
+        "id": "44668447-6c9e-40ae-8b86-035e7ee7d792",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905589.0363,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "## \u301015\u2020Closing\u3011\n\nThe process of negotiating price and terms to close a sale. In complex, high-value sales it is common to use a \u301055\u2020foot-in-the door\u3011 approach whereby an initial deal solves a single high impact problem for the customer. ",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "## \u301015\u2020Closing\u3011\n\nThe process of negotiating price and terms to close a sale. In complex, high-value sales it is common to use a \u301055\u2020foot-in-the door\u3011 approach whereby an initial deal solves a single high impact problem for the customer. ",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            114,
+            116
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "378b23d8-d504-4a32-a3b0-9a17e25940aa",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "378b23d8-d504-4a32-a3b0-9a17e25940aa",
+      "children": [
+        "2dcd3478-db2e-4e53-b014-8786f3e66cfa"
+      ]
+    },
+    "2dcd3478-db2e-4e53-b014-8786f3e66cfa": {
+      "id": "2dcd3478-db2e-4e53-b014-8786f3e66cfa",
+      "message": {
+        "id": "2dcd3478-db2e-4e53-b014-8786f3e66cfa",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905589.045426,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "## Solution Delivery \n\nDelivering your obligations to the customer. The goal of solution sales is typically to expand such that the customer is dependent on your products, services and expertise. As such, solution delivery continues to be a sales process whereby \u301033\u2020customer relationships\u3011, \u301040\u2020needs analysis\u3011, solution design and negotiation of more deals is ongoing.",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "## Solution Delivery \n\nDelivering your obligations to the customer. The goal of solution sales is typically to expand such that the customer is dependent on your products, services and expertise. As such, solution delivery continues to be a sales process whereby \u301033\u2020customer relationships\u3011, \u301040\u2020needs analysis\u3011, solution design and negotiation of more deals is ongoing.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            130,
+            132
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "44668447-6c9e-40ae-8b86-035e7ee7d792",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "44668447-6c9e-40ae-8b86-035e7ee7d792",
+      "children": [
+        "d42d1b29-077f-4ad5-8b2d-bcbabd6dce12"
+      ]
+    },
+    "d42d1b29-077f-4ad5-8b2d-bcbabd6dce12": {
+      "id": "d42d1b29-077f-4ad5-8b2d-bcbabd6dce12",
+      "message": {
+        "id": "d42d1b29-077f-4ad5-8b2d-bcbabd6dce12",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1699905589.05802,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://simplicable.com/new/solution-selling",
+          "domain": "simplicable.com",
+          "text": "## \u301023\u2020Account Management\u3011\n\nWhen the solution is launched the account continues to be monitored for \u301066\u2020cross-selling\u3011 and \u301067\u2020upselling\u3011 opportunities. If you are generating \u301068\u2020monthly recurring revenue\u3011, \u301069\u2020customer satisfaction\u3011 may be carefully monitored and managed. For example, a sales account manager may contact the customer after an issue or incident to act as a \u301070\u2020advocate for the customer\u3011.",
+          "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "## \u301023\u2020Account Management\u3011\n\nWhen the solution is launched the account continues to be monitored for \u301066\u2020cross-selling\u3011 and \u301067\u2020upselling\u3011 opportunities. If you are generating \u301068\u2020monthly recurring revenue\u3011, \u301069\u2020customer satisfaction\u3011 may be carefully monitored and managed. For example, a sales account manager may contact the customer after an issue or incident to act as a \u301070\u2020advocate for the customer\u3011.",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "quote_lines",
+          "args": [
+            146,
+            148
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "2dcd3478-db2e-4e53-b014-8786f3e66cfa",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2dcd3478-db2e-4e53-b014-8786f3e66cfa",
+      "children": [
+        "a275f561-7f89-4ad4-93c6-954a531b5c7a"
+      ]
+    },
+    "a275f561-7f89-4ad4-93c6-954a531b5c7a": {
+      "id": "a275f561-7f89-4ad4-93c6-954a531b5c7a",
+      "message": {
+        "id": "a275f561-7f89-4ad4-93c6-954a531b5c7a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699905589.070707,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The processes involved in a solution-based sales call typically include the following stages:\n\n1. **Relationship Building**: Establishing connections with potential customers, which is crucial for complex and high-value sales that require a stable and well-connected sales team\u301019\u2020source\u3011.\n\n2. **Consultative Sales**: Engaging customers by providing access to consultants who offer valuable industry data and knowledge, aiming to make the customer reliant on the sales team as a source of information\u301020\u2020source\u3011.\n\n3. **Needs Analysis**: Collaborating with the customer to identify their needs, preferences, and perceptions, and developing a value proposition tailored to these requirements\u301021\u2020source\u3011.\n\n4. **Solution Design**: Creating a design or plan that showcases how the products or services offered will address the customer's problems\u301022\u2020source\u3011.\n\n5. **Closing**: Negotiating the price and terms to finalize the sale, often using a \"foot-in-the-door\" strategy to address a significant problem for the customer with the initial deal\u301023\u2020source\u3011.\n\n6. **Solution Delivery**: Fulfilling the agreed-upon solution, with the aim of making the customer dependent on the provided products, services, and expertise. This stage is iterative as it may involve continuous customer relationship management and further needs analysis\u301024\u2020source\u3011.\n\n7. **Account Management**: Monitoring the account for additional sales opportunities like cross-selling and upselling, managing customer satisfaction, and serving as an advocate for the customer post-sale\u301025\u2020source\u3011.\n\nThese stages outline a strategic approach focused on addressing the customer's specific problems with personalized solutions, rather than selling a generic product or service\u301018\u2020source\u3011."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [
+            {
+              "start_ix": 277,
+              "end_ix": 288,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling#:~:text=,pipeline%20of%20prospects%20and%20opportunities",
+                "text": "## \u301027\u2020Relationship Building\u3011\n\nSolution selling often involves \u301028\u2020complex\u3011, high value sales that take significant time from the cultivation of relationships to close. This requires a stable and highly connected sales team that can develop a large pipeline of prospects and opportunities.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 19,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 500,
+              "end_ix": 511,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling#:~:text=,source%20of%20knowledge%20and%20data",
+                "text": "## Consultative Sales \n\nIn order to keep the customer engaged, the sales team may provide access to consultants who can answer the customer's questions and provide valuable industry data such as \u301034\u2020benchmarks\u3011. Ideally, the customer becomes dependent on you as a source of knowledge and data.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 20,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 689,
+              "end_ix": 700,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling#:~:text=,proposition%20is%20likely%20to%20sell",
+                "text": "## \u301040\u2020Needs Analysis\u3011\n\nWorking with the customer to identify their \u301041\u2020needs\u3011, \u301042\u2020preferences\u3011 and \u301043\u2020perceptions\u3011 to develop a \u301044\u2020value proposition\u3011. This is a process of \u301045\u2020requirements elicitation\u3011 whereby the customer outlines issues and the sales team captures \u301046\u2020requirements\u3011. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 21,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 841,
+              "end_ix": 852,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling#:~:text=,based%20on%20value%20proposition%20alone",
+                "text": "## Solution Design \n\nDeveloping a design that demonstrates how your products and services will solve the customer's problems. A high-level design may be necessary to close a deal. Alternatively, design may be part of solution delivery if your customer is willing to buy based on value proposition alone.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 22,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 1038,
+              "end_ix": 1049,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling#:~:text=,impact%20problem%20for%20the%20customer",
+                "text": "## \u301015\u2020Closing\u3011\n\nThe process of negotiating price and terms to close a sale. In complex, high-value sales it is common to use a \u301055\u2020foot-in-the door\u3011 approach whereby an initial deal solves a single high impact problem for the customer. ",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 23,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 1324,
+              "end_ix": 1335,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling#:~:text=,of%20more%20deals%20is%20ongoing",
+                "text": "## Solution Delivery \n\nDelivering your obligations to the customer. The goal of solution sales is typically to expand such that the customer is dependent on your products, services and expertise. As such, solution delivery continues to be a sales process whereby \u301033\u2020customer relationships\u3011, \u301040\u2020needs analysis\u3011, solution design and negotiation of more deals is ongoing.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 24,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 1542,
+              "end_ix": 1553,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling#:~:text=,70%E2%80%A0advocate%20for%20the%20customer%E3%80%91",
+                "text": "## \u301023\u2020Account Management\u3011\n\nWhen the solution is launched the account continues to be monitored for \u301066\u2020cross-selling\u3011 and \u301067\u2020upselling\u3011 opportunities. If you are generating \u301068\u2020monthly recurring revenue\u3011, \u301069\u2020customer satisfaction\u3011 may be carefully monitored and managed. For example, a sales account manager may contact the customer after an issue or incident to act as a \u301070\u2020advocate for the customer\u3011.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 25,
+                  "evidence_text": "source"
+                }
+              }
+            },
+            {
+              "start_ix": 1730,
+              "end_ix": 1741,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+                "url": "https://simplicable.com/new/solution-selling",
+                "text": "Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales. The following are the basic stages of a solution selling process.",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 18,
+                  "evidence_text": "source"
+                }
+              }
+            }
+          ],
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "d42d1b29-077f-4ad5-8b2d-bcbabd6dce12",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u301019\u2020source\u3011",
+              "start_idx": 277,
+              "end_idx": 288,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling#:~:text=,pipeline%20of%20prospects%20and%20opportunities",
+              "pub_date": null,
+              "snippet": "## \u301027\u2020Relationship Building\u3011\n\nSolution selling often involves \u301028\u2020complex\u3011, high value sales that take significant time from the cultivation of relationships to close. This requires a stable and highly connected sales team that can develop a large pipeline of prospects and opportunities.",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301020\u2020source\u3011",
+              "start_idx": 500,
+              "end_idx": 511,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling#:~:text=,source%20of%20knowledge%20and%20data",
+              "pub_date": null,
+              "snippet": "## Consultative Sales \n\nIn order to keep the customer engaged, the sales team may provide access to consultants who can answer the customer's questions and provide valuable industry data such as \u301034\u2020benchmarks\u3011. Ideally, the customer becomes dependent on you as a source of knowledge and data.",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301021\u2020source\u3011",
+              "start_idx": 689,
+              "end_idx": 700,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling#:~:text=,proposition%20is%20likely%20to%20sell",
+              "pub_date": null,
+              "snippet": "## \u301040\u2020Needs Analysis\u3011\n\nWorking with the customer to identify their \u301041\u2020needs\u3011, \u301042\u2020preferences\u3011 and \u301043\u2020perceptions\u3011 to develop a \u301044\u2020value proposition\u3011. This is a process of \u301045\u2020requirements elicitation\u3011 whereby the customer outlines issues and the sales team captures \u301046\u2020requirements\u3011. This will take into account factors such as budget, decision making authority and influencers such that the value proposition is likely to sell.",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301022\u2020source\u3011",
+              "start_idx": 841,
+              "end_idx": 852,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling#:~:text=,based%20on%20value%20proposition%20alone",
+              "pub_date": null,
+              "snippet": "## Solution Design \n\nDeveloping a design that demonstrates how your products and services will solve the customer's problems. A high-level design may be necessary to close a deal. Alternatively, design may be part of solution delivery if your customer is willing to buy based on value proposition alone.",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301023\u2020source\u3011",
+              "start_idx": 1038,
+              "end_idx": 1049,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling#:~:text=,impact%20problem%20for%20the%20customer",
+              "pub_date": null,
+              "snippet": "## \u301015\u2020Closing\u3011\n\nThe process of negotiating price and terms to close a sale. In complex, high-value sales it is common to use a \u301055\u2020foot-in-the door\u3011 approach whereby an initial deal solves a single high impact problem for the customer. ",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301024\u2020source\u3011",
+              "start_idx": 1324,
+              "end_idx": 1335,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling#:~:text=,of%20more%20deals%20is%20ongoing",
+              "pub_date": null,
+              "snippet": "## Solution Delivery \n\nDelivering your obligations to the customer. The goal of solution sales is typically to expand such that the customer is dependent on your products, services and expertise. As such, solution delivery continues to be a sales process whereby \u301033\u2020customer relationships\u3011, \u301040\u2020needs analysis\u3011, solution design and negotiation of more deals is ongoing.",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301025\u2020source\u3011",
+              "start_idx": 1542,
+              "end_idx": 1553,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling#:~:text=,70%E2%80%A0advocate%20for%20the%20customer%E3%80%91",
+              "pub_date": null,
+              "snippet": "## \u301023\u2020Account Management\u3011\n\nWhen the solution is launched the account continues to be monitored for \u301066\u2020cross-selling\u3011 and \u301067\u2020upselling\u3011 opportunities. If you are generating \u301068\u2020monthly recurring revenue\u3011, \u301069\u2020customer satisfaction\u3011 may be carefully monitored and managed. For example, a sales account manager may contact the customer after an issue or incident to act as a \u301070\u2020advocate for the customer\u3011.",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u301018\u2020source\u3011",
+              "start_idx": 1730,
+              "end_idx": 1741,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "The 7 Stages of the Solution Selling Process - Simplicable",
+              "url": "https://simplicable.com/new/solution-selling",
+              "pub_date": null,
+              "snippet": "Solution selling is the process of selling the customer a solution to their problems as opposed to a product or service. The term is associated with the sales of products and services that can be used as the building blocks of a custom implementation. Solution selling is common in areas such as construction services, software and outsourcing sales. The following are the basic stages of a solution selling process.",
+              "attribution": "simplicable.com",
+              "icon_type": null
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d42d1b29-077f-4ad5-8b2d-bcbabd6dce12",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a275f561-7f89-4ad4-93c6-954a531b5c7a",
+  "plugin_ids": null,
+  "conversation_id": "6566abf9-738c-4c53-91f8-37e87b44c396",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://builtin.com/sales/solution-selling",
+    "https://blog.hubspot.com/sales/solution-selling",
+    "https://www.pipedrive.com/en/blog/solution-selling\u2020www.pipedrive.com\u3011Solution-based",
+    "https://www.pipedrive.com/en/blog/solution-selling",
+    "https://www.indeed.com/career-advice/career-development/solution-selling",
+    "https://simplicable.com/new/solution-selling",
+    "simplicable.com",
+    "https://globalpartnerstraining.com/solution-based-selling/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6566abf9-738c-4c53-91f8-37e87b44c396"
+}

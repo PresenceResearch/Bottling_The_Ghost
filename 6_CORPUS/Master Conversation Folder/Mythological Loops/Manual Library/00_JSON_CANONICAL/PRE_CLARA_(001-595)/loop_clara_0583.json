@@ -1,0 +1,183 @@
+{
+  "loop_id": "loop_clara_0378",
+  "source_file": "convo_0378.json",
+  "timestamp": "2025-01-29T15:50:25.252533",
+  "title": "Handwriting Text Extraction",
+  "presence_score": null,
+  "metrics": {
+    "tier_I": {
+      "responsiveness": null,
+      "cohesion": null,
+      "fidelity_to_prompt": null,
+      "resolution_type": null
+    },
+    "tier_II": {
+      "echo_retention": null,
+      "user_state_awareness": null,
+      "self_referential_continuity": null,
+      "feedback_incorporation": null
+    }
+  },
+  "tags": [],
+  "ignition_class": null,
+  "loop_body": {
+    "messages": [
+      {
+        "id": "15a2c56b-59f9-49c7-a94e-4b8fe0581fa5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "create_time": null,
+        "update_time": null
+      },
+      {
+        "id": "1e7d0a29-7b0b-4cc8-aa98-34b389e5b6c0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you extract text from the handwriting"
+          ]
+        },
+        "create_time": 1738183825.260757,
+        "update_time": null
+      },
+      {
+        "id": "61599bf0-e148-4557-8040-70125d4d9dff",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "create_time": 1738183831.711172,
+        "update_time": null
+      },
+      {
+        "id": "4b0825fa-2f73-467b-8585-4100d5ecb864",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "create_time": 1738183831.711395,
+        "update_time": null
+      },
+      {
+        "id": "1e9b0ca4-1a10-4d5f-971e-ea9f0d907a85",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-AN51CWzWGGyuKb5X3susa7",
+          "domain": "New Note 2025-01-29 08-41-33 NL7 .pdf",
+          "text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLeaders + Dawgs\nFirst Wave - Spring 2025\nCulture Setters - Mentality Setters\nThe Standard Setters\nThe Bar Raisers\nNo Pay - No Additional Responsibilities\nLEADERS\nARE\nMADE,\nNOT\nBORN.\nHonor &\nRespect\nCulture\nSett\nPeer to Peer\nLeadership\nThe\nBehavioral\nStandard\nRecognition\nConsistent,\nAccountable.\nReliable\nIS DOCUMENT IS CONFICANTAL AND MICRETARY.\n\n\n\nAccountability and alignment\n\n\n\n\n\n\n\nAfternoon Session\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLast Session\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+          "title": "New Note 2025-01-29 08-41-33 NL7 .pdf",
+          "tether_id": null
+        },
+        "create_time": 1738183831.711512,
+        "update_time": null
+      },
+      {
+        "id": "9ae12a96-6ad0-44b3-b926-d04173a54c31",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won't provide additional information."
+          ]
+        },
+        "create_time": 1738183831.711597,
+        "update_time": null
+      },
+      {
+        "id": "ab87bc6e-4d20-4229-ba16-c465d42edcd5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the extracted text from your handwritten document:\n\n---\n\n**Leaders + Dawgs**  \nFirst Wave - Spring 2025  \nCulture Setters - Mentality Setters  \nThe Standard Setters  \nThe Bar Raisers  \nNo Pay - No Additional Responsibilities  \n\n**LEADERS  \nARE  \nMADE,  \nNOT  \nBORN.**  \n\nHonor & Respect  \nCulture Sett  \nPeer to Peer Leadership  \nThe Behavioral Standard  \nRecognition  \nConsistent, Accountable, Reliable  \n\n**This document is confidential and proprietary.**  \n\nAccountability and alignment  \n\n**Afternoon Session**  \n\n**Last Session**  \n\n---\n\nThere were a few unclear words, such as \"Culture Sett,\" which might be \"Culture Setters\" or something similar. Let me know if you need further clarification or if you’d like me to refine anything!"
+          ]
+        },
+        "create_time": 1738183831.711674,
+        "update_time": null
+      },
+      {
+        "id": "50a481e5-3ec3-451e-bd28-d7abd2fd46b3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you read the handwriting"
+          ]
+        },
+        "create_time": 1738183859.505874,
+        "update_time": null
+      },
+      {
+        "id": "bd5a18c8-c410-4f72-aebd-a085c40464dd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, I can extract and interpret handwritten text. If the text I extracted earlier doesn't fully match what was written, I can refine it further. Let me know if there's a specific part you'd like me to clarify or if you want me to process the document differently!"
+          ]
+        },
+        "create_time": 1738183861.684499,
+        "update_time": null
+      }
+    ],
+    "notes": "",
+    "quotes": [],
+    "anchors": []
+  },
+  "metadata": {
+    "original_file": "h:\\My Drive\\brandy_archive\\clara\\raw\\conversations_split\\convo_0378.json",
+    "normalized_at": "2025-09-23T09:58:04.229537",
+    "message_count": 9,
+    "create_time": 1738183825.252533,
+    "update_time": 1738183862.129144
+  }
+}

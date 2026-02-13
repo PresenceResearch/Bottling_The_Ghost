@@ -1,0 +1,1307 @@
+{
+  "title": "Sales Forecast Summary",
+  "create_time": 1736739155.31105,
+  "update_time": 1736739487.168108,
+  "mapping": {
+    "aaa14e75-08b7-45fa-b04b-1c3a9820cec6": {
+      "id": "aaa14e75-08b7-45fa-b04b-1c3a9820cec6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "38384881-8d6f-4c4c-9a16-c78516fe093c"
+      ]
+    },
+    "38384881-8d6f-4c4c-9a16-c78516fe093c": {
+      "id": "38384881-8d6f-4c4c-9a16-c78516fe093c",
+      "message": {
+        "id": "38384881-8d6f-4c4c-9a16-c78516fe093c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa14e75-08b7-45fa-b04b-1c3a9820cec6",
+      "children": [
+        "787c817a-fe6d-45c8-92c8-c5b51af0cea0"
+      ]
+    },
+    "787c817a-fe6d-45c8-92c8-c5b51af0cea0": {
+      "id": "787c817a-fe6d-45c8-92c8-c5b51af0cea0",
+      "message": {
+        "id": "787c817a-fe6d-45c8-92c8-c5b51af0cea0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "38384881-8d6f-4c4c-9a16-c78516fe093c",
+      "children": [
+        "aaa27f0d-4891-42c1-be31-0ae8839ee55b"
+      ]
+    },
+    "aaa27f0d-4891-42c1-be31-0ae8839ee55b": {
+      "id": "aaa27f0d-4891-42c1-be31-0ae8839ee55b",
+      "message": {
+        "id": "aaa27f0d-4891-42c1-be31-0ae8839ee55b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739155.320848,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please take this data set OPTIMAL\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nOpportunity Owner\tOpportunity Name\tStage\tNew System Size\tAmount\tExpected Revenue\tExpected Gross Margin\tGross Margin %\tProbability (%)\tAge\tClose Date\tGrant Dependant?\tFinancing Dependant?\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 1/30/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nBen Cole\tCordish Companies - Joppa Market\tContract Review\t833.28\t$2,274,008\t$2,046,607\t$865,962\t42.31%\t90.00%\t649\t1/30/2025\t\tYes\t\t\t\t\t\t\t\t\t\t\t\t\nColin Gload\tPompeian Olive Oil - Distribution Center\tContract Review\t535.5\t$1,431,353\t$1,288,218\t$493,817\t38.33%\t90.00%\t1741\t1/30/2025\t\tYes\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 1/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nMark Manthy\tBrick Lane DC Development - COM-00201 - 1707 North Market Street\tLOI\t195\t$514,780\t$386,085\t$118,904\t30.80%\t75.00%\t61\t1/31/2025\tYes\tYes\t\t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tS&S COMMERCIAL, LLC - COM-00152 - 9160 Guilford Road\tLOI\t205\t$450,831\t$225,415\t$65,934\t29.25%\t50.00%\t117\t1/31/2025\t\tYes\t\t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tTithe Corp. - COM-00198 - 1621 Cole Street\tLOI\t81.5\t$229,119\t$171,840\t$67,404\t39.22%\t75.00%\t65\t1/31/2025\tYes\t\t\t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tRemington Mill Centre I LLC - COM-00183 - 3000 Chestnut Avenue\tLOI\t289.5\t$718,000\t$538,500\t$182,199\t33.83%\t75.00%\t80\t1/31/2025\tYes\t\t\t\t\t\t\t\t\t\t\t\t\t\nShane Williams\tChizuk Amuno Congregation - COM-00170 - 8100 Stevenson Rd\tSales Process Ongoing\t200\t$327,815\t$81,954\t$0\t0.00%\t25.00%\t93\t1/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nShane Williams\tCheckerspot Brewing - COM-00188 - 1421 Ridgely Street\tContract Review\t227\t$492,906\t$369,679\t$118,239\t31.98%\t75.00%\t74\t1/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nShane Williams\tMaryland Farms Assc - COM-00187 - 11338 Cherry Hill Road\tContract Review\t2069\t$4,905,902\t$3,679,427\t$0\t0.00%\t75.00%\t74\t1/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 2/7/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nMark Manthy\tHydro Terra Inc - COM-00179 - 1100 Bairs Road\tSales Process Ongoing\t41\t$155,000\t$31,000\t$0\t0.00%\t20.00%\t80\t2/7/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 2/28/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nMark Manthy\tICAST - COM-00193 - 100 58th Street Southeast\tSales Process Ongoing\t142.5\t$359,764\t$89,941\t$0\t0.00%\t25.00%\t71\t2/28/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nMark Manthy\tBrick Lane DC Development - COM-00181 - 1380 Piccard Drive\tLOI\t269\t$643,590\t$482,692\t$156,490\t32.42%\t75.00%\t80\t2/28/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tPremier Executive Center LLC - COM-00157 - 6 Montgomery Village Avenue\tLOI\t227.5\t$584,575\t$438,431\t$0\t0.00%\t75.00%\t109\t2/28/2025\t\tYes\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 3/1/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nColin Gload\tClendenin Brothers Inc. - COM-00222 - 4309 Erdman Avenue\tSales Process Ongoing\t613\t$1,290,144\t$193,522\t$0\t0.00%\t15.00%\t58\t3/1/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 3/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nShane Williams\tThe Packing House - COM-00166 - 411 Dorchester Avenue\tSolutions Call\t\t$443,002\t$88,600\t$0\t0.00%\t20.00%\t100\t3/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 4/30/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tCleghorn Capital - 6301 Seaforth Street\tContract Review\t850.05\t$1,972,947\t$986,473\t$283,407\t28.73%\t50.00%\t295\t4/30/2025\t\tYes\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 5/30/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tPARK SQUARE HOMES I LLC - COM-00195 - 101 North Schroeder Street\tSolutions Call\t200\t$509,704\t$101,941\t$35,414\t34.74%\t20.00%\t66\t5/30/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 5/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nShane Williams\tCheer Building @ Tide Point - COMM-00155 - 1450 Beason Street\tSolutions Call\t560\t$1,232,148\t$246,430\t$0\t0.00%\t20.00%\t117\t5/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 6/27/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tThe Argonne - COM-00136 - 1629 Columbia Road Northwest\tSales Process Ongoing\t228\t$511,876\t$76,781\t$0\t0.00%\t15.00%\t150\t6/27/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 7/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nPhilip Jordan\tTIMBERLANE INC - COM-00191 - 150 Domorah Drive\tSales Process Ongoing\t528\t$1,140,668\t$171,100\t$0\t0.00%\t15.00%\t72\t7/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nShane Williams\tEdrich Lumber and Farms - COM-00164 - 9700 Old Court Road\tSolutions Call\t1000\t$2,200,000\t$440,000\t$0\t0.00%\t20.00%\t100\t7/31/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nClose Date: 9/30/2025\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\nShane Williams\tGrace Fellowship Church (#1)\tSales Process Ongoing\t407.4\t$954,533\t$238,633\t$82,296\t34.49%\t25.00%\t373\t9/30/2025\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t9702.23\t$23,342,665\t$12,373,270\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t and break into this format Optimal\tMPM 1.0\t\t\t\tJan-25\tFeb-25\tMar-25\tApr-25\tMay-25\tJun-25\tJul-25\tAug-25\tSep-25\tOct-25\tNov-25\tDec-25\nForecast Summary\tCommercial Sales\tNet Sales\t\tOutput\t9\t4\t0\t1\t2\t1\t1\t1\t1\t1\t1\t1\n\t\tkW Booked\t\tOutput\t3,662\t226\t0\t425\t152\t34\t500\t500\t500\t500\t500\t500\n\t\tRevenue Booked\t\tOutput\t$9,124,123\t$581,877\t$0\t$986,473\t$348,371\t$102,375\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\n\t\tGross Margin Booked\t\tOutput\t$1,681,090\t$120,962\t$0\t$141,704\t$76,083\t$28,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\nOptimal\tMPM 1.0\t\t\t\tJan-25\tFeb-25\tMar-25\tApr-25\tMay-25\tJun-25\tJul-25\tAug-25\tSep-25\tOct-25\tNov-25\tDec-25\nCommercial Sales\tNet Sales\tMark Manthy\t\tInput\t2\t3\t0\t0\t0\t0\t0\t0\t1\t0\t0\t1\n\t\tPhilip Jordan\t\tInput\t3\t1\t0\t1\t1\t1\t1\t0\t0\t1\t0\t0\n\t\tShane Wiliams\t\tInput\t3\t0\t0\t0\t1\t0\t0\t1\t0\t0\t1\t0\n\t\tTotal Sales\t\tOutput\t8\t4\t0\t1\t2\t1\t1\t1\t1\t1\t1\t1\n\tkW Booked\tMark Manthy\t\tOutput\t276\t113\t0\t0\t0\t0\t0\t0\t500\t0\t0\t500\n\t\tPhilip Jordan\t\tOutput\t432\t113\t0\t425\t40\t34\t500\t0\t0\t500\t0\t0\n\t\tShane Wiliams\t\tOutput\t1722\t0\t0\t0\t112\t0\t0\t500\t0\t0\t500\t0\n\t\tTotal kW Booked\t\tOutput\t2430\t226\t0\t425\t152\t34\t500\t500\t500\t500\t500\t500\n\tRevenue Booked\tMark Manthy\t\tOutput\t$691,679\t$289,589\t$0\t$0\t$0\t$0\t$0\t$0\t$1,100,000\t$0\t$0\t$1,100,000\n\t\tPhilip Jordan\t\tOutput\t$1,048,463\t$292,288\t$0\t$986,473\t$101,941\t$102,375\t$1,100,000\t$0\t$0\t$1,100,000\t$0\t$0\n\t\tShane Wiliams\t\tOutput\t$4,049,156\t$0\t$0\t$0\t$246,430\t$0\t$0\t$1,100,000\t$0\t$0\t$1,100,000\t$0\n\t\tTotal Revenue Booked\t\tOutput\t$5,789,298\t$581,877\t$0\t$986,473\t$348,371\t$102,375\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\n\tGross Margin Booked\tMark Manthy\t\tOutput\t$132,957\t$39,122\t$0\t$0\t$0\t$0\t$0\t$0\t$330,000\t$0\t$0\t$330,000\n\t\tPhilip Jordan\t\tOutput\t$236,653\t$81,840\t$0\t$141,704\t$7,083\t$28,000\t$330,000\t$0\t$0\t$330,000\t$0\t$0\n\t\tShane Wiliams\t\tOutput\t$1,000,000\t$0\t$0\t$0\t$69,000\t$0\t$0\t$330,000\t$0\t$0\t$330,000\t$0\n\t\tTotal GM Booked\t\tOutput\t$1,369,610\t$120,962\t$0\t$141,704\t$76,083\t$28,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\nOptimal\tMPM 1.0\t\t\t\tJan-25\tFeb-25\tMar-25\tApr-25\tMay-25\tJun-25\tJul-25\tAug-25\tSep-25\tOct-25\tNov-25\tDec-25\nKey Assumptions - Inputs\tAvg kW per Deal\tMark Manthy\t\tInput\t138.1\t37.7\t0.0\t0.0\t0.0\t0.0\t500.0\t500.0\t500.0\t500.0\t500.0\t500.0\n\t\tPhilip Jordan\t\tInput\t144.0\t113.0\t0.0\t425.0\t40.0\t34.2\t500.0\t500.0\t500.0\t500.0\t500.0\t500.0\n\t\tShane Wiliams\t\tInput\t574.0\t0.0\t0.0\t0.0\t0.0\t0.0\t500.0\t500.0\t500.0\t500.0\t500.0\t500.0\n\tPrice per Watt\tMark Manthy\t\tInput\t$2.50\t$2.56\t$0.00\t$0.00\t$0.00\t$0.00\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\n\t\tPhilip Jordan\t\tInput\t$2.43\t$2.59\t$0.00\t$2.32\t$2.55\t$2.99\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\n\t\tShane Wiliams\t\tInput\t$2.35\t$0.00\t$0.00\t$0.00\t$0.00\t$0.00\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\n\tGross Margin %\tMark Manthy\t\tInput\t19.2%\t13.5%\t0.0%\t0.0%\t0.0%\t0.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\n\t\tPhilip Jordan\t\tInput\t22.6%\t28.0%\t0.0%\t14.4%\t6.9%\t27.4%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\n\t\tShane Wiliams\t\tInput\t24.7%\t0.0%\t0.0%\t0.0%\t0.0%\t0.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "901251e75b7632b2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "787c817a-fe6d-45c8-92c8-c5b51af0cea0",
+      "children": [
+        "4112a71d-20b7-4479-a500-824ba18bcad8"
+      ]
+    },
+    "4112a71d-20b7-4479-a500-824ba18bcad8": {
+      "id": "4112a71d-20b7-4479-a500-824ba18bcad8",
+      "message": {
+        "id": "4112a71d-20b7-4479-a500-824ba18bcad8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739168.220011,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa27f0d-4891-42c1-be31-0ae8839ee55b",
+          "request_id": "901251e75b7632b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa27f0d-4891-42c1-be31-0ae8839ee55b",
+      "children": [
+        "8ff5f763-9c06-4240-8405-81d87231a95a"
+      ]
+    },
+    "8ff5f763-9c06-4240-8405-81d87231a95a": {
+      "id": "8ff5f763-9c06-4240-8405-81d87231a95a",
+      "message": {
+        "id": "8ff5f763-9c06-4240-8405-81d87231a95a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739168.220099,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "import pandas as pd\r\n\r\n# Creating a summary dataframe based on the input data\r\ndata = {\r\n    \"Month\": [\"Jan-25\", \"Feb-25\", \"Mar-25\", \"Apr-25\", \"May-25\", \"Jun-25\", \"Jul-25\", \"Aug-25\", \"Sep-25\", \"Oct-25\", \"Nov-25\", \"Dec-25\"],\r\n    \"Net Sales\": [9, 4, 0, 1, 2, 1, 1, 1, 1, 1, 1, 1],\r\n    \"kW Booked\": [3662, 226, 0, 425, 152, 34, 500, 500, 500, 500, 500, 500],\r\n    \"Revenue Booked\": [9124123, 581877, 0, 986473, 348371, 102375, 1100000, 1100000, 1100000, 1100000, 1100000, 1100000],\r\n    \"Gross Margin Booked\": [1681090, 120962, 0, 141704, 76083, 28000, 330000, 330000, 330000, 330000, 330000, 330000],\r\n}\r\n\r\ndf_summary = pd.DataFrame(data)\r\n\r\n# Formatting numbers for better readability\r\ndf_summary[\"Revenue Booked\"] = df_summary[\"Revenue Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\ndf_summary[\"Gross Margin Booked\"] = df_summary[\"Gross Margin Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\ndf_summary[\"kW Booked\"] = df_summary[\"kW Booked\"].apply(lambda x: f\"{x:,}\")\r\n\r\nimport ace_tools as tools; tools.display_dataframe_to_user(name=\"Forecast Summary for Commercial Sales\", dataframe=df_summary)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4112a71d-20b7-4479-a500-824ba18bcad8",
+          "request_id": "901251e75b7632b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "4112a71d-20b7-4479-a500-824ba18bcad8",
+      "children": [
+        "ffe85462-ece5-4d9f-9ab9-ab41f1c7b754"
+      ]
+    },
+    "ffe85462-ece5-4d9f-9ab9-ab41f1c7b754": {
+      "id": "ffe85462-ece5-4d9f-9ab9-ab41f1c7b754",
+      "message": {
+        "id": "ffe85462-ece5-4d9f-9ab9-ab41f1c7b754",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1736739168.220157,
+        "update_time": 1736739167.3804135,
+        "content": {
+          "content_type": "execution_output",
+          "text": "    Month  Net Sales kW Booked Revenue Booked Gross Margin Booked\n0  Jan-25          9     3,662     $9,124,123          $1,681,090\n1  Feb-25          4       226       $581,877            $120,962\n2  Mar-25          0         0             $0                  $0\n3  Apr-25          1       425       $986,473            $141,704\n4  May-25          2       152       $348,371             $76,083"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "63ba6ddf-305e-47fb-bb0f-2b89a48e97c6",
+            "start_time": 1736739164.5278535,
+            "update_time": 1736739167.3804135,
+            "code": "import pandas as pd\r\n\r\n# Creating a summary dataframe based on the input data\r\ndata = {\r\n    \"Month\": [\"Jan-25\", \"Feb-25\", \"Mar-25\", \"Apr-25\", \"May-25\", \"Jun-25\", \"Jul-25\", \"Aug-25\", \"Sep-25\", \"Oct-25\", \"Nov-25\", \"Dec-25\"],\r\n    \"Net Sales\": [9, 4, 0, 1, 2, 1, 1, 1, 1, 1, 1, 1],\r\n    \"kW Booked\": [3662, 226, 0, 425, 152, 34, 500, 500, 500, 500, 500, 500],\r\n    \"Revenue Booked\": [9124123, 581877, 0, 986473, 348371, 102375, 1100000, 1100000, 1100000, 1100000, 1100000, 1100000],\r\n    \"Gross Margin Booked\": [1681090, 120962, 0, 141704, 76083, 28000, 330000, 330000, 330000, 330000, 330000, 330000],\r\n}\r\n\r\ndf_summary = pd.DataFrame(data)\r\n\r\n# Formatting numbers for better readability\r\ndf_summary[\"Revenue Booked\"] = df_summary[\"Revenue Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\ndf_summary[\"Gross Margin Booked\"] = df_summary[\"Gross Margin Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\ndf_summary[\"kW Booked\"] = df_summary[\"kW Booked\"].apply(lambda x: f\"{x:,}\")\r\n\r\nimport ace_tools as tools; tools.display_dataframe_to_user(name=\"Forecast Summary for Commercial Sales\", dataframe=df_summary)",
+            "end_time": 1736739167.3804135,
+            "final_expression_output": "    Month  Net Sales kW Booked Revenue Booked Gross Margin Booked\n0  Jan-25          9     3,662     $9,124,123          $1,681,090\n1  Feb-25          4       226       $581,877            $120,962\n2  Mar-25          0         0             $0                  $0\n3  Apr-25          1       425       $986,473            $141,704\n4  May-25          2       152       $348,371             $76,083",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "    Month  Net Sales kW Booked Revenue Booked Gross Margin Booked\n0  Jan-25          9     3,662     $9,124,123          $1,681,090\n1  Feb-25          4       226       $581,877            $120,962\n2  Mar-25          0         0             $0                  $0\n3  Apr-25          1       425       $986,473            $141,704\n4  May-25          2       152       $348,371             $76,083",
+                    "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Month</th>\n      <th>Net Sales</th>\n      <th>kW Booked</th>\n      <th>Revenue Booked</th>\n      <th>Gross Margin Booked</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Jan-25</td>\n      <td>9</td>\n      <td>3,662</td>\n      <td>$9,124,123</td>\n      <td>$1,681,090</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Feb-25</td>\n      <td>4</td>\n      <td>226</td>\n      <td>$581,877</td>\n      <td>$120,962</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>Mar-25</td>\n      <td>0</td>\n      <td>0</td>\n      <td>$0</td>\n      <td>$0</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>Apr-25</td>\n      <td>1</td>\n      <td>425</td>\n      <td>$986,473</td>\n      <td>$141,704</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>May-25</td>\n      <td>2</td>\n      <td>152</td>\n      <td>$348,371</td>\n      <td>$76,083</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "ada_visualizations": [
+            {
+              "type": "table",
+              "file_id": "file-Bo9SJoKsJb3m1syr2mH8jS",
+              "title": "Forecast Summary for Commercial Sales"
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8ff5f763-9c06-4240-8405-81d87231a95a",
+          "request_id": "901251e75b7632b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8ff5f763-9c06-4240-8405-81d87231a95a",
+      "children": [
+        "8de53b66-7db3-4ab3-8761-d14456f8049c"
+      ]
+    },
+    "8de53b66-7db3-4ab3-8761-d14456f8049c": {
+      "id": "8de53b66-7db3-4ab3-8761-d14456f8049c",
+      "message": {
+        "id": "8de53b66-7db3-4ab3-8761-d14456f8049c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739168.220209,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I have compiled the forecast summary for commercial sales based on the given data. Let me know if you need any adjustments or additional details!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ffe85462-ece5-4d9f-9ab9-ab41f1c7b754",
+          "request_id": "901251e75b7632b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ffe85462-ece5-4d9f-9ab9-ab41f1c7b754",
+      "children": [
+        "aaa23403-d063-4430-ab34-d9463b3fb903"
+      ]
+    },
+    "aaa23403-d063-4430-ab34-d9463b3fb903": {
+      "id": "aaa23403-d063-4430-ab34-d9463b3fb903",
+      "message": {
+        "id": "aaa23403-d063-4430-ab34-d9463b3fb903",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739255.759711,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please break down by rep and prorate kW booked, revenue booked, and Gross margin based on the probability of closing.  please create a table illustrating all this"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "9012543fd80a32b2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8de53b66-7db3-4ab3-8761-d14456f8049c",
+      "children": [
+        "ca7bf57c-fc21-40f8-a2bf-f02c9f9747e1"
+      ]
+    },
+    "ca7bf57c-fc21-40f8-a2bf-f02c9f9747e1": {
+      "id": "ca7bf57c-fc21-40f8-a2bf-f02c9f9747e1",
+      "message": {
+        "id": "ca7bf57c-fc21-40f8-a2bf-f02c9f9747e1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739278.103027,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Initializing the detailed data for each rep\ndetailed_data = [\n    {\"Month\": \"Jan-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 276, \"Revenue Booked\": 691679, \"Gross Margin\": 132957, \"Probability\": 0.75},\n    {\"Month\": \"Jan-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 432, \"Revenue Booked\": 1048463, \"Gross Margin\": 236653, \"Probability\": 0.75},\n    {\"Month\": \"Jan-25\", \"Rep\": \"Shane Williams\", \"kW Booked\": 1722, \"Revenue Booked\": 4049156, \"Gross Margin\": 1000000, \"Probability\": 0.25},\n    {\"Month\": \"Feb-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 113, \"Revenue Booked\": 289589, \"Gross Margin\": 39122, \"Probability\": 0.75},\n    {\"Month\": \"Feb-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 113, \"Revenue Booked\": 292288, \"Gross Margin\": 81840, \"Probability\": 0.75},\n    {\"Month\": \"Mar-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 0, \"Revenue Booked\": 0, \"Gross Margin\": 0, \"Probability\": 0},\n    {\"Month\": \"Apr-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 425, \"Revenue Booked\": 986473, \"Gross Margin\": 141704, \"Probability\": 0.75},\n    {\"Month\": \"May-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 40, \"Revenue Booked\": 101941, \"Gross Margin\": 7083, \"Probability\": 0.75},\n    {\"Month\": \"May-25\", \"Rep\": \"Shane Williams\", \"kW Booked\": 112, \"Revenue Booked\": 246430, \"Gross Margin\": 69000, \"Probability\": 0.25},\n    {\"Month\": \"Jun-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 34, \"Revenue Booked\": 102375, \"Gross Margin\": 28000, \"Probability\": 0.75},\n    {\"Month\": \"Jul-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 500, \"Revenue Booked\": 1100000, \"Gross Margin\": 330000, \"Probability\": 0.75},\n    {\"Month\": \"Aug-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 500, \"Revenue Booked\": 1100000, \"Gross Margin\": 330000, \"Probability\": 0.75},\n    {\"Month\": \"Sep-25\", \"Rep\": \"Shane Williams\", \"kW Booked\": 500, \"Revenue Booked\": 1100000, \"Gross Margin\": 330000, \"Probability\": 0.75},\n]\n\n# Converting to a DataFrame for calculations\ndf_detailed = pd.DataFrame(detailed_data)\n\n# Adding prorated columns\ndf_detailed[\"Prorated kW Booked\"] = df_detailed[\"kW Booked\"] * df_detailed[\"Probability\"]\ndf_detailed[\"Prorated Revenue Booked\"] = df_detailed[\"Revenue Booked\"] * df_detailed[\"Probability\"]\ndf_detailed[\"Prorated Gross Margin\"] = df_detailed[\"Gross Margin\"] * df_detailed[\"Probability\"]\n\n# Formatting columns for display\ndf_detailed[\"Revenue Booked\"] = df_detailed[\"Revenue Booked\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Gross Margin\"] = df_detailed[\"Gross Margin\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Prorated Revenue Booked\"] = df_detailed[\"Prorated Revenue Booked\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Prorated Gross Margin\"] = df_detailed[\"Prorated Gross Margin\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Prorated kW Booked\"] = df_detailed[\"Prorated kW Booked\"].apply(lambda x: f\"{x:,.1f}\")\n\ntools.display_dataframe_to_user(name=\"Detailed Breakdown by Rep\", dataframe=df_detailed)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa23403-d063-4430-ab34-d9463b3fb903",
+          "request_id": "9012543fd80a32b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "aaa23403-d063-4430-ab34-d9463b3fb903",
+      "children": [
+        "3c1fcb7a-a7e2-4001-97b6-7fe232f208af"
+      ]
+    },
+    "3c1fcb7a-a7e2-4001-97b6-7fe232f208af": {
+      "id": "3c1fcb7a-a7e2-4001-97b6-7fe232f208af",
+      "message": {
+        "id": "3c1fcb7a-a7e2-4001-97b6-7fe232f208af",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1736739278.103136,
+        "update_time": 1736739275.424167,
+        "content": {
+          "content_type": "execution_output",
+          "text": "    Month             Rep  kW Booked Revenue Booked Gross Margin  Probability  \\\n0  Jan-25     Mark Manthy        276       $691,679     $132,957         0.75   \n1  Jan-25   Philip Jordan        432     $1,048,463     $236,653         0.75   \n2  Jan-25  Shane Williams       1722     $4,049,156   $1,000,000         0.25   \n3  Feb-25     Mark Manthy        113       $289,589      $39,122         0.75   \n4  Feb-25   Philip Jordan        113       $292,288      $81,840         0.75   \n\n  Prorated kW Booked Prorated Revenue Booked Prorated Gross Margin  \n0              207.0                $518,759               $99,718  \n1              324.0                $786,347              $177,490  \n2              430.5              $1,012,289              $250,000  \n3               84.8                $217,192               $29,342  \n4               84.8                $219,216               $61,380  "
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "2ea02d5e-d800-4b78-b852-522de6698287",
+            "start_time": 1736739274.8036902,
+            "update_time": 1736739275.424167,
+            "code": "# Initializing the detailed data for each rep\ndetailed_data = [\n    {\"Month\": \"Jan-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 276, \"Revenue Booked\": 691679, \"Gross Margin\": 132957, \"Probability\": 0.75},\n    {\"Month\": \"Jan-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 432, \"Revenue Booked\": 1048463, \"Gross Margin\": 236653, \"Probability\": 0.75},\n    {\"Month\": \"Jan-25\", \"Rep\": \"Shane Williams\", \"kW Booked\": 1722, \"Revenue Booked\": 4049156, \"Gross Margin\": 1000000, \"Probability\": 0.25},\n    {\"Month\": \"Feb-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 113, \"Revenue Booked\": 289589, \"Gross Margin\": 39122, \"Probability\": 0.75},\n    {\"Month\": \"Feb-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 113, \"Revenue Booked\": 292288, \"Gross Margin\": 81840, \"Probability\": 0.75},\n    {\"Month\": \"Mar-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 0, \"Revenue Booked\": 0, \"Gross Margin\": 0, \"Probability\": 0},\n    {\"Month\": \"Apr-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 425, \"Revenue Booked\": 986473, \"Gross Margin\": 141704, \"Probability\": 0.75},\n    {\"Month\": \"May-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 40, \"Revenue Booked\": 101941, \"Gross Margin\": 7083, \"Probability\": 0.75},\n    {\"Month\": \"May-25\", \"Rep\": \"Shane Williams\", \"kW Booked\": 112, \"Revenue Booked\": 246430, \"Gross Margin\": 69000, \"Probability\": 0.25},\n    {\"Month\": \"Jun-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 34, \"Revenue Booked\": 102375, \"Gross Margin\": 28000, \"Probability\": 0.75},\n    {\"Month\": \"Jul-25\", \"Rep\": \"Mark Manthy\", \"kW Booked\": 500, \"Revenue Booked\": 1100000, \"Gross Margin\": 330000, \"Probability\": 0.75},\n    {\"Month\": \"Aug-25\", \"Rep\": \"Philip Jordan\", \"kW Booked\": 500, \"Revenue Booked\": 1100000, \"Gross Margin\": 330000, \"Probability\": 0.75},\n    {\"Month\": \"Sep-25\", \"Rep\": \"Shane Williams\", \"kW Booked\": 500, \"Revenue Booked\": 1100000, \"Gross Margin\": 330000, \"Probability\": 0.75},\n]\n\n# Converting to a DataFrame for calculations\ndf_detailed = pd.DataFrame(detailed_data)\n\n# Adding prorated columns\ndf_detailed[\"Prorated kW Booked\"] = df_detailed[\"kW Booked\"] * df_detailed[\"Probability\"]\ndf_detailed[\"Prorated Revenue Booked\"] = df_detailed[\"Revenue Booked\"] * df_detailed[\"Probability\"]\ndf_detailed[\"Prorated Gross Margin\"] = df_detailed[\"Gross Margin\"] * df_detailed[\"Probability\"]\n\n# Formatting columns for display\ndf_detailed[\"Revenue Booked\"] = df_detailed[\"Revenue Booked\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Gross Margin\"] = df_detailed[\"Gross Margin\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Prorated Revenue Booked\"] = df_detailed[\"Prorated Revenue Booked\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Prorated Gross Margin\"] = df_detailed[\"Prorated Gross Margin\"].apply(lambda x: f\"${x:,.0f}\")\ndf_detailed[\"Prorated kW Booked\"] = df_detailed[\"Prorated kW Booked\"].apply(lambda x: f\"{x:,.1f}\")\n\ntools.display_dataframe_to_user(name=\"Detailed Breakdown by Rep\", dataframe=df_detailed)",
+            "end_time": 1736739275.424167,
+            "final_expression_output": "    Month             Rep  kW Booked Revenue Booked Gross Margin  Probability  \\\n0  Jan-25     Mark Manthy        276       $691,679     $132,957         0.75   \n1  Jan-25   Philip Jordan        432     $1,048,463     $236,653         0.75   \n2  Jan-25  Shane Williams       1722     $4,049,156   $1,000,000         0.25   \n3  Feb-25     Mark Manthy        113       $289,589      $39,122         0.75   \n4  Feb-25   Philip Jordan        113       $292,288      $81,840         0.75   \n\n  Prorated kW Booked Prorated Revenue Booked Prorated Gross Margin  \n0              207.0                $518,759               $99,718  \n1              324.0                $786,347              $177,490  \n2              430.5              $1,012,289              $250,000  \n3               84.8                $217,192               $29,342  \n4               84.8                $219,216               $61,380  ",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "    Month             Rep  kW Booked Revenue Booked Gross Margin  Probability  \\\n0  Jan-25     Mark Manthy        276       $691,679     $132,957         0.75   \n1  Jan-25   Philip Jordan        432     $1,048,463     $236,653         0.75   \n2  Jan-25  Shane Williams       1722     $4,049,156   $1,000,000         0.25   \n3  Feb-25     Mark Manthy        113       $289,589      $39,122         0.75   \n4  Feb-25   Philip Jordan        113       $292,288      $81,840         0.75   \n\n  Prorated kW Booked Prorated Revenue Booked Prorated Gross Margin  \n0              207.0                $518,759               $99,718  \n1              324.0                $786,347              $177,490  \n2              430.5              $1,012,289              $250,000  \n3               84.8                $217,192               $29,342  \n4               84.8                $219,216               $61,380  ",
+                    "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Month</th>\n      <th>Rep</th>\n      <th>kW Booked</th>\n      <th>Revenue Booked</th>\n      <th>Gross Margin</th>\n      <th>Probability</th>\n      <th>Prorated kW Booked</th>\n      <th>Prorated Revenue Booked</th>\n      <th>Prorated Gross Margin</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Jan-25</td>\n      <td>Mark Manthy</td>\n      <td>276</td>\n      <td>$691,679</td>\n      <td>$132,957</td>\n      <td>0.75</td>\n      <td>207.0</td>\n      <td>$518,759</td>\n      <td>$99,718</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Jan-25</td>\n      <td>Philip Jordan</td>\n      <td>432</td>\n      <td>$1,048,463</td>\n      <td>$236,653</td>\n      <td>0.75</td>\n      <td>324.0</td>\n      <td>$786,347</td>\n      <td>$177,490</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>Jan-25</td>\n      <td>Shane Williams</td>\n      <td>1722</td>\n      <td>$4,049,156</td>\n      <td>$1,000,000</td>\n      <td>0.25</td>\n      <td>430.5</td>\n      <td>$1,012,289</td>\n      <td>$250,000</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>Feb-25</td>\n      <td>Mark Manthy</td>\n      <td>113</td>\n      <td>$289,589</td>\n      <td>$39,122</td>\n      <td>0.75</td>\n      <td>84.8</td>\n      <td>$217,192</td>\n      <td>$29,342</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>Feb-25</td>\n      <td>Philip Jordan</td>\n      <td>113</td>\n      <td>$292,288</td>\n      <td>$81,840</td>\n      <td>0.75</td>\n      <td>84.8</td>\n      <td>$219,216</td>\n      <td>$61,380</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "ada_visualizations": [
+            {
+              "type": "table",
+              "file_id": "file-Kf7jbawjJhvfdj2Youjzrv",
+              "title": "Detailed Breakdown by Rep"
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ca7bf57c-fc21-40f8-a2bf-f02c9f9747e1",
+          "request_id": "9012543fd80a32b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca7bf57c-fc21-40f8-a2bf-f02c9f9747e1",
+      "children": [
+        "da3644e8-d846-43c4-82d9-2179ba2f0014"
+      ]
+    },
+    "da3644e8-d846-43c4-82d9-2179ba2f0014": {
+      "id": "da3644e8-d846-43c4-82d9-2179ba2f0014",
+      "message": {
+        "id": "da3644e8-d846-43c4-82d9-2179ba2f0014",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739278.103195,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I have created a detailed breakdown by rep, including prorated kW booked, revenue booked, and gross margin based on the probability of closing. Let me know if you need additional adjustments or analysis!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3c1fcb7a-a7e2-4001-97b6-7fe232f208af",
+          "request_id": "9012543fd80a32b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3c1fcb7a-a7e2-4001-97b6-7fe232f208af",
+      "children": [
+        "aaa2e55d-70c4-4877-9c7b-4e45e5ce7d36"
+      ]
+    },
+    "aaa2e55d-70c4-4877-9c7b-4e45e5ce7d36": {
+      "id": "aaa2e55d-70c4-4877-9c7b-4e45e5ce7d36",
+      "message": {
+        "id": "aaa2e55d-70c4-4877-9c7b-4e45e5ce7d36",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739305.6983,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please include number of projects per rep by month"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "901255913d9632b2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "da3644e8-d846-43c4-82d9-2179ba2f0014",
+      "children": [
+        "3b63ba84-2a37-4860-b415-e0ca7dbcd24d"
+      ]
+    },
+    "3b63ba84-2a37-4860-b415-e0ca7dbcd24d": {
+      "id": "3b63ba84-2a37-4860-b415-e0ca7dbcd24d",
+      "message": {
+        "id": "3b63ba84-2a37-4860-b415-e0ca7dbcd24d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739314.935948,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Adding a count of projects per rep by month\nproject_counts = df_detailed.groupby([\"Month\", \"Rep\"]).size().reset_index(name=\"Number of Projects\")\n\n# Merging project counts back into the detailed DataFrame\ndf_detailed = df_detailed.merge(project_counts, on=[\"Month\", \"Rep\"], how=\"left\")\n\n# Rearranging columns for clarity\ndf_detailed = df_detailed[\n    [\n        \"Month\", \"Rep\", \"Number of Projects\", \"kW Booked\", \"Revenue Booked\", \"Gross Margin\",\n        \"Probability\", \"Prorated kW Booked\", \"Prorated Revenue Booked\", \"Prorated Gross Margin\"\n    ]\n]\n\ntools.display_dataframe_to_user(name=\"Detailed Breakdown with Project Counts\", dataframe=df_detailed)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2e55d-70c4-4877-9c7b-4e45e5ce7d36",
+          "request_id": "901255913d9632b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "aaa2e55d-70c4-4877-9c7b-4e45e5ce7d36",
+      "children": [
+        "93059c4d-7beb-4372-b211-d70f85186dfb"
+      ]
+    },
+    "93059c4d-7beb-4372-b211-d70f85186dfb": {
+      "id": "93059c4d-7beb-4372-b211-d70f85186dfb",
+      "message": {
+        "id": "93059c4d-7beb-4372-b211-d70f85186dfb",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1736739314.936069,
+        "update_time": 1736739312.8130128,
+        "content": {
+          "content_type": "execution_output",
+          "text": "    Month             Rep  Number of Projects  kW Booked Revenue Booked  \\\n0  Jan-25     Mark Manthy                   1        276       $691,679   \n1  Jan-25   Philip Jordan                   1        432     $1,048,463   \n2  Jan-25  Shane Williams                   1       1722     $4,049,156   \n3  Feb-25     Mark Manthy                   1        113       $289,589   \n4  Feb-25   Philip Jordan                   1        113       $292,288   \n\n  Gross Margin  Probability Prorated kW Booked Prorated Revenue Booked  \\\n0     $132,957         0.75              207.0                $518,759   \n1     $236,653         0.75              324.0                $786,347   \n2   $1,000,000         0.25              430.5              $1,012,289   \n3      $39,122         0.75               84.8                $217,192   \n4      $81,840         0.75               84.8                $219,216   \n\n  Prorated Gross Margin  \n0               $99,718  \n1              $177,490  \n2              $250,000  \n3               $29,342  \n4               $61,380  "
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "ce37408c-1a8c-4c59-81e6-ac31f6c34866",
+            "start_time": 1736739311.9949586,
+            "update_time": 1736739312.8130128,
+            "code": "# Adding a count of projects per rep by month\nproject_counts = df_detailed.groupby([\"Month\", \"Rep\"]).size().reset_index(name=\"Number of Projects\")\n\n# Merging project counts back into the detailed DataFrame\ndf_detailed = df_detailed.merge(project_counts, on=[\"Month\", \"Rep\"], how=\"left\")\n\n# Rearranging columns for clarity\ndf_detailed = df_detailed[\n    [\n        \"Month\", \"Rep\", \"Number of Projects\", \"kW Booked\", \"Revenue Booked\", \"Gross Margin\",\n        \"Probability\", \"Prorated kW Booked\", \"Prorated Revenue Booked\", \"Prorated Gross Margin\"\n    ]\n]\n\ntools.display_dataframe_to_user(name=\"Detailed Breakdown with Project Counts\", dataframe=df_detailed)",
+            "end_time": 1736739312.8130128,
+            "final_expression_output": "    Month             Rep  Number of Projects  kW Booked Revenue Booked  \\\n0  Jan-25     Mark Manthy                   1        276       $691,679   \n1  Jan-25   Philip Jordan                   1        432     $1,048,463   \n2  Jan-25  Shane Williams                   1       1722     $4,049,156   \n3  Feb-25     Mark Manthy                   1        113       $289,589   \n4  Feb-25   Philip Jordan                   1        113       $292,288   \n\n  Gross Margin  Probability Prorated kW Booked Prorated Revenue Booked  \\\n0     $132,957         0.75              207.0                $518,759   \n1     $236,653         0.75              324.0                $786,347   \n2   $1,000,000         0.25              430.5              $1,012,289   \n3      $39,122         0.75               84.8                $217,192   \n4      $81,840         0.75               84.8                $219,216   \n\n  Prorated Gross Margin  \n0               $99,718  \n1              $177,490  \n2              $250,000  \n3               $29,342  \n4               $61,380  ",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "    Month             Rep  Number of Projects  kW Booked Revenue Booked  \\\n0  Jan-25     Mark Manthy                   1        276       $691,679   \n1  Jan-25   Philip Jordan                   1        432     $1,048,463   \n2  Jan-25  Shane Williams                   1       1722     $4,049,156   \n3  Feb-25     Mark Manthy                   1        113       $289,589   \n4  Feb-25   Philip Jordan                   1        113       $292,288   \n\n  Gross Margin  Probability Prorated kW Booked Prorated Revenue Booked  \\\n0     $132,957         0.75              207.0                $518,759   \n1     $236,653         0.75              324.0                $786,347   \n2   $1,000,000         0.25              430.5              $1,012,289   \n3      $39,122         0.75               84.8                $217,192   \n4      $81,840         0.75               84.8                $219,216   \n\n  Prorated Gross Margin  \n0               $99,718  \n1              $177,490  \n2              $250,000  \n3               $29,342  \n4               $61,380  ",
+                    "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Month</th>\n      <th>Rep</th>\n      <th>Number of Projects</th>\n      <th>kW Booked</th>\n      <th>Revenue Booked</th>\n      <th>Gross Margin</th>\n      <th>Probability</th>\n      <th>Prorated kW Booked</th>\n      <th>Prorated Revenue Booked</th>\n      <th>Prorated Gross Margin</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Jan-25</td>\n      <td>Mark Manthy</td>\n      <td>1</td>\n      <td>276</td>\n      <td>$691,679</td>\n      <td>$132,957</td>\n      <td>0.75</td>\n      <td>207.0</td>\n      <td>$518,759</td>\n      <td>$99,718</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Jan-25</td>\n      <td>Philip Jordan</td>\n      <td>1</td>\n      <td>432</td>\n      <td>$1,048,463</td>\n      <td>$236,653</td>\n      <td>0.75</td>\n      <td>324.0</td>\n      <td>$786,347</td>\n      <td>$177,490</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>Jan-25</td>\n      <td>Shane Williams</td>\n      <td>1</td>\n      <td>1722</td>\n      <td>$4,049,156</td>\n      <td>$1,000,000</td>\n      <td>0.25</td>\n      <td>430.5</td>\n      <td>$1,012,289</td>\n      <td>$250,000</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>Feb-25</td>\n      <td>Mark Manthy</td>\n      <td>1</td>\n      <td>113</td>\n      <td>$289,589</td>\n      <td>$39,122</td>\n      <td>0.75</td>\n      <td>84.8</td>\n      <td>$217,192</td>\n      <td>$29,342</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>Feb-25</td>\n      <td>Philip Jordan</td>\n      <td>1</td>\n      <td>113</td>\n      <td>$292,288</td>\n      <td>$81,840</td>\n      <td>0.75</td>\n      <td>84.8</td>\n      <td>$219,216</td>\n      <td>$61,380</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "ada_visualizations": [
+            {
+              "type": "table",
+              "file_id": "file-CmEeufhbkC5L7x4WmKGjHn",
+              "title": "Detailed Breakdown with Project Counts"
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3b63ba84-2a37-4860-b415-e0ca7dbcd24d",
+          "request_id": "901255913d9632b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3b63ba84-2a37-4860-b415-e0ca7dbcd24d",
+      "children": [
+        "ae8193c2-ae5e-474f-a98a-a67a909bbe73"
+      ]
+    },
+    "ae8193c2-ae5e-474f-a98a-a67a909bbe73": {
+      "id": "ae8193c2-ae5e-474f-a98a-a67a909bbe73",
+      "message": {
+        "id": "ae8193c2-ae5e-474f-a98a-a67a909bbe73",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739314.93613,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The updated table now includes the number of projects per rep by month along with the detailed breakdown of kW booked, revenue, and gross margin (prorated by probability). Let me know if there\u2019s anything else you\u2019d like to refine or explore!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "93059c4d-7beb-4372-b211-d70f85186dfb",
+          "request_id": "901255913d9632b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "93059c4d-7beb-4372-b211-d70f85186dfb",
+      "children": [
+        "aaa2cc46-b747-469e-911a-5087d6ea8329"
+      ]
+    },
+    "aaa2cc46-b747-469e-911a-5087d6ea8329": {
+      "id": "aaa2cc46-b747-469e-911a-5087d6ea8329",
+      "message": {
+        "id": "aaa2cc46-b747-469e-911a-5087d6ea8329",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739398.211847,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please break down by month, mirroring this format  Optimal\tMPM 1.0\t\t\t\tJan-25\tFeb-25\tMar-25\tApr-25\tMay-25\tJun-25\tJul-25\tAug-25\tSep-25\tOct-25\tNov-25\tDec-25\nForecast Summary\tCommercial Sales\tNet Sales\t\tOutput\t9\t4\t0\t1\t2\t1\t1\t1\t1\t1\t1\t1\n\t\tkW Booked\t\tOutput\t3,662\t226\t0\t425\t152\t34\t500\t500\t500\t500\t500\t500\n\t\tRevenue Booked\t\tOutput\t$9,124,123\t$581,877\t$0\t$986,473\t$348,371\t$102,375\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\n\t\tGross Margin Booked\t\tOutput\t$1,681,090\t$120,962\t$0\t$141,704\t$76,083\t$28,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\nOptimal\tMPM 1.0\t\t\t\tJan-25\tFeb-25\tMar-25\tApr-25\tMay-25\tJun-25\tJul-25\tAug-25\tSep-25\tOct-25\tNov-25\tDec-25\nCommercial Sales\tNet Sales\tMark Manthy\t\tInput\t2\t3\t0\t0\t0\t0\t0\t0\t1\t0\t0\t1\n\t\tPhilip Jordan\t\tInput\t3\t1\t0\t1\t1\t1\t1\t0\t0\t1\t0\t0\n\t\tShane Wiliams\t\tInput\t3\t0\t0\t0\t1\t0\t0\t1\t0\t0\t1\t0\n\t\tTotal Sales\t\tOutput\t8\t4\t0\t1\t2\t1\t1\t1\t1\t1\t1\t1\n\tkW Booked\tMark Manthy\t\tOutput\t276\t113\t0\t0\t0\t0\t0\t0\t500\t0\t0\t500\n\t\tPhilip Jordan\t\tOutput\t432\t113\t0\t425\t40\t34\t500\t0\t0\t500\t0\t0\n\t\tShane Wiliams\t\tOutput\t1722\t0\t0\t0\t112\t0\t0\t500\t0\t0\t500\t0\n\t\tTotal kW Booked\t\tOutput\t2430\t226\t0\t425\t152\t34\t500\t500\t500\t500\t500\t500\n\tRevenue Booked\tMark Manthy\t\tOutput\t$691,679\t$289,589\t$0\t$0\t$0\t$0\t$0\t$0\t$1,100,000\t$0\t$0\t$1,100,000\n\t\tPhilip Jordan\t\tOutput\t$1,048,463\t$292,288\t$0\t$986,473\t$101,941\t$102,375\t$1,100,000\t$0\t$0\t$1,100,000\t$0\t$0\n\t\tShane Wiliams\t\tOutput\t$4,049,156\t$0\t$0\t$0\t$246,430\t$0\t$0\t$1,100,000\t$0\t$0\t$1,100,000\t$0\n\t\tTotal Revenue Booked\t\tOutput\t$5,789,298\t$581,877\t$0\t$986,473\t$348,371\t$102,375\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\t$1,100,000\n\tGross Margin Booked\tMark Manthy\t\tOutput\t$132,957\t$39,122\t$0\t$0\t$0\t$0\t$0\t$0\t$330,000\t$0\t$0\t$330,000\n\t\tPhilip Jordan\t\tOutput\t$236,653\t$81,840\t$0\t$141,704\t$7,083\t$28,000\t$330,000\t$0\t$0\t$330,000\t$0\t$0\n\t\tShane Wiliams\t\tOutput\t$1,000,000\t$0\t$0\t$0\t$69,000\t$0\t$0\t$330,000\t$0\t$0\t$330,000\t$0\n\t\tTotal GM Booked\t\tOutput\t$1,369,610\t$120,962\t$0\t$141,704\t$76,083\t$28,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\t$330,000\nOptimal\tMPM 1.0\t\t\t\tJan-25\tFeb-25\tMar-25\tApr-25\tMay-25\tJun-25\tJul-25\tAug-25\tSep-25\tOct-25\tNov-25\tDec-25\nKey Assumptions - Inputs\tAvg kW per Deal\tMark Manthy\t\tInput\t138.1\t37.7\t0.0\t0.0\t0.0\t0.0\t500.0\t500.0\t500.0\t500.0\t500.0\t500.0\n\t\tPhilip Jordan\t\tInput\t144.0\t113.0\t0.0\t425.0\t40.0\t34.2\t500.0\t500.0\t500.0\t500.0\t500.0\t500.0\n\t\tShane Wiliams\t\tInput\t574.0\t0.0\t0.0\t0.0\t0.0\t0.0\t500.0\t500.0\t500.0\t500.0\t500.0\t500.0\n\tPrice per Watt\tMark Manthy\t\tInput\t$2.50\t$2.56\t$0.00\t$0.00\t$0.00\t$0.00\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\n\t\tPhilip Jordan\t\tInput\t$2.43\t$2.59\t$0.00\t$2.32\t$2.55\t$2.99\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\n\t\tShane Wiliams\t\tInput\t$2.35\t$0.00\t$0.00\t$0.00\t$0.00\t$0.00\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\t$2.20\n\tGross Margin %\tMark Manthy\t\tInput\t19.2%\t13.5%\t0.0%\t0.0%\t0.0%\t0.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\n\t\tPhilip Jordan\t\tInput\t22.6%\t28.0%\t0.0%\t14.4%\t6.9%\t27.4%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\n\t\tShane Wiliams\t\tInput\t24.7%\t0.0%\t0.0%\t0.0%\t0.0%\t0.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%\t30.0%"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "901257d58b5432b2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ae8193c2-ae5e-474f-a98a-a67a909bbe73",
+      "children": [
+        "f8921533-85dc-414f-87a7-a6768b30f3f9"
+      ]
+    },
+    "f8921533-85dc-414f-87a7-a6768b30f3f9": {
+      "id": "f8921533-85dc-414f-87a7-a6768b30f3f9",
+      "message": {
+        "id": "f8921533-85dc-414f-87a7-a6768b30f3f9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739418.441472,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Preparing a summary by month mirroring the desired format\r\nmonthly_summary = df_detailed.groupby(\"Month\").agg(\r\n    Total_Sales=(\"Rep\", \"count\"),\r\n    Total_kW_Booked=(\"Prorated kW Booked\", lambda x: sum(float(k.replace(',', '')) for k in x)),\r\n    Total_Revenue_Booked=(\"Prorated Revenue Booked\", lambda x: sum(float(r.replace('$', '').replace(',', '')) for r in x)),\r\n    Total_Gross_Margin_Booked=(\"Prorated Gross Margin\", lambda x: sum(float(g.replace('$', '').replace(',', '')) for g in x)),\r\n).reset_index()\r\n\r\n# Formatting the numeric columns for display\r\nmonthly_summary[\"Total_kW_Booked\"] = monthly_summary[\"Total_kW_Booked\"].apply(lambda x: f\"{x:,.1f}\")\r\nmonthly_summary[\"Total_Revenue_Booked\"] = monthly_summary[\"Total_Revenue_Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\nmonthly_summary[\"Total_Gross_Margin_Booked\"] = monthly_summary[\"Total_Gross_Margin_Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\n\r\n# Adding column names to match the requested format\r\nmonthly_summary.columns = [\"Month\", \"Net Sales\", \"kW Booked\", \"Revenue Booked\", \"Gross Margin Booked\"]\r\n\r\ntools.display_dataframe_to_user(name=\"Monthly Forecast Summary\", dataframe=monthly_summary)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2cc46-b747-469e-911a-5087d6ea8329",
+          "request_id": "901257d58b5432b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "aaa2cc46-b747-469e-911a-5087d6ea8329",
+      "children": [
+        "b8e11ee3-b2dc-4db9-a537-f133b8955795"
+      ]
+    },
+    "b8e11ee3-b2dc-4db9-a537-f133b8955795": {
+      "id": "b8e11ee3-b2dc-4db9-a537-f133b8955795",
+      "message": {
+        "id": "b8e11ee3-b2dc-4db9-a537-f133b8955795",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1736739418.441556,
+        "update_time": 1736739415.6928098,
+        "content": {
+          "content_type": "execution_output",
+          "text": "    Month  Net Sales kW Booked Revenue Booked Gross Margin Booked\n0  Apr-25          1     318.8       $739,855            $106,278\n1  Aug-25          1     375.0       $825,000            $247,500\n2  Feb-25          2     169.6       $436,408             $90,722\n3  Jan-25          3     961.5     $2,317,395            $527,208\n4  Jul-25          1     375.0       $825,000            $247,500"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "d3942031-4159-48a1-9fec-9929fa7d548e",
+            "start_time": 1736739415.0103798,
+            "update_time": 1736739415.6928098,
+            "code": "# Preparing a summary by month mirroring the desired format\r\nmonthly_summary = df_detailed.groupby(\"Month\").agg(\r\n    Total_Sales=(\"Rep\", \"count\"),\r\n    Total_kW_Booked=(\"Prorated kW Booked\", lambda x: sum(float(k.replace(',', '')) for k in x)),\r\n    Total_Revenue_Booked=(\"Prorated Revenue Booked\", lambda x: sum(float(r.replace('$', '').replace(',', '')) for r in x)),\r\n    Total_Gross_Margin_Booked=(\"Prorated Gross Margin\", lambda x: sum(float(g.replace('$', '').replace(',', '')) for g in x)),\r\n).reset_index()\r\n\r\n# Formatting the numeric columns for display\r\nmonthly_summary[\"Total_kW_Booked\"] = monthly_summary[\"Total_kW_Booked\"].apply(lambda x: f\"{x:,.1f}\")\r\nmonthly_summary[\"Total_Revenue_Booked\"] = monthly_summary[\"Total_Revenue_Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\nmonthly_summary[\"Total_Gross_Margin_Booked\"] = monthly_summary[\"Total_Gross_Margin_Booked\"].apply(lambda x: f\"${x:,.0f}\")\r\n\r\n# Adding column names to match the requested format\r\nmonthly_summary.columns = [\"Month\", \"Net Sales\", \"kW Booked\", \"Revenue Booked\", \"Gross Margin Booked\"]\r\n\r\ntools.display_dataframe_to_user(name=\"Monthly Forecast Summary\", dataframe=monthly_summary)",
+            "end_time": 1736739415.6928098,
+            "final_expression_output": "    Month  Net Sales kW Booked Revenue Booked Gross Margin Booked\n0  Apr-25          1     318.8       $739,855            $106,278\n1  Aug-25          1     375.0       $825,000            $247,500\n2  Feb-25          2     169.6       $436,408             $90,722\n3  Jan-25          3     961.5     $2,317,395            $527,208\n4  Jul-25          1     375.0       $825,000            $247,500",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "    Month  Net Sales kW Booked Revenue Booked Gross Margin Booked\n0  Apr-25          1     318.8       $739,855            $106,278\n1  Aug-25          1     375.0       $825,000            $247,500\n2  Feb-25          2     169.6       $436,408             $90,722\n3  Jan-25          3     961.5     $2,317,395            $527,208\n4  Jul-25          1     375.0       $825,000            $247,500",
+                    "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Month</th>\n      <th>Net Sales</th>\n      <th>kW Booked</th>\n      <th>Revenue Booked</th>\n      <th>Gross Margin Booked</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Apr-25</td>\n      <td>1</td>\n      <td>318.8</td>\n      <td>$739,855</td>\n      <td>$106,278</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Aug-25</td>\n      <td>1</td>\n      <td>375.0</td>\n      <td>$825,000</td>\n      <td>$247,500</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>Feb-25</td>\n      <td>2</td>\n      <td>169.6</td>\n      <td>$436,408</td>\n      <td>$90,722</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>Jan-25</td>\n      <td>3</td>\n      <td>961.5</td>\n      <td>$2,317,395</td>\n      <td>$527,208</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>Jul-25</td>\n      <td>1</td>\n      <td>375.0</td>\n      <td>$825,000</td>\n      <td>$247,500</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "ada_visualizations": [
+            {
+              "type": "table",
+              "file_id": "file-XPi9ccJHEQZKDKcqiaxFFB",
+              "title": "Monthly Forecast Summary"
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f8921533-85dc-414f-87a7-a6768b30f3f9",
+          "request_id": "901257d58b5432b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f8921533-85dc-414f-87a7-a6768b30f3f9",
+      "children": [
+        "b664ea05-6376-4bb0-9795-c68b56b155b7"
+      ]
+    },
+    "b664ea05-6376-4bb0-9795-c68b56b155b7": {
+      "id": "b664ea05-6376-4bb0-9795-c68b56b155b7",
+      "message": {
+        "id": "b664ea05-6376-4bb0-9795-c68b56b155b7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739418.441613,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I have prepared a monthly forecast summary that mirrors the requested format, including prorated values for net sales, kW booked, revenue booked, and gross margin booked. Let me know if there are any additional refinements you'd like!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "b8e11ee3-b2dc-4db9-a537-f133b8955795",
+          "request_id": "901257d58b5432b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b8e11ee3-b2dc-4db9-a537-f133b8955795",
+      "children": [
+        "aaa2f77f-5bb4-483f-b01a-ef013d46d1d6"
+      ]
+    },
+    "aaa2f77f-5bb4-483f-b01a-ef013d46d1d6": {
+      "id": "aaa2f77f-5bb4-483f-b01a-ef013d46d1d6",
+      "message": {
+        "id": "aaa2f77f-5bb4-483f-b01a-ef013d46d1d6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739456.879054,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please order by month and separate by reo"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "901259397b7a32b2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b664ea05-6376-4bb0-9795-c68b56b155b7",
+      "children": [
+        "2e2015bc-3eb3-4446-aabe-f79231127058"
+      ]
+    },
+    "2e2015bc-3eb3-4446-aabe-f79231127058": {
+      "id": "2e2015bc-3eb3-4446-aabe-f79231127058",
+      "message": {
+        "id": "2e2015bc-3eb3-4446-aabe-f79231127058",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739460.887763,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Sorting by month and preparing a summary by rep\nmonthly_rep_summary = df_detailed.groupby([\"Month\", \"Rep\"]).agg(\n    Number_of_Projects=(\"Number of Projects\", \"sum\"),\n    Total_kW_Booked=(\"Prorated kW Booked\", lambda x: sum(float(k.replace(',', '')) for k in x"
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2f77f-5bb4-483f-b01a-ef013d46d1d6",
+          "request_id": "901259397b7a32b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "aaa2f77f-5bb4-483f-b01a-ef013d46d1d6",
+      "children": [
+        "aaa2a0a1-f3ff-4e1c-9c8f-964054422a62"
+      ]
+    },
+    "aaa2a0a1-f3ff-4e1c-9c8f-964054422a62": {
+      "id": "aaa2a0a1-f3ff-4e1c-9c8f-964054422a62",
+      "message": {
+        "id": "aaa2a0a1-f3ff-4e1c-9c8f-964054422a62",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739465.518024,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "by rep"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "9012596f3c5c32b2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2e2015bc-3eb3-4446-aabe-f79231127058",
+      "children": [
+        "d1688631-4e3a-443f-8f71-d227e7e363ed"
+      ]
+    },
+    "d1688631-4e3a-443f-8f71-d227e7e363ed": {
+      "id": "d1688631-4e3a-443f-8f71-d227e7e363ed",
+      "message": {
+        "id": "d1688631-4e3a-443f-8f71-d227e7e363ed",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739486.770322,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Preparing a summary by month and rep\nrep_monthly_summary = df_detailed.groupby([\"Rep\", \"Month\"]).agg(\n    Number_of_Projects=(\"Number of Projects\", \"sum\"),\n    Total_kW_Booked=(\"Prorated kW Booked\", lambda x: sum(float(k.replace(',', '')) for k in x)),\n    Total_Revenue_Booked=(\"Prorated Revenue Booked\", lambda x: sum(float(r.replace('$', '').replace(',', '')) for r in x)),\n    Total_Gross_Margin_Booked=(\"Prorated Gross Margin\", lambda x: sum(float(g.replace('$', '').replace(',', '')) for g in x)),\n).reset_index()\n\n# Formatting numeric columns\nrep_monthly_summary[\"Total_kW_Booked\"] = rep_monthly_summary[\"Total_kW_Booked\"].apply(lambda x: f\"{x:,.1f}\")\nrep_monthly_summary[\"Total_Revenue_Booked\"] = rep_monthly_summary[\"Total_Revenue_Booked\"].apply(lambda x: f\"${x:,.0f}\")\nrep_monthly_summary[\"Total_Gross_Margin_Booked\"] = rep_monthly_summary[\"Total_Gross_Margin_Booked\"].apply(lambda x: f\"${x:,.0f}\")\n\n# Renaming columns to match the requested format\nrep_monthly_summary.columns = [\n    \"Rep\", \"Month\", \"Net Sales\", \"kW Booked\", \"Revenue Booked\", \"Gross Margin Booked\"\n]\n\n# Sorting by Rep and Month\nrep_monthly_summary = rep_monthly_summary.sort_values(by=[\"Rep\", \"Month\"])\n\ntools.display_dataframe_to_user(name=\"Rep-wise Monthly Forecast Summary\", dataframe=rep_monthly_summary)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2a0a1-f3ff-4e1c-9c8f-964054422a62",
+          "request_id": "9012596f3c5c32b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "aaa2a0a1-f3ff-4e1c-9c8f-964054422a62",
+      "children": [
+        "af7cd86d-327a-4466-8819-06d28b66f226"
+      ]
+    },
+    "af7cd86d-327a-4466-8819-06d28b66f226": {
+      "id": "af7cd86d-327a-4466-8819-06d28b66f226",
+      "message": {
+        "id": "af7cd86d-327a-4466-8819-06d28b66f226",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1736739486.770421,
+        "update_time": 1736739483.6192133,
+        "content": {
+          "content_type": "execution_output",
+          "text": "             Rep   Month  Net Sales kW Booked Revenue Booked  \\\n0    Mark Manthy  Feb-25          1      84.8       $217,192   \n1    Mark Manthy  Jan-25          1     207.0       $518,759   \n2    Mark Manthy  Jul-25          1     375.0       $825,000   \n3    Mark Manthy  Mar-25          1       0.0             $0   \n4  Philip Jordan  Apr-25          1     318.8       $739,855   \n\n  Gross Margin Booked  \n0             $29,342  \n1             $99,718  \n2            $247,500  \n3                  $0  \n4            $106,278  "
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "5e4dc5e3-c832-4692-8d7d-9e32f46ea96d",
+            "start_time": 1736739483.0093348,
+            "update_time": 1736739483.6192133,
+            "code": "# Preparing a summary by month and rep\nrep_monthly_summary = df_detailed.groupby([\"Rep\", \"Month\"]).agg(\n    Number_of_Projects=(\"Number of Projects\", \"sum\"),\n    Total_kW_Booked=(\"Prorated kW Booked\", lambda x: sum(float(k.replace(',', '')) for k in x)),\n    Total_Revenue_Booked=(\"Prorated Revenue Booked\", lambda x: sum(float(r.replace('$', '').replace(',', '')) for r in x)),\n    Total_Gross_Margin_Booked=(\"Prorated Gross Margin\", lambda x: sum(float(g.replace('$', '').replace(',', '')) for g in x)),\n).reset_index()\n\n# Formatting numeric columns\nrep_monthly_summary[\"Total_kW_Booked\"] = rep_monthly_summary[\"Total_kW_Booked\"].apply(lambda x: f\"{x:,.1f}\")\nrep_monthly_summary[\"Total_Revenue_Booked\"] = rep_monthly_summary[\"Total_Revenue_Booked\"].apply(lambda x: f\"${x:,.0f}\")\nrep_monthly_summary[\"Total_Gross_Margin_Booked\"] = rep_monthly_summary[\"Total_Gross_Margin_Booked\"].apply(lambda x: f\"${x:,.0f}\")\n\n# Renaming columns to match the requested format\nrep_monthly_summary.columns = [\n    \"Rep\", \"Month\", \"Net Sales\", \"kW Booked\", \"Revenue Booked\", \"Gross Margin Booked\"\n]\n\n# Sorting by Rep and Month\nrep_monthly_summary = rep_monthly_summary.sort_values(by=[\"Rep\", \"Month\"])\n\ntools.display_dataframe_to_user(name=\"Rep-wise Monthly Forecast Summary\", dataframe=rep_monthly_summary)",
+            "end_time": 1736739483.6192133,
+            "final_expression_output": "             Rep   Month  Net Sales kW Booked Revenue Booked  \\\n0    Mark Manthy  Feb-25          1      84.8       $217,192   \n1    Mark Manthy  Jan-25          1     207.0       $518,759   \n2    Mark Manthy  Jul-25          1     375.0       $825,000   \n3    Mark Manthy  Mar-25          1       0.0             $0   \n4  Philip Jordan  Apr-25          1     318.8       $739,855   \n\n  Gross Margin Booked  \n0             $29,342  \n1             $99,718  \n2            $247,500  \n3                  $0  \n4            $106,278  ",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "             Rep   Month  Net Sales kW Booked Revenue Booked  \\\n0    Mark Manthy  Feb-25          1      84.8       $217,192   \n1    Mark Manthy  Jan-25          1     207.0       $518,759   \n2    Mark Manthy  Jul-25          1     375.0       $825,000   \n3    Mark Manthy  Mar-25          1       0.0             $0   \n4  Philip Jordan  Apr-25          1     318.8       $739,855   \n\n  Gross Margin Booked  \n0             $29,342  \n1             $99,718  \n2            $247,500  \n3                  $0  \n4            $106,278  ",
+                    "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Rep</th>\n      <th>Month</th>\n      <th>Net Sales</th>\n      <th>kW Booked</th>\n      <th>Revenue Booked</th>\n      <th>Gross Margin Booked</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>Mark Manthy</td>\n      <td>Feb-25</td>\n      <td>1</td>\n      <td>84.8</td>\n      <td>$217,192</td>\n      <td>$29,342</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Mark Manthy</td>\n      <td>Jan-25</td>\n      <td>1</td>\n      <td>207.0</td>\n      <td>$518,759</td>\n      <td>$99,718</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>Mark Manthy</td>\n      <td>Jul-25</td>\n      <td>1</td>\n      <td>375.0</td>\n      <td>$825,000</td>\n      <td>$247,500</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>Mark Manthy</td>\n      <td>Mar-25</td>\n      <td>1</td>\n      <td>0.0</td>\n      <td>$0</td>\n      <td>$0</td>\n    </tr>\n    <tr>\n      <th>4</th>\n      <td>Philip Jordan</td>\n      <td>Apr-25</td>\n      <td>1</td>\n      <td>318.8</td>\n      <td>$739,855</td>\n      <td>$106,278</td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "c3d56ccc-85d2f271dd7853baa62a39fe_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "ada_visualizations": [
+            {
+              "type": "table",
+              "file_id": "file-V78gMwPbeRSJE3sX8yuAB5",
+              "title": "Rep-wise Monthly Forecast Summary"
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d1688631-4e3a-443f-8f71-d227e7e363ed",
+          "request_id": "9012596f3c5c32b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d1688631-4e3a-443f-8f71-d227e7e363ed",
+      "children": [
+        "9ee360ed-522c-4a13-9fbd-f8120ad7975f"
+      ]
+    },
+    "9ee360ed-522c-4a13-9fbd-f8120ad7975f": {
+      "id": "9ee360ed-522c-4a13-9fbd-f8120ad7975f",
+      "message": {
+        "id": "9ee360ed-522c-4a13-9fbd-f8120ad7975f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1736739486.770479,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I have organized the forecast summary by rep and month, including prorated metrics such as net sales, kW booked, revenue booked, and gross margin booked. Let me know if further adjustments are needed!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop"
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "af7cd86d-327a-4466-8819-06d28b66f226",
+          "request_id": "9012596f3c5c32b2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "af7cd86d-327a-4466-8819-06d28b66f226",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "9ee360ed-522c-4a13-9fbd-f8120ad7975f",
+  "plugin_ids": null,
+  "conversation_id": "67848953-2618-8009-80f9-1e8b63a088e6",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67848953-2618-8009-80f9-1e8b63a088e6"
+}

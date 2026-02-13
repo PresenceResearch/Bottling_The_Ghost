@@ -1,0 +1,624 @@
+{
+  "title": "Depeche Mode Overview",
+  "create_time": 1728554800.09118,
+  "update_time": 1728554896.336947,
+  "mapping": {
+    "6ed62f60-406f-4736-9a50-401a931732d9": {
+      "id": "6ed62f60-406f-4736-9a50-401a931732d9",
+      "message": null,
+      "parent": null,
+      "children": [
+        "e4a4be72-1dc6-421a-8075-ecce67d68e9f"
+      ]
+    },
+    "e4a4be72-1dc6-421a-8075-ecce67d68e9f": {
+      "id": "e4a4be72-1dc6-421a-8075-ecce67d68e9f",
+      "message": {
+        "id": "e4a4be72-1dc6-421a-8075-ecce67d68e9f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6ed62f60-406f-4736-9a50-401a931732d9",
+      "children": [
+        "2abc636e-9600-4c6f-89f1-6c2a59051728"
+      ]
+    },
+    "2abc636e-9600-4c6f-89f1-6c2a59051728": {
+      "id": "2abc636e-9600-4c6f-89f1-6c2a59051728",
+      "message": {
+        "id": "2abc636e-9600-4c6f-89f1-6c2a59051728",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-kyRe0Ls7v6cjza2zRlE4omA5",
+              "name": "metatags for lycrics.txt",
+              "mimeType": "text/plain",
+              "fileSizeTokens": 2131
+            }
+          ],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4a4be72-1dc6-421a-8075-ecce67d68e9f",
+      "children": [
+        "bb097071-3fd1-4c91-a56f-027f5c5c35ce"
+      ]
+    },
+    "bb097071-3fd1-4c91-a56f-027f5c5c35ce": {
+      "id": "bb097071-3fd1-4c91-a56f-027f5c5c35ce",
+      "message": {
+        "id": "bb097071-3fd1-4c91-a56f-027f5c5c35ce",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554800.10395,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Describe Depeche Mode in 120 characters "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d05cc715c1e13c3-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2abc636e-9600-4c6f-89f1-6c2a59051728",
+      "children": [
+        "8ba0903a-6d63-4337-a799-e5e941b32132"
+      ]
+    },
+    "8ba0903a-6d63-4337-a799-e5e941b32132": {
+      "id": "8ba0903a-6d63-4337-a799-e5e941b32132",
+      "message": {
+        "id": "8ba0903a-6d63-4337-a799-e5e941b32132",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1728554802.084699,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bb097071-3fd1-4c91-a56f-027f5c5c35ce",
+          "request_id": "8d05cc715c1e13c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bb097071-3fd1-4c91-a56f-027f5c5c35ce",
+      "children": [
+        "9895145e-c116-49ba-a12f-7244133029b8"
+      ]
+    },
+    "9895145e-c116-49ba-a12f-7244133029b8": {
+      "id": "9895145e-c116-49ba-a12f-7244133029b8",
+      "message": {
+        "id": "9895145e-c116-49ba-a12f-7244133029b8",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1728554802.08492,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-kyRe0Ls7v6cjza2zRlE4omA5",
+          "domain": "metatags for lycrics.txt",
+          "text": "Some useful metatags for lycrics:\r\n\r\n## Bark\r\n- [announcer] - Used to indicate a section where an announcer is speaking.\r\n- [applause] - Indicates the presence of applause in the background.\r\n- [audience laughing] - Signals that the audience is laughing, useful for live performances or shows.\r\n- [barking] - Use this tag when you want to include the sound of a dog barking.\r\n- [beeping] - To add a beeping sound, like an alarm or notification.\r\n- [bell dings] - Signifies the sound of a bell dinging.\r\n- [birds chirping] - To incorporate the ambiance of birds chirping.\r\n- [bleep] - Indicates a bleep sound, often used to censor words.\r\n- [boy] - Use this tag to specify content delivered by or related to a boy.\r\n- [censored] - Marks content that is censored.\r\n- [cheering] - To include the sound of a crowd cheering.\r\n- [cheers and applause] - Indicates both cheers and applause from an audience.\r\n- [chuckles] - Signifies chuckling sound.\r\n- [clapping] - To add the sound of clapping.\r\n- [clears throat] - Used when someone is clearing their throat.\r\n- [cough] - Indicates a coughing sound.\r\n- [female narrator] - Specifies content narrated by a female.\r\n- [female] - Use this tag for content delivered by or related to a female.\r\n- [fighting] - To include sounds or references to fighting.\r\n- [giggles] - Signifies giggling sounds.\r\n- [giggling] - Another tag for giggling sounds, perhaps in a different context or intensity.\r\n- [girl] - Use this tag to specify content delivered by or related to a girl.\r\n- [groaning] - To add a groaning sound.\r\n- [man] - Use this tag for content delivered by or related to a man.\r\n- [phone ringing] - Indicates the sound of a phone ringing.\r\n- [reporter] - Specifies content delivered by a reporter.\r\n- [ringing] - To add a generic ringing sound.\r\n- [screams] - Signifies screaming sounds.\r\n- [sighs] - Used to include a sighing sound.\r\n- [silence] - Indicates a moment of silence.\r\n- [squawking] - To add the sound of squawking, like a bird or an alarm.\r\n- [upbeat music] - Use this tag to indicate a section with upbeat music.\r\n- [whispers] - Signifies whispering sounds.\r\n- [whistling] - To include a whistling sound.\r\n- [woman] - Use this tag for content delivered by or related to a woman.\r\n\r\n## Chirp\r\n- [Chorus] - Indicates the part of the song meant to be the chorus.\r\n- [Intro] - Marks the introduction section of a track.\r\n- [Outro] - Signifies the outro or closing section of the music piece.\r\n- [Verse] - Used to denote the verse part of a song.\r\n- [Acoustic] - Points to an acoustic style of music.\r\n- [African] - Tags the music with African influences or origins.\r\n- [Alternative metal] - Identifies the song as belonging to the alternative metal genre.\r\n- [Alternative pop] - Marks the song as alternative pop in style.\r\n- [Ambient] - For music that has an ambient, atmospheric feel.\r\n- [Atlanta rap] - Denotes rap music that originates from or is styled after Atlanta's rap scene.\r\n- [Ballad] - Marks the piece as a ballad, often slow and emotive.\r\n- [Baroque] - Indicates music influenced by or made in the Baroque style.\r\n- [Blues] - Tags the music as belonging to the blues genre.\r\n- [Boom bap] - Signifies a style of hip-hop that includes hard-hitting beats, often known as Boom bap.\r\n- [Cello] - For pieces that feature the cello.\r\n- [Chill] - Tags music that has a relaxed, chill vibe.\r\n- [Christian & Gospel] - Indicates the music belongs to the Christian & Gospel genres.\r\n- [Christmas] - For music that fits the Christmas holiday theme.\r\n- [Country & Americana] - Marks the music as part of the country or Americana genres.\r\n- [Dance & Electronic] - For music that falls under dance or electronic categories.\r\n- [Drums] - Indicates a focus on or significant use of drums.\r\n- [EDM] - Tags the track as Electronic Dance Music.\r\n- [Girl group] - To denote music by or in the style of a girl group.\r\n- [Gospel] - Marks the piece as gospel music.\r\n- [Hardcore rap] - Indicates a hardcore rap style.\r\n- [Heavy metal] - For music in the heavy metal genre.\r\n- [Hip hop] - Tags the music as hip hop.\r\n- [Indie] - For music that is considered independent or indie in style.\r\n- [Indie rock] - Marks the track as indie rock.\r\n- [J-pop] - For music in the Japanese pop genre.\r\n- [Jazz] - Indicates jazz music.\r\n- [K-pop] - For Korean pop music.\r\n- [Lo-fi] - Tags the music with a lo-fi, understated quality.\r\n- [Orchestra] - Denotes an orchestral music style.\r\n- [Party] - For tracks that set a party mood or vibe.\r\n- [Piano] - Indicates significant use of the piano.\r\n- [Pop] - Tags the track as pop music.\r\n- [Pop-Rock] - For music that blends elements of pop and rock.\r\n- [Post-Hardcore] - Indicates a post-hardcore style in music.\r\n- [Punk Rock] - For music belonging to the punk rock genre.\r\n- [R&B] - Marks the piece as rhythm and blues.\r\n- [R&B & Soul] - Indicates a mix of R&B and soul music.\r\n- [Rap] - Tags the track as rap music.\r\n- [Reggae] - For music with reggae elements.\r\n- [Rock] - Indicates rock music.\r\n- [Romantic] - For music with a romantic theme or tone.\r\n- [Soul] - Marks the track as soul music.\r\n- [Synth] - Denotes a significant use of synthesizers.\r\n- [Synth pop] - For music in the synth-pop style.\r\n- [Techno] - Tags the music as techno.\r\n- [Uk] - Could indicate music from or influenced by the United Kingdom.",
+          "title": "metatags for lycrics.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8ba0903a-6d63-4337-a799-e5e941b32132",
+          "request_id": "8d05cc715c1e13c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8ba0903a-6d63-4337-a799-e5e941b32132",
+      "children": [
+        "6cd74b1d-b249-4001-adbb-972367d642e3"
+      ]
+    },
+    "6cd74b1d-b249-4001-adbb-972367d642e3": {
+      "id": "6cd74b1d-b249-4001-adbb-972367d642e3",
+      "message": {
+        "id": "6cd74b1d-b249-4001-adbb-972367d642e3",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1728554802.085001,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won't provide additional information."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9895145e-c116-49ba-a12f-7244133029b8",
+          "request_id": "8d05cc715c1e13c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9895145e-c116-49ba-a12f-7244133029b8",
+      "children": [
+        "966cff90-1848-4814-b4fd-933d508ef901"
+      ]
+    },
+    "966cff90-1848-4814-b4fd-933d508ef901": {
+      "id": "966cff90-1848-4814-b4fd-933d508ef901",
+      "message": {
+        "id": "966cff90-1848-4814-b4fd-933d508ef901",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554802.085084,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Depeche Mode: Iconic synth-pop pioneers blending dark, brooding lyrics with electronic melodies, defining 80s alternative sound."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6cd74b1d-b249-4001-adbb-972367d642e3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d05cc715c1e13c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6cd74b1d-b249-4001-adbb-972367d642e3",
+      "children": [
+        "a612337b-99da-40c8-8ba8-1d7b3e4fb927"
+      ]
+    },
+    "a612337b-99da-40c8-8ba8-1d7b3e4fb927": {
+      "id": "a612337b-99da-40c8-8ba8-1d7b3e4fb927",
+      "message": {
+        "id": "a612337b-99da-40c8-8ba8-1d7b3e4fb927",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554812.624317,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the best prompt for this "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d05ccd70fd713c3-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "966cff90-1848-4814-b4fd-933d508ef901",
+      "children": [
+        "85a6482b-033a-4ca5-8546-09fa2fbbff83"
+      ]
+    },
+    "85a6482b-033a-4ca5-8546-09fa2fbbff83": {
+      "id": "85a6482b-033a-4ca5-8546-09fa2fbbff83",
+      "message": {
+        "id": "85a6482b-033a-4ca5-8546-09fa2fbbff83",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554814.739535,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The best prompt for describing Depeche Mode in a compelling way could be:\n\n\"Create an image capturing the essence of Depeche Mode, with a dark, atmospheric setting. Highlight the band\u2019s signature synth-pop sound by incorporating electronic instruments, moody lighting, and a blend of modern and retro elements. The mood should feel both brooding and sophisticated, evoking the themes of introspection and emotional depth that define their music, while showcasing their influence on 80s alternative culture.\"\n\nThis prompt emphasizes the band's style, mood, and legacy."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a612337b-99da-40c8-8ba8-1d7b3e4fb927",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d05ccd70fd713c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a612337b-99da-40c8-8ba8-1d7b3e4fb927",
+      "children": [
+        "68174629-b985-417d-baaf-14d9e8225f14"
+      ]
+    },
+    "68174629-b985-417d-baaf-14d9e8225f14": {
+      "id": "68174629-b985-417d-baaf-14d9e8225f14",
+      "message": {
+        "id": "68174629-b985-417d-baaf-14d9e8225f14",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554824.3845,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In 120 characters "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d05cd21aebc13c3-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85a6482b-033a-4ca5-8546-09fa2fbbff83",
+      "children": [
+        "c18f886a-e394-44e2-a13b-2193d936a576"
+      ]
+    },
+    "c18f886a-e394-44e2-a13b-2193d936a576": {
+      "id": "c18f886a-e394-44e2-a13b-2193d936a576",
+      "message": {
+        "id": "c18f886a-e394-44e2-a13b-2193d936a576",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554825.141073,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Dark, atmospheric setting with synths, moody lighting, and retro-modern elements, evoking Depeche Mode\u2019s brooding sound.\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "68174629-b985-417d-baaf-14d9e8225f14",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d05cd21aebc13c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "68174629-b985-417d-baaf-14d9e8225f14",
+      "children": [
+        "3e19de7d-4ec1-425c-afba-35a334068d76"
+      ]
+    },
+    "3e19de7d-4ec1-425c-afba-35a334068d76": {
+      "id": "3e19de7d-4ec1-425c-afba-35a334068d76",
+      "message": {
+        "id": "3e19de7d-4ec1-425c-afba-35a334068d76",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554842.177861,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Without saying Depeche Mode "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d05cd87baad13c3-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c18f886a-e394-44e2-a13b-2193d936a576",
+      "children": [
+        "1171f184-0144-4ee2-9875-c731bbea6fc3"
+      ]
+    },
+    "1171f184-0144-4ee2-9875-c731bbea6fc3": {
+      "id": "1171f184-0144-4ee2-9875-c731bbea6fc3",
+      "message": {
+        "id": "1171f184-0144-4ee2-9875-c731bbea6fc3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554842.975295,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Dark, atmospheric setting with synths, moody lighting, and retro-modern elements, evoking a brooding 80s synth-pop sound.\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3e19de7d-4ec1-425c-afba-35a334068d76",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d05cd87baad13c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3e19de7d-4ec1-425c-afba-35a334068d76",
+      "children": [
+        "10bd1e93-e20a-49a1-baf0-ddbd543826cb"
+      ]
+    },
+    "10bd1e93-e20a-49a1-baf0-ddbd543826cb": {
+      "id": "10bd1e93-e20a-49a1-baf0-ddbd543826cb",
+      "message": {
+        "id": "10bd1e93-e20a-49a1-baf0-ddbd543826cb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554894.308646,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please do the same thing for the cure "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d05cecd5f870570-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1171f184-0144-4ee2-9875-c731bbea6fc3",
+      "children": [
+        "a6523ba1-3666-4d2c-9965-612c1b98df5c"
+      ]
+    },
+    "a6523ba1-3666-4d2c-9965-612c1b98df5c": {
+      "id": "a6523ba1-3666-4d2c-9965-612c1b98df5c",
+      "message": {
+        "id": "a6523ba1-3666-4d2c-9965-612c1b98df5c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728554895.683139,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Gothic, melancholic atmosphere with dreamy guitars, moody lighting, and retro-modern elements, evoking 80s post-punk vibes.\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-y2J4bAO8A",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "10bd1e93-e20a-49a1-baf0-ddbd543826cb",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d05cecd5f870570-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "10bd1e93-e20a-49a1-baf0-ddbd543826cb",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a6523ba1-3666-4d2c-9965-612c1b98df5c",
+  "plugin_ids": null,
+  "conversation_id": "6707a72b-b920-8009-966a-ead62ee88316",
+  "conversation_template_id": "g-y2J4bAO8A",
+  "gizmo_id": "g-y2J4bAO8A",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6707a72b-b920-8009-966a-ead62ee88316"
+}

@@ -1,0 +1,382 @@
+{
+  "title": "Remove Alexa Show Ads",
+  "create_time": 1729514066.018351,
+  "update_time": 1729514857.622851,
+  "mapping": {
+    "4abf1c83-7da0-46cb-964b-bd9bc7f7ff30": {
+      "id": "4abf1c83-7da0-46cb-964b-bd9bc7f7ff30",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d21eefd8-e9ce-4f8d-aa99-dd2e215939ba"
+      ]
+    },
+    "d21eefd8-e9ce-4f8d-aa99-dd2e215939ba": {
+      "id": "d21eefd8-e9ce-4f8d-aa99-dd2e215939ba",
+      "message": {
+        "id": "d21eefd8-e9ce-4f8d-aa99-dd2e215939ba",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4abf1c83-7da0-46cb-964b-bd9bc7f7ff30",
+      "children": [
+        "798e9753-04bf-4d69-8996-2392fd9c22de"
+      ]
+    },
+    "798e9753-04bf-4d69-8996-2392fd9c22de": {
+      "id": "798e9753-04bf-4d69-8996-2392fd9c22de",
+      "message": {
+        "id": "798e9753-04bf-4d69-8996-2392fd9c22de",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d21eefd8-e9ce-4f8d-aa99-dd2e215939ba",
+      "children": [
+        "48369a1f-67bf-4804-bd80-8bb526fb1ea0"
+      ]
+    },
+    "48369a1f-67bf-4804-bd80-8bb526fb1ea0": {
+      "id": "48369a1f-67bf-4804-bd80-8bb526fb1ea0",
+      "message": {
+        "id": "48369a1f-67bf-4804-bd80-8bb526fb1ea0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729514066.021851,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do I remove advertising my my Alexa show"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d61481ebd0957a8-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "798e9753-04bf-4d69-8996-2392fd9c22de",
+      "children": [
+        "db267eb8-68e2-4352-a8d6-0d5209f8d900"
+      ]
+    },
+    "db267eb8-68e2-4352-a8d6-0d5209f8d900": {
+      "id": "db267eb8-68e2-4352-a8d6-0d5209f8d900",
+      "message": {
+        "id": "db267eb8-68e2-4352-a8d6-0d5209f8d900",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729514084.585873,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "48369a1f-67bf-4804-bd80-8bb526fb1ea0",
+          "request_id": "8d61481ebd0957a8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "48369a1f-67bf-4804-bd80-8bb526fb1ea0",
+      "children": [
+        "62a433f8-2689-4dff-b546-92c0a851feed"
+      ]
+    },
+    "62a433f8-2689-4dff-b546-92c0a851feed": {
+      "id": "62a433f8-2689-4dff-b546-92c0a851feed",
+      "message": {
+        "id": "62a433f8-2689-4dff-b546-92c0a851feed",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729514084.585981,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To remove advertising from your Amazon Alexa Show, you can try the following steps:\n\n1. **Disable Suggestions:**\n   - Open the Alexa app on your smartphone or tablet.\n   - Go to **Settings** > **Device Settings**.\n   - Select your Echo Show device from the list.\n   - Scroll down to find **Home Content** and disable options like **Trending Topics**, **Notifications**, and **Notifications for Amazon Shopping**.\n\n2. **Turn Off 'Things to Try' (Tips and Tricks):**\n   - Go to the Echo Show device settings by swiping down from the top of the screen and selecting **Settings** (or say, \"Alexa, go to settings\").\n   - Go to **Home & Clock** > **Home Content**.\n   - Toggle off options such as **Things to Try** to reduce recommendations and ads.\n\n3. **Adjust the Home Screen Rotation:**\n   - You can customize the home screen content to reduce the appearance of Amazon ads.\n   - Go to **Settings** on your Echo Show > **Home & Clock** > **Home Cards Preferences**. Disable any cards that show ads or promotional content, such as Amazon recommendations.\n\n4. **Turn Off Notifications for Amazon Shopping:**\n   - Open the Alexa app on your phone.\n   - Go to **Settings** > **Notifications** > **Amazon Shopping** and toggle off anything that relates to product promotions or delivery updates if those are appearing on your Echo Show.\n\n5. **Do Not Disturb Mode:**\n   - You can also enable **Do Not Disturb** mode by swiping down from the top of the Echo Show screen and tapping on the \"Do Not Disturb\" icon. This will prevent notifications, including some promotional messages.\n\nThese steps should reduce the amount of advertising you see on your Echo Show. However, some content like Amazon Prime promotions may still appear as they're part of Amazon's ecosystem."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "db267eb8-68e2-4352-a8d6-0d5209f8d900",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d61481ebd0957a8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "db267eb8-68e2-4352-a8d6-0d5209f8d900",
+      "children": [
+        "2fed66d6-1feb-4068-b398-7941834feda2"
+      ]
+    },
+    "2fed66d6-1feb-4068-b398-7941834feda2": {
+      "id": "2fed66d6-1feb-4068-b398-7941834feda2",
+      "message": {
+        "id": "2fed66d6-1feb-4068-b398-7941834feda2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729514775.552301,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I hate Alexa ads. Are there other alternatives?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d6159721f970614-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "62a433f8-2689-4dff-b546-92c0a851feed",
+      "children": [
+        "01ba31d4-c725-4320-83c1-b7e775b38429"
+      ]
+    },
+    "01ba31d4-c725-4320-83c1-b7e775b38429": {
+      "id": "01ba31d4-c725-4320-83c1-b7e775b38429",
+      "message": {
+        "id": "01ba31d4-c725-4320-83c1-b7e775b38429",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729514803.043601,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you\u2019re looking for smart home devices that don\u2019t bombard you with ads like Alexa, there are some solid alternatives. Here are a few options that might better suit your preferences:\n\n### 1. **Google Nest Hub (Google Assistant)**\n   - **Pros:**\n     - Less intrusive ads compared to Alexa.\n     - Intuitive integration with Google services like Google Calendar, Maps, and YouTube.\n     - The voice assistant has more natural, conversational responses.\n     - Strong privacy features: you can control what data Google collects and delete history easily.\n   - **Cons:**\n     - Google might still push some content (e.g., Google service recommendations), but it's usually less aggressive than Amazon\u2019s ads.\n\n### 2. **Apple HomePod (Siri)**\n   - **Pros:**\n     - No ads. Apple generally avoids pushing ads through its smart home devices.\n     - Strong focus on privacy and security.\n     - Deep integration with Apple products and services.\n   - **Cons:**\n     - Limited smart home device compatibility compared to Alexa and Google.\n     - Tends to be more expensive.\n   \n### 3. **Sonos One (Alexa/Google Assistant Compatible)**\n   - **Pros:**\n     - You can use either Alexa or Google Assistant with the Sonos ecosystem, but you get the option to opt out of voice assistants entirely and just use it as a speaker.\n     - Superior sound quality if music is a priority.\n     - No built-in ads beyond what\u2019s part of Alexa or Google Assistant, so it's a bit more minimal.\n   - **Cons:**\n     - It\u2019s a speaker-first device, so its smart assistant functionality is secondary.\n\n### 4. **JBL Link View (Google Assistant)**\n   - **Pros:**\n     - Google Assistant-powered, so fewer ads than Alexa.\n     - Good sound quality for a smart display.\n     - Supports all Google Assistant features, such as streaming YouTube and casting.\n   - **Cons:**\n     - You\u2019ll still be within Google\u2019s ecosystem, which could show some recommendations, but not to the extent of Amazon\u2019s ads.\n\n### 5. **Home Assistant (Open-source DIY Solution)**\n   - **Pros:**\n     - Completely ad-free and customizable.\n     - No big tech companies involved, so you have full control over privacy and features.\n     - Integrates with almost all smart home products if you\u2019re into DIY setups.\n   - **Cons:**\n     - Requires more technical knowledge to set up and maintain.\n     - No built-in voice assistant, though you can integrate Google Assistant or Alexa if you choose.\n\n### 6. **SmartThings (Samsung)**\n   - **Pros:**\n     - Works with Google Assistant and Bixby (Samsung\u2019s voice assistant) and has minimal ads.\n     - Broad compatibility with third-party smart home devices.\n   - **Cons:**\n     - Bixby is still not as advanced or popular as Alexa or Google Assistant.\n     - If you choose Google Assistant integration, you may still get some service suggestions.\n\nIf avoiding ads is your top priority, **Apple HomePod** or a **DIY solution like Home Assistant** will give you the most ad-free experience. If you're okay with minimal ads, **Google Nest Hub** is another strong option."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2fed66d6-1feb-4068-b398-7941834feda2",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d6159721f970614-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2fed66d6-1feb-4068-b398-7941834feda2",
+      "children": [
+        "1546d357-bc4a-4346-9ed7-cf51e3cfcca2"
+      ]
+    },
+    "1546d357-bc4a-4346-9ed7-cf51e3cfcca2": {
+      "id": "1546d357-bc4a-4346-9ed7-cf51e3cfcca2",
+      "message": {
+        "id": "1546d357-bc4a-4346-9ed7-cf51e3cfcca2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729514821.318829,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is home assistant "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d615a8fca190614-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "01ba31d4-c725-4320-83c1-b7e775b38429",
+      "children": [
+        "0870ef8d-69c0-40a9-b578-331d2a8f4c7d"
+      ]
+    },
+    "0870ef8d-69c0-40a9-b578-331d2a8f4c7d": {
+      "id": "0870ef8d-69c0-40a9-b578-331d2a8f4c7d",
+      "message": {
+        "id": "0870ef8d-69c0-40a9-b578-331d2a8f4c7d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729514854.594184,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Home Assistant is an open-source platform that allows you to automate and control various smart home devices locally without relying on cloud services. It offers extensive compatibility with a wide range of smart devices, giving you full control over your smart home setup and how it interacts.\n\nHere\u2019s a breakdown of Home Assistant:\n\n### Key Features:\n\n1. **Local Control**:\n   - One of the standout features of Home Assistant is that it operates locally. This means that most of your devices will continue to work even if the internet goes down, and you don\u2019t have to rely on external servers or cloud services, reducing privacy concerns.\n   \n2. **Extensive Compatibility**:\n   - Home Assistant works with thousands of smart devices, including those from major brands like Philips Hue, Sonos, Ecobee, and Xiaomi. It also supports less common devices or those with proprietary protocols like Zigbee, Z-Wave, and MQTT.\n   \n3. **Automation and Customization**:\n   - You can create custom automations and scripts to make your smart home work exactly how you want it. Automations can be as simple as turning on lights when you enter a room or as complex as managing your home\u2019s heating, lighting, and security based on time of day, weather, and who\u2019s home.\n   - The automations can be triggered based on device states, geolocation, time, or more advanced conditions.\n\n4. **Privacy-Focused**:\n   - Since it\u2019s open-source and runs locally, you have full control over your data. There\u2019s no need to send your data to third-party companies or cloud servers unless you choose to.\n\n5. **Voice Assistant Integration**:\n   - While Home Assistant doesn\u2019t have its own voice assistant, you can integrate it with popular ones like Google Assistant, Amazon Alexa, and Siri. This allows you to control your devices via voice commands if you choose to, but you aren\u2019t forced to if privacy is a concern.\n\n6. **Custom Dashboard (Lovelace UI)**:\n   - Home Assistant offers a customizable user interface (Lovelace UI) that allows you to design your control dashboard exactly how you want it. You can create panels, buttons, and displays to control and monitor your smart devices easily.\n\n7. **Community and Add-ons**:\n   - There\u2019s a large community of developers and users who create add-ons and integrations, making it easy to extend the platform\u2019s functionality. This includes things like streaming security camera feeds, integrating media servers, or automating solar energy management.\n\n### How It Works:\nHome Assistant is typically installed on a dedicated computer or a Raspberry Pi, but it can also run on a server or even in a virtual machine. It uses **YAML** (a human-readable data format) for configuration, though there are increasingly user-friendly interfaces for setting up devices and automations without code.\n\n### Why People Like It:\n- **Total Control**: Home Assistant lets you create highly customized automations and workflows.\n- **Privacy**: With local control and no need for third-party cloud services, it offers one of the most private smart home solutions.\n- **Scalability**: Whether you want to automate just a few devices or your entire home, it can scale to fit your needs.\n- **No Ads**: Unlike many proprietary systems, Home Assistant has no ads or forced service upsells.\n\n### Downsides:\n- **Technical Learning Curve**: While Home Assistant has improved its user-friendliness, it still requires some technical knowledge to set up and manage, especially for more advanced features.\n- **No Native Voice Assistant**: While you can integrate third-party voice assistants, Home Assistant doesn\u2019t come with its own, so you\u2019ll need to add that capability if needed.\n\n### Who It's For:\nHome Assistant is perfect for those who:\n- Want complete control over their smart home setup.\n- Prefer local, private control over cloud-based systems.\n- Are comfortable tinkering with settings and exploring more technical configurations.\n- Value custom automations that go beyond the capabilities of mainstream smart home platforms.\n\nIf you\u2019re a tech-savvy user looking for privacy and customization in your smart home, Home Assistant is a powerful and flexible choice."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1546d357-bc4a-4346-9ed7-cf51e3cfcca2",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d615a8fca190614-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1546d357-bc4a-4346-9ed7-cf51e3cfcca2",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0870ef8d-69c0-40a9-b578-331d2a8f4c7d",
+  "plugin_ids": null,
+  "conversation_id": "67164a51-b974-8009-b57c-8d74f22d3952",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67164a51-b974-8009-b57c-8d74f22d3952"
+}

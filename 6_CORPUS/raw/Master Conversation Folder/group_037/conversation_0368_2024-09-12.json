@@ -1,0 +1,185 @@
+{
+  "title": "Hans Zimmer Concert Overview",
+  "create_time": 1726179670.462379,
+  "update_time": 1726179676.967586,
+  "mapping": {
+    "dcc984ac-a468-4913-b45f-f6dd05a38d5a": {
+      "id": "dcc984ac-a468-4913-b45f-f6dd05a38d5a",
+      "message": null,
+      "parent": null,
+      "children": [
+        "856f487b-1abb-4029-9050-ae23fdb606f3"
+      ]
+    },
+    "856f487b-1abb-4029-9050-ae23fdb606f3": {
+      "id": "856f487b-1abb-4029-9050-ae23fdb606f3",
+      "message": {
+        "id": "856f487b-1abb-4029-9050-ae23fdb606f3",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dcc984ac-a468-4913-b45f-f6dd05a38d5a",
+      "children": [
+        "cc2f4d7a-3adc-4a64-b42e-48a07e53e455"
+      ]
+    },
+    "cc2f4d7a-3adc-4a64-b42e-48a07e53e455": {
+      "id": "cc2f4d7a-3adc-4a64-b42e-48a07e53e455",
+      "message": {
+        "id": "cc2f4d7a-3adc-4a64-b42e-48a07e53e455",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1726179670.46542,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "An orchestra play at the Hans Zimmer concert"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8c2349fb59b1c988-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "856f487b-1abb-4029-9050-ae23fdb606f3",
+      "children": [
+        "f0490d98-5faf-4bf6-81d7-ee6ab259fbd9"
+      ]
+    },
+    "f0490d98-5faf-4bf6-81d7-ee6ab259fbd9": {
+      "id": "f0490d98-5faf-4bf6-81d7-ee6ab259fbd9",
+      "message": {
+        "id": "f0490d98-5faf-4bf6-81d7-ee6ab259fbd9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1726179676.164948,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "cc2f4d7a-3adc-4a64-b42e-48a07e53e455",
+          "request_id": "8c2349fb59b1c988-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cc2f4d7a-3adc-4a64-b42e-48a07e53e455",
+      "children": [
+        "80603dad-76ed-41b9-98cc-090e5e4869a2"
+      ]
+    },
+    "80603dad-76ed-41b9-98cc-090e5e4869a2": {
+      "id": "80603dad-76ed-41b9-98cc-090e5e4869a2",
+      "message": {
+        "id": "80603dad-76ed-41b9-98cc-090e5e4869a2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1726179676.165051,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "At a Hans Zimmer concert, the orchestra plays a wide range of his iconic compositions from various movie soundtracks. The orchestra typically includes a full complement of strings, brass, woodwinds, and percussion, along with a choir and sometimes unique instruments or soloists to capture the distinctive sounds of Zimmer's music. \n\nThe repertoire often features scores from films such as \"The Lion King,\" \"Gladiator,\" \"Pirates of the Caribbean,\" \"Inception,\" \"The Dark Knight,\" \"Interstellar,\" and many others. The performances are known for their dynamic range, shifting from soft, emotive melodies to powerful, cinematic crescendos, often accompanied by dramatic lighting, visuals, and occasionally live narration or multimedia elements to enhance the storytelling experience of the music."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f0490d98-5faf-4bf6-81d7-ee6ab259fbd9",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8c2349fb59b1c988-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f0490d98-5faf-4bf6-81d7-ee6ab259fbd9",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "80603dad-76ed-41b9-98cc-090e5e4869a2",
+  "plugin_ids": null,
+  "conversation_id": "66e36956-52d4-8009-beea-7325c07211a9",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "66e36956-52d4-8009-beea-7325c07211a9"
+}

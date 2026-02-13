@@ -1,0 +1,186 @@
+{
+  "title": "RX450h Amplifier Part Number",
+  "create_time": 1724107200.872271,
+  "update_time": 1724107204.269991,
+  "mapping": {
+    "6c5f74e4-0f53-4132-8530-f0e1586b9ced": {
+      "id": "6c5f74e4-0f53-4132-8530-f0e1586b9ced",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3be9a6ea-0c60-41f9-9d6f-f192349d5abb"
+      ]
+    },
+    "3be9a6ea-0c60-41f9-9d6f-f192349d5abb": {
+      "id": "3be9a6ea-0c60-41f9-9d6f-f192349d5abb",
+      "message": {
+        "id": "3be9a6ea-0c60-41f9-9d6f-f192349d5abb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6c5f74e4-0f53-4132-8530-f0e1586b9ced",
+      "children": [
+        "1e09c3a4-99ce-46cc-9065-3427bd923d30"
+      ]
+    },
+    "1e09c3a4-99ce-46cc-9065-3427bd923d30": {
+      "id": "1e09c3a4-99ce-46cc-9065-3427bd923d30",
+      "message": {
+        "id": "1e09c3a4-99ce-46cc-9065-3427bd923d30",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724107200.874931,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I need an amplifier for a 2010 Lexus 450 rx450. What is the model number for this part?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b5da493edb43c0e-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3be9a6ea-0c60-41f9-9d6f-f192349d5abb",
+      "children": [
+        "fedb0ad5-a25d-46d1-86db-a74c46b1917e"
+      ]
+    },
+    "fedb0ad5-a25d-46d1-86db-a74c46b1917e": {
+      "id": "fedb0ad5-a25d-46d1-86db-a74c46b1917e",
+      "message": {
+        "id": "fedb0ad5-a25d-46d1-86db-a74c46b1917e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724107203.417746,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1e09c3a4-99ce-46cc-9065-3427bd923d30",
+          "request_id": "8b5da493edb43c0e-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e09c3a4-99ce-46cc-9065-3427bd923d30",
+      "children": [
+        "3eb94e07-7458-4ec8-ba86-d3be951ca2f6"
+      ]
+    },
+    "3eb94e07-7458-4ec8-ba86-d3be951ca2f6": {
+      "id": "3eb94e07-7458-4ec8-ba86-d3be951ca2f6",
+      "message": {
+        "id": "3eb94e07-7458-4ec8-ba86-d3be951ca2f6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724107203.417826,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The amplifier for a 2010 Lexus RX 450h typically has the part number **86280-0E011**. However, it's important to confirm this part number with your vehicle's specific configuration or VIN, as there can be variations based on the audio system or region. You might also want to check with a Lexus dealership or trusted auto parts supplier to ensure you're getting the correct amplifier for your vehicle."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAA",
+          "parent_id": "fedb0ad5-a25d-46d1-86db-a74c46b1917e",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b5da493edb43c0e-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fedb0ad5-a25d-46d1-86db-a74c46b1917e",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3eb94e07-7458-4ec8-ba86-d3be951ca2f6",
+  "plugin_ids": null,
+  "conversation_id": "1d9ea279-5689-40ac-8608-dd29301ca066",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "1d9ea279-5689-40ac-8608-dd29301ca066"
+}

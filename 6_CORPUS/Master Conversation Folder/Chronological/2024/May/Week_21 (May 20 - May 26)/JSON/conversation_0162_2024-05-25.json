@@ -1,0 +1,185 @@
+{
+  "title": "NordVPN blocks phone data.",
+  "create_time": 1716651692.772328,
+  "update_time": 1716651699.036135,
+  "mapping": {
+    "25ff289a-10d7-4676-9540-6f6a6a93398b": {
+      "id": "25ff289a-10d7-4676-9540-6f6a6a93398b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "011dee6c-c4bc-4b7c-b5ac-da1923290a66"
+      ]
+    },
+    "011dee6c-c4bc-4b7c-b5ac-da1923290a66": {
+      "id": "011dee6c-c4bc-4b7c-b5ac-da1923290a66",
+      "message": {
+        "id": "011dee6c-c4bc-4b7c-b5ac-da1923290a66",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "25ff289a-10d7-4676-9540-6f6a6a93398b",
+      "children": [
+        "ad7ac37f-5866-4c4c-b3b7-a6c725553fcd"
+      ]
+    },
+    "ad7ac37f-5866-4c4c-b3b7-a6c725553fcd": {
+      "id": "ad7ac37f-5866-4c4c-b3b7-a6c725553fcd",
+      "message": {
+        "id": "ad7ac37f-5866-4c4c-b3b7-a6c725553fcd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1716651692.774436,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When I use the nord vpn my phone does not connect to data service. Why is this "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8896a1563b3f4caf-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "011dee6c-c4bc-4b7c-b5ac-da1923290a66",
+      "children": [
+        "8421bfed-6457-4247-a64c-6e9f8f4ab802"
+      ]
+    },
+    "8421bfed-6457-4247-a64c-6e9f8f4ab802": {
+      "id": "8421bfed-6457-4247-a64c-6e9f8f4ab802",
+      "message": {
+        "id": "8421bfed-6457-4247-a64c-6e9f8f4ab802",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1716651698.514442,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ad7ac37f-5866-4c4c-b3b7-a6c725553fcd",
+          "request_id": "8896a1563b3f4caf-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ad7ac37f-5866-4c4c-b3b7-a6c725553fcd",
+      "children": [
+        "5f980310-318b-4b05-8914-dbffde90922c"
+      ]
+    },
+    "5f980310-318b-4b05-8914-dbffde90922c": {
+      "id": "5f980310-318b-4b05-8914-dbffde90922c",
+      "message": {
+        "id": "5f980310-318b-4b05-8914-dbffde90922c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1716651698.514618,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "There are several reasons why your phone might not connect to data service when using NordVPN:\n\n1. **Server Issues**: The NordVPN server you're connected to might be experiencing issues. Try switching to a different server.\n\n2. **Network Configuration**: Sometimes, the VPN settings can conflict with your mobile network's settings. Ensure that your VPN protocol (UDP, TCP) is compatible with your network.\n\n3. **App Permissions**: Ensure that NordVPN has the necessary permissions to create a VPN connection on your phone.\n\n4. **Network Restrictions**: Your mobile network provider might restrict VPN usage on their network.\n\n5. **App Update**: Make sure that both your NordVPN app and your phone's operating system are updated to the latest versions.\n\n6. **Reinstall the App**: Sometimes, reinstalling the app can resolve connectivity issues.\n\n7. **APN Settings**: Check your Access Point Name (APN) settings. Incorrect APN settings can interfere with VPN connectivity.\n\nIf these steps do not resolve the issue, contacting NordVPN support or your mobile network provider for further assistance might be necessary."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAA",
+          "parent_id": "8421bfed-6457-4247-a64c-6e9f8f4ab802",
+          "request_id": "8896a1563b3f4caf-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8421bfed-6457-4247-a64c-6e9f8f4ab802",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "5f980310-318b-4b05-8914-dbffde90922c",
+  "plugin_ids": null,
+  "conversation_id": "a2266ed9-fffc-447a-a8d7-3a0188c24f15",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "a2266ed9-fffc-447a-a8d7-3a0188c24f15"
+}

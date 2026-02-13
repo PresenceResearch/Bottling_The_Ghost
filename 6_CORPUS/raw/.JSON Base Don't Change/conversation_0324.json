@@ -1,0 +1,186 @@
+{
+  "title": "Japanese Tea Ceremony Principles",
+  "create_time": 1724397621.562077,
+  "update_time": 1724397632.102207,
+  "mapping": {
+    "b3305e27-fbe9-4ecb-9f04-6d22ae06ae0f": {
+      "id": "b3305e27-fbe9-4ecb-9f04-6d22ae06ae0f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "ca3573b3-7da2-4496-a240-70370515fe42"
+      ]
+    },
+    "ca3573b3-7da2-4496-a240-70370515fe42": {
+      "id": "ca3573b3-7da2-4496-a240-70370515fe42",
+      "message": {
+        "id": "ca3573b3-7da2-4496-a240-70370515fe42",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3305e27-fbe9-4ecb-9f04-6d22ae06ae0f",
+      "children": [
+        "2dea083c-cdf2-4763-a886-d1ef54e78de6"
+      ]
+    },
+    "2dea083c-cdf2-4763-a886-d1ef54e78de6": {
+      "id": "2dea083c-cdf2-4763-a886-d1ef54e78de6",
+      "message": {
+        "id": "2dea083c-cdf2-4763-a886-d1ef54e78de6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724397621.566384,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What are the four characters associated with  Japanese tea ceremony "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b7956ed0f8e8099-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca3573b3-7da2-4496-a240-70370515fe42",
+      "children": [
+        "a85670b1-7ef6-4924-91ed-1926dd9211a5"
+      ]
+    },
+    "a85670b1-7ef6-4924-91ed-1926dd9211a5": {
+      "id": "a85670b1-7ef6-4924-91ed-1926dd9211a5",
+      "message": {
+        "id": "a85670b1-7ef6-4924-91ed-1926dd9211a5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724397631.281449,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2dea083c-cdf2-4763-a886-d1ef54e78de6",
+          "request_id": "8b7956ed0f8e8099-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2dea083c-cdf2-4763-a886-d1ef54e78de6",
+      "children": [
+        "e406ea98-c6c5-4e17-90fc-daf4f19e7299"
+      ]
+    },
+    "e406ea98-c6c5-4e17-90fc-daf4f19e7299": {
+      "id": "e406ea98-c6c5-4e17-90fc-daf4f19e7299",
+      "message": {
+        "id": "e406ea98-c6c5-4e17-90fc-daf4f19e7299",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724397631.281541,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The four essential principles associated with the Japanese tea ceremony, or *chanoyu* (\u8336\u306e\u6e6f), are:\n\n1. **\u548c (Wa)** - Harmony\n2. **\u656c (Kei)** - Respect\n3. **\u6e05 (Sei)** - Purity\n4. **\u5bc2 (Jaku)** - Tranquility\n\nThese principles guide the practice and philosophy of the tea ceremony, emphasizing the importance of harmony with others, respect for the tools and participants, purity of both mind and environment, and the tranquility that comes from the practice."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAA",
+          "parent_id": "a85670b1-7ef6-4924-91ed-1926dd9211a5",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b7956ed0f8e8099-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a85670b1-7ef6-4924-91ed-1926dd9211a5",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "e406ea98-c6c5-4e17-90fc-daf4f19e7299",
+  "plugin_ids": null,
+  "conversation_id": "9a8c5f29-625e-4fd7-934f-be2d300913b4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "9a8c5f29-625e-4fd7-934f-be2d300913b4"
+}

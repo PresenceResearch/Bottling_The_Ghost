@@ -1,0 +1,660 @@
+{
+  "title": "Inaccurate Self Portrait",
+  "create_time": 1699474421.698199,
+  "update_time": 1699474533.181162,
+  "mapping": {
+    "aaa12c25-6b23-4243-9f49-34b2995dbbf5": {
+      "id": "aaa12c25-6b23-4243-9f49-34b2995dbbf5",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8f47a94a-207c-4be0-a91e-79d2eace8220"
+      ]
+    },
+    "8f47a94a-207c-4be0-a91e-79d2eace8220": {
+      "id": "8f47a94a-207c-4be0-a91e-79d2eace8220",
+      "message": {
+        "id": "8f47a94a-207c-4be0-a91e-79d2eace8220",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa12c25-6b23-4243-9f49-34b2995dbbf5",
+      "children": [
+        "aaa22a0b-721a-4cfb-b28c-0bc892232de5"
+      ]
+    },
+    "aaa22a0b-721a-4cfb-b28c-0bc892232de5": {
+      "id": "aaa22a0b-721a-4cfb-b28c-0bc892232de5",
+      "message": {
+        "id": "aaa22a0b-721a-4cfb-b28c-0bc892232de5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474421.698771,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "inaccurate self portrait"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8f47a94a-207c-4be0-a91e-79d2eace8220",
+      "children": [
+        "48c940cd-0bf4-4e48-9824-2f6999be7cfb",
+        "05d964f8-fe0f-4fe6-9e8f-d6d71d1d43ac"
+      ]
+    },
+    "48c940cd-0bf4-4e48-9824-2f6999be7cfb": {
+      "id": "48c940cd-0bf4-4e48-9824-2f6999be7cfb",
+      "message": {
+        "id": "48c940cd-0bf4-4e48-9824-2f6999be7cfb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474439.192373,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\n  \"size\": \"1024x1024\",\n  \"prompt\": \"Create an abstract, surreal self-portrait that deviates from reality. Include exaggerated features, with one eye significantly larger than the other, a nose that twists like a spiral, and a mouth with wavy lips. The ears should be uneven, one very small and the other comically large. The hairstyle should be wild and defy gravity, with strands reaching upwards like tendrils. The color palette should be vibrant and non-natural, with purples, greens, and blues dominating. The background is a swirling mix of these colors, giving the impression of a dreamlike, otherworldly landscape.\"\n}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "aaa22a0b-721a-4cfb-b28c-0bc892232de5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa22a0b-721a-4cfb-b28c-0bc892232de5",
+      "children": [
+        "1441f86e-a331-4626-88f1-b59750cb46b5"
+      ]
+    },
+    "05d964f8-fe0f-4fe6-9e8f-d6d71d1d43ac": {
+      "id": "05d964f8-fe0f-4fe6-9e8f-d6d71d1d43ac",
+      "message": {
+        "id": "05d964f8-fe0f-4fe6-9e8f-d6d71d1d43ac",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474466.578878,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "aaa22a0b-721a-4cfb-b28c-0bc892232de5",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa22a0b-721a-4cfb-b28c-0bc892232de5",
+      "children": [
+        "c4f68980-111f-49b8-9318-75a408583a39"
+      ]
+    },
+    "1441f86e-a331-4626-88f1-b59750cb46b5": {
+      "id": "1441f86e-a331-4626-88f1-b59750cb46b5",
+      "message": {
+        "id": "1441f86e-a331-4626-88f1-b59750cb46b5",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699474439.19388,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-mgxp4Xx80aazCfmxVlY58rKF",
+              "size_bytes": 333222,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "dev6XbkahZWTgTBB",
+                  "prompt": "Create an abstract, surreal self-portrait that deviates from reality. Include exaggerated features, with one eye significantly larger than the other, a nose that twists like a spiral, and a mouth with wavy lips. The ears should be uneven, one very small and the other comically large. The hairstyle should be wild and defy gravity, with strands reaching upwards like tendrils. The color palette should be vibrant and non-natural, with purples, greens, and blues dominating. The background is a swirling mix of these colors, giving the impression of a dreamlike, otherworldly landscape.",
+                  "seed": 1432739978,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "48c940cd-0bf4-4e48-9824-2f6999be7cfb",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "48c940cd-0bf4-4e48-9824-2f6999be7cfb",
+      "children": []
+    },
+    "c4f68980-111f-49b8-9318-75a408583a39": {
+      "id": "c4f68980-111f-49b8-9318-75a408583a39",
+      "message": {
+        "id": "c4f68980-111f-49b8-9318-75a408583a39",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474466.579296,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\n  \"size\": \"1024x1024\",\n  \"prompt\": \"An abstract self-portrait painting, featuring exaggerated and surreal features. An adult with a swirl for a head, a body made of patchwork quilt patterns, and limbs like tree branches, standing against a bright orange background. The portrait contains a blend of surrealism and cubism, with a touch of whimsy. The figure holds a palette and brush, symbolizing the act of painting, but the brush drips with a rainbow of colors that float around the portrait like bubbles.\"\n}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "05d964f8-fe0f-4fe6-9e8f-d6d71d1d43ac",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "05d964f8-fe0f-4fe6-9e8f-d6d71d1d43ac",
+      "children": [
+        "0c74d15e-2999-4629-95b8-62a885fe5498"
+      ]
+    },
+    "0c74d15e-2999-4629-95b8-62a885fe5498": {
+      "id": "0c74d15e-2999-4629-95b8-62a885fe5498",
+      "message": {
+        "id": "0c74d15e-2999-4629-95b8-62a885fe5498",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699474466.580747,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-TFA9NIrWCoLwIft85Pvztsl7",
+              "size_bytes": 318812,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "o6EJ301LNTqBnHfu",
+                  "prompt": "An abstract self-portrait painting, featuring exaggerated and surreal features. An adult with a swirl for a head, a body made of patchwork quilt patterns, and limbs like tree branches, standing against a bright orange background. The portrait contains a blend of surrealism and cubism, with a touch of whimsy. The figure holds a palette and brush, symbolizing the act of painting, but the brush drips with a rainbow of colors that float around the portrait like bubbles.",
+                  "seed": 2201194460,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "c4f68980-111f-49b8-9318-75a408583a39",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c4f68980-111f-49b8-9318-75a408583a39",
+      "children": [
+        "63640c16-c7f4-4390-820e-948891d6cb37"
+      ]
+    },
+    "63640c16-c7f4-4390-820e-948891d6cb37": {
+      "id": "63640c16-c7f4-4390-820e-948891d6cb37",
+      "message": {
+        "id": "63640c16-c7f4-4390-820e-948891d6cb37",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699474466.581068,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "0c74d15e-2999-4629-95b8-62a885fe5498",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0c74d15e-2999-4629-95b8-62a885fe5498",
+      "children": [
+        "4613c824-b62a-4a48-b383-95019312c8e7"
+      ]
+    },
+    "4613c824-b62a-4a48-b383-95019312c8e7": {
+      "id": "4613c824-b62a-4a48-b383-95019312c8e7",
+      "message": {
+        "id": "4613c824-b62a-4a48-b383-95019312c8e7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474466.581266,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's the abstract self-portrait image I generated for you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "63640c16-c7f4-4390-820e-948891d6cb37",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "63640c16-c7f4-4390-820e-948891d6cb37",
+      "children": [
+        "aaa26dc7-19cd-4593-b37b-76ce1e71e2e7"
+      ]
+    },
+    "aaa26dc7-19cd-4593-b37b-76ce1e71e2e7": {
+      "id": "aaa26dc7-19cd-4593-b37b-76ce1e71e2e7",
+      "message": {
+        "id": "aaa26dc7-19cd-4593-b37b-76ce1e71e2e7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474516.673315,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please generate an image of an artist painting an inaccurate self portrait"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4613c824-b62a-4a48-b383-95019312c8e7",
+      "children": [
+        "9043d4d5-0479-4530-b08f-26e35e9a782d"
+      ]
+    },
+    "9043d4d5-0479-4530-b08f-26e35e9a782d": {
+      "id": "9043d4d5-0479-4530-b08f-26e35e9a782d",
+      "message": {
+        "id": "9043d4d5-0479-4530-b08f-26e35e9a782d",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474533.177877,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "aaa26dc7-19cd-4593-b37b-76ce1e71e2e7",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa26dc7-19cd-4593-b37b-76ce1e71e2e7",
+      "children": [
+        "ea68b61f-1a3a-4116-befe-ad360171cd45"
+      ]
+    },
+    "ea68b61f-1a3a-4116-befe-ad360171cd45": {
+      "id": "ea68b61f-1a3a-4116-befe-ad360171cd45",
+      "message": {
+        "id": "ea68b61f-1a3a-4116-befe-ad360171cd45",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474533.178324,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A scene showing an artist of South Asian descent, mid-30s, with short black hair and wearing a smock, standing in front of a canvas in an art studio. The canvas reveals an in-progress self-portrait that is purposefully distorted and abstract, with a swirling head and a body made up of various geometric shapes. The studio is filled with a chaotic assortment of art supplies, and the walls are adorned with colorful, abstract paintings. Sunlight filters through a large window, casting a warm glow over the scene.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "9043d4d5-0479-4530-b08f-26e35e9a782d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "9043d4d5-0479-4530-b08f-26e35e9a782d",
+      "children": [
+        "995fb3e3-1ee0-47e2-a551-4247958fe3b8"
+      ]
+    },
+    "995fb3e3-1ee0-47e2-a551-4247958fe3b8": {
+      "id": "995fb3e3-1ee0-47e2-a551-4247958fe3b8",
+      "message": {
+        "id": "995fb3e3-1ee0-47e2-a551-4247958fe3b8",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699474533.179696,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-2KOAzrl8GO9XwWnTvFHwidVr",
+              "size_bytes": 192196,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "uqn04IEFmOmKNyA5",
+                  "prompt": "A scene showing an artist of South Asian descent, mid-30s, with short black hair and wearing a smock, standing in front of a canvas in an art studio. The canvas reveals an in-progress self-portrait that is purposefully distorted and abstract, with a swirling head and a body made up of various geometric shapes. The studio is filled with a chaotic assortment of art supplies, and the walls are adorned with colorful, abstract paintings. Sunlight filters through a large window, casting a warm glow over the scene.",
+                  "seed": 3813118893,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "ea68b61f-1a3a-4116-befe-ad360171cd45",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ea68b61f-1a3a-4116-befe-ad360171cd45",
+      "children": [
+        "f3de4d53-bbdb-4d85-8eac-16afd1d17009"
+      ]
+    },
+    "f3de4d53-bbdb-4d85-8eac-16afd1d17009": {
+      "id": "f3de4d53-bbdb-4d85-8eac-16afd1d17009",
+      "message": {
+        "id": "f3de4d53-bbdb-4d85-8eac-16afd1d17009",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699474533.179998,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "995fb3e3-1ee0-47e2-a551-4247958fe3b8",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "995fb3e3-1ee0-47e2-a551-4247958fe3b8",
+      "children": [
+        "1f253ca7-5107-45ea-a5cf-bddf045b27b5"
+      ]
+    },
+    "1f253ca7-5107-45ea-a5cf-bddf045b27b5": {
+      "id": "1f253ca7-5107-45ea-a5cf-bddf045b27b5",
+      "message": {
+        "id": "1f253ca7-5107-45ea-a5cf-bddf045b27b5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699474533.180195,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's the image of the artist painting an inaccurate self-portrait."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-dalle",
+          "parent_id": "f3de4d53-bbdb-4d85-8eac-16afd1d17009",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f3de4d53-bbdb-4d85-8eac-16afd1d17009",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "1f253ca7-5107-45ea-a5cf-bddf045b27b5",
+  "plugin_ids": null,
+  "conversation_id": "e9ea56ba-f87a-4c1c-9ac6-270e49ff7f1f",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "e9ea56ba-f87a-4c1c-9ac6-270e49ff7f1f"
+}

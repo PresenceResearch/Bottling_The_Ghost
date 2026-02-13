@@ -1,0 +1,234 @@
+{
+  "title": "Inverter string design help",
+  "create_time": 1743785808.796131,
+  "update_time": 1743785813.843984,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "7ba1fd8b-e160-4b6f-b54a-d0d3ece39dba"
+      ]
+    },
+    "7ba1fd8b-e160-4b6f-b54a-d0d3ece39dba": {
+      "id": "7ba1fd8b-e160-4b6f-b54a-d0d3ece39dba",
+      "message": {
+        "id": "7ba1fd8b-e160-4b6f-b54a-d0d3ece39dba",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "4bbfb54c-c088-4edd-9c38-6955c7d8d222"
+      ]
+    },
+    "4bbfb54c-c088-4edd-9c38-6955c7d8d222": {
+      "id": "4bbfb54c-c088-4edd-9c38-6955c7d8d222",
+      "message": {
+        "id": "4bbfb54c-c088-4edd-9c38-6955c7d8d222",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Mark Director of Business Development I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting. Use an encouraging tone. Take a forward-thinking view. Use quick and clever humor when appropriate.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Mark Director of Business Development I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting. Use an encouraging tone. Take a forward-thinking view. Use quick and clever humor when appropriate."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7ba1fd8b-e160-4b6f-b54a-d0d3ece39dba",
+      "children": [
+        "c7dc1398-e22b-4eda-afab-383886d587e1"
+      ]
+    },
+    "c7dc1398-e22b-4eda-afab-383886d587e1": {
+      "id": "c7dc1398-e22b-4eda-afab-383886d587e1",
+      "message": {
+        "id": "c7dc1398-e22b-4eda-afab-383886d587e1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743785808.203,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK More work stuff.  \n\nCan you tell me how to design an inverter string for this system that I'm attaching?\n\nCan you read this file?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-3xG5wAMjg1eL3juZPXJC5c",
+              "size": 906137,
+              "name": "Design-3-dxf.1743785790094.dxf",
+              "mime_type": ""
+            }
+          ],
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "dictation": false,
+          "request_id": "92b25755aeb142af-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4bbfb54c-c088-4edd-9c38-6955c7d8d222",
+      "children": [
+        "23c27b3a-7bba-4d90-8caa-52a22139cb6d"
+      ]
+    },
+    "23c27b3a-7bba-4d90-8caa-52a22139cb6d": {
+      "id": "23c27b3a-7bba-4d90-8caa-52a22139cb6d",
+      "message": {
+        "id": "23c27b3a-7bba-4d90-8caa-52a22139cb6d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743785811.573021,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c7dc1398-e22b-4eda-afab-383886d587e1",
+          "request_id": "92b25755aeb142af-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c7dc1398-e22b-4eda-afab-383886d587e1",
+      "children": [
+        "d196658d-0f1a-4172-bb64-13363d4c6b10"
+      ]
+    },
+    "d196658d-0f1a-4172-bb64-13363d4c6b10": {
+      "id": "d196658d-0f1a-4172-bb64-13363d4c6b10",
+      "message": {
+        "id": "d196658d-0f1a-4172-bb64-13363d4c6b10",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743785809.025136,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure thing, Mark \u2014 go ahead and upload the file, and I\u2019ll take a look to help you design the inverter string for the system. Once I\u2019ve got the layout or specs, I\u2019ll walk you through the string sizing, voltage limits, and inverter selection like a pro-solar whisperer. Drop it in when you're ready."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "23c27b3a-7bba-4d90-8caa-52a22139cb6d",
+          "request_id": "92b25755aeb142af-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "23c27b3a-7bba-4d90-8caa-52a22139cb6d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d196658d-0f1a-4172-bb64-13363d4c6b10",
+  "plugin_ids": null,
+  "conversation_id": "67f00f50-68dc-8009-91c8-1270191ab9e4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67f00f50-68dc-8009-91c8-1270191ab9e4"
+}

@@ -1,0 +1,186 @@
+{
+  "title": "NFC Business Card Apps",
+  "create_time": 1724649017.174529,
+  "update_time": 1724649022.453246,
+  "mapping": {
+    "353e19f6-f8d8-48c4-8b7e-25a24f663c8f": {
+      "id": "353e19f6-f8d8-48c4-8b7e-25a24f663c8f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0a7b49c0-3773-469b-9e5a-50189fee7f92"
+      ]
+    },
+    "0a7b49c0-3773-469b-9e5a-50189fee7f92": {
+      "id": "0a7b49c0-3773-469b-9e5a-50189fee7f92",
+      "message": {
+        "id": "0a7b49c0-3773-469b-9e5a-50189fee7f92",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "353e19f6-f8d8-48c4-8b7e-25a24f663c8f",
+      "children": [
+        "a4e4d359-6edc-48e7-ba10-13c8be4e01e6"
+      ]
+    },
+    "a4e4d359-6edc-48e7-ba10-13c8be4e01e6": {
+      "id": "a4e4d359-6edc-48e7-ba10-13c8be4e01e6",
+      "message": {
+        "id": "a4e4d359-6edc-48e7-ba10-13c8be4e01e6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724649017.181715,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Are there any business card apps that allow you to tap another phone with your phone "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b9150830a3b25f8-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0a7b49c0-3773-469b-9e5a-50189fee7f92",
+      "children": [
+        "198fe1ae-69d7-4fe4-b6c5-12d6c7aef7dc"
+      ]
+    },
+    "198fe1ae-69d7-4fe4-b6c5-12d6c7aef7dc": {
+      "id": "198fe1ae-69d7-4fe4-b6c5-12d6c7aef7dc",
+      "message": {
+        "id": "198fe1ae-69d7-4fe4-b6c5-12d6c7aef7dc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724649021.562989,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a4e4d359-6edc-48e7-ba10-13c8be4e01e6",
+          "request_id": "8b9150830a3b25f8-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a4e4d359-6edc-48e7-ba10-13c8be4e01e6",
+      "children": [
+        "96c9f026-e599-4abf-9c7a-af57591a8f4b"
+      ]
+    },
+    "96c9f026-e599-4abf-9c7a-af57591a8f4b": {
+      "id": "96c9f026-e599-4abf-9c7a-af57591a8f4b",
+      "message": {
+        "id": "96c9f026-e599-4abf-9c7a-af57591a8f4b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724649021.563154,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, several business card apps allow you to share your digital business card by tapping your phone against another phone. These apps typically use NFC (Near Field Communication) technology to facilitate the transfer. Some of the popular options include:\n\n1. **Popl**: Popl allows you to share your digital business card simply by tapping your phone against another person's phone. The other person doesn't need to have the Popl app installed for it to work.\n\n2. **HiHello**: HiHello is another app that lets you create and share digital business cards. It supports NFC for easy sharing, and you can also share your card through QR codes, email, or text.\n\n3. **Mobilo**: Mobilo offers NFC-enabled business cards that can be tapped against another phone to share your contact information. You can also use their app to manage and share your digital business card.\n\n4. **Taptok**: Taptok uses NFC technology to allow users to share their digital business card by simply tapping phones. It also offers customizable physical cards with NFC chips.\n\nThese apps are convenient for networking, as they allow you to share your contact information instantly without the need for physical business cards."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAA",
+          "parent_id": "198fe1ae-69d7-4fe4-b6c5-12d6c7aef7dc",
+          "request_id": "8b9150830a3b25f8-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "198fe1ae-69d7-4fe4-b6c5-12d6c7aef7dc",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "96c9f026-e599-4abf-9c7a-af57591a8f4b",
+  "plugin_ids": null,
+  "conversation_id": "12b823b8-2693-4875-8c02-6a48d4eef8c7",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "12b823b8-2693-4875-8c02-6a48d4eef8c7"
+}

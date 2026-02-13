@@ -1,0 +1,185 @@
+{
+  "title": "Raised Freeways in NOLA",
+  "create_time": 1722105699.836494,
+  "update_time": 1722105706.336985,
+  "mapping": {
+    "9224246d-7482-4c4f-96c3-bb002631361e": {
+      "id": "9224246d-7482-4c4f-96c3-bb002631361e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "17ef5b65-bce4-411a-a677-9869d053f2e8"
+      ]
+    },
+    "17ef5b65-bce4-411a-a677-9869d053f2e8": {
+      "id": "17ef5b65-bce4-411a-a677-9869d053f2e8",
+      "message": {
+        "id": "17ef5b65-bce4-411a-a677-9869d053f2e8",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9224246d-7482-4c4f-96c3-bb002631361e",
+      "children": [
+        "dce96d69-36fd-4add-8f0c-373b2c46afdb"
+      ]
+    },
+    "dce96d69-36fd-4add-8f0c-373b2c46afdb": {
+      "id": "dce96d69-36fd-4add-8f0c-373b2c46afdb",
+      "message": {
+        "id": "dce96d69-36fd-4add-8f0c-373b2c46afdb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722105699.839579,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Why are all the freeways in New Orleans raised"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8a9ec3ceb82b7301-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "17ef5b65-bce4-411a-a677-9869d053f2e8",
+      "children": [
+        "47a0a2bc-cea1-485d-8e7a-56df327905fc"
+      ]
+    },
+    "47a0a2bc-cea1-485d-8e7a-56df327905fc": {
+      "id": "47a0a2bc-cea1-485d-8e7a-56df327905fc",
+      "message": {
+        "id": "47a0a2bc-cea1-485d-8e7a-56df327905fc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722105705.436272,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "dce96d69-36fd-4add-8f0c-373b2c46afdb",
+          "request_id": "8a9ec3ceb82b7301-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dce96d69-36fd-4add-8f0c-373b2c46afdb",
+      "children": [
+        "7eb000a6-1f8d-485e-8850-a1573cd21f29"
+      ]
+    },
+    "7eb000a6-1f8d-485e-8850-a1573cd21f29": {
+      "id": "7eb000a6-1f8d-485e-8850-a1573cd21f29",
+      "message": {
+        "id": "7eb000a6-1f8d-485e-8850-a1573cd21f29",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722105705.436361,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The freeways in New Orleans are raised primarily due to the city's unique geographical and environmental conditions:\n\n1. **Flooding Concerns**: New Orleans is situated below sea level and is prone to flooding from rainstorms, hurricanes, and the Mississippi River. Raised freeways help prevent roadways from being submerged during floods.\n\n2. **Swampy Terrain**: The area around New Orleans consists of swampy, unstable ground. Building freeways on solid, elevated structures ensures stability and longevity, avoiding the issues associated with building on soft, shifting soil.\n\n3. **Drainage and Water Management**: Elevated highways allow for better water drainage and management. By being raised, the freeways do not interfere with the extensive system of levees, pumps, and canals designed to manage water in the city.\n\n4. **Environmental Impact**: Raising the freeways reduces the impact on wetlands and other natural areas by minimizing the footprint of construction on the ground. This approach helps preserve the local ecosystem.\n\nThese factors combined make elevated freeways a practical solution for transportation infrastructure in New Orleans."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "47a0a2bc-cea1-485d-8e7a-56df327905fc",
+          "request_id": "8a9ec3ceb82b7301-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "47a0a2bc-cea1-485d-8e7a-56df327905fc",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "7eb000a6-1f8d-485e-8850-a1573cd21f29",
+  "plugin_ids": null,
+  "conversation_id": "03c65943-1432-443b-acfa-064278a4f6ce",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "03c65943-1432-443b-acfa-064278a4f6ce"
+}

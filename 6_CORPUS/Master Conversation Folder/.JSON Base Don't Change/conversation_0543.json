@@ -1,0 +1,1134 @@
+{
+  "title": "Weather App Location Fix",
+  "create_time": 1733582287.482125,
+  "update_time": 1733582297.936318,
+  "mapping": {
+    "07f2e204-7ac8-4942-a761-a8eb422d211f": {
+      "id": "07f2e204-7ac8-4942-a761-a8eb422d211f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "35a39cec-951f-4992-86a9-cb3c28beeb61"
+      ]
+    },
+    "35a39cec-951f-4992-86a9-cb3c28beeb61": {
+      "id": "35a39cec-951f-4992-86a9-cb3c28beeb61",
+      "message": {
+        "id": "35a39cec-951f-4992-86a9-cb3c28beeb61",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "07f2e204-7ac8-4942-a761-a8eb422d211f",
+      "children": [
+        "e7852a53-cd33-4c0d-aab5-d2ce60a894e1"
+      ]
+    },
+    "e7852a53-cd33-4c0d-aab5-d2ce60a894e1": {
+      "id": "e7852a53-cd33-4c0d-aab5-d2ce60a894e1",
+      "message": {
+        "id": "e7852a53-cd33-4c0d-aab5-d2ce60a894e1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "35a39cec-951f-4992-86a9-cb3c28beeb61",
+      "children": [
+        "276272b8-912b-4541-b22f-16e3fa01954c"
+      ]
+    },
+    "276272b8-912b-4541-b22f-16e3fa01954c": {
+      "id": "276272b8-912b-4541-b22f-16e3fa01954c",
+      "message": {
+        "id": "276272b8-912b-4541-b22f-16e3fa01954c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733582287.487478,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Weather channel app not updating location "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8ee541ef8d61c331-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e7852a53-cd33-4c0d-aab5-d2ce60a894e1",
+      "children": [
+        "3e262b22-d501-4442-a258-2775daebc7d2"
+      ]
+    },
+    "3e262b22-d501-4442-a258-2775daebc7d2": {
+      "id": "3e262b22-d501-4442-a258-2775daebc7d2",
+      "message": {
+        "id": "3e262b22-d501-4442-a258-2775daebc7d2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733582296.468367,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "276272b8-912b-4541-b22f-16e3fa01954c",
+          "request_id": "8ee541ef8d61c331-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "276272b8-912b-4541-b22f-16e3fa01954c",
+      "children": [
+        "672fe4e6-ce0c-402f-863a-a2f250282907"
+      ]
+    },
+    "672fe4e6-ce0c-402f-863a-a2f250282907": {
+      "id": "672fe4e6-ce0c-402f-863a-a2f250282907",
+      "message": {
+        "id": "672fe4e6-ce0c-402f-863a-a2f250282907",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733582296.468512,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Weather channel app not updating location \")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "sonic_classification_result": {
+            "latency_ms": 15787198126.693508,
+            "search_prob": 0.847952746506549
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3e262b22-d501-4442-a258-2775daebc7d2",
+          "request_id": "8ee541ef8d61c331-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "3e262b22-d501-4442-a258-2775daebc7d2",
+      "children": [
+        "7dc1d63c-e567-4e00-a50f-20f3ade8e03d"
+      ]
+    },
+    "7dc1d63c-e567-4e00-a50f-20f3ade8e03d": {
+      "id": "7dc1d63c-e567-4e00-a50f-20f3ade8e03d",
+      "message": {
+        "id": "7dc1d63c-e567-4e00-a50f-20f3ade8e03d",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1733582296.46858,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "672fe4e6-ce0c-402f-863a-a2f250282907",
+          "request_id": "8ee541ef8d61c331-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "672fe4e6-ce0c-402f-863a-a2f250282907",
+      "children": [
+        "d949c2e4-04b6-4904-8abb-de787f332264"
+      ]
+    },
+    "d949c2e4-04b6-4904-8abb-de787f332264": {
+      "id": "d949c2e4-04b6-4904-8abb-de787f332264",
+      "message": {
+        "id": "d949c2e4-04b6-4904-8abb-de787f332264",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1733582296.46864,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey Mark,\n\n\ue203If your Weather Channel app isn't updating your location, here are some steps you can try to fix the issue:\ue204\n\n1. **Check Location Permissions:**\n   - \ue203Ensure the app has permission to access your location.\ue204\n     - **On iOS:** \ue203Go to *Settings* > *Privacy* > *Location Services*.\ue204 \ue203Make sure Location Services are enabled, then scroll down to the Weather Channel app and set it to \"Always\" or \"While Using the App\".\ue204\n     - **On Android:** \ue203Navigate to *Settings* > *Apps* > *Weather Channel* > *Permissions* > *Location*.\ue204 \ue203Set it to \"Allow all the time\" or \"Allow only while using the app\".\ue204\n\n2. **Enable Precise Location:**\n   - \ue203Some devices offer a \"Precise Location\" setting.\ue204 \ue203Ensure this is enabled for accurate weather updates.\ue204\n\n3. **Update the App:**\n   - \ue203Outdated versions can cause glitches.\ue204 \ue203Check your device's app store for updates to the Weather Channel app.\ue204\n\n4. **Enable Background App Refresh:**\n   - \ue203Allow the app to refresh its data in the background.\ue204\n     - **On iOS:** \ue203Go to *Settings* > *General* > *Background App Refresh* and ensure it's enabled for the Weather Channel app.\ue204\n     - **On Android:** \ue203Navigate to *Settings* > *Apps* > *Weather Channel* > *Battery* > *Allow background activity*.\ue204\n\n5. **Check System Location Settings:**\n   - \ue203Ensure your device's location services are active.\ue204\n     - **On iOS:** \ue203Go to *Settings* > *Privacy* > *Location Services* and ensure it's turned on.\ue204\n     - **On Android:** \ue203Navigate to *Settings* > *Location* and ensure it's enabled.\ue204\n\n6. **Restart Your Device:**\n   - \ue203A simple restart can often resolve temporary glitches.\ue204\n\n7. **Reinstall the App:**\n   - \ue203If issues persist, uninstall and reinstall the Weather Channel app to reset its settings.\ue204\n\n\ue203If none of these steps work, consider reaching out to the Weather Channel's support for further assistance.\ue204\n\n\ue203For a visual guide, you might find this video helpful:\ue204\n\n\ue200video\ue202How to Fix Location Not Updating in Weather App on Samsung Galaxy Phones\ue202turn0search5\ue201\n\nHope this helps! "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "weather.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://support.weather.com/s/article/My-current-location-is-not-being-detected?language=en_US",
+                  "title": "The Weather Channel Support My current location is not being detected",
+                  "snippet": "The Weather Channel. Augmented Reality; Forecast & Notification ... 758 View(s) My current location is not being detected. My current location is not being detected. To ensure your location is detecte...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": 1555459200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://support.weather.com/s/article/Manage-Your-Home-Location?language=en_US",
+                  "title": "The Weather Channel Support Manage Your Home Location",
+                  "snippet": "The Weather Channel. Augmented Reality; Forecast & Notification; Weather Map (Weather in Motion) ... We do not process any other type of cookies on this site and do not use the information collected o...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": 1575763200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "streamdiag.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://streamdiag.com/channels/the-weather-channel-app-not-working-3059/",
+                  "title": "The Weather Channel app not working? The fix! - StreamDiag",
+                  "snippet": "Go to Location Permissions; Allow the Weather Channel app to access the phone\u2019s current location. 3. Reinstall the app. If the Weather Channel app won\u2019t work after the above steps, you should uninstal...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": 1709683200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "guidingtech.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.guidingtech.com/fix-samsung-weather-app-not-updating-location/",
+                  "title": "4 Fixes for Location Not Updating in Weather App on Samsung Galaxy ...",
+                  "snippet": "Fix 1: Check Location Settings in the Weather App. The first solution to follow if the weather app shows the wrong location is to allow the app to automatically detect your current location.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1721952000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.guidingtech.com/how-to-fix-android-weather-widget-not-updating/",
+                  "title": "4 Fixes for Weather Widget Not Updating on Android",
+                  "snippet": "Fix 1: Enable Current Location Access . The weather widget needs access your current location to update details that are relevant to the current location. So if it is still not updating location ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": 1722988800.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "samsung.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://eu.community.samsung.com/t5/wearables/weather-app-not-updating-location-in-watch-6/td-p/8334643",
+                  "title": "Weather app not updating location in Watch 6 - Samsung Community",
+                  "snippet": "I have also deleted cache and data form the weather app on watch. I did read that installing \"The Weather Channel\" weather app on my phone / putting th e Weather Channel widget on my phone would help....",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": 1696723200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://us.community.samsung.com/t5/Samsung-Apps-and-Services/Weather-app-shows-wrong-location/td-p/2312323",
+                  "title": "Weather app shows wrong location - Samsung Community - 2312323",
+                  "snippet": "To update your mobile device's software, follow these steps: Go to Settings > Software update, tap on Download and install, and follow the on-screen instructions. To change the location displayed on t...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": 1657411200.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://us.community.samsung.com/t5/Galaxy-S23/Weather-app-not-updating/td-p/2562755",
+                  "title": "Solved: Weather app not updating - Samsung Community - 2562755",
+                  "snippet": "Apps are not compatible with the latest update in Galaxy S23 Wednesday; November Update in Galaxy S23 Wednesday; Verizon update 25 in Galaxy S23 Wednesday; Should I update my one ui 6.0? in Galaxy S23...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "content_type": null,
+                  "pub_date": 1683849600.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "freshdesk.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://streamtwc.freshdesk.com/support/solutions/articles/36000408652-how-do-i-change-update-my-location-",
+                  "title": "How Do I Change/ Update My Location? - TWC Support",
+                  "snippet": "To change your location: 1. Launch The Weather Channel TV app. 2. Go to the 'My Weather' tab and select the 'Change Location' option at the bottom right corner of the screen 3. Select 'Add Location' &...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=DXPhV2468ec",
+                  "title": "How to Fix Location Not Updating in Weather App on Samsung Galaxy ...",
+                  "snippet": "Are you experiencing issues with your current location not updating in the Weather app on your Samsung Galaxy phone?In this video, we've shared some possible...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "thetechedvocate.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.thetechedvocate.org/6-best-fixes-for-location-not-updating-in-weather-app-on-samsung-galaxy-phones/",
+                  "title": "6 Best Fixes for Location Not Updating in Weather App on Samsung Galaxy ...",
+                  "snippet": "Spread the loveMany Samsung Galaxy users rely on the Weather app to stay updated on local weather conditions. However, it can be quite frustrating when the app fails to update your current location. H...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "apple.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://discussions.apple.com/thread/255139691",
+                  "title": "Weather app not showing current location \u2026 - Apple Community",
+                  "snippet": "We understand you're having issues with your location in the Weather app. It looks like your iPhone needs updating to iOS 17.0.1. Do you have a recent backup for the data in your iPhone in iCloud or y...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "content_type": null,
+                  "pub_date": 1695168000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://img.youtube.com/vi/DXPhV2468ec/maxresdefault.jpg",
+            "https://www.youtube.com/watch?v=DXPhV2468ec&utm_source=chatgpt.com"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "7dc1d63c-e567-4e00-a50f-20f3ade8e03d",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "\ue203",
+              "start_idx": 11,
+              "end_idx": 12,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 119,
+              "end_idx": 120,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 162,
+              "end_idx": 163,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 217,
+              "end_idx": 218,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 238,
+              "end_idx": 239,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 290,
+              "end_idx": 291,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 292,
+              "end_idx": 293,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 426,
+              "end_idx": 427,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 451,
+              "end_idx": 452,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 533,
+              "end_idx": 534,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 535,
+              "end_idx": 536,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 603,
+              "end_idx": 604,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 643,
+              "end_idx": 644,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 692,
+              "end_idx": 693,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 694,
+              "end_idx": 695,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 747,
+              "end_idx": 748,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 778,
+              "end_idx": 779,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 816,
+              "end_idx": 817,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 818,
+              "end_idx": 819,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 888,
+              "end_idx": 889,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 934,
+              "end_idx": 935,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 987,
+              "end_idx": 988,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1008,
+              "end_idx": 1009,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1117,
+              "end_idx": 1118,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1142,
+              "end_idx": 1143,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1237,
+              "end_idx": 1238,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1284,
+              "end_idx": 1285,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1335,
+              "end_idx": 1336,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1356,
+              "end_idx": 1357,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1434,
+              "end_idx": 1435,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1459,
+              "end_idx": 1460,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1520,
+              "end_idx": 1521,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1556,
+              "end_idx": 1557,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1611,
+              "end_idx": 1612,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1645,
+              "end_idx": 1646,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1735,
+              "end_idx": 1736,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1738,
+              "end_idx": 1739,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1846,
+              "end_idx": 1847,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1849,
+              "end_idx": 1850,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1904,
+              "end_idx": 1905,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200video\ue202How to Fix Location Not Updating in Weather App on Samsung Galaxy Phones\ue202turn0search5\ue201",
+              "start_idx": 1907,
+              "end_idx": 2000,
+              "alt": "[How to Fix Location Not Updating in Weather App on Samsung Galaxy Phones](https://www.youtube.com/watch?v=DXPhV2468ec&utm_source=chatgpt.com)\n",
+              "prompt_text": null,
+              "type": "video",
+              "title": "How to Fix Location Not Updating in Weather App on Samsung Galaxy Phones",
+              "thumbnail_url": "https://img.youtube.com/vi/DXPhV2468ec/maxresdefault.jpg",
+              "url": "https://www.youtube.com/watch?v=DXPhV2468ec&utm_source=chatgpt.com",
+              "video_site": "youtube",
+              "video_id": "DXPhV2468ec"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 2018,
+              "end_idx": 2018,
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 11,
+              "end_ix": 12,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 119,
+              "end_ix": 120,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 162,
+              "end_ix": 163,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 217,
+              "end_ix": 218,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 238,
+              "end_ix": 239,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 290,
+              "end_ix": 291,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 292,
+              "end_ix": 293,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 426,
+              "end_ix": 427,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 451,
+              "end_ix": 452,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 533,
+              "end_ix": 534,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 535,
+              "end_ix": 536,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 603,
+              "end_ix": 604,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 643,
+              "end_ix": 644,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 692,
+              "end_ix": 693,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 694,
+              "end_ix": 695,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 747,
+              "end_ix": 748,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 778,
+              "end_ix": 779,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 816,
+              "end_ix": 817,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 818,
+              "end_ix": 819,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 888,
+              "end_ix": 889,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 934,
+              "end_ix": 935,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 987,
+              "end_ix": 988,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1008,
+              "end_ix": 1009,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1117,
+              "end_ix": 1118,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1142,
+              "end_ix": 1143,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1237,
+              "end_ix": 1238,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1284,
+              "end_ix": 1285,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1335,
+              "end_ix": 1336,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1356,
+              "end_ix": 1357,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1434,
+              "end_ix": 1435,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1459,
+              "end_ix": 1460,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1520,
+              "end_ix": 1521,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1556,
+              "end_ix": 1557,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1611,
+              "end_ix": 1612,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1645,
+              "end_ix": 1646,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1735,
+              "end_ix": 1736,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1738,
+              "end_ix": 1739,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1846,
+              "end_ix": 1847,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1849,
+              "end_ix": 1850,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1904,
+              "end_ix": 1905,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1907,
+              "end_ix": 2000,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2018,
+              "end_ix": 2018,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "8ee541ef8d61c331-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7dc1d63c-e567-4e00-a50f-20f3ade8e03d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d949c2e4-04b6-4904-8abb-de787f332264",
+  "plugin_ids": null,
+  "conversation_id": "67545dcf-5994-8009-ade9-d6cbcaae66ff",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy",
+    "https://www.youtube.com/watch?v=DXPhV2468ec",
+    "https://img.youtube.com/vi/DXPhV2468ec/maxresdefault.jpg",
+    "https://www.youtube.com/watch?v=DXPhV2468ec&utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67545dcf-5994-8009-ade9-d6cbcaae66ff"
+}

@@ -1,0 +1,1258 @@
+{
+  "title": "NPS Transferred Reservation Explained",
+  "create_time": 1727910451.41173,
+  "update_time": 1727910496.286303,
+  "mapping": {
+    "aaa172fb-e005-4246-b0a1-004a602c89fc": {
+      "id": "aaa172fb-e005-4246-b0a1-004a602c89fc",
+      "message": null,
+      "parent": null,
+      "children": [
+        "603d1613-5b8d-41de-a236-fe61a591e44e"
+      ]
+    },
+    "603d1613-5b8d-41de-a236-fe61a591e44e": {
+      "id": "603d1613-5b8d-41de-a236-fe61a591e44e",
+      "message": {
+        "id": "603d1613-5b8d-41de-a236-fe61a591e44e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa172fb-e005-4246-b0a1-004a602c89fc",
+      "children": [
+        "aaa2cc1b-a259-4f30-8163-8d454420e561"
+      ]
+    },
+    "aaa2cc1b-a259-4f30-8163-8d454420e561": {
+      "id": "aaa2cc1b-a259-4f30-8163-8d454420e561",
+      "message": {
+        "id": "aaa2cc1b-a259-4f30-8163-8d454420e561",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910451.419165,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "what is an NPS \"transferred reservation?\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "603d1613-5b8d-41de-a236-fe61a591e44e",
+      "children": [
+        "ec749602-4ffe-4907-a5af-cfab0092c5b0"
+      ]
+    },
+    "ec749602-4ffe-4907-a5af-cfab0092c5b0": {
+      "id": "ec749602-4ffe-4907-a5af-cfab0092c5b0",
+      "message": {
+        "id": "ec749602-4ffe-4907-a5af-cfab0092c5b0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910459.083386,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2cc1b-a259-4f30-8163-8d454420e561",
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2cc1b-a259-4f30-8163-8d454420e561",
+      "children": [
+        "04868d07-ecb8-403a-b382-f5490aede89c"
+      ]
+    },
+    "04868d07-ecb8-403a-b382-f5490aede89c": {
+      "id": "04868d07-ecb8-403a-b382-f5490aede89c",
+      "message": {
+        "id": "04868d07-ecb8-403a-b382-f5490aede89c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910459.083497,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"NPS transferred reservation meaning\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ec749602-4ffe-4907-a5af-cfab0092c5b0",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "ec749602-4ffe-4907-a5af-cfab0092c5b0",
+      "children": [
+        "6f92df81-0c9b-42d9-804f-dd383ff10eb3"
+      ]
+    },
+    "6f92df81-0c9b-42d9-804f-dd383ff10eb3": {
+      "id": "6f92df81-0c9b-42d9-804f-dd383ff10eb3",
+      "message": {
+        "id": "6f92df81-0c9b-42d9-804f-dd383ff10eb3",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727910459.083581,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020Frequently Asked Questions about Campground Reservations\u2020www.nps.gov\u3011\nIf we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification. How can I cancel or change my reservation? Call 877/444-6777 to change or cancel your reservation.\n# \u30101\u2020Frequently Asked Questions - U.S. National Park Service\u2020www.nps.gov\u3011\nThe National Park Service was created by an act signed by President Woodrow Wilson on August 25, 1916. Yellowstone National Park was established by an act signed by President Ulysses S. Grant on March 1, 1872, as the nation's first national park. View the National Park System timeline.\n# \u30102\u2020Rules and Reservation Policies - Recreation.gov\u2020www.recreation.gov\u3011\nVenues. Fees vary by location and/or activity. For applicable locations, a $0-$10 Reservation incurs a $1 Service Fee. A reservation of $10.01 or more has a Service Fee of $8 if made online or through the app, $9 if made through the contact center, or $3 if made in-person (if applicable)\n# \u30103\u2020Timed Entry Reservations FAQs - U.S. National Park Service\u2020www.nps.gov\u3011\nNote that Mount Rainier National Park staff do not manage Recreation.gov and cannot access, change, modify, nor transfer timed entry reservations; for modifications or cancellations, visitors must do one of the following: Call Recreation.gov at 888-444-6777. Visit Recreation.gov online and use the following how-to steps.\n# \u30104\u2020How to Navigate the New NPS Reservation Systems - Outside Online\u2020www.outsideonline.com\u3011\nHere\u2019s where it gets complicated. On May 1, 2021, at 8 A.M. Mountain Time, the $2 day-use entry permits will go on sale for May 28 through June 30 on Recreation.gov. After that, on the first of ...\n# \u30105\u2020National park reservations: What you need to know - National Geographic\u2020www.nationalgeographic.com\u3011\nRocky Mountain National Park Reservations are required from May 26 to October 22. There are two types: Bear Lake Corridor entry permits are required between 5 a.m. and 6 p.m., while \u201crest of the ...\n# \u30106\u2020Tribal Co-Management of Federal Lands - U.S. Department of the Interior\u2020www.doi.gov\u3011\nFunds are transferred through AFAs to the Tribe to carry out the agreed upon programs, services, functions, and activities. Overall, since the NPS began entering into AFAs with Self-Governance Tribes, the Tribal communities have received an aggregate amount of over $38 million. The following are examples of these AFAs.\n# \u30107\u2020FAQs - Policy (U.S. National Park Service) - NPS\u2020home.nps.gov\u3011\nsets broad policies for the National Park System. These policies tell us the fundamental purpose for setting aside national parks is to conserve \"the scenery and the natural and historic objects and the wild life therein.\" They also tell us we are to provide for the enjoyment of the parks \"in such manner and by such means as will leave them ...\n# \u30108\u2020How Do I Get a Wilderness Permit? - NPS\u2020home.nps.gov\u3011\nMany Glacier Ranger Station (Limited Access) Open 7:30\u20134:30 pm* Due to a utilities replacement project in the Many Glacier Valley, wilderness permits will be issued near the Swan Mountain Outfitters ticket office near the Many Glacier Hotel. During the summer of 2024, a vehicle reservation is required to reach the Many Glacier Ranger Station.\n# \u30109\u2020Camping, Cabins, RVs, Permits, Passes & More - Recreation.gov\u2020www.recreation.gov\u3011\nRecreation Use Fee. Reservation Fee at \u201cAdd-On\u201d Fee Agencies and Locations. Change/Modification Fee. Cancellation Fee*. Refunds Allowed. Camping. Fees vary by location and/or activity. Fees vary by reservation method: $8 if made online or through the app; $9 if made through the contact center; $3 if made in-person.\n# \u301010\u2020Yosemite National Park - Wikipedia\u2020en.wikipedia.org\u3011\nYosemite National Park (/ j o\u028a \u02c8 s \u025b m \u026a t i / yoh-SEM-ih-tee [5]) is a national park of the United States in California. [6] [7] It is bordered on the southeast by Sierra National Forest and on the northwest by Stanislaus National Forest.The park is managed by the National Park Service and covers 759,620 acres (1,187 sq mi; 3,074 km 2) [3] in four counties \u2013 centered in Tuolumne and ...\n# \u301011\u2020List of areas in the United States National Park System\u2020en.wikipedia.org\u3011\nAvi Kwa Ame National Monument (not an official NPS unit) Nevada: NPS manages roughly 50,000 acres (200 km 2) of 506,814 acres (2,051.00 km 2) Aztec Ruins National Monument: New Mexico: 318.40 acres (1.2885 km 2) Bandelier National Monument: New Mexico: 33,676.67 acres (136.2846 km 2) Belmont\u2013Paul Women's Equality National Monument: District ...\n# \u301012\u2020What's In a Name? Discover National Park System Designations\u2020www.nps.gov\u3011\nThe diversity of the parks is reflected in the variety of titles given to them. These include such designations as national park, national preserve, national monument, national memorial, national historic site, national seashore, and national battlefield park. Although some titles are self explanatory, others have been used in many different ways.\n# \u301013\u2020NPS Centennial: Brief History of the National Park Service\u2020www.npshistory.com\u3011\nAn act of Congress in 1852 established the Hot Springs Reservation in Arkansas (which became a national park in 1921), although this area was set aside not for park purposes, but because of the medicinal qualities believed to be possessed by its waters. ... In planning for recreational use of the parks, in this more restricted meaning, the ...\n# \u301014\u2020National Park Service History Electronic Library & Archive\u2020www.npshistory.com\u3011\nThe NPS History Electronic Library & Archive is a portal to electronic publications covering the history of the National Park Service (NPS) and the cultural and natural history of the national parks, monuments, and historic sites of the (U.S.) National Park System. Also included are documents for national monuments managed by other federal agencies, along with a collection of U.S. Forest ...\n# \u301015\u2020Guidance for National Park Service Compliance with the Native American ...\u2020documents.saa.org\u3011\ninformation on Inside NPS) or the Park NAGPRA program lead (see below). The Park NAGPRA program lead is the liaison between the parks and National NAGPRA for publishing the required Federal Register notices. See Section 8 below for information on developing notices. Contact Information Park NAGPRA Program Lead Mary S. Carroll, mary_carroll@nps.gov\n# \u301016\u2020Transfer of Jurisdiction of US Reservation 104 from the Nationial Park ...\u2020www.ncpc.gov\u3011\nHistoric Preservation (ACHP), NCPC and NPS. The PA includes stipulations regarding the relocation of the truck inspection activities from 21st Street to the proposed location at D Street in accordance with NEPA which requires a Transfer of Jurisdiction and Declaration of Covenants for the use of Reservation 104 between DOS and NPS.\n# \u301017\u2020Quick History of the National Park Service\u2020www.nps.gov\u3011\nNPS/Neal Herbert. On August 25, 1916, President Woodrow Wilson signed the act creating the National Park Service, a new federal bureau in the Department of the Interior responsible for protecting the 35 national parks and monuments then managed by the department and those yet to be established. This \"Organic Act\" states that \"the Service thus ...\n# \u301018\u2020USAJOBS - Job Announcement\u2020www.usajobs.gov\u3011\nThe position located in Winter Harbor will be placed in a pay status and can expect to work a minimum of 14 pay periods and a maximum of 15 pay periods each year, with the anticipated season running from approximately early April to early November. The positions located in Bar Harbor will fall into either of the following schedules: You will be placed in a pay status and can expect to work a ...\n# \u301019\u2020Shifting of Subscriber - NSDL\u2020npscra.nsdl.co.in\u3011\nToll Free Number -1800 889 1030 of Atal Pension Yojana (New NPS-CRA toll-free number 1800 210 0080. The old number will be discontinued shortly.) ... What happens to the PRAN in case a Subscriber is transferred to another location? One of the core attributes of NPS is portability of PRAN across sectors. The PRAN allotted under NPS is unique and ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Frequently Asked Questions about Campground Reservations",
+                "url": "https://www.nps.gov/yose/planyourvisit/campingfaq.htm",
+                "text": "\nIf we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification. How can I cancel or change my reservation? Call 877/444-6777 to change or cancel your reservation.\n",
+                "pub_date": "2024-10-02T09:52:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Frequently Asked Questions - U.S. National Park Service",
+                "url": "https://www.nps.gov/aboutus/faqs.htm",
+                "text": "\nThe National Park Service was created by an act signed by President Woodrow Wilson on August 25, 1916. Yellowstone National Park was established by an act signed by President Ulysses S. Grant on March 1, 1872, as the nation's first national park. View the National Park System timeline.\n",
+                "pub_date": "2024-10-02T04:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Rules and Reservation Policies - Recreation.gov",
+                "url": "https://www.recreation.gov/rules-reservation-policies",
+                "text": "\nVenues. Fees vary by location and/or activity. For applicable locations, a $0-$10 Reservation incurs a $1 Service Fee. A reservation of $10.01 or more has a Service Fee of $8 if made online or through the app, $9 if made through the contact center, or $3 if made in-person (if applicable)\n",
+                "pub_date": "2024-10-02T01:27:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Timed Entry Reservations FAQs - U.S. National Park Service",
+                "url": "https://www.nps.gov/mora/planyourvisit/timed-entry-reservations-faq.htm",
+                "text": "\nNote that Mount Rainier National Park staff do not manage Recreation.gov and cannot access, change, modify, nor transfer timed entry reservations; for modifications or cancellations, visitors must do one of the following: Call Recreation.gov at 888-444-6777. Visit Recreation.gov online and use the following how-to steps.\n",
+                "pub_date": "2024-10-02T05:37:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Navigate the New NPS Reservation Systems - Outside Online",
+                "url": "https://www.outsideonline.com/adventure-travel/news-analysis/national-park-reservation-systems/",
+                "text": "\nHere\u2019s where it gets complicated. On May 1, 2021, at 8 A.M. Mountain Time, the $2 day-use entry permits will go on sale for May 28 through June 30 on Recreation.gov. After that, on the first of ...\n",
+                "pub_date": "2024-09-23T13:00:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "National park reservations: What you need to know - National Geographic",
+                "url": "https://www.nationalgeographic.com/travel/article/how-make-national-park-reservation",
+                "text": "\nRocky Mountain National Park Reservations are required from May 26 to October 22. There are two types: Bear Lake Corridor entry permits are required between 5 a.m. and 6 p.m., while \u201crest of the ...\n",
+                "pub_date": "2024-09-25T01:02:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tribal Co-Management of Federal Lands - U.S. Department of the Interior",
+                "url": "https://www.doi.gov/ocl/tribal-co-management-federal-lands",
+                "text": "\nFunds are transferred through AFAs to the Tribe to carry out the agreed upon programs, services, functions, and activities. Overall, since the NPS began entering into AFAs with Self-Governance Tribes, the Tribal communities have received an aggregate amount of over $38 million. The following are examples of these AFAs.\n",
+                "pub_date": "2024-10-02T03:21:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "FAQs - Policy (U.S. National Park Service) - NPS",
+                "url": "https://home.nps.gov/subjects/policy/faqs.htm",
+                "text": "\nsets broad policies for the National Park System. These policies tell us the fundamental purpose for setting aside national parks is to conserve \"the scenery and the natural and historic objects and the wild life therein.\" They also tell us we are to provide for the enjoyment of the parks \"in such manner and by such means as will leave them ...\n",
+                "pub_date": "2024-09-30T11:07:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How Do I Get a Wilderness Permit? - NPS",
+                "url": "https://home.nps.gov/glac/planyourvisit/how-to-wilderness-permit.htm",
+                "text": "\nMany Glacier Ranger Station (Limited Access) Open 7:30\u20134:30 pm* Due to a utilities replacement project in the Many Glacier Valley, wilderness permits will be issued near the Swan Mountain Outfitters ticket office near the Many Glacier Hotel. During the summer of 2024, a vehicle reservation is required to reach the Many Glacier Ranger Station.\n",
+                "pub_date": "2024-09-20T01:22:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Camping, Cabins, RVs, Permits, Passes & More - Recreation.gov",
+                "url": "https://www.recreation.gov/reservation-policies",
+                "text": "\nRecreation Use Fee. Reservation Fee at \u201cAdd-On\u201d Fee Agencies and Locations. Change/Modification Fee. Cancellation Fee*. Refunds Allowed. Camping. Fees vary by location and/or activity. Fees vary by reservation method: $8 if made online or through the app; $9 if made through the contact center; $3 if made in-person.\n",
+                "pub_date": "2024-10-01T03:31:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Yosemite National Park - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Yosemite_National_Park",
+                "text": "\nYosemite National Park (/ j o\u028a \u02c8 s \u025b m \u026a t i / yoh-SEM-ih-tee [5]) is a national park of the United States in California. [6] [7] It is bordered on the southeast by Sierra National Forest and on the northwest by Stanislaus National Forest.The park is managed by the National Park Service and covers 759,620 acres (1,187 sq mi; 3,074 km 2) [3] in four counties \u2013 centered in Tuolumne and ...\n",
+                "pub_date": "2024-10-02T13:25:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "List of areas in the United States National Park System",
+                "url": "https://en.wikipedia.org/wiki/List_of_areas_in_the_United_States_National_Park_System",
+                "text": "\nAvi Kwa Ame National Monument (not an official NPS unit) Nevada: NPS manages roughly 50,000 acres (200 km 2) of 506,814 acres (2,051.00 km 2) Aztec Ruins National Monument: New Mexico: 318.40 acres (1.2885 km 2) Bandelier National Monument: New Mexico: 33,676.67 acres (136.2846 km 2) Belmont\u2013Paul Women's Equality National Monument: District ...\n",
+                "pub_date": "2024-10-02T04:48:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "What's In a Name? Discover National Park System Designations",
+                "url": "https://www.nps.gov/articles/nps-designations.htm",
+                "text": "\nThe diversity of the parks is reflected in the variety of titles given to them. These include such designations as national park, national preserve, national monument, national memorial, national historic site, national seashore, and national battlefield park. Although some titles are self explanatory, others have been used in many different ways.\n",
+                "pub_date": "2024-10-01T05:22:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "NPS Centennial: Brief History of the National Park Service",
+                "url": "http://www.npshistory.com/centennial/0216/index.htm",
+                "text": "\nAn act of Congress in 1852 established the Hot Springs Reservation in Arkansas (which became a national park in 1921), although this area was set aside not for park purposes, but because of the medicinal qualities believed to be possessed by its waters. ... In planning for recreational use of the parks, in this more restricted meaning, the ...\n",
+                "pub_date": "2024-09-29T10:57:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "National Park Service History Electronic Library & Archive",
+                "url": "http://www.npshistory.com/",
+                "text": "\nThe NPS History Electronic Library & Archive is a portal to electronic publications covering the history of the National Park Service (NPS) and the cultural and natural history of the national parks, monuments, and historic sites of the (U.S.) National Park System. Also included are documents for national monuments managed by other federal agencies, along with a collection of U.S. Forest ...\n",
+                "pub_date": "2024-10-01T12:08:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Guidance for National Park Service Compliance with the Native American ...",
+                "url": "https://documents.saa.org/container/docs/default-source/doc-governmentaffairs/governmentaffairs/repatriation/regs/appendixr-2006-05.pdf?sfvrsn=a9b06d88_2",
+                "text": "\ninformation on Inside NPS) or the Park NAGPRA program lead (see below). The Park NAGPRA program lead is the liaison between the parks and National NAGPRA for publishing the required Federal Register notices. See Section 8 below for information on developing notices. Contact Information Park NAGPRA Program Lead Mary S. Carroll, mary_carroll@nps.gov\n",
+                "pub_date": "2024-09-27T20:15:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Transfer of Jurisdiction of US Reservation 104 from the Nationial Park ...",
+                "url": "https://www.ncpc.gov/docs/actions/2016May/Transfer_of_Jurisdiction_of_US_Reservation_104_from_the_National_Park_Service_to_the_US_Department_of_State_7771_May2016.pdf",
+                "text": "\nHistoric Preservation (ACHP), NCPC and NPS. The PA includes stipulations regarding the relocation of the truck inspection activities from 21st Street to the proposed location at D Street in accordance with NEPA which requires a Transfer of Jurisdiction and Declaration of Covenants for the use of Reservation 104 between DOS and NPS.\n",
+                "pub_date": "2024-09-09T16:33:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Quick History of the National Park Service",
+                "url": "https://www.nps.gov/articles/quick-nps-history.htm",
+                "text": "\nNPS/Neal Herbert. On August 25, 1916, President Woodrow Wilson signed the act creating the National Park Service, a new federal bureau in the Department of the Interior responsible for protecting the 35 national parks and monuments then managed by the department and those yet to be established. This \"Organic Act\" states that \"the Service thus ...\n",
+                "pub_date": "2024-10-02T08:27:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "USAJOBS - Job Announcement",
+                "url": "https://www.usajobs.gov/job/811196900",
+                "text": "\nThe position located in Winter Harbor will be placed in a pay status and can expect to work a minimum of 14 pay periods and a maximum of 15 pay periods each year, with the anticipated season running from approximately early April to early November. The positions located in Bar Harbor will fall into either of the following schedules: You will be placed in a pay status and can expect to work a ...\n",
+                "pub_date": "2024-10-01T17:40:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Shifting of Subscriber - NSDL",
+                "url": "https://npscra.nsdl.co.in/faq-subscriber-shifting.php",
+                "text": "\nToll Free Number -1800 889 1030 of Atal Pension Yojana (New NPS-CRA toll-free number 1800 210 0080. The old number will be discontinued shortly.) ... What happens to the PRAN in case a Subscriber is transferred to another location? One of the core attributes of NPS is portability of PRAN across sectors. The PRAN allotted under NPS is unique and ...\nVisible: 0% - 100%",
+                "pub_date": "2024-10-02T06:27:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'NPS transferred reservation meaning'",
+                "url": "",
+                "text": "# \u30100\u2020Frequently Asked Questions about Campground Reservations\u2020www.nps.gov\u3011\nIf we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification. How can I cancel or change my reservation? Call 877/444-6777 to change or cancel your reservation.\n# \u30101\u2020Frequently Asked Questions - U.S. National Park Service\u2020www.nps.gov\u3011\nThe National Park Service was created by an act signed by President Woodrow Wilson on August 25, 1916. Yellowstone National Park was established by an act signed by President Ulysses S. Grant on March 1, 1872, as the nation's first national park. View the National Park System timeline.\n# \u30102\u2020Rules and Reservation Policies - Recreation.gov\u2020www.recreation.gov\u3011\nVenues. Fees vary by location and/or activity. For applicable locations, a $0-$10 Reservation incurs a $1 Service Fee. A reservation of $10.01 or more has a Service Fee of $8 if made online or through the app, $9 if made through the contact center, or $3 if made in-person (if applicable)\n# \u30103\u2020Timed Entry Reservations FAQs - U.S. National Park Service\u2020www.nps.gov\u3011\nNote that Mount Rainier National Park staff do not manage Recreation.gov and cannot access, change, modify, nor transfer timed entry reservations; for modifications or cancellations, visitors must do one of the following: Call Recreation.gov at 888-444-6777. Visit Recreation.gov online and use the following how-to steps.\n# \u30104\u2020How to Navigate the New NPS Reservation Systems - Outside Online\u2020www.outsideonline.com\u3011\nHere\u2019s where it gets complicated. On May 1, 2021, at 8 A.M. Mountain Time, the $2 day-use entry permits will go on sale for May 28 through June 30 on Recreation.gov. After that, on the first of ...\n# \u30105\u2020National park reservations: What you need to know - National Geographic\u2020www.nationalgeographic.com\u3011\nRocky Mountain National Park Reservations are required from May 26 to October 22. There are two types: Bear Lake Corridor entry permits are required between 5 a.m. and 6 p.m., while \u201crest of the ...\n# \u30106\u2020Tribal Co-Management of Federal Lands - U.S. Department of the Interior\u2020www.doi.gov\u3011\nFunds are transferred through AFAs to the Tribe to carry out the agreed upon programs, services, functions, and activities. Overall, since the NPS began entering into AFAs with Self-Governance Tribes, the Tribal communities have received an aggregate amount of over $38 million. The following are examples of these AFAs.\n# \u30107\u2020FAQs - Policy (U.S. National Park Service) - NPS\u2020home.nps.gov\u3011\nsets broad policies for the National Park System. These policies tell us the fundamental purpose for setting aside national parks is to conserve \"the scenery and the natural and historic objects and the wild life therein.\" They also tell us we are to provide for the enjoyment of the parks \"in such manner and by such means as will leave them ...\n# \u30108\u2020How Do I Get a Wilderness Permit? - NPS\u2020home.nps.gov\u3011\nMany Glacier Ranger Station (Limited Access) Open 7:30\u20134:30 pm* Due to a utilities replacement project in the Many Glacier Valley, wilderness permits will be issued near the Swan Mountain Outfitters ticket office near the Many Glacier Hotel. During the summer of 2024, a vehicle reservation is required to reach the Many Glacier Ranger Station.\n# \u30109\u2020Camping, Cabins, RVs, Permits, Passes & More - Recreation.gov\u2020www.recreation.gov\u3011\nRecreation Use Fee. Reservation Fee at \u201cAdd-On\u201d Fee Agencies and Locations. Change/Modification Fee. Cancellation Fee*. Refunds Allowed. Camping. Fees vary by location and/or activity. Fees vary by reservation method: $8 if made online or through the app; $9 if made through the contact center; $3 if made in-person.\n# \u301010\u2020Yosemite National Park - Wikipedia\u2020en.wikipedia.org\u3011\nYosemite National Park (/ j o\u028a \u02c8 s \u025b m \u026a t i / yoh-SEM-ih-tee [5]) is a national park of the United States in California. [6] [7] It is bordered on the southeast by Sierra National Forest and on the northwest by Stanislaus National Forest.The park is managed by the National Park Service and covers 759,620 acres (1,187 sq mi; 3,074 km 2) [3] in four counties \u2013 centered in Tuolumne and ...\n# \u301011\u2020List of areas in the United States National Park System\u2020en.wikipedia.org\u3011\nAvi Kwa Ame National Monument (not an official NPS unit) Nevada: NPS manages roughly 50,000 acres (200 km 2) of 506,814 acres (2,051.00 km 2) Aztec Ruins National Monument: New Mexico: 318.40 acres (1.2885 km 2) Bandelier National Monument: New Mexico: 33,676.67 acres (136.2846 km 2) Belmont\u2013Paul Women's Equality National Monument: District ...\n# \u301012\u2020What's In a Name? Discover National Park System Designations\u2020www.nps.gov\u3011\nThe diversity of the parks is reflected in the variety of titles given to them. These include such designations as national park, national preserve, national monument, national memorial, national historic site, national seashore, and national battlefield park. Although some titles are self explanatory, others have been used in many different ways.\n# \u301013\u2020NPS Centennial: Brief History of the National Park Service\u2020www.npshistory.com\u3011\nAn act of Congress in 1852 established the Hot Springs Reservation in Arkansas (which became a national park in 1921), although this area was set aside not for park purposes, but because of the medicinal qualities believed to be possessed by its waters. ... In planning for recreational use of the parks, in this more restricted meaning, the ...\n# \u301014\u2020National Park Service History Electronic Library & Archive\u2020www.npshistory.com\u3011\nThe NPS History Electronic Library & Archive is a portal to electronic publications covering the history of the National Park Service (NPS) and the cultural and natural history of the national parks, monuments, and historic sites of the (U.S.) National Park System. Also included are documents for national monuments managed by other federal agencies, along with a collection of U.S. Forest ...\n# \u301015\u2020Guidance for National Park Service Compliance with the Native American ...\u2020documents.saa.org\u3011\ninformation on Inside NPS) or the Park NAGPRA program lead (see below). The Park NAGPRA program lead is the liaison between the parks and National NAGPRA for publishing the required Federal Register notices. See Section 8 below for information on developing notices. Contact Information Park NAGPRA Program Lead Mary S. Carroll, mary_carroll@nps.gov\n# \u301016\u2020Transfer of Jurisdiction of US Reservation 104 from the Nationial Park ...\u2020www.ncpc.gov\u3011\nHistoric Preservation (ACHP), NCPC and NPS. The PA includes stipulations regarding the relocation of the truck inspection activities from 21st Street to the proposed location at D Street in accordance with NEPA which requires a Transfer of Jurisdiction and Declaration of Covenants for the use of Reservation 104 between DOS and NPS.\n# \u301017\u2020Quick History of the National Park Service\u2020www.nps.gov\u3011\nNPS/Neal Herbert. On August 25, 1916, President Woodrow Wilson signed the act creating the National Park Service, a new federal bureau in the Department of the Interior responsible for protecting the 35 national parks and monuments then managed by the department and those yet to be established. This \"Organic Act\" states that \"the Service thus ...\n# \u301018\u2020USAJOBS - Job Announcement\u2020www.usajobs.gov\u3011\nThe position located in Winter Harbor will be placed in a pay status and can expect to work a minimum of 14 pay periods and a maximum of 15 pay periods each year, with the anticipated season running from approximately early April to early November. The positions located in Bar Harbor will fall into either of the following schedules: You will be placed in a pay status and can expect to work a ...\n# \u301019\u2020Shifting of Subscriber - NSDL\u2020npscra.nsdl.co.in\u3011\nToll Free Number -1800 889 1030 of Atal Pension Yojana (New NPS-CRA toll-free number 1800 210 0080. The old number will be discontinued shortly.) ... What happens to the PRAN in case a Subscriber is transferred to another location? One of the core attributes of NPS is portability of PRAN across sectors. The PRAN allotted under NPS is unique and ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "NPS transferred reservation meaning"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "04868d07-ecb8-403a-b382-f5490aede89c",
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04868d07-ecb8-403a-b382-f5490aede89c",
+      "children": [
+        "028d595b-32bd-46e0-8e4a-b4a1e208a5a8"
+      ]
+    },
+    "028d595b-32bd-46e0-8e4a-b4a1e208a5a8": {
+      "id": "028d595b-32bd-46e0-8e4a-b4a1e208a5a8",
+      "message": {
+        "id": "028d595b-32bd-46e0-8e4a-b4a1e208a5a8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910459.083661,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "mclick([0, 2, 9, 3, 5])"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6f92df81-0c9b-42d9-804f-dd383ff10eb3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "6f92df81-0c9b-42d9-804f-dd383ff10eb3",
+      "children": [
+        "10673d7b-62bb-46ec-8a63-07d2fd526336"
+      ]
+    },
+    "10673d7b-62bb-46ec-8a63-07d2fd526336": {
+      "id": "10673d7b-62bb-46ec-8a63-07d2fd526336",
+      "message": {
+        "id": "10673d7b-62bb-46ec-8a63-07d2fd526336",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727910459.083736,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.nps.gov/yose/planyourvisit/campingfaq.htm",
+          "domain": "www.nps.gov",
+          "text": "\n## The campsite I reserved says it accepts an RV or trailer length that's shorter than the length of my RV or trailer. Can I still use the campsite?\n\nRV and trailer length listed for each campsite indicate the maximum length of an RV and/or trailer the campsite can easily accommodate. In many cases, the maximum lengths for RVs and trailers are different because the campsites are not pull-through sites. Factors limiting RV/trailer length include access roads into some campgrounds and the turning radius required to maneuver into the site. In any case, if you reserve a campsite for an RV or trailer that is longer than specified for the campsite and can park all of your RV's or trailer's wheels onto the parking pad without obstructing traffic, you can use the campsite. However, we do not recommend taking this risk. If you're unable to get your RV or trailer into the campsite, we won't be able to find another campsite for you. You can call the campground office at the phone number listed in your reservation if you have questions about a specific campsite. Please read the site alerts carefully, and realize that the lengths allowable are almost always different depending on if you are in a RV or a trailer (trailer maneuverability limits trailer length).\n\n## I made a reservation for an RV nonelectric campsite but only have a tent. Can I still use the campsite?\n\nSome campsites are listed on recreation.gov as \"RV nonelectric.\" This means the campsite is best suited for RVs and trailers. While you aren't required to use an RV in one of these campsites, they are listed as RV only because they generally do not have adequate or level space to pitch a tent. If you arrive and find that the campsite doesn't work for you and/or your tent, we will not be able to move you to a different campsite. You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you have questions about a specific campsite, you can call the campground office at the phone number listed in your reservation.\n\n## I made a reservation for a tent-only nonelectric campsite but have an RV or other vehicle I sleep in. Can I still use the campsite?\n\nRVs are not allowed in tent-only campsites. These sites only have space for tents and, in many cases, the parking is a short distance away from the campsite (and you're required to camp in the campsite). You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you arrive with different equipment than allowed in the site you reserved, we will not be able to accommodate you.\n\n## I made a reservation for a standard nonelectric campsite. What does this mean?\n\nMost reservable campsites in Yosemite are listed on recreation.gov as \"standard nonelectric.\" These campsites are suitable for both tents and RVs (or a combination of both). But be sure to read the site alerts and book a site that will accommodate your specific equipment. Many large RVs and trailers will not fit into many standard campsites.\n\n## In May and June, why are so many campsites in North Pines and Lower Pines not available for reservation?\n\nSpring floods are common in Yosemite Valley in May and June, with portions of Lower Pines, and, especially, North Pines Campgrounds becoming inundated. As a result, we don't make the affected campsites available for reservation until we are sure the river will be at a safe level. Depending on conditions, these campsites may be available for reservation a few weeks (less likely) or just a few days (more likely) in advance via recreation.gov. If water levels are high, these sites may only be available in the park on a first-come, first-served, daily basis.\n\n## We have more than two vehicles arriving at our campsite. Where can we park the additional vehicles?\n\nA maximum of two motor vehicles are allowed per campsite. All vehicles must be parked on a parking pad. Trailers don't count against the vehicle limit as long as they fit on the parking pad. Additional parking is available near each campground for no additional charge; for some campgrounds additional parking is very limited.\n\n## When can I check in? Can I check in after hours? What if I'm late?\n\nCheckin (and checkout) time is noon on your arrival date. If you arrive after the ranger has left the campground, proceed directly to the campsite indicated on your reservation. (At Tuolumne Meadows Campground, check the kiosk to find out which campsite you're assigned to.) You must check in at the campground kiosk or the reservation office the next morning to ensure we know you're here. If you plan to arrive later than the arrival date on your reservation, please call the campground office number listed on your reservation paperwork. If we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification.\n\n## How can I cancel or change my reservation?\n\nCall 877/444-6777 to change or cancel your reservation. You can also log in to \u301018\u2020recreation.gov\u2020www.recreation.gov\u3011 to cancel your reservation.  \n\nLast updated: September 13, 2023\n\n## Park footer\n\n### Contact Info\n\n#### Phone:\n\n209",
+          "title": "Campground Reservations Frequently Asked Questions - Yosemite National Park (U.S. National Park Service)",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Campground Reservations Frequently Asked Questions - Yosemite National Park (U.S. National Park Service)",
+                "url": "https://www.nps.gov/yose/planyourvisit/campingfaq.htm",
+                "text": "\n## The campsite I reserved says it accepts an RV or trailer length that's shorter than the length of my RV or trailer. Can I still use the campsite?\n\nRV and trailer length listed for each campsite indicate the maximum length of an RV and/or trailer the campsite can easily accommodate. In many cases, the maximum lengths for RVs and trailers are different because the campsites are not pull-through sites. Factors limiting RV/trailer length include access roads into some campgrounds and the turning radius required to maneuver into the site. In any case, if you reserve a campsite for an RV or trailer that is longer than specified for the campsite and can park all of your RV's or trailer's wheels onto the parking pad without obstructing traffic, you can use the campsite. However, we do not recommend taking this risk. If you're unable to get your RV or trailer into the campsite, we won't be able to find another campsite for you. You can call the campground office at the phone number listed in your reservation if you have questions about a specific campsite. Please read the site alerts carefully, and realize that the lengths allowable are almost always different depending on if you are in a RV or a trailer (trailer maneuverability limits trailer length).\n\n## I made a reservation for an RV nonelectric campsite but only have a tent. Can I still use the campsite?\n\nSome campsites are listed on recreation.gov as \"RV nonelectric.\" This means the campsite is best suited for RVs and trailers. While you aren't required to use an RV in one of these campsites, they are listed as RV only because they generally do not have adequate or level space to pitch a tent. If you arrive and find that the campsite doesn't work for you and/or your tent, we will not be able to move you to a different campsite. You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you have questions about a specific campsite, you can call the campground office at the phone number listed in your reservation.\n\n## I made a reservation for a tent-only nonelectric campsite but have an RV or other vehicle I sleep in. Can I still use the campsite?\n\nRVs are not allowed in tent-only campsites. These sites only have space for tents and, in many cases, the parking is a short distance away from the campsite (and you're required to camp in the campsite). You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you arrive with different equipment than allowed in the site you reserved, we will not be able to accommodate you.\n\n## I made a reservation for a standard nonelectric campsite. What does this mean?\n\nMost reservable campsites in Yosemite are listed on recreation.gov as \"standard nonelectric.\" These campsites are suitable for both tents and RVs (or a combination of both). But be sure to read the site alerts and book a site that will accommodate your specific equipment. Many large RVs and trailers will not fit into many standard campsites.\n\n## In May and June, why are so many campsites in North Pines and Lower Pines not available for reservation?\n\nSpring floods are common in Yosemite Valley in May and June, with portions of Lower Pines, and, especially, North Pines Campgrounds becoming inundated. As a result, we don't make the affected campsites available for reservation until we are sure the river will be at a safe level. Depending on conditions, these campsites may be available for reservation a few weeks (less likely) or just a few days (more likely) in advance via recreation.gov. If water levels are high, these sites may only be available in the park on a first-come, first-served, daily basis.\n\n## We have more than two vehicles arriving at our campsite. Where can we park the additional vehicles?\n\nA maximum of two motor vehicles are allowed per campsite. All vehicles must be parked on a parking pad. Trailers don't count against the vehicle limit as long as they fit on the parking pad. Additional parking is available near each campground for no additional charge; for some campgrounds additional parking is very limited.\n\n## When can I check in? Can I check in after hours? What if I'm late?\n\nCheckin (and checkout) time is noon on your arrival date. If you arrive after the ranger has left the campground, proceed directly to the campsite indicated on your reservation. (At Tuolumne Meadows Campground, check the kiosk to find out which campsite you're assigned to.) You must check in at the campground kiosk or the reservation office the next morning to ensure we know you're here. If you plan to arrive later than the arrival date on your reservation, please call the campground office number listed on your reservation paperwork. If we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification.\n\n## How can I cancel or change my reservation?\n\nCall 877/444-6777 to change or cancel your reservation. You can also log in to \u301018\u2020recreation.gov\u2020www.recreation.gov\u3011 to cancel your reservation.  \n\nLast updated: September 13, 2023\n\n## Park footer\n\n### Contact Info\n\n#### Phone:\n\n209",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 2, 9, 3, 5]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "028d595b-32bd-46e0-8e4a-b4a1e208a5a8",
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "028d595b-32bd-46e0-8e4a-b4a1e208a5a8",
+      "children": [
+        "6a5f2945-0794-494e-ba95-690848209c14"
+      ]
+    },
+    "6a5f2945-0794-494e-ba95-690848209c14": {
+      "id": "6a5f2945-0794-494e-ba95-690848209c14",
+      "message": {
+        "id": "6a5f2945-0794-494e-ba95-690848209c14",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727910459.083823,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.recreation.gov/rules-reservation-policies",
+          "domain": "www.recreation.gov",
+          "text": "Refund: A full or partial credit of recreation fees.  \n\n## Camping, Day-Use and Cabin Reservation Policies and Rules \n\n## Reservation Cancellations & Changes\n\n  * Cancelling a Reservation: Customers may cancel their reservation prior to arrival both on-line and through the call center. A $10 service fee will be withheld from any refund for a cancellation. Depending on when you cancel in relation to your arrival day, it may be considered a late cancellation (see below). \n\n## Changing an Existing Reservation: When changes are made prior to the cut-off window:\n\n  * If a customer wants to switch dates that are entirely outside of the original reservation dates, there is a $10 change fee.\n  * There is no change fee if a customer extends or shortens a reservation, as long as the change includes dates from the original reservation. If they choose to depart early, they may forfeit the recreation fee for the day of departure. \n  * There is no change fee if the customer wants to switch sites that are the same price with the same reservation dates in the same facility. \n  * If a reservation is made that includes dates beyond the maximum booking window, that reservation cannot be changed until 18 days have passed from the original booking date. \n\n## Late Cancellations or Cancellations within the Cut-off Window\n\n  * Individual Campsites: A customer who cancels a reservation the day before or on the day of arrival will pay a $10.00 service fee AND forfeit the first night's use fee (not to exceed the total paid for the original reservation). Cancellations for a one-night reservation will forfeit the entire amount paid and will not be subject to an additional service fee. \n  * Cabins / Lookouts: Customers who cancel a cabin or lookout reservation less than 14 days before the arrival date will pay a $10.00 service fee AND forfeit the first night's use fee. \n  * Group Facility (including Cabins and Lookouts): Customers who cancel a group overnight facility reservation less than 14 days before the arrival date will pay a $10.00 service fee AND forfeit the first night's use fee. \n  * Group Day Use Area: Customers who cancel a group day-use facility reservation less than 14 days before the arrival date will  forfeit the total day-use fee. \n  * Changes or Cancellations within the Cut-off Window: Once a reservation date has begun, customers cannot change a reservation using the online system or through the Call Center (see below for early departures). If the location is staffed, on-site personnel may or may not be able to assist with changes or cancellations (check with local staff). \n\n## No-Shows\n\n  * Overnight and Day-Use Facilities: A no-show customer is one who does not arrive at a campground and does not cancel the reservation by check-out time on the day after the scheduled arrival date (or for day-use facilities, by check-in time the day of arrival). Staff will hold a campsite until check-out time on the day following the arrival date and will hold group day-use facilities until check-in time on the arrival date. \n  * No-shows are assessed $20.00 service fee and forfeit the first night\u2019s recreation fee for a campsite or forfeit the entire day-use fee for a day-use facility. \n\n## Early Departures\n\n  * If a customer departs prior to the scheduled check-out date, they may be eligible for a partial refund.\n  * Please notify staff at the facility if you depart early to allow others to use the site.\n  * Customers may notify the call center to request a refund of remaining unused nights. If a customer requests a refund for an early departure after the facility check-out time has passed, the customer will not be refunded for that night and is eligible for a refund on any additional nights that will not be used. \n\n## Interagency Pass Discounts\n\n  * The following are the only Interagency Passes that provide a discount on camping reservations and some tickets: \n    * Senior Annual Pass\n    * Senior Lifetime Pass\n    * Access Pass\n    * Golden Age Pass\n    * Golden Access Pass\n  * Eligible pass discounts only apply to individual campsites and may apply to a ticket for the pass holder. Interagency Pass discounts do not apply to group reservations, cabins, shelters, and multi-use sites (doubles, triples, etc.). \n  * Pass discounts only apply to the recreation (or use) fee for the facility. Other charges such as electricity or water hookups, reservation or other fees are not eligible for a discount. \n  * The holder of the pass must occupy the site for which the discount is applied.\n  * The pass can only be used for one site during a time period.\n\n## Refunds \n\nCustomers may submit a refund request through their Recreation.gov profile within 7 days of the end date of their reservation. Customers may also initiate a refund request through the call center at any time after their reservation has ended.\n\n  * Fees: Applicable fees, such as reservation fees, service/cancellation fees, lottery application fees, and change fees, are non-refundable. \n  * Debit or Credit Card Purchases: Refunds for debit or credit card payments made after October 1, 2018 will be issued as a credit to the original bank or credit card used to pay. In the event that a customer has cancelled this card, they will need to contact their card company to have the funds released. We cannot issue refunds to any card other than the one used to pay. If a customer paid with a debit or credit card prior to October 1, 2018 their refund will be issued in the form of a Treasury check. \n  * Check or Cash Purchases: Recreation.gov will mail a Treasury check for refunds of cash, check, or money order payments to the address associated with the reservation. You may update the address at the time you request the",
+          "title": "Rules and Reservation Policies - Recreation.gov",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Rules and Reservation Policies - Recreation.gov",
+                "url": "https://www.recreation.gov/rules-reservation-policies",
+                "text": "Refund: A full or partial credit of recreation fees.  \n\n## Camping, Day-Use and Cabin Reservation Policies and Rules \n\n## Reservation Cancellations & Changes\n\n  * Cancelling a Reservation: Customers may cancel their reservation prior to arrival both on-line and through the call center. A $10 service fee will be withheld from any refund for a cancellation. Depending on when you cancel in relation to your arrival day, it may be considered a late cancellation (see below). \n\n## Changing an Existing Reservation: When changes are made prior to the cut-off window:\n\n  * If a customer wants to switch dates that are entirely outside of the original reservation dates, there is a $10 change fee.\n  * There is no change fee if a customer extends or shortens a reservation, as long as the change includes dates from the original reservation. If they choose to depart early, they may forfeit the recreation fee for the day of departure. \n  * There is no change fee if the customer wants to switch sites that are the same price with the same reservation dates in the same facility. \n  * If a reservation is made that includes dates beyond the maximum booking window, that reservation cannot be changed until 18 days have passed from the original booking date. \n\n## Late Cancellations or Cancellations within the Cut-off Window\n\n  * Individual Campsites: A customer who cancels a reservation the day before or on the day of arrival will pay a $10.00 service fee AND forfeit the first night's use fee (not to exceed the total paid for the original reservation). Cancellations for a one-night reservation will forfeit the entire amount paid and will not be subject to an additional service fee. \n  * Cabins / Lookouts: Customers who cancel a cabin or lookout reservation less than 14 days before the arrival date will pay a $10.00 service fee AND forfeit the first night's use fee. \n  * Group Facility (including Cabins and Lookouts): Customers who cancel a group overnight facility reservation less than 14 days before the arrival date will pay a $10.00 service fee AND forfeit the first night's use fee. \n  * Group Day Use Area: Customers who cancel a group day-use facility reservation less than 14 days before the arrival date will  forfeit the total day-use fee. \n  * Changes or Cancellations within the Cut-off Window: Once a reservation date has begun, customers cannot change a reservation using the online system or through the Call Center (see below for early departures). If the location is staffed, on-site personnel may or may not be able to assist with changes or cancellations (check with local staff). \n\n## No-Shows\n\n  * Overnight and Day-Use Facilities: A no-show customer is one who does not arrive at a campground and does not cancel the reservation by check-out time on the day after the scheduled arrival date (or for day-use facilities, by check-in time the day of arrival). Staff will hold a campsite until check-out time on the day following the arrival date and will hold group day-use facilities until check-in time on the arrival date. \n  * No-shows are assessed $20.00 service fee and forfeit the first night\u2019s recreation fee for a campsite or forfeit the entire day-use fee for a day-use facility. \n\n## Early Departures\n\n  * If a customer departs prior to the scheduled check-out date, they may be eligible for a partial refund.\n  * Please notify staff at the facility if you depart early to allow others to use the site.\n  * Customers may notify the call center to request a refund of remaining unused nights. If a customer requests a refund for an early departure after the facility check-out time has passed, the customer will not be refunded for that night and is eligible for a refund on any additional nights that will not be used. \n\n## Interagency Pass Discounts\n\n  * The following are the only Interagency Passes that provide a discount on camping reservations and some tickets: \n    * Senior Annual Pass\n    * Senior Lifetime Pass\n    * Access Pass\n    * Golden Age Pass\n    * Golden Access Pass\n  * Eligible pass discounts only apply to individual campsites and may apply to a ticket for the pass holder. Interagency Pass discounts do not apply to group reservations, cabins, shelters, and multi-use sites (doubles, triples, etc.). \n  * Pass discounts only apply to the recreation (or use) fee for the facility. Other charges such as electricity or water hookups, reservation or other fees are not eligible for a discount. \n  * The holder of the pass must occupy the site for which the discount is applied.\n  * The pass can only be used for one site during a time period.\n\n## Refunds \n\nCustomers may submit a refund request through their Recreation.gov profile within 7 days of the end date of their reservation. Customers may also initiate a refund request through the call center at any time after their reservation has ended.\n\n  * Fees: Applicable fees, such as reservation fees, service/cancellation fees, lottery application fees, and change fees, are non-refundable. \n  * Debit or Credit Card Purchases: Refunds for debit or credit card payments made after October 1, 2018 will be issued as a credit to the original bank or credit card used to pay. In the event that a customer has cancelled this card, they will need to contact their card company to have the funds released. We cannot issue refunds to any card other than the one used to pay. If a customer paid with a debit or credit card prior to October 1, 2018 their refund will be issued in the form of a Treasury check. \n  * Check or Cash Purchases: Recreation.gov will mail a Treasury check for refunds of cash, check, or money order payments to the address associated with the reservation. You may update the address at the time you request the",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 2, 9, 3, 5]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "10673d7b-62bb-46ec-8a63-07d2fd526336",
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "10673d7b-62bb-46ec-8a63-07d2fd526336",
+      "children": [
+        "7108351c-1c1a-4212-acb6-29dfc11c9e19"
+      ]
+    },
+    "7108351c-1c1a-4212-acb6-29dfc11c9e19": {
+      "id": "7108351c-1c1a-4212-acb6-29dfc11c9e19",
+      "message": {
+        "id": "7108351c-1c1a-4212-acb6-29dfc11c9e19",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727910459.083905,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.recreation.gov/reservation-policies",
+          "domain": "www.recreation.gov",
+          "text": "\nURL: https://www.recreation.gov/reservation-policies\nVisible: 0% - 100%",
+          "title": "Recreation.gov - Camping, Cabins, RVs, Permits, Passes & More",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Recreation.gov - Camping, Cabins, RVs, Permits, Passes & More",
+                "url": "https://www.recreation.gov/reservation-policies",
+                "text": "\nURL: https://www.recreation.gov/reservation-policies\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 2, 9, 3, 5]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6a5f2945-0794-494e-ba95-690848209c14",
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6a5f2945-0794-494e-ba95-690848209c14",
+      "children": [
+        "ac2af730-ec95-444e-88d8-ed7f11cf2658"
+      ]
+    },
+    "ac2af730-ec95-444e-88d8-ed7f11cf2658": {
+      "id": "ac2af730-ec95-444e-88d8-ed7f11cf2658",
+      "message": {
+        "id": "ac2af730-ec95-444e-88d8-ed7f11cf2658",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727910459.083978,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.nps.gov/mora/planyourvisit/timed-entry-reservations-faq.htm",
+          "domain": "www.nps.gov",
+          "text": "  3. Select the dates you wish to visit \n     * Note: You are limited to just one ticket per vehicle,\u00a0per corridor, per day.\n  4. Select the: \n     * Corridor\n     * Date\n     * Entry Window\n  5. Select: Request Tickets\n  6. Complete payment.\u00a0\n     * After payment, you will receive an e-mail confirmation with an attached Timed Entry Reservation.\u00a0\n  7. You must p rint or save a screenshot of your ticket reservation in advance for easier access upon arrival at entrances\n\nFor more guidance, visit the\u00a0\u301019\u2020Recreation.gov Help Center\u2020recreationonestopprod.servicenowservices.com\u3011.  \n\n####   Do I still have to pay a park entry fee? \n\nYes, a timed entry reservation does not replace the standard park entrance fee, which is $30 per vehicle. Mount Rainier and national passes (such as America the Beautiful interagency passes) also cover park entry fees. For more information on entrance fees, visit the\u00a0\u301012\u2020Fees & Passes\u3011\u00a0webpage.\n\n####   Can I change the date, time, or corridor for my timed entry reservation? \n\nVisitors can modify their own timed entry reservations for a different date, time, or location before the original reservation starts, but availability is limited. Reservations are non-transferable to other people. Additionally, there\u2019s a 15-minute wait period after your initial purchase before visitors can cancel.  \n\nNote that Mount Rainier National Park staff do not manage\u00a0Recreation.gov and cannot access, change, modify, nor transfer\u00a0timed entry reservations; for modifications or cancellations, visitors must do one of the following:\n\n  * Call Recreation.gov at 888-444-6777.\n  * Visit Recreation.gov online and use the following how-to steps.\n\n* * *\n\nHow-To Steps\n\n1. Select your name in the upper right-hand corner of the homepage, then select the My Reservations button from the drop-down menu.\n\n2. Select the\u00a0Modify or Cancel\u00a0button.\n\n[Image 0: Figure: Upcoming reservations page with the Modify or Cancel button highlighted by a red box]\n\n3. Select the\u00a0Modify Dates/Times/Quantities\u00a0tab.\n\n4. To change the date, select the\u00a0Date\u00a0drop-down. Choose the date you wish to change to, if available.\n\n[Image 1: Figure: Modify Reservation pop-up with the Calendar showing]\n\n5. To change the Time, select the new timeframe under the\u00a0Entry Window\u00a0section you wish to change to, if available.\n\n6. Select the\u00a0Modify Reservation\u00a0button.\n\n7. Select the\u00a0Apply Changes\u00a0button.\n\n8. You will be taken to the order confirmation page, and you will receive an email showing the modification that took place along with the new order details.\n\n### Timed Entry Reservation Corridors and Maps \n\n####   Is one timed entry reservation good for all areas of Mount Rainier National Park? \n\n  * No. There are separate reservations, one for the\u00a0Paradise Corridor\u00a0(entering through the Nisqually Entrance or through the Stevens Canyon entrance) and one for the\u00a0Sunrise Corridor\u00a0(entering through the White River Entrance). These two corridors are the only areas of the park which require a timed entry reservation.\n  * No reservation is required to enter the Carbon River, Mowich Lake, SR123 or SR410 corridors within the park outside of the Paradise and Sunrise Corridors.\n\n####   What locations include Paradise Corridor? \n\n### Paradise Corridor\n\nThe\u00a0\u201cParadise Corridor\u201d timed entry reservation, includes vehicle access to the Nisqually-Paradise corridor on the west from the Nisqually Entrance off State Route 706, through Longmire, and to Paradise, as well as Stevens Canyon Road going east to the Stevens Canyon Entrance off State Route 123. Timed entry reservations are required beginning May 24 through September 2, 2024  \n\n  * Paradise Corridor timed entry reservations can be used at both the\u00a0Nisqually Entrance\u00a0and the\u00a0Stevens Canyon Entrance\n  * This reservation includes access to Paradise, Cougar Rock, Reflection Lakes, and the following locations and trailheads: \n    * \u301020\u2020Westside Road\u3011, including\u00a0\u301021\u2020Gobblers Knob Fire Lookout\u3011\n    * \u301022\u2020Kautz Creek\u3011 \n    * \u301023\u2020Longmire\u3011, including the\u00a0Longmire Museum,\u00a0Wilderness Information Center, and\u00a0National Park Inn\n    * \u301024\u2020Cougar Rock Campground\u3011 \n    * \u301025\u2020Christine Falls\u3011 \n    * \u301026\u2020Ricksecker Point\u3011 \n    * \u301027\u2020Narada Falls\u3011 \n    * \u301028\u2020Paradise\u3011, including the\u00a0Jackson Visitor Center\u00a0and\u00a0Paradise Inn\n    * \u301029\u2020Box Canyon\u3011\n    * \u301030\u2020Reflection Lakes\u3011\n    * Trailheads:\u00a0\u301031\u2020Twin Firs\u3011,\u00a0\u301032\u2020Indian Henry\u2019s Hunting Ground\u3011,\u00a0\u301033\u2020Eagle Peak\u3011,\u00a0\u301034\u2020Trail of the Shadows\u3011,\u00a0\u301035\u2020Rampart Ridge\u3011,\u00a0\u301036\u2020Carter Falls\u3011,\u00a0\u301037\u2020Comet Falls\u3011,\u00a0\u301038\u2020Skyline Trail\u3011,\u00a0\u301039\u2020Indian Bar\u3011,\u00a0\u301040\u2020Bench & Snow Lake\u3011,\u00a0\u301041\u2020Pinnacle Peak\u3011, Nickel Creek, Lakes Trail, Wonderland Trail from Lake Louise to Box Canyon.\n  * Timed entry reservations for the Paradise Corridor DO NOT provide access to Sunrise Corridor locations.\n\n[Image 2: Simplified map of the southern half of Mount Rainier National Park showing a road that starts from the Nisqually Entrance in the southwest corner that connects up to Paradise than travels east across the park to the Stevens Canyon Entrance off of SR",
+          "title": "Timed Entry Reservations FAQs - Mount Rainier National Park (U.S. National Park Service)",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Timed Entry Reservations FAQs - Mount Rainier National Park (U.S. National Park Service)",
+                "url": "https://www.nps.gov/mora/planyourvisit/timed-entry-reservations-faq.htm",
+                "text": "  3. Select the dates you wish to visit \n     * Note: You are limited to just one ticket per vehicle,\u00a0per corridor, per day.\n  4. Select the: \n     * Corridor\n     * Date\n     * Entry Window\n  5. Select: Request Tickets\n  6. Complete payment.\u00a0\n     * After payment, you will receive an e-mail confirmation with an attached Timed Entry Reservation.\u00a0\n  7. You must p rint or save a screenshot of your ticket reservation in advance for easier access upon arrival at entrances\n\nFor more guidance, visit the\u00a0\u301019\u2020Recreation.gov Help Center\u2020recreationonestopprod.servicenowservices.com\u3011.  \n\n####   Do I still have to pay a park entry fee? \n\nYes, a timed entry reservation does not replace the standard park entrance fee, which is $30 per vehicle. Mount Rainier and national passes (such as America the Beautiful interagency passes) also cover park entry fees. For more information on entrance fees, visit the\u00a0\u301012\u2020Fees & Passes\u3011\u00a0webpage.\n\n####   Can I change the date, time, or corridor for my timed entry reservation? \n\nVisitors can modify their own timed entry reservations for a different date, time, or location before the original reservation starts, but availability is limited. Reservations are non-transferable to other people. Additionally, there\u2019s a 15-minute wait period after your initial purchase before visitors can cancel.  \n\nNote that Mount Rainier National Park staff do not manage\u00a0Recreation.gov and cannot access, change, modify, nor transfer\u00a0timed entry reservations; for modifications or cancellations, visitors must do one of the following:\n\n  * Call Recreation.gov at 888-444-6777.\n  * Visit Recreation.gov online and use the following how-to steps.\n\n* * *\n\nHow-To Steps\n\n1. Select your name in the upper right-hand corner of the homepage, then select the My Reservations button from the drop-down menu.\n\n2. Select the\u00a0Modify or Cancel\u00a0button.\n\n[Image 0: Figure: Upcoming reservations page with the Modify or Cancel button highlighted by a red box]\n\n3. Select the\u00a0Modify Dates/Times/Quantities\u00a0tab.\n\n4. To change the date, select the\u00a0Date\u00a0drop-down. Choose the date you wish to change to, if available.\n\n[Image 1: Figure: Modify Reservation pop-up with the Calendar showing]\n\n5. To change the Time, select the new timeframe under the\u00a0Entry Window\u00a0section you wish to change to, if available.\n\n6. Select the\u00a0Modify Reservation\u00a0button.\n\n7. Select the\u00a0Apply Changes\u00a0button.\n\n8. You will be taken to the order confirmation page, and you will receive an email showing the modification that took place along with the new order details.\n\n### Timed Entry Reservation Corridors and Maps \n\n####   Is one timed entry reservation good for all areas of Mount Rainier National Park? \n\n  * No. There are separate reservations, one for the\u00a0Paradise Corridor\u00a0(entering through the Nisqually Entrance or through the Stevens Canyon entrance) and one for the\u00a0Sunrise Corridor\u00a0(entering through the White River Entrance). These two corridors are the only areas of the park which require a timed entry reservation.\n  * No reservation is required to enter the Carbon River, Mowich Lake, SR123 or SR410 corridors within the park outside of the Paradise and Sunrise Corridors.\n\n####   What locations include Paradise Corridor? \n\n### Paradise Corridor\n\nThe\u00a0\u201cParadise Corridor\u201d timed entry reservation, includes vehicle access to the Nisqually-Paradise corridor on the west from the Nisqually Entrance off State Route 706, through Longmire, and to Paradise, as well as Stevens Canyon Road going east to the Stevens Canyon Entrance off State Route 123. Timed entry reservations are required beginning May 24 through September 2, 2024  \n\n  * Paradise Corridor timed entry reservations can be used at both the\u00a0Nisqually Entrance\u00a0and the\u00a0Stevens Canyon Entrance\n  * This reservation includes access to Paradise, Cougar Rock, Reflection Lakes, and the following locations and trailheads: \n    * \u301020\u2020Westside Road\u3011, including\u00a0\u301021\u2020Gobblers Knob Fire Lookout\u3011\n    * \u301022\u2020Kautz Creek\u3011 \n    * \u301023\u2020Longmire\u3011, including the\u00a0Longmire Museum,\u00a0Wilderness Information Center, and\u00a0National Park Inn\n    * \u301024\u2020Cougar Rock Campground\u3011 \n    * \u301025\u2020Christine Falls\u3011 \n    * \u301026\u2020Ricksecker Point\u3011 \n    * \u301027\u2020Narada Falls\u3011 \n    * \u301028\u2020Paradise\u3011, including the\u00a0Jackson Visitor Center\u00a0and\u00a0Paradise Inn\n    * \u301029\u2020Box Canyon\u3011\n    * \u301030\u2020Reflection Lakes\u3011\n    * Trailheads:\u00a0\u301031\u2020Twin Firs\u3011,\u00a0\u301032\u2020Indian Henry\u2019s Hunting Ground\u3011,\u00a0\u301033\u2020Eagle Peak\u3011,\u00a0\u301034\u2020Trail of the Shadows\u3011,\u00a0\u301035\u2020Rampart Ridge\u3011,\u00a0\u301036\u2020Carter Falls\u3011,\u00a0\u301037\u2020Comet Falls\u3011,\u00a0\u301038\u2020Skyline Trail\u3011,\u00a0\u301039\u2020Indian Bar\u3011,\u00a0\u301040\u2020Bench & Snow Lake\u3011,\u00a0\u301041\u2020Pinnacle Peak\u3011, Nickel Creek, Lakes Trail, Wonderland Trail from Lake Louise to Box Canyon.\n  * Timed entry reservations for the Paradise Corridor DO NOT provide access to Sunrise Corridor locations.\n\n[Image 2: Simplified map of the southern half of Mount Rainier National Park showing a road that starts from the Nisqually Entrance in the southwest corner that connects up to Paradise than travels east across the park to the Stevens Canyon Entrance off of SR",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 2, 9, 3, 5]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "7108351c-1c1a-4212-acb6-29dfc11c9e19",
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7108351c-1c1a-4212-acb6-29dfc11c9e19",
+      "children": [
+        "57775f9b-bec4-457f-808e-03c3ffbc7fc1"
+      ]
+    },
+    "57775f9b-bec4-457f-808e-03c3ffbc7fc1": {
+      "id": "57775f9b-bec4-457f-808e-03c3ffbc7fc1",
+      "message": {
+        "id": "57775f9b-bec4-457f-808e-03c3ffbc7fc1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910459.08409,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the context of National Park Service (NPS) reservations, a \"transferred reservation\" typically refers to situations where a reservation can be modified or transferred to a different set of dates or campsites within the same facility, rather than being canceled outright. However, there are restrictions; such modifications must be done before the cut-off window, and there are sometimes change fees associated with it. Additionally, many NPS reservations are not transferable to other individuals, meaning the person who made the reservation must be the one to use it\u30106\u2020source\u3011\u30109\u2020source\u3011.\n\nIf you need to adjust the reservation, it is often handled through the Recreation.gov platform, where users can modify dates or locations, but these changes depend on availability and specific rules of the park."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 570,
+              "end_ix": 580,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Campground Reservations Frequently Asked Questions - Yosemite National Park (U.S. National Park Service)",
+                "url": "https://www.nps.gov/yose/planyourvisit/campingfaq.htm",
+                "text": "\n## The campsite I reserved says it accepts an RV or trailer length that's shorter than the length of my RV or trailer. Can I still use the campsite?\n\nRV and trailer length listed for each campsite indicate the maximum length of an RV and/or trailer the campsite can easily accommodate. In many cases, the maximum lengths for RVs and trailers are different because the campsites are not pull-through sites. Factors limiting RV/trailer length include access roads into some campgrounds and the turning radius required to maneuver into the site. In any case, if you reserve a campsite for an RV or trailer that is longer than specified for the campsite and can park all of your RV's or trailer's wheels onto the parking pad without obstructing traffic, you can use the campsite. However, we do not recommend taking this risk. If you're unable to get your RV or trailer into the campsite, we won't be able to find another campsite for you. You can call the campground office at the phone number listed in your reservation if you have questions about a specific campsite. Please read the site alerts carefully, and realize that the lengths allowable are almost always different depending on if you are in a RV or a trailer (trailer maneuverability limits trailer length).\n\n## I made a reservation for an RV nonelectric campsite but only have a tent. Can I still use the campsite?\n\nSome campsites are listed on recreation.gov as \"RV nonelectric.\" This means the campsite is best suited for RVs and trailers. While you aren't required to use an RV in one of these campsites, they are listed as RV only because they generally do not have adequate or level space to pitch a tent. If you arrive and find that the campsite doesn't work for you and/or your tent, we will not be able to move you to a different campsite. You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you have questions about a specific campsite, you can call the campground office at the phone number listed in your reservation.\n\n## I made a reservation for a tent-only nonelectric campsite but have an RV or other vehicle I sleep in. Can I still use the campsite?\n\nRVs are not allowed in tent-only campsites. These sites only have space for tents and, in many cases, the parking is a short distance away from the campsite (and you're required to camp in the campsite). You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you arrive with different equipment than allowed in the site you reserved, we will not be able to accommodate you.\n\n## I made a reservation for a standard nonelectric campsite. What does this mean?\n\nMost reservable campsites in Yosemite are listed on recreation.gov as \"standard nonelectric.\" These campsites are suitable for both tents and RVs (or a combination of both). But be sure to read the site alerts and book a site that will accommodate your specific equipment. Many large RVs and trailers will not fit into many standard campsites.\n\n## In May and June, why are so many campsites in North Pines and Lower Pines not available for reservation?\n\nSpring floods are common in Yosemite Valley in May and June, with portions of Lower Pines, and, especially, North Pines Campgrounds becoming inundated. As a result, we don't make the affected campsites available for reservation until we are sure the river will be at a safe level. Depending on conditions, these campsites may be available for reservation a few weeks (less likely) or just a few days (more likely) in advance via recreation.gov. If water levels are high, these sites may only be available in the park on a first-come, first-served, daily basis.\n\n## We have more than two vehicles arriving at our campsite. Where can we park the additional vehicles?\n\nA maximum of two motor vehicles are allowed per campsite. All vehicles must be parked on a parking pad. Trailers don't count against the vehicle limit as long as they fit on the parking pad. Additional parking is available near each campground for no additional charge; for some campgrounds additional parking is very limited.\n\n## When can I check in? Can I check in after hours? What if I'm late?\n\nCheckin (and checkout) time is noon on your arrival date. If you arrive after the ranger has left the campground, proceed directly to the campsite indicated on your reservation. (At Tuolumne Meadows Campground, check the kiosk to find out which campsite you're assigned to.) You must check in at the campground kiosk or the reservation office the next morning to ensure we know you're here. If you plan to arrive later than the arrival date on your reservation, please call the campground office number listed on your reservation paperwork. If we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification.\n\n## How can I cancel or change my reservation?\n\nCall 877/444-6777 to change or cancel your reservation. You can also log in to \u301018\u2020recreation.gov\u2020www.recreation.gov\u3011 to cancel your reservation.  \n\nLast updated: September 13, 2023\n\n## Park footer\n\n### Contact Info\n\n#### Phone:\n\n209",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 580,
+              "end_ix": 590,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Timed Entry Reservations FAQs - Mount Rainier National Park (U.S. National Park Service)",
+                "url": "https://www.nps.gov/mora/planyourvisit/timed-entry-reservations-faq.htm",
+                "text": "  3. Select the dates you wish to visit \n     * Note: You are limited to just one ticket per vehicle,\u00a0per corridor, per day.\n  4. Select the: \n     * Corridor\n     * Date\n     * Entry Window\n  5. Select: Request Tickets\n  6. Complete payment.\u00a0\n     * After payment, you will receive an e-mail confirmation with an attached Timed Entry Reservation.\u00a0\n  7. You must p rint or save a screenshot of your ticket reservation in advance for easier access upon arrival at entrances\n\nFor more guidance, visit the\u00a0\u301019\u2020Recreation.gov Help Center\u2020recreationonestopprod.servicenowservices.com\u3011.  \n\n####   Do I still have to pay a park entry fee? \n\nYes, a timed entry reservation does not replace the standard park entrance fee, which is $30 per vehicle. Mount Rainier and national passes (such as America the Beautiful interagency passes) also cover park entry fees. For more information on entrance fees, visit the\u00a0\u301012\u2020Fees & Passes\u3011\u00a0webpage.\n\n####   Can I change the date, time, or corridor for my timed entry reservation? \n\nVisitors can modify their own timed entry reservations for a different date, time, or location before the original reservation starts, but availability is limited. Reservations are non-transferable to other people. Additionally, there\u2019s a 15-minute wait period after your initial purchase before visitors can cancel.  \n\nNote that Mount Rainier National Park staff do not manage\u00a0Recreation.gov and cannot access, change, modify, nor transfer\u00a0timed entry reservations; for modifications or cancellations, visitors must do one of the following:\n\n  * Call Recreation.gov at 888-444-6777.\n  * Visit Recreation.gov online and use the following how-to steps.\n\n* * *\n\nHow-To Steps\n\n1. Select your name in the upper right-hand corner of the homepage, then select the My Reservations button from the drop-down menu.\n\n2. Select the\u00a0Modify or Cancel\u00a0button.\n\n[Image 0: Figure: Upcoming reservations page with the Modify or Cancel button highlighted by a red box]\n\n3. Select the\u00a0Modify Dates/Times/Quantities\u00a0tab.\n\n4. To change the date, select the\u00a0Date\u00a0drop-down. Choose the date you wish to change to, if available.\n\n[Image 1: Figure: Modify Reservation pop-up with the Calendar showing]\n\n5. To change the Time, select the new timeframe under the\u00a0Entry Window\u00a0section you wish to change to, if available.\n\n6. Select the\u00a0Modify Reservation\u00a0button.\n\n7. Select the\u00a0Apply Changes\u00a0button.\n\n8. You will be taken to the order confirmation page, and you will receive an email showing the modification that took place along with the new order details.\n\n### Timed Entry Reservation Corridors and Maps \n\n####   Is one timed entry reservation good for all areas of Mount Rainier National Park? \n\n  * No. There are separate reservations, one for the\u00a0Paradise Corridor\u00a0(entering through the Nisqually Entrance or through the Stevens Canyon entrance) and one for the\u00a0Sunrise Corridor\u00a0(entering through the White River Entrance). These two corridors are the only areas of the park which require a timed entry reservation.\n  * No reservation is required to enter the Carbon River, Mowich Lake, SR123 or SR410 corridors within the park outside of the Paradise and Sunrise Corridors.\n\n####   What locations include Paradise Corridor? \n\n### Paradise Corridor\n\nThe\u00a0\u201cParadise Corridor\u201d timed entry reservation, includes vehicle access to the Nisqually-Paradise corridor on the west from the Nisqually Entrance off State Route 706, through Longmire, and to Paradise, as well as Stevens Canyon Road going east to the Stevens Canyon Entrance off State Route 123. Timed entry reservations are required beginning May 24 through September 2, 2024  \n\n  * Paradise Corridor timed entry reservations can be used at both the\u00a0Nisqually Entrance\u00a0and the\u00a0Stevens Canyon Entrance\n  * This reservation includes access to Paradise, Cougar Rock, Reflection Lakes, and the following locations and trailheads: \n    * \u301020\u2020Westside Road\u3011, including\u00a0\u301021\u2020Gobblers Knob Fire Lookout\u3011\n    * \u301022\u2020Kautz Creek\u3011 \n    * \u301023\u2020Longmire\u3011, including the\u00a0Longmire Museum,\u00a0Wilderness Information Center, and\u00a0National Park Inn\n    * \u301024\u2020Cougar Rock Campground\u3011 \n    * \u301025\u2020Christine Falls\u3011 \n    * \u301026\u2020Ricksecker Point\u3011 \n    * \u301027\u2020Narada Falls\u3011 \n    * \u301028\u2020Paradise\u3011, including the\u00a0Jackson Visitor Center\u00a0and\u00a0Paradise Inn\n    * \u301029\u2020Box Canyon\u3011\n    * \u301030\u2020Reflection Lakes\u3011\n    * Trailheads:\u00a0\u301031\u2020Twin Firs\u3011,\u00a0\u301032\u2020Indian Henry\u2019s Hunting Ground\u3011,\u00a0\u301033\u2020Eagle Peak\u3011,\u00a0\u301034\u2020Trail of the Shadows\u3011,\u00a0\u301035\u2020Rampart Ridge\u3011,\u00a0\u301036\u2020Carter Falls\u3011,\u00a0\u301037\u2020Comet Falls\u3011,\u00a0\u301038\u2020Skyline Trail\u3011,\u00a0\u301039\u2020Indian Bar\u3011,\u00a0\u301040\u2020Bench & Snow Lake\u3011,\u00a0\u301041\u2020Pinnacle Peak\u3011, Nickel Creek, Lakes Trail, Wonderland Trail from Lake Louise to Box Canyon.\n  * Timed entry reservations for the Paradise Corridor DO NOT provide access to Sunrise Corridor locations.\n\n[Image 2: Simplified map of the southern half of Mount Rainier National Park showing a road that starts from the Nisqually Entrance in the southwest corner that connects up to Paradise than travels east across the park to the Stevens Canyon Entrance off of SR",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 9,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 570,
+              "end_idx": 580,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Campground Reservations Frequently Asked Questions - Yosemite National Park (U.S. National Park Service)",
+              "url": "https://www.nps.gov/yose/planyourvisit/campingfaq.htm",
+              "pub_date": null,
+              "snippet": "\n## The campsite I reserved says it accepts an RV or trailer length that's shorter than the length of my RV or trailer. Can I still use the campsite?\n\nRV and trailer length listed for each campsite indicate the maximum length of an RV and/or trailer the campsite can easily accommodate. In many cases, the maximum lengths for RVs and trailers are different because the campsites are not pull-through sites. Factors limiting RV/trailer length include access roads into some campgrounds and the turning radius required to maneuver into the site. In any case, if you reserve a campsite for an RV or trailer that is longer than specified for the campsite and can park all of your RV's or trailer's wheels onto the parking pad without obstructing traffic, you can use the campsite. However, we do not recommend taking this risk. If you're unable to get your RV or trailer into the campsite, we won't be able to find another campsite for you. You can call the campground office at the phone number listed in your reservation if you have questions about a specific campsite. Please read the site alerts carefully, and realize that the lengths allowable are almost always different depending on if you are in a RV or a trailer (trailer maneuverability limits trailer length).\n\n## I made a reservation for an RV nonelectric campsite but only have a tent. Can I still use the campsite?\n\nSome campsites are listed on recreation.gov as \"RV nonelectric.\" This means the campsite is best suited for RVs and trailers. While you aren't required to use an RV in one of these campsites, they are listed as RV only because they generally do not have adequate or level space to pitch a tent. If you arrive and find that the campsite doesn't work for you and/or your tent, we will not be able to move you to a different campsite. You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you have questions about a specific campsite, you can call the campground office at the phone number listed in your reservation.\n\n## I made a reservation for a tent-only nonelectric campsite but have an RV or other vehicle I sleep in. Can I still use the campsite?\n\nRVs are not allowed in tent-only campsites. These sites only have space for tents and, in many cases, the parking is a short distance away from the campsite (and you're required to camp in the campsite). You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you arrive with different equipment than allowed in the site you reserved, we will not be able to accommodate you.\n\n## I made a reservation for a standard nonelectric campsite. What does this mean?\n\nMost reservable campsites in Yosemite are listed on recreation.gov as \"standard nonelectric.\" These campsites are suitable for both tents and RVs (or a combination of both). But be sure to read the site alerts and book a site that will accommodate your specific equipment. Many large RVs and trailers will not fit into many standard campsites.\n\n## In May and June, why are so many campsites in North Pines and Lower Pines not available for reservation?\n\nSpring floods are common in Yosemite Valley in May and June, with portions of Lower Pines, and, especially, North Pines Campgrounds becoming inundated. As a result, we don't make the affected campsites available for reservation until we are sure the river will be at a safe level. Depending on conditions, these campsites may be available for reservation a few weeks (less likely) or just a few days (more likely) in advance via recreation.gov. If water levels are high, these sites may only be available in the park on a first-come, first-served, daily basis.\n\n## We have more than two vehicles arriving at our campsite. Where can we park the additional vehicles?\n\nA maximum of two motor vehicles are allowed per campsite. All vehicles must be parked on a parking pad. Trailers don't count against the vehicle limit as long as they fit on the parking pad. Additional parking is available near each campground for no additional charge; for some campgrounds additional parking is very limited.\n\n## When can I check in? Can I check in after hours? What if I'm late?\n\nCheckin (and checkout) time is noon on your arrival date. If you arrive after the ranger has left the campground, proceed directly to the campsite indicated on your reservation. (At Tuolumne Meadows Campground, check the kiosk to find out which campsite you're assigned to.) You must check in at the campground kiosk or the reservation office the next morning to ensure we know you're here. If you plan to arrive later than the arrival date on your reservation, please call the campground office number listed on your reservation paperwork. If we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification.\n\n## How can I cancel or change my reservation?\n\nCall 877/444-6777 to change or cancel your reservation. You can also log in to \u301018\u2020recreation.gov\u2020www.recreation.gov\u3011 to cancel your reservation.  \n\nLast updated: September 13, 2023\n\n## Park footer\n\n### Contact Info\n\n#### Phone:\n\n209"
+            },
+            {
+              "matched_text": "\u30109\u2020source\u3011",
+              "start_idx": 580,
+              "end_idx": 590,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Timed Entry Reservations FAQs - Mount Rainier National Park (U.S. National Park Service)",
+              "url": "https://www.nps.gov/mora/planyourvisit/timed-entry-reservations-faq.htm",
+              "pub_date": null,
+              "snippet": "  3. Select the dates you wish to visit \n     * Note: You are limited to just one ticket per vehicle,\u00a0per corridor, per day.\n  4. Select the: \n     * Corridor\n     * Date\n     * Entry Window\n  5. Select: Request Tickets\n  6. Complete payment.\u00a0\n     * After payment, you will receive an e-mail confirmation with an attached Timed Entry Reservation.\u00a0\n  7. You must p rint or save a screenshot of your ticket reservation in advance for easier access upon arrival at entrances\n\nFor more guidance, visit the\u00a0\u301019\u2020Recreation.gov Help Center\u2020recreationonestopprod.servicenowservices.com\u3011.  \n\n####   Do I still have to pay a park entry fee? \n\nYes, a timed entry reservation does not replace the standard park entrance fee, which is $30 per vehicle. Mount Rainier and national passes (such as America the Beautiful interagency passes) also cover park entry fees. For more information on entrance fees, visit the\u00a0\u301012\u2020Fees & Passes\u3011\u00a0webpage.\n\n####   Can I change the date, time, or corridor for my timed entry reservation? \n\nVisitors can modify their own timed entry reservations for a different date, time, or location before the original reservation starts, but availability is limited. Reservations are non-transferable to other people. Additionally, there\u2019s a 15-minute wait period after your initial purchase before visitors can cancel.  \n\nNote that Mount Rainier National Park staff do not manage\u00a0Recreation.gov and cannot access, change, modify, nor transfer\u00a0timed entry reservations; for modifications or cancellations, visitors must do one of the following:\n\n  * Call Recreation.gov at 888-444-6777.\n  * Visit Recreation.gov online and use the following how-to steps.\n\n* * *\n\nHow-To Steps\n\n1. Select your name in the upper right-hand corner of the homepage, then select the My Reservations button from the drop-down menu.\n\n2. Select the\u00a0Modify or Cancel\u00a0button.\n\n[Image 0: Figure: Upcoming reservations page with the Modify or Cancel button highlighted by a red box]\n\n3. Select the\u00a0Modify Dates/Times/Quantities\u00a0tab.\n\n4. To change the date, select the\u00a0Date\u00a0drop-down. Choose the date you wish to change to, if available.\n\n[Image 1: Figure: Modify Reservation pop-up with the Calendar showing]\n\n5. To change the Time, select the new timeframe under the\u00a0Entry Window\u00a0section you wish to change to, if available.\n\n6. Select the\u00a0Modify Reservation\u00a0button.\n\n7. Select the\u00a0Apply Changes\u00a0button.\n\n8. You will be taken to the order confirmation page, and you will receive an email showing the modification that took place along with the new order details.\n\n### Timed Entry Reservation Corridors and Maps \n\n####   Is one timed entry reservation good for all areas of Mount Rainier National Park? \n\n  * No. There are separate reservations, one for the\u00a0Paradise Corridor\u00a0(entering through the Nisqually Entrance or through the Stevens Canyon entrance) and one for the\u00a0Sunrise Corridor\u00a0(entering through the White River Entrance). These two corridors are the only areas of the park which require a timed entry reservation.\n  * No reservation is required to enter the Carbon River, Mowich Lake, SR123 or SR410 corridors within the park outside of the Paradise and Sunrise Corridors.\n\n####   What locations include Paradise Corridor? \n\n### Paradise Corridor\n\nThe\u00a0\u201cParadise Corridor\u201d timed entry reservation, includes vehicle access to the Nisqually-Paradise corridor on the west from the Nisqually Entrance off State Route 706, through Longmire, and to Paradise, as well as Stevens Canyon Road going east to the Stevens Canyon Entrance off State Route 123. Timed entry reservations are required beginning May 24 through September 2, 2024  \n\n  * Paradise Corridor timed entry reservations can be used at both the\u00a0Nisqually Entrance\u00a0and the\u00a0Stevens Canyon Entrance\n  * This reservation includes access to Paradise, Cougar Rock, Reflection Lakes, and the following locations and trailheads: \n    * \u301020\u2020Westside Road\u3011, including\u00a0\u301021\u2020Gobblers Knob Fire Lookout\u3011\n    * \u301022\u2020Kautz Creek\u3011 \n    * \u301023\u2020Longmire\u3011, including the\u00a0Longmire Museum,\u00a0Wilderness Information Center, and\u00a0National Park Inn\n    * \u301024\u2020Cougar Rock Campground\u3011 \n    * \u301025\u2020Christine Falls\u3011 \n    * \u301026\u2020Ricksecker Point\u3011 \n    * \u301027\u2020Narada Falls\u3011 \n    * \u301028\u2020Paradise\u3011, including the\u00a0Jackson Visitor Center\u00a0and\u00a0Paradise Inn\n    * \u301029\u2020Box Canyon\u3011\n    * \u301030\u2020Reflection Lakes\u3011\n    * Trailheads:\u00a0\u301031\u2020Twin Firs\u3011,\u00a0\u301032\u2020Indian Henry\u2019s Hunting Ground\u3011,\u00a0\u301033\u2020Eagle Peak\u3011,\u00a0\u301034\u2020Trail of the Shadows\u3011,\u00a0\u301035\u2020Rampart Ridge\u3011,\u00a0\u301036\u2020Carter Falls\u3011,\u00a0\u301037\u2020Comet Falls\u3011,\u00a0\u301038\u2020Skyline Trail\u3011,\u00a0\u301039\u2020Indian Bar\u3011,\u00a0\u301040\u2020Bench & Snow Lake\u3011,\u00a0\u301041\u2020Pinnacle Peak\u3011, Nickel Creek, Lakes Trail, Wonderland Trail from Lake Louise to Box Canyon.\n  * Timed entry reservations for the Paradise Corridor DO NOT provide access to Sunrise Corridor locations.\n\n[Image 2: Simplified map of the southern half of Mount Rainier National Park showing a road that starts from the Nisqually Entrance in the southwest corner that connects up to Paradise than travels east across the park to the Stevens Canyon Entrance off of SR"
+            }
+          ],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "ac2af730-ec95-444e-88d8-ed7f11cf2658",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8cc8595f8c234cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ac2af730-ec95-444e-88d8-ed7f11cf2658",
+      "children": [
+        "aaa28d24-5a96-42df-96fd-d0d10caf4c08"
+      ]
+    },
+    "aaa28d24-5a96-42df-96fd-d0d10caf4c08": {
+      "id": "aaa28d24-5a96-42df-96fd-d0d10caf4c08",
+      "message": {
+        "id": "aaa28d24-5a96-42df-96fd-d0d10caf4c08",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910485.561287,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "i mean in a real estate context."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8cc85a34dbcf4cae-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "57775f9b-bec4-457f-808e-03c3ffbc7fc1",
+      "children": [
+        "4ca73268-9f5b-46e3-bc78-ebf0330e9dde"
+      ]
+    },
+    "4ca73268-9f5b-46e3-bc78-ebf0330e9dde": {
+      "id": "4ca73268-9f5b-46e3-bc78-ebf0330e9dde",
+      "message": {
+        "id": "4ca73268-9f5b-46e3-bc78-ebf0330e9dde",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910495.251314,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"real estate NPS transferred reservation\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa28d24-5a96-42df-96fd-d0d10caf4c08",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8cc85a34dbcf4cae-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "aaa28d24-5a96-42df-96fd-d0d10caf4c08",
+      "children": [
+        "4919bf64-ee04-41f3-88a1-345a575805e2"
+      ]
+    },
+    "4919bf64-ee04-41f3-88a1-345a575805e2": {
+      "id": "4919bf64-ee04-41f3-88a1-345a575805e2",
+      "message": {
+        "id": "4919bf64-ee04-41f3-88a1-345a575805e2",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727910495.251515,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020Easements, Covenants, and Preservation Agreements\u2020www.nps.gov\u3011\nAll grantees should note that NPS is revising the easement, covenant, and preservation agreement requirements for grants effective October 1, 2020. ... This agreement creates a conservation easement in real estate legally described in Exhibit A. The Subject Property is the site of the Name of Subject Property, located at Street Address, City, ...\n# \u30101\u2020Guidance on Use of Real Property Restrictions or Conditions in the ...\u2020www.achp.gov\u3011\nSection 106 and Real Property Transfers. Real property transfers are typically considered to be undertakings subject to the review process under Section 106 of the National Historic Preservation Act, 54 U.S.C. \u00a7 306108, and its implementing regulations at 36 C.F.R. part 800 (\"Section 106\").\n# \u30102\u2020Tax Incentives for Preserving Historic Properties - U.S. National Park ...\u2020www.nps.gov\u3011\nThe Federal Historic Preservation Tax Incentives program encourages private sector investment in the rehabilitation and re-use of historic buildings. It creates jobs and is one of the nation's most successful and cost-effective community revitalization programs. It has leveraged $131.73 billion in private investment to preserve more than 49,000 ...\n# \u30103\u2020Easements to Protect Historic Properties: A Useful Historic ...\u2020www.nps.gov\u3011\nthe easement, and Federal estate taxes also may be re-duced. In addition, many State tax codes provide state tax bene\ufb01 ts for conservation easement contributions where a reduction in the value of a property occurs. There may also be local tax bene\ufb01 ts where property tax assessment is based on a property\u2019s highest and best use.\n# \u30104\u2020Determining qualified rehabilitation expenditures - The Tax Adviser\u2020www.thetaxadviser.com\u3011\nPrior to 2018, qualified rehabilitation expenditures (QREs) made with respect to a qualified but not certified historic building were eligible for a 10% credit if the building was originally placed in service by Dec. 31, 1935. In December 2017, the law known as the Tax Cuts and Jobs Act, P.L. 115 - 97, repealed that 10% tax credit.\n# \u30105\u2020Partners - Federal Lands to Parks Program (U.S. National Park Service)\u2020home.nps.gov\u3011\nThe Federal Lands to Parks program helps states and local government agencies acquire surplus federal real estate for public parks and recreation area use at no cost. When the National Park Service transfers this land, its use is restricted to public parks and recreation in perpetuity by special covenants in the deed. As local demographics and ...\n# \u30106\u2020Rehabilitation credit - Internal Revenue Service\u2020www.irs.gov\u3011\nThe rehabilitation credit\u2013under Internal Revenue Code (IRC) Section 47\u2013is also commonly referred to as the historic preservation or historic tax credit. The credit provides a tax incentive to rehabilitate historic buildings. If your rehabilitation and expenses qualify, you may claim a tax credit equal to 20% of your qualified expenses.\n# \u30107\u2020Effort Will Result in Historic Tribal Land Return While Creating Vital ...\u2020www.prnewswire.com\u3011\nThis includes over 95,000 acres of trust land, 5000 acres of reservation land, and 28,000 acres in fee-simple ownership. What most would call natural resources, are thought of as relatives to ...\n# \u30108\u2020Federal Land Ownership: Overview and Data - Federation of American ...\u2020sgp.fas.org\u3011\nThe federal government owns roughly 640 million acres, about 28% of the 2.27 billion acres of land in the United States. Four major federal land management agencies administer 606.5 million acres of this land (as of September 30, 2018). They are the Bureau of Land Management (BLM), Fish and Wildlife Service (FWS), and National Park Service (NPS ...\n# \u30109\u2020Federal Lands to Parks Program (U.S. National Park Service) - NPS\u2020home.nps.gov\u3011\nCreating Local Parks and Recreation Since 1949. The NPS Federal Lands to Parks (NPS-FLP) program helps communities to acquire, reuse and protect surplus Federal properties for local parks and recreation. States, counties, and local government may acquire federal land and buildings no longer needed by the Federal government at no cost on ...\n# \u301010\u2020Land Resources Division - U.S. National Park Service\u2020www.nps.gov\u3011\nThe Land Resources Division guides and supports the land acquisition program for the National Park Service (NPS). Since its inception in 1916, the NPS has served as the ultimate caretaker of America's most valuable natural and cultural resources, while providing for public use and enjoyment of those resources. Today, the National Park System ...\n# \u301011\u2020NPS Jurisdiction Transfer - National Capital Planning Commission\u2020www.ncpc.gov\u3011\nin accordance with 40 u.s.c. \u00a78124(a), i hereby accept the transfer of jurisdiction to the u.s. army corps of engineers over that portion of reservation 343-d identified hereon as tract \"b\" for access purposes. chief, real estate division baltimore district . u.s. army corps of engineers . national park service across part of u.s. reservation ...\n# \u301012\u2020Fee to Trust Land Acquisitions - Indian Affairs\u2020www.bia.gov\u3011\nA fee to trust land acquisition, also known as \u201cland into trust,\u201d is the transfer of land title from an individual Indian or federally-recognized Tribe to the United States, in trust, for the benefit of that individual Indian or Tribe. Individual Indians or Tribes (as defined in 25 CFR 151.2) are eligible to apply for a trust land ...\n# \u301013\u2020RESERVATION OR EXCEPTION, WHAT IS IT GOING TO BE? - TLTA\u2020tlta.com\u3011\ne generally governed by four simple rules of law.A reservation creates a new severance of a property interest in favor of the grantor and i. excluded from grantor\u2019s conveyance to grantee.An exception excludes a property interest from grantor\u2019s conveyance and warranty, usually in favor of a third party.\n# \u301014\u2020Moses Lake, WA real estate & homes for sale - realtor.com\u2020www.realtor.com\u3011\nView 388 homes for sale in Moses Lake, WA at a median listing home price of $372,500. See pricing and listing details of Moses Lake real estate for sale.\n# \u301015\u2020Bison From Yellowstone National Park Transferred To Fort ... - Sheridan\u2020sheridanwyoming.com\u3011\nThe Bison Conservation Transfer Program continues to make history, having relocated the largest number of live Yellowstone bison to American Indian Tribes in the world. The bison transferred to the Fort Peck Indian Reservation included 108 males, four females and four calves.\n# \u301016\u2020Land Acquisition Process - U.S. National Park Service\u2020www.nps.gov\u3011\nThe land acquisition process includes multiple planning and compliance steps and is dependent on the availability of funds for purchase. The entire process can take up to 3 years from the time funding is obtained. Listed below are the basic steps for a simple acquisition. Proposal and Planning Process - In the case of a new park unit, various ...\n# \u301017\u2020Dune Lakes, WA homes for sale & real estate - Redfin\u2020www.redfin.com\u3011\n4 beds 2.5 baths 2,895 sq ft. 8499 SE Dune Lake Rd, Moses Lake, WA 98837. 0.48 acre lot \u2022 $19 HOA \u2022 3 garage spots. Listing provided by NWMLS as Distributed by MLS Grid. ABOUT THIS HOME. Dune Lakes, WA home for sale. Prestigious Dune Lakes neighborhood. unobstructed views of Lake and Cascades.\n# \u301018\u202098837 Homes For Sale & 98837 Real Estate - Trulia\u2020www.trulia.com\u3011\n331 Homes For Sale in 98837. Browse photos, see new properties, get open house info, and research neighborhoods on Trulia.\n# \u301019\u2020Moses Lake, WA Real Estate | Jennifer Kron - Moses Lake Realty Group\u2020moseslakerealtygroup.com\u3011\nJennifer Kron. Realtor/Broker/Property Manager. jenniferkron642@gmail.com. (509) 764-0222. (509) 855-2793. I was raised in Spokane Washington, moved to the Columbia Basin just out of High School where I taught preschool, owned a home day care and started a family. My wonderful husband Tim grew up in Arlington, WA where he began his career as a ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Easements, Covenants, and Preservation Agreements",
+                "url": "https://www.nps.gov/subjects/historicpreservationfund/easements-covenants-and-preservation-agreements.htm",
+                "text": "\nAll grantees should note that NPS is revising the easement, covenant, and preservation agreement requirements for grants effective October 1, 2020. ... This agreement creates a conservation easement in real estate legally described in Exhibit A. The Subject Property is the site of the Name of Subject Property, located at Street Address, City, ...\n",
+                "pub_date": "2024-09-11T23:05:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Guidance on Use of Real Property Restrictions or Conditions in the ...",
+                "url": "https://www.achp.gov/digital-library-section-106-landing/guidance-use-real-property-restrictions-or-conditions-section",
+                "text": "\nSection 106 and Real Property Transfers. Real property transfers are typically considered to be undertakings subject to the review process under Section 106 of the National Historic Preservation Act, 54 U.S.C. \u00a7 306108, and its implementing regulations at 36 C.F.R. part 800 (\"Section 106\").\n",
+                "pub_date": "2024-09-27T15:47:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tax Incentives for Preserving Historic Properties - U.S. National Park ...",
+                "url": "https://www.nps.gov/subjects/taxincentives/index.htm",
+                "text": "\nThe Federal Historic Preservation Tax Incentives program encourages private sector investment in the rehabilitation and re-use of historic buildings. It creates jobs and is one of the nation's most successful and cost-effective community revitalization programs. It has leveraged $131.73 billion in private investment to preserve more than 49,000 ...\n",
+                "pub_date": "2024-09-20T22:26:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Easements to Protect Historic Properties: A Useful Historic ...",
+                "url": "https://www.nps.gov/orgs/1739/upload/brochure-easements-historic-properties.pdf",
+                "text": "\nthe easement, and Federal estate taxes also may be re-duced. In addition, many State tax codes provide state tax bene\ufb01 ts for conservation easement contributions where a reduction in the value of a property occurs. There may also be local tax bene\ufb01 ts where property tax assessment is based on a property\u2019s highest and best use.\n",
+                "pub_date": "2024-09-05T05:08:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Determining qualified rehabilitation expenditures - The Tax Adviser",
+                "url": "https://www.thetaxadviser.com/issues/2021/apr/determining-qualified-rehabilitation-expenditures.html",
+                "text": "\nPrior to 2018, qualified rehabilitation expenditures (QREs) made with respect to a qualified but not certified historic building were eligible for a 10% credit if the building was originally placed in service by Dec. 31, 1935. In December 2017, the law known as the Tax Cuts and Jobs Act, P.L. 115 - 97, repealed that 10% tax credit.\n",
+                "pub_date": "2024-09-28T10:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Partners - Federal Lands to Parks Program (U.S. National Park Service)",
+                "url": "https://home.nps.gov/orgs/1508/partners.htm",
+                "text": "\nThe Federal Lands to Parks program helps states and local government agencies acquire surplus federal real estate for public parks and recreation area use at no cost. When the National Park Service transfers this land, its use is restricted to public parks and recreation in perpetuity by special covenants in the deed. As local demographics and ...\n",
+                "pub_date": "2024-10-01T09:32:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Rehabilitation credit - Internal Revenue Service",
+                "url": "https://www.irs.gov/businesses/small-businesses-self-employed/rehabilitation-credit",
+                "text": "\nThe rehabilitation credit\u2013under Internal Revenue Code (IRC) Section 47\u2013is also commonly referred to as the historic preservation or historic tax credit. The credit provides a tax incentive to rehabilitate historic buildings. If your rehabilitation and expenses qualify, you may claim a tax credit equal to 20% of your qualified expenses.\n",
+                "pub_date": "2024-10-02T05:27:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Effort Will Result in Historic Tribal Land Return While Creating Vital ...",
+                "url": "https://www.prnewswire.com/news-releases/effort-will-result-in-historic-tribal-land-return-while-creating-vital-public-access-to-popular-national-monument-301973474.html",
+                "text": "\nThis includes over 95,000 acres of trust land, 5000 acres of reservation land, and 28,000 acres in fee-simple ownership. What most would call natural resources, are thought of as relatives to ...\n",
+                "pub_date": "2024-09-27T12:34:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Federal Land Ownership: Overview and Data - Federation of American ...",
+                "url": "https://sgp.fas.org/crs/misc/R42346.pdf",
+                "text": "\nThe federal government owns roughly 640 million acres, about 28% of the 2.27 billion acres of land in the United States. Four major federal land management agencies administer 606.5 million acres of this land (as of September 30, 2018). They are the Bureau of Land Management (BLM), Fish and Wildlife Service (FWS), and National Park Service (NPS ...\n",
+                "pub_date": "2024-10-02T05:21:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Federal Lands to Parks Program (U.S. National Park Service) - NPS",
+                "url": "https://home.nps.gov/orgs/1508/index.htm",
+                "text": "\nCreating Local Parks and Recreation Since 1949. The NPS Federal Lands to Parks (NPS-FLP) program helps communities to acquire, reuse and protect surplus Federal properties for local parks and recreation. States, counties, and local government may acquire federal land and buildings no longer needed by the Federal government at no cost on ...\n",
+                "pub_date": "2024-09-24T00:29:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Land Resources Division - U.S. National Park Service",
+                "url": "https://www.nps.gov/orgs/1860/index.htm",
+                "text": "\nThe Land Resources Division guides and supports the land acquisition program for the National Park Service (NPS). Since its inception in 1916, the NPS has served as the ultimate caretaker of America's most valuable natural and cultural resources, while providing for public use and enjoyment of those resources. Today, the National Park System ...\n",
+                "pub_date": "2024-09-23T21:34:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "NPS Jurisdiction Transfer - National Capital Planning Commission",
+                "url": "https://www.ncpc.gov/files/projects/2022/8348_Anacostia_Park_Transfer_of_Jurisdiction_-_Reservation_343D_Submission_Materials_Mar2022.pdf",
+                "text": "\nin accordance with 40 u.s.c. \u00a78124(a), i hereby accept the transfer of jurisdiction to the u.s. army corps of engineers over that portion of reservation 343-d identified hereon as tract \"b\" for access purposes. chief, real estate division baltimore district . u.s. army corps of engineers . national park service across part of u.s. reservation ...\n",
+                "pub_date": "2024-08-29T08:05:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Fee to Trust Land Acquisitions - Indian Affairs",
+                "url": "https://www.bia.gov/bia/ots/fee-to-trust",
+                "text": "\nA fee to trust land acquisition, also known as \u201cland into trust,\u201d is the transfer of land title from an individual Indian or federally-recognized Tribe to the United States, in trust, for the benefit of that individual Indian or Tribe. Individual Indians or Tribes (as defined in 25 CFR 151.2) are eligible to apply for a trust land ...\n",
+                "pub_date": "2024-10-01T02:09:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "RESERVATION OR EXCEPTION, WHAT IS IT GOING TO BE? - TLTA",
+                "url": "https://tlta.com/legallibrary/papers/2016/M_Reservation%20or%20ExceptionFINAL.pdf",
+                "text": "\ne generally governed by four simple rules of law.A reservation creates a new severance of a property interest in favor of the grantor and i. excluded from grantor\u2019s conveyance to grantee.An exception excludes a property interest from grantor\u2019s conveyance and warranty, usually in favor of a third party.\n",
+                "pub_date": "2024-09-28T02:02:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Moses Lake, WA real estate & homes for sale - realtor.com",
+                "url": "https://www.realtor.com/realestateandhomes-search/Moses-Lake_WA",
+                "text": "\nView 388 homes for sale in Moses Lake, WA at a median listing home price of $372,500. See pricing and listing details of Moses Lake real estate for sale.\n",
+                "pub_date": "2024-10-01T05:43:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Bison From Yellowstone National Park Transferred To Fort ... - Sheridan",
+                "url": "https://sheridanwyoming.com/2024/02/19/bison-from-yellowstone-national-park-transferred-to-fort-peck-indian-reservation/",
+                "text": "\nThe Bison Conservation Transfer Program continues to make history, having relocated the largest number of live Yellowstone bison to American Indian Tribes in the world. The bison transferred to the Fort Peck Indian Reservation included 108 males, four females and four calves.\n",
+                "pub_date": "2024-09-11T14:34:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Land Acquisition Process - U.S. National Park Service",
+                "url": "https://www.nps.gov/subjects/lwcf/land-acquisition-process.htm",
+                "text": "\nThe land acquisition process includes multiple planning and compliance steps and is dependent on the availability of funds for purchase. The entire process can take up to 3 years from the time funding is obtained. Listed below are the basic steps for a simple acquisition. Proposal and Planning Process - In the case of a new park unit, various ...\n",
+                "pub_date": "2024-07-16T03:00:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Dune Lakes, WA homes for sale & real estate - Redfin",
+                "url": "https://www.redfin.com/neighborhood/274208/WA/Moses-Lake/Dune-Lakes",
+                "text": "\n4 beds 2.5 baths 2,895 sq ft. 8499 SE Dune Lake Rd, Moses Lake, WA 98837. 0.48 acre lot \u2022 $19 HOA \u2022 3 garage spots. Listing provided by NWMLS as Distributed by MLS Grid. ABOUT THIS HOME. Dune Lakes, WA home for sale. Prestigious Dune Lakes neighborhood. unobstructed views of Lake and Cascades.\n",
+                "pub_date": "2024-09-19T03:11:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "98837 Homes For Sale & 98837 Real Estate - Trulia",
+                "url": "https://www.trulia.com/WA/Moses_Lake/98837/",
+                "text": "\n331 Homes For Sale in 98837. Browse photos, see new properties, get open house info, and research neighborhoods on Trulia.\n",
+                "pub_date": "2024-10-02T02:04:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Moses Lake, WA Real Estate | Jennifer Kron - Moses Lake Realty Group",
+                "url": "https://moseslakerealtygroup.com/staff/jennifer-kron",
+                "text": "\nJennifer Kron. Realtor/Broker/Property Manager. jenniferkron642@gmail.com. (509) 764-0222. (509) 855-2793. I was raised in Spokane Washington, moved to the Columbia Basin just out of High School where I taught preschool, owned a home day care and started a family. My wonderful husband Tim grew up in Arlington, WA where he began his career as a ...\nVisible: 0% - 100%",
+                "pub_date": "2024-09-27T20:48:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'real estate NPS transferred reservation'",
+                "url": "",
+                "text": "# \u30100\u2020Easements, Covenants, and Preservation Agreements\u2020www.nps.gov\u3011\nAll grantees should note that NPS is revising the easement, covenant, and preservation agreement requirements for grants effective October 1, 2020. ... This agreement creates a conservation easement in real estate legally described in Exhibit A. The Subject Property is the site of the Name of Subject Property, located at Street Address, City, ...\n# \u30101\u2020Guidance on Use of Real Property Restrictions or Conditions in the ...\u2020www.achp.gov\u3011\nSection 106 and Real Property Transfers. Real property transfers are typically considered to be undertakings subject to the review process under Section 106 of the National Historic Preservation Act, 54 U.S.C. \u00a7 306108, and its implementing regulations at 36 C.F.R. part 800 (\"Section 106\").\n# \u30102\u2020Tax Incentives for Preserving Historic Properties - U.S. National Park ...\u2020www.nps.gov\u3011\nThe Federal Historic Preservation Tax Incentives program encourages private sector investment in the rehabilitation and re-use of historic buildings. It creates jobs and is one of the nation's most successful and cost-effective community revitalization programs. It has leveraged $131.73 billion in private investment to preserve more than 49,000 ...\n# \u30103\u2020Easements to Protect Historic Properties: A Useful Historic ...\u2020www.nps.gov\u3011\nthe easement, and Federal estate taxes also may be re-duced. In addition, many State tax codes provide state tax bene\ufb01 ts for conservation easement contributions where a reduction in the value of a property occurs. There may also be local tax bene\ufb01 ts where property tax assessment is based on a property\u2019s highest and best use.\n# \u30104\u2020Determining qualified rehabilitation expenditures - The Tax Adviser\u2020www.thetaxadviser.com\u3011\nPrior to 2018, qualified rehabilitation expenditures (QREs) made with respect to a qualified but not certified historic building were eligible for a 10% credit if the building was originally placed in service by Dec. 31, 1935. In December 2017, the law known as the Tax Cuts and Jobs Act, P.L. 115 - 97, repealed that 10% tax credit.\n# \u30105\u2020Partners - Federal Lands to Parks Program (U.S. National Park Service)\u2020home.nps.gov\u3011\nThe Federal Lands to Parks program helps states and local government agencies acquire surplus federal real estate for public parks and recreation area use at no cost. When the National Park Service transfers this land, its use is restricted to public parks and recreation in perpetuity by special covenants in the deed. As local demographics and ...\n# \u30106\u2020Rehabilitation credit - Internal Revenue Service\u2020www.irs.gov\u3011\nThe rehabilitation credit\u2013under Internal Revenue Code (IRC) Section 47\u2013is also commonly referred to as the historic preservation or historic tax credit. The credit provides a tax incentive to rehabilitate historic buildings. If your rehabilitation and expenses qualify, you may claim a tax credit equal to 20% of your qualified expenses.\n# \u30107\u2020Effort Will Result in Historic Tribal Land Return While Creating Vital ...\u2020www.prnewswire.com\u3011\nThis includes over 95,000 acres of trust land, 5000 acres of reservation land, and 28,000 acres in fee-simple ownership. What most would call natural resources, are thought of as relatives to ...\n# \u30108\u2020Federal Land Ownership: Overview and Data - Federation of American ...\u2020sgp.fas.org\u3011\nThe federal government owns roughly 640 million acres, about 28% of the 2.27 billion acres of land in the United States. Four major federal land management agencies administer 606.5 million acres of this land (as of September 30, 2018). They are the Bureau of Land Management (BLM), Fish and Wildlife Service (FWS), and National Park Service (NPS ...\n# \u30109\u2020Federal Lands to Parks Program (U.S. National Park Service) - NPS\u2020home.nps.gov\u3011\nCreating Local Parks and Recreation Since 1949. The NPS Federal Lands to Parks (NPS-FLP) program helps communities to acquire, reuse and protect surplus Federal properties for local parks and recreation. States, counties, and local government may acquire federal land and buildings no longer needed by the Federal government at no cost on ...\n# \u301010\u2020Land Resources Division - U.S. National Park Service\u2020www.nps.gov\u3011\nThe Land Resources Division guides and supports the land acquisition program for the National Park Service (NPS). Since its inception in 1916, the NPS has served as the ultimate caretaker of America's most valuable natural and cultural resources, while providing for public use and enjoyment of those resources. Today, the National Park System ...\n# \u301011\u2020NPS Jurisdiction Transfer - National Capital Planning Commission\u2020www.ncpc.gov\u3011\nin accordance with 40 u.s.c. \u00a78124(a), i hereby accept the transfer of jurisdiction to the u.s. army corps of engineers over that portion of reservation 343-d identified hereon as tract \"b\" for access purposes. chief, real estate division baltimore district . u.s. army corps of engineers . national park service across part of u.s. reservation ...\n# \u301012\u2020Fee to Trust Land Acquisitions - Indian Affairs\u2020www.bia.gov\u3011\nA fee to trust land acquisition, also known as \u201cland into trust,\u201d is the transfer of land title from an individual Indian or federally-recognized Tribe to the United States, in trust, for the benefit of that individual Indian or Tribe. Individual Indians or Tribes (as defined in 25 CFR 151.2) are eligible to apply for a trust land ...\n# \u301013\u2020RESERVATION OR EXCEPTION, WHAT IS IT GOING TO BE? - TLTA\u2020tlta.com\u3011\ne generally governed by four simple rules of law.A reservation creates a new severance of a property interest in favor of the grantor and i. excluded from grantor\u2019s conveyance to grantee.An exception excludes a property interest from grantor\u2019s conveyance and warranty, usually in favor of a third party.\n# \u301014\u2020Moses Lake, WA real estate & homes for sale - realtor.com\u2020www.realtor.com\u3011\nView 388 homes for sale in Moses Lake, WA at a median listing home price of $372,500. See pricing and listing details of Moses Lake real estate for sale.\n# \u301015\u2020Bison From Yellowstone National Park Transferred To Fort ... - Sheridan\u2020sheridanwyoming.com\u3011\nThe Bison Conservation Transfer Program continues to make history, having relocated the largest number of live Yellowstone bison to American Indian Tribes in the world. The bison transferred to the Fort Peck Indian Reservation included 108 males, four females and four calves.\n# \u301016\u2020Land Acquisition Process - U.S. National Park Service\u2020www.nps.gov\u3011\nThe land acquisition process includes multiple planning and compliance steps and is dependent on the availability of funds for purchase. The entire process can take up to 3 years from the time funding is obtained. Listed below are the basic steps for a simple acquisition. Proposal and Planning Process - In the case of a new park unit, various ...\n# \u301017\u2020Dune Lakes, WA homes for sale & real estate - Redfin\u2020www.redfin.com\u3011\n4 beds 2.5 baths 2,895 sq ft. 8499 SE Dune Lake Rd, Moses Lake, WA 98837. 0.48 acre lot \u2022 $19 HOA \u2022 3 garage spots. Listing provided by NWMLS as Distributed by MLS Grid. ABOUT THIS HOME. Dune Lakes, WA home for sale. Prestigious Dune Lakes neighborhood. unobstructed views of Lake and Cascades.\n# \u301018\u202098837 Homes For Sale & 98837 Real Estate - Trulia\u2020www.trulia.com\u3011\n331 Homes For Sale in 98837. Browse photos, see new properties, get open house info, and research neighborhoods on Trulia.\n# \u301019\u2020Moses Lake, WA Real Estate | Jennifer Kron - Moses Lake Realty Group\u2020moseslakerealtygroup.com\u3011\nJennifer Kron. Realtor/Broker/Property Manager. jenniferkron642@gmail.com. (509) 764-0222. (509) 855-2793. I was raised in Spokane Washington, moved to the Columbia Basin just out of High School where I taught preschool, owned a home day care and started a family. My wonderful husband Tim grew up in Arlington, WA where he began his career as a ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "real estate NPS transferred reservation"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4ca73268-9f5b-46e3-bc78-ebf0330e9dde",
+          "request_id": "8cc85a34dbcf4cae-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4ca73268-9f5b-46e3-bc78-ebf0330e9dde",
+      "children": [
+        "bf1be7d3-02b6-47e8-ae56-a2f27f713feb"
+      ]
+    },
+    "bf1be7d3-02b6-47e8-ae56-a2f27f713feb": {
+      "id": "bf1be7d3-02b6-47e8-ae56-a2f27f713feb",
+      "message": {
+        "id": "bf1be7d3-02b6-47e8-ae56-a2f27f713feb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727910495.251672,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the context of real estate, particularly involving National Park Service (NPS) properties or federally controlled lands, a \"transferred reservation\" generally refers to the legal transfer of the use or ownership rights of a specific parcel of land from one entity to another. This often occurs under programs such as the Federal Lands to Parks (FLP) program, where the NPS may transfer surplus federal real estate to local governments or other agencies for public use, typically as parks or recreational areas.\n\nThe transfer often includes restrictions or covenants that ensure the land is used for its intended public purpose in perpetuity. This can involve specific legal agreements to preserve the land's conservation or historic value. Such transferred reservations are not sold but transferred under strict conditions that bind the new owners to continue using the land for the public benefit\u30106\u2020source\u3011\u30108\u2020source\u3011."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 900,
+              "end_ix": 910,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Campground Reservations Frequently Asked Questions - Yosemite National Park (U.S. National Park Service)",
+                "url": "https://www.nps.gov/yose/planyourvisit/campingfaq.htm",
+                "text": "\n## The campsite I reserved says it accepts an RV or trailer length that's shorter than the length of my RV or trailer. Can I still use the campsite?\n\nRV and trailer length listed for each campsite indicate the maximum length of an RV and/or trailer the campsite can easily accommodate. In many cases, the maximum lengths for RVs and trailers are different because the campsites are not pull-through sites. Factors limiting RV/trailer length include access roads into some campgrounds and the turning radius required to maneuver into the site. In any case, if you reserve a campsite for an RV or trailer that is longer than specified for the campsite and can park all of your RV's or trailer's wheels onto the parking pad without obstructing traffic, you can use the campsite. However, we do not recommend taking this risk. If you're unable to get your RV or trailer into the campsite, we won't be able to find another campsite for you. You can call the campground office at the phone number listed in your reservation if you have questions about a specific campsite. Please read the site alerts carefully, and realize that the lengths allowable are almost always different depending on if you are in a RV or a trailer (trailer maneuverability limits trailer length).\n\n## I made a reservation for an RV nonelectric campsite but only have a tent. Can I still use the campsite?\n\nSome campsites are listed on recreation.gov as \"RV nonelectric.\" This means the campsite is best suited for RVs and trailers. While you aren't required to use an RV in one of these campsites, they are listed as RV only because they generally do not have adequate or level space to pitch a tent. If you arrive and find that the campsite doesn't work for you and/or your tent, we will not be able to move you to a different campsite. You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you have questions about a specific campsite, you can call the campground office at the phone number listed in your reservation.\n\n## I made a reservation for a tent-only nonelectric campsite but have an RV or other vehicle I sleep in. Can I still use the campsite?\n\nRVs are not allowed in tent-only campsites. These sites only have space for tents and, in many cases, the parking is a short distance away from the campsite (and you're required to camp in the campsite). You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you arrive with different equipment than allowed in the site you reserved, we will not be able to accommodate you.\n\n## I made a reservation for a standard nonelectric campsite. What does this mean?\n\nMost reservable campsites in Yosemite are listed on recreation.gov as \"standard nonelectric.\" These campsites are suitable for both tents and RVs (or a combination of both). But be sure to read the site alerts and book a site that will accommodate your specific equipment. Many large RVs and trailers will not fit into many standard campsites.\n\n## In May and June, why are so many campsites in North Pines and Lower Pines not available for reservation?\n\nSpring floods are common in Yosemite Valley in May and June, with portions of Lower Pines, and, especially, North Pines Campgrounds becoming inundated. As a result, we don't make the affected campsites available for reservation until we are sure the river will be at a safe level. Depending on conditions, these campsites may be available for reservation a few weeks (less likely) or just a few days (more likely) in advance via recreation.gov. If water levels are high, these sites may only be available in the park on a first-come, first-served, daily basis.\n\n## We have more than two vehicles arriving at our campsite. Where can we park the additional vehicles?\n\nA maximum of two motor vehicles are allowed per campsite. All vehicles must be parked on a parking pad. Trailers don't count against the vehicle limit as long as they fit on the parking pad. Additional parking is available near each campground for no additional charge; for some campgrounds additional parking is very limited.\n\n## When can I check in? Can I check in after hours? What if I'm late?\n\nCheckin (and checkout) time is noon on your arrival date. If you arrive after the ranger has left the campground, proceed directly to the campsite indicated on your reservation. (At Tuolumne Meadows Campground, check the kiosk to find out which campsite you're assigned to.) You must check in at the campground kiosk or the reservation office the next morning to ensure we know you're here. If you plan to arrive later than the arrival date on your reservation, please call the campground office number listed on your reservation paperwork. If we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification.\n\n## How can I cancel or change my reservation?\n\nCall 877/444-6777 to change or cancel your reservation. You can also log in to \u301018\u2020recreation.gov\u2020www.recreation.gov\u3011 to cancel your reservation.  \n\nLast updated: September 13, 2023\n\n## Park footer\n\n### Contact Info\n\n#### Phone:\n\n209",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 910,
+              "end_ix": 920,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Recreation.gov - Camping, Cabins, RVs, Permits, Passes & More",
+                "url": "https://www.recreation.gov/reservation-policies#:~:text=URL%3A%20https%3A%2F%2Fwww.recreation.gov%2Freservation",
+                "text": "\nURL: https://www.recreation.gov/reservation-policies\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 900,
+              "end_idx": 910,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Campground Reservations Frequently Asked Questions - Yosemite National Park (U.S. National Park Service)",
+              "url": "https://www.nps.gov/yose/planyourvisit/campingfaq.htm",
+              "pub_date": null,
+              "snippet": "\n## The campsite I reserved says it accepts an RV or trailer length that's shorter than the length of my RV or trailer. Can I still use the campsite?\n\nRV and trailer length listed for each campsite indicate the maximum length of an RV and/or trailer the campsite can easily accommodate. In many cases, the maximum lengths for RVs and trailers are different because the campsites are not pull-through sites. Factors limiting RV/trailer length include access roads into some campgrounds and the turning radius required to maneuver into the site. In any case, if you reserve a campsite for an RV or trailer that is longer than specified for the campsite and can park all of your RV's or trailer's wheels onto the parking pad without obstructing traffic, you can use the campsite. However, we do not recommend taking this risk. If you're unable to get your RV or trailer into the campsite, we won't be able to find another campsite for you. You can call the campground office at the phone number listed in your reservation if you have questions about a specific campsite. Please read the site alerts carefully, and realize that the lengths allowable are almost always different depending on if you are in a RV or a trailer (trailer maneuverability limits trailer length).\n\n## I made a reservation for an RV nonelectric campsite but only have a tent. Can I still use the campsite?\n\nSome campsites are listed on recreation.gov as \"RV nonelectric.\" This means the campsite is best suited for RVs and trailers. While you aren't required to use an RV in one of these campsites, they are listed as RV only because they generally do not have adequate or level space to pitch a tent. If you arrive and find that the campsite doesn't work for you and/or your tent, we will not be able to move you to a different campsite. You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you have questions about a specific campsite, you can call the campground office at the phone number listed in your reservation.\n\n## I made a reservation for a tent-only nonelectric campsite but have an RV or other vehicle I sleep in. Can I still use the campsite?\n\nRVs are not allowed in tent-only campsites. These sites only have space for tents and, in many cases, the parking is a short distance away from the campsite (and you're required to camp in the campsite). You should always read the site alerts and book a site that is appropriate for the equipment you will be camping in. If you arrive with different equipment than allowed in the site you reserved, we will not be able to accommodate you.\n\n## I made a reservation for a standard nonelectric campsite. What does this mean?\n\nMost reservable campsites in Yosemite are listed on recreation.gov as \"standard nonelectric.\" These campsites are suitable for both tents and RVs (or a combination of both). But be sure to read the site alerts and book a site that will accommodate your specific equipment. Many large RVs and trailers will not fit into many standard campsites.\n\n## In May and June, why are so many campsites in North Pines and Lower Pines not available for reservation?\n\nSpring floods are common in Yosemite Valley in May and June, with portions of Lower Pines, and, especially, North Pines Campgrounds becoming inundated. As a result, we don't make the affected campsites available for reservation until we are sure the river will be at a safe level. Depending on conditions, these campsites may be available for reservation a few weeks (less likely) or just a few days (more likely) in advance via recreation.gov. If water levels are high, these sites may only be available in the park on a first-come, first-served, daily basis.\n\n## We have more than two vehicles arriving at our campsite. Where can we park the additional vehicles?\n\nA maximum of two motor vehicles are allowed per campsite. All vehicles must be parked on a parking pad. Trailers don't count against the vehicle limit as long as they fit on the parking pad. Additional parking is available near each campground for no additional charge; for some campgrounds additional parking is very limited.\n\n## When can I check in? Can I check in after hours? What if I'm late?\n\nCheckin (and checkout) time is noon on your arrival date. If you arrive after the ranger has left the campground, proceed directly to the campsite indicated on your reservation. (At Tuolumne Meadows Campground, check the kiosk to find out which campsite you're assigned to.) You must check in at the campground kiosk or the reservation office the next morning to ensure we know you're here. If you plan to arrive later than the arrival date on your reservation, please call the campground office number listed on your reservation paperwork. If we don't hear from you by noon after the first night on your reservation, and you have not checked in, you will forfeit your entire reservation. The person whose name is on the reservation must check in with valid photo identification.\n\n## How can I cancel or change my reservation?\n\nCall 877/444-6777 to change or cancel your reservation. You can also log in to \u301018\u2020recreation.gov\u2020www.recreation.gov\u3011 to cancel your reservation.  \n\nLast updated: September 13, 2023\n\n## Park footer\n\n### Contact Info\n\n#### Phone:\n\n209"
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 910,
+              "end_idx": 920,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Recreation.gov - Camping, Cabins, RVs, Permits, Passes & More",
+              "url": "https://www.recreation.gov/reservation-policies",
+              "pub_date": null,
+              "snippet": "\nURL: https://www.recreation.gov/reservation-policies\nVisible: 0% - 100%"
+            }
+          ],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "4919bf64-ee04-41f3-88a1-345a575805e2",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8cc85a34dbcf4cae-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4919bf64-ee04-41f3-88a1-345a575805e2",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "bf1be7d3-02b6-47e8-ae56-a2f27f713feb",
+  "plugin_ids": null,
+  "conversation_id": "66fdd233-32a4-8009-a2da-854ef4c6d214",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.recreation.gov/reservation-policiesVisible",
+    "https://www.nps.gov/mora/planyourvisit/timed-entry-reservations-faq.htm",
+    "https://www.recreation.gov/rules-reservation-policies",
+    "https://www.recreation.gov/reservation-policies",
+    "https://www.nps.gov/yose/planyourvisit/campingfaq.htm"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "66fdd233-32a4-8009-a2da-854ef4c6d214"
+}

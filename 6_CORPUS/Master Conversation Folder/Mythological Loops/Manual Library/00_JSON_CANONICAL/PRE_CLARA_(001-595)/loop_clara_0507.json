@@ -1,0 +1,137 @@
+{
+  "loop_id": "loop_clara_0454",
+  "source_file": "convo_0454.json",
+  "timestamp": "2024-11-13T21:05:21.931003",
+  "title": "Bringing Plants Inside",
+  "presence_score": null,
+  "metrics": {
+    "tier_I": {
+      "responsiveness": null,
+      "cohesion": null,
+      "fidelity_to_prompt": null,
+      "resolution_type": null
+    },
+    "tier_II": {
+      "echo_retention": null,
+      "user_state_awareness": null,
+      "self_referential_continuity": null,
+      "feedback_incorporation": null
+    }
+  },
+  "tags": [],
+  "ignition_class": null,
+  "loop_body": {
+    "messages": [
+      {
+        "id": "1787846a-6fdb-481e-83ce-409a3e94f6c1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "create_time": null,
+        "update_time": null
+      },
+      {
+        "id": "2fa9e10e-5145-4dc4-8220-294755303cc3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": null,
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": null,
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_a40b446d0ed8303c3a57d857072f7d89395159a8cb10a5b7ba7dcc96e8dcc9b1df462079404e2aa8e6e8de6740b5d9d4",
+                "size_bytes": 224718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.68
+                }
+              },
+              "audio_start_timestamp": 6.485508003272116
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "I'm bringing my plants in from the cold. Do I need to do anything when I bring them in?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "create_time": 1731549922.158756,
+        "update_time": null
+      },
+      {
+        "id": "da170048-51cc-4fa1-8055-481eb8adad71",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, when you bring your plants indoors, there are a few steps you should take to help them adjust:\n\n1. **Check for pests**: Inspect your plants for insects or eggs that might hitch a ride indoors. You can rinse the plants or use a mild insecticidal soap.\n\n2. **Gradual adjustment**: If possible, transition your plants gradually to their new indoor environment. Start by bringing them in during the night and putting them back out during the day, gradually increasing their indoor time.\n\n3. **Adjust watering**: Indoor conditions are different, so your plants might need less water",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": null,
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_e0bb9da098b4303c28c5fc3a4156d407395159a8cb10a5b7ba7dcc96e8dcc9b1df462079404e2aa8e6e8de6740b5d9d4",
+              "size_bytes": 1728078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 36.0
+              }
+            }
+          ]
+        },
+        "create_time": 1731549922.445278,
+        "update_time": null
+      }
+    ],
+    "notes": "",
+    "quotes": [],
+    "anchors": []
+  },
+  "metadata": {
+    "original_file": "h:\\My Drive\\brandy_archive\\clara\\raw\\conversations_split\\convo_0454.json",
+    "normalized_at": "2025-09-23T09:58:08.814041",
+    "message_count": 3,
+    "create_time": 1731549921.931003,
+    "update_time": 1731549924.491969
+  }
+}

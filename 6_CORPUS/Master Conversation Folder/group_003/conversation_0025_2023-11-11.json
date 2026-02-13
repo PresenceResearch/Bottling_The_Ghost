@@ -1,0 +1,278 @@
+{
+  "title": "Sleeping at Jazz Concert",
+  "create_time": 1699736126.413187,
+  "update_time": 1699750421.297049,
+  "mapping": {
+    "A44035D1-2C87-4B41-81EE-880459D3B126": {
+      "id": "A44035D1-2C87-4B41-81EE-880459D3B126",
+      "message": null,
+      "parent": null,
+      "children": [
+        "4c0b0d93-12c8-4a08-aba7-66277cdf5e0a"
+      ]
+    },
+    "4c0b0d93-12c8-4a08-aba7-66277cdf5e0a": {
+      "id": "4c0b0d93-12c8-4a08-aba7-66277cdf5e0a",
+      "message": {
+        "id": "4c0b0d93-12c8-4a08-aba7-66277cdf5e0a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "A44035D1-2C87-4B41-81EE-880459D3B126",
+      "children": [
+        "ee92aef1-d693-4792-8d14-e85ab86bcbbb"
+      ]
+    },
+    "ee92aef1-d693-4792-8d14-e85ab86bcbbb": {
+      "id": "ee92aef1-d693-4792-8d14-e85ab86bcbbb",
+      "message": {
+        "id": "ee92aef1-d693-4792-8d14-e85ab86bcbbb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699736126.414061,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a group of old people sleeping at a jazz concert in New York "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4c0b0d93-12c8-4a08-aba7-66277cdf5e0a",
+      "children": [
+        "50c02c04-0a46-4487-96a9-c70d53a108e3"
+      ]
+    },
+    "50c02c04-0a46-4487-96a9-c70d53a108e3": {
+      "id": "50c02c04-0a46-4487-96a9-c70d53a108e3",
+      "message": {
+        "id": "50c02c04-0a46-4487-96a9-c70d53a108e3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699736155.94255,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A quaint jazz club in New York City with dim lighting and vintage decor. A group of elderly individuals are seated around a round table with a red velvet tablecloth. They are all dozing off, with a few heads resting on their hands and others slumped over the table. Some are wearing classic fedoras and glasses, and one has a cane resting against the table. In the background, a jazz band is performing on a small stage with a saxophonist, a double bass player, and a pianist. The atmosphere is cozy and the room is filled with soft jazz music and the faint sound of clinking glasses.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "ee92aef1-d693-4792-8d14-e85ab86bcbbb",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "ee92aef1-d693-4792-8d14-e85ab86bcbbb",
+      "children": [
+        "190837ec-1b99-4b2f-a1ee-185e185f8e68"
+      ]
+    },
+    "190837ec-1b99-4b2f-a1ee-185e185f8e68": {
+      "id": "190837ec-1b99-4b2f-a1ee-185e185f8e68",
+      "message": {
+        "id": "190837ec-1b99-4b2f-a1ee-185e185f8e68",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699736155.944114,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ReElgTMCyfMqgRyc6XyWQrRt",
+              "size_bytes": 202922,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "S8GXaSrZfO59KbXo",
+                  "prompt": "A quaint jazz club in New York City with dim lighting and vintage decor. A group of elderly individuals are seated around a round table with a red velvet tablecloth. They are all dozing off, with a few heads resting on their hands and others slumped over the table. Some are wearing classic fedoras and glasses, and one has a cane resting against the table. In the background, a jazz band is performing on a small stage with a saxophonist, a double bass player, and a pianist. The atmosphere is cozy and the room is filled with soft jazz music and the faint sound of clinking glasses.",
+                  "seed": 2733887046,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "50c02c04-0a46-4487-96a9-c70d53a108e3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "50c02c04-0a46-4487-96a9-c70d53a108e3",
+      "children": [
+        "a99832f6-b49a-4f09-ada7-b9d0f5985bc7"
+      ]
+    },
+    "a99832f6-b49a-4f09-ada7-b9d0f5985bc7": {
+      "id": "a99832f6-b49a-4f09-ada7-b9d0f5985bc7",
+      "message": {
+        "id": "a99832f6-b49a-4f09-ada7-b9d0f5985bc7",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699736155.94448,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "190837ec-1b99-4b2f-a1ee-185e185f8e68",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "190837ec-1b99-4b2f-a1ee-185e185f8e68",
+      "children": [
+        "42618efd-4dd1-4efa-940b-4a9442111502"
+      ]
+    },
+    "42618efd-4dd1-4efa-940b-4a9442111502": {
+      "id": "42618efd-4dd1-4efa-940b-4a9442111502",
+      "message": {
+        "id": "42618efd-4dd1-4efa-940b-4a9442111502",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699736155.94472,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the image you requested."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "a99832f6-b49a-4f09-ada7-b9d0f5985bc7",
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a99832f6-b49a-4f09-ada7-b9d0f5985bc7",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "42618efd-4dd1-4efa-940b-4a9442111502",
+  "plugin_ids": null,
+  "conversation_id": "59005a91-4a20-4076-9a0f-4d0448c0f29e",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "59005a91-4a20-4076-9a0f-4d0448c0f29e"
+}

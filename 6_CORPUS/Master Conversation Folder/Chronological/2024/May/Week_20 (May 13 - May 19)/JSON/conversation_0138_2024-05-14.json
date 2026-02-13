@@ -1,0 +1,184 @@
+{
+  "title": "Tax Credit Adder Appeal",
+  "create_time": 1715729700.802713,
+  "update_time": 1715729718.809564,
+  "mapping": {
+    "cf216b25-1162-4e33-8df4-feb092990404": {
+      "id": "cf216b25-1162-4e33-8df4-feb092990404",
+      "message": null,
+      "parent": null,
+      "children": [
+        "5e28b9da-cf08-4125-a5f1-6460937e3e4b"
+      ]
+    },
+    "5e28b9da-cf08-4125-a5f1-6460937e3e4b": {
+      "id": "5e28b9da-cf08-4125-a5f1-6460937e3e4b",
+      "message": {
+        "id": "5e28b9da-cf08-4125-a5f1-6460937e3e4b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf216b25-1162-4e33-8df4-feb092990404",
+      "children": [
+        "f70ea18c-c4ca-4d85-846d-bc7fcef10fa8"
+      ]
+    },
+    "f70ea18c-c4ca-4d85-846d-bc7fcef10fa8": {
+      "id": "f70ea18c-c4ca-4d85-846d-bc7fcef10fa8",
+      "message": {
+        "id": "f70ea18c-c4ca-4d85-846d-bc7fcef10fa8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1715729700.805856,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If my property is located within a few miles of an energy community can I appeal to claim the tax credit adder?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "883eb3c4596d8015-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5e28b9da-cf08-4125-a5f1-6460937e3e4b",
+      "children": [
+        "e98a64d5-e1b2-44d7-a6f7-614d40a13e6c"
+      ]
+    },
+    "e98a64d5-e1b2-44d7-a6f7-614d40a13e6c": {
+      "id": "e98a64d5-e1b2-44d7-a6f7-614d40a13e6c",
+      "message": {
+        "id": "e98a64d5-e1b2-44d7-a6f7-614d40a13e6c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1715729717.921973,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "default_model_slug": "gpt-4",
+          "parent_id": "f70ea18c-c4ca-4d85-846d-bc7fcef10fa8",
+          "request_id": "883eb3c4596d8015-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f70ea18c-c4ca-4d85-846d-bc7fcef10fa8",
+      "children": [
+        "d8d55c6e-e2df-4f97-858a-7ec842e44211"
+      ]
+    },
+    "d8d55c6e-e2df-4f97-858a-7ec842e44211": {
+      "id": "d8d55c6e-e2df-4f97-858a-7ec842e44211",
+      "message": {
+        "id": "d8d55c6e-e2df-4f97-858a-7ec842e44211",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1715729717.922136,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If your property is located within a few miles of an energy community, whether you can claim the tax credit adder depends on specific qualifications and guidelines set by the relevant tax authority, usually outlined in the legislation or regulations concerning such credits. Generally, the definition of \"within\" an energy community can vary, sometimes including precise geographical boundaries or criteria related to economic impacts from the energy sector.\n\nTo appeal for inclusion or to claim the tax credit adder, you would typically need to:\n\n1. **Confirm Eligibility**: Review the specific criteria for what constitutes an \"energy community\". This often involves specific distances from facilities like power plants or mines, or areas significantly impacted by job losses in the energy sector.\n\n2. **Documentation**: Gather any necessary documentation that demonstrates your property's location relative to the designated energy community boundaries. This could include maps, property deeds, or other geographical data.\n\n3. **Application Process**: Follow the application process specified by the tax authority or the body administering the tax credit. This might include forms to fill out and the submission of supporting documentation.\n\n4. **Consult a Professional**: It may be helpful to consult with a tax professional or legal advisor who specializes in tax credits and incentives to ensure your application is properly prepared and to maximize your chances of a successful appeal.\n\n5. **Appeal Procedures**: If your initial claim is denied, check if there is an appeals process. This process would typically allow you to present your case to a review board or similar body.\n\nIt's important to carefully review the rules and regulations associated with the tax credit, as these will provide detailed guidance on eligibility and the application process."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "default_model_slug": "gpt-4",
+          "pad": "AAAAA",
+          "parent_id": "e98a64d5-e1b2-44d7-a6f7-614d40a13e6c",
+          "request_id": "883eb3c4596d8015-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e98a64d5-e1b2-44d7-a6f7-614d40a13e6c",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d8d55c6e-e2df-4f97-858a-7ec842e44211",
+  "plugin_ids": null,
+  "conversation_id": "5f136cd1-181f-410e-a651-28544f58f449",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "5f136cd1-181f-410e-a651-28544f58f449"
+}

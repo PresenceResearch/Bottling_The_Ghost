@@ -1,0 +1,1080 @@
+{
+  "title": "Camper Russ Illustrations",
+  "create_time": 1700400098.116018,
+  "update_time": 1701192440.70991,
+  "mapping": {
+    "92BE6CB9-AFA8-4497-8ADC-EDBA0390A5D3": {
+      "id": "92BE6CB9-AFA8-4497-8ADC-EDBA0390A5D3",
+      "message": null,
+      "parent": null,
+      "children": [
+        "90299eff-eaf9-44c8-a0bf-6538f760203e"
+      ]
+    },
+    "90299eff-eaf9-44c8-a0bf-6538f760203e": {
+      "id": "90299eff-eaf9-44c8-a0bf-6538f760203e",
+      "message": {
+        "id": "90299eff-eaf9-44c8-a0bf-6538f760203e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92BE6CB9-AFA8-4497-8ADC-EDBA0390A5D3",
+      "children": [
+        "7031062b-5671-4a69-a006-d6ab1a2f1547"
+      ]
+    },
+    "7031062b-5671-4a69-a006-d6ab1a2f1547": {
+      "id": "7031062b-5671-4a69-a006-d6ab1a2f1547",
+      "message": {
+        "id": "7031062b-5671-4a69-a006-d6ab1a2f1547",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "90299eff-eaf9-44c8-a0bf-6538f760203e",
+      "children": [
+        "9860f8ad-6458-4829-826d-561565e0d5b2"
+      ]
+    },
+    "9860f8ad-6458-4829-826d-561565e0d5b2": {
+      "id": "9860f8ad-6458-4829-826d-561565e0d5b2",
+      "message": {
+        "id": "9860f8ad-6458-4829-826d-561565e0d5b2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400098.116367,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-yRLyO3BNRBZZcLd0SehJC99Y",
+              "size_bytes": 300481,
+              "width": 1024,
+              "height": 1024,
+              "fovea": null,
+              "metadata": null
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-qA9hUCm8wMrSPp7fjegurRSg",
+              "size_bytes": 355351,
+              "width": 708,
+              "height": 1536,
+              "fovea": null,
+              "metadata": null
+            },
+            "Please create a poster incorporating the following images. The theme will be summer camp and the text will read \u201cCamper Russ\u201d "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-yRLyO3BNRBZZcLd0SehJC99Y",
+              "width": 1024,
+              "height": 1024,
+              "name": "IMG_0060.jpeg",
+              "size": 300481
+            },
+            {
+              "id": "file-qA9hUCm8wMrSPp7fjegurRSg",
+              "height": 1536,
+              "width": 708,
+              "size": 355351,
+              "name": "IMG_0061.jpeg"
+            }
+          ],
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7031062b-5671-4a69-a006-d6ab1a2f1547",
+      "children": [
+        "52341162-a782-47d7-bdad-d12580493137"
+      ]
+    },
+    "52341162-a782-47d7-bdad-d12580493137": {
+      "id": "52341162-a782-47d7-bdad-d12580493137",
+      "message": {
+        "id": "52341162-a782-47d7-bdad-d12580493137",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400122.782752,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\n  \"size\": \"1024x1024\",\n  \"prompt\": \"Create a summer camp themed poster featuring an anthropomorphic sun character, similar to the one shown in the reference image, but with a different design, wearing a hat like the one worn by the man in the second reference image. The sun character should have a friendly and welcoming expression, holding a book in one hand and a drink can in the other, seated casually outdoors with a background of trees and a camp setting. Include the text 'Camper Russ' in a playful, camp-style font at the top of the poster. The overall feel should be cheerful and inviting, suitable for a summer camp promotion.\"\n}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "9860f8ad-6458-4829-826d-561565e0d5b2",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "9860f8ad-6458-4829-826d-561565e0d5b2",
+      "children": [
+        "ddee04ec-aa32-496e-ab91-40b46b741e29"
+      ]
+    },
+    "ddee04ec-aa32-496e-ab91-40b46b741e29": {
+      "id": "ddee04ec-aa32-496e-ab91-40b46b741e29",
+      "message": {
+        "id": "ddee04ec-aa32-496e-ab91-40b46b741e29",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400122.783934,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7IBdwQgqm0qQcwRfEKIhYSFZ",
+              "size_bytes": 403694,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "HPLF9Ra20SS7BmCc",
+                  "prompt": "Create a summer camp themed poster featuring an anthropomorphic sun character, similar to the one shown in the reference image, but with a different design, wearing a hat like the one worn by the man in the second reference image. The sun character should have a friendly and welcoming expression, holding a book in one hand and a drink can in the other, seated casually outdoors with a background of trees and a camp setting. Include the text 'Camper Russ' in a playful, camp-style font at the top of the poster. The overall feel should be cheerful and inviting, suitable for a summer camp promotion.",
+                  "seed": 2373718395,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-oXLZTD1G2VgeU3wR8AbK59V3",
+              "size_bytes": 315626,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "JneMyTvQSBudJmq3",
+                  "prompt": "Create a summer camp themed poster featuring an anthropomorphic sun character, similar to the one shown in the reference image, but with a different design, wearing a hat like the one worn by the man in the second reference image. The sun character should have a friendly and welcoming expression, holding a book in one hand and a drink can in the other, seated casually outdoors with a background of trees and a camp setting. Include the text 'Camper Russ' in a playful, camp-style font at the top of the poster. The overall feel should be cheerful and inviting, suitable for a summer camp promotion.",
+                  "seed": 3418105226,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "52341162-a782-47d7-bdad-d12580493137",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "52341162-a782-47d7-bdad-d12580493137",
+      "children": [
+        "281bb901-842e-47a6-93f1-9053747dc592"
+      ]
+    },
+    "281bb901-842e-47a6-93f1-9053747dc592": {
+      "id": "281bb901-842e-47a6-93f1-9053747dc592",
+      "message": {
+        "id": "281bb901-842e-47a6-93f1-9053747dc592",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400122.784212,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ddee04ec-aa32-496e-ab91-40b46b741e29",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ddee04ec-aa32-496e-ab91-40b46b741e29",
+      "children": [
+        "9cc1e3a9-ac6f-4d25-ab62-86743958c837"
+      ]
+    },
+    "9cc1e3a9-ac6f-4d25-ab62-86743958c837": {
+      "id": "9cc1e3a9-ac6f-4d25-ab62-86743958c837",
+      "message": {
+        "id": "9cc1e3a9-ac6f-4d25-ab62-86743958c837",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400122.784345,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are two versions of the summer camp themed poster featuring the character 'Camper Russ'. You can select the one that best fits your vision for the theme."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "281bb901-842e-47a6-93f1-9053747dc592",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "281bb901-842e-47a6-93f1-9053747dc592",
+      "children": [
+        "772c9c70-3991-4f5a-ad7e-016e609dc02f"
+      ]
+    },
+    "772c9c70-3991-4f5a-ad7e-016e609dc02f": {
+      "id": "772c9c70-3991-4f5a-ad7e-016e609dc02f",
+      "message": {
+        "id": "772c9c70-3991-4f5a-ad7e-016e609dc02f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400169.841992,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate an image of a man in a fishing hat sleeping on a chair in a summer camp setting. Please include the text \u201cCamper Russ\u201d"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9cc1e3a9-ac6f-4d25-ab62-86743958c837",
+      "children": [
+        "e43c9150-402a-442b-a921-0424214e6399"
+      ]
+    },
+    "e43c9150-402a-442b-a921-0424214e6399": {
+      "id": "e43c9150-402a-442b-a921-0424214e6399",
+      "message": {
+        "id": "e43c9150-402a-442b-a921-0424214e6399",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400203.003647,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create an image of a man in a fishing hat, sleeping on a chair in a serene summer camp setting. The man should appear relaxed and content, with a background depicting a peaceful campsite, including tents, a calm lake, and a backdrop of lush trees. The lighting should be warm, suggesting a lazy summer afternoon. Add the text 'Camper Russ' in a casual, camp-friendly font, integrated into the scene in a way that feels organic, perhaps on a signpost or banner within the image.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "772c9c70-3991-4f5a-ad7e-016e609dc02f",
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "772c9c70-3991-4f5a-ad7e-016e609dc02f",
+      "children": [
+        "0f35a096-6e70-4d77-910e-9702822d2f78",
+        "dc858128-4abf-49cd-92dd-fe90caabf432"
+      ]
+    },
+    "0f35a096-6e70-4d77-910e-9702822d2f78": {
+      "id": "0f35a096-6e70-4d77-910e-9702822d2f78",
+      "message": {
+        "id": "0f35a096-6e70-4d77-910e-9702822d2f78",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400203.004905,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-6Hkk32inK9PhHCftKiznDYbB",
+              "size_bytes": 212444,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "CdPXHJjzX0pgH6g1",
+                  "prompt": "Create an image of a man in a fishing hat, sleeping on a chair in a serene summer camp setting. The man should appear relaxed and content, with a background depicting a peaceful campsite, including tents, a calm lake, and a backdrop of lush trees. The lighting should be warm, suggesting a lazy summer afternoon. Add the text 'Camper Russ' in a casual, camp-friendly font, integrated into the scene in a way that feels organic, perhaps on a signpost or banner within the image.",
+                  "seed": 4002153951,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-6vPzNPSA6Grsk4XIcObIft0I",
+              "size_bytes": 343944,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "nFcXvin7huAuOTlO",
+                  "prompt": "Create an image of a man in a fishing hat, sleeping on a chair in a serene summer camp setting. The man should appear relaxed and content, with a background depicting a peaceful campsite, including tents, a calm lake, and a backdrop of lush trees. The lighting should be warm, suggesting a lazy summer afternoon. Add the text 'Camper Russ' in a casual, camp-friendly font, integrated into the scene in a way that feels organic, perhaps on a signpost or banner within the image.",
+                  "seed": 2222039509,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e43c9150-402a-442b-a921-0424214e6399",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e43c9150-402a-442b-a921-0424214e6399",
+      "children": [
+        "87032a8b-81f6-4936-9498-c52b0792ead6"
+      ]
+    },
+    "dc858128-4abf-49cd-92dd-fe90caabf432": {
+      "id": "dc858128-4abf-49cd-92dd-fe90caabf432",
+      "message": {
+        "id": "dc858128-4abf-49cd-92dd-fe90caabf432",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400292.846465,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please create an image of an elderly man in glasses and an Irish hat asleep in a chair with a book on his lap in front of a fireplace. Please include the text \u201cCamper Russ\u201d"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e43c9150-402a-442b-a921-0424214e6399",
+      "children": [
+        "d2287ab5-c2d1-458a-a0b5-2dfe366cfadd"
+      ]
+    },
+    "87032a8b-81f6-4936-9498-c52b0792ead6": {
+      "id": "87032a8b-81f6-4936-9498-c52b0792ead6",
+      "message": {
+        "id": "87032a8b-81f6-4936-9498-c52b0792ead6",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400203.005247,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "0f35a096-6e70-4d77-910e-9702822d2f78",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0f35a096-6e70-4d77-910e-9702822d2f78",
+      "children": [
+        "8b128adb-e5f3-4392-8efa-ad4f84cc27c1"
+      ]
+    },
+    "d2287ab5-c2d1-458a-a0b5-2dfe366cfadd": {
+      "id": "d2287ab5-c2d1-458a-a0b5-2dfe366cfadd",
+      "message": {
+        "id": "d2287ab5-c2d1-458a-a0b5-2dfe366cfadd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400329.607739,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Illustrate an elderly man with glasses and an Irish-style hat, asleep in a cozy armchair with a book on his lap. The setting is indoors, in front of a warm, crackling fireplace that gives a comfortable glow to the room. The man should exude a sense of peace and contentment. Surround the chair with a few camping-themed items to subtly suggest a connection to camping, like a camping mug or a small backpack. Above the fireplace, on the mantle, include the text 'Camper Russ' in a rustic, homey font that complements the warm atmosphere of the scene.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "dc858128-4abf-49cd-92dd-fe90caabf432",
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "dc858128-4abf-49cd-92dd-fe90caabf432",
+      "children": [
+        "0f33980a-1a5f-4d19-9b75-660444db1100"
+      ]
+    },
+    "8b128adb-e5f3-4392-8efa-ad4f84cc27c1": {
+      "id": "8b128adb-e5f3-4392-8efa-ad4f84cc27c1",
+      "message": {
+        "id": "8b128adb-e5f3-4392-8efa-ad4f84cc27c1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400203.005404,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images reflecting the tranquil summer camp setting with 'Camper Russ' enjoying a peaceful nap. The text has been incorporated into the scene."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "87032a8b-81f6-4936-9498-c52b0792ead6",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "87032a8b-81f6-4936-9498-c52b0792ead6",
+      "children": []
+    },
+    "0f33980a-1a5f-4d19-9b75-660444db1100": {
+      "id": "0f33980a-1a5f-4d19-9b75-660444db1100",
+      "message": {
+        "id": "0f33980a-1a5f-4d19-9b75-660444db1100",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400329.609058,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7XY1TIYwrqS1mb8LPPKomOjX",
+              "size_bytes": 378438,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "basUhaBO3vz2Mftk",
+                  "prompt": "Illustrate an elderly man with glasses and an Irish-style hat, asleep in a cozy armchair with a book on his lap. The setting is indoors, in front of a warm, crackling fireplace that gives a comfortable glow to the room. The man should exude a sense of peace and contentment. Surround the chair with a few camping-themed items to subtly suggest a connection to camping, like a camping mug or a small backpack. Above the fireplace, on the mantle, include the text 'Camper Russ' in a rustic, homey font that complements the warm atmosphere of the scene.",
+                  "seed": 2075687921,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ysVB836OeDQS3SGJgFLwbfne",
+              "size_bytes": 348432,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "XGyzZbjeXImnB4Zu",
+                  "prompt": "Illustrate an elderly man with glasses and an Irish-style hat, asleep in a cozy armchair with a book on his lap. The setting is indoors, in front of a warm, crackling fireplace that gives a comfortable glow to the room. The man should exude a sense of peace and contentment. Surround the chair with a few camping-themed items to subtly suggest a connection to camping, like a camping mug or a small backpack. Above the fireplace, on the mantle, include the text 'Camper Russ' in a rustic, homey font that complements the warm atmosphere of the scene.",
+                  "seed": 638587163,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "d2287ab5-c2d1-458a-a0b5-2dfe366cfadd",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d2287ab5-c2d1-458a-a0b5-2dfe366cfadd",
+      "children": [
+        "ada1a473-f6ad-4a0f-887c-11dbac82e757"
+      ]
+    },
+    "ada1a473-f6ad-4a0f-887c-11dbac82e757": {
+      "id": "ada1a473-f6ad-4a0f-887c-11dbac82e757",
+      "message": {
+        "id": "ada1a473-f6ad-4a0f-887c-11dbac82e757",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400329.609373,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "0f33980a-1a5f-4d19-9b75-660444db1100",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0f33980a-1a5f-4d19-9b75-660444db1100",
+      "children": [
+        "5bb5a274-133f-4cb6-a7b8-4911843f70d0"
+      ]
+    },
+    "5bb5a274-133f-4cb6-a7b8-4911843f70d0": {
+      "id": "5bb5a274-133f-4cb6-a7b8-4911843f70d0",
+      "message": {
+        "id": "5bb5a274-133f-4cb6-a7b8-4911843f70d0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400329.60951,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are two illustrations of 'Camper Russ' enjoying a peaceful nap in front of a fireplace."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ada1a473-f6ad-4a0f-887c-11dbac82e757",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ada1a473-f6ad-4a0f-887c-11dbac82e757",
+      "children": [
+        "19b8c5db-f6e6-4aae-a8b8-d6181c4dd1d5"
+      ]
+    },
+    "19b8c5db-f6e6-4aae-a8b8-d6181c4dd1d5": {
+      "id": "19b8c5db-f6e6-4aae-a8b8-d6181c4dd1d5",
+      "message": {
+        "id": "19b8c5db-f6e6-4aae-a8b8-d6181c4dd1d5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400343.822196,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please remove the Irish hat "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5bb5a274-133f-4cb6-a7b8-4911843f70d0",
+      "children": [
+        "1f246fe3-453b-4783-8e03-2ff0d1c5c79c"
+      ]
+    },
+    "1f246fe3-453b-4783-8e03-2ff0d1c5c79c": {
+      "id": "1f246fe3-453b-4783-8e03-2ff0d1c5c79c",
+      "message": {
+        "id": "1f246fe3-453b-4783-8e03-2ff0d1c5c79c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400385.170369,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Illustrate an elderly man with glasses, asleep in a cozy armchair with a book on his lap. There should be no Irish-style hat on the man's head. The setting is indoors, in front of a warm, crackling fireplace that gives a comfortable glow to the room. The man should exude a sense of peace and contentment. The room includes camping-themed items to subtly suggest a connection to camping, like a camping mug or a small backpack. Above the fireplace, on the mantle, display the text 'Camper Russ' in a rustic, homey font that complements the warm atmosphere of the scene.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "19b8c5db-f6e6-4aae-a8b8-d6181c4dd1d5",
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "19b8c5db-f6e6-4aae-a8b8-d6181c4dd1d5",
+      "children": [
+        "e544d9a9-bd77-490c-8a54-1301855bb3ac"
+      ]
+    },
+    "e544d9a9-bd77-490c-8a54-1301855bb3ac": {
+      "id": "e544d9a9-bd77-490c-8a54-1301855bb3ac",
+      "message": {
+        "id": "e544d9a9-bd77-490c-8a54-1301855bb3ac",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400385.171586,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-BqbZtMcDINLDkrYu8QCsg4cI",
+              "size_bytes": 413638,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "Fb4vVoQp0XdB4Baf",
+                  "prompt": "Illustrate an elderly man with glasses, asleep in a cozy armchair with a book on his lap. There should be no Irish-style hat on the man's head. The setting is indoors, in front of a warm, crackling fireplace that gives a comfortable glow to the room. The man should exude a sense of peace and contentment. The room includes camping-themed items to subtly suggest a connection to camping, like a camping mug or a small backpack. Above the fireplace, on the mantle, display the text 'Camper Russ' in a rustic, homey font that complements the warm atmosphere of the scene.",
+                  "seed": 1150886333,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Lz9vY2L7NVQ4aMTHFRwuNJmI",
+              "size_bytes": 325992,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "RSVdEhOMb8tNndbE",
+                  "prompt": "Illustrate an elderly man with glasses, asleep in a cozy armchair with a book on his lap. There should be no Irish-style hat on the man's head. The setting is indoors, in front of a warm, crackling fireplace that gives a comfortable glow to the room. The man should exude a sense of peace and contentment. The room includes camping-themed items to subtly suggest a connection to camping, like a camping mug or a small backpack. Above the fireplace, on the mantle, display the text 'Camper Russ' in a rustic, homey font that complements the warm atmosphere of the scene.",
+                  "seed": 2322960796,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "1f246fe3-453b-4783-8e03-2ff0d1c5c79c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f246fe3-453b-4783-8e03-2ff0d1c5c79c",
+      "children": [
+        "0e062d1b-bad4-494f-a607-e6500e35b9ff"
+      ]
+    },
+    "0e062d1b-bad4-494f-a607-e6500e35b9ff": {
+      "id": "0e062d1b-bad4-494f-a607-e6500e35b9ff",
+      "message": {
+        "id": "0e062d1b-bad4-494f-a607-e6500e35b9ff",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1700400385.171938,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e544d9a9-bd77-490c-8a54-1301855bb3ac",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e544d9a9-bd77-490c-8a54-1301855bb3ac",
+      "children": [
+        "56d1c600-b544-4390-89e7-b14ae7626122"
+      ]
+    },
+    "56d1c600-b544-4390-89e7-b14ae7626122": {
+      "id": "56d1c600-b544-4390-89e7-b14ae7626122",
+      "message": {
+        "id": "56d1c600-b544-4390-89e7-b14ae7626122",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1700400385.172112,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the updated illustrations with 'Camper Russ' without the Irish hat, relaxing by the fireplace."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "0e062d1b-bad4-494f-a607-e6500e35b9ff",
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e062d1b-bad4-494f-a607-e6500e35b9ff",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "56d1c600-b544-4390-89e7-b14ae7626122",
+  "plugin_ids": null,
+  "conversation_id": "0dd671be-5df5-4f7c-89cd-1dcaddbc8590",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "0dd671be-5df5-4f7c-89cd-1dcaddbc8590"
+}

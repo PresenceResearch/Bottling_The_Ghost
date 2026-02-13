@@ -1,0 +1,3986 @@
+{
+  "title": "Old Wizard Reads Scroll",
+  "create_time": 1707764524.989962,
+  "update_time": 1707774021.759572,
+  "mapping": {
+    "aaa17296-e711-4112-bc6a-a86aae64e11d": {
+      "id": "aaa17296-e711-4112-bc6a-a86aae64e11d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "ddea2ea2-f5b0-471c-ac93-6c4865968769"
+      ]
+    },
+    "ddea2ea2-f5b0-471c-ac93-6c4865968769": {
+      "id": "ddea2ea2-f5b0-471c-ac93-6c4865968769",
+      "message": {
+        "id": "ddea2ea2-f5b0-471c-ac93-6c4865968769",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa17296-e711-4112-bc6a-a86aae64e11d",
+      "children": [
+        "66611f1e-209a-4090-a285-0ff41703f0cb"
+      ]
+    },
+    "66611f1e-209a-4090-a285-0ff41703f0cb": {
+      "id": "66611f1e-209a-4090-a285-0ff41703f0cb",
+      "message": {
+        "id": "66611f1e-209a-4090-a285-0ff41703f0cb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ddea2ea2-f5b0-471c-ac93-6c4865968769",
+      "children": [
+        "aaa21945-17d4-4514-a7dc-d01daf64a6dc"
+      ]
+    },
+    "aaa21945-17d4-4514-a7dc-d01daf64a6dc": {
+      "id": "aaa21945-17d4-4514-a7dc-d01daf64a6dc",
+      "message": {
+        "id": "aaa21945-17d4-4514-a7dc-d01daf64a6dc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764524.991002,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please create an image of a very old wizard reading a long scroll"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85471577eccd3aed-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "66611f1e-209a-4090-a285-0ff41703f0cb",
+      "children": [
+        "f648147a-f98f-49aa-8242-b98551c132d5"
+      ]
+    },
+    "f648147a-f98f-49aa-8242-b98551c132d5": {
+      "id": "f648147a-f98f-49aa-8242-b98551c132d5",
+      "message": {
+        "id": "f648147a-f98f-49aa-8242-b98551c132d5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764551.723793,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A very old wizard, with a long, flowing white beard and deep wrinkles etched into his face, stands in a dimly lit, ancient library filled with towering bookshelves. He wears a long, tattered robe adorned with mystical symbols and holds a lengthy, ancient scroll unfurled in his hands, which he reads intently. Soft light filters through a nearby window, casting a mystical glow over the scene, highlighting the dust motes dancing in the air. The wizard's staff, topped with a glowing crystal, leans against the bookshelf beside him, casting faint, magical shadows on the stone floor.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa21945-17d4-4514-a7dc-d01daf64a6dc",
+          "request_id": "85471577eccd3aed-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa21945-17d4-4514-a7dc-d01daf64a6dc",
+      "children": [
+        "94d13756-ef6f-4c35-8eb5-d2c84efce452"
+      ]
+    },
+    "94d13756-ef6f-4c35-8eb5-d2c84efce452": {
+      "id": "94d13756-ef6f-4c35-8eb5-d2c84efce452",
+      "message": {
+        "id": "94d13756-ef6f-4c35-8eb5-d2c84efce452",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764551.726564,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-xJBmlO7okNyBv5hnWkfHHtON",
+              "size_bytes": 283596,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "9WtjnBFOqrPENE2V",
+                  "prompt": "A very old wizard, with a long, flowing white beard and deep wrinkles etched into his face, stands in a dimly lit, ancient library filled with towering bookshelves. He wears a long, tattered robe adorned with mystical symbols and holds a lengthy, ancient scroll unfurled in his hands, which he reads intently. Soft light filters through a nearby window, casting a mystical glow over the scene, highlighting the dust motes dancing in the air. The wizard's staff, topped with a glowing crystal, leans against the bookshelf beside him, casting faint, magical shadows on the stone floor.",
+                  "seed": 3512857437,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ubWrlemM5VhtcioRzlmI7Ysr",
+              "size_bytes": 321652,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "h9IcDysFROHtIuSo",
+                  "prompt": "A very old wizard, with a long, flowing white beard and deep wrinkles etched into his face, stands in a dimly lit, ancient library filled with towering bookshelves. He wears a long, tattered robe adorned with mystical symbols and holds a lengthy, ancient scroll unfurled in his hands, which he reads intently. Soft light filters through a nearby window, casting a mystical glow over the scene, highlighting the dust motes dancing in the air. The wizard's staff, topped with a glowing crystal, leans against the bookshelf beside him, casting faint, magical shadows on the stone floor.",
+                  "seed": 2313123664,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f648147a-f98f-49aa-8242-b98551c132d5",
+          "request_id": "85471577eccd3aed-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f648147a-f98f-49aa-8242-b98551c132d5",
+      "children": [
+        "e131dd46-4e02-4bb2-b578-e2c133ea272a"
+      ]
+    },
+    "e131dd46-4e02-4bb2-b578-e2c133ea272a": {
+      "id": "e131dd46-4e02-4bb2-b578-e2c133ea272a",
+      "message": {
+        "id": "e131dd46-4e02-4bb2-b578-e2c133ea272a",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764551.726858,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "94d13756-ef6f-4c35-8eb5-d2c84efce452",
+          "request_id": "85471577eccd3aed-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "94d13756-ef6f-4c35-8eb5-d2c84efce452",
+      "children": [
+        "30d7b1ed-98f9-48d8-98c9-b6e6d2943be8"
+      ]
+    },
+    "30d7b1ed-98f9-48d8-98c9-b6e6d2943be8": {
+      "id": "30d7b1ed-98f9-48d8-98c9-b6e6d2943be8",
+      "message": {
+        "id": "30d7b1ed-98f9-48d8-98c9-b6e6d2943be8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764551.726997,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the very old wizard reading a long scroll in an ancient library. Let me know if there's anything else you'd like!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e131dd46-4e02-4bb2-b578-e2c133ea272a",
+          "request_id": "85471577eccd3aed-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e131dd46-4e02-4bb2-b578-e2c133ea272a",
+      "children": [
+        "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce"
+      ]
+    },
+    "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce": {
+      "id": "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce",
+      "message": {
+        "id": "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764603.134898,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please have him sitting at a small midieval desk in a dark dungeorn with a quill in his hand and candles on top of skulls on top of this desk"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "854718d08f4028a4-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "30d7b1ed-98f9-48d8-98c9-b6e6d2943be8",
+      "children": [
+        "c4890b56-7699-47b1-902f-2bf86173c5df",
+        "841e2e16-cc59-486f-9485-12880b95870c"
+      ]
+    },
+    "c4890b56-7699-47b1-902f-2bf86173c5df": {
+      "id": "c4890b56-7699-47b1-902f-2bf86173c5df",
+      "message": {
+        "id": "c4890b56-7699-47b1-902f-2bf86173c5df",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764632.849538,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"An ancient wizard sits at a small, medieval desk in the depths of a dark dungeon. His long, flowing white beard nearly touches the floor, and his face is etched with deep wrinkles, a testament to his age. The wizard is dressed in a tattered robe adorned with arcane symbols. He holds a feathered quill in one hand, poised above a scroll that is sprawled out in front of him on the desk. The desk is lit by candles placed atop skulls, casting eerie shadows and illuminating the parchment with a flickering glow. The surrounding dungeon is filled with shadows, with stone walls that hold the secrets of centuries.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce",
+          "request_id": "854717609a6228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce",
+      "children": [
+        "c3010b69-9ae2-4451-b55f-ae23f895a97f"
+      ]
+    },
+    "841e2e16-cc59-486f-9485-12880b95870c": {
+      "id": "841e2e16-cc59-486f-9485-12880b95870c",
+      "message": {
+        "id": "841e2e16-cc59-486f-9485-12880b95870c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764688.392509,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A very old wizard, with a long, flowing white beard and deep wrinkles, sits at a small, medieval desk in a dark dungeon. The atmosphere is eerie, illuminated only by the flickering light of candles placed atop skulls on the desk. He wears a tattered robe adorned with arcane symbols, and in his hand, he holds a feathered quill, poised above a thick, ancient tome open before him. Shadows dance across the stone walls, filled with chains and ancient artifacts. The air is thick with mystery, and the wizard's eyes, sharp and focused, reflect the candlelight as he studies the text intently.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce",
+          "request_id": "854718d08f4028a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2cb3b-23dc-4d42-aaef-5f6dabe238ce",
+      "children": [
+        "3213c224-64cf-4545-84b4-d1104b474c9d"
+      ]
+    },
+    "c3010b69-9ae2-4451-b55f-ae23f895a97f": {
+      "id": "c3010b69-9ae2-4451-b55f-ae23f895a97f",
+      "message": {
+        "id": "c3010b69-9ae2-4451-b55f-ae23f895a97f",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764632.852237,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-2vAZE7ej1zKtpbnn7hIkaHD9",
+              "size_bytes": 279326,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "hzcJOTAtRuymp4EI",
+                  "prompt": "An ancient wizard sits at a small, medieval desk in the depths of a dark dungeon. His long, flowing white beard nearly touches the floor, and his face is etched with deep wrinkles, a testament to his age. The wizard is dressed in a tattered robe adorned with arcane symbols. He holds a feathered quill in one hand, poised above a scroll that is sprawled out in front of him on the desk. The desk is lit by candles placed atop skulls, casting eerie shadows and illuminating the parchment with a flickering glow. The surrounding dungeon is filled with shadows, with stone walls that hold the secrets of centuries.",
+                  "seed": 1952278562,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-IeE3Xq5NAysm65VETetGsSpj",
+              "size_bytes": 330008,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "9tULav5z6NOZW1X2",
+                  "prompt": "An ancient wizard sits at a small, medieval desk in the depths of a dark dungeon. His long, flowing white beard nearly touches the floor, and his face is etched with deep wrinkles, a testament to his age. The wizard is dressed in a tattered robe adorned with arcane symbols. He holds a feathered quill in one hand, poised above a scroll that is sprawled out in front of him on the desk. The desk is lit by candles placed atop skulls, casting eerie shadows and illuminating the parchment with a flickering glow. The surrounding dungeon is filled with shadows, with stone walls that hold the secrets of centuries.",
+                  "seed": 2611384677,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "c4890b56-7699-47b1-902f-2bf86173c5df",
+          "request_id": "854717609a6228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c4890b56-7699-47b1-902f-2bf86173c5df",
+      "children": [
+        "947e7cb5-3073-4ebc-a187-654998bb1346"
+      ]
+    },
+    "3213c224-64cf-4545-84b4-d1104b474c9d": {
+      "id": "3213c224-64cf-4545-84b4-d1104b474c9d",
+      "message": {
+        "id": "3213c224-64cf-4545-84b4-d1104b474c9d",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764688.395335,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-dOGMv9BUDbipv8d4NMF6lyGz",
+              "size_bytes": 291428,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "LQB01jwdmo8XfPFZ",
+                  "prompt": "A very old wizard, with a long, flowing white beard and deep wrinkles, sits at a small, medieval desk in a dark dungeon. The atmosphere is eerie, illuminated only by the flickering light of candles placed atop skulls on the desk. He wears a tattered robe adorned with arcane symbols, and in his hand, he holds a feathered quill, poised above a thick, ancient tome open before him. Shadows dance across the stone walls, filled with chains and ancient artifacts. The air is thick with mystery, and the wizard's eyes, sharp and focused, reflect the candlelight as he studies the text intently.",
+                  "seed": 2449190261,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-5tLQPuyDdCT2KW8zTjN8dTWq",
+              "size_bytes": 297062,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "NCGG4deMBpSr9NjT",
+                  "prompt": "A very old wizard, with a long, flowing white beard and deep wrinkles, sits at a small, medieval desk in a dark dungeon. The atmosphere is eerie, illuminated only by the flickering light of candles placed atop skulls on the desk. He wears a tattered robe adorned with arcane symbols, and in his hand, he holds a feathered quill, poised above a thick, ancient tome open before him. Shadows dance across the stone walls, filled with chains and ancient artifacts. The air is thick with mystery, and the wizard's eyes, sharp and focused, reflect the candlelight as he studies the text intently.",
+                  "seed": 3559417662,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "841e2e16-cc59-486f-9485-12880b95870c",
+          "request_id": "854718d08f4028a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "841e2e16-cc59-486f-9485-12880b95870c",
+      "children": [
+        "03b761aa-62ee-483f-8d93-1c2cf5eaa0f8"
+      ]
+    },
+    "947e7cb5-3073-4ebc-a187-654998bb1346": {
+      "id": "947e7cb5-3073-4ebc-a187-654998bb1346",
+      "message": {
+        "id": "947e7cb5-3073-4ebc-a187-654998bb1346",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764632.852555,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "c3010b69-9ae2-4451-b55f-ae23f895a97f",
+          "request_id": "854717609a6228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3010b69-9ae2-4451-b55f-ae23f895a97f",
+      "children": [
+        "ae2b1f7c-33a1-4d64-832e-cf5b5fb825e3"
+      ]
+    },
+    "03b761aa-62ee-483f-8d93-1c2cf5eaa0f8": {
+      "id": "03b761aa-62ee-483f-8d93-1c2cf5eaa0f8",
+      "message": {
+        "id": "03b761aa-62ee-483f-8d93-1c2cf5eaa0f8",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764688.39566,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "3213c224-64cf-4545-84b4-d1104b474c9d",
+          "request_id": "854718d08f4028a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3213c224-64cf-4545-84b4-d1104b474c9d",
+      "children": [
+        "b6122689-e964-451a-934d-3cdaf78dee57"
+      ]
+    },
+    "ae2b1f7c-33a1-4d64-832e-cf5b5fb825e3": {
+      "id": "ae2b1f7c-33a1-4d64-832e-cf5b5fb825e3",
+      "message": {
+        "id": "ae2b1f7c-33a1-4d64-832e-cf5b5fb825e3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764632.852724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the ancient wizard sitting at a small medieval desk in a dark dungeon, with a quill in his hand and candles on top of skulls on the desk. Let me know if you need any further adjustments or another scene!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "947e7cb5-3073-4ebc-a187-654998bb1346",
+          "request_id": "854717609a6228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "947e7cb5-3073-4ebc-a187-654998bb1346",
+      "children": []
+    },
+    "b6122689-e964-451a-934d-3cdaf78dee57": {
+      "id": "b6122689-e964-451a-934d-3cdaf78dee57",
+      "message": {
+        "id": "b6122689-e964-451a-934d-3cdaf78dee57",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764688.395798,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the wizard sitting at a small medieval desk in a dark dungeon, with candles on top of skulls on the desk and a quill in his hand. Let me know if there's anything else you'd like to adjust or add!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "03b761aa-62ee-483f-8d93-1c2cf5eaa0f8",
+          "request_id": "854718d08f4028a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "03b761aa-62ee-483f-8d93-1c2cf5eaa0f8",
+      "children": [
+        "aaa2c6ea-dfd0-44d0-9db3-2c89f4374e7e"
+      ]
+    },
+    "aaa2c6ea-dfd0-44d0-9db3-2c89f4374e7e": {
+      "id": "aaa2c6ea-dfd0-44d0-9db3-2c89f4374e7e",
+      "message": {
+        "id": "aaa2c6ea-dfd0-44d0-9db3-2c89f4374e7e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764713.863911,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please make the desk very messy with piles of books and scrolls surrounding the wizard"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85471a147d5228a4-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b6122689-e964-451a-934d-3cdaf78dee57",
+      "children": [
+        "0e9a9e80-8ad4-4f6d-97c5-5c02bf13524f"
+      ]
+    },
+    "0e9a9e80-8ad4-4f6d-97c5-5c02bf13524f": {
+      "id": "0e9a9e80-8ad4-4f6d-97c5-5c02bf13524f",
+      "message": {
+        "id": "0e9a9e80-8ad4-4f6d-97c5-5c02bf13524f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764746.039013,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a dark, dungeon-like room, a very old wizard with a long, flowing white beard and deep wrinkles sits at a small, medieval desk, cluttered and very messy. The desk is overwhelmed with piles of ancient books, scrolls, and various magical artifacts, surrounding the wizard in a chaotic manner. Flickering candles atop skulls provide the only light, casting eerie shadows over the scene. The wizard, wearing a tattered robe adorned with arcane symbols, focuses intently on a scroll with a feathered quill in hand. The atmosphere is thick with the scent of old parchment and wax, and the stone walls of the dungeon are barely visible behind the towering stacks of books and scrolls.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2c6ea-dfd0-44d0-9db3-2c89f4374e7e",
+          "request_id": "85471a147d5228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2c6ea-dfd0-44d0-9db3-2c89f4374e7e",
+      "children": [
+        "ffc40618-5cfb-41a9-99d1-c3d6fe3af5a6"
+      ]
+    },
+    "ffc40618-5cfb-41a9-99d1-c3d6fe3af5a6": {
+      "id": "ffc40618-5cfb-41a9-99d1-c3d6fe3af5a6",
+      "message": {
+        "id": "ffc40618-5cfb-41a9-99d1-c3d6fe3af5a6",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764746.04174,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-tsIrQQhK8lmohoz1kbY0RjJV",
+              "size_bytes": 348034,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "xc7iCqIewFCvDTM5",
+                  "prompt": "In a dark, dungeon-like room, a very old wizard with a long, flowing white beard and deep wrinkles sits at a small, medieval desk, cluttered and very messy. The desk is overwhelmed with piles of ancient books, scrolls, and various magical artifacts, surrounding the wizard in a chaotic manner. Flickering candles atop skulls provide the only light, casting eerie shadows over the scene. The wizard, wearing a tattered robe adorned with arcane symbols, focuses intently on a scroll with a feathered quill in hand. The atmosphere is thick with the scent of old parchment and wax, and the stone walls of the dungeon are barely visible behind the towering stacks of books and scrolls.",
+                  "seed": 2126215892,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-BpCdlJq832ryfmSk6hPv64R2",
+              "size_bytes": 374326,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "8ecxwUDTu2kJgJmR",
+                  "prompt": "In a dark, dungeon-like room, a very old wizard with a long, flowing white beard and deep wrinkles sits at a small, medieval desk, cluttered and very messy. The desk is overwhelmed with piles of ancient books, scrolls, and various magical artifacts, surrounding the wizard in a chaotic manner. Flickering candles atop skulls provide the only light, casting eerie shadows over the scene. The wizard, wearing a tattered robe adorned with arcane symbols, focuses intently on a scroll with a feathered quill in hand. The atmosphere is thick with the scent of old parchment and wax, and the stone walls of the dungeon are barely visible behind the towering stacks of books and scrolls.",
+                  "seed": 1669693115,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "0e9a9e80-8ad4-4f6d-97c5-5c02bf13524f",
+          "request_id": "85471a147d5228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e9a9e80-8ad4-4f6d-97c5-5c02bf13524f",
+      "children": [
+        "ed9ee9b3-ab0c-451b-b387-04f05cea6fc9"
+      ]
+    },
+    "ed9ee9b3-ab0c-451b-b387-04f05cea6fc9": {
+      "id": "ed9ee9b3-ab0c-451b-b387-04f05cea6fc9",
+      "message": {
+        "id": "ed9ee9b3-ab0c-451b-b387-04f05cea6fc9",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764746.042025,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ffc40618-5cfb-41a9-99d1-c3d6fe3af5a6",
+          "request_id": "85471a147d5228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ffc40618-5cfb-41a9-99d1-c3d6fe3af5a6",
+      "children": [
+        "0b37d191-3dd4-4ea9-8ee9-b5be42e60df2"
+      ]
+    },
+    "0b37d191-3dd4-4ea9-8ee9-b5be42e60df2": {
+      "id": "0b37d191-3dd4-4ea9-8ee9-b5be42e60df2",
+      "message": {
+        "id": "0b37d191-3dd4-4ea9-8ee9-b5be42e60df2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764746.042158,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The wizard is now depicted sitting at a very messy desk, surrounded by piles of books and scrolls in a dark dungeon. If you have any more requests or need further adjustments, feel free to let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ed9ee9b3-ab0c-451b-b387-04f05cea6fc9",
+          "request_id": "85471a147d5228a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ed9ee9b3-ab0c-451b-b387-04f05cea6fc9",
+      "children": [
+        "aaa22176-63e3-4bb6-8d56-e68d0817e788"
+      ]
+    },
+    "aaa22176-63e3-4bb6-8d56-e68d0817e788": {
+      "id": "aaa22176-63e3-4bb6-8d56-e68d0817e788",
+      "message": {
+        "id": "aaa22176-63e3-4bb6-8d56-e68d0817e788",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764793.090062,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "this is so good!  please include a very creepy assistant helping the wizard"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85471c03eef528a4-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b37d191-3dd4-4ea9-8ee9-b5be42e60df2",
+      "children": [
+        "2c7b33d8-d695-41e3-8609-8af716a5d406"
+      ]
+    },
+    "2c7b33d8-d695-41e3-8609-8af716a5d406": {
+      "id": "2c7b33d8-d695-41e3-8609-8af716a5d406",
+      "message": {
+        "id": "2c7b33d8-d695-41e3-8609-8af716a5d406",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764823.03724,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a dimly lit, cluttered dungeon room, a very old wizard with a long, flowing white beard and deep wrinkles is surrounded by piles of ancient books, scrolls, and magical artifacts on a messy desk. Beside him, a very creepy assistant helps with the chaotic collection. This assistant has an eerie, gaunt appearance, with pale skin, dark, sunken eyes, and is dressed in tattered robes. They are holding a dusty tome open for the wizard, their fingers thin and bony. Flickering candles atop skulls illuminate the scene, casting long, sinister shadows. The atmosphere is thick with mystery and the ancient knowledge that pervades the air. The stone walls of the dungeon are barely visible behind the towering stacks of literature and arcane objects.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa22176-63e3-4bb6-8d56-e68d0817e788",
+          "request_id": "85471c03eef528a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa22176-63e3-4bb6-8d56-e68d0817e788",
+      "children": [
+        "da5b8226-f66b-41aa-b337-0b4becbb8936"
+      ]
+    },
+    "da5b8226-f66b-41aa-b337-0b4becbb8936": {
+      "id": "da5b8226-f66b-41aa-b337-0b4becbb8936",
+      "message": {
+        "id": "da5b8226-f66b-41aa-b337-0b4becbb8936",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764823.03983,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-yYWPtaZkCQR1OFAMHhqTbZLI",
+              "size_bytes": 412624,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "pDeCPbRtDm0tSAvw",
+                  "prompt": "In a dimly lit, cluttered dungeon room, a very old wizard with a long, flowing white beard and deep wrinkles is surrounded by piles of ancient books, scrolls, and magical artifacts on a messy desk. Beside him, a very creepy assistant helps with the chaotic collection. This assistant has an eerie, gaunt appearance, with pale skin, dark, sunken eyes, and is dressed in tattered robes. They are holding a dusty tome open for the wizard, their fingers thin and bony. Flickering candles atop skulls illuminate the scene, casting long, sinister shadows. The atmosphere is thick with mystery and the ancient knowledge that pervades the air. The stone walls of the dungeon are barely visible behind the towering stacks of literature and arcane objects.",
+                  "seed": 411482807,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-FLveBNiiqMWRLAS1GK9Ren4M",
+              "size_bytes": 383050,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "RzFhmlwrGAazqGFl",
+                  "prompt": "In a dimly lit, cluttered dungeon room, a very old wizard with a long, flowing white beard and deep wrinkles is surrounded by piles of ancient books, scrolls, and magical artifacts on a messy desk. Beside him, a very creepy assistant helps with the chaotic collection. This assistant has an eerie, gaunt appearance, with pale skin, dark, sunken eyes, and is dressed in tattered robes. They are holding a dusty tome open for the wizard, their fingers thin and bony. Flickering candles atop skulls illuminate the scene, casting long, sinister shadows. The atmosphere is thick with mystery and the ancient knowledge that pervades the air. The stone walls of the dungeon are barely visible behind the towering stacks of literature and arcane objects.",
+                  "seed": 1549738300,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "2c7b33d8-d695-41e3-8609-8af716a5d406",
+          "request_id": "85471c03eef528a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2c7b33d8-d695-41e3-8609-8af716a5d406",
+      "children": [
+        "039a9418-ae29-4455-a626-359b4be10c95"
+      ]
+    },
+    "039a9418-ae29-4455-a626-359b4be10c95": {
+      "id": "039a9418-ae29-4455-a626-359b4be10c95",
+      "message": {
+        "id": "039a9418-ae29-4455-a626-359b4be10c95",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707764823.040096,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "da5b8226-f66b-41aa-b337-0b4becbb8936",
+          "request_id": "85471c03eef528a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "da5b8226-f66b-41aa-b337-0b4becbb8936",
+      "children": [
+        "e3a144db-38ed-463b-821e-14a7865e9e09"
+      ]
+    },
+    "e3a144db-38ed-463b-821e-14a7865e9e09": {
+      "id": "e3a144db-38ed-463b-821e-14a7865e9e09",
+      "message": {
+        "id": "e3a144db-38ed-463b-821e-14a7865e9e09",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707764823.040229,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The wizard is now accompanied by a very creepy assistant in the dark, cluttered dungeon room, helping him amidst the piles of books and scrolls. If there's anything else you'd like to add or change, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "039a9418-ae29-4455-a626-359b4be10c95",
+          "request_id": "85471c03eef528a4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "039a9418-ae29-4455-a626-359b4be10c95",
+      "children": [
+        "aaa26ea3-8137-4975-95fd-b36e513bd8b5"
+      ]
+    },
+    "aaa26ea3-8137-4975-95fd-b36e513bd8b5": {
+      "id": "aaa26ea3-8137-4975-95fd-b36e513bd8b5",
+      "message": {
+        "id": "aaa26ea3-8137-4975-95fd-b36e513bd8b5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707766156.440194,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please make the wizard the grim reaper"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85473d4c797d29b2-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e3a144db-38ed-463b-821e-14a7865e9e09",
+      "children": [
+        "05acff4c-e65a-415e-b514-384c705850b7"
+      ]
+    },
+    "05acff4c-e65a-415e-b514-384c705850b7": {
+      "id": "05acff4c-e65a-415e-b514-384c705850b7",
+      "message": {
+        "id": "05acff4c-e65a-415e-b514-384c705850b7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707766203.335075,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a dimly lit, cluttered dungeon room, the Grim Reaper stands where the wizard once was, surrounded by piles of ancient books, scrolls, and magical artifacts on a messy desk. The Reaper, cloaked in a dark, tattered robe that obscures his skeletal form, holds a large, ancient tome in one bony hand, while his other hand grips his iconic scythe, leaning against the desk. His assistant, a very creepy figure with pale skin, dark, sunken eyes, and dressed in similar tattered robes, holds another dusty tome open for him. Flickering candles atop skulls illuminate the scene, casting ominous shadows. The atmosphere is thick with an air of mystery and the ancient knowledge that pervades the room, with the stone walls of the dungeon barely visible behind the towering stacks of literature and arcane objects.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa26ea3-8137-4975-95fd-b36e513bd8b5",
+          "request_id": "85473d4c797d29b2-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa26ea3-8137-4975-95fd-b36e513bd8b5",
+      "children": [
+        "3153b370-c148-436a-8fab-e904343ee8b9"
+      ]
+    },
+    "3153b370-c148-436a-8fab-e904343ee8b9": {
+      "id": "3153b370-c148-436a-8fab-e904343ee8b9",
+      "message": {
+        "id": "3153b370-c148-436a-8fab-e904343ee8b9",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707766203.337633,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7woTzaPw34u22bPSkQfhbUZR",
+              "size_bytes": 433182,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "tZOQSWQNkMgCRiCs",
+                  "prompt": "In a dimly lit, cluttered dungeon room, the Grim Reaper stands where the wizard once was, surrounded by piles of ancient books, scrolls, and magical artifacts on a messy desk. The Reaper, cloaked in a dark, tattered robe that obscures his skeletal form, holds a large, ancient tome in one bony hand, while his other hand grips his iconic scythe, leaning against the desk. His assistant, a very creepy figure with pale skin, dark, sunken eyes, and dressed in similar tattered robes, holds another dusty tome open for him. Flickering candles atop skulls illuminate the scene, casting ominous shadows. The atmosphere is thick with an air of mystery and the ancient knowledge that pervades the room, with the stone walls of the dungeon barely visible behind the towering stacks of literature and arcane objects.",
+                  "seed": 2770559808,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-HGRAtWOhk7iTwPeb5TkhbABw",
+              "size_bytes": 409432,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "Tr6yJ394vJQ1hzYZ",
+                  "prompt": "In a dimly lit, cluttered dungeon room, the Grim Reaper stands where the wizard once was, surrounded by piles of ancient books, scrolls, and magical artifacts on a messy desk. The Reaper, cloaked in a dark, tattered robe that obscures his skeletal form, holds a large, ancient tome in one bony hand, while his other hand grips his iconic scythe, leaning against the desk. His assistant, a very creepy figure with pale skin, dark, sunken eyes, and dressed in similar tattered robes, holds another dusty tome open for him. Flickering candles atop skulls illuminate the scene, casting ominous shadows. The atmosphere is thick with an air of mystery and the ancient knowledge that pervades the room, with the stone walls of the dungeon barely visible behind the towering stacks of literature and arcane objects.",
+                  "seed": 3527767442,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "05acff4c-e65a-415e-b514-384c705850b7",
+          "request_id": "85473d4c797d29b2-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "05acff4c-e65a-415e-b514-384c705850b7",
+      "children": [
+        "09b2aa42-7a45-4989-8779-137bdd86564d"
+      ]
+    },
+    "09b2aa42-7a45-4989-8779-137bdd86564d": {
+      "id": "09b2aa42-7a45-4989-8779-137bdd86564d",
+      "message": {
+        "id": "09b2aa42-7a45-4989-8779-137bdd86564d",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707766203.337907,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "3153b370-c148-436a-8fab-e904343ee8b9",
+          "request_id": "85473d4c797d29b2-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3153b370-c148-436a-8fab-e904343ee8b9",
+      "children": [
+        "ac78598b-3913-4fca-8eda-715f597bd2c1"
+      ]
+    },
+    "ac78598b-3913-4fca-8eda-715f597bd2c1": {
+      "id": "ac78598b-3913-4fca-8eda-715f597bd2c1",
+      "message": {
+        "id": "ac78598b-3913-4fca-8eda-715f597bd2c1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707766203.338043,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The Grim Reaper now stands in the place of the wizard, surrounded by the chaotic collection of books and scrolls in the dungeon room, with his creepy assistant helping him. If there's more you'd like to explore or adjust, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "09b2aa42-7a45-4989-8779-137bdd86564d",
+          "request_id": "85473d4c797d29b2-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "09b2aa42-7a45-4989-8779-137bdd86564d",
+      "children": [
+        "aaa2768e-c7e8-493e-85a0-fb7da287bc78"
+      ]
+    },
+    "aaa2768e-c7e8-493e-85a0-fb7da287bc78": {
+      "id": "aaa2768e-c7e8-493e-85a0-fb7da287bc78",
+      "message": {
+        "id": "aaa2768e-c7e8-493e-85a0-fb7da287bc78",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707766293.905349,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please create a image of a body builder with a big beard in a tank top reviewing a document at a corporate desk"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "854740a7fb0f6fc8-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ac78598b-3913-4fca-8eda-715f597bd2c1",
+      "children": [
+        "8dc65705-3321-46ca-ab63-ff48196d9707"
+      ]
+    },
+    "8dc65705-3321-46ca-ab63-ff48196d9707": {
+      "id": "8dc65705-3321-46ca-ab63-ff48196d9707",
+      "message": {
+        "id": "8dc65705-3321-46ca-ab63-ff48196d9707",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707766332.670532,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A muscular bodybuilder with a large, bushy beard sits at a sleek corporate desk, wearing a tight tank top that showcases his impressive physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. The bodybuilder is focused intently on reviewing a document laid out before him, his brow furrowed in concentration. Beside him, a high-tech computer monitor displays charts and graphs, and a stylish, ergonomic office chair supports him comfortably. His appearance contrasts sharply with the corporate environment, highlighting his unique presence in the office setting.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2768e-c7e8-493e-85a0-fb7da287bc78",
+          "request_id": "854740a7fb0f6fc8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2768e-c7e8-493e-85a0-fb7da287bc78",
+      "children": [
+        "021862c6-f488-43a9-91e0-ff5c95f49545"
+      ]
+    },
+    "021862c6-f488-43a9-91e0-ff5c95f49545": {
+      "id": "021862c6-f488-43a9-91e0-ff5c95f49545",
+      "message": {
+        "id": "021862c6-f488-43a9-91e0-ff5c95f49545",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707766332.673006,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-IUZ91F4qaYxhOQnkGGa4KI8q",
+              "size_bytes": 290580,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "kCaHKa15grtAzSgd",
+                  "prompt": "A muscular bodybuilder with a large, bushy beard sits at a sleek corporate desk, wearing a tight tank top that showcases his impressive physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. The bodybuilder is focused intently on reviewing a document laid out before him, his brow furrowed in concentration. Beside him, a high-tech computer monitor displays charts and graphs, and a stylish, ergonomic office chair supports him comfortably. His appearance contrasts sharply with the corporate environment, highlighting his unique presence in the office setting.",
+                  "seed": 2357286671,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-2HQuNjhrMgAW9O7dLDAvrh94",
+              "size_bytes": 279740,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "9xZ6rykMHgMCYjwJ",
+                  "prompt": "A muscular bodybuilder with a large, bushy beard sits at a sleek corporate desk, wearing a tight tank top that showcases his impressive physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. The bodybuilder is focused intently on reviewing a document laid out before him, his brow furrowed in concentration. Beside him, a high-tech computer monitor displays charts and graphs, and a stylish, ergonomic office chair supports him comfortably. His appearance contrasts sharply with the corporate environment, highlighting his unique presence in the office setting.",
+                  "seed": 3937202434,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "8dc65705-3321-46ca-ab63-ff48196d9707",
+          "request_id": "854740a7fb0f6fc8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8dc65705-3321-46ca-ab63-ff48196d9707",
+      "children": [
+        "1c87b934-7d83-41cb-a20f-23232f5c15a3"
+      ]
+    },
+    "1c87b934-7d83-41cb-a20f-23232f5c15a3": {
+      "id": "1c87b934-7d83-41cb-a20f-23232f5c15a3",
+      "message": {
+        "id": "1c87b934-7d83-41cb-a20f-23232f5c15a3",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707766332.673303,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "021862c6-f488-43a9-91e0-ff5c95f49545",
+          "request_id": "854740a7fb0f6fc8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "021862c6-f488-43a9-91e0-ff5c95f49545",
+      "children": [
+        "2ac67a32-d8ca-4fa7-9603-726735d2cffc"
+      ]
+    },
+    "2ac67a32-d8ca-4fa7-9603-726735d2cffc": {
+      "id": "2ac67a32-d8ca-4fa7-9603-726735d2cffc",
+      "message": {
+        "id": "2ac67a32-d8ca-4fa7-9603-726735d2cffc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707766332.673439,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The bodybuilder with a big beard reviewing a document at a corporate desk is ready. If you need any more adjustments or have another idea in mind, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "1c87b934-7d83-41cb-a20f-23232f5c15a3",
+          "request_id": "854740a7fb0f6fc8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1c87b934-7d83-41cb-a20f-23232f5c15a3",
+      "children": [
+        "aaa2e708-1195-4c22-ae6e-b42a41b0986d"
+      ]
+    },
+    "aaa2e708-1195-4c22-ae6e-b42a41b0986d": {
+      "id": "aaa2e708-1195-4c22-ae6e-b42a41b0986d",
+      "message": {
+        "id": "aaa2e708-1195-4c22-ae6e-b42a41b0986d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773021.954352,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please make this man very old"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547e4ea1b5707fe-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2ac67a32-d8ca-4fa7-9603-726735d2cffc",
+      "children": [
+        "f06d398a-9c83-4926-952e-8a9b0dbd9f19"
+      ]
+    },
+    "f06d398a-9c83-4926-952e-8a9b0dbd9f19": {
+      "id": "f06d398a-9c83-4926-952e-8a9b0dbd9f19",
+      "message": {
+        "id": "f06d398a-9c83-4926-952e-8a9b0dbd9f19",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773056.146141,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A very old muscular bodybuilder with a large, bushy gray beard sits at a sleek corporate desk, wearing a tight tank top that showcases his still-impressive, aged physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. Despite his age, his muscles are well-defined, and he exudes strength and wisdom. He is focused intently on reviewing a document laid out before him, his brow furrowed in deep concentration. Beside him, a high-tech computer monitor displays charts and graphs. His appearance, a blend of age and physical prowess, contrasts sharply with the corporate environment, adding a unique layer to the office setting.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2e708-1195-4c22-ae6e-b42a41b0986d",
+          "request_id": "8547e4ea1b5707fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2e708-1195-4c22-ae6e-b42a41b0986d",
+      "children": [
+        "a29a6835-e1dd-42bd-9810-76110ea23208"
+      ]
+    },
+    "a29a6835-e1dd-42bd-9810-76110ea23208": {
+      "id": "a29a6835-e1dd-42bd-9810-76110ea23208",
+      "message": {
+        "id": "a29a6835-e1dd-42bd-9810-76110ea23208",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773056.148757,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-bn1270jOdM8cCqygQfHx7CDs",
+              "size_bytes": 279220,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "4HqmO8cNFw9jgnxI",
+                  "prompt": "A very old muscular bodybuilder with a large, bushy gray beard sits at a sleek corporate desk, wearing a tight tank top that showcases his still-impressive, aged physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. Despite his age, his muscles are well-defined, and he exudes strength and wisdom. He is focused intently on reviewing a document laid out before him, his brow furrowed in deep concentration. Beside him, a high-tech computer monitor displays charts and graphs. His appearance, a blend of age and physical prowess, contrasts sharply with the corporate environment, adding a unique layer to the office setting.",
+                  "seed": 1428452070,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-B7r1ryiyqHkOH6VpTpmPRo9r",
+              "size_bytes": 351784,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "4dDDGpxQJeZ9mHM7",
+                  "prompt": "A very old muscular bodybuilder with a large, bushy gray beard sits at a sleek corporate desk, wearing a tight tank top that showcases his still-impressive, aged physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. Despite his age, his muscles are well-defined, and he exudes strength and wisdom. He is focused intently on reviewing a document laid out before him, his brow furrowed in deep concentration. Beside him, a high-tech computer monitor displays charts and graphs. His appearance, a blend of age and physical prowess, contrasts sharply with the corporate environment, adding a unique layer to the office setting.",
+                  "seed": 205439401,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f06d398a-9c83-4926-952e-8a9b0dbd9f19",
+          "request_id": "8547e4ea1b5707fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f06d398a-9c83-4926-952e-8a9b0dbd9f19",
+      "children": [
+        "927764d4-5796-41f1-af38-ce059c20d90c"
+      ]
+    },
+    "927764d4-5796-41f1-af38-ce059c20d90c": {
+      "id": "927764d4-5796-41f1-af38-ce059c20d90c",
+      "message": {
+        "id": "927764d4-5796-41f1-af38-ce059c20d90c",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773056.149066,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "a29a6835-e1dd-42bd-9810-76110ea23208",
+          "request_id": "8547e4ea1b5707fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a29a6835-e1dd-42bd-9810-76110ea23208",
+      "children": [
+        "d954a6bd-ebc6-4ef4-af57-307c47a5e519"
+      ]
+    },
+    "d954a6bd-ebc6-4ef4-af57-307c47a5e519": {
+      "id": "d954a6bd-ebc6-4ef4-af57-307c47a5e519",
+      "message": {
+        "id": "d954a6bd-ebc6-4ef4-af57-307c47a5e519",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773056.149208,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The very old muscular bodybuilder with a bushy gray beard reviewing a document at a corporate desk is now depicted. If there's anything else you'd like to see or adjust, feel free to let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "927764d4-5796-41f1-af38-ce059c20d90c",
+          "request_id": "8547e4ea1b5707fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "927764d4-5796-41f1-af38-ce059c20d90c",
+      "children": [
+        "aaa2a3de-3c6a-4d3d-b5b8-e3430ab93b50"
+      ]
+    },
+    "aaa2a3de-3c6a-4d3d-b5b8-e3430ab93b50": {
+      "id": "aaa2a3de-3c6a-4d3d-b5b8-e3430ab93b50",
+      "message": {
+        "id": "aaa2a3de-3c6a-4d3d-b5b8-e3430ab93b50",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773079.634166,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please give him glasses"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547e652aac507fe-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d954a6bd-ebc6-4ef4-af57-307c47a5e519",
+      "children": [
+        "7fb3429f-7c73-45bf-9bd0-5c3332209210"
+      ]
+    },
+    "7fb3429f-7c73-45bf-9bd0-5c3332209210": {
+      "id": "7fb3429f-7c73-45bf-9bd0-5c3332209210",
+      "message": {
+        "id": "7fb3429f-7c73-45bf-9bd0-5c3332209210",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773119.225358,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A very old muscular bodybuilder with a large, bushy gray beard and glasses sits at a sleek corporate desk, wearing a tight tank top that showcases his still-impressive, aged physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. His glasses, stylish yet functional, add a touch of intellectualism to his rugged appearance. He is focused intently on reviewing a document laid out before him, his brow furrowed in deep concentration. Beside him, a high-tech computer monitor displays charts and graphs. The unique blend of age, physical prowess, and scholarly look contrasts sharply with the corporate environment, creating a distinctive office setting.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2a3de-3c6a-4d3d-b5b8-e3430ab93b50",
+          "request_id": "8547e652aac507fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2a3de-3c6a-4d3d-b5b8-e3430ab93b50",
+      "children": [
+        "5905efb7-6e77-4ddb-abd7-66e536fb0908"
+      ]
+    },
+    "5905efb7-6e77-4ddb-abd7-66e536fb0908": {
+      "id": "5905efb7-6e77-4ddb-abd7-66e536fb0908",
+      "message": {
+        "id": "5905efb7-6e77-4ddb-abd7-66e536fb0908",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773119.228093,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-mtgIt4KPVdEllQ5UBMRPibIF",
+              "size_bytes": 359672,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "v5QenJ6OJQK71WhA",
+                  "prompt": "A very old muscular bodybuilder with a large, bushy gray beard and glasses sits at a sleek corporate desk, wearing a tight tank top that showcases his still-impressive, aged physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. His glasses, stylish yet functional, add a touch of intellectualism to his rugged appearance. He is focused intently on reviewing a document laid out before him, his brow furrowed in deep concentration. Beside him, a high-tech computer monitor displays charts and graphs. The unique blend of age, physical prowess, and scholarly look contrasts sharply with the corporate environment, creating a distinctive office setting.",
+                  "seed": 894617895,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-0aERnO6CZxGngScm0KgsSovF",
+              "size_bytes": 309628,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "EAwlWKcozWoYNtFP",
+                  "prompt": "A very old muscular bodybuilder with a large, bushy gray beard and glasses sits at a sleek corporate desk, wearing a tight tank top that showcases his still-impressive, aged physique. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. His glasses, stylish yet functional, add a touch of intellectualism to his rugged appearance. He is focused intently on reviewing a document laid out before him, his brow furrowed in deep concentration. Beside him, a high-tech computer monitor displays charts and graphs. The unique blend of age, physical prowess, and scholarly look contrasts sharply with the corporate environment, creating a distinctive office setting.",
+                  "seed": 598715335,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "7fb3429f-7c73-45bf-9bd0-5c3332209210",
+          "request_id": "8547e652aac507fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7fb3429f-7c73-45bf-9bd0-5c3332209210",
+      "children": [
+        "085d885e-f785-4ef4-b1a7-67d1939ccbd7"
+      ]
+    },
+    "085d885e-f785-4ef4-b1a7-67d1939ccbd7": {
+      "id": "085d885e-f785-4ef4-b1a7-67d1939ccbd7",
+      "message": {
+        "id": "085d885e-f785-4ef4-b1a7-67d1939ccbd7",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773119.228375,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "5905efb7-6e77-4ddb-abd7-66e536fb0908",
+          "request_id": "8547e652aac507fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5905efb7-6e77-4ddb-abd7-66e536fb0908",
+      "children": [
+        "18022bd4-5b24-4648-9b9d-72fb919fd232"
+      ]
+    },
+    "18022bd4-5b24-4648-9b9d-72fb919fd232": {
+      "id": "18022bd4-5b24-4648-9b9d-72fb919fd232",
+      "message": {
+        "id": "18022bd4-5b24-4648-9b9d-72fb919fd232",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773119.228516,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The very old muscular bodybuilder with a bushy gray beard now wears glasses as he reviews a document at his corporate desk. If you have any more ideas or need further modifications, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "085d885e-f785-4ef4-b1a7-67d1939ccbd7",
+          "request_id": "8547e652aac507fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "085d885e-f785-4ef4-b1a7-67d1939ccbd7",
+      "children": [
+        "aaa20ffd-87a5-4cdd-94ee-9a4efb4d580b"
+      ]
+    },
+    "aaa20ffd-87a5-4cdd-94ee-9a4efb4d580b": {
+      "id": "aaa20ffd-87a5-4cdd-94ee-9a4efb4d580b",
+      "message": {
+        "id": "aaa20ffd-87a5-4cdd-94ee-9a4efb4d580b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773166.293739,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please turn him into a decrepit old man"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547e8703c7907fe-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "18022bd4-5b24-4648-9b9d-72fb919fd232",
+      "children": [
+        "fe405cc0-95b4-4dce-bfd2-de4dec20404f"
+      ]
+    },
+    "fe405cc0-95b4-4dce-bfd2-de4dec20404f": {
+      "id": "fe405cc0-95b4-4dce-bfd2-de4dec20404f",
+      "message": {
+        "id": "fe405cc0-95b4-4dce-bfd2-de4dec20404f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773205.277505,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A decrepit old man with a thin, frail body sits at a sleek corporate desk, wearing glasses and a loose-fitting shirt that hangs off his slender frame. His large, bushy gray beard and the glasses remain, but his once-muscular physique has given way to the signs of advanced age. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. He is focused intently on reviewing a document laid out before him, his hands trembling slightly as they hold a pen. Beside him, a high-tech computer monitor displays charts and graphs. His presence in the corporate environment, a stark contrast to his physical frailty, creates a poignant scene.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa20ffd-87a5-4cdd-94ee-9a4efb4d580b",
+          "request_id": "8547e8703c7907fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa20ffd-87a5-4cdd-94ee-9a4efb4d580b",
+      "children": [
+        "a3846e80-3285-4b13-b9d7-90223074c215"
+      ]
+    },
+    "a3846e80-3285-4b13-b9d7-90223074c215": {
+      "id": "a3846e80-3285-4b13-b9d7-90223074c215",
+      "message": {
+        "id": "a3846e80-3285-4b13-b9d7-90223074c215",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773205.280464,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-RipkoGbnSAr06sX1DdDRJUEH",
+              "size_bytes": 321472,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "LDn2uKQ6fzGLZTRF",
+                  "prompt": "A decrepit old man with a thin, frail body sits at a sleek corporate desk, wearing glasses and a loose-fitting shirt that hangs off his slender frame. His large, bushy gray beard and the glasses remain, but his once-muscular physique has given way to the signs of advanced age. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. He is focused intently on reviewing a document laid out before him, his hands trembling slightly as they hold a pen. Beside him, a high-tech computer monitor displays charts and graphs. His presence in the corporate environment, a stark contrast to his physical frailty, creates a poignant scene.",
+                  "seed": 124013005,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-UXXvnE4lFbjSD3QbXxMgtkjF",
+              "size_bytes": 321694,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "QmpxVYsRzWKK8pjb",
+                  "prompt": "A decrepit old man with a thin, frail body sits at a sleek corporate desk, wearing glasses and a loose-fitting shirt that hangs off his slender frame. His large, bushy gray beard and the glasses remain, but his once-muscular physique has given way to the signs of advanced age. The room is well-lit, with a modern, professional atmosphere, featuring a large window overlooking a bustling cityscape. He is focused intently on reviewing a document laid out before him, his hands trembling slightly as they hold a pen. Beside him, a high-tech computer monitor displays charts and graphs. His presence in the corporate environment, a stark contrast to his physical frailty, creates a poignant scene.",
+                  "seed": 3077234827,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "fe405cc0-95b4-4dce-bfd2-de4dec20404f",
+          "request_id": "8547e8703c7907fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe405cc0-95b4-4dce-bfd2-de4dec20404f",
+      "children": [
+        "bd089b60-d3ab-4fc2-aac2-2f2601423877"
+      ]
+    },
+    "bd089b60-d3ab-4fc2-aac2-2f2601423877": {
+      "id": "bd089b60-d3ab-4fc2-aac2-2f2601423877",
+      "message": {
+        "id": "bd089b60-d3ab-4fc2-aac2-2f2601423877",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773205.280764,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "a3846e80-3285-4b13-b9d7-90223074c215",
+          "request_id": "8547e8703c7907fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a3846e80-3285-4b13-b9d7-90223074c215",
+      "children": [
+        "4abff096-c1fc-480f-b3ac-3cbc43ce0943"
+      ]
+    },
+    "4abff096-c1fc-480f-b3ac-3cbc43ce0943": {
+      "id": "4abff096-c1fc-480f-b3ac-3cbc43ce0943",
+      "message": {
+        "id": "4abff096-c1fc-480f-b3ac-3cbc43ce0943",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773205.280903,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The transformation into a decrepit old man reviewing a document at a corporate desk is complete. If there's anything else you'd like to explore or modify, feel free to let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "bd089b60-d3ab-4fc2-aac2-2f2601423877",
+          "request_id": "8547e8703c7907fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bd089b60-d3ab-4fc2-aac2-2f2601423877",
+      "children": [
+        "aaa2cb0b-1796-4484-b658-5d59f72606cb"
+      ]
+    },
+    "aaa2cb0b-1796-4484-b658-5d59f72606cb": {
+      "id": "aaa2cb0b-1796-4484-b658-5d59f72606cb",
+      "message": {
+        "id": "aaa2cb0b-1796-4484-b658-5d59f72606cb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773243.808438,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please place the grim reaper next to him"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547ea54e8e607fe-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4abff096-c1fc-480f-b3ac-3cbc43ce0943",
+      "children": [
+        "d0bcd772-a8f1-4cf6-a6ab-1f726667dda9"
+      ]
+    },
+    "d0bcd772-a8f1-4cf6-a6ab-1f726667dda9": {
+      "id": "d0bcd772-a8f1-4cf6-a6ab-1f726667dda9",
+      "message": {
+        "id": "d0bcd772-a8f1-4cf6-a6ab-1f726667dda9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773275.474315,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A decrepit old man with a thin, frail body sits at a sleek corporate desk, reviewing a document, wearing glasses and a loose-fitting shirt. Next to him stands the Grim Reaper, a skeletal figure cloaked in a dark, tattered robe, holding his iconic scythe. The contrast between the decrepit man and the imposing figure of the Grim Reaper in the modern, well-lit corporate office creates a striking scene. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. The presence of the Grim Reaper adds a poignant, symbolic layer to the image, emphasizing the themes of mortality and time.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2cb0b-1796-4484-b658-5d59f72606cb",
+          "request_id": "8547ea54e8e607fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2cb0b-1796-4484-b658-5d59f72606cb",
+      "children": [
+        "4b064f78-e9fe-4581-98a4-e7096428fe06"
+      ]
+    },
+    "4b064f78-e9fe-4581-98a4-e7096428fe06": {
+      "id": "4b064f78-e9fe-4581-98a4-e7096428fe06",
+      "message": {
+        "id": "4b064f78-e9fe-4581-98a4-e7096428fe06",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773275.476659,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-p5SIOFZj79WVN7F6jFWHQd4P",
+              "size_bytes": 234464,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "tM1OG63wNoeAWRfV",
+                  "prompt": "A decrepit old man with a thin, frail body sits at a sleek corporate desk, reviewing a document, wearing glasses and a loose-fitting shirt. Next to him stands the Grim Reaper, a skeletal figure cloaked in a dark, tattered robe, holding his iconic scythe. The contrast between the decrepit man and the imposing figure of the Grim Reaper in the modern, well-lit corporate office creates a striking scene. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. The presence of the Grim Reaper adds a poignant, symbolic layer to the image, emphasizing the themes of mortality and time.",
+                  "seed": 123168923,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Xyj3i9RAIETnlULrDafqMzzw",
+              "size_bytes": 341790,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "yWvoOIf9enBpKwDh",
+                  "prompt": "A decrepit old man with a thin, frail body sits at a sleek corporate desk, reviewing a document, wearing glasses and a loose-fitting shirt. Next to him stands the Grim Reaper, a skeletal figure cloaked in a dark, tattered robe, holding his iconic scythe. The contrast between the decrepit man and the imposing figure of the Grim Reaper in the modern, well-lit corporate office creates a striking scene. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. The presence of the Grim Reaper adds a poignant, symbolic layer to the image, emphasizing the themes of mortality and time.",
+                  "seed": 3758295300,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "d0bcd772-a8f1-4cf6-a6ab-1f726667dda9",
+          "request_id": "8547ea54e8e607fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d0bcd772-a8f1-4cf6-a6ab-1f726667dda9",
+      "children": [
+        "92422114-6dc5-414a-bbe6-93ab8da8b9cd"
+      ]
+    },
+    "92422114-6dc5-414a-bbe6-93ab8da8b9cd": {
+      "id": "92422114-6dc5-414a-bbe6-93ab8da8b9cd",
+      "message": {
+        "id": "92422114-6dc5-414a-bbe6-93ab8da8b9cd",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773275.476909,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "4b064f78-e9fe-4581-98a4-e7096428fe06",
+          "request_id": "8547ea54e8e607fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4b064f78-e9fe-4581-98a4-e7096428fe06",
+      "children": [
+        "c3278699-3a8a-4188-8208-c14ece3cb710"
+      ]
+    },
+    "c3278699-3a8a-4188-8208-c14ece3cb710": {
+      "id": "c3278699-3a8a-4188-8208-c14ece3cb710",
+      "message": {
+        "id": "c3278699-3a8a-4188-8208-c14ece3cb710",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773275.477039,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The Grim Reaper now stands next to the decrepit old man at the corporate desk, adding a symbolic layer to the scene. If there are any more adjustments or new ideas you'd like to see, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "92422114-6dc5-414a-bbe6-93ab8da8b9cd",
+          "request_id": "8547ea54e8e607fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92422114-6dc5-414a-bbe6-93ab8da8b9cd",
+      "children": [
+        "aaa23a7c-23a5-4cf3-a0a3-11c69faf9501"
+      ]
+    },
+    "aaa23a7c-23a5-4cf3-a0a3-11c69faf9501": {
+      "id": "aaa23a7c-23a5-4cf3-a0a3-11c69faf9501",
+      "message": {
+        "id": "aaa23a7c-23a5-4cf3-a0a3-11c69faf9501",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773321.796172,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please turn the man into a skeleton"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547ec3bfe8407fe-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3278699-3a8a-4188-8208-c14ece3cb710",
+      "children": [
+        "4a1e2601-a67c-4615-9688-7b1fd1b3df53"
+      ]
+    },
+    "4a1e2601-a67c-4615-9688-7b1fd1b3df53": {
+      "id": "4a1e2601-a67c-4615-9688-7b1fd1b3df53",
+      "message": {
+        "id": "4a1e2601-a67c-4615-9688-7b1fd1b3df53",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773354.736994,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a modern, well-lit corporate office, a skeleton sits at a sleek desk, wearing glasses and a loose-fitting shirt that hangs off its bony frame. Next to the skeleton, the Grim Reaper stands, a skeletal figure cloaked in a dark, tattered robe, holding his iconic scythe. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This eerie scene contrasts the mundane with the macabre, as the skeleton reviews a document, symbolizing the inescapable presence of mortality in the midst of life's daily routines.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa23a7c-23a5-4cf3-a0a3-11c69faf9501",
+          "request_id": "8547ec3bfe8407fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa23a7c-23a5-4cf3-a0a3-11c69faf9501",
+      "children": [
+        "b04a28ae-5566-49e2-9c98-b181d706984c"
+      ]
+    },
+    "b04a28ae-5566-49e2-9c98-b181d706984c": {
+      "id": "b04a28ae-5566-49e2-9c98-b181d706984c",
+      "message": {
+        "id": "b04a28ae-5566-49e2-9c98-b181d706984c",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773354.739424,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-lUSFIkGvabUAaQL7vRNv6Izb",
+              "size_bytes": 329826,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "OYhHYadFvz3zXsu4",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton sits at a sleek desk, wearing glasses and a loose-fitting shirt that hangs off its bony frame. Next to the skeleton, the Grim Reaper stands, a skeletal figure cloaked in a dark, tattered robe, holding his iconic scythe. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This eerie scene contrasts the mundane with the macabre, as the skeleton reviews a document, symbolizing the inescapable presence of mortality in the midst of life's daily routines.",
+                  "seed": 458735962,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-WGBme7pIBTKP2QnnaoiUQiiK",
+              "size_bytes": 382964,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "F7uqBVcuQ65nHySX",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton sits at a sleek desk, wearing glasses and a loose-fitting shirt that hangs off its bony frame. Next to the skeleton, the Grim Reaper stands, a skeletal figure cloaked in a dark, tattered robe, holding his iconic scythe. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This eerie scene contrasts the mundane with the macabre, as the skeleton reviews a document, symbolizing the inescapable presence of mortality in the midst of life's daily routines.",
+                  "seed": 949333695,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "4a1e2601-a67c-4615-9688-7b1fd1b3df53",
+          "request_id": "8547ec3bfe8407fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4a1e2601-a67c-4615-9688-7b1fd1b3df53",
+      "children": [
+        "f27a16e4-e42d-4ebf-8796-098a38de23e6"
+      ]
+    },
+    "f27a16e4-e42d-4ebf-8796-098a38de23e6": {
+      "id": "f27a16e4-e42d-4ebf-8796-098a38de23e6",
+      "message": {
+        "id": "f27a16e4-e42d-4ebf-8796-098a38de23e6",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773354.739686,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "b04a28ae-5566-49e2-9c98-b181d706984c",
+          "request_id": "8547ec3bfe8407fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b04a28ae-5566-49e2-9c98-b181d706984c",
+      "children": [
+        "49535cbb-23d9-423a-a32e-944963526b2d"
+      ]
+    },
+    "49535cbb-23d9-423a-a32e-944963526b2d": {
+      "id": "49535cbb-23d9-423a-a32e-944963526b2d",
+      "message": {
+        "id": "49535cbb-23d9-423a-a32e-944963526b2d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773354.739817,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The scene now features a skeleton at the corporate desk, with the Grim Reaper standing beside it, in a stark depiction of mortality within a modern setting. If there's anything more you'd like to add or change, please let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f27a16e4-e42d-4ebf-8796-098a38de23e6",
+          "request_id": "8547ec3bfe8407fe-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f27a16e4-e42d-4ebf-8796-098a38de23e6",
+      "children": [
+        "aaa2f411-4f70-491c-941d-5cef6b3b873f"
+      ]
+    },
+    "aaa2f411-4f70-491c-941d-5cef6b3b873f": {
+      "id": "aaa2f411-4f70-491c-941d-5cef6b3b873f",
+      "message": {
+        "id": "aaa2f411-4f70-491c-941d-5cef6b3b873f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773453.754649,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please remove the grim reaper"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547ef74ea702057-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "49535cbb-23d9-423a-a32e-944963526b2d",
+      "children": [
+        "5b418543-f546-4c2f-84c4-47666c3a3c58"
+      ]
+    },
+    "5b418543-f546-4c2f-84c4-47666c3a3c58": {
+      "id": "5b418543-f546-4c2f-84c4-47666c3a3c58",
+      "message": {
+        "id": "5b418543-f546-4c2f-84c4-47666c3a3c58",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773488.004422,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a modern, well-lit corporate office, a skeleton sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene presents a unique juxtaposition of the mundane aspects of corporate life with the macabre, emphasizing the skeleton's solitary focus on its work amidst the symbols of modern business.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2f411-4f70-491c-941d-5cef6b3b873f",
+          "request_id": "8547ef74ea702057-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2f411-4f70-491c-941d-5cef6b3b873f",
+      "children": [
+        "85a1bd00-83c1-4e77-94b5-5926ee322f2d"
+      ]
+    },
+    "85a1bd00-83c1-4e77-94b5-5926ee322f2d": {
+      "id": "85a1bd00-83c1-4e77-94b5-5926ee322f2d",
+      "message": {
+        "id": "85a1bd00-83c1-4e77-94b5-5926ee322f2d",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773488.008665,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ATzMLSBHCyX491ONNtuN3t3f",
+              "size_bytes": 315488,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "dZ0kBzs7c0yn6YTJ",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene presents a unique juxtaposition of the mundane aspects of corporate life with the macabre, emphasizing the skeleton's solitary focus on its work amidst the symbols of modern business.",
+                  "seed": 1380940523,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-JW0xuiuMjBEGnoeW73sqtuSS",
+              "size_bytes": 371910,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "BHDB8qvFvCrKU5Yt",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene presents a unique juxtaposition of the mundane aspects of corporate life with the macabre, emphasizing the skeleton's solitary focus on its work amidst the symbols of modern business.",
+                  "seed": 1114214265,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "5b418543-f546-4c2f-84c4-47666c3a3c58",
+          "request_id": "8547ef74ea702057-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5b418543-f546-4c2f-84c4-47666c3a3c58",
+      "children": [
+        "3bf93e9e-79f9-4ee4-baaa-c033b18a0db7"
+      ]
+    },
+    "3bf93e9e-79f9-4ee4-baaa-c033b18a0db7": {
+      "id": "3bf93e9e-79f9-4ee4-baaa-c033b18a0db7",
+      "message": {
+        "id": "3bf93e9e-79f9-4ee4-baaa-c033b18a0db7",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773488.009158,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "85a1bd00-83c1-4e77-94b5-5926ee322f2d",
+          "request_id": "8547ef74ea702057-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85a1bd00-83c1-4e77-94b5-5926ee322f2d",
+      "children": [
+        "6ecb9824-929d-48ef-b669-0c384feea5cc"
+      ]
+    },
+    "6ecb9824-929d-48ef-b669-0c384feea5cc": {
+      "id": "6ecb9824-929d-48ef-b669-0c384feea5cc",
+      "message": {
+        "id": "6ecb9824-929d-48ef-b669-0c384feea5cc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773488.009409,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The Grim Reaper has been removed, leaving the skeleton at the corporate desk, immersed in reviewing a document amidst the backdrop of a modern office. If there are any further changes or new scenes you'd like to explore, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "3bf93e9e-79f9-4ee4-baaa-c033b18a0db7",
+          "request_id": "8547ef74ea702057-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3bf93e9e-79f9-4ee4-baaa-c033b18a0db7",
+      "children": [
+        "aaa2f6cc-9f75-40b0-93d5-17e630be473b"
+      ]
+    },
+    "aaa2f6cc-9f75-40b0-93d5-17e630be473b": {
+      "id": "aaa2f6cc-9f75-40b0-93d5-17e630be473b",
+      "message": {
+        "id": "aaa2f6cc-9f75-40b0-93d5-17e630be473b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773681.55428,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please give the skeleton a bushy beard"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547f5048c647001-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6ecb9824-929d-48ef-b669-0c384feea5cc",
+      "children": [
+        "87fbaf53-ac95-4e79-94c6-1f8af0de48f1"
+      ]
+    },
+    "87fbaf53-ac95-4e79-94c6-1f8af0de48f1": {
+      "id": "87fbaf53-ac95-4e79-94c6-1f8af0de48f1",
+      "message": {
+        "id": "87fbaf53-ac95-4e79-94c6-1f8af0de48f1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773712.226045,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame, adding a touch of personality to its otherwise stark appearance. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This whimsical scene combines elements of the mundane and the macabre, highlighting the skeleton's unique character in the midst of corporate life.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa2f6cc-9f75-40b0-93d5-17e630be473b",
+          "request_id": "8547f5048c647001-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa2f6cc-9f75-40b0-93d5-17e630be473b",
+      "children": [
+        "917d9c6a-661c-4c56-bd99-c8d7b1762124"
+      ]
+    },
+    "917d9c6a-661c-4c56-bd99-c8d7b1762124": {
+      "id": "917d9c6a-661c-4c56-bd99-c8d7b1762124",
+      "message": {
+        "id": "917d9c6a-661c-4c56-bd99-c8d7b1762124",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773712.228427,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-IxkwzgCajkryZkm6LSAD8Wmj",
+              "size_bytes": 297020,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "C95pfElg44b6vMv1",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame, adding a touch of personality to its otherwise stark appearance. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This whimsical scene combines elements of the mundane and the macabre, highlighting the skeleton's unique character in the midst of corporate life.",
+                  "seed": 2798489909,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-qBhqcWBCKaWFHzSGuIotkXki",
+              "size_bytes": 285720,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "yHEu56nXMyX1cifM",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame, adding a touch of personality to its otherwise stark appearance. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This whimsical scene combines elements of the mundane and the macabre, highlighting the skeleton's unique character in the midst of corporate life.",
+                  "seed": 3870309139,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "87fbaf53-ac95-4e79-94c6-1f8af0de48f1",
+          "request_id": "8547f5048c647001-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "87fbaf53-ac95-4e79-94c6-1f8af0de48f1",
+      "children": [
+        "fd434cd8-a67b-4d1e-a4c9-0d68ba1e4cfb"
+      ]
+    },
+    "fd434cd8-a67b-4d1e-a4c9-0d68ba1e4cfb": {
+      "id": "fd434cd8-a67b-4d1e-a4c9-0d68ba1e4cfb",
+      "message": {
+        "id": "fd434cd8-a67b-4d1e-a4c9-0d68ba1e4cfb",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773712.228698,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "917d9c6a-661c-4c56-bd99-c8d7b1762124",
+          "request_id": "8547f5048c647001-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "917d9c6a-661c-4c56-bd99-c8d7b1762124",
+      "children": [
+        "ccfe82c1-d03c-438e-9a13-9b2172ba1253"
+      ]
+    },
+    "ccfe82c1-d03c-438e-9a13-9b2172ba1253": {
+      "id": "ccfe82c1-d03c-438e-9a13-9b2172ba1253",
+      "message": {
+        "id": "ccfe82c1-d03c-438e-9a13-9b2172ba1253",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773712.228833,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The skeleton now sports a large, bushy gray beard as it reviews a document at the corporate desk, adding an intriguing blend of whimsy and the macabre to the office scene. If you have any more ideas or requests, feel free to share them!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "fd434cd8-a67b-4d1e-a4c9-0d68ba1e4cfb",
+          "request_id": "8547f5048c647001-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fd434cd8-a67b-4d1e-a4c9-0d68ba1e4cfb",
+      "children": [
+        "aaa22d51-e376-42a6-afc7-a6569698d11c"
+      ]
+    },
+    "aaa22d51-e376-42a6-afc7-a6569698d11c": {
+      "id": "aaa22d51-e376-42a6-afc7-a6569698d11c",
+      "message": {
+        "id": "aaa22d51-e376-42a6-afc7-a6569698d11c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773793.74476,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please remove hair from top of head"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547f7c18b623b86-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ccfe82c1-d03c-438e-9a13-9b2172ba1253",
+      "children": [
+        "e4fcf420-abf4-4c8b-a204-e1cd93c45ad6"
+      ]
+    },
+    "e4fcf420-abf4-4c8b-a204-e1cd93c45ad6": {
+      "id": "e4fcf420-abf4-4c8b-a204-e1cd93c45ad6",
+      "message": {
+        "id": "e4fcf420-abf4-4c8b-a204-e1cd93c45ad6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773834.924893,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard but no hair on the top of its head sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame, emphasizing its unique, hairless skull alongside the striking beard. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene merges the ordinary with the extraordinary, showcasing the skeleton's distinctive appearance amidst the backdrop of corporate life.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa22d51-e376-42a6-afc7-a6569698d11c",
+          "request_id": "8547f7c18b623b86-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa22d51-e376-42a6-afc7-a6569698d11c",
+      "children": [
+        "5a8b08dd-7539-46dd-8af8-52d8411ea0c8"
+      ]
+    },
+    "5a8b08dd-7539-46dd-8af8-52d8411ea0c8": {
+      "id": "5a8b08dd-7539-46dd-8af8-52d8411ea0c8",
+      "message": {
+        "id": "5a8b08dd-7539-46dd-8af8-52d8411ea0c8",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773834.92758,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-4CbKl451iWM2S9lR4RbvcUQP",
+              "size_bytes": 283408,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "sVt4TDvJYOPI5shh",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard but no hair on the top of its head sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame, emphasizing its unique, hairless skull alongside the striking beard. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene merges the ordinary with the extraordinary, showcasing the skeleton's distinctive appearance amidst the backdrop of corporate life.",
+                  "seed": 3526883857,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-5nvXWST8MbKqHU8MBS09enOh",
+              "size_bytes": 303210,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "vrzO7gMBXA81pb63",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard but no hair on the top of its head sits at a sleek desk, reviewing a document. The skeleton wears glasses and a loose-fitting shirt that drapes over its bony frame, emphasizing its unique, hairless skull alongside the striking beard. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene merges the ordinary with the extraordinary, showcasing the skeleton's distinctive appearance amidst the backdrop of corporate life.",
+                  "seed": 159738715,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e4fcf420-abf4-4c8b-a204-e1cd93c45ad6",
+          "request_id": "8547f7c18b623b86-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4fcf420-abf4-4c8b-a204-e1cd93c45ad6",
+      "children": [
+        "80c4c85b-5d2e-4074-b967-61fdbe50d35c"
+      ]
+    },
+    "80c4c85b-5d2e-4074-b967-61fdbe50d35c": {
+      "id": "80c4c85b-5d2e-4074-b967-61fdbe50d35c",
+      "message": {
+        "id": "80c4c85b-5d2e-4074-b967-61fdbe50d35c",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707773834.92787,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "5a8b08dd-7539-46dd-8af8-52d8411ea0c8",
+          "request_id": "8547f7c18b623b86-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5a8b08dd-7539-46dd-8af8-52d8411ea0c8",
+      "children": [
+        "1591c832-b337-4ac1-a0a1-6594805c4f5f"
+      ]
+    },
+    "1591c832-b337-4ac1-a0a1-6594805c4f5f": {
+      "id": "1591c832-b337-4ac1-a0a1-6594805c4f5f",
+      "message": {
+        "id": "1591c832-b337-4ac1-a0a1-6594805c4f5f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773834.928009,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The skeleton now features a large, bushy gray beard with no hair on the top of its head, seated at the corporate desk. This unique look merges the extraordinary with the ordinary backdrop of corporate life. If you have any further adjustments or new ideas, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "80c4c85b-5d2e-4074-b967-61fdbe50d35c",
+          "request_id": "8547f7c18b623b86-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "80c4c85b-5d2e-4074-b967-61fdbe50d35c",
+      "children": [
+        "aaa23a07-fcd7-42d8-a252-1ac1231c1a83"
+      ]
+    },
+    "aaa23a07-fcd7-42d8-a252-1ac1231c1a83": {
+      "id": "aaa23a07-fcd7-42d8-a252-1ac1231c1a83",
+      "message": {
+        "id": "aaa23a07-fcd7-42d8-a252-1ac1231c1a83",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707773987.253512,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please remove shirt"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8547fc7b5ebd07d7-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1591c832-b337-4ac1-a0a1-6594805c4f5f",
+      "children": [
+        "000f1cda-1baa-4214-8c40-89b2b45dfdce"
+      ]
+    },
+    "000f1cda-1baa-4214-8c40-89b2b45dfdce": {
+      "id": "000f1cda-1baa-4214-8c40-89b2b45dfdce",
+      "message": {
+        "id": "000f1cda-1baa-4214-8c40-89b2b45dfdce",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707774021.532842,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard but no hair on the top of its head and no shirt sits at a sleek desk, reviewing a document. The skeleton wears glasses, emphasizing its skeletal form without any clothing to obscure its bones. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene creates a striking contrast between the bare skeleton's appearance and the professional corporate environment, highlighting the surreal juxtaposition.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa23a07-fcd7-42d8-a252-1ac1231c1a83",
+          "request_id": "8547fc7b5ebd07d7-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa23a07-fcd7-42d8-a252-1ac1231c1a83",
+      "children": [
+        "49f24d23-6bcb-489d-ab8b-4564e101ef5a"
+      ]
+    },
+    "49f24d23-6bcb-489d-ab8b-4564e101ef5a": {
+      "id": "49f24d23-6bcb-489d-ab8b-4564e101ef5a",
+      "message": {
+        "id": "49f24d23-6bcb-489d-ab8b-4564e101ef5a",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707774021.535366,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-FrEr7ccN2Hd7foN9LM5V2hVo",
+              "size_bytes": 305522,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "fm18zwqbrCedjmlM",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard but no hair on the top of its head and no shirt sits at a sleek desk, reviewing a document. The skeleton wears glasses, emphasizing its skeletal form without any clothing to obscure its bones. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene creates a striking contrast between the bare skeleton's appearance and the professional corporate environment, highlighting the surreal juxtaposition.",
+                  "seed": 1521070751,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-kv2KYrZpfTfd66nGwow2UQKy",
+              "size_bytes": 344252,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "qolE9BfS3HAuTOlm",
+                  "prompt": "In a modern, well-lit corporate office, a skeleton with a large, bushy gray beard but no hair on the top of its head and no shirt sits at a sleek desk, reviewing a document. The skeleton wears glasses, emphasizing its skeletal form without any clothing to obscure its bones. The room features a large window overlooking a bustling cityscape, and a high-tech computer monitor displays charts and graphs on the desk. This scene creates a striking contrast between the bare skeleton's appearance and the professional corporate environment, highlighting the surreal juxtaposition.",
+                  "seed": 4087362901,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "000f1cda-1baa-4214-8c40-89b2b45dfdce",
+          "request_id": "8547fc7b5ebd07d7-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "000f1cda-1baa-4214-8c40-89b2b45dfdce",
+      "children": [
+        "fb383d50-ebbc-4597-9e9b-f85dcb8351a6"
+      ]
+    },
+    "fb383d50-ebbc-4597-9e9b-f85dcb8351a6": {
+      "id": "fb383d50-ebbc-4597-9e9b-f85dcb8351a6",
+      "message": {
+        "id": "fb383d50-ebbc-4597-9e9b-f85dcb8351a6",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707774021.53569,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "49f24d23-6bcb-489d-ab8b-4564e101ef5a",
+          "request_id": "8547fc7b5ebd07d7-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "49f24d23-6bcb-489d-ab8b-4564e101ef5a",
+      "children": [
+        "3c683f0d-fb9d-431c-b842-c3830e1020c2"
+      ]
+    },
+    "3c683f0d-fb9d-431c-b842-c3830e1020c2": {
+      "id": "3c683f0d-fb9d-431c-b842-c3830e1020c2",
+      "message": {
+        "id": "3c683f0d-fb9d-431c-b842-c3830e1020c2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707774021.535904,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The skeleton, now without a shirt and featuring a large, bushy gray beard, sits at the corporate desk, creating a striking contrast in the professional setting. If there's anything else you'd like to adjust or add, just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "fb383d50-ebbc-4597-9e9b-f85dcb8351a6",
+          "request_id": "8547fc7b5ebd07d7-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fb383d50-ebbc-4597-9e9b-f85dcb8351a6",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3c683f0d-fb9d-431c-b842-c3830e1020c2",
+  "plugin_ids": null,
+  "conversation_id": "147909a3-ce32-4ce7-9ebf-ffe1845432ab",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "147909a3-ce32-4ce7-9ebf-ffe1845432ab"
+}

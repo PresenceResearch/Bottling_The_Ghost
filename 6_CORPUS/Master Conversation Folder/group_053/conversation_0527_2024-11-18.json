@@ -1,0 +1,660 @@
+{
+  "title": "No common addresses found",
+  "create_time": 1731955135.68365,
+  "update_time": 1731955176.208931,
+  "mapping": {
+    "aaa1b74a-aefb-413d-93b9-e2091af7f039": {
+      "id": "aaa1b74a-aefb-413d-93b9-e2091af7f039",
+      "message": null,
+      "parent": null,
+      "children": [
+        "75a5b733-4e9a-4755-8c35-141be3573cc3"
+      ]
+    },
+    "75a5b733-4e9a-4755-8c35-141be3573cc3": {
+      "id": "75a5b733-4e9a-4755-8c35-141be3573cc3",
+      "message": {
+        "id": "75a5b733-4e9a-4755-8c35-141be3573cc3",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1b74a-aefb-413d-93b9-e2091af7f039",
+      "children": [
+        "8c0bce4b-cce3-4f5b-93eb-0faa49991e6e"
+      ]
+    },
+    "8c0bce4b-cce3-4f5b-93eb-0faa49991e6e": {
+      "id": "8c0bce4b-cce3-4f5b-93eb-0faa49991e6e",
+      "message": {
+        "id": "8c0bce4b-cce3-4f5b-93eb-0faa49991e6e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "75a5b733-4e9a-4755-8c35-141be3573cc3",
+      "children": [
+        "aaa288ac-223e-45e0-9a79-a08ac3526da4"
+      ]
+    },
+    "aaa288ac-223e-45e0-9a79-a08ac3526da4": {
+      "id": "aaa288ac-223e-45e0-9a79-a08ac3526da4",
+      "message": {
+        "id": "aaa288ac-223e-45e0-9a79-a08ac3526da4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731955135.705885,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "can you cross reference these two lists and find any common addresses?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-kizfWxpg3QC6TiwnWk53DODI",
+              "size": 0,
+              "name": "MManthy All Opps-2024-11-18-13-33-17.xlsx",
+              "context_connector_info": {
+                "context_connector": "gdrive",
+                "source_url": "https://drive.google.com/file/d/114pxi1v2hU-9x_D8EpbAjb-4FEnxZNG9/view?usp=drive_web",
+                "synthetic_extension": null,
+                "type": "Picker"
+              },
+              "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            },
+            {
+              "id": "file-mtWF4V5m0hEHXYunF2YlEnlV",
+              "size": 0,
+              "name": "Lumina Solar Commercial Lead Lists.xlsx",
+              "context_connector_info": {
+                "context_connector": "gdrive",
+                "source_url": "https://drive.google.com/file/d/1_1zIsEythNyC4X_pgVJz3lX2ujV9qGU-/view?usp=drive_web",
+                "synthetic_extension": null,
+                "type": "Picker"
+              },
+              "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            }
+          ],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8c0bce4b-cce3-4f5b-93eb-0faa49991e6e",
+      "children": [
+        "f861e74d-bb3d-435f-b652-d339a8d93b95"
+      ]
+    },
+    "f861e74d-bb3d-435f-b652-d339a8d93b95": {
+      "id": "f861e74d-bb3d-435f-b652-d339a8d93b95",
+      "message": {
+        "id": "f861e74d-bb3d-435f-b652-d339a8d93b95",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731955174.157092,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa288ac-223e-45e0-9a79-a08ac3526da4",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa288ac-223e-45e0-9a79-a08ac3526da4",
+      "children": [
+        "cbfc9a67-9ca4-42d6-8513-d072805444da"
+      ]
+    },
+    "cbfc9a67-9ca4-42d6-8513-d072805444da": {
+      "id": "cbfc9a67-9ca4-42d6-8513-d072805444da",
+      "message": {
+        "id": "cbfc9a67-9ca4-42d6-8513-d072805444da",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731955174.157213,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "import pandas as pd\r\n\r\n# Load the two uploaded Excel files\r\nfile1_path = '/mnt/data/MManthy All Opps-2024-11-18-13-33-17.xlsx'\r\nfile2_path = '/mnt/data/Lumina Solar Commercial Lead Lists.xlsx'\r\n\r\n# Read the Excel files into dataframes\r\nfile1 = pd.ExcelFile(file1_path)\r\nfile2 = pd.ExcelFile(file2_path)\r\n\r\n# Display sheet names to identify which sheets to cross-reference\r\nfile1.sheet_names, file2.sheet_names"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f861e74d-bb3d-435f-b652-d339a8d93b95",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "f861e74d-bb3d-435f-b652-d339a8d93b95",
+      "children": [
+        "6b4dfc1f-8e77-4d81-81c6-7ee6822022bf"
+      ]
+    },
+    "6b4dfc1f-8e77-4d81-81c6-7ee6822022bf": {
+      "id": "6b4dfc1f-8e77-4d81-81c6-7ee6822022bf",
+      "message": {
+        "id": "6b4dfc1f-8e77-4d81-81c6-7ee6822022bf",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1731955174.157295,
+        "update_time": 1731955146.7574224,
+        "content": {
+          "content_type": "execution_output",
+          "text": "(['MManthy All Opps'], ['Lumina Solar Baltimore Purchase', 'Washington List'])"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "88cf98fc-ee1c-46b6-a1a2-5ed338f6999f",
+            "start_time": 1731955143.1910193,
+            "update_time": 1731955146.7574224,
+            "code": "import pandas as pd\r\n\r\n# Load the two uploaded Excel files\r\nfile1_path = '/mnt/data/MManthy All Opps-2024-11-18-13-33-17.xlsx'\r\nfile2_path = '/mnt/data/Lumina Solar Commercial Lead Lists.xlsx'\r\n\r\n# Read the Excel files into dataframes\r\nfile1 = pd.ExcelFile(file1_path)\r\nfile2 = pd.ExcelFile(file2_path)\r\n\r\n# Display sheet names to identify which sheets to cross-reference\r\nfile1.sheet_names, file2.sheet_names",
+            "end_time": 1731955146.7574224,
+            "final_expression_output": "(['MManthy All Opps'], ['Lumina Solar Baltimore Purchase', 'Washington List'])",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "(['MManthy All Opps'], ['Lumina Solar Baltimore Purchase', 'Washington List'])"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "cbfc9a67-9ca4-42d6-8513-d072805444da",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cbfc9a67-9ca4-42d6-8513-d072805444da",
+      "children": [
+        "30e0088a-9ef4-48de-a511-404afe5a29d8"
+      ]
+    },
+    "30e0088a-9ef4-48de-a511-404afe5a29d8": {
+      "id": "30e0088a-9ef4-48de-a511-404afe5a29d8",
+      "message": {
+        "id": "30e0088a-9ef4-48de-a511-404afe5a29d8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731955174.157368,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Load the sheets into DataFrames for analysis\r\ndf1 = file1.parse('MManthy All Opps')\r\ndf2 = file2.parse('Lumina Solar Baltimore Purchase')\r\ndf3 = file2.parse('Washington List')\r\n\r\n# Display the first few rows to identify relevant columns for cross-referencing\r\ndf1.head(), df2.head(), df3.head()"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6b4dfc1f-8e77-4d81-81c6-7ee6822022bf",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "6b4dfc1f-8e77-4d81-81c6-7ee6822022bf",
+      "children": [
+        "0717c427-a31e-4730-98be-f9c37475d6b5"
+      ]
+    },
+    "0717c427-a31e-4730-98be-f9c37475d6b5": {
+      "id": "0717c427-a31e-4730-98be-f9c37475d6b5",
+      "message": {
+        "id": "0717c427-a31e-4730-98be-f9c37475d6b5",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1731955174.15744,
+        "update_time": 1731955154.027463,
+        "content": {
+          "content_type": "execution_output",
+          "text": "(                                        Account Name  \\\n 0  St. Ann's Center for Children, Youth and Families   \n 1                        Cavanaugh Court Condominium   \n 2                      Dupont Park Adventist Academy   \n 3                              Dr. Brian Bowser, DDS   \n 4                                 New Columbia Solar   \n \n                                     Opportunity Name        Stage    Amount  \\\n 0  St. Ann's Center for Children, Youth and Famil...  Closed Lost  337500.0   \n 1                        Cavanaugh Court Condominium  Closed Lost       NaN   \n 2                      Dupont Park Adventist Academy  Closed Lost  284212.0   \n 3                                      Bowser Dental   Closed Won   71712.0   \n 4                             4100 Cathedral Ave, NW   Closed Won   56169.0   \n \n     Age  Close Date Created Date            Type  \\\n 0  25.0   6/30/2018     6/5/2018     Residential   \n 1  48.0  10/31/2019    9/13/2019      Commercial   \n 2  85.0   6/30/2020     4/6/2020      Commercial   \n 3  13.0   10/8/2020    9/25/2020      Commercial   \n 4  14.0  10/16/2020    10/2/2020  Commercial EPC   \n \n           Billing Address Line 1 Billing City Billing State/Province  \\\n 0  4901 Eastern Avenue Northeast  Hyattsville                     MD   \n 1     1526 17th Street Northwest   Washington   District of Columbia   \n 2  3942 Alabama Avenue Southeast   Washington   District of Columbia   \n 3              845 Edgewood Road         York           Pennsylvania   \n 4  401 New York Avenue Northeast   Washington                     DC   \n \n   Billing Zip/Postal Code  \n 0                   20782  \n 1                   20036  \n 2                   20020  \n 3                   17402  \n 4                   20002  ,\n            100 WEST HAIR STUDIO        11331A YORK RD  COCKEYSVILLE  MD  \\\n 0  1ST PREFERENCE MTG-BALTIMORE        9423 BELAIR RD     BALTIMORE  MD   \n 1                 3D INNOVATION   8607 LIBERTY RD # 1  RANDALLSTOWN  MD   \n 2       4 OAKS PHYSICAL THERAPY  9 SCHILLING RD # LL3   HUNT VALLEY  MD   \n 3   A & A GLOBAL INDUSTRIES INC       17 STENERSON LN  COCKEYSVILLE  MD   \n 4  A & A PKGNG PROD & INDL SUPL    9419 BELAIR RD # 1    NOTTINGHAM  MD   \n \n    21030                             BEAUTY SALONS  14  4105600770  \\\n 0  21236                         REAL ESTATE LOANS  35  3015130400   \n 1  21133                     CRYSTAL QUARTZ (MFRS)  12  2533555145   \n 2  21031                       PHYSICAL THERAPISTS   7  4102299800   \n 3  21030                          VENDING MACHINES  16  4102521020   \n 4  21236  MISCELLANEOUS INDUSTRIAL SUPPLIES (WHLS)  10  4102564500   \n \n           OTHER      DAWN  BLEVINS   Unnamed: 11  \\\n 0  SITE MANAGER      MARK    NIOSI   1STPREF.COM   \n 1           NaN       NaN    *****           NaN   \n 2         OTHER  JEREMY M  WALLICK   4OAKSPT.COM   \n 3  REGIONAL MGR     ANTON  CONAWAY  AAGLOBAL.COM   \n 4         OWNER     STEVE  ANGELOS     AAPKG.COM   \n \n    Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List  \\\n 0  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 1  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 2  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 3  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 4  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n \n    Mailers Haven  \n 0  Mailers Haven  \n 1  Mailers Haven  \n 2  Mailers Haven  \n 3  Mailers Haven  \n 4  Mailers Haven  ,\n           ADVENTURES BY DAWN LLC       17517B INDIAN HEAD HWY  ACCOKEEK  MD  \\\n 0        ACCOKEEK PUBLIC LIBRARY          15773 LIVINGSTON RD  ACCOKEEK  MD   \n 1                   WEIS MARKETS          15789 LIVINGSTON RD  ACCOKEEK  MD   \n 2                    BENELLI USA  17603 INDIAN HEAD HWY # 200  ACCOKEEK  MD   \n 3    ADVANCED VISION SYSTEMS INC                   PO BOX 426  ACCOKEEK  MD   \n 4  UNIVERSITY SYSTEM OF MARYLAND       3300 METZEROTT RD # 2C   ADELPHI  MD   \n \n    20607      LOCAL PASSENGER TRANSPORTATION NEC  20  3012830638  \\\n 0  20607                        LIBRARIES-PUBLIC   5  3012922880   \n 1  20607                          GROCERS-RETAIL  89  3012038321   \n 2  20607           MARKETING PROGRAMS & SERVICES  40  3012832185   \n 3  20607                             ENGINEERING  10  3012008667   \n 4  20783  UNIV/CLG-GOVERNING BODY/REGENT/TRUSTEE  95  3014452740   \n \n        OPERATIONS     SULAIMAN       KHAN           ABDTOURS.COM  \\\n 0         MANAGER  DEENA-MARIE  BERESFORD            PGCMLS.INFO   \n 1         MANAGER       EUGENE  REI RILEY        WEISMARKETS.COM   \n 2    FINANCE EXEC      PHYLLIS  BLACKNALL  FORUMS.BENELLIUSA.COM   \n 3  VICE PRESIDENT       SHEILA     ZATTAU  ADVANCEDVISIONSYS.COM   \n 4      OPERATIONS          PAM      SCOTT               USMD.EDU   \n \n    Washington-Arlington-Alexandria, DC-VA-MD-WV MSA  \\\n 0  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 1  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 2  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 3  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 4  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n \n    Lumina Solar Washington DC Purchased List  Mailers Haven  \n 0  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 1  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 2  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 3  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 4  Lumina Solar Washington DC Purchased List  Mailers Haven  )"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "48366ac6-9aab-40ea-a2a0-fde7728aa982",
+            "start_time": 1731955152.4210835,
+            "update_time": 1731955154.027463,
+            "code": "# Load the sheets into DataFrames for analysis\r\ndf1 = file1.parse('MManthy All Opps')\r\ndf2 = file2.parse('Lumina Solar Baltimore Purchase')\r\ndf3 = file2.parse('Washington List')\r\n\r\n# Display the first few rows to identify relevant columns for cross-referencing\r\ndf1.head(), df2.head(), df3.head()",
+            "end_time": 1731955154.027463,
+            "final_expression_output": "(                                        Account Name  \\\n 0  St. Ann's Center for Children, Youth and Families   \n 1                        Cavanaugh Court Condominium   \n 2                      Dupont Park Adventist Academy   \n 3                              Dr. Brian Bowser, DDS   \n 4                                 New Columbia Solar   \n \n                                     Opportunity Name        Stage    Amount  \\\n 0  St. Ann's Center for Children, Youth and Famil...  Closed Lost  337500.0   \n 1                        Cavanaugh Court Condominium  Closed Lost       NaN   \n 2                      Dupont Park Adventist Academy  Closed Lost  284212.0   \n 3                                      Bowser Dental   Closed Won   71712.0   \n 4                             4100 Cathedral Ave, NW   Closed Won   56169.0   \n \n     Age  Close Date Created Date            Type  \\\n 0  25.0   6/30/2018     6/5/2018     Residential   \n 1  48.0  10/31/2019    9/13/2019      Commercial   \n 2  85.0   6/30/2020     4/6/2020      Commercial   \n 3  13.0   10/8/2020    9/25/2020      Commercial   \n 4  14.0  10/16/2020    10/2/2020  Commercial EPC   \n \n           Billing Address Line 1 Billing City Billing State/Province  \\\n 0  4901 Eastern Avenue Northeast  Hyattsville                     MD   \n 1     1526 17th Street Northwest   Washington   District of Columbia   \n 2  3942 Alabama Avenue Southeast   Washington   District of Columbia   \n 3              845 Edgewood Road         York           Pennsylvania   \n 4  401 New York Avenue Northeast   Washington                     DC   \n \n   Billing Zip/Postal Code  \n 0                   20782  \n 1                   20036  \n 2                   20020  \n 3                   17402  \n 4                   20002  ,\n            100 WEST HAIR STUDIO        11331A YORK RD  COCKEYSVILLE  MD  \\\n 0  1ST PREFERENCE MTG-BALTIMORE        9423 BELAIR RD     BALTIMORE  MD   \n 1                 3D INNOVATION   8607 LIBERTY RD # 1  RANDALLSTOWN  MD   \n 2       4 OAKS PHYSICAL THERAPY  9 SCHILLING RD # LL3   HUNT VALLEY  MD   \n 3   A & A GLOBAL INDUSTRIES INC       17 STENERSON LN  COCKEYSVILLE  MD   \n 4  A & A PKGNG PROD & INDL SUPL    9419 BELAIR RD # 1    NOTTINGHAM  MD   \n \n    21030                             BEAUTY SALONS  14  4105600770  \\\n 0  21236                         REAL ESTATE LOANS  35  3015130400   \n 1  21133                     CRYSTAL QUARTZ (MFRS)  12  2533555145   \n 2  21031                       PHYSICAL THERAPISTS   7  4102299800   \n 3  21030                          VENDING MACHINES  16  4102521020   \n 4  21236  MISCELLANEOUS INDUSTRIAL SUPPLIES (WHLS)  10  4102564500   \n \n           OTHER      DAWN  BLEVINS   Unnamed: 11  \\\n 0  SITE MANAGER      MARK    NIOSI   1STPREF.COM   \n 1           NaN       NaN    *****           NaN   \n 2         OTHER  JEREMY M  WALLICK   4OAKSPT.COM   \n 3  REGIONAL MGR     ANTON  CONAWAY  AAGLOBAL.COM   \n 4         OWNER     STEVE  ANGELOS     AAPKG.COM   \n \n    Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List  \\\n 0  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 1  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 2  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 3  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 4  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n \n    Mailers Haven  \n 0  Mailers Haven  \n 1  Mailers Haven  \n 2  Mailers Haven  \n 3  Mailers Haven  \n 4  Mailers Haven  ,\n           ADVENTURES BY DAWN LLC       17517B INDIAN HEAD HWY  ACCOKEEK  MD  \\\n 0        ACCOKEEK PUBLIC LIBRARY          15773 LIVINGSTON RD  ACCOKEEK  MD   \n 1                   WEIS MARKETS          15789 LIVINGSTON RD  ACCOKEEK  MD   \n 2                    BENELLI USA  17603 INDIAN HEAD HWY # 200  ACCOKEEK  MD   \n 3    ADVANCED VISION SYSTEMS INC                   PO BOX 426  ACCOKEEK  MD   \n 4  UNIVERSITY SYSTEM OF MARYLAND       3300 METZEROTT RD # 2C   ADELPHI  MD   \n \n    20607      LOCAL PASSENGER TRANSPORTATION NEC  20  3012830638  \\\n 0  20607                        LIBRARIES-PUBLIC   5  3012922880   \n 1  20607                          GROCERS-RETAIL  89  3012038321   \n 2  20607           MARKETING PROGRAMS & SERVICES  40  3012832185   \n 3  20607                             ENGINEERING  10  3012008667   \n 4  20783  UNIV/CLG-GOVERNING BODY/REGENT/TRUSTEE  95  3014452740   \n \n        OPERATIONS     SULAIMAN       KHAN           ABDTOURS.COM  \\\n 0         MANAGER  DEENA-MARIE  BERESFORD            PGCMLS.INFO   \n 1         MANAGER       EUGENE  REI RILEY        WEISMARKETS.COM   \n 2    FINANCE EXEC      PHYLLIS  BLACKNALL  FORUMS.BENELLIUSA.COM   \n 3  VICE PRESIDENT       SHEILA     ZATTAU  ADVANCEDVISIONSYS.COM   \n 4      OPERATIONS          PAM      SCOTT               USMD.EDU   \n \n    Washington-Arlington-Alexandria, DC-VA-MD-WV MSA  \\\n 0  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 1  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 2  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 3  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 4  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n \n    Lumina Solar Washington DC Purchased List  Mailers Haven  \n 0  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 1  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 2  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 3  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 4  Lumina Solar Washington DC Purchased List  Mailers Haven  )",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "(                                        Account Name  \\\n 0  St. Ann's Center for Children, Youth and Families   \n 1                        Cavanaugh Court Condominium   \n 2                      Dupont Park Adventist Academy   \n 3                              Dr. Brian Bowser, DDS   \n 4                                 New Columbia Solar   \n \n                                     Opportunity Name        Stage    Amount  \\\n 0  St. Ann's Center for Children, Youth and Famil...  Closed Lost  337500.0   \n 1                        Cavanaugh Court Condominium  Closed Lost       NaN   \n 2                      Dupont Park Adventist Academy  Closed Lost  284212.0   \n 3                                      Bowser Dental   Closed Won   71712.0   \n 4                             4100 Cathedral Ave, NW   Closed Won   56169.0   \n \n     Age  Close Date Created Date            Type  \\\n 0  25.0   6/30/2018     6/5/2018     Residential   \n 1  48.0  10/31/2019    9/13/2019      Commercial   \n 2  85.0   6/30/2020     4/6/2020      Commercial   \n 3  13.0   10/8/2020    9/25/2020      Commercial   \n 4  14.0  10/16/2020    10/2/2020  Commercial EPC   \n \n           Billing Address Line 1 Billing City Billing State/Province  \\\n 0  4901 Eastern Avenue Northeast  Hyattsville                     MD   \n 1     1526 17th Street Northwest   Washington   District of Columbia   \n 2  3942 Alabama Avenue Southeast   Washington   District of Columbia   \n 3              845 Edgewood Road         York           Pennsylvania   \n 4  401 New York Avenue Northeast   Washington                     DC   \n \n   Billing Zip/Postal Code  \n 0                   20782  \n 1                   20036  \n 2                   20020  \n 3                   17402  \n 4                   20002  ,\n            100 WEST HAIR STUDIO        11331A YORK RD  COCKEYSVILLE  MD  \\\n 0  1ST PREFERENCE MTG-BALTIMORE        9423 BELAIR RD     BALTIMORE  MD   \n 1                 3D INNOVATION   8607 LIBERTY RD # 1  RANDALLSTOWN  MD   \n 2       4 OAKS PHYSICAL THERAPY  9 SCHILLING RD # LL3   HUNT VALLEY  MD   \n 3   A & A GLOBAL INDUSTRIES INC       17 STENERSON LN  COCKEYSVILLE  MD   \n 4  A & A PKGNG PROD & INDL SUPL    9419 BELAIR RD # 1    NOTTINGHAM  MD   \n \n    21030                             BEAUTY SALONS  14  4105600770  \\\n 0  21236                         REAL ESTATE LOANS  35  3015130400   \n 1  21133                     CRYSTAL QUARTZ (MFRS)  12  2533555145   \n 2  21031                       PHYSICAL THERAPISTS   7  4102299800   \n 3  21030                          VENDING MACHINES  16  4102521020   \n 4  21236  MISCELLANEOUS INDUSTRIAL SUPPLIES (WHLS)  10  4102564500   \n \n           OTHER      DAWN  BLEVINS   Unnamed: 11  \\\n 0  SITE MANAGER      MARK    NIOSI   1STPREF.COM   \n 1           NaN       NaN    *****           NaN   \n 2         OTHER  JEREMY M  WALLICK   4OAKSPT.COM   \n 3  REGIONAL MGR     ANTON  CONAWAY  AAGLOBAL.COM   \n 4         OWNER     STEVE  ANGELOS     AAPKG.COM   \n \n    Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List  \\\n 0  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 1  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 2  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 3  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n 4  Baltimore-Columbia-Towson, MD MSA  Lumina Solar Baltimore Purchased List   \n \n    Mailers Haven  \n 0  Mailers Haven  \n 1  Mailers Haven  \n 2  Mailers Haven  \n 3  Mailers Haven  \n 4  Mailers Haven  ,\n           ADVENTURES BY DAWN LLC       17517B INDIAN HEAD HWY  ACCOKEEK  MD  \\\n 0        ACCOKEEK PUBLIC LIBRARY          15773 LIVINGSTON RD  ACCOKEEK  MD   \n 1                   WEIS MARKETS          15789 LIVINGSTON RD  ACCOKEEK  MD   \n 2                    BENELLI USA  17603 INDIAN HEAD HWY # 200  ACCOKEEK  MD   \n 3    ADVANCED VISION SYSTEMS INC                   PO BOX 426  ACCOKEEK  MD   \n 4  UNIVERSITY SYSTEM OF MARYLAND       3300 METZEROTT RD # 2C   ADELPHI  MD   \n \n    20607      LOCAL PASSENGER TRANSPORTATION NEC  20  3012830638  \\\n 0  20607                        LIBRARIES-PUBLIC   5  3012922880   \n 1  20607                          GROCERS-RETAIL  89  3012038321   \n 2  20607           MARKETING PROGRAMS & SERVICES  40  3012832185   \n 3  20607                             ENGINEERING  10  3012008667   \n 4  20783  UNIV/CLG-GOVERNING BODY/REGENT/TRUSTEE  95  3014452740   \n \n        OPERATIONS     SULAIMAN       KHAN           ABDTOURS.COM  \\\n 0         MANAGER  DEENA-MARIE  BERESFORD            PGCMLS.INFO   \n 1         MANAGER       EUGENE  REI RILEY        WEISMARKETS.COM   \n 2    FINANCE EXEC      PHYLLIS  BLACKNALL  FORUMS.BENELLIUSA.COM   \n 3  VICE PRESIDENT       SHEILA     ZATTAU  ADVANCEDVISIONSYS.COM   \n 4      OPERATIONS          PAM      SCOTT               USMD.EDU   \n \n    Washington-Arlington-Alexandria, DC-VA-MD-WV MSA  \\\n 0  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 1  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 2  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 3  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n 4  Washington-Arlington-Alexandria, DC-VA-MD-WV MSA   \n \n    Lumina Solar Washington DC Purchased List  Mailers Haven  \n 0  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 1  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 2  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 3  Lumina Solar Washington DC Purchased List  Mailers Haven  \n 4  Lumina Solar Washington DC Purchased List  Mailers Haven  )"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "30e0088a-9ef4-48de-a511-404afe5a29d8",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "30e0088a-9ef4-48de-a511-404afe5a29d8",
+      "children": [
+        "d12dea94-2036-4084-b6b1-c61ca00ffdfe"
+      ]
+    },
+    "d12dea94-2036-4084-b6b1-c61ca00ffdfe": {
+      "id": "d12dea94-2036-4084-b6b1-c61ca00ffdfe",
+      "message": {
+        "id": "d12dea94-2036-4084-b6b1-c61ca00ffdfe",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731955174.15751,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "# Extract relevant address columns from all DataFrames for comparison\r\naddresses_1 = df1[['Billing Address Line 1', 'Billing City', 'Billing State/Province', 'Billing Zip/Postal Code']].dropna()\r\naddresses_2 = df2[[df2.columns[1], df2.columns[2], df2.columns[3]]].dropna()\r\naddresses_2.columns = ['Address', 'City', 'State']\r\naddresses_3 = df3[[df3.columns[1], df3.columns[2], df3.columns[3]]].dropna()\r\naddresses_3.columns = ['Address', 'City', 'State']\r\n\r\n# Combine the Lumina Solar leads\r\naddresses_2['Source'] = 'Baltimore List'\r\naddresses_3['Source'] = 'Washington List'\r\naddresses_combined = pd.concat([addresses_2, addresses_3], ignore_index=True)\r\n\r\n# Normalize the formatting to improve cross-referencing\r\naddresses_1['Full Address'] = addresses_1.apply(\r\n    lambda x: f\"{x['Billing Address Line 1']}, {x['Billing City']}, {x['Billing State/Province']} {x['Billing Zip/Postal Code']}\".strip().lower(), axis=1)\r\naddresses_combined['Full Address'] = addresses_combined.apply(\r\n    lambda x: f\"{x['Address']}, {x['City']}, {x['State']}\".strip().lower(), axis=1)\r\n\r\n# Cross-reference to find common addresses\r\ncommon_addresses = addresses_1[addresses_1['Full Address'].isin(addresses_combined['Full Address'])]\r\n\r\nimport ace_tools as tools; tools.display_dataframe_to_user(name=\"Common Addresses in Both Lists\", dataframe=common_addresses)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0717c427-a31e-4730-98be-f9c37475d6b5",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "0717c427-a31e-4730-98be-f9c37475d6b5",
+      "children": [
+        "97f78b00-9bcf-427e-b6d1-829772c54f11"
+      ]
+    },
+    "97f78b00-9bcf-427e-b6d1-829772c54f11": {
+      "id": "97f78b00-9bcf-427e-b6d1-829772c54f11",
+      "message": {
+        "id": "97f78b00-9bcf-427e-b6d1-829772c54f11",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1731955174.157578,
+        "update_time": 1731955172.9468405,
+        "content": {
+          "content_type": "execution_output",
+          "text": "Empty DataFrame\nColumns: [Billing Address Line 1, Billing City, Billing State/Province, Billing Zip/Postal Code, Full Address]\nIndex: []"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "61a63775-1511-4b37-a91c-35d7127411a6",
+            "start_time": 1731955171.6163344,
+            "update_time": 1731955172.9468405,
+            "code": "# Extract relevant address columns from all DataFrames for comparison\r\naddresses_1 = df1[['Billing Address Line 1', 'Billing City', 'Billing State/Province', 'Billing Zip/Postal Code']].dropna()\r\naddresses_2 = df2[[df2.columns[1], df2.columns[2], df2.columns[3]]].dropna()\r\naddresses_2.columns = ['Address', 'City', 'State']\r\naddresses_3 = df3[[df3.columns[1], df3.columns[2], df3.columns[3]]].dropna()\r\naddresses_3.columns = ['Address', 'City', 'State']\r\n\r\n# Combine the Lumina Solar leads\r\naddresses_2['Source'] = 'Baltimore List'\r\naddresses_3['Source'] = 'Washington List'\r\naddresses_combined = pd.concat([addresses_2, addresses_3], ignore_index=True)\r\n\r\n# Normalize the formatting to improve cross-referencing\r\naddresses_1['Full Address'] = addresses_1.apply(\r\n    lambda x: f\"{x['Billing Address Line 1']}, {x['Billing City']}, {x['Billing State/Province']} {x['Billing Zip/Postal Code']}\".strip().lower(), axis=1)\r\naddresses_combined['Full Address'] = addresses_combined.apply(\r\n    lambda x: f\"{x['Address']}, {x['City']}, {x['State']}\".strip().lower(), axis=1)\r\n\r\n# Cross-reference to find common addresses\r\ncommon_addresses = addresses_1[addresses_1['Full Address'].isin(addresses_combined['Full Address'])]\r\n\r\nimport ace_tools as tools; tools.display_dataframe_to_user(name=\"Common Addresses in Both Lists\", dataframe=common_addresses)",
+            "end_time": 1731955172.9468405,
+            "final_expression_output": "Empty DataFrame\nColumns: [Billing Address Line 1, Billing City, Billing State/Province, Billing Zip/Postal Code, Full Address]\nIndex: []",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "Empty DataFrame\nColumns: [Billing Address Line 1, Billing City, Billing State/Province, Billing Zip/Postal Code, Full Address]\nIndex: []",
+                    "text/html": "<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Billing Address Line 1</th>\n      <th>Billing City</th>\n      <th>Billing State/Province</th>\n      <th>Billing Zip/Postal Code</th>\n      <th>Full Address</th>\n    </tr>\n  </thead>\n  <tbody>\n  </tbody>\n</table>\n</div>"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "1cc30384-8500980825c1bafa4dc88f8c_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "ada_visualizations": [
+            {
+              "type": "table",
+              "file_id": "file-3ThfSfBqgFNRU5qVOgAu8QC8",
+              "title": "Common Addresses in Both Lists"
+            }
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d12dea94-2036-4084-b6b1-c61ca00ffdfe",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d12dea94-2036-4084-b6b1-c61ca00ffdfe",
+      "children": [
+        "f8ac674c-c9f9-4ae0-8a8c-a574fd94590f"
+      ]
+    },
+    "f8ac674c-c9f9-4ae0-8a8c-a574fd94590f": {
+      "id": "f8ac674c-c9f9-4ae0-8a8c-a574fd94590f",
+      "message": {
+        "id": "f8ac674c-c9f9-4ae0-8a8c-a574fd94590f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731955174.157648,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No common addresses were found between the two lists. Let me know if you'd like me to refine the matching criteria or check for partial matches."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "97f78b00-9bcf-427e-b6d1-829772c54f11",
+          "request_id": "8e4a148a0e6b4cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "97f78b00-9bcf-427e-b6d1-829772c54f11",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f8ac674c-c9f9-4ae0-8a8c-a574fd94590f",
+  "plugin_ids": null,
+  "conversation_id": "673b89bf-42b0-8009-8564-9d27d54d7340",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "673b89bf-42b0-8009-8564-9d27d54d7340"
+}

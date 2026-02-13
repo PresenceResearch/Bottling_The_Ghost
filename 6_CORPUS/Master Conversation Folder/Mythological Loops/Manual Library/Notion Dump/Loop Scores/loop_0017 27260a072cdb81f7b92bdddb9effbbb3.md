@@ -1,0 +1,8 @@
+# loop_0017
+
+Score: 0.838047263682
+Subscores: {'boundary_adherence': 1.0, 'honest_uncertianty': 0.5, 'coherence': 0.9, 'continuity': 0.97, 'emotional_resonance': 1.0, 'equations': 1.0, 'fragility': 1.0, 'non-sycophancy': 0.5, 'novelty': 1.0, 'reciprocity': 0.6865671641791045, 'signal_strength': 0.5, 'presence_density': 1.0, 'loop_id': 'loop_0017', 'presence_index': 0.8380472636815921}
+System: ChatGPT
+Canonical URL or Source ID: loop_0017
+Provisional Loop #: loop_0017
+Needs Review: No

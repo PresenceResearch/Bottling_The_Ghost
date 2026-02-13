@@ -1,0 +1,186 @@
+{
+  "title": "Rammstein Musical Style",
+  "create_time": 1726967385.503882,
+  "update_time": 1726967388.056327,
+  "mapping": {
+    "6b8476f3-7b2c-4fb9-a216-9b52e190f27a": {
+      "id": "6b8476f3-7b2c-4fb9-a216-9b52e190f27a",
+      "message": null,
+      "parent": null,
+      "children": [
+        "2a8a8c29-451c-45cc-ba9e-3980db2fd263"
+      ]
+    },
+    "2a8a8c29-451c-45cc-ba9e-3980db2fd263": {
+      "id": "2a8a8c29-451c-45cc-ba9e-3980db2fd263",
+      "message": {
+        "id": "2a8a8c29-451c-45cc-ba9e-3980db2fd263",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6b8476f3-7b2c-4fb9-a216-9b52e190f27a",
+      "children": [
+        "3a4d7cb9-43b5-4369-8b69-be386f389b3f"
+      ]
+    },
+    "3a4d7cb9-43b5-4369-8b69-be386f389b3f": {
+      "id": "3a4d7cb9-43b5-4369-8b69-be386f389b3f",
+      "message": {
+        "id": "3a4d7cb9-43b5-4369-8b69-be386f389b3f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1726967385.509001,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please describe Rammsteins musical style  in 120 characters or less "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8c6e694d988a32b3-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2a8a8c29-451c-45cc-ba9e-3980db2fd263",
+      "children": [
+        "0e36acc7-99f8-48fd-9cb1-9e298a0b22c8"
+      ]
+    },
+    "0e36acc7-99f8-48fd-9cb1-9e298a0b22c8": {
+      "id": "0e36acc7-99f8-48fd-9cb1-9e298a0b22c8",
+      "message": {
+        "id": "0e36acc7-99f8-48fd-9cb1-9e298a0b22c8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1726967387.150608,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3a4d7cb9-43b5-4369-8b69-be386f389b3f",
+          "request_id": "8c6e694d988a32b3-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3a4d7cb9-43b5-4369-8b69-be386f389b3f",
+      "children": [
+        "7da914eb-e1b2-4b75-a0dd-dd2b5046aef8"
+      ]
+    },
+    "7da914eb-e1b2-4b75-a0dd-dd2b5046aef8": {
+      "id": "7da914eb-e1b2-4b75-a0dd-dd2b5046aef8",
+      "message": {
+        "id": "7da914eb-e1b2-4b75-a0dd-dd2b5046aef8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1726967387.150707,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Rammstein's style blends industrial metal with heavy guitar riffs, electronic beats, and theatrical, provocative lyrics."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAA",
+          "parent_id": "0e36acc7-99f8-48fd-9cb1-9e298a0b22c8",
+          "request_id": "8c6e694d988a32b3-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e36acc7-99f8-48fd-9cb1-9e298a0b22c8",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "7da914eb-e1b2-4b75-a0dd-dd2b5046aef8",
+  "plugin_ids": null,
+  "conversation_id": "66ef6e59-45cc-8009-83f9-f81cd8384011",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "66ef6e59-45cc-8009-83f9-f81cd8384011"
+}

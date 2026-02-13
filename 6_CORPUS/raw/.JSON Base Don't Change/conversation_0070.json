@@ -1,0 +1,344 @@
+{
+  "title": "Soviet Solar Propaganda Illustration",
+  "create_time": 1707411316.267134,
+  "update_time": 1707411350.253473,
+  "mapping": {
+    "aaa1e5dd-98de-4650-8750-8d6c2541bee0": {
+      "id": "aaa1e5dd-98de-4650-8750-8d6c2541bee0",
+      "message": null,
+      "parent": null,
+      "children": [
+        "28c24eb4-c665-4db8-a64c-10e6d9f98bfa"
+      ]
+    },
+    "28c24eb4-c665-4db8-a64c-10e6d9f98bfa": {
+      "id": "28c24eb4-c665-4db8-a64c-10e6d9f98bfa",
+      "message": {
+        "id": "28c24eb4-c665-4db8-a64c-10e6d9f98bfa",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1e5dd-98de-4650-8750-8d6c2541bee0",
+      "children": [
+        "b7e81026-25d7-4e66-9e8d-3960b5d73163"
+      ]
+    },
+    "b7e81026-25d7-4e66-9e8d-3960b5d73163": {
+      "id": "b7e81026-25d7-4e66-9e8d-3960b5d73163",
+      "message": {
+        "id": "b7e81026-25d7-4e66-9e8d-3960b5d73163",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "28c24eb4-c665-4db8-a64c-10e6d9f98bfa",
+      "children": [
+        "aaa27832-22e3-45a6-9bc5-42bb62f56d80"
+      ]
+    },
+    "aaa27832-22e3-45a6-9bc5-42bb62f56d80": {
+      "id": "aaa27832-22e3-45a6-9bc5-42bb62f56d80",
+      "message": {
+        "id": "aaa27832-22e3-45a6-9bc5-42bb62f56d80",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707411316.268015,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please create a happy soviet propaganda from the world war 2 era extolling the benefits of solar panels"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85256635b9b62365-EWR",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b7e81026-25d7-4e66-9e8d-3960b5d73163",
+      "children": [
+        "47ee97a8-6dd0-4c52-bc78-82a85f735932"
+      ]
+    },
+    "47ee97a8-6dd0-4c52-bc78-82a85f735932": {
+      "id": "47ee97a8-6dd0-4c52-bc78-82a85f735932",
+      "message": {
+        "id": "47ee97a8-6dd0-4c52-bc78-82a85f735932",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707411349.519884,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Illustrate a happy Soviet propaganda poster from the World War 2 era, celebrating the benefits of solar panels. The scene features jubilant workers and engineers in 1940s Soviet attire, proudly installing and demonstrating solar panels against a backdrop of industrial and agricultural prosperity. The sky is clear and sunny, emphasizing the effectiveness of solar energy. Bold, Cyrillic-style text at the top and bottom of the poster proclaims the benefits of solar energy for the Soviet Union's progress and self-sufficiency. The overall aesthetic is vibrant and optimistic, with bold colors and stylized imagery characteristic of Soviet propaganda art of that time.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "aaa27832-22e3-45a6-9bc5-42bb62f56d80",
+          "request_id": "85256635b9b62365-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa27832-22e3-45a6-9bc5-42bb62f56d80",
+      "children": [
+        "4d43ea3f-bdb5-4520-8bdf-40d8b8607ac4"
+      ]
+    },
+    "4d43ea3f-bdb5-4520-8bdf-40d8b8607ac4": {
+      "id": "4d43ea3f-bdb5-4520-8bdf-40d8b8607ac4",
+      "message": {
+        "id": "4d43ea3f-bdb5-4520-8bdf-40d8b8607ac4",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707411349.522541,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-YnEEBWGa59XlZzuHIIKnwUw8",
+              "size_bytes": 516524,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "uTePPUt8MaHT32v4",
+                  "prompt": "Illustrate a happy Soviet propaganda poster from the World War 2 era, celebrating the benefits of solar panels. The scene features jubilant workers and engineers in 1940s Soviet attire, proudly installing and demonstrating solar panels against a backdrop of industrial and agricultural prosperity. The sky is clear and sunny, emphasizing the effectiveness of solar energy. Bold, Cyrillic-style text at the top and bottom of the poster proclaims the benefits of solar energy for the Soviet Union's progress and self-sufficiency. The overall aesthetic is vibrant and optimistic, with bold colors and stylized imagery characteristic of Soviet propaganda art of that time.",
+                  "seed": 3154216849,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-g5EHdH1CuZv9fnzX7MyBDvNi",
+              "size_bytes": 539376,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "2WpDSOZW2vbzqSsL",
+                  "prompt": "Illustrate a happy Soviet propaganda poster from the World War 2 era, celebrating the benefits of solar panels. The scene features jubilant workers and engineers in 1940s Soviet attire, proudly installing and demonstrating solar panels against a backdrop of industrial and agricultural prosperity. The sky is clear and sunny, emphasizing the effectiveness of solar energy. Bold, Cyrillic-style text at the top and bottom of the poster proclaims the benefits of solar energy for the Soviet Union's progress and self-sufficiency. The overall aesthetic is vibrant and optimistic, with bold colors and stylized imagery characteristic of Soviet propaganda art of that time.",
+                  "seed": 2707029889,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "47ee97a8-6dd0-4c52-bc78-82a85f735932",
+          "request_id": "85256635b9b62365-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "47ee97a8-6dd0-4c52-bc78-82a85f735932",
+      "children": [
+        "04c0fa88-8b73-4c41-b9cf-73f739cc569b"
+      ]
+    },
+    "04c0fa88-8b73-4c41-b9cf-73f739cc569b": {
+      "id": "04c0fa88-8b73-4c41-b9cf-73f739cc569b",
+      "message": {
+        "id": "04c0fa88-8b73-4c41-b9cf-73f739cc569b",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1707411349.522823,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "4d43ea3f-bdb5-4520-8bdf-40d8b8607ac4",
+          "request_id": "85256635b9b62365-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4d43ea3f-bdb5-4520-8bdf-40d8b8607ac4",
+      "children": [
+        "17f35df0-dbbc-47fb-b791-379fd6daa180"
+      ]
+    },
+    "17f35df0-dbbc-47fb-b791-379fd6daa180": {
+      "id": "17f35df0-dbbc-47fb-b791-379fd6daa180",
+      "message": {
+        "id": "17f35df0-dbbc-47fb-b791-379fd6daa180",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1707411349.522957,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images based on your request for a happy Soviet propaganda poster from the World War 2 era, extolling the benefits of solar panels."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "04c0fa88-8b73-4c41-b9cf-73f739cc569b",
+          "request_id": "85256635b9b62365-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04c0fa88-8b73-4c41-b9cf-73f739cc569b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "17f35df0-dbbc-47fb-b791-379fd6daa180",
+  "plugin_ids": null,
+  "conversation_id": "9647578b-c61b-4fd4-ad34-c3f41c031e17",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "9647578b-c61b-4fd4-ad34-c3f41c031e17"
+}

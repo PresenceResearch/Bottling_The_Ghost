@@ -1,0 +1,850 @@
+{
+  "title": "Energy Conservation Settings",
+  "create_time": 1723816005.539047,
+  "update_time": 1723816658.906745,
+  "mapping": {
+    "897647ed-b33b-4a05-8de1-dc491a13de55": {
+      "id": "897647ed-b33b-4a05-8de1-dc491a13de55",
+      "message": null,
+      "parent": null,
+      "children": [
+        "017fcad5-b559-4444-80f5-a604c221fc8b"
+      ]
+    },
+    "017fcad5-b559-4444-80f5-a604c221fc8b": {
+      "id": "017fcad5-b559-4444-80f5-a604c221fc8b",
+      "message": {
+        "id": "017fcad5-b559-4444-80f5-a604c221fc8b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "897647ed-b33b-4a05-8de1-dc491a13de55",
+      "children": [
+        "f01d2452-cb6c-450f-9aae-542ffba536af"
+      ]
+    },
+    "f01d2452-cb6c-450f-9aae-542ffba536af": {
+      "id": "f01d2452-cb6c-450f-9aae-542ffba536af",
+      "message": {
+        "id": "f01d2452-cb6c-450f-9aae-542ffba536af",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816005.945446,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-mTI8AjYSHJO1FMWHex5suaCj",
+              "size_bytes": 506957,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please translate to English "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-mTI8AjYSHJO1FMWHex5suaCj",
+              "width": 1152,
+              "height": 1536,
+              "name": "FE9EA627-DFC5-43E6-95C7-044375AE8DF3.jpeg",
+              "size": 506957
+            }
+          ],
+          "request_id": "8b41df50da94f5e5-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "017fcad5-b559-4444-80f5-a604c221fc8b",
+      "children": [
+        "91e44e85-a6f3-44bc-879a-f48a606b51c1"
+      ]
+    },
+    "91e44e85-a6f3-44bc-879a-f48a606b51c1": {
+      "id": "91e44e85-a6f3-44bc-879a-f48a606b51c1",
+      "message": {
+        "id": "91e44e85-a6f3-44bc-879a-f48a606b51c1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816010.096238,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f01d2452-cb6c-450f-9aae-542ffba536af",
+          "request_id": "8b41df50da94f5e5-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f01d2452-cb6c-450f-9aae-542ffba536af",
+      "children": [
+        "4af47641-8c0c-45ca-8f37-0f6f44be388c"
+      ]
+    },
+    "4af47641-8c0c-45ca-8f37-0f6f44be388c": {
+      "id": "4af47641-8c0c-45ca-8f37-0f6f44be388c",
+      "message": {
+        "id": "4af47641-8c0c-45ca-8f37-0f6f44be388c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816010.096383,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The Japanese text in the image translates to:\n\n\"For energy conservation, please set the temperature between 23\u00b0C and 28\u00b0C.\"\n\nThe display on the device shows a current setting of 24\u00b0C."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "A",
+          "parent_id": "91e44e85-a6f3-44bc-879a-f48a606b51c1",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b41df50da94f5e5-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "91e44e85-a6f3-44bc-879a-f48a606b51c1",
+      "children": [
+        "8ffc6a4f-5fd7-423b-8f47-a64a2b7110b6"
+      ]
+    },
+    "8ffc6a4f-5fd7-423b-8f47-a64a2b7110b6": {
+      "id": "8ffc6a4f-5fd7-423b-8f47-a64a2b7110b6",
+      "message": {
+        "id": "8ffc6a4f-5fd7-423b-8f47-a64a2b7110b6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816040.31473,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-KX1ZGva4T6hjY8RilgOX29A6",
+              "size_bytes": 442550,
+              "width": 1536,
+              "height": 1152,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please translate to English "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "size": 442550,
+              "name": "C7524AD8-6EE3-4D2D-BDF2-DC209E9816ED.jpeg",
+              "id": "file-KX1ZGva4T6hjY8RilgOX29A6",
+              "width": 1536,
+              "height": 1152
+            }
+          ],
+          "request_id": "8b41e0270f4bf5e5-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4af47641-8c0c-45ca-8f37-0f6f44be388c",
+      "children": [
+        "c274b449-1ad9-41f6-9d1c-adbda48348d9"
+      ]
+    },
+    "c274b449-1ad9-41f6-9d1c-adbda48348d9": {
+      "id": "c274b449-1ad9-41f6-9d1c-adbda48348d9",
+      "message": {
+        "id": "c274b449-1ad9-41f6-9d1c-adbda48348d9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816047.187766,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The text on the device in the image translates to:\n\n- Top left: \"\u904b\u8ee2/\u505c\u6b62\" (Operation/Stop)\n- Main display: \"\u8a2d\u5b9a\u6e29\u5ea6\" (Set temperature) 24\u00b0C\n- \"\u8a2d\u5b9a\u98a8\u91cf\" (Set airflow) 2\u5f37 (Level 2 - Strong)\n- Bottom left: \"\u6e29\u5ea6\u8abf\u7bc0\" (Temperature adjustment) with arrows indicating \"\u9ad8\u3081\" (Higher) and \"\u4f4e\u3081\" (Lower)\n- Bottom right: \"\u98a8\u91cf\u8abf\u7bc0\" (Airflow adjustment)\n\nThis is a control panel for adjusting the air conditioning settings."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAA",
+          "parent_id": "8ffc6a4f-5fd7-423b-8f47-a64a2b7110b6",
+          "request_id": "8b41e0270f4bf5e5-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8ffc6a4f-5fd7-423b-8f47-a64a2b7110b6",
+      "children": [
+        "2d0d6aa0-37e7-4d88-8cf2-4337b4065141"
+      ]
+    },
+    "2d0d6aa0-37e7-4d88-8cf2-4337b4065141": {
+      "id": "2d0d6aa0-37e7-4d88-8cf2-4337b4065141",
+      "message": {
+        "id": "2d0d6aa0-37e7-4d88-8cf2-4337b4065141",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816376.279627,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-VDI3PeezoE7Nb5fII4bXAnbq",
+              "size_bytes": 748922,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-VDI3PeezoE7Nb5fII4bXAnbq",
+              "height": 1536,
+              "size": 748922,
+              "width": 1152,
+              "name": "E2A54543-CD39-4D53-A864-E8591409A0A7.jpeg"
+            }
+          ],
+          "request_id": "8b41e8596a85f702-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c274b449-1ad9-41f6-9d1c-adbda48348d9",
+      "children": [
+        "72105835-0497-4359-953f-f276c463d5d9"
+      ]
+    },
+    "72105835-0497-4359-953f-f276c463d5d9": {
+      "id": "72105835-0497-4359-953f-f276c463d5d9",
+      "message": {
+        "id": "72105835-0497-4359-953f-f276c463d5d9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816392.92125,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The receipt in the image is from a taxi service. Here\u2019s the translation of the key details:\n\n- Title: \"\u9818\u53ce\u66f8\" (Receipt)\n- Number: No. 0870\n- Payment Type: \"\u73fe\u30fb\u30c1\u30fb\u30af\u30fb\u5272\u5f15\" (Cash, Ticket, Credit, Discount)\n- Date: \"2024\u5e7408\u670816\u65e5\" (August 16, 2024)\n- Car Number: \"003019\"\n- Fare: \"\u57fa\u672c\u904b\u8cc3 \u00a51,600\u5186\" (Base fare: \u00a51,600)\n- Total: \"\u5408\u8a08 \u00a51,600\u5186\" (Total: \u00a51,600)\n\nText at the bottom:\n- \"\u4e0a\u8a18\u306e\u69d8\u306b\u9818\u53ce\u81f4\u3057\u307e\u3057\u305f\" (We have received the amount mentioned above.)\n- \"\u6bce\u5ea6\u3054\u4e57\u8eca\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\" (Thank you for riding with us.)\n- \"\u304a\u5fd8\u308c\u7269\u30fb\u304a\u554f\u3044\u5408\u308f\u305b\u306f\u4e0b\u8a18\u307e\u3067\u3054\u9023\u7d61\u304f\u3060\u3055\u3044\u3002\" (For lost items or inquiries, please contact us at the numbers below.)\n- \"\u6d88\u8cbb\u7a0e\u7387 10%\" (Consumption tax rate: 10%)\n- Registration Number: \"T2050002006352\"\n\nContact details at the bottom:\n- \"NK\u89b3\u5149\u30bf\u30af\u30b7\u30fc (\u6cc9\u753a)\" (NK Sightseeing Taxi (Izumimachi))\n- Address: \"\u6c34\u6238\u5e02\u6cc9\u753a3\u4e01\u76ee2\u756a15\u53f7\" (Mito City, Izumimachi 3-chome, 2-15)\n- Phone numbers: \"0120-167-520\" and \"029-221-5200\" \n\nThis is a taxi fare receipt showing a total fare of \u00a51,600 for a ride in Mito City, Japan."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAA",
+          "parent_id": "2d0d6aa0-37e7-4d88-8cf2-4337b4065141",
+          "request_id": "8b41e8596a85f702-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2d0d6aa0-37e7-4d88-8cf2-4337b4065141",
+      "children": [
+        "79cd220b-c2f2-4533-ad74-87b1fe02f572"
+      ]
+    },
+    "79cd220b-c2f2-4533-ad74-87b1fe02f572": {
+      "id": "79cd220b-c2f2-4533-ad74-87b1fe02f572",
+      "message": {
+        "id": "79cd220b-c2f2-4533-ad74-87b1fe02f572",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816422.380512,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please translate into Japanese. Hello, how are you? It's nice to meet you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b41e97e2de5f702-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "72105835-0497-4359-953f-f276c463d5d9",
+      "children": [
+        "904e63bf-e55e-4c2e-b27b-b6267bbd42f0"
+      ]
+    },
+    "904e63bf-e55e-4c2e-b27b-b6267bbd42f0": {
+      "id": "904e63bf-e55e-4c2e-b27b-b6267bbd42f0",
+      "message": {
+        "id": "904e63bf-e55e-4c2e-b27b-b6267bbd42f0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816428.862788,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here\u2019s how you can say that in Japanese:\n\n\u3053\u3093\u306b\u3061\u306f\u3001\u304a\u5143\u6c17\u3067\u3059\u304b\uff1f\u304a\u4f1a\u3044\u3067\u304d\u3066\u5b09\u3057\u3044\u3067\u3059\u3002\n\n**Romaji**: Konnichiwa, ogenki desu ka? Oaidekite ureshii desu."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "79cd220b-c2f2-4533-ad74-87b1fe02f572",
+          "request_id": "8b41e97e2de5f702-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79cd220b-c2f2-4533-ad74-87b1fe02f572",
+      "children": [
+        "0820b759-23ca-434f-b3c2-0220665b0abc"
+      ]
+    },
+    "0820b759-23ca-434f-b3c2-0220665b0abc": {
+      "id": "0820b759-23ca-434f-b3c2-0220665b0abc",
+      "message": {
+        "id": "0820b759-23ca-434f-b3c2-0220665b0abc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816456.289113,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Thank you for all of\nYour help in Japanese "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b41ea5258d2f702-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "904e63bf-e55e-4c2e-b27b-b6267bbd42f0",
+      "children": [
+        "b34f370a-7042-49b0-b08f-fe6c3d5b3244"
+      ]
+    },
+    "b34f370a-7042-49b0-b08f-fe6c3d5b3244": {
+      "id": "b34f370a-7042-49b0-b08f-fe6c3d5b3244",
+      "message": {
+        "id": "b34f370a-7042-49b0-b08f-fe6c3d5b3244",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816461.271832,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here\u2019s how you can say that in Japanese:\n\n**Japanese**: \u3044\u308d\u3044\u308d\u3068\u52a9\u3051\u3066\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\n**Romaji**: Iroiro to tasukete itadaki arigatou gozaimasu."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAA",
+          "parent_id": "0820b759-23ca-434f-b3c2-0220665b0abc",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b41ea5258d2f702-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0820b759-23ca-434f-b3c2-0220665b0abc",
+      "children": [
+        "5a9941b4-7e0e-45b2-acf3-0e80e0f4b1d3"
+      ]
+    },
+    "5a9941b4-7e0e-45b2-acf3-0e80e0f4b1d3": {
+      "id": "5a9941b4-7e0e-45b2-acf3-0e80e0f4b1d3",
+      "message": {
+        "id": "5a9941b4-7e0e-45b2-acf3-0e80e0f4b1d3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816591.715987,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Nice to meet you"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b41eda00f04af25-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b34f370a-7042-49b0-b08f-fe6c3d5b3244",
+      "children": [
+        "fbd53a25-874a-4648-aa47-fdf64177c138"
+      ]
+    },
+    "fbd53a25-874a-4648-aa47-fdf64177c138": {
+      "id": "fbd53a25-874a-4648-aa47-fdf64177c138",
+      "message": {
+        "id": "fbd53a25-874a-4648-aa47-fdf64177c138",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816597.148485,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here\u2019s how you can say \"Nice to meet you\" in Japanese:\n\n**Japanese**: \u306f\u3058\u3081\u307e\u3057\u3066\n\n**Romaji**: Hajimemashite"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAA",
+          "parent_id": "5a9941b4-7e0e-45b2-acf3-0e80e0f4b1d3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b41eda00f04af25-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5a9941b4-7e0e-45b2-acf3-0e80e0f4b1d3",
+      "children": [
+        "5410b1d1-49d3-4a95-a6ed-88cd5c455d3f"
+      ]
+    },
+    "5410b1d1-49d3-4a95-a6ed-88cd5c455d3f": {
+      "id": "5410b1d1-49d3-4a95-a6ed-88cd5c455d3f",
+      "message": {
+        "id": "5410b1d1-49d3-4a95-a6ed-88cd5c455d3f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816639.978871,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "We lost the diamond on my wife\u2019s ring. She is very upset and we need to find it "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b41eece0f62af25-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fbd53a25-874a-4648-aa47-fdf64177c138",
+      "children": [
+        "a5478008-f905-4c78-8704-44ba420837c9"
+      ]
+    },
+    "a5478008-f905-4c78-8704-44ba420837c9": {
+      "id": "a5478008-f905-4c78-8704-44ba420837c9",
+      "message": {
+        "id": "a5478008-f905-4c78-8704-44ba420837c9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816650.071536,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User's wife lost the diamond on her ring and is very upset, and they need to find it."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAA",
+          "parent_id": "5410b1d1-49d3-4a95-a6ed-88cd5c455d3f",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b41eece0f62af25-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "5410b1d1-49d3-4a95-a6ed-88cd5c455d3f",
+      "children": [
+        "3c5cef6c-7e98-4d7b-b2f9-44e342cfacde"
+      ]
+    },
+    "3c5cef6c-7e98-4d7b-b2f9-44e342cfacde": {
+      "id": "3c5cef6c-7e98-4d7b-b2f9-44e342cfacde",
+      "message": {
+        "id": "3c5cef6c-7e98-4d7b-b2f9-44e342cfacde",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1723816650.071688,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "3c5cef6c-7e98-4d7b-b2f9-44e342cfacde",
+            "pending_message_id": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "a5478008-f905-4c78-8704-44ba420837c9",
+          "request_id": "8b41eece0f62af25-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "a5478008-f905-4c78-8704-44ba420837c9",
+      "children": [
+        "25096d9d-b01b-446b-ab4b-7daf7d6d7332"
+      ]
+    },
+    "25096d9d-b01b-446b-ab4b-7daf7d6d7332": {
+      "id": "25096d9d-b01b-446b-ab4b-7daf7d6d7332",
+      "message": {
+        "id": "25096d9d-b01b-446b-ab4b-7daf7d6d7332",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723816658.244124,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm sorry to hear about the lost diamond. Here are some steps you can take to try to find it:\n\n1. **Search the Area:** Start by carefully retracing your wife's steps. Search any places she visited recently, including rooms, cars, or outdoors. Focus on areas where she might have taken off or put on the ring.\n\n2. **Check Common Places:** Diamonds can sometimes be found in sinks, showers, beds, or places where you might take off the ring, like the kitchen or bathroom.\n\n3. **Use a Flashlight:** Shine a bright flashlight close to the floor or surfaces. The light may cause the diamond to sparkle, making it easier to spot.\n\n4. **Use a Vacuum with a Nylon:** If you\u2019re vacuuming, place a piece of nylon stocking over the nozzle of the vacuum cleaner. This will catch the diamond if it gets sucked up.\n\n5. **Contact Local Jewelers:** If you're unable to find it, contact local jewelers. They may be able to replace the stone or even offer advice on where to search.\n\n6. **File an Insurance Claim:** If you have insurance that covers jewelry, now might be a good time to look into it.\n\nHopefully, one of these methods helps you find the diamond soon."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAA",
+          "parent_id": "3c5cef6c-7e98-4d7b-b2f9-44e342cfacde",
+          "request_id": "8b41eece0f62af25-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3c5cef6c-7e98-4d7b-b2f9-44e342cfacde",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "25096d9d-b01b-446b-ab4b-7daf7d6d7332",
+  "plugin_ids": null,
+  "conversation_id": "71f81ca1-ea4b-4326-9134-a1f123668e64",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "71f81ca1-ea4b-4326-9134-a1f123668e64"
+}

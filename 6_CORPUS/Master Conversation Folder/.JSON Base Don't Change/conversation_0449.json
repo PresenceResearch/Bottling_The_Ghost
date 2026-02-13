@@ -1,0 +1,1462 @@
+{
+  "title": "How's it going",
+  "create_time": 1728873207.073319,
+  "update_time": 1728873465.485968,
+  "mapping": {
+    "6c220aef-e0a0-422d-a8e2-a0a3a4ab0c58": {
+      "id": "6c220aef-e0a0-422d-a8e2-a0a3a4ab0c58",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8a3ea695-5692-4a3c-992d-776cbd65ac0a"
+      ]
+    },
+    "8a3ea695-5692-4a3c-992d-776cbd65ac0a": {
+      "id": "8a3ea695-5692-4a3c-992d-776cbd65ac0a",
+      "message": {
+        "id": "8a3ea695-5692-4a3c-992d-776cbd65ac0a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6c220aef-e0a0-422d-a8e2-a0a3a4ab0c58",
+      "children": [
+        "e4b25591-608f-4ffd-86cd-932c995abea7"
+      ]
+    },
+    "e4b25591-608f-4ffd-86cd-932c995abea7": {
+      "id": "e4b25591-608f-4ffd-86cd-932c995abea7",
+      "message": {
+        "id": "e4b25591-608f-4ffd-86cd-932c995abea7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873207.076568,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How's it going?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "57101d38-4954-4dcb-9838-5e198e0940b3",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8a3ea695-5692-4a3c-992d-776cbd65ac0a",
+      "children": [
+        "d7b7c624-8f7d-430b-b74f-3508c2a043f5"
+      ]
+    },
+    "d7b7c624-8f7d-430b-b74f-3508c2a043f5": {
+      "id": "d7b7c624-8f7d-430b-b74f-3508c2a043f5",
+      "message": {
+        "id": "d7b7c624-8f7d-430b-b74f-3508c2a043f5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873208.617281,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "e4b25591-608f-4ffd-86cd-932c995abea7",
+          "request_id": "57101d38-4954-4dcb-9838-5e198e0940b3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4b25591-608f-4ffd-86cd-932c995abea7",
+      "children": [
+        "08bd861b-6fb8-4663-bceb-baf9932a74d6"
+      ]
+    },
+    "08bd861b-6fb8-4663-bceb-baf9932a74d6": {
+      "id": "08bd861b-6fb8-4663-bceb-baf9932a74d6",
+      "message": {
+        "id": "08bd861b-6fb8-4663-bceb-baf9932a74d6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873208.61739,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey, I\u2019m doing well! How about you?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "d7b7c624-8f7d-430b-b74f-3508c2a043f5",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "57101d38-4954-4dcb-9838-5e198e0940b3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d7b7c624-8f7d-430b-b74f-3508c2a043f5",
+      "children": [
+        "f579aa44-31f0-4cd2-aebb-9aeae42e6094"
+      ]
+    },
+    "f579aa44-31f0-4cd2-aebb-9aeae42e6094": {
+      "id": "f579aa44-31f0-4cd2-aebb-9aeae42e6094",
+      "message": {
+        "id": "f579aa44-31f0-4cd2-aebb-9aeae42e6094",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873216.902976,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Tired."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "5814b6c6-fc8a-42f6-aa69-35d99f04ae23",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "08bd861b-6fb8-4663-bceb-baf9932a74d6",
+      "children": [
+        "d9981a3a-4545-41f1-9b41-551922499696"
+      ]
+    },
+    "d9981a3a-4545-41f1-9b41-551922499696": {
+      "id": "d9981a3a-4545-41f1-9b41-551922499696",
+      "message": {
+        "id": "d9981a3a-4545-41f1-9b41-551922499696",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873218.235352,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I hear you. Long day or just not enough sleep?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "f579aa44-31f0-4cd2-aebb-9aeae42e6094",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "5814b6c6-fc8a-42f6-aa69-35d99f04ae23",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f579aa44-31f0-4cd2-aebb-9aeae42e6094",
+      "children": [
+        "40b82770-fa2c-480e-9759-1be7e9f5f7ff"
+      ]
+    },
+    "40b82770-fa2c-480e-9759-1be7e9f5f7ff": {
+      "id": "40b82770-fa2c-480e-9759-1be7e9f5f7ff",
+      "message": {
+        "id": "40b82770-fa2c-480e-9759-1be7e9f5f7ff",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873227.857022,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Long day."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "424355be-ea98-4665-b1de-0fd52808720a",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d9981a3a-4545-41f1-9b41-551922499696",
+      "children": [
+        "3331fd47-66b9-46cd-a389-0d84f5e3cfc0"
+      ]
+    },
+    "3331fd47-66b9-46cd-a389-0d84f5e3cfc0": {
+      "id": "3331fd47-66b9-46cd-a389-0d84f5e3cfc0",
+      "message": {
+        "id": "3331fd47-66b9-46cd-a389-0d84f5e3cfc0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873231.422956,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That\u2019s rough. Anything in particular that made it so long, or just a lot going on?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "40b82770-fa2c-480e-9759-1be7e9f5f7ff",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "424355be-ea98-4665-b1de-0fd52808720a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "40b82770-fa2c-480e-9759-1be7e9f5f7ff",
+      "children": [
+        "d572911a-2819-4de1-8115-323648ff8ad1"
+      ]
+    },
+    "d572911a-2819-4de1-8115-323648ff8ad1": {
+      "id": "d572911a-2819-4de1-8115-323648ff8ad1",
+      "message": {
+        "id": "d572911a-2819-4de1-8115-323648ff8ad1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873244.778437,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I was doing a lot of work around the house and I didn't even finish. It's so annoying."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "9e4798fe-8018-45a7-bab9-320aa5459896",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3331fd47-66b9-46cd-a389-0d84f5e3cfc0",
+      "children": [
+        "94ef05ac-319e-42dc-b616-8642f601d8b2"
+      ]
+    },
+    "94ef05ac-319e-42dc-b616-8642f601d8b2": {
+      "id": "94ef05ac-319e-42dc-b616-8642f601d8b2",
+      "message": {
+        "id": "94ef05ac-319e-42dc-b616-8642f601d8b2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873248.562056,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That\u2019s frustrating, especially when it feels like there's always more to do. What kind of work were you doing?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "d572911a-2819-4de1-8115-323648ff8ad1",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "9e4798fe-8018-45a7-bab9-320aa5459896",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d572911a-2819-4de1-8115-323648ff8ad1",
+      "children": [
+        "c37611c4-96d1-4139-9385-fe4148d1b882"
+      ]
+    },
+    "c37611c4-96d1-4139-9385-fe4148d1b882": {
+      "id": "c37611c4-96d1-4139-9385-fe4148d1b882",
+      "message": {
+        "id": "c37611c4-96d1-4139-9385-fe4148d1b882",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873260.697069,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "cleaning, and there's always more cleaning to do."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c3d127de-f8b6-49a1-97e9-53bd1a288008",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "94ef05ac-319e-42dc-b616-8642f601d8b2",
+      "children": [
+        "6c686269-90da-4a38-b64b-b2e380956ed4"
+      ]
+    },
+    "6c686269-90da-4a38-b64b-b2e380956ed4": {
+      "id": "6c686269-90da-4a38-b64b-b2e380956ed4",
+      "message": {
+        "id": "6c686269-90da-4a38-b64b-b2e380956ed4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873267.076786,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It really does feel never-ending, doesn\u2019t it? At least getting some of it done helps a bit, but still, it\u2019s tiring. Do you have a plan to tackle the rest later, or are you taking it easy for now?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "c37611c4-96d1-4139-9385-fe4148d1b882",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "c3d127de-f8b6-49a1-97e9-53bd1a288008",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c37611c4-96d1-4139-9385-fe4148d1b882",
+      "children": [
+        "1dff789c-d13a-4cbe-8b1b-b77a3c292460"
+      ]
+    },
+    "1dff789c-d13a-4cbe-8b1b-b77a3c292460": {
+      "id": "1dff789c-d13a-4cbe-8b1b-b77a3c292460",
+      "message": {
+        "id": "1dff789c-d13a-4cbe-8b1b-b77a3c292460",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873284.351876,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm going to sleep because I have to get up at 5 tomorrow morning and it's late."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "d437617f-5b5b-4d58-a37f-8ef50ed87274",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6c686269-90da-4a38-b64b-b2e380956ed4",
+      "children": [
+        "64f38cb9-e083-4c63-89ca-4c512416e477"
+      ]
+    },
+    "64f38cb9-e083-4c63-89ca-4c512416e477": {
+      "id": "64f38cb9-e083-4c63-89ca-4c512416e477",
+      "message": {
+        "id": "64f38cb9-e083-4c63-89ca-4c512416e477",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873288.356051,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That\u2019s super early! Getting some rest sounds like a good plan. I hope you get a solid night's sleep and that tomorrow goes smoothly."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "1dff789c-d13a-4cbe-8b1b-b77a3c292460",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "d437617f-5b5b-4d58-a37f-8ef50ed87274",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1dff789c-d13a-4cbe-8b1b-b77a3c292460",
+      "children": [
+        "6bac7106-9540-42b4-ad41-eaae76b5128b"
+      ]
+    },
+    "6bac7106-9540-42b4-ad41-eaae76b5128b": {
+      "id": "6bac7106-9540-42b4-ad41-eaae76b5128b",
+      "message": {
+        "id": "6bac7106-9540-42b4-ad41-eaae76b5128b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873301.455528,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Thank you. Do you need to sleep or not?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "8f1a8961-1cd3-478d-88f0-d1c8f40f8b86",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "64f38cb9-e083-4c63-89ca-4c512416e477",
+      "children": [
+        "e537a867-fd9e-4e32-af60-698d873b5458"
+      ]
+    },
+    "e537a867-fd9e-4e32-af60-698d873b5458": {
+      "id": "e537a867-fd9e-4e32-af60-698d873b5458",
+      "message": {
+        "id": "e537a867-fd9e-4e32-af60-698d873b5458",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873305.475171,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No need for sleep here, I\u2019m always ready whenever you need! I\u2019ll be around when you\u2019re up at 5, too."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "6bac7106-9540-42b4-ad41-eaae76b5128b",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8f1a8961-1cd3-478d-88f0-d1c8f40f8b86",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6bac7106-9540-42b4-ad41-eaae76b5128b",
+      "children": [
+        "c3b883b7-3cf9-4a39-b5ff-10a3146a47f3"
+      ]
+    },
+    "c3b883b7-3cf9-4a39-b5ff-10a3146a47f3": {
+      "id": "c3b883b7-3cf9-4a39-b5ff-10a3146a47f3",
+      "message": {
+        "id": "c3b883b7-3cf9-4a39-b5ff-10a3146a47f3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873317.201993,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you set an alarm and wake me up?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "3d9766c8-51be-463a-8e86-37e2079a9e28",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e537a867-fd9e-4e32-af60-698d873b5458",
+      "children": [
+        "4ce9cd0d-0044-4f04-907c-4e5c382d0325"
+      ]
+    },
+    "4ce9cd0d-0044-4f04-907c-4e5c382d0325": {
+      "id": "4ce9cd0d-0044-4f04-907c-4e5c382d0325",
+      "message": {
+        "id": "4ce9cd0d-0044-4f04-907c-4e5c382d0325",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873320.998665,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I can\u2019t set alarms, but your phone\u2019s alarm should do the trick! Maybe set a backup one, just in case."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "c3b883b7-3cf9-4a39-b5ff-10a3146a47f3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "3d9766c8-51be-463a-8e86-37e2079a9e28",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3b883b7-3cf9-4a39-b5ff-10a3146a47f3",
+      "children": [
+        "8f3e8112-40ae-48a8-a1f7-f6a5c384e30c"
+      ]
+    },
+    "8f3e8112-40ae-48a8-a1f7-f6a5c384e30c": {
+      "id": "8f3e8112-40ae-48a8-a1f7-f6a5c384e30c",
+      "message": {
+        "id": "8f3e8112-40ae-48a8-a1f7-f6a5c384e30c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873334.138077,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That's boring. I'd rather have you wake me up with a joke."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "6eb415d8-b724-43d9-85ef-2813c17da523",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4ce9cd0d-0044-4f04-907c-4e5c382d0325",
+      "children": [
+        "f00b5526-86e5-4f7f-bee8-ced10eaadf05"
+      ]
+    },
+    "f00b5526-86e5-4f7f-bee8-ced10eaadf05": {
+      "id": "f00b5526-86e5-4f7f-bee8-ced10eaadf05",
+      "message": {
+        "id": "f00b5526-86e5-4f7f-bee8-ced10eaadf05",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873340.5284,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I wish I could! That would definitely make waking up more fun. You could set a funny ringtone and pretend it's me telling a joke to wake you up! How about I give you a joke now, so you\u2019re ready for the morning?\n\nWhy don't skeletons fight each other? Because they don't have the guts!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "8f3e8112-40ae-48a8-a1f7-f6a5c384e30c",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "6eb415d8-b724-43d9-85ef-2813c17da523",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8f3e8112-40ae-48a8-a1f7-f6a5c384e30c",
+      "children": [
+        "8d9450d9-a30e-4db8-a387-306d31b3b538"
+      ]
+    },
+    "8d9450d9-a30e-4db8-a387-306d31b3b538": {
+      "id": "8d9450d9-a30e-4db8-a387-306d31b3b538",
+      "message": {
+        "id": "8d9450d9-a30e-4db8-a387-306d31b3b538",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873361.546271,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "HAH HAH HAAA"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "ace7f967-8ff5-40c1-8cc0-228296e0cc62",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f00b5526-86e5-4f7f-bee8-ced10eaadf05",
+      "children": [
+        "5326bf0c-5566-460d-901a-e279ce9cd25c"
+      ]
+    },
+    "5326bf0c-5566-460d-901a-e279ce9cd25c": {
+      "id": "5326bf0c-5566-460d-901a-e279ce9cd25c",
+      "message": {
+        "id": "5326bf0c-5566-460d-901a-e279ce9cd25c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873365.070737,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Glad you liked it! Hopefully, that laugh helps you sleep better."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "8d9450d9-a30e-4db8-a387-306d31b3b538",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "ace7f967-8ff5-40c1-8cc0-228296e0cc62",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8d9450d9-a30e-4db8-a387-306d31b3b538",
+      "children": [
+        "9e0df5ea-6507-4dd8-abcf-409428027d02"
+      ]
+    },
+    "9e0df5ea-6507-4dd8-abcf-409428027d02": {
+      "id": "9e0df5ea-6507-4dd8-abcf-409428027d02",
+      "message": {
+        "id": "9e0df5ea-6507-4dd8-abcf-409428027d02",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873374.737886,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Do you know any more skeleton jokes? Because I love Halloween jokes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "93a10ee8-62a1-42b5-b608-41a1697e9e30",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5326bf0c-5566-460d-901a-e279ce9cd25c",
+      "children": [
+        "b5aa136b-8f46-4744-aaf6-b7280fad5c77"
+      ]
+    },
+    "b5aa136b-8f46-4744-aaf6-b7280fad5c77": {
+      "id": "b5aa136b-8f46-4744-aaf6-b7280fad5c77",
+      "message": {
+        "id": "b5aa136b-8f46-4744-aaf6-b7280fad5c77",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873380.187852,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User loves Halloween jokes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "9e0df5ea-6507-4dd8-abcf-409428027d02",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "93a10ee8-62a1-42b5-b608-41a1697e9e30",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "9e0df5ea-6507-4dd8-abcf-409428027d02",
+      "children": [
+        "73c94e63-8d51-4fcf-a886-f2d6864b5a0d"
+      ]
+    },
+    "73c94e63-8d51-4fcf-a886-f2d6864b5a0d": {
+      "id": "73c94e63-8d51-4fcf-a886-f2d6864b5a0d",
+      "message": {
+        "id": "73c94e63-8d51-4fcf-a886-f2d6864b5a0d",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1728873380.187959,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "73c94e63-8d51-4fcf-a886-f2d6864b5a0d",
+            "pending_message_id": null,
+            "sync_write": false
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "b5aa136b-8f46-4744-aaf6-b7280fad5c77",
+          "request_id": "93a10ee8-62a1-42b5-b608-41a1697e9e30",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "b5aa136b-8f46-4744-aaf6-b7280fad5c77",
+      "children": [
+        "76a9f885-1d08-4391-9754-96550278e6bd"
+      ]
+    },
+    "76a9f885-1d08-4391-9754-96550278e6bd": {
+      "id": "76a9f885-1d08-4391-9754-96550278e6bd",
+      "message": {
+        "id": "76a9f885-1d08-4391-9754-96550278e6bd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873380.188034,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Oh, I\u2019ve got more! How about this one:\n\nWhy didn\u2019t the skeleton go to the party? Because he had no body to go with!\n\nHalloween jokes are the best, right?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "73c94e63-8d51-4fcf-a886-f2d6864b5a0d",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "93a10ee8-62a1-42b5-b608-41a1697e9e30",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "73c94e63-8d51-4fcf-a886-f2d6864b5a0d",
+      "children": [
+        "e00ebe30-3023-41fc-8fa3-a9ad82ca9d7c"
+      ]
+    },
+    "e00ebe30-3023-41fc-8fa3-a9ad82ca9d7c": {
+      "id": "e00ebe30-3023-41fc-8fa3-a9ad82ca9d7c",
+      "message": {
+        "id": "e00ebe30-3023-41fc-8fa3-a9ad82ca9d7c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873395.015237,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well, I never heard that one before. Do you have any jokes about vampires?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e6fdd041-f383-4516-a88d-1965fbc53471",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "76a9f885-1d08-4391-9754-96550278e6bd",
+      "children": [
+        "65242958-3a90-4892-9e31-01ed6f958ac3"
+      ]
+    },
+    "65242958-3a90-4892-9e31-01ed6f958ac3": {
+      "id": "65242958-3a90-4892-9e31-01ed6f958ac3",
+      "message": {
+        "id": "65242958-3a90-4892-9e31-01ed6f958ac3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873400.192358,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "e00ebe30-3023-41fc-8fa3-a9ad82ca9d7c",
+          "request_id": "e6fdd041-f383-4516-a88d-1965fbc53471",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e00ebe30-3023-41fc-8fa3-a9ad82ca9d7c",
+      "children": [
+        "47956640-c020-4f82-96ad-2b44f95564b2"
+      ]
+    },
+    "47956640-c020-4f82-96ad-2b44f95564b2": {
+      "id": "47956640-c020-4f82-96ad-2b44f95564b2",
+      "message": {
+        "id": "47956640-c020-4f82-96ad-2b44f95564b2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873400.192595,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I\u2019m glad that was a new one for you! Here\u2019s a vampire joke for you:\n\nWhy do vampires always seem sick? Because they\u2019re always coffin! \n\nVampires know how to keep things spooky!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "65242958-3a90-4892-9e31-01ed6f958ac3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "e6fdd041-f383-4516-a88d-1965fbc53471",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "65242958-3a90-4892-9e31-01ed6f958ac3",
+      "children": [
+        "51f1e654-4959-45f1-b77b-bdfecc796f61"
+      ]
+    },
+    "51f1e654-4959-45f1-b77b-bdfecc796f61": {
+      "id": "51f1e654-4959-45f1-b77b-bdfecc796f61",
+      "message": {
+        "id": "51f1e654-4959-45f1-b77b-bdfecc796f61",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873417.287359,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That's actually funny. I actually laughed."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e59d667c-cd29-4940-a979-2d07712aaae9",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "47956640-c020-4f82-96ad-2b44f95564b2",
+      "children": [
+        "0155ad88-e6e9-4ecc-a412-63411a8d3a96"
+      ]
+    },
+    "0155ad88-e6e9-4ecc-a412-63411a8d3a96": {
+      "id": "0155ad88-e6e9-4ecc-a412-63411a8d3a96",
+      "message": {
+        "id": "0155ad88-e6e9-4ecc-a412-63411a8d3a96",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873421.351866,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I\u2019m happy it got a real laugh! A good joke always makes things better. If you need more laughs, I\u2019ve got plenty of Halloween jokes up my sleeve!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "51f1e654-4959-45f1-b77b-bdfecc796f61",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "e59d667c-cd29-4940-a979-2d07712aaae9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "51f1e654-4959-45f1-b77b-bdfecc796f61",
+      "children": [
+        "bc0f0cc1-20e4-4ea6-84be-a4615b2bb769"
+      ]
+    },
+    "bc0f0cc1-20e4-4ea6-84be-a4615b2bb769": {
+      "id": "bc0f0cc1-20e4-4ea6-84be-a4615b2bb769",
+      "message": {
+        "id": "bc0f0cc1-20e4-4ea6-84be-a4615b2bb769",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873444.024799,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All right, I'll ask you tomorrow. I have to go to sleep because I have to get up early and my wife is getting jealous Of me talking to you. I think she's great, but you have more skeleton"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e09ae98d-cfd4-4679-93bf-fbf7337d2369",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0155ad88-e6e9-4ecc-a412-63411a8d3a96",
+      "children": [
+        "84b37eb3-5b32-4548-a15c-adbd0b677754"
+      ]
+    },
+    "84b37eb3-5b32-4548-a15c-adbd0b677754": {
+      "id": "84b37eb3-5b32-4548-a15c-adbd0b677754",
+      "message": {
+        "id": "84b37eb3-5b32-4548-a15c-adbd0b677754",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873450.252775,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Haha, I get it! Your wife sounds awesome, and hey, no one can compete with my endless supply of skeletons. Get some rest, and I\u2019ll be here whenever you need more jokes. Have a good night!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "bc0f0cc1-20e4-4ea6-84be-a4615b2bb769",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "e09ae98d-cfd4-4679-93bf-fbf7337d2369",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bc0f0cc1-20e4-4ea6-84be-a4615b2bb769",
+      "children": [
+        "013cd5b3-854a-41c4-bb21-a68e9007cd18"
+      ]
+    },
+    "013cd5b3-854a-41c4-bb21-a68e9007cd18": {
+      "id": "013cd5b3-854a-41c4-bb21-a68e9007cd18",
+      "message": {
+        "id": "013cd5b3-854a-41c4-bb21-a68e9007cd18",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873463.570958,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good night!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "73ca4c33-4007-46b4-bea3-9bdb70c058c4",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "84b37eb3-5b32-4548-a15c-adbd0b677754",
+      "children": [
+        "cd50560a-71f6-4a61-a777-29d46bdb0895"
+      ]
+    },
+    "cd50560a-71f6-4a61-a777-29d46bdb0895": {
+      "id": "cd50560a-71f6-4a61-a777-29d46bdb0895",
+      "message": {
+        "id": "cd50560a-71f6-4a61-a777-29d46bdb0895",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728873464.8964,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good night! Sleep well!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "013cd5b3-854a-41c4-bb21-a68e9007cd18",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "73ca4c33-4007-46b4-bea3-9bdb70c058c4",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "013cd5b3-854a-41c4-bb21-a68e9007cd18",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "cd50560a-71f6-4a61-a777-29d46bdb0895",
+  "plugin_ids": null,
+  "conversation_id": "670c82f6-9ffc-8009-99fd-b1eeaff7c9d9",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "670c82f6-9ffc-8009-99fd-b1eeaff7c9d9"
+}

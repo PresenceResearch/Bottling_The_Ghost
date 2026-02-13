@@ -1,0 +1,265 @@
+{
+  "title": "Dog Frequent Urination Investigation",
+  "create_time": 1717582740.369028,
+  "update_time": 1717582802.090706,
+  "mapping": {
+    "aaa164fc-cd64-405c-93da-0b26be74eb86": {
+      "id": "aaa164fc-cd64-405c-93da-0b26be74eb86",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d3dae8b1-324b-45db-8505-9dd1babb6742"
+      ]
+    },
+    "d3dae8b1-324b-45db-8505-9dd1babb6742": {
+      "id": "d3dae8b1-324b-45db-8505-9dd1babb6742",
+      "message": {
+        "id": "d3dae8b1-324b-45db-8505-9dd1babb6742",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa164fc-cd64-405c-93da-0b26be74eb86",
+      "children": [
+        "aaa2f443-8020-427a-9d35-79d1fa42240d"
+      ]
+    },
+    "aaa2f443-8020-427a-9d35-79d1fa42240d": {
+      "id": "aaa2f443-8020-427a-9d35-79d1fa42240d",
+      "message": {
+        "id": "aaa2f443-8020-427a-9d35-79d1fa42240d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717582740.370191,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "why is my dog walking around outside constantly trying to urinate?  She vomited last night as well.  are the two related and what this the underlying problem"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "88ef6bfc8da24cb1-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d3dae8b1-324b-45db-8505-9dd1babb6742",
+      "children": [
+        "a1ec022e-0536-451f-a09b-01906b50ae42"
+      ]
+    },
+    "a1ec022e-0536-451f-a09b-01906b50ae42": {
+      "id": "a1ec022e-0536-451f-a09b-01906b50ae42",
+      "message": {
+        "id": "a1ec022e-0536-451f-a09b-01906b50ae42",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717582747.802603,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "aaa2f443-8020-427a-9d35-79d1fa42240d",
+          "request_id": "88ef6bfc8da24cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f443-8020-427a-9d35-79d1fa42240d",
+      "children": [
+        "b3e074a2-cb4d-4767-af82-d17a76284dff"
+      ]
+    },
+    "b3e074a2-cb4d-4767-af82-d17a76284dff": {
+      "id": "b3e074a2-cb4d-4767-af82-d17a76284dff",
+      "message": {
+        "id": "b3e074a2-cb4d-4767-af82-d17a76284dff",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717582747.802716,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm sorry to hear about your dog. Constantly trying to urinate and vomiting can be concerning symptoms. They might be related, and there could be several underlying problems:\n\n1. **Urinary Tract Infection (UTI):** This is a common cause of frequent urination in dogs. It might also cause discomfort, which could lead to vomiting.\n\n2. **Bladder Stones:** These can cause irritation and frequent attempts to urinate. They can also lead to vomiting if they cause significant discomfort or blockage.\n\n3. **Kidney Problems:** Issues with the kidneys can cause both frequent urination and vomiting.\n\n4. **Diabetes:** Dogs with diabetes often drink and urinate more frequently. Vomiting can also occur if the diabetes is not well-managed.\n\n5. **Gastrointestinal Issues:** Sometimes gastrointestinal issues can lead to vomiting, and the discomfort might cause changes in urination habits.\n\n6. **Ingested Toxins:** If your dog has ingested something toxic, it could cause vomiting and affect urinary function.\n\nIt's important to consult a veterinarian as soon as possible. They can perform the necessary tests to determine the underlying cause and provide appropriate treatment."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "a1ec022e-0536-451f-a09b-01906b50ae42",
+          "request_id": "88ef6bfc8da24cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a1ec022e-0536-451f-a09b-01906b50ae42",
+      "children": [
+        "aaa2c369-9953-4eaf-9dc7-827706bddfe3"
+      ]
+    },
+    "aaa2c369-9953-4eaf-9dc7-827706bddfe3": {
+      "id": "aaa2c369-9953-4eaf-9dc7-827706bddfe3",
+      "message": {
+        "id": "aaa2c369-9953-4eaf-9dc7-827706bddfe3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717582792.334709,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "otherwise she is not acting sick"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "88ef6d41db334cb1-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3e074a2-cb4d-4767-af82-d17a76284dff",
+      "children": [
+        "3ea06a9f-4eeb-4afb-ad90-332d038b9d93"
+      ]
+    },
+    "3ea06a9f-4eeb-4afb-ad90-332d038b9d93": {
+      "id": "3ea06a9f-4eeb-4afb-ad90-332d038b9d93",
+      "message": {
+        "id": "3ea06a9f-4eeb-4afb-ad90-332d038b9d93",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1717582800.432041,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Even if your dog is not acting sick otherwise, it's still important to take these symptoms seriously. Sometimes animals can mask their discomfort well, so subtle signs can be more telling than we realize. Here's what you can do:\n\n1. **Monitor Behavior:** Keep an eye on her for any changes in behavior, appetite, or energy levels. Note how frequently she's attempting to urinate and any other unusual behaviors.\n\n2. **Check Hydration:** Ensure she is drinking enough water but not excessively. Check for signs of dehydration like dry gums or skin that doesn't quickly return to place when pinched.\n\n3. **Observe Urine:** Check if she's actually producing urine or just attempting to. Look for any blood or unusual color in the urine.\n\n4. **Diet:** Consider if there have been any recent changes in her diet that might have caused the vomiting or changes in urination.\n\n5. **Contact a Vet:** Given that vomiting and frequent urination can be symptoms of various underlying issues, it\u2019s best to consult a veterinarian. They can perform a physical examination and may recommend tests such as urinalysis, blood work, or imaging to diagnose the issue.\n\nPrompt veterinary attention can help ensure that if there is a serious problem, it's caught and treated early."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "pad": "AAAAAA",
+          "parent_id": "aaa2c369-9953-4eaf-9dc7-827706bddfe3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "88ef6d41db334cb1-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2c369-9953-4eaf-9dc7-827706bddfe3",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3ea06a9f-4eeb-4afb-ad90-332d038b9d93",
+  "plugin_ids": null,
+  "conversation_id": "3a1cb5ba-0bf4-4724-8cdf-36f73878c9b4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "3a1cb5ba-0bf4-4724-8cdf-36f73878c9b4"
+}

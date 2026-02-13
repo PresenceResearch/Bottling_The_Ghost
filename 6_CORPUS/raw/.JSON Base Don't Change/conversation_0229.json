@@ -1,0 +1,265 @@
+{
+  "title": "Payment Structure for 1099 Lead",
+  "create_time": 1719920261.897907,
+  "update_time": 1719920321.859337,
+  "mapping": {
+    "3d979410-a11f-4c33-86a4-10079f401537": {
+      "id": "3d979410-a11f-4c33-86a4-10079f401537",
+      "message": null,
+      "parent": null,
+      "children": [
+        "7dd1ac97-1c02-4af9-84cd-ca18cdb0c413"
+      ]
+    },
+    "7dd1ac97-1c02-4af9-84cd-ca18cdb0c413": {
+      "id": "7dd1ac97-1c02-4af9-84cd-ca18cdb0c413",
+      "message": {
+        "id": "7dd1ac97-1c02-4af9-84cd-ca18cdb0c413",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d979410-a11f-4c33-86a4-10079f401537",
+      "children": [
+        "1ee4fc19-d16a-4fe0-bed6-2de792df5c8f"
+      ]
+    },
+    "1ee4fc19-d16a-4fe0-bed6-2de792df5c8f": {
+      "id": "1ee4fc19-d16a-4fe0-bed6-2de792df5c8f",
+      "message": {
+        "id": "1ee4fc19-d16a-4fe0-bed6-2de792df5c8f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719920261.903883,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How would you pay a 1099 lead generator for deals over a million dollars "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "89ce58624cc72d17-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7dd1ac97-1c02-4af9-84cd-ca18cdb0c413",
+      "children": [
+        "2893ef25-96de-4e40-9704-bf9868ff3d33"
+      ]
+    },
+    "2893ef25-96de-4e40-9704-bf9868ff3d33": {
+      "id": "2893ef25-96de-4e40-9704-bf9868ff3d33",
+      "message": {
+        "id": "2893ef25-96de-4e40-9704-bf9868ff3d33",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719920282.631556,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1ee4fc19-d16a-4fe0-bed6-2de792df5c8f",
+          "request_id": "89ce58624cc72d17-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1ee4fc19-d16a-4fe0-bed6-2de792df5c8f",
+      "children": [
+        "dfb3836b-ad89-4a0c-b566-02297dfadde5"
+      ]
+    },
+    "dfb3836b-ad89-4a0c-b566-02297dfadde5": {
+      "id": "dfb3836b-ad89-4a0c-b566-02297dfadde5",
+      "message": {
+        "id": "dfb3836b-ad89-4a0c-b566-02297dfadde5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719920282.631636,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Paying a 1099 lead generator for deals over a million dollars typically involves a commission-based structure. Here are a few approaches you could consider:\n\n### Commission-Based Payment Structure\n1. **Flat Percentage Commission**: Offer a flat percentage of the deal value. For instance, a 2-5% commission on each closed deal. For a million-dollar deal, this would translate to $20,000 to $50,000.\n\n2. **Tiered Commission**: Create a tiered commission structure where the percentage increases as the deal size increases. For example:\n   - 1% for deals up to $500,000\n   - 2% for deals between $500,000 and $1,000,000\n   - 3% for deals over $1,000,000\n\n3. **Performance Bonuses**: Offer bonuses for reaching certain milestones or closing multiple deals. For instance, a $10,000 bonus for every $5 million in closed deals in a year.\n\n4. **Retention Bonuses**: Provide bonuses for deals that result in long-term contracts or recurring revenue. This encourages the lead generator to find high-quality leads with long-term potential.\n\n### Payment Terms\n1. **Upfront Payment**: Pay a portion of the commission upfront once the deal is signed, with the remaining balance paid upon completion of the project or after the client makes the first payment.\n\n2. **Milestone Payments**: Pay in installments based on project milestones. For example, 50% upon contract signing and 50% upon project completion.\n\n3. **Residual Payments**: For deals involving ongoing services or subscriptions, offer residual payments. This means the lead generator continues to earn a commission as long as the client stays with your company.\n\n### Example Structure\nFor a $1,000,000 deal, you might structure the payment as follows:\n- **2% Flat Commission**: $20,000 upon contract signing.\n- **Tiered Commission**: $10,000 for the first $500,000 (2%) and $15,000 for the remaining $500,000 (3%), totaling $25,000.\n- **Performance Bonus**: $5,000 bonus if the lead generator closes more than $5 million in deals within the year.\n\n### Legal Considerations\n- Ensure that the payment structure complies with IRS guidelines for 1099 contractors.\n- Have a clear contract outlining the commission structure, payment terms, and conditions to avoid misunderstandings.\n\nThis approach aligns the lead generator's incentives with your business goals, motivating them to find high-value leads and fostering a productive partnership."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAA",
+          "parent_id": "2893ef25-96de-4e40-9704-bf9868ff3d33",
+          "request_id": "89ce58624cc72d17-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2893ef25-96de-4e40-9704-bf9868ff3d33",
+      "children": [
+        "30c91d19-34be-4fa7-8138-630e759018c1"
+      ]
+    },
+    "30c91d19-34be-4fa7-8138-630e759018c1": {
+      "id": "30c91d19-34be-4fa7-8138-630e759018c1",
+      "message": {
+        "id": "30c91d19-34be-4fa7-8138-630e759018c1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719920300.949724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How much would you pay flat fee for a sales visit "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "89ce59569e902d17-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dfb3836b-ad89-4a0c-b566-02297dfadde5",
+      "children": [
+        "d6fac600-503c-4e6f-8d9e-4d9af2d39fa3"
+      ]
+    },
+    "d6fac600-503c-4e6f-8d9e-4d9af2d39fa3": {
+      "id": "d6fac600-503c-4e6f-8d9e-4d9af2d39fa3",
+      "message": {
+        "id": "d6fac600-503c-4e6f-8d9e-4d9af2d39fa3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719920321.521552,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Determining a flat fee for a sales visit can vary depending on several factors such as the industry, location, length of the visit, and the complexity of the product or service being sold. Here are some considerations and a general guideline:\n\n### Considerations\n1. **Industry Standards**: Research what other companies in your industry are paying for sales visits. This can provide a baseline for your compensation plan.\n2. **Travel Costs**: Factor in travel expenses such as transportation, lodging, and meals, especially if the visit requires significant travel.\n3. **Duration**: Consider the length of the visit. A half-day visit might be compensated differently than a full-day visit.\n4. **Expertise Required**: If the sales visit requires specialized knowledge or skills, the compensation should reflect that.\n5. **Opportunity Value**: Higher-value opportunities might justify higher flat fees for sales visits.\n\n### General Guideline\nHere are some example flat fees based on common scenarios:\n\n1. **Local Sales Visits** (within the same city or nearby):\n   - Half-day visit: $200 - $500\n   - Full-day visit: $500 - $1,000\n\n2. **Regional Sales Visits** (requiring travel within a state or neighboring states):\n   - Half-day visit: $500 - $1,000\n   - Full-day visit: $1,000 - $2,000\n\n3. **National Sales Visits** (requiring significant travel across the country):\n   - Half-day visit: $1,000 - $2,000\n   - Full-day visit: $2,000 - $4,000\n\n### Example Structure\nFor a regional sales visit:\n- **Half-day visit**: $750 flat fee plus travel expenses.\n- **Full-day visit**: $1,500 flat fee plus travel expenses.\n\n### Payment Terms\n- **Upfront Payment**: Pay a portion of the fee upfront to cover initial travel expenses.\n- **Completion Payment**: Pay the remaining balance after the visit is completed and a report or feedback is submitted.\n\n### Legal Considerations\n- Ensure that the payment structure is compliant with IRS guidelines for 1099 contractors.\n- Have a clear contract outlining the flat fee, what it covers, and any conditions or expectations.\n\nThis approach ensures that the sales representative is fairly compensated for their time and effort while aligning their incentives with your business goals."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAA",
+          "parent_id": "30c91d19-34be-4fa7-8138-630e759018c1",
+          "request_id": "89ce59569e902d17-IAD",
+          "timestamp_": "absolute",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "30c91d19-34be-4fa7-8138-630e759018c1",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d6fac600-503c-4e6f-8d9e-4d9af2d39fa3",
+  "plugin_ids": null,
+  "conversation_id": "28724997-1bd0-41f9-8a13-52f2b2b4604e",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "28724997-1bd0-41f9-8a13-52f2b2b4604e"
+}

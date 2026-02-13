@@ -1,0 +1,267 @@
+{
+  "title": "Chicken Lifespan Before Consumption",
+  "create_time": 1724639948.494024,
+  "update_time": 1724644323.337179,
+  "mapping": {
+    "353e19f6-f8d8-48c4-8b7e-25a24f663c8f": {
+      "id": "353e19f6-f8d8-48c4-8b7e-25a24f663c8f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a20f8546-d84f-464a-9a43-32b433f3f641"
+      ]
+    },
+    "a20f8546-d84f-464a-9a43-32b433f3f641": {
+      "id": "a20f8546-d84f-464a-9a43-32b433f3f641",
+      "message": {
+        "id": "a20f8546-d84f-464a-9a43-32b433f3f641",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "353e19f6-f8d8-48c4-8b7e-25a24f663c8f",
+      "children": [
+        "1eb577d0-092b-4898-84d8-3098e200e87f"
+      ]
+    },
+    "1eb577d0-092b-4898-84d8-3098e200e87f": {
+      "id": "1eb577d0-092b-4898-84d8-3098e200e87f",
+      "message": {
+        "id": "1eb577d0-092b-4898-84d8-3098e200e87f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724639948.497968,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How long does a chicken live before we eat it "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b90731c089b1f1f-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a20f8546-d84f-464a-9a43-32b433f3f641",
+      "children": [
+        "c2090409-a763-4e2c-8c80-2011a7980e65"
+      ]
+    },
+    "c2090409-a763-4e2c-8c80-2011a7980e65": {
+      "id": "c2090409-a763-4e2c-8c80-2011a7980e65",
+      "message": {
+        "id": "c2090409-a763-4e2c-8c80-2011a7980e65",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724639952.135637,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1eb577d0-092b-4898-84d8-3098e200e87f",
+          "request_id": "8b90731c089b1f1f-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1eb577d0-092b-4898-84d8-3098e200e87f",
+      "children": [
+        "80c01954-c8d1-44ef-8832-0bacb01bd7de"
+      ]
+    },
+    "80c01954-c8d1-44ef-8832-0bacb01bd7de": {
+      "id": "80c01954-c8d1-44ef-8832-0bacb01bd7de",
+      "message": {
+        "id": "80c01954-c8d1-44ef-8832-0bacb01bd7de",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724639952.135711,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Chickens raised for meat, commonly known as broilers, typically live for about 6 to 8 weeks before they are slaughtered. During this time, they are often fed a high-protein diet to encourage rapid growth. This short lifespan is due to the intensive farming practices designed to produce meat quickly. In contrast, chickens raised for eggs (layers) or in more traditional farming settings can live several years, with some living up to 10 years or more if they are kept as pets."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "c2090409-a763-4e2c-8c80-2011a7980e65",
+          "request_id": "8b90731c089b1f1f-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c2090409-a763-4e2c-8c80-2011a7980e65",
+      "children": [
+        "a400e260-aff2-44ac-8e2c-e4f41484bd3f"
+      ]
+    },
+    "a400e260-aff2-44ac-8e2c-e4f41484bd3f": {
+      "id": "a400e260-aff2-44ac-8e2c-e4f41484bd3f",
+      "message": {
+        "id": "a400e260-aff2-44ac-8e2c-e4f41484bd3f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724644318.298067,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Why does Japan drive on the left "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b90ddcb6b291eab-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "80c01954-c8d1-44ef-8832-0bacb01bd7de",
+      "children": [
+        "f61bfdf1-e936-4251-b5ed-6c3907bfdb78"
+      ]
+    },
+    "f61bfdf1-e936-4251-b5ed-6c3907bfdb78": {
+      "id": "f61bfdf1-e936-4251-b5ed-6c3907bfdb78",
+      "message": {
+        "id": "f61bfdf1-e936-4251-b5ed-6c3907bfdb78",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724644322.198063,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Japan drives on the left side of the road largely due to historical influences and practical reasons that developed over time.\n\n1. **Samurai Tradition**: In feudal Japan, samurai would walk or ride on the left side of roads so that their right hand, which typically held their sword, was closer to a potential opponent. This practice helped prevent accidental conflicts.\n\n2. **British Influence**: During the modernization of Japan in the late 19th century, Japan adopted many Western practices, including railway construction. The British, who drove on the left, played a significant role in building Japan's railways. As rail systems often influence road traffic patterns, this contributed to Japan adopting left-side driving for roads as well.\n\n3. **Legal Standardization**: The practice became law in 1924, officially standardizing left-side driving throughout Japan.\n\nThese historical and cultural factors, combined with the influence of British engineering, led to Japan's left-side driving system."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAA",
+          "parent_id": "a400e260-aff2-44ac-8e2c-e4f41484bd3f",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b90ddcb6b291eab-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a400e260-aff2-44ac-8e2c-e4f41484bd3f",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f61bfdf1-e936-4251-b5ed-6c3907bfdb78",
+  "plugin_ids": null,
+  "conversation_id": "7807f898-0266-4f1d-872a-c97bbf2a16b2",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "7807f898-0266-4f1d-872a-c97bbf2a16b2"
+}

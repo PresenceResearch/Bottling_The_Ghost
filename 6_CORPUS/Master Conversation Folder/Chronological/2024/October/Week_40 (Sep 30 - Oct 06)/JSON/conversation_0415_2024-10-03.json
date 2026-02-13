@@ -1,0 +1,189 @@
+{
+  "title": "Song Request Details",
+  "create_time": 1727984476.837256,
+  "update_time": 1727984480.694806,
+  "mapping": {
+    "aaa1e570-0866-4ff0-985e-925b3b7eb3ce": {
+      "id": "aaa1e570-0866-4ff0-985e-925b3b7eb3ce",
+      "message": null,
+      "parent": null,
+      "children": [
+        "41d8031f-533e-4661-ab4f-c232ba3564dd"
+      ]
+    },
+    "41d8031f-533e-4661-ab4f-c232ba3564dd": {
+      "id": "41d8031f-533e-4661-ab4f-c232ba3564dd",
+      "message": {
+        "id": "41d8031f-533e-4661-ab4f-c232ba3564dd",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1e570-0866-4ff0-985e-925b3b7eb3ce",
+      "children": [
+        "aaa2a919-4e2c-4b22-83ff-a1eb4fb027e4"
+      ]
+    },
+    "aaa2a919-4e2c-4b22-83ff-a1eb4fb027e4": {
+      "id": "aaa2a919-4e2c-4b22-83ff-a1eb4fb027e4",
+      "message": {
+        "id": "aaa2a919-4e2c-4b22-83ff-a1eb4fb027e4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727984476.846212,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please include the following in this song:"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "8ccf68a2e81d7004-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "41d8031f-533e-4661-ab4f-c232ba3564dd",
+      "children": [
+        "3640e217-e328-413b-a93d-012f5b6177e8"
+      ]
+    },
+    "3640e217-e328-413b-a93d-012f5b6177e8": {
+      "id": "3640e217-e328-413b-a93d-012f5b6177e8",
+      "message": {
+        "id": "3640e217-e328-413b-a93d-012f5b6177e8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727984479.670545,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa2a919-4e2c-4b22-83ff-a1eb4fb027e4",
+          "request_id": "8ccf68a2e81d7004-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2a919-4e2c-4b22-83ff-a1eb4fb027e4",
+      "children": [
+        "d541ef21-32fe-48bd-bd1c-36b925c5235f"
+      ]
+    },
+    "d541ef21-32fe-48bd-bd1c-36b925c5235f": {
+      "id": "d541ef21-32fe-48bd-bd1c-36b925c5235f",
+      "message": {
+        "id": "d541ef21-32fe-48bd-bd1c-36b925c5235f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727984479.670678,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Could you please provide more details or the specific lyrics you\u2019d like to include in the song? That will help me craft something that fits your vision!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAA",
+          "parent_id": "3640e217-e328-413b-a93d-012f5b6177e8",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8ccf68a2e81d7004-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3640e217-e328-413b-a93d-012f5b6177e8",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d541ef21-32fe-48bd-bd1c-36b925c5235f",
+  "plugin_ids": null,
+  "conversation_id": "66fef35c-a690-8009-a860-41dcc507f4e4",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "66fef35c-a690-8009-a860-41dcc507f4e4"
+}

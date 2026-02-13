@@ -1,0 +1,479 @@
+{
+  "title": "BC Legacy Status Inquiry",
+  "create_time": 1725719623.390594,
+  "update_time": 1725719709.646952,
+  "mapping": {
+    "aaa1556d-1b4b-4297-ab31-06727a1d6f35": {
+      "id": "aaa1556d-1b4b-4297-ab31-06727a1d6f35",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3c9d3b3f-20c5-4d11-9d9e-00b1ee69d3c3"
+      ]
+    },
+    "3c9d3b3f-20c5-4d11-9d9e-00b1ee69d3c3": {
+      "id": "3c9d3b3f-20c5-4d11-9d9e-00b1ee69d3c3",
+      "message": {
+        "id": "3c9d3b3f-20c5-4d11-9d9e-00b1ee69d3c3",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1556d-1b4b-4297-ab31-06727a1d6f35",
+      "children": [
+        "aaa25496-b905-4d83-9b74-439baf9ef75f"
+      ]
+    },
+    "aaa25496-b905-4d83-9b74-439baf9ef75f": {
+      "id": "aaa25496-b905-4d83-9b74-439baf9ef75f",
+      "message": {
+        "id": "aaa25496-b905-4d83-9b74-439baf9ef75f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719623.399216,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "my son is applying to boston college and I am an alum so he would qualify as a legacy candidate.  His step-mother (my wife) is also a BC grad.  Does this carry any weight since she is not her biological mother?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8bf76a5c6e554cac-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3c9d3b3f-20c5-4d11-9d9e-00b1ee69d3c3",
+      "children": [
+        "6acd8010-b9a2-410a-a1ce-dc711bec6d98"
+      ]
+    },
+    "6acd8010-b9a2-410a-a1ce-dc711bec6d98": {
+      "id": "6acd8010-b9a2-410a-a1ce-dc711bec6d98",
+      "message": {
+        "id": "6acd8010-b9a2-410a-a1ce-dc711bec6d98",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719626.04003,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa25496-b905-4d83-9b74-439baf9ef75f",
+          "request_id": "8bf76a5c6e554cac-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa25496-b905-4d83-9b74-439baf9ef75f",
+      "children": [
+        "55e2e892-d783-4f1a-ba1d-a292d65bc790"
+      ]
+    },
+    "55e2e892-d783-4f1a-ba1d-a292d65bc790": {
+      "id": "55e2e892-d783-4f1a-ba1d-a292d65bc790",
+      "message": {
+        "id": "55e2e892-d783-4f1a-ba1d-a292d65bc790",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719626.040209,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User's son is applying to Boston College, and both user and their wife are Boston College graduates."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "6acd8010-b9a2-410a-a1ce-dc711bec6d98",
+          "request_id": "8bf76a5c6e554cac-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "6acd8010-b9a2-410a-a1ce-dc711bec6d98",
+      "children": [
+        "fe7bd95e-131e-4e2e-8b0a-76468561f130"
+      ]
+    },
+    "fe7bd95e-131e-4e2e-8b0a-76468561f130": {
+      "id": "fe7bd95e-131e-4e2e-8b0a-76468561f130",
+      "message": {
+        "id": "fe7bd95e-131e-4e2e-8b0a-76468561f130",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1725719626.040306,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "fe7bd95e-131e-4e2e-8b0a-76468561f130",
+            "pending_message_id": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "55e2e892-d783-4f1a-ba1d-a292d65bc790",
+          "request_id": "8bf76a5c6e554cac-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "55e2e892-d783-4f1a-ba1d-a292d65bc790",
+      "children": [
+        "85f80d25-8946-4b25-8691-09584a6aa40b"
+      ]
+    },
+    "85f80d25-8946-4b25-8691-09584a6aa40b": {
+      "id": "85f80d25-8946-4b25-8691-09584a6aa40b",
+      "message": {
+        "id": "85f80d25-8946-4b25-8691-09584a6aa40b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719626.040424,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "At many colleges, including Boston College, legacy status generally refers to applicants who have a parent (biological or adoptive) who is an alum. While your son's stepmother being a BC grad may not carry the same weight as a biological or adoptive parent in traditional legacy considerations, it still demonstrates a strong family connection to the school. \n\nIt's best to check directly with Boston College's admissions office, as they can provide the most accurate guidance regarding how they consider step-parent legacy in their admissions process."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAA",
+          "parent_id": "fe7bd95e-131e-4e2e-8b0a-76468561f130",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8bf76a5c6e554cac-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe7bd95e-131e-4e2e-8b0a-76468561f130",
+      "children": [
+        "aaa24079-f5dc-4790-8078-b1ece5b6f6a8"
+      ]
+    },
+    "aaa24079-f5dc-4790-8078-b1ece5b6f6a8": {
+      "id": "aaa24079-f5dc-4790-8078-b1ece5b6f6a8",
+      "message": {
+        "id": "aaa24079-f5dc-4790-8078-b1ece5b6f6a8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719706.141236,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "his stepmother has received the Boston Collee Arts Council Alumni award for outstanding achievement in the arts.  Is it worth mentioning that?   it shows a strong connection to the school"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8bf76c5f7e074cb2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85f80d25-8946-4b25-8691-09584a6aa40b",
+      "children": [
+        "b3f998df-8b28-4585-a0b2-2fa60eb820ef"
+      ]
+    },
+    "b3f998df-8b28-4585-a0b2-2fa60eb820ef": {
+      "id": "b3f998df-8b28-4585-a0b2-2fa60eb820ef",
+      "message": {
+        "id": "b3f998df-8b28-4585-a0b2-2fa60eb820ef",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719708.895163,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa24079-f5dc-4790-8078-b1ece5b6f6a8",
+          "request_id": "8bf76c5f7e074cb2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa24079-f5dc-4790-8078-b1ece5b6f6a8",
+      "children": [
+        "63ec4520-a349-4f01-8180-149461e3c142"
+      ]
+    },
+    "63ec4520-a349-4f01-8180-149461e3c142": {
+      "id": "63ec4520-a349-4f01-8180-149461e3c142",
+      "message": {
+        "id": "63ec4520-a349-4f01-8180-149461e3c142",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719708.895251,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User's son's stepmother has received the Boston College Arts Council Alumni Award for outstanding achievement in the arts."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "b3f998df-8b28-4585-a0b2-2fa60eb820ef",
+          "request_id": "8bf76c5f7e074cb2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "b3f998df-8b28-4585-a0b2-2fa60eb820ef",
+      "children": [
+        "43d1cc8f-a223-4373-a1eb-c370d284eccb"
+      ]
+    },
+    "43d1cc8f-a223-4373-a1eb-c370d284eccb": {
+      "id": "43d1cc8f-a223-4373-a1eb-c370d284eccb",
+      "message": {
+        "id": "43d1cc8f-a223-4373-a1eb-c370d284eccb",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1725719708.895317,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "43d1cc8f-a223-4373-a1eb-c370d284eccb",
+            "pending_message_id": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "63ec4520-a349-4f01-8180-149461e3c142",
+          "request_id": "8bf76c5f7e074cb2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "63ec4520-a349-4f01-8180-149461e3c142",
+      "children": [
+        "8c0b147c-ab2a-4737-bfb2-3e251f0abff1"
+      ]
+    },
+    "8c0b147c-ab2a-4737-bfb2-3e251f0abff1": {
+      "id": "8c0b147c-ab2a-4737-bfb2-3e251f0abff1",
+      "message": {
+        "id": "8c0b147c-ab2a-4737-bfb2-3e251f0abff1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725719708.895377,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, it is definitely worth mentioning that his stepmother received the Boston College Arts Council Alumni Award for outstanding achievement in the arts. This award highlights a significant connection to the school and reflects positively on your family's ongoing involvement and contributions to the BC community. Including this detail can add depth to the legacy aspect and demonstrate your family's engagement with the college beyond just attending as students."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAA",
+          "parent_id": "43d1cc8f-a223-4373-a1eb-c370d284eccb",
+          "request_id": "8bf76c5f7e074cb2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "43d1cc8f-a223-4373-a1eb-c370d284eccb",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "8c0b147c-ab2a-4737-bfb2-3e251f0abff1",
+  "plugin_ids": null,
+  "conversation_id": "66dc6447-2fbc-8009-8835-fbaefdfc62d3",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": 2,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "66dc6447-2fbc-8009-8835-fbaefdfc62d3"
+}

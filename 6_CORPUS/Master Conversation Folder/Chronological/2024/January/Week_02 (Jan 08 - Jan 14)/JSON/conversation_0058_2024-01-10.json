@@ -1,0 +1,678 @@
+{
+  "title": "Trash Drop-off in Baltimore County",
+  "create_time": 1704921990.338372,
+  "update_time": 1704922033.12056,
+  "mapping": {
+    "aaa153f0-aca3-4d6e-8f2e-078d0a9b983d": {
+      "id": "aaa153f0-aca3-4d6e-8f2e-078d0a9b983d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "9b65a90a-a4a5-466e-81f4-29984319da84"
+      ]
+    },
+    "9b65a90a-a4a5-466e-81f4-29984319da84": {
+      "id": "9b65a90a-a4a5-466e-81f4-29984319da84",
+      "message": {
+        "id": "9b65a90a-a4a5-466e-81f4-29984319da84",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa153f0-aca3-4d6e-8f2e-078d0a9b983d",
+      "children": [
+        "aaa2ba17-0bfd-45f2-bdaf-8875d510a27b"
+      ]
+    },
+    "aaa2ba17-0bfd-45f2-bdaf-8875d510a27b": {
+      "id": "aaa2ba17-0bfd-45f2-bdaf-8875d510a27b",
+      "message": {
+        "id": "aaa2ba17-0bfd-45f2-bdaf-8875d510a27b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704921990.339809,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "where can I drop off trash in baltimore county in a u haul treuck"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9b65a90a-a4a5-466e-81f4-29984319da84",
+      "children": [
+        "4f5639b9-0f91-4e1e-a3d5-461eda1df6b6"
+      ]
+    },
+    "4f5639b9-0f91-4e1e-a3d5-461eda1df6b6": {
+      "id": "4f5639b9-0f91-4e1e-a3d5-461eda1df6b6",
+      "message": {
+        "id": "4f5639b9-0f91-4e1e-a3d5-461eda1df6b6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704922031.350455,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Baltimore County trash drop-off locations for U-Haul trucks\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2ba17-0bfd-45f2-bdaf-8875d510a27b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "aaa2ba17-0bfd-45f2-bdaf-8875d510a27b",
+      "children": [
+        "9a72088e-f24d-4ab6-922c-e3e341f5a3d8"
+      ]
+    },
+    "9a72088e-f24d-4ab6-922c-e3e341f5a3d8": {
+      "id": "9a72088e-f24d-4ab6-922c-e3e341f5a3d8",
+      "message": {
+        "id": "9a72088e-f24d-4ab6-922c-e3e341f5a3d8",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1704922031.352301,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020Trash and Recycling Drop-Off Centers - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nMonday to Saturday, 7 a.m. to 4 p.m. 201 West Warren Road Cockeysville Maryland 21030: Some map software will inaccurately show this address on the east side of York Road.) Entrance to the facility is on Drop Off Drive, off of Warren Road, one-quarter mile west of York Road and one-quarter mile east of Beaver Dam Road.\n# \u30101\u2020Household Hazardous Waste Recycling and Disposal - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nUnwanted and expired medication can also be disposed of with regular household trash if a few simple steps are taken: Put the mixture into a plastic bag with a seal or a disposable container with a lid. Place the sealed container and empty medicine containers into the trash can. United States Food and Drug Administration 1-888-463-6332.\n# \u30102\u2020Bureau of Solid Waste Management - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nBureau of Solid Waste Management. 111 West Chesapeake Avenue Room 211 Towson, Maryland 21204. Hours. Monday through Friday 8 a.m. to 4 p.m. Email. solidwaste@baltimorecountymd.gov.\n# \u30103\u2020Accepted Materials Directory - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nThis directory identifies materials that can be taken to Baltimore County's three resident drop-off facilities.For more information, please call the Bureau of Solid Waste Management (BSWM) customer service line at 410-887-2000, Monday through Friday, 7:30 a.m. to 4 p.m. Before recycling or throwing out reusable materials, please consider donating them.\n# \u30104\u2020Collection Schedule - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nThe collections schedule provides results for Baltimore County properties only. If the property is located outside of Baltimore County, it will not appear. If your property is located within Baltimore County but is not found in our system, please call 410-887-2000 to obtain a schedule. Trash and Recycling Guide\n# \u30105\u2020Residential Refuse Disposal Authorization Request - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nIf an authorization is not obtained, the resident will be charged a prorated fee of $100 per ton of material. A refuse disposal authorization must be obtained if: A resident wishes to use a vehicle other than a car, van or \"standard\" pick-up (pick-up bed of four by eight feet or less). A resident wishes to deliver waste which could be construed ...\n# \u30106\u2020EASTBALTCO.COM - Baltimore County Waste Drop Off\u2020eastbaltco.com\u3011\nThe Eastern Sanitary Landfill Solid Waste Management Facility. ESL is located at 6259 Days Cove Road in White Marsh. It is located off of the 11400 block of Pulaski Highway, one block east of Allender Road. The hours are Monday to Saturday from 7:30 a.m. to 3:30 p.m. The phone number is 410-887-2000. Directions from Harford Road: Take I-695 to ...\n# \u30107\u2020Recycling Directory - Recyclables, waste reduction, reuse\u2020www.mdrecycles.org\u3011\nBaltimore County Central Acceptance Facility 10320 York Road Cockeysville, MD 21030 Phone: ... There is no charge for recycling, drop-off Monday-Friday, 8:30 am - 5 pm. Deinstallation and removal is available for larger loads. ... Materials arrive via CNR trucks or customer drop-off. MAP LINK; Call2Recycle www.call2recycle.org 1000 Parkwood ...\n# \u30108\u2020Residential Recycling Collection - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nStickers for recycling containers are available free of charge at the following locations: Baltimore County public libraries\u2014We encourage residents to call ahead to a library before visiting to ensure that they have a supply of container stickers. Baltimore County\u2019s three trash and recycling. Contact or visit our Solid Waste Management office.\n# \u30109\u2020U-Haul Locations in Baltimore County, MD 21286 | U-Haul\u2020www.uhaul.com\u3011\nFind the nearest U-Haul location in Baltimore County, MD 21286. U-Haul is a do-it-yourself moving company, offering moving truck and trailer rentals, self-storage, moving supplies, and more! With over 21,000 locations nationwide, we're guaranteed to have one near you.\n# \u301010\u2020Electronics Recycling Drop-Off - Recycling Maryland - Recyclables ...\u2020www.mdrecycles.org\u3011\nBaltimore \u2013 5835 York Road. Bel Air \u2013 Tollgate Center. Bowie Gateway Center. Gaithersburg \u2013 660 Quince Orchard Road. Germantown \u2013 20906-A Frederick Road. Hagerstown \u2013 1631 Wesel Blvd. Products recycled for a $25 fee per item: Computer Monitors, Tube TVs smaller than 32\u2033, Flat Panel TVs (LCD, Plasma, LED smaller than 50\u2033), Portable ...\n# \u301011\u2020ArcGIS Web Application\u2020baltimoredpw.maps.arcgis.com\u3011\nArcGIS Web Application\n# \u301012\u2020Baltimore? - U-Haul\u2020www.uhaul.com\u3011\nDrop Off Location Pick Up Date* Get Rates Image courtesy of: BaltoPhoto.org ... Find nearby storage units, Moving Help\u00ae, and truck rental locations in Baltimore. Click the pin and drag it to reposition the map. 1 Rosedale Auto ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03.2024 at 11.57 - from 1.468.0 ...\n# \u301013\u2020U-Haul: Moving Truck Rental in Baltimore, MD at Hanover Street Carroll ...\u2020www.uhaul.com\u3011\nReserve a moving truck rental, cargo van or pickup truck in Baltimore, MD. Your truck rental reservation is guaranteed on all rental trucks. ... Drop Off Location (Optional) Get Rates. One-Way and In-Town\u00ae Rentals in Baltimore, MD 21230. ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03.2024 at 11.57 - from 1.468.0.\n# \u301014\u2020How to Drop Off a U-Haul Truck After Hours | U-Haul\u2020www.uhaul.com\u3011\nHow to Drop Off a U-Haul Truck After Hours After hours of fitting boxes into your new house, you peek at your watch to realize how fast the time has passed. A quick Google search of \u201cwhat time does U-Haul close,\u201d tells you your rental truck drop-off location is closed for the night. ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03. ...\n# \u301015\u2020Trash, Recycling, Water | City of Baltimore\u2020www.baltimorecity.gov\u3011\nWhere can I find my nearest drop-off center? Call 311 or see the list of Citizen Drop-off Centers on our Recycling web page. DPW Citizen Drop-off Centers; City agency ... Baltimore City customers can call 311 and Baltimore County customers can call 410-396-5352 for information and assistance. Always keep bottled water on hand for such emergencies.\n# \u301016\u2020Citizen Drop-Off Centers - Baltimore City Department of Public Works\u2020publicworks.baltimorecity.gov\u3011\nCity Hall - Room 250 100 N. Holliday St, Baltimore, MD 21202 City Operator: (410) 396-3100\n# \u301017\u2020Residential Drop-Off Centers - Baltimore City Department of Public Works\u2020publicworks.baltimorecity.gov\u3011\nConvenience Drop-off: 6100 Quarantine Road, (410) 396-3772, ... The Residential Drop-Off Centers are exclusively for use by Baltimore City residents with valid IDs. ... or an unmodified pickup truck that is no larger than 3/4 ton. Trash and recyclables must be deposited in the proper designated containers. Knowingly violating this policy may ...\n# \u301018\u2020Trash and Recycling Collection Schedules in Baltimore\u2020eagletrashservice.com\u3011\nHoliday schedule changes: If a holiday falls on your collection day, pickup moves to the following day that week. Holidays: Memorial Day, July 4th, Labor Day, Thanksgiving, Christmas, New Year\u2019s Day. Contact: Bureau of Solid Waste Management, 410-887-2000, solidwaste@baltimorecountymd.gov.\n# \u301019\u2020Where to recycle Christmas trees in the Baltimore area - WBAL-TV 11 News\u2020www.wbaltv.com\u3011\nThen, residents can drop off trees at one of the following locations to be recycled and re-used. - Carroll County Resource Recovery Park (Northern Landfill and Recycling Center), 1400 Baltimore ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Trash and Recycling Drop-Off Centers - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/drop-off-centers",
+                "text": "\nMonday to Saturday, 7 a.m. to 4 p.m. 201 West Warren Road Cockeysville Maryland 21030: Some map software will inaccurately show this address on the east side of York Road.) Entrance to the facility is on Drop Off Drive, off of Warren Road, one-quarter mile west of York Road and one-quarter mile east of Beaver Dam Road.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Household Hazardous Waste Recycling and Disposal - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/hhw/",
+                "text": "\nUnwanted and expired medication can also be disposed of with regular household trash if a few simple steps are taken: Put the mixture into a plastic bag with a seal or a disposable container with a lid. Place the sealed container and empty medicine containers into the trash can. United States Food and Drug Administration 1-888-463-6332.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Bureau of Solid Waste Management - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/",
+                "text": "\nBureau of Solid Waste Management. 111 West Chesapeake Avenue Room 211 Towson, Maryland 21204. Hours. Monday through Friday 8 a.m. to 4 p.m. Email. solidwaste@baltimorecountymd.gov.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Accepted Materials Directory - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/hhw/accepted-materials",
+                "text": "\nThis directory identifies materials that can be taken to Baltimore County's three resident drop-off facilities.For more information, please call the Bureau of Solid Waste Management (BSWM) customer service line at 410-887-2000, Monday through Friday, 7:30 a.m. to 4 p.m. Before recycling or throwing out reusable materials, please consider donating them.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Collection Schedule - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/collection-schedule.html",
+                "text": "\nThe collections schedule provides results for Baltimore County properties only. If the property is located outside of Baltimore County, it will not appear. If your property is located within Baltimore County but is not found in our system, please call 410-887-2000 to obtain a schedule. Trash and Recycling Guide\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Residential Refuse Disposal Authorization Request - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/refuse-authorization-request",
+                "text": "\nIf an authorization is not obtained, the resident will be charged a prorated fee of $100 per ton of material. A refuse disposal authorization must be obtained if: A resident wishes to use a vehicle other than a car, van or \"standard\" pick-up (pick-up bed of four by eight feet or less). A resident wishes to deliver waste which could be construed ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "EASTBALTCO.COM - Baltimore County Waste Drop Off",
+                "url": "https://eastbaltco.com/baltimore-county-waste-drop-off/",
+                "text": "\nThe Eastern Sanitary Landfill Solid Waste Management Facility. ESL is located at 6259 Days Cove Road in White Marsh. It is located off of the 11400 block of Pulaski Highway, one block east of Allender Road. The hours are Monday to Saturday from 7:30 a.m. to 3:30 p.m. The phone number is 410-887-2000. Directions from Harford Road: Take I-695 to ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Recycling Directory - Recyclables, waste reduction, reuse",
+                "url": "https://www.mdrecycles.org/recycling-directory/",
+                "text": "\nBaltimore County Central Acceptance Facility 10320 York Road Cockeysville, MD 21030 Phone: ... There is no charge for recycling, drop-off Monday-Friday, 8:30 am - 5 pm. Deinstallation and removal is available for larger loads. ... Materials arrive via CNR trucks or customer drop-off. MAP LINK; Call2Recycle www.call2recycle.org 1000 Parkwood ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Residential Recycling Collection - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/recycling/collection",
+                "text": "\nStickers for recycling containers are available free of charge at the following locations: Baltimore County public libraries\u2014We encourage residents to call ahead to a library before visiting to ensure that they have a supply of container stickers. Baltimore County\u2019s three trash and recycling. Contact or visit our Solid Waste Management office.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "U-Haul Locations in Baltimore County, MD 21286 | U-Haul",
+                "url": "https://www.uhaul.com/Locations/Baltimore-County-MD/Results/",
+                "text": "\nFind the nearest U-Haul location in Baltimore County, MD 21286. U-Haul is a do-it-yourself moving company, offering moving truck and trailer rentals, self-storage, moving supplies, and more! With over 21,000 locations nationwide, we're guaranteed to have one near you.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Electronics Recycling Drop-Off - Recycling Maryland - Recyclables ...",
+                "url": "https://www.mdrecycles.org/residents/electronics-recycling-drop-off-2/",
+                "text": "\nBaltimore \u2013 5835 York Road. Bel Air \u2013 Tollgate Center. Bowie Gateway Center. Gaithersburg \u2013 660 Quince Orchard Road. Germantown \u2013 20906-A Frederick Road. Hagerstown \u2013 1631 Wesel Blvd. Products recycled for a $25 fee per item: Computer Monitors, Tube TVs smaller than 32\u2033, Flat Panel TVs (LCD, Plasma, LED smaller than 50\u2033), Portable ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "ArcGIS Web Application",
+                "url": "https://baltimoredpw.maps.arcgis.com/apps/webappviewer/index.html?id=a5f3d3d42a884ae2935b1263ee0bf48d",
+                "text": "\nArcGIS Web Application\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Baltimore? - U-Haul",
+                "url": "https://www.uhaul.com/Locations/Maryland/Baltimore/",
+                "text": "\nDrop Off Location Pick Up Date* Get Rates Image courtesy of: BaltoPhoto.org ... Find nearby storage units, Moving Help\u00ae, and truck rental locations in Baltimore. Click the pin and drag it to reposition the map. 1 Rosedale Auto ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03.2024 at 11.57 - from 1.468.0 ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "U-Haul: Moving Truck Rental in Baltimore, MD at Hanover Street Carroll ...",
+                "url": "https://www.uhaul.com/Locations/Truck-Rentals-near-Baltimore-MD-21230/033509/",
+                "text": "\nReserve a moving truck rental, cargo van or pickup truck in Baltimore, MD. Your truck rental reservation is guaranteed on all rental trucks. ... Drop Off Location (Optional) Get Rates. One-Way and In-Town\u00ae Rentals in Baltimore, MD 21230. ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03.2024 at 11.57 - from 1.468.0.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Drop Off a U-Haul Truck After Hours | U-Haul",
+                "url": "https://www.uhaul.com/Tips/Loading/How-To-Drop-Off-A-U-Haul-Truck-After-Hours-26829/",
+                "text": "\nHow to Drop Off a U-Haul Truck After Hours After hours of fitting boxes into your new house, you peek at your watch to realize how fast the time has passed. A quick Google search of \u201cwhat time does U-Haul close,\u201d tells you your rental truck drop-off location is closed for the night. ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03. ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Trash, Recycling, Water | City of Baltimore",
+                "url": "https://www.baltimorecity.gov/answers/citywide/trash-recycling-water",
+                "text": "\nWhere can I find my nearest drop-off center? Call 311 or see the list of Citizen Drop-off Centers on our Recycling web page. DPW Citizen Drop-off Centers; City agency ... Baltimore City customers can call 311 and Baltimore County customers can call 410-396-5352 for information and assistance. Always keep bottled water on hand for such emergencies.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Citizen Drop-Off Centers - Baltimore City Department of Public Works",
+                "url": "https://publicworks.baltimorecity.gov/pw-recycling/centers",
+                "text": "\nCity Hall - Room 250 100 N. Holliday St, Baltimore, MD 21202 City Operator: (410) 396-3100\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Residential Drop-Off Centers - Baltimore City Department of Public Works",
+                "url": "https://publicworks.baltimorecity.gov/solid-waste/drop-off",
+                "text": "\nConvenience Drop-off: 6100 Quarantine Road, (410) 396-3772, ... The Residential Drop-Off Centers are exclusively for use by Baltimore City residents with valid IDs. ... or an unmodified pickup truck that is no larger than 3/4 ton. Trash and recyclables must be deposited in the proper designated containers. Knowingly violating this policy may ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Trash and Recycling Collection Schedules in Baltimore",
+                "url": "https://eagletrashservice.com/trash-schedule-baltimore/",
+                "text": "\nHoliday schedule changes: If a holiday falls on your collection day, pickup moves to the following day that week. Holidays: Memorial Day, July 4th, Labor Day, Thanksgiving, Christmas, New Year\u2019s Day. Contact: Bureau of Solid Waste Management, 410-887-2000, solidwaste@baltimorecountymd.gov.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Where to recycle Christmas trees in the Baltimore area - WBAL-TV 11 News",
+                "url": "https://www.wbaltv.com/article/recycle-christmas-tree-baltimore-area-2022/42346551",
+                "text": "\nThen, residents can drop off trees at one of the following locations to be recycled and re-used. - Carroll County Resource Recovery Park (Northern Landfill and Recycling Center), 1400 Baltimore ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'Baltimore County trash drop-off locations for U-Haul trucks'",
+                "url": "",
+                "text": "# \u30100\u2020Trash and Recycling Drop-Off Centers - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nMonday to Saturday, 7 a.m. to 4 p.m. 201 West Warren Road Cockeysville Maryland 21030: Some map software will inaccurately show this address on the east side of York Road.) Entrance to the facility is on Drop Off Drive, off of Warren Road, one-quarter mile west of York Road and one-quarter mile east of Beaver Dam Road.\n# \u30101\u2020Household Hazardous Waste Recycling and Disposal - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nUnwanted and expired medication can also be disposed of with regular household trash if a few simple steps are taken: Put the mixture into a plastic bag with a seal or a disposable container with a lid. Place the sealed container and empty medicine containers into the trash can. United States Food and Drug Administration 1-888-463-6332.\n# \u30102\u2020Bureau of Solid Waste Management - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nBureau of Solid Waste Management. 111 West Chesapeake Avenue Room 211 Towson, Maryland 21204. Hours. Monday through Friday 8 a.m. to 4 p.m. Email. solidwaste@baltimorecountymd.gov.\n# \u30103\u2020Accepted Materials Directory - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nThis directory identifies materials that can be taken to Baltimore County's three resident drop-off facilities.For more information, please call the Bureau of Solid Waste Management (BSWM) customer service line at 410-887-2000, Monday through Friday, 7:30 a.m. to 4 p.m. Before recycling or throwing out reusable materials, please consider donating them.\n# \u30104\u2020Collection Schedule - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nThe collections schedule provides results for Baltimore County properties only. If the property is located outside of Baltimore County, it will not appear. If your property is located within Baltimore County but is not found in our system, please call 410-887-2000 to obtain a schedule. Trash and Recycling Guide\n# \u30105\u2020Residential Refuse Disposal Authorization Request - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nIf an authorization is not obtained, the resident will be charged a prorated fee of $100 per ton of material. A refuse disposal authorization must be obtained if: A resident wishes to use a vehicle other than a car, van or \"standard\" pick-up (pick-up bed of four by eight feet or less). A resident wishes to deliver waste which could be construed ...\n# \u30106\u2020EASTBALTCO.COM - Baltimore County Waste Drop Off\u2020eastbaltco.com\u3011\nThe Eastern Sanitary Landfill Solid Waste Management Facility. ESL is located at 6259 Days Cove Road in White Marsh. It is located off of the 11400 block of Pulaski Highway, one block east of Allender Road. The hours are Monday to Saturday from 7:30 a.m. to 3:30 p.m. The phone number is 410-887-2000. Directions from Harford Road: Take I-695 to ...\n# \u30107\u2020Recycling Directory - Recyclables, waste reduction, reuse\u2020www.mdrecycles.org\u3011\nBaltimore County Central Acceptance Facility 10320 York Road Cockeysville, MD 21030 Phone: ... There is no charge for recycling, drop-off Monday-Friday, 8:30 am - 5 pm. Deinstallation and removal is available for larger loads. ... Materials arrive via CNR trucks or customer drop-off. MAP LINK; Call2Recycle www.call2recycle.org 1000 Parkwood ...\n# \u30108\u2020Residential Recycling Collection - Baltimore County\u2020www.baltimorecountymd.gov\u3011\nStickers for recycling containers are available free of charge at the following locations: Baltimore County public libraries\u2014We encourage residents to call ahead to a library before visiting to ensure that they have a supply of container stickers. Baltimore County\u2019s three trash and recycling. Contact or visit our Solid Waste Management office.\n# \u30109\u2020U-Haul Locations in Baltimore County, MD 21286 | U-Haul\u2020www.uhaul.com\u3011\nFind the nearest U-Haul location in Baltimore County, MD 21286. U-Haul is a do-it-yourself moving company, offering moving truck and trailer rentals, self-storage, moving supplies, and more! With over 21,000 locations nationwide, we're guaranteed to have one near you.\n# \u301010\u2020Electronics Recycling Drop-Off - Recycling Maryland - Recyclables ...\u2020www.mdrecycles.org\u3011\nBaltimore \u2013 5835 York Road. Bel Air \u2013 Tollgate Center. Bowie Gateway Center. Gaithersburg \u2013 660 Quince Orchard Road. Germantown \u2013 20906-A Frederick Road. Hagerstown \u2013 1631 Wesel Blvd. Products recycled for a $25 fee per item: Computer Monitors, Tube TVs smaller than 32\u2033, Flat Panel TVs (LCD, Plasma, LED smaller than 50\u2033), Portable ...\n# \u301011\u2020ArcGIS Web Application\u2020baltimoredpw.maps.arcgis.com\u3011\nArcGIS Web Application\n# \u301012\u2020Baltimore? - U-Haul\u2020www.uhaul.com\u3011\nDrop Off Location Pick Up Date* Get Rates Image courtesy of: BaltoPhoto.org ... Find nearby storage units, Moving Help\u00ae, and truck rental locations in Baltimore. Click the pin and drag it to reposition the map. 1 Rosedale Auto ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03.2024 at 11.57 - from 1.468.0 ...\n# \u301013\u2020U-Haul: Moving Truck Rental in Baltimore, MD at Hanover Street Carroll ...\u2020www.uhaul.com\u3011\nReserve a moving truck rental, cargo van or pickup truck in Baltimore, MD. Your truck rental reservation is guaranteed on all rental trucks. ... Drop Off Location (Optional) Get Rates. One-Way and In-Town\u00ae Rentals in Baltimore, MD 21230. ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03.2024 at 11.57 - from 1.468.0.\n# \u301014\u2020How to Drop Off a U-Haul Truck After Hours | U-Haul\u2020www.uhaul.com\u3011\nHow to Drop Off a U-Haul Truck After Hours After hours of fitting boxes into your new house, you peek at your watch to realize how fast the time has passed. A quick Google search of \u201cwhat time does U-Haul close,\u201d tells you your rental truck drop-off location is closed for the night. ... U-Haul Locations; 003 - uhaul.com (ALL) YAML - 01.03. ...\n# \u301015\u2020Trash, Recycling, Water | City of Baltimore\u2020www.baltimorecity.gov\u3011\nWhere can I find my nearest drop-off center? Call 311 or see the list of Citizen Drop-off Centers on our Recycling web page. DPW Citizen Drop-off Centers; City agency ... Baltimore City customers can call 311 and Baltimore County customers can call 410-396-5352 for information and assistance. Always keep bottled water on hand for such emergencies.\n# \u301016\u2020Citizen Drop-Off Centers - Baltimore City Department of Public Works\u2020publicworks.baltimorecity.gov\u3011\nCity Hall - Room 250 100 N. Holliday St, Baltimore, MD 21202 City Operator: (410) 396-3100\n# \u301017\u2020Residential Drop-Off Centers - Baltimore City Department of Public Works\u2020publicworks.baltimorecity.gov\u3011\nConvenience Drop-off: 6100 Quarantine Road, (410) 396-3772, ... The Residential Drop-Off Centers are exclusively for use by Baltimore City residents with valid IDs. ... or an unmodified pickup truck that is no larger than 3/4 ton. Trash and recyclables must be deposited in the proper designated containers. Knowingly violating this policy may ...\n# \u301018\u2020Trash and Recycling Collection Schedules in Baltimore\u2020eagletrashservice.com\u3011\nHoliday schedule changes: If a holiday falls on your collection day, pickup moves to the following day that week. Holidays: Memorial Day, July 4th, Labor Day, Thanksgiving, Christmas, New Year\u2019s Day. Contact: Bureau of Solid Waste Management, 410-887-2000, solidwaste@baltimorecountymd.gov.\n# \u301019\u2020Where to recycle Christmas trees in the Baltimore area - WBAL-TV 11 News\u2020www.wbaltv.com\u3011\nThen, residents can drop off trees at one of the following locations to be recycled and re-used. - Carroll County Resource Recovery Park (Northern Landfill and Recycling Center), 1400 Baltimore ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "Baltimore County trash drop-off locations for U-Haul trucks"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "4f5639b9-0f91-4e1e-a3d5-461eda1df6b6",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4f5639b9-0f91-4e1e-a3d5-461eda1df6b6",
+      "children": [
+        "29f453d3-1903-4d5b-b752-2d34af4a53e7"
+      ]
+    },
+    "29f453d3-1903-4d5b-b752-2d34af4a53e7": {
+      "id": "29f453d3-1903-4d5b-b752-2d34af4a53e7",
+      "message": {
+        "id": "29f453d3-1903-4d5b-b752-2d34af4a53e7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704922031.355593,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "mclick([0, 3, 5, 6])"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "9a72088e-f24d-4ab6-922c-e3e341f5a3d8",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "9a72088e-f24d-4ab6-922c-e3e341f5a3d8",
+      "children": [
+        "2f179486-5b02-4953-bfbb-ab93b81a283c"
+      ]
+    },
+    "2f179486-5b02-4953-bfbb-ab93b81a283c": {
+      "id": "2f179486-5b02-4953-bfbb-ab93b81a283c",
+      "message": {
+        "id": "2f179486-5b02-4953-bfbb-ab93b81a283c",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1704922031.359353,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/drop-off-centers",
+          "domain": "www.baltimorecountymd.gov",
+          "text": "  * Learn about the community clean-up application process and policies.\n\n[Image 1: A map of the three drop-off facilities in Baltimore County.] \n\n## Drop-Off Facilities \n\nView hours and directions for the three County drop-off facilities:\n\n  1. \u301019\u2020Eastern Sanitary Landfill (ESL) Solid Waste Management Facility in White Marsh\u3011\n  2. \u301020\u2020Central Acceptance Facility (CAF) in Cockeysville\u3011\n  3. \u301021\u2020Western Acceptance Facility (WAF) in Halethorpe\u3011\n\nSee how holidays may affect whether facilities are \u301012\u2020open or closed\u3011.\n\n## Eastern Sanitary Landfill (ESL) Solid Waste Management Facility in White Marsh \n\nHours: Monday to Saturday, 7:30 a.m. to 3:30 p.m. (There is no admittance into the facility after 3:15 p.m. and residents must be finished unloading by 3:30 p.m.)\n\n\u301022\u20206259 Days Cove Road White Marsh, Maryland 21162\u2020goo.gl\u3011  \nOff 11400 block Pulaski Highway, one block east of Allender Road.\n\nOpen All\n\nDirections\n\nFrom west of Harford Road:\n\n  1. I-695 to Exit 31C, White Marsh Boulevard (Route 43)\n  2. Take Route 43 to the Pulaski Highway (Route 40) east exit \n  3. Go approximately two and one-half miles on Pulaski Highway to Days Cove Road and turn right at the traffic light \n  4. Main gate is one mile on right \n\nFrom between Harford Road and I-95:\n\n  1. I-695 to Exit 35, Pulaski Highway (Route 40)\n  2. Go east approximately five miles to Days Cove Road and turn right \n  3. Main gate is one mile on right \n\nFrom east of I-95:\n\n  1. Take Pulaski Highway (Route 40) east.\n  2. Go to Days Cove Road about two and one-half miles beyond the intersection at White Marsh Boulevard (Route 43)\n  3. Turn right on Days Cove Road \n  4. Main gate is one mile on right \n\nPay Invoices\n\nMake an online payment for \u301023\u2020Eastern Sanitary Landfill Invoices\u2020citizenaccess.baltimorecountymd.gov\u3011.\n\nFree Mulch and Compost for Residents\n\nAt times, the Bureau of Solid Waste Management has supplies of mulch and compost available to residents, free of charge. These products are offered on a first-come, first-served basis, only at the Eastern Sanitary Landfill Solid Waste Management Facility in White Marsh.\n\nAttendants are not available to assist with loading the mulch and compost; residents are asked to bring their own containers and shovels to load the material themselves. The mulch and compost are not always available for residents\u2014please call \u301017\u2020410-887-2000\u2020tel:410-887-2000\u3011 first to check the availability of these materials.\n\nAccepted Household Hazardous Waste Materials\n\n  * Motor oil and anti-freeze \n  * Gasoline \n  * Mercury thermometers and thermostats \n  * Fluorescent light bulbs (limit of 10 bulbs per delivery per day)\n  * Rechargeable batteries \n\nSee a full \u301024\u2020list of household hazardous waste materials\u3011 accepted at each drop-off facility. \n\n## Central Acceptance Facility (CAF) in Cockeysville \n\nHours: Monday to Saturday, 7 a.m. to 4 p.m.\n\n\u301025\u2020201 West Warren Road Cockeysville Maryland 21030\u2020goo.gl\u3011  \n(Note: Some map software will inaccurately show this address on the east side of York Road.)  \nEntrance to the facility is on Drop Off Drive, off of Warren Road, one-quarter mile west of York Road and one-quarter mile east of Beaver Dam Road.\n\nOpen All\n\nDirections\n\nFrom areas south of Cockeysville:\n\n  1. I-83 north to Warren Road \n  2. Go one mile to Drop-Off Drive and turn right \n\nFrom areas north of Cockeysville:\n\n  1. I-83 south to Shawan Road-East \n  2. Go one-half mile to York Road and turn right \n  3. Go one-half mile to Warren Road and turn right \n  4. Go one-quarter mile to Drop-Off Drive and turn left \n\nMaterials Recovery Facility at CAF\n\nLocated at the CAF, the single stream recycling Materials Recovery Facility (MRF) receives, sorts and prepares recyclable materials (a mixture of paper, plastic and metal items) for marketing. By marketing the recyclables, the County is able to retain the value of these materials and maximize the financial benefits of its single stream recycling program. You have a direct impact on the County\u2019s success\u2014the more you recycle, the more money the County will earn. Workers are stationed along the conveyor belts to screen out material missed by the sorting equipment, which includes 86 conveyor belts, six sorting screens, three optical sorters and two balers. \u301026\u2020Watch a video\u2020www.youtube.com\u3011 to learn more about the facility.\n\n### Tours Available \n\nBaltimore County offers free public tours of its single stream MRF for groups of 10 to 30 people. For safety reasons, tours are restricted to fourth grade students and above. The tours can be scheduled Monday through Friday, with a start time between 9 a.m. and 1 p.m. The tour itself lasts approximately 60 to 90 minutes. Because of the group size requirements, \u301027\u2020preregistration is required\u2020bcwebservices.wufoo.com\u3011 for all tours. \n\nAccepted Household Hazardous Waste Materials\n\n  * Household paints (maximum of 20 gallons per visit)\n  * Household chemicals \n  * Cooking oil \n  * Pesticides \n  * Motor oil, anti-freeze and gasoline \n  * Mercury thermometers and thermostats \n  * Fluorescent light bulbs (limit of 10 bulbs per delivery per day)\n  * Rechargeable batteries \n\nSee a full \u301024\u2020list of household hazardous waste materials\u3011 accepted at each drop-off facility. \n\n## Western Acceptance Facility (WAF) in Halethorpe \n\nHours: Monday to Saturday, 7 a.m. to 4 p.m.\n\n\u301028\u20203310 Transway Road Halethorpe, Maryland 21227\u2020goo.gl\u3011  \nGo to the end of Transway Road, off the 4500 block of Hollins Ferry Road (Beltway Exit nine).\n\nOpen All\n\nDirections\n\n  1. I-695 to Exit nine, Hollins Ferry Road \n  2. Go west on Hollins Ferry Road, approximately one-quarter mile, to the first left; look for Western Acceptance Facility sign at Transway Road \n  3. Turn left onto Transway Road \n  4. At dead-end, turn right into the facility and follow signs to drop-off center at rear of facility \n\nAccepted Household Hazardous Waste Materials\n\n  * Motor oil and anti-freeze \n  * Mercury thermometers and thermostats \n  * Fluorescent light bulbs (limit of 10 bulbs per delivery per day)\n  * Rechargeable batteries \n\nSee a full \u301024\u2020list of household hazardous w",
+          "title": "Trash and Recycling Drop-Off Centers - Baltimore County",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Trash and Recycling Drop-Off Centers - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/drop-off-centers",
+                "text": "  * Learn about the community clean-up application process and policies.\n\n[Image 1: A map of the three drop-off facilities in Baltimore County.] \n\n## Drop-Off Facilities \n\nView hours and directions for the three County drop-off facilities:\n\n  1. \u301019\u2020Eastern Sanitary Landfill (ESL) Solid Waste Management Facility in White Marsh\u3011\n  2. \u301020\u2020Central Acceptance Facility (CAF) in Cockeysville\u3011\n  3. \u301021\u2020Western Acceptance Facility (WAF) in Halethorpe\u3011\n\nSee how holidays may affect whether facilities are \u301012\u2020open or closed\u3011.\n\n## Eastern Sanitary Landfill (ESL) Solid Waste Management Facility in White Marsh \n\nHours: Monday to Saturday, 7:30 a.m. to 3:30 p.m. (There is no admittance into the facility after 3:15 p.m. and residents must be finished unloading by 3:30 p.m.)\n\n\u301022\u20206259 Days Cove Road White Marsh, Maryland 21162\u2020goo.gl\u3011  \nOff 11400 block Pulaski Highway, one block east of Allender Road.\n\nOpen All\n\nDirections\n\nFrom west of Harford Road:\n\n  1. I-695 to Exit 31C, White Marsh Boulevard (Route 43)\n  2. Take Route 43 to the Pulaski Highway (Route 40) east exit \n  3. Go approximately two and one-half miles on Pulaski Highway to Days Cove Road and turn right at the traffic light \n  4. Main gate is one mile on right \n\nFrom between Harford Road and I-95:\n\n  1. I-695 to Exit 35, Pulaski Highway (Route 40)\n  2. Go east approximately five miles to Days Cove Road and turn right \n  3. Main gate is one mile on right \n\nFrom east of I-95:\n\n  1. Take Pulaski Highway (Route 40) east.\n  2. Go to Days Cove Road about two and one-half miles beyond the intersection at White Marsh Boulevard (Route 43)\n  3. Turn right on Days Cove Road \n  4. Main gate is one mile on right \n\nPay Invoices\n\nMake an online payment for \u301023\u2020Eastern Sanitary Landfill Invoices\u2020citizenaccess.baltimorecountymd.gov\u3011.\n\nFree Mulch and Compost for Residents\n\nAt times, the Bureau of Solid Waste Management has supplies of mulch and compost available to residents, free of charge. These products are offered on a first-come, first-served basis, only at the Eastern Sanitary Landfill Solid Waste Management Facility in White Marsh.\n\nAttendants are not available to assist with loading the mulch and compost; residents are asked to bring their own containers and shovels to load the material themselves. The mulch and compost are not always available for residents\u2014please call \u301017\u2020410-887-2000\u2020tel:410-887-2000\u3011 first to check the availability of these materials.\n\nAccepted Household Hazardous Waste Materials\n\n  * Motor oil and anti-freeze \n  * Gasoline \n  * Mercury thermometers and thermostats \n  * Fluorescent light bulbs (limit of 10 bulbs per delivery per day)\n  * Rechargeable batteries \n\nSee a full \u301024\u2020list of household hazardous waste materials\u3011 accepted at each drop-off facility. \n\n## Central Acceptance Facility (CAF) in Cockeysville \n\nHours: Monday to Saturday, 7 a.m. to 4 p.m.\n\n\u301025\u2020201 West Warren Road Cockeysville Maryland 21030\u2020goo.gl\u3011  \n(Note: Some map software will inaccurately show this address on the east side of York Road.)  \nEntrance to the facility is on Drop Off Drive, off of Warren Road, one-quarter mile west of York Road and one-quarter mile east of Beaver Dam Road.\n\nOpen All\n\nDirections\n\nFrom areas south of Cockeysville:\n\n  1. I-83 north to Warren Road \n  2. Go one mile to Drop-Off Drive and turn right \n\nFrom areas north of Cockeysville:\n\n  1. I-83 south to Shawan Road-East \n  2. Go one-half mile to York Road and turn right \n  3. Go one-half mile to Warren Road and turn right \n  4. Go one-quarter mile to Drop-Off Drive and turn left \n\nMaterials Recovery Facility at CAF\n\nLocated at the CAF, the single stream recycling Materials Recovery Facility (MRF) receives, sorts and prepares recyclable materials (a mixture of paper, plastic and metal items) for marketing. By marketing the recyclables, the County is able to retain the value of these materials and maximize the financial benefits of its single stream recycling program. You have a direct impact on the County\u2019s success\u2014the more you recycle, the more money the County will earn. Workers are stationed along the conveyor belts to screen out material missed by the sorting equipment, which includes 86 conveyor belts, six sorting screens, three optical sorters and two balers. \u301026\u2020Watch a video\u2020www.youtube.com\u3011 to learn more about the facility.\n\n### Tours Available \n\nBaltimore County offers free public tours of its single stream MRF for groups of 10 to 30 people. For safety reasons, tours are restricted to fourth grade students and above. The tours can be scheduled Monday through Friday, with a start time between 9 a.m. and 1 p.m. The tour itself lasts approximately 60 to 90 minutes. Because of the group size requirements, \u301027\u2020preregistration is required\u2020bcwebservices.wufoo.com\u3011 for all tours. \n\nAccepted Household Hazardous Waste Materials\n\n  * Household paints (maximum of 20 gallons per visit)\n  * Household chemicals \n  * Cooking oil \n  * Pesticides \n  * Motor oil, anti-freeze and gasoline \n  * Mercury thermometers and thermostats \n  * Fluorescent light bulbs (limit of 10 bulbs per delivery per day)\n  * Rechargeable batteries \n\nSee a full \u301024\u2020list of household hazardous waste materials\u3011 accepted at each drop-off facility. \n\n## Western Acceptance Facility (WAF) in Halethorpe \n\nHours: Monday to Saturday, 7 a.m. to 4 p.m.\n\n\u301028\u20203310 Transway Road Halethorpe, Maryland 21227\u2020goo.gl\u3011  \nGo to the end of Transway Road, off the 4500 block of Hollins Ferry Road (Beltway Exit nine).\n\nOpen All\n\nDirections\n\n  1. I-695 to Exit nine, Hollins Ferry Road \n  2. Go west on Hollins Ferry Road, approximately one-quarter mile, to the first left; look for Western Acceptance Facility sign at Transway Road \n  3. Turn left onto Transway Road \n  4. At dead-end, turn right into the facility and follow signs to drop-off center at rear of facility \n\nAccepted Household Hazardous Waste Materials\n\n  * Motor oil and anti-freeze \n  * Mercury thermometers and thermostats \n  * Fluorescent light bulbs (limit of 10 bulbs per delivery per day)\n  * Rechargeable batteries \n\nSee a full \u301024\u2020list of household hazardous w",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 3, 5, 6]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "29f453d3-1903-4d5b-b752-2d34af4a53e7",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "29f453d3-1903-4d5b-b752-2d34af4a53e7",
+      "children": [
+        "eab66ed5-72a0-45ff-ad95-bf1784713773"
+      ]
+    },
+    "eab66ed5-72a0-45ff-ad95-bf1784713773": {
+      "id": "eab66ed5-72a0-45ff-ad95-bf1784713773",
+      "message": {
+        "id": "eab66ed5-72a0-45ff-ad95-bf1784713773",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1704922031.363493,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/hhw/accepted-materials",
+          "domain": "www.baltimorecountymd.gov",
+          "text": "\nThis material is not accepted   \n\nConstruction debris  \nOnly small quantities accepted. Accepted at a cost of $100 per ton. A \u301023\u2020Refuse Disposal Authorization\u3011 is needed for free residential disposal. For more information, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nDiesel fuel  \nMaximum of 25 gallons; no 55 gallon drums. Place in designated motor oil container. For large quantities, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nDurable medical equipment  \nVisit the Maryland Department of Aging for a \u301027\u2020list of acceptable items\u2020aging.maryland.gov\u3011. Only accepted at CAF.\n\nThis material is not accepted\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nEarth\u2014uncontaminated  \nFree for residents, three-quarter ton maximum. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal. Commercial based on need. Must be uncontaminated and dry. Contact Jim Dawson at \u301028\u2020jdawson@baltimorecountymd.gov\u2020mailto:jdawson@baltimorecountymd.gov\u3011 or \u301029\u2020410-887-4953\u2020tel:410-887-4953\u3011 for more information.\n\nThis material is accepted as recycling\n\nThis material is not accepted\n\nThis material is not accepted   \n\nEarth\u2014contaminated  \nFor more information, call EPS at \u301022\u2020410-887-3745\u2020tel:410-887-3745\u3011. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed.\n\nThis material is not accepted\n\nThis material is not accepted\n\nThis material is not accepted   \n\nElectronics\u2014PCs, VCRs, Phones, TVs and Monitors  \nResidential electronics only. See the \u301019\u2020Reuse Directory\u2020resources.baltimorecountymd.gov\u3011 for other options. Accepted for recycling by some manufacturers and retail stores.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFence (metal)  \nRolled and tied; only small amounts accepted at CAF and WAF.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFire extinguishers (not empty)  \nPlace in designated area.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nFire extinguishers (empty, nozzleless)  \nPlace in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFireworks (used)  \nSoak in water first; ensure material is still damp at the time of disposal.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nFluorescent bulbs  \nResidential bulbs only, limit of 10 bulbs per visit.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFurniture  \nSee the \u301019\u2020Reuse Directory\u2020resources.baltimorecountymd.gov\u3011 for donation information.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nGarage doors (metal)  \nPlace in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nGarage doors (wood)  \nMaximum of six feet.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nGasoline  \nMaximum of 25 gallons. Place in designated container.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nGrass  \nAccepted at ESL only. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nGravel  \nMust be clean and free of dirt. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal. For more information, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as recycling\n\nThis material is not accepted\n\nThis material is not accepted   \n\nGrills (charcoal and gas)  \nPropane tanks must be removed from gas grill (see propane tanks for disposal information). Place in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nHangers (metal)  \nPlace in scrap metal bin. Many dry cleaners accept hangers for reuse.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nHot water heater  \nPlace in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nHousehold hazardous waste  \nPlace in designated area at CAF.\n\nThis material is not accepted\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nHydraulic fluid  \nMaximum of 25 gallons; no 55 gallon drums. Place in designated motor oil container. For large quantities, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nKerosene  \nPlace in designated motor oil container.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nLand clearing waste  \nCommercial loads accepted at a cost of $100 per ton. Size restrictions apply. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal. For more information, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as trash\n\nThis material is not accepted\n\nThis material is not accepted   \n\nLawnmowers  \nRemove all liquids. For riding mowers, remove tires and gas tanks. Place in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nLeaves  \nNo limit as long as residential material is in a noncommercial vehicle. For acceptance at CAF, leaves must be out of bags. CAF recycles March to December 15. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nLumber  \nSize limit: eight inches by eight inches by six feet. Maximum of 12 pieces.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nMattresses and box-springs  \nFor donation information or to schedule a pick-up, contact \u301030\u2020Salvation Army\u2020www.salvationarmyusa.org\u3011 at \u301031\u20201-800-728-7825\u2020tel:1-800-728-7825\u3011.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material i",
+          "title": "Accepted Materials Directory - Baltimore County",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Accepted Materials Directory - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/hhw/accepted-materials",
+                "text": "\nThis material is not accepted   \n\nConstruction debris  \nOnly small quantities accepted. Accepted at a cost of $100 per ton. A \u301023\u2020Refuse Disposal Authorization\u3011 is needed for free residential disposal. For more information, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nDiesel fuel  \nMaximum of 25 gallons; no 55 gallon drums. Place in designated motor oil container. For large quantities, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nDurable medical equipment  \nVisit the Maryland Department of Aging for a \u301027\u2020list of acceptable items\u2020aging.maryland.gov\u3011. Only accepted at CAF.\n\nThis material is not accepted\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nEarth\u2014uncontaminated  \nFree for residents, three-quarter ton maximum. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal. Commercial based on need. Must be uncontaminated and dry. Contact Jim Dawson at \u301028\u2020jdawson@baltimorecountymd.gov\u2020mailto:jdawson@baltimorecountymd.gov\u3011 or \u301029\u2020410-887-4953\u2020tel:410-887-4953\u3011 for more information.\n\nThis material is accepted as recycling\n\nThis material is not accepted\n\nThis material is not accepted   \n\nEarth\u2014contaminated  \nFor more information, call EPS at \u301022\u2020410-887-3745\u2020tel:410-887-3745\u3011. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed.\n\nThis material is not accepted\n\nThis material is not accepted\n\nThis material is not accepted   \n\nElectronics\u2014PCs, VCRs, Phones, TVs and Monitors  \nResidential electronics only. See the \u301019\u2020Reuse Directory\u2020resources.baltimorecountymd.gov\u3011 for other options. Accepted for recycling by some manufacturers and retail stores.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFence (metal)  \nRolled and tied; only small amounts accepted at CAF and WAF.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFire extinguishers (not empty)  \nPlace in designated area.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nFire extinguishers (empty, nozzleless)  \nPlace in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFireworks (used)  \nSoak in water first; ensure material is still damp at the time of disposal.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nFluorescent bulbs  \nResidential bulbs only, limit of 10 bulbs per visit.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nFurniture  \nSee the \u301019\u2020Reuse Directory\u2020resources.baltimorecountymd.gov\u3011 for donation information.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nGarage doors (metal)  \nPlace in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nGarage doors (wood)  \nMaximum of six feet.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nGasoline  \nMaximum of 25 gallons. Place in designated container.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nGrass  \nAccepted at ESL only. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nGravel  \nMust be clean and free of dirt. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal. For more information, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as recycling\n\nThis material is not accepted\n\nThis material is not accepted   \n\nGrills (charcoal and gas)  \nPropane tanks must be removed from gas grill (see propane tanks for disposal information). Place in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nHangers (metal)  \nPlace in scrap metal bin. Many dry cleaners accept hangers for reuse.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nHot water heater  \nPlace in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nHousehold hazardous waste  \nPlace in designated area at CAF.\n\nThis material is not accepted\n\nThis material is accepted as recycling\n\nThis material is not accepted   \n\nHydraulic fluid  \nMaximum of 25 gallons; no 55 gallon drums. Place in designated motor oil container. For large quantities, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nKerosene  \nPlace in designated motor oil container.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nLand clearing waste  \nCommercial loads accepted at a cost of $100 per ton. Size restrictions apply. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal. For more information, call BSWM at \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011.\n\nThis material is accepted as trash\n\nThis material is not accepted\n\nThis material is not accepted   \n\nLawnmowers  \nRemove all liquids. For riding mowers, remove tires and gas tanks. Place in scrap metal bin.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nLeaves  \nNo limit as long as residential material is in a noncommercial vehicle. For acceptance at CAF, leaves must be out of bags. CAF recycles March to December 15. A \u301023\u2020Refuse Disposal Authorization\u3011 may be needed for free residential disposal.\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling\n\nThis material is accepted as recycling   \n\nLumber  \nSize limit: eight inches by eight inches by six feet. Maximum of 12 pieces.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material is accepted as trash   \n\nMattresses and box-springs  \nFor donation information or to schedule a pick-up, contact \u301030\u2020Salvation Army\u2020www.salvationarmyusa.org\u3011 at \u301031\u20201-800-728-7825\u2020tel:1-800-728-7825\u3011.\n\nThis material is accepted as trash\n\nThis material is accepted as trash\n\nThis material i",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 3, 5, 6]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "2f179486-5b02-4953-bfbb-ab93b81a283c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2f179486-5b02-4953-bfbb-ab93b81a283c",
+      "children": [
+        "a434aeaf-1758-441f-a197-ecfce967ed30"
+      ]
+    },
+    "a434aeaf-1758-441f-a197-ecfce967ed30": {
+      "id": "a434aeaf-1758-441f-a197-ecfce967ed30",
+      "message": {
+        "id": "a434aeaf-1758-441f-a197-ecfce967ed30",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1704922031.367824,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/refuse-authorization-request",
+          "domain": "www.baltimorecountymd.gov",
+          "text": "\n[Image 0: Image of the Baltimore County Seal]\n\n  * \u30101\u2020Services\u3011\n  * \u30102\u2020Report\u3011\n  * \u30103\u2020Pay\u3011\n  * \u30104\u2020Apply\u3011\n  * \u30105\u2020Contact\u3011\n\n\u30106\u2020Baltimore County Government\u3011\n\n  Translate \n\nUse the dropdown menu to select your preferred language\n\n  * \u30107\u2020Espa\u00f1ol\u3011\n  * \u30108\u2020Fran\u00e7ais\u3011\n  * \u30109\u2020\ud55c\uad6d\uc5b4\u3011\n  * \u301010\u2020\u0420\u0443\u0441\u0441\u043a\u0438\u0439\u3011\n  * \u301011\u2020\u0627\u0644\u0639\u0631\u0628\u064a\u0629\u3011\n\n  Search: \n\n  Translate \n\nUse the dropdown menu to select your preferred language\n\n  * \u30107\u2020Espa\u00f1ol\u3011\n  * \u30108\u2020Fran\u00e7ais\u3011\n  * \u30109\u2020\ud55c\uad6d\uc5b4\u3011\n  * \u301010\u2020\u0420\u0443\u0441\u0441\u043a\u0438\u0439\u3011\n  * \u301011\u2020\u0627\u0644\u0639\u0631\u0628\u064a\u0629\u3011\n\nCounty offices are closed on \u301012\u2020Monday, January 15, for Martin Luther King Jr. Day\u3011.\n\n\u30106\u2020Home\u3011 \u301013\u2020Departments\u3011 \u301014\u2020Public Works\u3011 \u301015\u2020Solid Waste Management\u3011 \u301016\u2020Residential Refuse Disposal Authorization Request\u3011\n\n# Residential Refuse Disposal Authorization Request\n\nIn most cases, residents of Baltimore County (with proof of residence) may dispose of trash at County drop-off facilities, free of charge. However, some situations require that a refuse disposal authorization be obtained in advance. Visit the drop-off facilities overview to view an accepted materials list, as well as detailed County disposal regulations.\n\n## Criteria for Authorization Requirement \n\nIf any of the following conditions apply, the County resident must obtain a refuse disposal authorization in advance. If an authorization is not obtained, the resident will be charged a prorated fee of $100 per ton of material. A refuse disposal authorization must be obtained if:\n\n  * A resident wishes to use a vehicle other than a car, van or \"standard\" pick-up (pick-up bed of four by eight feet or less).\n  * A resident wishes to deliver waste which could be construed to be commercial, whether from a business establishment or from \"odd-jobbing\" or \"handyman\" operations.\n  * A resident has a relative or friend who will be hauling the waste on behalf of the resident and at no cost to the resident.\n  * A resident wishes to deliver more than two loads in any size vehicle within a week, or more than six loads in a calendar year.\n  * A resident wishes to deliver an item that is \"Restricted Waste\" (for example, non-metallic boats or campers).\n  * A resident wishes to use a commercially marked vehicle. Please note that a disposal authorization is not automatically needed if a resident uses a pick-up sized or style truck rented from U-Haul or a hardware store (these are the only exceptions); however, other conditions that require a refuse disposal authorization (such as number of loads or type of material) still apply.\n\nA refuse disposal authorization must be requested at least 14 working days before the date you wish to dispose of your material. Have information available about the type of material you'll be bringing, the number of loads you anticipate, and the vehicle you will be delivering it in. For further information, please view our solid waste regulations.\n\n## Request a Refuse Disposal Authorization \n\n  1. Verify That You Meet the Criteria\n\nPrior to applying for a disposal authorization, please verify that:\n\n    * You are the owner of the property where the material is being generated.\n    * The property is your primary residence (rentals are considered commercial).\n    * You are disposing of this material yourself (i.e., not paying someone else to do it for you).\n\n  2. Email the Required Information\n\nIf the above conditions are met, you may email the following information to \u301017\u2020solidwaste@baltimorecountymd.gov\u2020mailto:solidwaste@baltimorecountymd.gov\u3011:\n\n    * Resident\u2019s name \n    * Resident\u2019s address \n    * Resident\u2019s phone numbers \n    * Reason for the disposal authorization request \n    * Type of material being disposed of (building materials, household materials, yard materials)\n    * Description of vehicle being used to transport material, including year, make and model, color, any commercial markings (if applicable) and trailer size (if applicable)\n    * Number of trips requested to dispose of the material (maximum 10 loads permitted; a trailer may count as multiple loads in a single visit)\n    * Name of the driver (if other than the applicant) who will be transporting the material, as well as the driver\u2019s relationship to the applicant \n\nResidents may also call \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011 with the above information to apply over the phone.\n\n  3. Wait to Hear from Staff After Applying\n\nAfter the Bureau receives the request information, an on-site inspection of the materials may need to be performed by a collection supervisor before authorization is granted or denied.\n\nSubmitting an application does not guarantee that an authorization will be granted. It may take up to 14 business days for an authorization request to be processed.\n\n## Explore Solid Waste Management\n\n  * \u301019\u2020Find Your Collection Schedule\u3011\n  * \u301020\u2020Collection Set-Out Guide\u3011\n  * \u301021\u2020Items Accepted for Recycling\u3011\n  * \u301022\u2020Bulk Item Collection\u3011\n  * \u301023\u2020Yard Materials Collection\u3011\n  * \u301024\u2020Drop-Off Centers\u3011\n  * \u301025\u2020Accepted Materials Directory\u3011\n  * \u301026\u2020Community Clean-up Program\u3011\n  * \u301027\u2020Disposal Regulations, Guidelines and Procedures\u3011\n\n## Contact Us\n\n### Bureau of Solid Waste Management\n\n111 West Chesapeake Avenue  \nSuite 211  \nTowson, Maryland 21204 \n\n### Hours:\n\nMonday through Friday   \n7:30 a.m. to 4 p.m.\n\n### Email:\n\n\u301028\u2020solidwaste@baltimorecountymd.gov\u2020mailto:solidwaste@baltimorecountymd.gov\u3011\n\n### Phone:\n\n\u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011\n\n### BALTCOGO311\n\n\u301029\u2020Report a problem\u3011.\n\n### Bureau Chief:\n\nNicholas Rodricks\n\n## Follow for Updates\n\n### Twitter\n\n\u301030\u2020Follow @BaltCoDPWT\u2020twitter.com\u3011 \n\n### Facebook\n\n\u301031\u2020Follow @BaltCoDPWT\u2020www.facebook.com\u3011 \n\n[Image 1: Image of the Baltimore County Seal] \n\nBaltimore County Government\n\n\u301032\u2020400 Washington Avenue, Towson Maryland 21204\u2020www.google.com\u3011\n\n[Image 2: BaltCoGo 311 Logo]\n\nDownload now on:\n\n  * \u301033\u2020 App Store \u2020itunes.apple.com\u3011\n  * \u301034\u2020 Google Play \u2020play.google.com\u3011\n\n### Find Information\n\n  * \u30101\u2020Find a County Service \u3011\n  * \u301035\u2020Phone Numbers \u3011\n  * \u30102\u2020Report a Problem \u3011\n  * \u301036\u2020Directions \u2020www.google.com\u3011\n\n### Policies\n\n  * \u301037\u2020User Terms \u3011\n  * \u301038\u2020Privacy \u3011\n  * \u301039\u2020Reasonable Accommodation \u3011\n\n### Connect With Us\n\n### Translate\n\n  * \u30107\u2020Espa\u00f1ol \u3011\n  * \u30108\u2020Fran\u00e7ais \u3011\n  * \u30109\u2020\ud55c\uad6d\uc5b4 \u3011\n  ",
+          "title": "Residential Refuse Disposal Authorization Request - Baltimore County",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Residential Refuse Disposal Authorization Request - Baltimore County",
+                "url": "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/refuse-authorization-request",
+                "text": "\n[Image 0: Image of the Baltimore County Seal]\n\n  * \u30101\u2020Services\u3011\n  * \u30102\u2020Report\u3011\n  * \u30103\u2020Pay\u3011\n  * \u30104\u2020Apply\u3011\n  * \u30105\u2020Contact\u3011\n\n\u30106\u2020Baltimore County Government\u3011\n\n  Translate \n\nUse the dropdown menu to select your preferred language\n\n  * \u30107\u2020Espa\u00f1ol\u3011\n  * \u30108\u2020Fran\u00e7ais\u3011\n  * \u30109\u2020\ud55c\uad6d\uc5b4\u3011\n  * \u301010\u2020\u0420\u0443\u0441\u0441\u043a\u0438\u0439\u3011\n  * \u301011\u2020\u0627\u0644\u0639\u0631\u0628\u064a\u0629\u3011\n\n  Search: \n\n  Translate \n\nUse the dropdown menu to select your preferred language\n\n  * \u30107\u2020Espa\u00f1ol\u3011\n  * \u30108\u2020Fran\u00e7ais\u3011\n  * \u30109\u2020\ud55c\uad6d\uc5b4\u3011\n  * \u301010\u2020\u0420\u0443\u0441\u0441\u043a\u0438\u0439\u3011\n  * \u301011\u2020\u0627\u0644\u0639\u0631\u0628\u064a\u0629\u3011\n\nCounty offices are closed on \u301012\u2020Monday, January 15, for Martin Luther King Jr. Day\u3011.\n\n\u30106\u2020Home\u3011 \u301013\u2020Departments\u3011 \u301014\u2020Public Works\u3011 \u301015\u2020Solid Waste Management\u3011 \u301016\u2020Residential Refuse Disposal Authorization Request\u3011\n\n# Residential Refuse Disposal Authorization Request\n\nIn most cases, residents of Baltimore County (with proof of residence) may dispose of trash at County drop-off facilities, free of charge. However, some situations require that a refuse disposal authorization be obtained in advance. Visit the drop-off facilities overview to view an accepted materials list, as well as detailed County disposal regulations.\n\n## Criteria for Authorization Requirement \n\nIf any of the following conditions apply, the County resident must obtain a refuse disposal authorization in advance. If an authorization is not obtained, the resident will be charged a prorated fee of $100 per ton of material. A refuse disposal authorization must be obtained if:\n\n  * A resident wishes to use a vehicle other than a car, van or \"standard\" pick-up (pick-up bed of four by eight feet or less).\n  * A resident wishes to deliver waste which could be construed to be commercial, whether from a business establishment or from \"odd-jobbing\" or \"handyman\" operations.\n  * A resident has a relative or friend who will be hauling the waste on behalf of the resident and at no cost to the resident.\n  * A resident wishes to deliver more than two loads in any size vehicle within a week, or more than six loads in a calendar year.\n  * A resident wishes to deliver an item that is \"Restricted Waste\" (for example, non-metallic boats or campers).\n  * A resident wishes to use a commercially marked vehicle. Please note that a disposal authorization is not automatically needed if a resident uses a pick-up sized or style truck rented from U-Haul or a hardware store (these are the only exceptions); however, other conditions that require a refuse disposal authorization (such as number of loads or type of material) still apply.\n\nA refuse disposal authorization must be requested at least 14 working days before the date you wish to dispose of your material. Have information available about the type of material you'll be bringing, the number of loads you anticipate, and the vehicle you will be delivering it in. For further information, please view our solid waste regulations.\n\n## Request a Refuse Disposal Authorization \n\n  1. Verify That You Meet the Criteria\n\nPrior to applying for a disposal authorization, please verify that:\n\n    * You are the owner of the property where the material is being generated.\n    * The property is your primary residence (rentals are considered commercial).\n    * You are disposing of this material yourself (i.e., not paying someone else to do it for you).\n\n  2. Email the Required Information\n\nIf the above conditions are met, you may email the following information to \u301017\u2020solidwaste@baltimorecountymd.gov\u2020mailto:solidwaste@baltimorecountymd.gov\u3011:\n\n    * Resident\u2019s name \n    * Resident\u2019s address \n    * Resident\u2019s phone numbers \n    * Reason for the disposal authorization request \n    * Type of material being disposed of (building materials, household materials, yard materials)\n    * Description of vehicle being used to transport material, including year, make and model, color, any commercial markings (if applicable) and trailer size (if applicable)\n    * Number of trips requested to dispose of the material (maximum 10 loads permitted; a trailer may count as multiple loads in a single visit)\n    * Name of the driver (if other than the applicant) who will be transporting the material, as well as the driver\u2019s relationship to the applicant \n\nResidents may also call \u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011 with the above information to apply over the phone.\n\n  3. Wait to Hear from Staff After Applying\n\nAfter the Bureau receives the request information, an on-site inspection of the materials may need to be performed by a collection supervisor before authorization is granted or denied.\n\nSubmitting an application does not guarantee that an authorization will be granted. It may take up to 14 business days for an authorization request to be processed.\n\n## Explore Solid Waste Management\n\n  * \u301019\u2020Find Your Collection Schedule\u3011\n  * \u301020\u2020Collection Set-Out Guide\u3011\n  * \u301021\u2020Items Accepted for Recycling\u3011\n  * \u301022\u2020Bulk Item Collection\u3011\n  * \u301023\u2020Yard Materials Collection\u3011\n  * \u301024\u2020Drop-Off Centers\u3011\n  * \u301025\u2020Accepted Materials Directory\u3011\n  * \u301026\u2020Community Clean-up Program\u3011\n  * \u301027\u2020Disposal Regulations, Guidelines and Procedures\u3011\n\n## Contact Us\n\n### Bureau of Solid Waste Management\n\n111 West Chesapeake Avenue  \nSuite 211  \nTowson, Maryland 21204 \n\n### Hours:\n\nMonday through Friday   \n7:30 a.m. to 4 p.m.\n\n### Email:\n\n\u301028\u2020solidwaste@baltimorecountymd.gov\u2020mailto:solidwaste@baltimorecountymd.gov\u3011\n\n### Phone:\n\n\u301018\u2020410-887-2000\u2020tel:410-887-2000\u3011\n\n### BALTCOGO311\n\n\u301029\u2020Report a problem\u3011.\n\n### Bureau Chief:\n\nNicholas Rodricks\n\n## Follow for Updates\n\n### Twitter\n\n\u301030\u2020Follow @BaltCoDPWT\u2020twitter.com\u3011 \n\n### Facebook\n\n\u301031\u2020Follow @BaltCoDPWT\u2020www.facebook.com\u3011 \n\n[Image 1: Image of the Baltimore County Seal] \n\nBaltimore County Government\n\n\u301032\u2020400 Washington Avenue, Towson Maryland 21204\u2020www.google.com\u3011\n\n[Image 2: BaltCoGo 311 Logo]\n\nDownload now on:\n\n  * \u301033\u2020 App Store \u2020itunes.apple.com\u3011\n  * \u301034\u2020 Google Play \u2020play.google.com\u3011\n\n### Find Information\n\n  * \u30101\u2020Find a County Service \u3011\n  * \u301035\u2020Phone Numbers \u3011\n  * \u30102\u2020Report a Problem \u3011\n  * \u301036\u2020Directions \u2020www.google.com\u3011\n\n### Policies\n\n  * \u301037\u2020User Terms \u3011\n  * \u301038\u2020Privacy \u3011\n  * \u301039\u2020Reasonable Accommodation \u3011\n\n### Connect With Us\n\n### Translate\n\n  * \u30107\u2020Espa\u00f1ol \u3011\n  * \u30108\u2020Fran\u00e7ais \u3011\n  * \u30109\u2020\ud55c\uad6d\uc5b4 \u3011\n  ",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 3, 5, 6]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "eab66ed5-72a0-45ff-ad95-bf1784713773",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "eab66ed5-72a0-45ff-ad95-bf1784713773",
+      "children": [
+        "c590e138-23ee-4ad3-94b8-7301edecf23b"
+      ]
+    },
+    "c590e138-23ee-4ad3-94b8-7301edecf23b": {
+      "id": "c590e138-23ee-4ad3-94b8-7301edecf23b",
+      "message": {
+        "id": "c590e138-23ee-4ad3-94b8-7301edecf23b",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1704922031.372245,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://eastbaltco.com/baltimore-county-waste-drop-off/",
+          "domain": "eastbaltco.com",
+          "text": "\nURL: https://eastbaltco.com/baltimore-county-waste-drop-off/\n\n\n\u30100\u2020Skip to content\u3011  \n\n\u30101\u2020EASTBALTCO.COM\u3011\n\nEastern Baltimore County News\n\nMenu\n\n  * \u30102\u2020911\u3011\n  * \u30103\u2020School Notebook\u3011\n  * \u30104\u2020Sports\u3011\n  * \u30105\u2020Events\u3011\n  * \u30106\u2020Business Matters\u3011\n  * \u30107\u2020Politics\u3011\n\n# Baltimore County Waste Drop Off\n\nBaltimore County has three waste drop off centers throughout the county where County residents can take residential trash and recyclables. \n\nBaltimore County residents (with proof of residence) may dispose of trash at County drop-off facilities, with no charge. However, some situations could result in a disposal charge that must be obtained in advance.\n\nThe Eastern Sanitary Landfill Solid Waste Management Facility\n\nESL is located at 6259 Days Cove Road in White Marsh. It is located off of the 11400 block of Pulaski Highway, one block east of Allender Road. The hours are Monday to Saturday from 7:30 a.m. to 3:30 p.m. The phone number is 410-887-2000.\n\nDirections from Harford Road:\n\nTake I-695 to Exit 31C, the White Marsh Boulevard exit MD 43  \nTake Route 43 to the Pulaski Highway (Route 40) east exit  \nMotorists should drive under three miles on Pulaski Highway to Days Cove Road and turn right at the traffic light  \nMain gate is one mile on right\n\nCentral Acceptance Facility  \nCAF is located at 201 West Warren Road in Cockeysville.  \nThe hours are Monday through Friday 7 a.m. to 4 p.m. The phone number is 410-887-2000  \nEntrance to the facility is on Drop Off Drive, off of Warren Road, one-quarter mile west of York Road and one-quarter mile east of Beaver Dam Road.\n\nThe Western Acceptance Facility\u2014  \nWAF is located at 3310 Transway Road in Halethorpe\n\nMotorists should drive to the end of Transway Road, off the 4500 block of Hollins Ferry Road. It is exit 9 off I-695.  \nThe hours are Monday through Friday 7 a.m. to 4 p.m. The phone number is 410-887-2000.\n\nFor more information about the locations, please visit the Baltimore County \u30108\u2020website\u2020www.baltimorecountymd.gov\u3011.\n\nAccording to the \u30109\u2020county website\u2020www.baltimorecountymd.gov\u3011, a resident must obtain a refuse disposal authorization in advance. If an authorization is not obtained, the resident will be charged a prorated fee of $100 per ton of material:\n\n* A resident wishes to use a vehicle other than a car, van or \u201cstandard\u201d pick-up (pick-up bed of four by eight feet or less).  \n* A resident wishes to deliver waste which could be construed to be commercial, whether from a business establishment or from \u201codd-jobbing\u201d or \u201chandyman\u201d operations.  \n* A resident has a relative or friend who will be hauling the waste on behalf of the resident and at no cost to the resident.  \n* A resident wishes to deliver more than two loads in any size vehicle within a week, or more than six loads in a calendar year.  \n* A resident wishes to deliver an item that is \u201cRestricted Waste\u201d (for example, non-metallic boats or campers).  \n* A resident wishes to use a commercially marked vehicle. Please note that a disposal authorization is not automatically needed if a resident uses a pick-up sized or style truck rented from U-Haul or a hardware store (these are the only exceptions); however, other conditions that require a refuse disposal authorization (such as number of loads or type of material) still apply.\n\n## Communities\n\n  * \u301010\u2020Dundalk\u3011\n  * \u301011\u2020Essex\u3011\n  * \u301012\u2020Perry Hall\u3011\n  * \u301013\u2020Rosedale\u3011\n  * \u301014\u2020Middle River\u3011\n  * \u301015\u2020Parkville\u3011\n  * \u301016\u2020White Marsh\u3011\n  * \u301017\u2020Sparrows Point\u3011\n  * \u301018\u2020Overlea\u3011\n\n## Social Media\n\nLike us on \u301019\u2020Facebook\u2020www.facebook.com\u3011\n\nFollow us on \u301020\u2020Twitter\u2020twitter.com\u3011\n\nWatch us on \u301021\u2020YouTube\u2020www.youtube.com\u3011\n\n## Search\n\nSearch for:  Search \n\n## About Us\n\nEastBaltCo.com serves the communities of Eastern Baltimore County.\n\nAnyone interested in submitting information, can e-mail me at \u301022\u2020eastbaltco\u2020mailto:eastbaltco@gmail.com\u3011@gmail.com\n\nAddress  \nPO Box 1\n\nPerry Hall MD 21128\n\nHours  \nMonday\u2014Friday: 9:00AM\u20135:00PM  \nSaturday & Sunday: 11:00AM\u20133:00PM\n\n## [Image 0: RSS] \u30101\u2020East Baltimore Co News\u3011\n\n  * \u301023\u2020Santa Schedules for Eastside Volunteer Fire Companies\u3011\n  * \u301024\u2020A List of 2023 Holiday Events in Eastern Baltimore County\u3011\n  * \u301025\u2020Two BCPS Students Place in Library\u2019s Short Horror Story\u3011\n  * \u301026\u202016-Year-Old Missing From Essex\u3011\n  * \u301027\u2020Community Invited BCPS Budget Meetings\u3011\n\n  * \u30102\u2020911\u3011\n  * \u30103\u2020School Notebook\u3011\n  * \u30104\u2020Sports\u3011\n  * \u30105\u2020Events\u3011\n  * \u30106\u2020Business Matters\u3011\n  * \u30107\u2020Politics\u3011\n\n\u30101\u2020EASTBALTCO.COM\u3011 \u301028\u2020 Proudly powered by WordPress \u2020wordpress.org\u3011",
+          "title": "EASTBALTCO.COM - Baltimore County Waste Drop Off",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "EASTBALTCO.COM - Baltimore County Waste Drop Off",
+                "url": "https://eastbaltco.com/baltimore-county-waste-drop-off/",
+                "text": "\nURL: https://eastbaltco.com/baltimore-county-waste-drop-off/\n\n\n\u30100\u2020Skip to content\u3011  \n\n\u30101\u2020EASTBALTCO.COM\u3011\n\nEastern Baltimore County News\n\nMenu\n\n  * \u30102\u2020911\u3011\n  * \u30103\u2020School Notebook\u3011\n  * \u30104\u2020Sports\u3011\n  * \u30105\u2020Events\u3011\n  * \u30106\u2020Business Matters\u3011\n  * \u30107\u2020Politics\u3011\n\n# Baltimore County Waste Drop Off\n\nBaltimore County has three waste drop off centers throughout the county where County residents can take residential trash and recyclables. \n\nBaltimore County residents (with proof of residence) may dispose of trash at County drop-off facilities, with no charge. However, some situations could result in a disposal charge that must be obtained in advance.\n\nThe Eastern Sanitary Landfill Solid Waste Management Facility\n\nESL is located at 6259 Days Cove Road in White Marsh. It is located off of the 11400 block of Pulaski Highway, one block east of Allender Road. The hours are Monday to Saturday from 7:30 a.m. to 3:30 p.m. The phone number is 410-887-2000.\n\nDirections from Harford Road:\n\nTake I-695 to Exit 31C, the White Marsh Boulevard exit MD 43  \nTake Route 43 to the Pulaski Highway (Route 40) east exit  \nMotorists should drive under three miles on Pulaski Highway to Days Cove Road and turn right at the traffic light  \nMain gate is one mile on right\n\nCentral Acceptance Facility  \nCAF is located at 201 West Warren Road in Cockeysville.  \nThe hours are Monday through Friday 7 a.m. to 4 p.m. The phone number is 410-887-2000  \nEntrance to the facility is on Drop Off Drive, off of Warren Road, one-quarter mile west of York Road and one-quarter mile east of Beaver Dam Road.\n\nThe Western Acceptance Facility\u2014  \nWAF is located at 3310 Transway Road in Halethorpe\n\nMotorists should drive to the end of Transway Road, off the 4500 block of Hollins Ferry Road. It is exit 9 off I-695.  \nThe hours are Monday through Friday 7 a.m. to 4 p.m. The phone number is 410-887-2000.\n\nFor more information about the locations, please visit the Baltimore County \u30108\u2020website\u2020www.baltimorecountymd.gov\u3011.\n\nAccording to the \u30109\u2020county website\u2020www.baltimorecountymd.gov\u3011, a resident must obtain a refuse disposal authorization in advance. If an authorization is not obtained, the resident will be charged a prorated fee of $100 per ton of material:\n\n* A resident wishes to use a vehicle other than a car, van or \u201cstandard\u201d pick-up (pick-up bed of four by eight feet or less).  \n* A resident wishes to deliver waste which could be construed to be commercial, whether from a business establishment or from \u201codd-jobbing\u201d or \u201chandyman\u201d operations.  \n* A resident has a relative or friend who will be hauling the waste on behalf of the resident and at no cost to the resident.  \n* A resident wishes to deliver more than two loads in any size vehicle within a week, or more than six loads in a calendar year.  \n* A resident wishes to deliver an item that is \u201cRestricted Waste\u201d (for example, non-metallic boats or campers).  \n* A resident wishes to use a commercially marked vehicle. Please note that a disposal authorization is not automatically needed if a resident uses a pick-up sized or style truck rented from U-Haul or a hardware store (these are the only exceptions); however, other conditions that require a refuse disposal authorization (such as number of loads or type of material) still apply.\n\n## Communities\n\n  * \u301010\u2020Dundalk\u3011\n  * \u301011\u2020Essex\u3011\n  * \u301012\u2020Perry Hall\u3011\n  * \u301013\u2020Rosedale\u3011\n  * \u301014\u2020Middle River\u3011\n  * \u301015\u2020Parkville\u3011\n  * \u301016\u2020White Marsh\u3011\n  * \u301017\u2020Sparrows Point\u3011\n  * \u301018\u2020Overlea\u3011\n\n## Social Media\n\nLike us on \u301019\u2020Facebook\u2020www.facebook.com\u3011\n\nFollow us on \u301020\u2020Twitter\u2020twitter.com\u3011\n\nWatch us on \u301021\u2020YouTube\u2020www.youtube.com\u3011\n\n## Search\n\nSearch for:  Search \n\n## About Us\n\nEastBaltCo.com serves the communities of Eastern Baltimore County.\n\nAnyone interested in submitting information, can e-mail me at \u301022\u2020eastbaltco\u2020mailto:eastbaltco@gmail.com\u3011@gmail.com\n\nAddress  \nPO Box 1\n\nPerry Hall MD 21128\n\nHours  \nMonday\u2014Friday: 9:00AM\u20135:00PM  \nSaturday & Sunday: 11:00AM\u20133:00PM\n\n## [Image 0: RSS] \u30101\u2020East Baltimore Co News\u3011\n\n  * \u301023\u2020Santa Schedules for Eastside Volunteer Fire Companies\u3011\n  * \u301024\u2020A List of 2023 Holiday Events in Eastern Baltimore County\u3011\n  * \u301025\u2020Two BCPS Students Place in Library\u2019s Short Horror Story\u3011\n  * \u301026\u202016-Year-Old Missing From Essex\u3011\n  * \u301027\u2020Community Invited BCPS Budget Meetings\u3011\n\n  * \u30102\u2020911\u3011\n  * \u30103\u2020School Notebook\u3011\n  * \u30104\u2020Sports\u3011\n  * \u30105\u2020Events\u3011\n  * \u30106\u2020Business Matters\u3011\n  * \u30107\u2020Politics\u3011\n\n\u30101\u2020EASTBALTCO.COM\u3011 \u301028\u2020 Proudly powered by WordPress \u2020wordpress.org\u3011",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 3, 5, 6]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "a434aeaf-1758-441f-a197-ecfce967ed30",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a434aeaf-1758-441f-a197-ecfce967ed30",
+      "children": [
+        "bdb3ebc5-ddaa-4298-8fe1-b7483d5ee8fe"
+      ]
+    },
+    "bdb3ebc5-ddaa-4298-8fe1-b7483d5ee8fe": {
+      "id": "bdb3ebc5-ddaa-4298-8fe1-b7483d5ee8fe",
+      "message": {
+        "id": "bdb3ebc5-ddaa-4298-8fe1-b7483d5ee8fe",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704922031.376534,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Baltimore County, there are three main waste drop-off centers where residents can take residential trash and recyclables, and they should be accessible for a U-Haul truck:\n\n1. **Eastern Sanitary Landfill Solid Waste Management Facility in White Marsh**\n   - Address: 6259 Days Cove Road, White Marsh, Maryland 21162\n   - Hours: Monday to Saturday, 7:30 a.m. to 3:30 p.m.\n   - Contact: 410-887-2000\n\n2. **Central Acceptance Facility (CAF) in Cockeysville**\n   - Address: 201 West Warren Road, Cockeysville, Maryland 21030\n   - Hours: Monday to Saturday, 7 a.m. to 4 p.m.\n   - Contact: 410-887-2000\n\n3. **Western Acceptance Facility (WAF) in Halethorpe**\n   - Address: 3310 Transway Road, Halethorpe, Maryland 21227\n   - Hours: Monday to Saturday, 7 a.m. to 4 p.m.\n   - Contact: 410-887-2000\n\nResidents can typically dispose of trash at these facilities without charge, provided they have proof of residence. However, if you're using a vehicle that's larger than a standard pickup truck, like a U-Haul truck, you may need to obtain a refuse disposal authorization in advance. If you don't get this authorization, you might be charged a prorated fee of $100 per ton of material. The authorization is also required if you're delivering waste that could be construed as commercial, or if you're making more than two loads in any size vehicle within a week, or more than six loads in a calendar year.\n\nTo request a refuse disposal authorization, you should contact the Bureau of Solid Waste Management with information about the type of material you're disposing of, the number of loads you anticipate, and the details of the vehicle you'll be using. This can be done via email to solidwaste@baltimorecountymd.gov or by phone at 410-887-2000. The process may take up to 14 business days, so it's advisable to plan ahead.\n\nFor more detailed information and specific directions to these facilities, you can visit the Baltimore County website."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "c590e138-23ee-4ad3-94b8-7301edecf23b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c590e138-23ee-4ad3-94b8-7301edecf23b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "bdb3ebc5-ddaa-4298-8fe1-b7483d5ee8fe",
+  "plugin_ids": null,
+  "conversation_id": "b0e9d640-76ef-4cfe-b1a6-14f6354e8e2a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/drop-off-centers",
+    "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/hhw/accepted-materials",
+    "https://eastbaltco.com/baltimore-county-waste-drop-off/",
+    "https://www.baltimorecountymd.gov/departments/public-works/solid-waste/refuse-authorization-request"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "b0e9d640-76ef-4cfe-b1a6-14f6354e8e2a"
+}

@@ -1,0 +1,767 @@
+{
+  "title": "Cost of Tulane Education",
+  "create_time": 1719006803.053521,
+  "update_time": 1719006811.716887,
+  "mapping": {
+    "39de309b-3a2b-41eb-bb71-45ac2009cdea": {
+      "id": "39de309b-3a2b-41eb-bb71-45ac2009cdea",
+      "message": null,
+      "parent": null,
+      "children": [
+        "daf08599-c2b1-4721-9fb9-868c10aa2906"
+      ]
+    },
+    "daf08599-c2b1-4721-9fb9-868c10aa2906": {
+      "id": "daf08599-c2b1-4721-9fb9-868c10aa2906",
+      "message": {
+        "id": "daf08599-c2b1-4721-9fb9-868c10aa2906",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "39de309b-3a2b-41eb-bb71-45ac2009cdea",
+      "children": [
+        "207321a6-8708-46f2-b0ed-302e2e7299f9"
+      ]
+    },
+    "207321a6-8708-46f2-b0ed-302e2e7299f9": {
+      "id": "207321a6-8708-46f2-b0ed-302e2e7299f9",
+      "message": {
+        "id": "207321a6-8708-46f2-b0ed-302e2e7299f9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719006803.057478,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How much does Tulane cost "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "daf08599-c2b1-4721-9fb9-868c10aa2906",
+      "children": [
+        "3f616be3-b3d9-46ef-88dc-171d17bfdc62"
+      ]
+    },
+    "3f616be3-b3d9-46ef-88dc-171d17bfdc62": {
+      "id": "3f616be3-b3d9-46ef-88dc-171d17bfdc62",
+      "message": {
+        "id": "3f616be3-b3d9-46ef-88dc-171d17bfdc62",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719006811.068004,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "207321a6-8708-46f2-b0ed-302e2e7299f9",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "207321a6-8708-46f2-b0ed-302e2e7299f9",
+      "children": [
+        "38e5c48d-8c2a-4dc1-9c3b-ee5ebdf590a7"
+      ]
+    },
+    "38e5c48d-8c2a-4dc1-9c3b-ee5ebdf590a7": {
+      "id": "38e5c48d-8c2a-4dc1-9c3b-ee5ebdf590a7",
+      "message": {
+        "id": "38e5c48d-8c2a-4dc1-9c3b-ee5ebdf590a7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719006811.06806,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"Tulane University tuition and fees 2024\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3f616be3-b3d9-46ef-88dc-171d17bfdc62",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "3f616be3-b3d9-46ef-88dc-171d17bfdc62",
+      "children": [
+        "5ee4eff6-a2e8-408e-9ab8-ab30b16c6c09"
+      ]
+    },
+    "5ee4eff6-a2e8-408e-9ab8-ab30b16c6c09": {
+      "id": "5ee4eff6-a2e8-408e-9ab8-ab30b16c6c09",
+      "message": {
+        "id": "5ee4eff6-a2e8-408e-9ab8-ab30b16c6c09",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1719006811.068102,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020Cost of Attendance | Tulane Office of Admission - Tulane University\u2020admission.tulane.edu\u3011\nBelow is our estimated 2024-2025 cost of attendance for undergraduate students enrolled full-time at Newcomb-Tulane College who live on campus. Tuition & Fees. $68,678. Housing on Campus. $10,758 (based on 2 students per bedroom) ... $88,266+ It is important to note that the total cost of attendance at Tulane will vary depending on your ...\n# \u30101\u2020TULANE UNIVERSITY FULL TIME UNDERGRADUATE\u2020financialaid.tulane.edu\u3011\nTulane University Office of Financial Aid Information Subject to Correction; 10/19/2023 . Full Time Undergraduate - Freshman Resident Commuter* Tuition and Fees . $ 6 5,538 $ 6 5,538 Books and Supplies *Architecture $1,400: $1,200 : $1,200 ... 2023-2024 . Author: Lespinasse, Marissa L ...\n# \u30102\u2020Newcomb-Tulane College Undergraduates Full-Time Enrollment\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Tuition and Fees Page | 1 March 14, 2024 Newcomb-Tulane College Undergraduates The primary program of the enrolled student determines tuition and fee rates. Except where otherwise noted, these rates apply to all registered credit hours in the semester. All rates on this\n# \u30103\u2020Tuition and Fees | Accounts Receivable - Tulane University\u2020studentaccounts.tulane.edu\u3011\n2024 - 2025 Graduate & Professional Programs. Summer 2024. Undergraduate Programs (PDF) Graduate and Professional Programs (PDF) Contact Accounts Receivable with any questions you may have about tuition and fee rates at acctrec@tulane.edu, (504) 865-5368 or toll free (800) 798-7633.\n# \u30104\u2020TULANE UNDERGRADUATE SUMMER 2024 COST OF ATTENDANCE CHARTS\u2020financialaid.tulane.edu\u3011\nTulane University Office of Financial Aid Information Subject to Correction; 03/21/2024 . Tuition Newcomb-Tulane College (NTC) Rates are for tuition only. *For NTC students, the School of Professional Advancement (SoPA) tuition rate of $623per credit hour applies only to courses that are offered by SoPA and scheduled in a ... Course fees are ...\n# \u30105\u2020Tulane University Academic Year 2023 2024 Newcomb Tulane College\u2020studentaccounts.tulane.edu\u3011\nTulane University Academic Year 2023\u20102024 Newcomb\u2010Tulane College. Seniors who require less than 12 credits to graduate may apply for part\u2010time enrollment in their last semester. If approved, seniors may be assessed tuition at $2,555 per hour, Academic Support Fee at $117 per hour, and $80 Student Activity fee.\n# \u30106\u2020Graduate and Professional Programs, Summer 2024\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Summer 2024 Graduate and Professional Tuition and Fees Page | 1 March 14, 2024 Graduate and Professional Programs, Summer 2024 The primary program of the enrolled student determines tuition and fee rates. This document describes tuition and fees for graduate and professional students in Summer 2024.\n# \u30107\u2020Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Graduate Tuition and Fees Page | 1 June 11, 2024 . School of Science and Engineering . The primary program of the enrolled student determines tuition and fee rates. This document describes tuition and fees for graduate level students in the School of Science and Engineering .\n# \u30108\u2020Net Price Calculator | Tulane Office of Admission - Tulane University\u2020admission.tulane.edu\u3011\nTulane's Net Price Calculator was developed to help families plan for the costs associated with attending college. Use this calculator as a guide to help make informed financial decisions for your future. Help messages will guide you through each step. In order to complete the Net Price Calculator, be sure you have the following materials ...\n# \u30109\u2020Tuition & Fees | Tulane School of Medicine\u2020medicine.tulane.edu\u3011\nThe application process for Fall 2024 is now open. Application deadline - August 6, 2024 (or until the program is filled) Tuition. Full-time tuition for the 2024-25 year is projected to be $24,000 for 30 credit hours. Other estimated University fees per semester: $400 - Academic Support Services. $120 - Student Activities.\n# \u301010\u2020TULANE MEDICAL SCHOOL STANDARD COST OF ATTENDANCE CHARTS 2024-2025\u2020financialaid.tulane.edu\u3011\nTuition and Fees $75,824 $75,824 Housing $14,296 $2,644 Meals $8,310 $2,182 ... 2024-2025. Tulane University Office of Financial Aid Information Subject to Correction; 5/3/2023 . Third Year 7/1/24 \u2013 6/30/25 Resident Commuter Tuition and Fees $75,824 $75,824 Housing $17,434 $3,224 ...\n# \u301011\u2020TULANE UNIVERSITY FULL TIME UNDERGRADUATE\u2020financialaid.tulane.edu\u3011\nTulane University Office of Financial Aid Information Subject to Correction; v. 02/21/2024. Full Time Undergraduate- Freshman. Resident Commuter* Tuition and Fees . $68,678 $68,678 Books and Supplies *Architecture $1,400. $1,200 . $1,200 : Housing $10,700 $2,306\n# \u301012\u2020Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...\u2020studentaccounts.tulane.edu\u3011\nFall 2024 & Spring 2025 Undergraduate Tuition and Fees Page | 2 April 19, 2024 Tulane Student Health Insurance Plan (T-SHIP) ... Fees are not refunded after the deadline listed on the University Academic Calendar for 100% tuition and fee refund. Academic Support Services Fee: The Academic Support Services Fee provides certain academic resources ...\n# \u301013\u2020Tulane - Tuition & Fees, Net Price - College Tuition Compare\u2020www.collegetuitioncompare.com\u3011\nPrograms. Rivals. 2024 Tuition & fees. $65,538 4.29%. Undergraduate. $66,046 4.43%. Graduate. The 2024 tuition & fees of Tulane University of Louisiana is $65,538 for first-year students and the 2024 graduate school tuition & fees is $66,046. Its undergraduate tuition & fees is around the average amount for similar schools' tuition of $63,609.\n# \u301014\u2020Important Dates | Accounts Receivable - Tulane University\u2020studentaccounts.tulane.edu\u3011\nFall 2024. July 1 - 15 - Tuition, fees, housing, board, insurance premium charges, and financial aid will be added in early July for most students. These items will be included in a July billing statement, with a due date of August 15. ... December 25 - January 2, 2024 - Tulane University is closed for winter recess; January 12 - Spring term ...\n# \u301015\u2020Tulane University of Louisiana Tuition, Fees and Financial Aid 2024 ...\u2020research.com\u3011\nDiscover the 2024 cost of attendance including tuition, fees, loans, scholarships, and other forms of financial aid at Tulane University of Louisiana. ... What Is a Forensic Nurse? 2024 Guide to Career Paths, Options & Salary. Best Online Master\u2019s of Science Program in Nursing: Guide to Online Programs for 2024 ...\n# \u301016\u2020Tuition & Fees | Tulane School of Medicine Nursing Program\u2020nursing.tulane.edu\u3011\n2024-2025 Academic Year. Fees may change depending on student enrollment semester. University Fees* Tuition: $64,980: University Fees: $3,416: Nursing Program Fees (all fees approximate) Lab Supply Fee: $115: ... Tulane University School of Medicine Program of Nursing 131 S. Robertson St., Suite 429\n# \u301017\u2020Newcomb-Tulane College Undergraduates Full-Time Enrollment\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Tuition and Fees Page | 1 June 12, 2024 . Newcomb-Tulane College Undergraduates . The primary program of the enrolled student determines tuition and fee rates. Except where otherwise noted, these rates apply to all registered credit hours in the semester. All rates on this\n# \u301018\u2020Tulane University of Louisiana 2024 Tuition & Fees - Univstats\u2020www.univstats.com\u3011\nFor the academic year 2023-2024, the undergraduate tuition & fees at Tulane University of Louisiana is $65,538. The graduate school tuition & fees is $66,046. The Living costs besides the tuition & fees is reported as $20,708 when a student lives on campus and $20,708 when a student lives off-campus. Its total costs of attendance (COA) is ...\n# \u301019\u2020Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...\u2020studentaccounts.tulane.edu\u3011\nFall 2024 & Spring 2025 Graduate Tuition and Fees Page | 3 April 26, 2024 Glossary of Mandatory Fees The fees listed below are mandatory costs of attendance and are due from the student regardless of participation or receipt of a funded service. Fees are not refunded after the deadline listed on the University Academic Calendar for 100% tuition ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Cost of Attendance | Tulane Office of Admission - Tulane University",
+                "url": "https://admission.tulane.edu/tuition-aid/cost",
+                "text": "\nBelow is our estimated 2024-2025 cost of attendance for undergraduate students enrolled full-time at Newcomb-Tulane College who live on campus. Tuition & Fees. $68,678. Housing on Campus. $10,758 (based on 2 students per bedroom) ... $88,266+ It is important to note that the total cost of attendance at Tulane will vary depending on your ...\n",
+                "pub_date": "2024-06-20T19:37:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "TULANE UNIVERSITY FULL TIME UNDERGRADUATE",
+                "url": "https://financialaid.tulane.edu/sites/default/files/2023-12/coa2324undergrad.pdf",
+                "text": "\nTulane University Office of Financial Aid Information Subject to Correction; 10/19/2023 . Full Time Undergraduate - Freshman Resident Commuter* Tuition and Fees . $ 6 5,538 $ 6 5,538 Books and Supplies *Architecture $1,400: $1,200 : $1,200 ... 2023-2024 . Author: Lespinasse, Marissa L ...\n",
+                "pub_date": "2024-06-13T22:25:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Newcomb-Tulane College Undergraduates Full-Time Enrollment",
+                "url": "https://studentaccounts.tulane.edu/sites/default/files/2024-03/2024-2025_NTC_COSTS_20240314.pdf",
+                "text": "\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Tuition and Fees Page | 1 March 14, 2024 Newcomb-Tulane College Undergraduates The primary program of the enrolled student determines tuition and fee rates. Except where otherwise noted, these rates apply to all registered credit hours in the semester. All rates on this\n",
+                "pub_date": "2024-06-19T15:07:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tuition and Fees | Accounts Receivable - Tulane University",
+                "url": "https://studentaccounts.tulane.edu/tuition-and-fees",
+                "text": "\n2024 - 2025 Graduate & Professional Programs. Summer 2024. Undergraduate Programs (PDF) Graduate and Professional Programs (PDF) Contact Accounts Receivable with any questions you may have about tuition and fee rates at acctrec@tulane.edu, (504) 865-5368 or toll free (800) 798-7633.\n",
+                "pub_date": "2024-06-19T17:15:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "TULANE UNDERGRADUATE SUMMER 2024 COST OF ATTENDANCE CHARTS",
+                "url": "https://financialaid.tulane.edu/sites/default/files/2024-03/COA2024SummerUndergradUptown.pdf",
+                "text": "\nTulane University Office of Financial Aid Information Subject to Correction; 03/21/2024 . Tuition Newcomb-Tulane College (NTC) Rates are for tuition only. *For NTC students, the School of Professional Advancement (SoPA) tuition rate of $623per credit hour applies only to courses that are offered by SoPA and scheduled in a ... Course fees are ...\n",
+                "pub_date": "2024-04-10T04:44:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tulane University Academic Year 2023 2024 Newcomb Tulane College",
+                "url": "https://studentaccounts.tulane.edu/sites/default/files/2023-06/2023-2024_NTC_COSTS_06302023_0.pdf",
+                "text": "\nTulane University Academic Year 2023\u20102024 Newcomb\u2010Tulane College. Seniors who require less than 12 credits to graduate may apply for part\u2010time enrollment in their last semester. If approved, seniors may be assessed tuition at $2,555 per hour, Academic Support Fee at $117 per hour, and $80 Student Activity fee.\n",
+                "pub_date": "2024-06-19T21:59:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Graduate and Professional Programs, Summer 2024",
+                "url": "https://studentaccounts.tulane.edu/sites/default/files/2024-03/Summer_2024_Graduate_Rates_03142024.pdf",
+                "text": "\nTulane University Student Accounts Receivable Summer 2024 Graduate and Professional Tuition and Fees Page | 1 March 14, 2024 Graduate and Professional Programs, Summer 2024 The primary program of the enrolled student determines tuition and fee rates. This document describes tuition and fees for graduate and professional students in Summer 2024.\n",
+                "pub_date": "2024-06-12T12:16:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...",
+                "url": "https://studentaccounts.tulane.edu/sites/default/files/2024-06/SSE_Grad_Rate_2024-2025_20240611.pdf",
+                "text": "\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Graduate Tuition and Fees Page | 1 June 11, 2024 . School of Science and Engineering . The primary program of the enrolled student determines tuition and fee rates. This document describes tuition and fees for graduate level students in the School of Science and Engineering .\n",
+                "pub_date": "2024-06-17T03:38:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Net Price Calculator | Tulane Office of Admission - Tulane University",
+                "url": "https://admission.tulane.edu/tuition-aid/net-price-calculator",
+                "text": "\nTulane's Net Price Calculator was developed to help families plan for the costs associated with attending college. Use this calculator as a guide to help make informed financial decisions for your future. Help messages will guide you through each step. In order to complete the Net Price Calculator, be sure you have the following materials ...\n",
+                "pub_date": "2024-06-19T08:33:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tuition & Fees | Tulane School of Medicine",
+                "url": "https://medicine.tulane.edu/centers-institutes/hayward-genetics-center/masters-medical-genetics-genomics/tuition-fees",
+                "text": "\nThe application process for Fall 2024 is now open. Application deadline - August 6, 2024 (or until the program is filled) Tuition. Full-time tuition for the 2024-25 year is projected to be $24,000 for 30 credit hours. Other estimated University fees per semester: $400 - Academic Support Services. $120 - Student Activities.\n",
+                "pub_date": "2024-06-13T13:01:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "TULANE MEDICAL SCHOOL STANDARD COST OF ATTENDANCE CHARTS 2024-2025",
+                "url": "https://financialaid.tulane.edu/sites/default/files/2024-05/coa2425gradmd.pdf",
+                "text": "\nTuition and Fees $75,824 $75,824 Housing $14,296 $2,644 Meals $8,310 $2,182 ... 2024-2025. Tulane University Office of Financial Aid Information Subject to Correction; 5/3/2023 . Third Year 7/1/24 \u2013 6/30/25 Resident Commuter Tuition and Fees $75,824 $75,824 Housing $17,434 $3,224 ...\n",
+                "pub_date": "2024-06-17T17:16:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "TULANE UNIVERSITY FULL TIME UNDERGRADUATE",
+                "url": "https://financialaid.tulane.edu/sites/default/files/2024-02/COA2425Undergrad.pdf",
+                "text": "\nTulane University Office of Financial Aid Information Subject to Correction; v. 02/21/2024. Full Time Undergraduate- Freshman. Resident Commuter* Tuition and Fees . $68,678 $68,678 Books and Supplies *Architecture $1,400. $1,200 . $1,200 : Housing $10,700 $2,306\n",
+                "pub_date": "2024-06-16T09:25:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...",
+                "url": "https://studentaccounts.tulane.edu/sites/default/files/2024-04/SOPA_UG_Rate_2024-2025_20240419.pdf",
+                "text": "\nFall 2024 & Spring 2025 Undergraduate Tuition and Fees Page | 2 April 19, 2024 Tulane Student Health Insurance Plan (T-SHIP) ... Fees are not refunded after the deadline listed on the University Academic Calendar for 100% tuition and fee refund. Academic Support Services Fee: The Academic Support Services Fee provides certain academic resources ...\n",
+                "pub_date": "2024-05-15T22:49:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tulane - Tuition & Fees, Net Price - College Tuition Compare",
+                "url": "https://www.collegetuitioncompare.com/edu/160755/tulane-university-of-louisiana/tuition/",
+                "text": "\nPrograms. Rivals. 2024 Tuition & fees. $65,538 4.29%. Undergraduate. $66,046 4.43%. Graduate. The 2024 tuition & fees of Tulane University of Louisiana is $65,538 for first-year students and the 2024 graduate school tuition & fees is $66,046. Its undergraduate tuition & fees is around the average amount for similar schools' tuition of $63,609.\n",
+                "pub_date": "2024-06-17T20:41:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Important Dates | Accounts Receivable - Tulane University",
+                "url": "https://studentaccounts.tulane.edu/important-dates",
+                "text": "\nFall 2024. July 1 - 15 - Tuition, fees, housing, board, insurance premium charges, and financial aid will be added in early July for most students. These items will be included in a July billing statement, with a due date of August 15. ... December 25 - January 2, 2024 - Tulane University is closed for winter recess; January 12 - Spring term ...\n",
+                "pub_date": "2024-06-19T19:59:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tulane University of Louisiana Tuition, Fees and Financial Aid 2024 ...",
+                "url": "https://research.com/best-colleges/tulane-university-of-louisiana/tuition-fees",
+                "text": "\nDiscover the 2024 cost of attendance including tuition, fees, loans, scholarships, and other forms of financial aid at Tulane University of Louisiana. ... What Is a Forensic Nurse? 2024 Guide to Career Paths, Options & Salary. Best Online Master\u2019s of Science Program in Nursing: Guide to Online Programs for 2024 ...\n",
+                "pub_date": "2024-04-07T10:46:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tuition & Fees | Tulane School of Medicine Nursing Program",
+                "url": "https://nursing.tulane.edu/tuition-fees",
+                "text": "\n2024-2025 Academic Year. Fees may change depending on student enrollment semester. University Fees* Tuition: $64,980: University Fees: $3,416: Nursing Program Fees (all fees approximate) Lab Supply Fee: $115: ... Tulane University School of Medicine Program of Nursing 131 S. Robertson St., Suite 429\n",
+                "pub_date": "2024-06-20T07:35:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Newcomb-Tulane College Undergraduates Full-Time Enrollment",
+                "url": "https://studentaccounts.tulane.edu/sites/default/files/2024-06/2024-2025_NTC_COSTS_20240612.pdf",
+                "text": "\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Tuition and Fees Page | 1 June 12, 2024 . Newcomb-Tulane College Undergraduates . The primary program of the enrolled student determines tuition and fee rates. Except where otherwise noted, these rates apply to all registered credit hours in the semester. All rates on this\n",
+                "pub_date": "2024-06-18T16:48:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tulane University of Louisiana 2024 Tuition & Fees - Univstats",
+                "url": "https://www.univstats.com/colleges/tulane-university-of-louisiana/cost-of-attendance/",
+                "text": "\nFor the academic year 2023-2024, the undergraduate tuition & fees at Tulane University of Louisiana is $65,538. The graduate school tuition & fees is $66,046. The Living costs besides the tuition & fees is reported as $20,708 when a student lives on campus and $20,708 when a student lives off-campus. Its total costs of attendance (COA) is ...\n",
+                "pub_date": "2024-06-15T09:10:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...",
+                "url": "https://studentaccounts.tulane.edu/sites/default/files/2024-04/SSE_Grad_Rate_2024-2025.pdf",
+                "text": "\nFall 2024 & Spring 2025 Graduate Tuition and Fees Page | 3 April 26, 2024 Glossary of Mandatory Fees The fees listed below are mandatory costs of attendance and are due from the student regardless of participation or receipt of a funded service. Fees are not refunded after the deadline listed on the University Academic Calendar for 100% tuition ...\nVisible: 0% - 100%",
+                "pub_date": "2024-06-14T22:40:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'Tulane University tuition and fees 2024'",
+                "url": "",
+                "text": "# \u30100\u2020Cost of Attendance | Tulane Office of Admission - Tulane University\u2020admission.tulane.edu\u3011\nBelow is our estimated 2024-2025 cost of attendance for undergraduate students enrolled full-time at Newcomb-Tulane College who live on campus. Tuition & Fees. $68,678. Housing on Campus. $10,758 (based on 2 students per bedroom) ... $88,266+ It is important to note that the total cost of attendance at Tulane will vary depending on your ...\n# \u30101\u2020TULANE UNIVERSITY FULL TIME UNDERGRADUATE\u2020financialaid.tulane.edu\u3011\nTulane University Office of Financial Aid Information Subject to Correction; 10/19/2023 . Full Time Undergraduate - Freshman Resident Commuter* Tuition and Fees . $ 6 5,538 $ 6 5,538 Books and Supplies *Architecture $1,400: $1,200 : $1,200 ... 2023-2024 . Author: Lespinasse, Marissa L ...\n# \u30102\u2020Newcomb-Tulane College Undergraduates Full-Time Enrollment\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Tuition and Fees Page | 1 March 14, 2024 Newcomb-Tulane College Undergraduates The primary program of the enrolled student determines tuition and fee rates. Except where otherwise noted, these rates apply to all registered credit hours in the semester. All rates on this\n# \u30103\u2020Tuition and Fees | Accounts Receivable - Tulane University\u2020studentaccounts.tulane.edu\u3011\n2024 - 2025 Graduate & Professional Programs. Summer 2024. Undergraduate Programs (PDF) Graduate and Professional Programs (PDF) Contact Accounts Receivable with any questions you may have about tuition and fee rates at acctrec@tulane.edu, (504) 865-5368 or toll free (800) 798-7633.\n# \u30104\u2020TULANE UNDERGRADUATE SUMMER 2024 COST OF ATTENDANCE CHARTS\u2020financialaid.tulane.edu\u3011\nTulane University Office of Financial Aid Information Subject to Correction; 03/21/2024 . Tuition Newcomb-Tulane College (NTC) Rates are for tuition only. *For NTC students, the School of Professional Advancement (SoPA) tuition rate of $623per credit hour applies only to courses that are offered by SoPA and scheduled in a ... Course fees are ...\n# \u30105\u2020Tulane University Academic Year 2023 2024 Newcomb Tulane College\u2020studentaccounts.tulane.edu\u3011\nTulane University Academic Year 2023\u20102024 Newcomb\u2010Tulane College. Seniors who require less than 12 credits to graduate may apply for part\u2010time enrollment in their last semester. If approved, seniors may be assessed tuition at $2,555 per hour, Academic Support Fee at $117 per hour, and $80 Student Activity fee.\n# \u30106\u2020Graduate and Professional Programs, Summer 2024\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Summer 2024 Graduate and Professional Tuition and Fees Page | 1 March 14, 2024 Graduate and Professional Programs, Summer 2024 The primary program of the enrolled student determines tuition and fee rates. This document describes tuition and fees for graduate and professional students in Summer 2024.\n# \u30107\u2020Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Graduate Tuition and Fees Page | 1 June 11, 2024 . School of Science and Engineering . The primary program of the enrolled student determines tuition and fee rates. This document describes tuition and fees for graduate level students in the School of Science and Engineering .\n# \u30108\u2020Net Price Calculator | Tulane Office of Admission - Tulane University\u2020admission.tulane.edu\u3011\nTulane's Net Price Calculator was developed to help families plan for the costs associated with attending college. Use this calculator as a guide to help make informed financial decisions for your future. Help messages will guide you through each step. In order to complete the Net Price Calculator, be sure you have the following materials ...\n# \u30109\u2020Tuition & Fees | Tulane School of Medicine\u2020medicine.tulane.edu\u3011\nThe application process for Fall 2024 is now open. Application deadline - August 6, 2024 (or until the program is filled) Tuition. Full-time tuition for the 2024-25 year is projected to be $24,000 for 30 credit hours. Other estimated University fees per semester: $400 - Academic Support Services. $120 - Student Activities.\n# \u301010\u2020TULANE MEDICAL SCHOOL STANDARD COST OF ATTENDANCE CHARTS 2024-2025\u2020financialaid.tulane.edu\u3011\nTuition and Fees $75,824 $75,824 Housing $14,296 $2,644 Meals $8,310 $2,182 ... 2024-2025. Tulane University Office of Financial Aid Information Subject to Correction; 5/3/2023 . Third Year 7/1/24 \u2013 6/30/25 Resident Commuter Tuition and Fees $75,824 $75,824 Housing $17,434 $3,224 ...\n# \u301011\u2020TULANE UNIVERSITY FULL TIME UNDERGRADUATE\u2020financialaid.tulane.edu\u3011\nTulane University Office of Financial Aid Information Subject to Correction; v. 02/21/2024. Full Time Undergraduate- Freshman. Resident Commuter* Tuition and Fees . $68,678 $68,678 Books and Supplies *Architecture $1,400. $1,200 . $1,200 : Housing $10,700 $2,306\n# \u301012\u2020Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...\u2020studentaccounts.tulane.edu\u3011\nFall 2024 & Spring 2025 Undergraduate Tuition and Fees Page | 2 April 19, 2024 Tulane Student Health Insurance Plan (T-SHIP) ... Fees are not refunded after the deadline listed on the University Academic Calendar for 100% tuition and fee refund. Academic Support Services Fee: The Academic Support Services Fee provides certain academic resources ...\n# \u301013\u2020Tulane - Tuition & Fees, Net Price - College Tuition Compare\u2020www.collegetuitioncompare.com\u3011\nPrograms. Rivals. 2024 Tuition & fees. $65,538 4.29%. Undergraduate. $66,046 4.43%. Graduate. The 2024 tuition & fees of Tulane University of Louisiana is $65,538 for first-year students and the 2024 graduate school tuition & fees is $66,046. Its undergraduate tuition & fees is around the average amount for similar schools' tuition of $63,609.\n# \u301014\u2020Important Dates | Accounts Receivable - Tulane University\u2020studentaccounts.tulane.edu\u3011\nFall 2024. July 1 - 15 - Tuition, fees, housing, board, insurance premium charges, and financial aid will be added in early July for most students. These items will be included in a July billing statement, with a due date of August 15. ... December 25 - January 2, 2024 - Tulane University is closed for winter recess; January 12 - Spring term ...\n# \u301015\u2020Tulane University of Louisiana Tuition, Fees and Financial Aid 2024 ...\u2020research.com\u3011\nDiscover the 2024 cost of attendance including tuition, fees, loans, scholarships, and other forms of financial aid at Tulane University of Louisiana. ... What Is a Forensic Nurse? 2024 Guide to Career Paths, Options & Salary. Best Online Master\u2019s of Science Program in Nursing: Guide to Online Programs for 2024 ...\n# \u301016\u2020Tuition & Fees | Tulane School of Medicine Nursing Program\u2020nursing.tulane.edu\u3011\n2024-2025 Academic Year. Fees may change depending on student enrollment semester. University Fees* Tuition: $64,980: University Fees: $3,416: Nursing Program Fees (all fees approximate) Lab Supply Fee: $115: ... Tulane University School of Medicine Program of Nursing 131 S. Robertson St., Suite 429\n# \u301017\u2020Newcomb-Tulane College Undergraduates Full-Time Enrollment\u2020studentaccounts.tulane.edu\u3011\nTulane University Student Accounts Receivable Fall 2024 & Spring 2025 Tuition and Fees Page | 1 June 12, 2024 . Newcomb-Tulane College Undergraduates . The primary program of the enrolled student determines tuition and fee rates. Except where otherwise noted, these rates apply to all registered credit hours in the semester. All rates on this\n# \u301018\u2020Tulane University of Louisiana 2024 Tuition & Fees - Univstats\u2020www.univstats.com\u3011\nFor the academic year 2023-2024, the undergraduate tuition & fees at Tulane University of Louisiana is $65,538. The graduate school tuition & fees is $66,046. The Living costs besides the tuition & fees is reported as $20,708 when a student lives on campus and $20,708 when a student lives off-campus. Its total costs of attendance (COA) is ...\n# \u301019\u2020Tulane University Student Accounts Receivable Fall 2024 & Spring 2025 ...\u2020studentaccounts.tulane.edu\u3011\nFall 2024 & Spring 2025 Graduate Tuition and Fees Page | 3 April 26, 2024 Glossary of Mandatory Fees The fees listed below are mandatory costs of attendance and are due from the student regardless of participation or receipt of a funded service. Fees are not refunded after the deadline listed on the University Academic Calendar for 100% tuition ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "Tulane University tuition and fees 2024"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "38e5c48d-8c2a-4dc1-9c3b-ee5ebdf590a7",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "38e5c48d-8c2a-4dc1-9c3b-ee5ebdf590a7",
+      "children": [
+        "2d6d768a-410c-4b5e-bba7-f2f9674f6f9a"
+      ]
+    },
+    "2d6d768a-410c-4b5e-bba7-f2f9674f6f9a": {
+      "id": "2d6d768a-410c-4b5e-bba7-f2f9674f6f9a",
+      "message": {
+        "id": "2d6d768a-410c-4b5e-bba7-f2f9674f6f9a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719006811.068139,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "mclick([0, 1, 3, 11, 18])"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "5ee4eff6-a2e8-408e-9ab8-ab30b16c6c09",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "5ee4eff6-a2e8-408e-9ab8-ab30b16c6c09",
+      "children": [
+        "d16b3854-2ee0-45bd-89f2-e31403b12c35"
+      ]
+    },
+    "d16b3854-2ee0-45bd-89f2-e31403b12c35": {
+      "id": "d16b3854-2ee0-45bd-89f2-e31403b12c35",
+      "message": {
+        "id": "d16b3854-2ee0-45bd-89f2-e31403b12c35",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1719006811.068176,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://admission.tulane.edu/tuition-aid/cost",
+          "domain": "admission.tulane.edu",
+          "text": "\nSearch\n\nMenu\n\n## Information for\n\n  * \u30106\u2020Alumni\u3011 \n  * \u30107\u2020Counselors\u3011 \n  * \u30108\u2020Parents\u3011 \n  * \u30109\u2020Visitors\u3011 \n\n  * \u30101\u2020Request Info\u3011 \n  * \u30102\u2020Visit\u3011 \n  * \u30103\u2020Apply\u3011 \n  * \u30104\u2020Meet Us\u3011 \n  * \u30105\u2020For Admits\u3011 \n\n##  University Info \n\n## Primary Navigation\n\n  * \u301010\u2020Why Tulane\u3011 \n    * \u301010\u2020Why Tulane\u3011 \n    * \u301011\u2020A Message from Our President\u3011 \n    * \u301012\u2020Our History\u3011 \n    * \u301013\u2020Tulane at a Glance\u3011 \n    * \u301014\u2020Public Service\u3011 \n  * \u301015\u2020Academics\u3011 \n    * \u301015\u2020Academics\u3011 \n    * \u301016\u2020Majors & Minors\u3011 \n    * \u301017\u2020Degrees & Requirements\u3011 \n    * \u301018\u2020Scholars Programs\u3011 \n    * \u301019\u2020Earning College Credit\u3011 \n    * \u301020\u2020Facilities & Resources\u3011 \n  * \u301021\u2020Tuition & Aid\u3011 \n    * \u301021\u2020Tuition & Aid\u3011 \n    * \u301022\u2020Cost of Attendance\u3011 \n    * \u301023\u2020Merit Scholarships\u3011 \n    * \u301024\u2020Need-Based Aid\u3011 \n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301026\u2020Net Price Calculator\u3011 \n  * \u301027\u2020Student Life\u3011 \n    * \u301027\u2020Student Life\u3011 \n    * \u301028\u2020Clubs & Activities\u3011 \n    * \u301029\u2020Traditions\u3011 \n    * \u301030\u2020Diversity\u3011 \n    * \u301031\u2020Only in New Orleans\u3011 \n    * \u301032\u2020Housing\u3011 \n    * \u301033\u2020Dining\u3011 \n    * \u301034\u2020Fitness & Health\u3011 \n    * \u301035\u2020Safety & Security\u3011 \n  * \u301036\u2020Transfer Students\u3011 \n    * \u301036\u2020Transfer Students\u3011 \n    * \u301037\u2020Transferring Credit\u3011 \n    * \u301038\u2020Financial Aid for Transfers\u3011 \n    * \u301039\u2020Transfer Ambassadors\u3011 \n    * \u301040\u2020Admitted Transfer Students Guide\u3011 \n  * \u301041\u2020International\u3011 \n    * \u301041\u2020International\u3011 \n    * \u301042\u2020Financial Aid & Scholarships\u3011 \n    * \u301043\u2020Meet Your Counselor\u3011 \n    * \u301044\u2020About Tulane\u3011 \n    * \u301045\u2020See Campus\u3011 \n    * \u301046\u2020Global Ambassadors\u3011 \n    * \u301047\u2020Information for Undocumented Students\u3011 \n\n##  Account Login \n\n  * \u301048\u2020EMAIL\u2020outlook.com\u3011 \n  * \u301049\u2020GIBSON ONLINE\u2020gibson.tulane.edu\u3011 \n  * \u301050\u2020MYTULANE\u2020tulane.edu\u3011 \n\n## Breadcrumb\n\n  1. \u30100\u2020Home\u3011 \u30100\u2020Home\u3011 \n  2. \u301021\u2020Tuition & Aid\u3011 \u301021\u2020Tuition & Aid\u3011 \n  3. Cost of Attendance Cost of Attendance\n\n# Cost of Attendance\n\nThrough our extensive merit-based and need-based scholarship programs, we work to make Tulane as affordable as possible for each admitted student.\n\nBelow is our estimated 2024-2025 cost of attendance for undergraduate students enrolled full-time at Newcomb-Tulane College who live on campus.\n\n## Tuition & Fees\n\n$68,678\n\n## Housing on Campus\n\n$10,758 (based on 2 students per bedroom)\n\n## Meals on Campus\n\n$8,110 (based on minimally required meal plan)\n\n## Books & Supplies\n\n$700\n\n## Miscellaneous\n\nVariable\u00a0(e.g. one time orientation fee, health insurance if not covered by parents, laundry, etc.)\n\n## Transportation\n\nVariable depending on distance from campus\n\n## TOTAL\n\n$88,266+\n\nIt is important to note that the total cost of attendance at Tulane will vary depending on your enrollment status (full-time or part-time) and your residency (on campus or commuting).\n\nIn addition, our costs typically increase 3-4% each year, though our need-based financial aid offerings attempt to meet these annual increases.\n\nFor a more precise estimate of your cost of attendance based on your enrollment status and residency, visit our \u301051\u2020Student Accounts Receivable site\u2020studentaccounts.tulane.edu\u3011.\n\n## Primary Navigation (Siblings)\n\n  * \u301022\u2020Cost of Attendance\u3011 \n  * \u301023\u2020Merit Scholarships\u3011 \n  * \u301024\u2020Need-Based Aid\u3011 \n  * \u301025\u2020For Louisiana Residents\u3011  Collapse sub-menu Expand sub-menu\n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301052\u2020FAQs for Louisiana Legislative Scholars Program\u3011 \n    * \u301053\u2020FAQs for Mayoral Scholars Program\u3011 \n    * \u301054\u2020Our Promise to Louisiana\u3011 \n  * \u301026\u2020Net Price Calculator\u3011 \n\n[Image 0] \n\n[Image 1] \n\nOffice of Undergraduate Admission\n\nGibson Hall 210  \n6823 St. Charles Avenue  \nNew Orleans, LA 70118\n\n504.865.5731\n\nEmail Undergraduate Admission\n\n\u301055\u2020Maps & Directions\u3011\n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020 \u2020twitter.com\u3011 \n\n\u301058\u2020 \u2020www.instagram.com\u3011 \n\n\u301059\u2020 \u2020www.linkedin.com\u3011 \n\n\u301060\u2020 \u2020www.tiktok.com\u3011 \n\n## Footer Menu II\n\n  * \u301061\u2020JOBS AT TULANE\u2020hr.tulane.edu\u3011 \n  * \u301062\u2020LAND ACKNOWLEDGEMENT\u2020tulane.edu\u3011 \n  * \u301063\u2020COPYRIGHT\u2020tulane.edu\u3011 \n  * \u301064\u2020PRIVACY\u2020tulane.edu\u3011 \n\n\u301065\u2020 \u2020tulane.edu\u3011 \n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020",
+          "title": "Cost of Attendance | Tulane Office of Admission",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Cost of Attendance | Tulane Office of Admission",
+                "url": "https://admission.tulane.edu/tuition-aid/cost",
+                "text": "\nSearch\n\nMenu\n\n## Information for\n\n  * \u30106\u2020Alumni\u3011 \n  * \u30107\u2020Counselors\u3011 \n  * \u30108\u2020Parents\u3011 \n  * \u30109\u2020Visitors\u3011 \n\n  * \u30101\u2020Request Info\u3011 \n  * \u30102\u2020Visit\u3011 \n  * \u30103\u2020Apply\u3011 \n  * \u30104\u2020Meet Us\u3011 \n  * \u30105\u2020For Admits\u3011 \n\n##  University Info \n\n## Primary Navigation\n\n  * \u301010\u2020Why Tulane\u3011 \n    * \u301010\u2020Why Tulane\u3011 \n    * \u301011\u2020A Message from Our President\u3011 \n    * \u301012\u2020Our History\u3011 \n    * \u301013\u2020Tulane at a Glance\u3011 \n    * \u301014\u2020Public Service\u3011 \n  * \u301015\u2020Academics\u3011 \n    * \u301015\u2020Academics\u3011 \n    * \u301016\u2020Majors & Minors\u3011 \n    * \u301017\u2020Degrees & Requirements\u3011 \n    * \u301018\u2020Scholars Programs\u3011 \n    * \u301019\u2020Earning College Credit\u3011 \n    * \u301020\u2020Facilities & Resources\u3011 \n  * \u301021\u2020Tuition & Aid\u3011 \n    * \u301021\u2020Tuition & Aid\u3011 \n    * \u301022\u2020Cost of Attendance\u3011 \n    * \u301023\u2020Merit Scholarships\u3011 \n    * \u301024\u2020Need-Based Aid\u3011 \n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301026\u2020Net Price Calculator\u3011 \n  * \u301027\u2020Student Life\u3011 \n    * \u301027\u2020Student Life\u3011 \n    * \u301028\u2020Clubs & Activities\u3011 \n    * \u301029\u2020Traditions\u3011 \n    * \u301030\u2020Diversity\u3011 \n    * \u301031\u2020Only in New Orleans\u3011 \n    * \u301032\u2020Housing\u3011 \n    * \u301033\u2020Dining\u3011 \n    * \u301034\u2020Fitness & Health\u3011 \n    * \u301035\u2020Safety & Security\u3011 \n  * \u301036\u2020Transfer Students\u3011 \n    * \u301036\u2020Transfer Students\u3011 \n    * \u301037\u2020Transferring Credit\u3011 \n    * \u301038\u2020Financial Aid for Transfers\u3011 \n    * \u301039\u2020Transfer Ambassadors\u3011 \n    * \u301040\u2020Admitted Transfer Students Guide\u3011 \n  * \u301041\u2020International\u3011 \n    * \u301041\u2020International\u3011 \n    * \u301042\u2020Financial Aid & Scholarships\u3011 \n    * \u301043\u2020Meet Your Counselor\u3011 \n    * \u301044\u2020About Tulane\u3011 \n    * \u301045\u2020See Campus\u3011 \n    * \u301046\u2020Global Ambassadors\u3011 \n    * \u301047\u2020Information for Undocumented Students\u3011 \n\n##  Account Login \n\n  * \u301048\u2020EMAIL\u2020outlook.com\u3011 \n  * \u301049\u2020GIBSON ONLINE\u2020gibson.tulane.edu\u3011 \n  * \u301050\u2020MYTULANE\u2020tulane.edu\u3011 \n\n## Breadcrumb\n\n  1. \u30100\u2020Home\u3011 \u30100\u2020Home\u3011 \n  2. \u301021\u2020Tuition & Aid\u3011 \u301021\u2020Tuition & Aid\u3011 \n  3. Cost of Attendance Cost of Attendance\n\n# Cost of Attendance\n\nThrough our extensive merit-based and need-based scholarship programs, we work to make Tulane as affordable as possible for each admitted student.\n\nBelow is our estimated 2024-2025 cost of attendance for undergraduate students enrolled full-time at Newcomb-Tulane College who live on campus.\n\n## Tuition & Fees\n\n$68,678\n\n## Housing on Campus\n\n$10,758 (based on 2 students per bedroom)\n\n## Meals on Campus\n\n$8,110 (based on minimally required meal plan)\n\n## Books & Supplies\n\n$700\n\n## Miscellaneous\n\nVariable\u00a0(e.g. one time orientation fee, health insurance if not covered by parents, laundry, etc.)\n\n## Transportation\n\nVariable depending on distance from campus\n\n## TOTAL\n\n$88,266+\n\nIt is important to note that the total cost of attendance at Tulane will vary depending on your enrollment status (full-time or part-time) and your residency (on campus or commuting).\n\nIn addition, our costs typically increase 3-4% each year, though our need-based financial aid offerings attempt to meet these annual increases.\n\nFor a more precise estimate of your cost of attendance based on your enrollment status and residency, visit our \u301051\u2020Student Accounts Receivable site\u2020studentaccounts.tulane.edu\u3011.\n\n## Primary Navigation (Siblings)\n\n  * \u301022\u2020Cost of Attendance\u3011 \n  * \u301023\u2020Merit Scholarships\u3011 \n  * \u301024\u2020Need-Based Aid\u3011 \n  * \u301025\u2020For Louisiana Residents\u3011  Collapse sub-menu Expand sub-menu\n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301052\u2020FAQs for Louisiana Legislative Scholars Program\u3011 \n    * \u301053\u2020FAQs for Mayoral Scholars Program\u3011 \n    * \u301054\u2020Our Promise to Louisiana\u3011 \n  * \u301026\u2020Net Price Calculator\u3011 \n\n[Image 0] \n\n[Image 1] \n\nOffice of Undergraduate Admission\n\nGibson Hall 210  \n6823 St. Charles Avenue  \nNew Orleans, LA 70118\n\n504.865.5731\n\nEmail Undergraduate Admission\n\n\u301055\u2020Maps & Directions\u3011\n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020 \u2020twitter.com\u3011 \n\n\u301058\u2020 \u2020www.instagram.com\u3011 \n\n\u301059\u2020 \u2020www.linkedin.com\u3011 \n\n\u301060\u2020 \u2020www.tiktok.com\u3011 \n\n## Footer Menu II\n\n  * \u301061\u2020JOBS AT TULANE\u2020hr.tulane.edu\u3011 \n  * \u301062\u2020LAND ACKNOWLEDGEMENT\u2020tulane.edu\u3011 \n  * \u301063\u2020COPYRIGHT\u2020tulane.edu\u3011 \n  * \u301064\u2020PRIVACY\u2020tulane.edu\u3011 \n\n\u301065\u2020 \u2020tulane.edu\u3011 \n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 1, 3, 11, 18]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2d6d768a-410c-4b5e-bba7-f2f9674f6f9a",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2d6d768a-410c-4b5e-bba7-f2f9674f6f9a",
+      "children": [
+        "f3901a24-f99e-4513-8f0a-a5960bc4d423"
+      ]
+    },
+    "f3901a24-f99e-4513-8f0a-a5960bc4d423": {
+      "id": "f3901a24-f99e-4513-8f0a-a5960bc4d423",
+      "message": {
+        "id": "f3901a24-f99e-4513-8f0a-a5960bc4d423",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1719006811.068236,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://studentaccounts.tulane.edu/tuition-and-fees",
+          "domain": "studentaccounts.tulane.edu",
+          "text": "\n### Tuition & Property Insurance Resources\n\n\u00a0 \u00a0 Tuition Insurance - For information on Tuition Refund Insurance due to medical withdrawals, please visit \u301027\u2020http://gradguard.com/tuition-insurance/partners?refCode=tulane&tracking\u2026\u2020gradguard.com\u3011\n\n\u00a0 \u00a0 Direct questions about this program to:  \n\u00a0 \u00a0 Office of Enterprise Risk Services  \n\u00a0 \u00a0\u00a01555 Poydras Street, Suite 922  \n\u00a0 \u00a0 New Orleans, LA 70112  \n\u00a0 \u00a0 Phone: 504-865-5653  \n\u00a0 \u00a0 Fax: 504-862-8766\n\n\u00a0 \u00a0 Student Property Insurance - For information on insurance to cover student\u2019s property at very low deductibles, including loss or theft, visit: \u301028\u2020http://www.collegestudentinsurance.com/\u2020www.collegestudentinsurance.com\u3011\n\n\u00a0 \u00a0 Direct questions about this program to:  \n\u00a0 \u00a0 Office of Enterprise Risk Services  \n\u00a0 \u00a0\u00a01555 Poydras Street, Suite 922  \n\u00a0 \u00a0 New Orleans, LA 70112  \n\u00a0 \u00a0 Phone: 504-865-5653  \n\u00a0 \u00a0 Fax: 504-862-8766\n\n## Prior Academic Year Tuition & Fee Rates\n\n2023 - 2024 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301029\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301030\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2023 - 2024 Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301031\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301032\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301033\u2020School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301034\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301035\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301036\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301037\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301038\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301039\u2020School of Social Work\u3011 (PDF)\n\nSummer 2023\n\n\u00a0 \u00a0\u00a0\u301040\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301041\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2022 - 2023 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301042\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301043\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2022 - 2023 Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301044\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301045\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301046\u2020School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301047\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301048\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301049\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301050\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301051\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301052\u2020School of Social Work\u3011 (PDF)\n\nSummer 2022\n\n\u00a0 \u00a0\u00a0\u301053\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301054\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2021\u00a0- 2022\u00a0Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301055\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\u00a0\n\n\u00a0 \u00a0\u00a0\u301056\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2021\u00a0- 2022\u00a0Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301057\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301058\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u301059\u2020 School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301060\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301061\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301062\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301063\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301064\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301065\u2020School of Social Work\u3011 (PDF)\n\nSummer 2021\n\n\u00a0 \u00a0\u00a0\u301066\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301067\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2020\u00a0- 2021 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301068\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301069\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2020\u00a0- 2021 Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301070\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301071\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301072\u2020School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301073\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301074\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301075\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301076\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301077\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301078\u2020School of Social Work\u3011 (PDF)\n\nSummer 2020\n\n\u00a0 \u00a0\u00a0\u301079\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301080\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2019 - 2020 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301081\u2020Newcomb-Tulane College",
+          "title": "Tuition and Fees | Accounts Receivable",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Tuition and Fees | Accounts Receivable",
+                "url": "https://studentaccounts.tulane.edu/tuition-and-fees",
+                "text": "\n### Tuition & Property Insurance Resources\n\n\u00a0 \u00a0 Tuition Insurance - For information on Tuition Refund Insurance due to medical withdrawals, please visit \u301027\u2020http://gradguard.com/tuition-insurance/partners?refCode=tulane&tracking\u2026\u2020gradguard.com\u3011\n\n\u00a0 \u00a0 Direct questions about this program to:  \n\u00a0 \u00a0 Office of Enterprise Risk Services  \n\u00a0 \u00a0\u00a01555 Poydras Street, Suite 922  \n\u00a0 \u00a0 New Orleans, LA 70112  \n\u00a0 \u00a0 Phone: 504-865-5653  \n\u00a0 \u00a0 Fax: 504-862-8766\n\n\u00a0 \u00a0 Student Property Insurance - For information on insurance to cover student\u2019s property at very low deductibles, including loss or theft, visit: \u301028\u2020http://www.collegestudentinsurance.com/\u2020www.collegestudentinsurance.com\u3011\n\n\u00a0 \u00a0 Direct questions about this program to:  \n\u00a0 \u00a0 Office of Enterprise Risk Services  \n\u00a0 \u00a0\u00a01555 Poydras Street, Suite 922  \n\u00a0 \u00a0 New Orleans, LA 70112  \n\u00a0 \u00a0 Phone: 504-865-5653  \n\u00a0 \u00a0 Fax: 504-862-8766\n\n## Prior Academic Year Tuition & Fee Rates\n\n2023 - 2024 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301029\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301030\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2023 - 2024 Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301031\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301032\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301033\u2020School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301034\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301035\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301036\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301037\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301038\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301039\u2020School of Social Work\u3011 (PDF)\n\nSummer 2023\n\n\u00a0 \u00a0\u00a0\u301040\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301041\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2022 - 2023 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301042\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301043\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2022 - 2023 Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301044\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301045\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301046\u2020School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301047\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301048\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301049\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301050\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301051\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301052\u2020School of Social Work\u3011 (PDF)\n\nSummer 2022\n\n\u00a0 \u00a0\u00a0\u301053\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301054\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2021\u00a0- 2022\u00a0Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301055\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\u00a0\n\n\u00a0 \u00a0\u00a0\u301056\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2021\u00a0- 2022\u00a0Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301057\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301058\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u301059\u2020 School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301060\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301061\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301062\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301063\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301064\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301065\u2020School of Social Work\u3011 (PDF)\n\nSummer 2021\n\n\u00a0 \u00a0\u00a0\u301066\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301067\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2020\u00a0- 2021 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301068\u2020Newcomb-Tulane College - All Full-Time Undergraduates\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301069\u2020School of Professional Advancement Undergraduate\u3011 (PDF)\n\n2020\u00a0- 2021 Graduate & Professional Programs\n\n\u00a0 \u00a0\u00a0\u301070\u2020School of Architecture\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301071\u2020A.B. Freeman School of Business\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301072\u2020School of Liberal Arts\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301073\u2020School of Law\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301074\u2020School of Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301075\u2020School of Professional Advancement\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301076\u2020School of Public Health and Tropical Medicine\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301077\u2020School of Science & Engineering\u3011 (PDF)  \n\u00a0 \u00a0\u00a0\u301078\u2020School of Social Work\u3011 (PDF)\n\nSummer 2020\n\n\u00a0 \u00a0\u00a0\u301079\u2020Undergraduate Programs\u3011 (PDF)\n\n\u00a0 \u00a0\u00a0\u301080\u2020Graduate and Professional Programs\u3011 (PDF)\n\n2019 - 2020 Undergraduate Programs\n\n\u00a0 \u00a0\u00a0\u301081\u2020Newcomb-Tulane College",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 1, 3, 11, 18]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d16b3854-2ee0-45bd-89f2-e31403b12c35",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d16b3854-2ee0-45bd-89f2-e31403b12c35",
+      "children": [
+        "314b3be4-669f-4f91-b196-4da0fbb1e433"
+      ]
+    },
+    "314b3be4-669f-4f91-b196-4da0fbb1e433": {
+      "id": "314b3be4-669f-4f91-b196-4da0fbb1e433",
+      "message": {
+        "id": "314b3be4-669f-4f91-b196-4da0fbb1e433",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1719006811.068274,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.univstats.com/colleges/tulane-university-of-louisiana/cost-of-attendance/",
+          "domain": "www.univstats.com",
+          "text": "  * \u301013\u2020Population\u3011\n  * \u301012\u2020Graduation\u3011\n  * \u301016\u2020Campus Safety\u3011\n  * \u301017\u2020Campus Life\u3011\n  * \u301015\u2020Accreditation\u3011\n\nUndergraduate$65,538\n\nGraduate$66,046\n\nBooks & Supplies$1,200\n\nOn-Campus Living Costs $20,708\n\nOff-Campus Living Costs $20,708\n\n## Tulane 2024 Tuition & Fees and COA \n\nFor the academic year 2023-2024, the undergraduate tuition & fees at Tulane University of Louisiana is $65,538. The graduate school tuition & fees is $66,046. The Living costs besides the tuition & fees is reported as $20,708 when a student lives on campus and $20,708 when a student lives off-campus.\n\nIts total costs of attendance (COA) is $87,446 when a student lives on campus and $87,446 when living off-campus for the academic year 2023-2024. It includes tuition, fees, book & supplies costs, room & board, and other living expenses. The following table and chart illustrate the COA by living preferences and tuition rates.\n\nData source for 2024 College Cost: \u301037\u2020NCES\u2020nces.ed.gov\u3011, Last Update: March 12, 2024\n\n Tulane 2023-2024 COA On-Campus Off-Campus  \nTotal Costs$87,446$87,446  \nTuition & Fees$65,538  \nBooks & Supplies$1,200  \nRoom & Board$18,088$18,088  \nOther Expenses$2,620$2,620   \nAverage Financial Aid$30,873  \nTotal Costs After Receiving Aid$56,573$56,573  \n\n[Chart] 2024 Cost of Attendance\n\n## Undergraduate Tuition & Fees\n\nFor the academic year 2023-2024, the undergraduate tuition & fees is $65,538. The undergraduate tuition rates are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Undergraduate Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$58,852 $60,814 $62,844 $65,538  \n\n[Chart]2024 Undergraduate Tuition & Fees\n\n## Graduate Tuition & Fees\n\nFor the academic year 2023-2024, the graduate tuition & fees is $66,046. The graduate program tuition rates are increased by 4.43% compared to academic year 2022-2023. \n\n 2024 Graduate School Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$61,176 $61,130 $63,244 $66,046  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n## Tuition Per Credit Hour\n\nFor the academic year 2023-2024, the tuition per credit hour for part-time students or overloaded credits for full-time students is $2,550 for undergraduate programs. \n\nFor graduate programs, the tuition per credit hour is $3,543. The tuition per credit hour are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Tuition Per Credit Hour 2021 2022 2023 2024  \nUndergraduate$2,282 $2,362$2,445$2,550   \nGraduate$3,167 $3,278$3,393$3,543  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n### Books & Supplies\n\nFor the academic year 2023-2024, the average costs for purchasing books and course supllies is $1,200. The following table and charts illustrate the changes of the books & supplies costs at Tulane University of Louisiana.\n\n 2024 Books & Supplies Costs 2021 2022 2023 2024  \nBooks & Supplies $1,200 $1,200 $1,200 $1,200  \n\n[Chart] 2024 Books & Supplies Costs\n\n### Living Costs\n\nFor the academic year 2023-2024, the average costs for living costs at Tulane University of Louisiana is $20,708 when living on campus and $20,708 when living off-campus . The on-campus living costs are increased by 4.34% compared to academic year 2022-2023. The off-campus living costs are increased by 4.34% compared to academic year 2022-2023. \n\n Living Costs 2021 2022 2023 2024  \nOn-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620   \nOff-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620  \n\n[Chart] 2024 Room & Boards and other Living Costs\n\nKnow about Louisiana Colleges\n\n  * \u301038\u2020Which colleges offer Undergraduate distance education (Online Courses) in Louisiana?\u3011\n  * \u301039\u2020Which colleges are 2-4 Years in Louisiana?\u3011\n  * \u301040\u2020Which colleges provide on-campus housing in Louisiana?\u3011\n  * \u301041\u2020Which colleges provide Remedial Education in Louisiana?\u3011\n  * \u301042\u2020Which colleges accept Dual Credit in Louisiana?\u3011\n  * \u301043\u2020Which colleges have Recognized student veteran organization in Louisiana?\u3011\n  * \u301044\u2020Which colleges offer Doctorate Degree (professional practice) in Louisiana?\u3011\n  * \u301045\u2020How much is Typical Room Charge in Louisiana?\u3011\n  * \u301046\u2020How much",
+          "title": "Tulane University of Louisiana 2024 Tuition & Fees",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Tulane University of Louisiana 2024 Tuition & Fees",
+                "url": "https://www.univstats.com/colleges/tulane-university-of-louisiana/cost-of-attendance/",
+                "text": "  * \u301013\u2020Population\u3011\n  * \u301012\u2020Graduation\u3011\n  * \u301016\u2020Campus Safety\u3011\n  * \u301017\u2020Campus Life\u3011\n  * \u301015\u2020Accreditation\u3011\n\nUndergraduate$65,538\n\nGraduate$66,046\n\nBooks & Supplies$1,200\n\nOn-Campus Living Costs $20,708\n\nOff-Campus Living Costs $20,708\n\n## Tulane 2024 Tuition & Fees and COA \n\nFor the academic year 2023-2024, the undergraduate tuition & fees at Tulane University of Louisiana is $65,538. The graduate school tuition & fees is $66,046. The Living costs besides the tuition & fees is reported as $20,708 when a student lives on campus and $20,708 when a student lives off-campus.\n\nIts total costs of attendance (COA) is $87,446 when a student lives on campus and $87,446 when living off-campus for the academic year 2023-2024. It includes tuition, fees, book & supplies costs, room & board, and other living expenses. The following table and chart illustrate the COA by living preferences and tuition rates.\n\nData source for 2024 College Cost: \u301037\u2020NCES\u2020nces.ed.gov\u3011, Last Update: March 12, 2024\n\n Tulane 2023-2024 COA On-Campus Off-Campus  \nTotal Costs$87,446$87,446  \nTuition & Fees$65,538  \nBooks & Supplies$1,200  \nRoom & Board$18,088$18,088  \nOther Expenses$2,620$2,620   \nAverage Financial Aid$30,873  \nTotal Costs After Receiving Aid$56,573$56,573  \n\n[Chart] 2024 Cost of Attendance\n\n## Undergraduate Tuition & Fees\n\nFor the academic year 2023-2024, the undergraduate tuition & fees is $65,538. The undergraduate tuition rates are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Undergraduate Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$58,852 $60,814 $62,844 $65,538  \n\n[Chart]2024 Undergraduate Tuition & Fees\n\n## Graduate Tuition & Fees\n\nFor the academic year 2023-2024, the graduate tuition & fees is $66,046. The graduate program tuition rates are increased by 4.43% compared to academic year 2022-2023. \n\n 2024 Graduate School Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$61,176 $61,130 $63,244 $66,046  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n## Tuition Per Credit Hour\n\nFor the academic year 2023-2024, the tuition per credit hour for part-time students or overloaded credits for full-time students is $2,550 for undergraduate programs. \n\nFor graduate programs, the tuition per credit hour is $3,543. The tuition per credit hour are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Tuition Per Credit Hour 2021 2022 2023 2024  \nUndergraduate$2,282 $2,362$2,445$2,550   \nGraduate$3,167 $3,278$3,393$3,543  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n### Books & Supplies\n\nFor the academic year 2023-2024, the average costs for purchasing books and course supllies is $1,200. The following table and charts illustrate the changes of the books & supplies costs at Tulane University of Louisiana.\n\n 2024 Books & Supplies Costs 2021 2022 2023 2024  \nBooks & Supplies $1,200 $1,200 $1,200 $1,200  \n\n[Chart] 2024 Books & Supplies Costs\n\n### Living Costs\n\nFor the academic year 2023-2024, the average costs for living costs at Tulane University of Louisiana is $20,708 when living on campus and $20,708 when living off-campus . The on-campus living costs are increased by 4.34% compared to academic year 2022-2023. The off-campus living costs are increased by 4.34% compared to academic year 2022-2023. \n\n Living Costs 2021 2022 2023 2024  \nOn-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620   \nOff-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620  \n\n[Chart] 2024 Room & Boards and other Living Costs\n\nKnow about Louisiana Colleges\n\n  * \u301038\u2020Which colleges offer Undergraduate distance education (Online Courses) in Louisiana?\u3011\n  * \u301039\u2020Which colleges are 2-4 Years in Louisiana?\u3011\n  * \u301040\u2020Which colleges provide on-campus housing in Louisiana?\u3011\n  * \u301041\u2020Which colleges provide Remedial Education in Louisiana?\u3011\n  * \u301042\u2020Which colleges accept Dual Credit in Louisiana?\u3011\n  * \u301043\u2020Which colleges have Recognized student veteran organization in Louisiana?\u3011\n  * \u301044\u2020Which colleges offer Doctorate Degree (professional practice) in Louisiana?\u3011\n  * \u301045\u2020How much is Typical Room Charge in Louisiana?\u3011\n  * \u301046\u2020How much",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 1, 3, 11, 18]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f3901a24-f99e-4513-8f0a-a5960bc4d423",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f3901a24-f99e-4513-8f0a-a5960bc4d423",
+      "children": [
+        "d5a2fd69-ec93-494c-b952-f01466728725"
+      ]
+    },
+    "d5a2fd69-ec93-494c-b952-f01466728725": {
+      "id": "d5a2fd69-ec93-494c-b952-f01466728725",
+      "message": {
+        "id": "d5a2fd69-ec93-494c-b952-f01466728725",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1719006811.068381,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The estimated cost of attendance at Tulane University for the 2024-2025 academic year is approximately $88,266. This includes the following:\n\n- **Tuition and Fees:** $68,678\n- **Housing (on-campus):** $10,758 (assuming two students per bedroom)\n- **Meals:** $8,110 (based on a minimally required meal plan)\n- **Books and Supplies:** $700\n- **Miscellaneous expenses:** Variable (e.g., orientation fee, health insurance, laundry, etc.)\n- **Transportation:** Variable depending on the distance from campus\n\nThese costs can vary depending on individual circumstances such as living arrangements and personal expenses\u30106\u2020source\u3011\u30108\u2020source\u3011."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 612,
+              "end_ix": 622,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Cost of Attendance | Tulane Office of Admission",
+                "url": "https://admission.tulane.edu/tuition-aid/cost",
+                "text": "\nSearch\n\nMenu\n\n## Information for\n\n  * \u30106\u2020Alumni\u3011 \n  * \u30107\u2020Counselors\u3011 \n  * \u30108\u2020Parents\u3011 \n  * \u30109\u2020Visitors\u3011 \n\n  * \u30101\u2020Request Info\u3011 \n  * \u30102\u2020Visit\u3011 \n  * \u30103\u2020Apply\u3011 \n  * \u30104\u2020Meet Us\u3011 \n  * \u30105\u2020For Admits\u3011 \n\n##  University Info \n\n## Primary Navigation\n\n  * \u301010\u2020Why Tulane\u3011 \n    * \u301010\u2020Why Tulane\u3011 \n    * \u301011\u2020A Message from Our President\u3011 \n    * \u301012\u2020Our History\u3011 \n    * \u301013\u2020Tulane at a Glance\u3011 \n    * \u301014\u2020Public Service\u3011 \n  * \u301015\u2020Academics\u3011 \n    * \u301015\u2020Academics\u3011 \n    * \u301016\u2020Majors & Minors\u3011 \n    * \u301017\u2020Degrees & Requirements\u3011 \n    * \u301018\u2020Scholars Programs\u3011 \n    * \u301019\u2020Earning College Credit\u3011 \n    * \u301020\u2020Facilities & Resources\u3011 \n  * \u301021\u2020Tuition & Aid\u3011 \n    * \u301021\u2020Tuition & Aid\u3011 \n    * \u301022\u2020Cost of Attendance\u3011 \n    * \u301023\u2020Merit Scholarships\u3011 \n    * \u301024\u2020Need-Based Aid\u3011 \n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301026\u2020Net Price Calculator\u3011 \n  * \u301027\u2020Student Life\u3011 \n    * \u301027\u2020Student Life\u3011 \n    * \u301028\u2020Clubs & Activities\u3011 \n    * \u301029\u2020Traditions\u3011 \n    * \u301030\u2020Diversity\u3011 \n    * \u301031\u2020Only in New Orleans\u3011 \n    * \u301032\u2020Housing\u3011 \n    * \u301033\u2020Dining\u3011 \n    * \u301034\u2020Fitness & Health\u3011 \n    * \u301035\u2020Safety & Security\u3011 \n  * \u301036\u2020Transfer Students\u3011 \n    * \u301036\u2020Transfer Students\u3011 \n    * \u301037\u2020Transferring Credit\u3011 \n    * \u301038\u2020Financial Aid for Transfers\u3011 \n    * \u301039\u2020Transfer Ambassadors\u3011 \n    * \u301040\u2020Admitted Transfer Students Guide\u3011 \n  * \u301041\u2020International\u3011 \n    * \u301041\u2020International\u3011 \n    * \u301042\u2020Financial Aid & Scholarships\u3011 \n    * \u301043\u2020Meet Your Counselor\u3011 \n    * \u301044\u2020About Tulane\u3011 \n    * \u301045\u2020See Campus\u3011 \n    * \u301046\u2020Global Ambassadors\u3011 \n    * \u301047\u2020Information for Undocumented Students\u3011 \n\n##  Account Login \n\n  * \u301048\u2020EMAIL\u2020outlook.com\u3011 \n  * \u301049\u2020GIBSON ONLINE\u2020gibson.tulane.edu\u3011 \n  * \u301050\u2020MYTULANE\u2020tulane.edu\u3011 \n\n## Breadcrumb\n\n  1. \u30100\u2020Home\u3011 \u30100\u2020Home\u3011 \n  2. \u301021\u2020Tuition & Aid\u3011 \u301021\u2020Tuition & Aid\u3011 \n  3. Cost of Attendance Cost of Attendance\n\n# Cost of Attendance\n\nThrough our extensive merit-based and need-based scholarship programs, we work to make Tulane as affordable as possible for each admitted student.\n\nBelow is our estimated 2024-2025 cost of attendance for undergraduate students enrolled full-time at Newcomb-Tulane College who live on campus.\n\n## Tuition & Fees\n\n$68,678\n\n## Housing on Campus\n\n$10,758 (based on 2 students per bedroom)\n\n## Meals on Campus\n\n$8,110 (based on minimally required meal plan)\n\n## Books & Supplies\n\n$700\n\n## Miscellaneous\n\nVariable\u00a0(e.g. one time orientation fee, health insurance if not covered by parents, laundry, etc.)\n\n## Transportation\n\nVariable depending on distance from campus\n\n## TOTAL\n\n$88,266+\n\nIt is important to note that the total cost of attendance at Tulane will vary depending on your enrollment status (full-time or part-time) and your residency (on campus or commuting).\n\nIn addition, our costs typically increase 3-4% each year, though our need-based financial aid offerings attempt to meet these annual increases.\n\nFor a more precise estimate of your cost of attendance based on your enrollment status and residency, visit our \u301051\u2020Student Accounts Receivable site\u2020studentaccounts.tulane.edu\u3011.\n\n## Primary Navigation (Siblings)\n\n  * \u301022\u2020Cost of Attendance\u3011 \n  * \u301023\u2020Merit Scholarships\u3011 \n  * \u301024\u2020Need-Based Aid\u3011 \n  * \u301025\u2020For Louisiana Residents\u3011  Collapse sub-menu Expand sub-menu\n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301052\u2020FAQs for Louisiana Legislative Scholars Program\u3011 \n    * \u301053\u2020FAQs for Mayoral Scholars Program\u3011 \n    * \u301054\u2020Our Promise to Louisiana\u3011 \n  * \u301026\u2020Net Price Calculator\u3011 \n\n[Image 0] \n\n[Image 1] \n\nOffice of Undergraduate Admission\n\nGibson Hall 210  \n6823 St. Charles Avenue  \nNew Orleans, LA 70118\n\n504.865.5731\n\nEmail Undergraduate Admission\n\n\u301055\u2020Maps & Directions\u3011\n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020 \u2020twitter.com\u3011 \n\n\u301058\u2020 \u2020www.instagram.com\u3011 \n\n\u301059\u2020 \u2020www.linkedin.com\u3011 \n\n\u301060\u2020 \u2020www.tiktok.com\u3011 \n\n## Footer Menu II\n\n  * \u301061\u2020JOBS AT TULANE\u2020hr.tulane.edu\u3011 \n  * \u301062\u2020LAND ACKNOWLEDGEMENT\u2020tulane.edu\u3011 \n  * \u301063\u2020COPYRIGHT\u2020tulane.edu\u3011 \n  * \u301064\u2020PRIVACY\u2020tulane.edu\u3011 \n\n\u301065\u2020 \u2020tulane.edu\u3011 \n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 622,
+              "end_ix": 632,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Tulane University of Louisiana 2024 Tuition & Fees",
+                "url": "https://www.univstats.com/colleges/tulane-university-of-louisiana/cost-of-attendance/",
+                "text": "  * \u301013\u2020Population\u3011\n  * \u301012\u2020Graduation\u3011\n  * \u301016\u2020Campus Safety\u3011\n  * \u301017\u2020Campus Life\u3011\n  * \u301015\u2020Accreditation\u3011\n\nUndergraduate$65,538\n\nGraduate$66,046\n\nBooks & Supplies$1,200\n\nOn-Campus Living Costs $20,708\n\nOff-Campus Living Costs $20,708\n\n## Tulane 2024 Tuition & Fees and COA \n\nFor the academic year 2023-2024, the undergraduate tuition & fees at Tulane University of Louisiana is $65,538. The graduate school tuition & fees is $66,046. The Living costs besides the tuition & fees is reported as $20,708 when a student lives on campus and $20,708 when a student lives off-campus.\n\nIts total costs of attendance (COA) is $87,446 when a student lives on campus and $87,446 when living off-campus for the academic year 2023-2024. It includes tuition, fees, book & supplies costs, room & board, and other living expenses. The following table and chart illustrate the COA by living preferences and tuition rates.\n\nData source for 2024 College Cost: \u301037\u2020NCES\u2020nces.ed.gov\u3011, Last Update: March 12, 2024\n\n Tulane 2023-2024 COA On-Campus Off-Campus  \nTotal Costs$87,446$87,446  \nTuition & Fees$65,538  \nBooks & Supplies$1,200  \nRoom & Board$18,088$18,088  \nOther Expenses$2,620$2,620   \nAverage Financial Aid$30,873  \nTotal Costs After Receiving Aid$56,573$56,573  \n\n[Chart] 2024 Cost of Attendance\n\n## Undergraduate Tuition & Fees\n\nFor the academic year 2023-2024, the undergraduate tuition & fees is $65,538. The undergraduate tuition rates are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Undergraduate Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$58,852 $60,814 $62,844 $65,538  \n\n[Chart]2024 Undergraduate Tuition & Fees\n\n## Graduate Tuition & Fees\n\nFor the academic year 2023-2024, the graduate tuition & fees is $66,046. The graduate program tuition rates are increased by 4.43% compared to academic year 2022-2023. \n\n 2024 Graduate School Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$61,176 $61,130 $63,244 $66,046  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n## Tuition Per Credit Hour\n\nFor the academic year 2023-2024, the tuition per credit hour for part-time students or overloaded credits for full-time students is $2,550 for undergraduate programs. \n\nFor graduate programs, the tuition per credit hour is $3,543. The tuition per credit hour are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Tuition Per Credit Hour 2021 2022 2023 2024  \nUndergraduate$2,282 $2,362$2,445$2,550   \nGraduate$3,167 $3,278$3,393$3,543  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n### Books & Supplies\n\nFor the academic year 2023-2024, the average costs for purchasing books and course supllies is $1,200. The following table and charts illustrate the changes of the books & supplies costs at Tulane University of Louisiana.\n\n 2024 Books & Supplies Costs 2021 2022 2023 2024  \nBooks & Supplies $1,200 $1,200 $1,200 $1,200  \n\n[Chart] 2024 Books & Supplies Costs\n\n### Living Costs\n\nFor the academic year 2023-2024, the average costs for living costs at Tulane University of Louisiana is $20,708 when living on campus and $20,708 when living off-campus . The on-campus living costs are increased by 4.34% compared to academic year 2022-2023. The off-campus living costs are increased by 4.34% compared to academic year 2022-2023. \n\n Living Costs 2021 2022 2023 2024  \nOn-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620   \nOff-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620  \n\n[Chart] 2024 Room & Boards and other Living Costs\n\nKnow about Louisiana Colleges\n\n  * \u301038\u2020Which colleges offer Undergraduate distance education (Online Courses) in Louisiana?\u3011\n  * \u301039\u2020Which colleges are 2-4 Years in Louisiana?\u3011\n  * \u301040\u2020Which colleges provide on-campus housing in Louisiana?\u3011\n  * \u301041\u2020Which colleges provide Remedial Education in Louisiana?\u3011\n  * \u301042\u2020Which colleges accept Dual Credit in Louisiana?\u3011\n  * \u301043\u2020Which colleges have Recognized student veteran organization in Louisiana?\u3011\n  * \u301044\u2020Which colleges offer Doctorate Degree (professional practice) in Louisiana?\u3011\n  * \u301045\u2020How much is Typical Room Charge in Louisiana?\u3011\n  * \u301046\u2020How much",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 8,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            }
+          ],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "314b3be4-669f-4f91-b196-4da0fbb1e433",
+          "request_id": "89773b25ba0e3b7a-IAD",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 612,
+              "end_idx": 622,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Cost of Attendance | Tulane Office of Admission",
+              "url": "https://admission.tulane.edu/tuition-aid/cost",
+              "pub_date": null,
+              "snippet": "\nSearch\n\nMenu\n\n## Information for\n\n  * \u30106\u2020Alumni\u3011 \n  * \u30107\u2020Counselors\u3011 \n  * \u30108\u2020Parents\u3011 \n  * \u30109\u2020Visitors\u3011 \n\n  * \u30101\u2020Request Info\u3011 \n  * \u30102\u2020Visit\u3011 \n  * \u30103\u2020Apply\u3011 \n  * \u30104\u2020Meet Us\u3011 \n  * \u30105\u2020For Admits\u3011 \n\n##  University Info \n\n## Primary Navigation\n\n  * \u301010\u2020Why Tulane\u3011 \n    * \u301010\u2020Why Tulane\u3011 \n    * \u301011\u2020A Message from Our President\u3011 \n    * \u301012\u2020Our History\u3011 \n    * \u301013\u2020Tulane at a Glance\u3011 \n    * \u301014\u2020Public Service\u3011 \n  * \u301015\u2020Academics\u3011 \n    * \u301015\u2020Academics\u3011 \n    * \u301016\u2020Majors & Minors\u3011 \n    * \u301017\u2020Degrees & Requirements\u3011 \n    * \u301018\u2020Scholars Programs\u3011 \n    * \u301019\u2020Earning College Credit\u3011 \n    * \u301020\u2020Facilities & Resources\u3011 \n  * \u301021\u2020Tuition & Aid\u3011 \n    * \u301021\u2020Tuition & Aid\u3011 \n    * \u301022\u2020Cost of Attendance\u3011 \n    * \u301023\u2020Merit Scholarships\u3011 \n    * \u301024\u2020Need-Based Aid\u3011 \n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301026\u2020Net Price Calculator\u3011 \n  * \u301027\u2020Student Life\u3011 \n    * \u301027\u2020Student Life\u3011 \n    * \u301028\u2020Clubs & Activities\u3011 \n    * \u301029\u2020Traditions\u3011 \n    * \u301030\u2020Diversity\u3011 \n    * \u301031\u2020Only in New Orleans\u3011 \n    * \u301032\u2020Housing\u3011 \n    * \u301033\u2020Dining\u3011 \n    * \u301034\u2020Fitness & Health\u3011 \n    * \u301035\u2020Safety & Security\u3011 \n  * \u301036\u2020Transfer Students\u3011 \n    * \u301036\u2020Transfer Students\u3011 \n    * \u301037\u2020Transferring Credit\u3011 \n    * \u301038\u2020Financial Aid for Transfers\u3011 \n    * \u301039\u2020Transfer Ambassadors\u3011 \n    * \u301040\u2020Admitted Transfer Students Guide\u3011 \n  * \u301041\u2020International\u3011 \n    * \u301041\u2020International\u3011 \n    * \u301042\u2020Financial Aid & Scholarships\u3011 \n    * \u301043\u2020Meet Your Counselor\u3011 \n    * \u301044\u2020About Tulane\u3011 \n    * \u301045\u2020See Campus\u3011 \n    * \u301046\u2020Global Ambassadors\u3011 \n    * \u301047\u2020Information for Undocumented Students\u3011 \n\n##  Account Login \n\n  * \u301048\u2020EMAIL\u2020outlook.com\u3011 \n  * \u301049\u2020GIBSON ONLINE\u2020gibson.tulane.edu\u3011 \n  * \u301050\u2020MYTULANE\u2020tulane.edu\u3011 \n\n## Breadcrumb\n\n  1. \u30100\u2020Home\u3011 \u30100\u2020Home\u3011 \n  2. \u301021\u2020Tuition & Aid\u3011 \u301021\u2020Tuition & Aid\u3011 \n  3. Cost of Attendance Cost of Attendance\n\n# Cost of Attendance\n\nThrough our extensive merit-based and need-based scholarship programs, we work to make Tulane as affordable as possible for each admitted student.\n\nBelow is our estimated 2024-2025 cost of attendance for undergraduate students enrolled full-time at Newcomb-Tulane College who live on campus.\n\n## Tuition & Fees\n\n$68,678\n\n## Housing on Campus\n\n$10,758 (based on 2 students per bedroom)\n\n## Meals on Campus\n\n$8,110 (based on minimally required meal plan)\n\n## Books & Supplies\n\n$700\n\n## Miscellaneous\n\nVariable\u00a0(e.g. one time orientation fee, health insurance if not covered by parents, laundry, etc.)\n\n## Transportation\n\nVariable depending on distance from campus\n\n## TOTAL\n\n$88,266+\n\nIt is important to note that the total cost of attendance at Tulane will vary depending on your enrollment status (full-time or part-time) and your residency (on campus or commuting).\n\nIn addition, our costs typically increase 3-4% each year, though our need-based financial aid offerings attempt to meet these annual increases.\n\nFor a more precise estimate of your cost of attendance based on your enrollment status and residency, visit our \u301051\u2020Student Accounts Receivable site\u2020studentaccounts.tulane.edu\u3011.\n\n## Primary Navigation (Siblings)\n\n  * \u301022\u2020Cost of Attendance\u3011 \n  * \u301023\u2020Merit Scholarships\u3011 \n  * \u301024\u2020Need-Based Aid\u3011 \n  * \u301025\u2020For Louisiana Residents\u3011  Collapse sub-menu Expand sub-menu\n    * \u301025\u2020For Louisiana Residents\u3011 \n    * \u301052\u2020FAQs for Louisiana Legislative Scholars Program\u3011 \n    * \u301053\u2020FAQs for Mayoral Scholars Program\u3011 \n    * \u301054\u2020Our Promise to Louisiana\u3011 \n  * \u301026\u2020Net Price Calculator\u3011 \n\n[Image 0] \n\n[Image 1] \n\nOffice of Undergraduate Admission\n\nGibson Hall 210  \n6823 St. Charles Avenue  \nNew Orleans, LA 70118\n\n504.865.5731\n\nEmail Undergraduate Admission\n\n\u301055\u2020Maps & Directions\u3011\n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020 \u2020twitter.com\u3011 \n\n\u301058\u2020 \u2020www.instagram.com\u3011 \n\n\u301059\u2020 \u2020www.linkedin.com\u3011 \n\n\u301060\u2020 \u2020www.tiktok.com\u3011 \n\n## Footer Menu II\n\n  * \u301061\u2020JOBS AT TULANE\u2020hr.tulane.edu\u3011 \n  * \u301062\u2020LAND ACKNOWLEDGEMENT\u2020tulane.edu\u3011 \n  * \u301063\u2020COPYRIGHT\u2020tulane.edu\u3011 \n  * \u301064\u2020PRIVACY\u2020tulane.edu\u3011 \n\n\u301065\u2020 \u2020tulane.edu\u3011 \n\n\u301056\u2020 \u2020www.facebook.com\u3011 \n\n\u301057\u2020",
+              "attribution": "admission.tulane.edu",
+              "icon_type": null
+            },
+            {
+              "matched_text": "\u30108\u2020source\u3011",
+              "start_idx": 622,
+              "end_idx": 632,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Tulane University of Louisiana 2024 Tuition & Fees",
+              "url": "https://www.univstats.com/colleges/tulane-university-of-louisiana/cost-of-attendance/",
+              "pub_date": null,
+              "snippet": "  * \u301013\u2020Population\u3011\n  * \u301012\u2020Graduation\u3011\n  * \u301016\u2020Campus Safety\u3011\n  * \u301017\u2020Campus Life\u3011\n  * \u301015\u2020Accreditation\u3011\n\nUndergraduate$65,538\n\nGraduate$66,046\n\nBooks & Supplies$1,200\n\nOn-Campus Living Costs $20,708\n\nOff-Campus Living Costs $20,708\n\n## Tulane 2024 Tuition & Fees and COA \n\nFor the academic year 2023-2024, the undergraduate tuition & fees at Tulane University of Louisiana is $65,538. The graduate school tuition & fees is $66,046. The Living costs besides the tuition & fees is reported as $20,708 when a student lives on campus and $20,708 when a student lives off-campus.\n\nIts total costs of attendance (COA) is $87,446 when a student lives on campus and $87,446 when living off-campus for the academic year 2023-2024. It includes tuition, fees, book & supplies costs, room & board, and other living expenses. The following table and chart illustrate the COA by living preferences and tuition rates.\n\nData source for 2024 College Cost: \u301037\u2020NCES\u2020nces.ed.gov\u3011, Last Update: March 12, 2024\n\n Tulane 2023-2024 COA On-Campus Off-Campus  \nTotal Costs$87,446$87,446  \nTuition & Fees$65,538  \nBooks & Supplies$1,200  \nRoom & Board$18,088$18,088  \nOther Expenses$2,620$2,620   \nAverage Financial Aid$30,873  \nTotal Costs After Receiving Aid$56,573$56,573  \n\n[Chart] 2024 Cost of Attendance\n\n## Undergraduate Tuition & Fees\n\nFor the academic year 2023-2024, the undergraduate tuition & fees is $65,538. The undergraduate tuition rates are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Undergraduate Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$58,852 $60,814 $62,844 $65,538  \n\n[Chart]2024 Undergraduate Tuition & Fees\n\n## Graduate Tuition & Fees\n\nFor the academic year 2023-2024, the graduate tuition & fees is $66,046. The graduate program tuition rates are increased by 4.43% compared to academic year 2022-2023. \n\n 2024 Graduate School Tuition & Fees 2021 2022 2023 2024  \nTuition & Fees$61,176 $61,130 $63,244 $66,046  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n## Tuition Per Credit Hour\n\nFor the academic year 2023-2024, the tuition per credit hour for part-time students or overloaded credits for full-time students is $2,550 for undergraduate programs. \n\nFor graduate programs, the tuition per credit hour is $3,543. The tuition per credit hour are increased by 4.29% compared to academic year 2022-2023. \n\n 2024 Tuition Per Credit Hour 2021 2022 2023 2024  \nUndergraduate$2,282 $2,362$2,445$2,550   \nGraduate$3,167 $3,278$3,393$3,543  \n\n[Chart] 2024 Graduate Tuition & Fees\n\n### Books & Supplies\n\nFor the academic year 2023-2024, the average costs for purchasing books and course supllies is $1,200. The following table and charts illustrate the changes of the books & supplies costs at Tulane University of Louisiana.\n\n 2024 Books & Supplies Costs 2021 2022 2023 2024  \nBooks & Supplies $1,200 $1,200 $1,200 $1,200  \n\n[Chart] 2024 Books & Supplies Costs\n\n### Living Costs\n\nFor the academic year 2023-2024, the average costs for living costs at Tulane University of Louisiana is $20,708 when living on campus and $20,708 when living off-campus . The on-campus living costs are increased by 4.34% compared to academic year 2022-2023. The off-campus living costs are increased by 4.34% compared to academic year 2022-2023. \n\n Living Costs 2021 2022 2023 2024  \nOn-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620   \nOff-Campus Room & Board $16,248$16,778$16,248$18,088  \nOther Expenses $2,380$2,440$2,380$2,620  \n\n[Chart] 2024 Room & Boards and other Living Costs\n\nKnow about Louisiana Colleges\n\n  * \u301038\u2020Which colleges offer Undergraduate distance education (Online Courses) in Louisiana?\u3011\n  * \u301039\u2020Which colleges are 2-4 Years in Louisiana?\u3011\n  * \u301040\u2020Which colleges provide on-campus housing in Louisiana?\u3011\n  * \u301041\u2020Which colleges provide Remedial Education in Louisiana?\u3011\n  * \u301042\u2020Which colleges accept Dual Credit in Louisiana?\u3011\n  * \u301043\u2020Which colleges have Recognized student veteran organization in Louisiana?\u3011\n  * \u301044\u2020Which colleges offer Doctorate Degree (professional practice) in Louisiana?\u3011\n  * \u301045\u2020How much is Typical Room Charge in Louisiana?\u3011\n  * \u301046\u2020How much",
+              "attribution": "univstats.com",
+              "icon_type": null
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "314b3be4-669f-4f91-b196-4da0fbb1e433",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d5a2fd69-ec93-494c-b952-f01466728725",
+  "plugin_ids": null,
+  "conversation_id": "6eed1e7c-9a74-4f60-a778-5f3af2f32fed",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.univstats.com/colleges/tulane-university-of-louisiana/cost-of-attendance/",
+    "http://www.collegestudentinsurance.com/\u2020www.collegestudentinsurance.com",
+    "http://gradguard.com/tuition-insurance/partners?refCode=tulane&tracking\u2026\u2020gradguard.com",
+    "https://studentaccounts.tulane.edu/tuition-and-fees",
+    "https://admission.tulane.edu/tuition-aid/cost"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6eed1e7c-9a74-4f60-a778-5f3af2f32fed"
+}

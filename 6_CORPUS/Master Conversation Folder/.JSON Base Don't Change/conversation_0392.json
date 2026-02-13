@@ -1,0 +1,732 @@
+{
+  "title": "Maryland Commercial Solar Incentives",
+  "create_time": 1727175197.294728,
+  "update_time": 1727175209.722269,
+  "mapping": {
+    "a73d8fbe-d3c9-43ec-a4ae-c36ff6051073": {
+      "id": "a73d8fbe-d3c9-43ec-a4ae-c36ff6051073",
+      "message": null,
+      "parent": null,
+      "children": [
+        "208de9cc-90e3-44f3-ad83-0e40d588825a"
+      ]
+    },
+    "208de9cc-90e3-44f3-ad83-0e40d588825a": {
+      "id": "208de9cc-90e3-44f3-ad83-0e40d588825a",
+      "message": {
+        "id": "208de9cc-90e3-44f3-ad83-0e40d588825a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a73d8fbe-d3c9-43ec-a4ae-c36ff6051073",
+      "children": [
+        "04c18bbd-6322-4eaa-9cc1-94a35433a2e9"
+      ]
+    },
+    "04c18bbd-6322-4eaa-9cc1-94a35433a2e9": {
+      "id": "04c18bbd-6322-4eaa-9cc1-94a35433a2e9",
+      "message": {
+        "id": "04c18bbd-6322-4eaa-9cc1-94a35433a2e9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727175197.301025,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "what information is available re the 2025 FY Maryland energy administration commercial solar incentive program?  What is replacing C-Cerp?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8c823ad55e6332d2-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "208de9cc-90e3-44f3-ad83-0e40d588825a",
+      "children": [
+        "9e05511e-c671-411f-b331-b3347502da5e"
+      ]
+    },
+    "9e05511e-c671-411f-b331-b3347502da5e": {
+      "id": "9e05511e-c671-411f-b331-b3347502da5e",
+      "message": {
+        "id": "9e05511e-c671-411f-b331-b3347502da5e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727175208.263633,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "04c18bbd-6322-4eaa-9cc1-94a35433a2e9",
+          "request_id": "8c823ad55e6332d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04c18bbd-6322-4eaa-9cc1-94a35433a2e9",
+      "children": [
+        "e4e55c9a-e7a6-484a-8a1b-60874fb375be"
+      ]
+    },
+    "e4e55c9a-e7a6-484a-8a1b-60874fb375be": {
+      "id": "e4e55c9a-e7a6-484a-8a1b-60874fb375be",
+      "message": {
+        "id": "e4e55c9a-e7a6-484a-8a1b-60874fb375be",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727175208.263755,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"2025 FY Maryland Energy Administration commercial solar incentive replacing C-CERP\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9e05511e-c671-411f-b331-b3347502da5e",
+          "request_id": "8c823ad55e6332d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "9e05511e-c671-411f-b331-b3347502da5e",
+      "children": [
+        "e1ba5a9f-a4e9-44b5-880c-8ce0bbd3fd5a"
+      ]
+    },
+    "e1ba5a9f-a4e9-44b5-880c-8ce0bbd3fd5a": {
+      "id": "e1ba5a9f-a4e9-44b5-880c-8ce0bbd3fd5a",
+      "message": {
+        "id": "e1ba5a9f-a4e9-44b5-880c-8ce0bbd3fd5a",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727175208.263849,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020FY25 Maryland Solar Access Program | Maryland Energy Administration\u2020energy.maryland.gov\u3011\nLast Update: 16 July 2024 FY25 MEA Maryland Solar Access Program FAQ Document 1800 Washington Boulevard, Suite 755 | Baltimore, MD 21230 | Energy.Maryland.gov | 410.537.4000\n# \u30101\u2020FY25 Maryland Solar Access Program | Maryland Energy Administration\u2020energy.maryland.gov\u3011\nProgram Purpose: The Maryland Energy Administration (MEA) FY25 Maryland Solar Access Program will be provided to help eligible Maryland residents install solar photovoltaic (PV) systems to power their homes with clean, affordable, and sustainable energy. This program was established as the \u201cCustomer-sited Solar Grant Program\u201d by the Maryland General Assembly\u2019s passage of 2024 S.B. 783 ...\n# \u30102\u2020Commercial Clean Energy Rebate Program | Maryland Energy Administration\u2020energy.maryland.gov\u3011\nThe current Fiscal Year 2024 (FY24) Commercial-Clean Energy Rebate Program (C-CERP) will be the FINAL OFFERING of this Program. Applications for this program must be received no later than 3:00 P.M. ET, Friday, June 21, 2024 to be considered for a FY24 Award. This date will not be extended. Please also note that current funding is rapidly being ...\n# \u30103\u2020Clean Energy Rebate Program Online Application Portal | FY 2025 (Final ...\u2020havredegracemd.gov\u3011\nFull information on MEA\u2019s FY25 Residential Clean Energy Rebate Program can be found on the R-CERP webpage. Applicants can also access a downloadable document version of the application on the R-CERP webpage, if preferred. Please direct any questions about the R-CERP application process, or the program in general, to CERP.MEA@Maryland.gov. The ...\n# \u30104\u2020Maryland: Commercial Solar Financing + Government Incentives\u2020www.solarfeeds.com\u3011\nCommercial Clean Energy Rebate Program (C-CERP) The solar portion of the C-CERP will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial ...\n# \u30105\u2020Understanding the Brighter Tomorrow Act: A New Era for Solar Energy ...\u2020www.mslaw.com\u3011\nTo support the implementation, the Maryland Energy Administration (MEA) received $4.48 million from the U.S. Department of Energy (DOE). Establishing the Customer-Sited Solar Program in MEA to increase the number of new customer-sited solar energy generating systems and provide grants to eligible customer generators with installed systems.\n# \u30106\u2020HB 1328 Department of Legislative Services Maryland General Assembly ...\u2020mgaleg.maryland.gov\u3011\nIn 2024, the percentage requirements are 33.7% from Tier 1 sources, including at least 6.5% from solar and 0.15% from post-2022 geothermal systems, plus 2.5% from Tier 2 sources. The Tier 1 requirements escalate over time to a minimum of 50% from Tier 1 sources, including 14.5% from solar, by 2030. Climate Solutions Now Act \u2013 The Climate ...\n# \u30107\u2020Key Maryland Commercial Solar Incentives & Rebates\u2020www.commercial-solar.org\u3011\nAdditional Local Commercial Solar Incentives Maryland: Incentives, Rebates, & Grants. ... The state of Maryland offers solar systems rebates up to $30,000 through the Commercial Clean Energy Rebate Program (C-CERP). This rebate runs on a first-come, first-served basis which runs till the budget is exhausted. Currently, the 2023 to 2024 session ...\n# \u30108\u2020Maryland Commercial Clean Energy Rebate Program | Solar Rebates And ...\u2020www.cleanenergyauthority.com\u3011\nThe Maryland Energy Administration (MEA) offers rebates for mid-sized photovoltaic (PV) systems, solar water heating systems (SWH) and Geothermal Heating & Cooling (GHC) installed by businesses, non-profits, and local governments. Funding is available on first-come, first-serve basis and is subject to change based on funding availability.\n# \u30109\u2020HB 550 Department of Legislative Services | Maryland\u2020mgaleg.maryland.gov\u3011\nBill Summary: Medium-Duty and Heavy-Duty Zero-Emission Vehicle Grant Program. The bill replaces requirements that the Governor, in each of fiscal 2024 through 2027, include, in the annual budget bill, appropriations from SEIF of (1) at least $1.0 million for grants under the Medium-Duty and Heavy-Duty (MHD) Zero-Emission Vehicle Grant Program ...\n# \u301010\u2020HOUSE BILL 1328 | Maryland\u2020mgaleg.maryland.gov\u3011\n12 Annotated Code of Maryland 13 (2020 Replacement Volume and 2023 Supplement) 14 BY adding to 15 Article \u2013 State Finance and Procurement 16 Section 4\u2013325 to be under the new part \u201cPart IV. State Purchase of Solar Energy\u201d 17 Annotated Code of Maryland 18 (2021 Replacement Volume and 2023 Supplement) 19 BY adding to\n# \u301011\u2020Maryland Energy Administration | Managing for Results FY 2025\u2020dbm.maryland.gov\u3011\nObj. 1.1 Implement energy efficiency grant programs to help Maryland residents reduce energy usage and lower energy bills. Performance Measures. 2019 Act. 2020 Act. 2021 Act. 2022 Act. 2023 Est. 2024 Est. 2025 Est. Annual energy savings (million British Thermal Units-MMBTU) from energy efficiency grant programs that benefit low-to-moderate ...\n# \u301012\u2020Solar and Environmental Groups Applaud Signing of Maryland's Brighter ...\u2020environmentamerica.org\u3011\nANNAPOLIS, MD \u2013 Today, leading solar and environmental organizations celebrated Maryland Governor Wes Moore for signing the Brighter Tomorrow Act (SB 783), landmark legislation to expand solar energy access and adoption across the state. The bill, which was authored by Delegate David Fraser-Hidalgo and State Senator Sarah Elfreth, will increase solar adoption by automating the permitting ...\n# \u301013\u2020Maryland Energy Administration Announces Bold New Effort to Help More ...\u2020www.nacleanenergy.com\u3011\nThe Maryland Energy Administration announced the launch of an important new program to provide major incentives for income-eligible Maryland households to install solar panels.Contained in the Brighter Tomorrow Act of 2024 recently signed by Governor Wes Moore, the new Maryland Solar Access program will boost solar development in the state and make it easier for more Marylanders to reduce both ...\n# \u301014\u2020Welcome to Maryland Solar Program\u2020marylandcleanenergy.net\u3011\nThe Section 48 commercial credit can be applied to both customer-sited commercial solar systems and large-scale utility solar farms. The residential and commercial solar ITC has helped the U.S. solar industry grow by more than 10,000% percent since it was implemented in 2006, with an average annual growth of 50% over the last decade alone.\n# \u301015\u2020Funding Alert: MEA FY22 Commercial Clean Energy Rebate Program\u2020climatepartners.org\u3011\nFor C-CERP, eligible clean energy systems can be purchased by the applicant, or installed through third-party ownership. Applications will be accepted throughout the fiscal year (July 1, 2021 \u2013 June 30, 2022). To learn more about this opportunity and to apply, visit the Maryland Energy Administration.\n# \u301016\u2020Maryland Solar Incentives and Rebates Guide | Just Energy\u2020justenergy.com\u3011\nThis program is offered by the Maryland Energy Administration and offers a flat rebate of $1,000 per household for a solar panel installation. Established in 2005, this rebate incentive can help homeowners whose primary residence is in Maryland. Residential, multifamily residential buildings and low-income residential housing properties are ...\n# \u301017\u2020Biden-Harris Administration Announces Maryland Clean Energy Center to ...\u2020www.epa.gov\u3011\nWashington (April 23, 2024) - Today, as the Biden-Harris Administration celebrates Earth Day, the U.S. Environmental Protection Agency announced Maryland Clean Energy Center has been selected to receive $62,450,000 through the Solar for All grant competition to develop long-lasting solar programs that enable low-income and disadvantaged communities to deploy and benefit from distributed ...\n# \u301018\u20202021 A Report on the Status of Programs Implemented by the Maryland ...\u2020mde.maryland.gov\u3011\nwww.Energy.Maryland.gov 2021 A Report on the Status of Programs Implemented by the Maryland Energy Administration that Support Maryland\u2019s Greenhouse Gas Reduction Efforts or Address Climate Change Citation: \u00a7 2-1305(c) of the Environmental Article MSAR#: 10684 Larry Hogan, Governor Boyd K. Rutherford, Lt. Governor Mary Beth Tung, Director\n# \u301019\u2020Maryland Energy Administration\u2020news.maryland.gov\u3011\nThese solar canopies are expected to generate 4,520,000 kWh of clean, renewable energy per year. These projects were made possible by the Parking Lot Solar PV Canopy with EV Charger Grant Program (aka, Solar Canopy Program), funded by the Strategic Energy Investment Fund (SEIF). Projects included canopies for an apartment building, a factory, a ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "FY25 Maryland Solar Access Program | Maryland Energy Administration",
+                "url": "https://energy.maryland.gov/residential/SiteAssets/Pages/incentives/Maryland-Solar-Access-Program/FY25%20Maryland%20Solar%20Access%20Program%20FAQ%20Document.pdf",
+                "text": "\nLast Update: 16 July 2024 FY25 MEA Maryland Solar Access Program FAQ Document 1800 Washington Boulevard, Suite 755 | Baltimore, MD 21230 | Energy.Maryland.gov | 410.537.4000\n",
+                "pub_date": "2024-09-21T00:27:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "FY25 Maryland Solar Access Program | Maryland Energy Administration",
+                "url": "https://energy.maryland.gov/residential/Pages/incentives/Maryland-Solar-Access-Program.aspx",
+                "text": "\nProgram Purpose: The Maryland Energy Administration (MEA) FY25 Maryland Solar Access Program will be provided to help eligible Maryland residents install solar photovoltaic (PV) systems to power their homes with clean, affordable, and sustainable energy. This program was established as the \u201cCustomer-sited Solar Grant Program\u201d by the Maryland General Assembly\u2019s passage of 2024 S.B. 783 ...\n",
+                "pub_date": "2024-09-22T04:16:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Commercial Clean Energy Rebate Program | Maryland Energy Administration",
+                "url": "https://energy.maryland.gov/business/Pages/incentives/cleanenergygrants.aspx",
+                "text": "\nThe current Fiscal Year 2024 (FY24) Commercial-Clean Energy Rebate Program (C-CERP) will be the FINAL OFFERING of this Program. Applications for this program must be received no later than 3:00 P.M. ET, Friday, June 21, 2024 to be considered for a FY24 Award. This date will not be extended. Please also note that current funding is rapidly being ...\n",
+                "pub_date": "2024-09-22T03:01:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Clean Energy Rebate Program Online Application Portal | FY 2025 (Final ...",
+                "url": "https://havredegracemd.gov/community/community-partners/clean-energy-rebate-program-online-application-portal-fy-2024/",
+                "text": "\nFull information on MEA\u2019s FY25 Residential Clean Energy Rebate Program can be found on the R-CERP webpage. Applicants can also access a downloadable document version of the application on the R-CERP webpage, if preferred. Please direct any questions about the R-CERP application process, or the program in general, to CERP.MEA@Maryland.gov. The ...\n",
+                "pub_date": "2024-09-23T04:35:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Maryland: Commercial Solar Financing + Government Incentives",
+                "url": "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/",
+                "text": "\nCommercial Clean Energy Rebate Program (C-CERP) The solar portion of the C-CERP will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial ...\n",
+                "pub_date": "2024-09-22T13:55:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Understanding the Brighter Tomorrow Act: A New Era for Solar Energy ...",
+                "url": "https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland",
+                "text": "\nTo support the implementation, the Maryland Energy Administration (MEA) received $4.48 million from the U.S. Department of Energy (DOE). Establishing the Customer-Sited Solar Program in MEA to increase the number of new customer-sited solar energy generating systems and provide grants to eligible customer generators with installed systems.\n",
+                "pub_date": "2024-09-22T00:24:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "HB 1328 Department of Legislative Services Maryland General Assembly ...",
+                "url": "https://mgaleg.maryland.gov/2024RS/fnotes/bil_0008/hb1328.pdf",
+                "text": "\nIn 2024, the percentage requirements are 33.7% from Tier 1 sources, including at least 6.5% from solar and 0.15% from post-2022 geothermal systems, plus 2.5% from Tier 2 sources. The Tier 1 requirements escalate over time to a minimum of 50% from Tier 1 sources, including 14.5% from solar, by 2030. Climate Solutions Now Act \u2013 The Climate ...\n",
+                "pub_date": "2024-09-16T00:38:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Key Maryland Commercial Solar Incentives & Rebates",
+                "url": "https://www.commercial-solar.org/maryland/incentives/",
+                "text": "\nAdditional Local Commercial Solar Incentives Maryland: Incentives, Rebates, & Grants. ... The state of Maryland offers solar systems rebates up to $30,000 through the Commercial Clean Energy Rebate Program (C-CERP). This rebate runs on a first-come, first-served basis which runs till the budget is exhausted. Currently, the 2023 to 2024 session ...\n",
+                "pub_date": "2024-07-16T16:42:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Maryland Commercial Clean Energy Rebate Program | Solar Rebates And ...",
+                "url": "https://www.cleanenergyauthority.com/solar-rebates-and-incentives/maryland/commercial-clean-energy-rebate-program",
+                "text": "\nThe Maryland Energy Administration (MEA) offers rebates for mid-sized photovoltaic (PV) systems, solar water heating systems (SWH) and Geothermal Heating & Cooling (GHC) installed by businesses, non-profits, and local governments. Funding is available on first-come, first-serve basis and is subject to change based on funding availability.\n",
+                "pub_date": "2024-07-04T02:29:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "HB 550 Department of Legislative Services | Maryland",
+                "url": "https://mgaleg.maryland.gov/2023RS/fnotes/bil_0000/hb0550.pdf",
+                "text": "\nBill Summary: Medium-Duty and Heavy-Duty Zero-Emission Vehicle Grant Program. The bill replaces requirements that the Governor, in each of fiscal 2024 through 2027, include, in the annual budget bill, appropriations from SEIF of (1) at least $1.0 million for grants under the Medium-Duty and Heavy-Duty (MHD) Zero-Emission Vehicle Grant Program ...\n",
+                "pub_date": "2024-09-21T21:00:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "HOUSE BILL 1328 | Maryland",
+                "url": "https://mgaleg.maryland.gov/2024RS/bills/hb/hb1328F.pdf",
+                "text": "\n12 Annotated Code of Maryland 13 (2020 Replacement Volume and 2023 Supplement) 14 BY adding to 15 Article \u2013 State Finance and Procurement 16 Section 4\u2013325 to be under the new part \u201cPart IV. State Purchase of Solar Energy\u201d 17 Annotated Code of Maryland 18 (2021 Replacement Volume and 2023 Supplement) 19 BY adding to\n",
+                "pub_date": "2024-09-23T14:17:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Maryland Energy Administration | Managing for Results FY 2025",
+                "url": "https://dbm.maryland.gov/Documents/MFR_documents/2025/Maryland-Energy-Administration-MFR.pdf",
+                "text": "\nObj. 1.1 Implement energy efficiency grant programs to help Maryland residents reduce energy usage and lower energy bills. Performance Measures. 2019 Act. 2020 Act. 2021 Act. 2022 Act. 2023 Est. 2024 Est. 2025 Est. Annual energy savings (million British Thermal Units-MMBTU) from energy efficiency grant programs that benefit low-to-moderate ...\n",
+                "pub_date": "2024-09-14T10:25:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Solar and Environmental Groups Applaud Signing of Maryland's Brighter ...",
+                "url": "https://environmentamerica.org/maryland/media-center/solar-and-environmental-groups-applaud-signing-of-marylands-brighter-tomorrow-act/",
+                "text": "\nANNAPOLIS, MD \u2013 Today, leading solar and environmental organizations celebrated Maryland Governor Wes Moore for signing the Brighter Tomorrow Act (SB 783), landmark legislation to expand solar energy access and adoption across the state. The bill, which was authored by Delegate David Fraser-Hidalgo and State Senator Sarah Elfreth, will increase solar adoption by automating the permitting ...\n",
+                "pub_date": "2024-09-23T16:34:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Maryland Energy Administration Announces Bold New Effort to Help More ...",
+                "url": "https://www.nacleanenergy.com/solar/maryland-energy-administration-announces-bold-new-effort-to-help-more-marylanders-cut-energy-bills-and-carbon-pollution-through-solar-energy",
+                "text": "\nThe Maryland Energy Administration announced the launch of an important new program to provide major incentives for income-eligible Maryland households to install solar panels.Contained in the Brighter Tomorrow Act of 2024 recently signed by Governor Wes Moore, the new Maryland Solar Access program will boost solar development in the state and make it easier for more Marylanders to reduce both ...\n",
+                "pub_date": "2024-09-23T18:08:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Welcome to Maryland Solar Program",
+                "url": "https://marylandcleanenergy.net/",
+                "text": "\nThe Section 48 commercial credit can be applied to both customer-sited commercial solar systems and large-scale utility solar farms. The residential and commercial solar ITC has helped the U.S. solar industry grow by more than 10,000% percent since it was implemented in 2006, with an average annual growth of 50% over the last decade alone.\n",
+                "pub_date": "2024-09-19T15:47:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Funding Alert: MEA FY22 Commercial Clean Energy Rebate Program",
+                "url": "https://climatepartners.org/local/funding-alert-mea-fy22-commercial-clean-energy-rebate-program/",
+                "text": "\nFor C-CERP, eligible clean energy systems can be purchased by the applicant, or installed through third-party ownership. Applications will be accepted throughout the fiscal year (July 1, 2021 \u2013 June 30, 2022). To learn more about this opportunity and to apply, visit the Maryland Energy Administration.\n",
+                "pub_date": "2024-09-05T14:04:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Maryland Solar Incentives and Rebates Guide | Just Energy",
+                "url": "https://justenergy.com/solar/maryland-solar-incentives-and-rebates-guide/",
+                "text": "\nThis program is offered by the Maryland Energy Administration and offers a flat rebate of $1,000 per household for a solar panel installation. Established in 2005, this rebate incentive can help homeowners whose primary residence is in Maryland. Residential, multifamily residential buildings and low-income residential housing properties are ...\n",
+                "pub_date": "2024-08-05T22:20:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Biden-Harris Administration Announces Maryland Clean Energy Center to ...",
+                "url": "https://www.epa.gov/newsreleases/biden-harris-administration-announces-maryland-clean-energy-center-receive-62450000",
+                "text": "\nWashington (April 23, 2024) - Today, as the Biden-Harris Administration celebrates Earth Day, the U.S. Environmental Protection Agency announced Maryland Clean Energy Center has been selected to receive $62,450,000 through the Solar for All grant competition to develop long-lasting solar programs that enable low-income and disadvantaged communities to deploy and benefit from distributed ...\n",
+                "pub_date": "2024-09-22T21:18:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "2021 A Report on the Status of Programs Implemented by the Maryland ...",
+                "url": "https://mde.maryland.gov/programs/air/ClimateChange/MCCC/Documents/Agencies%20Annual%20Climate%20Reports%20year%20ending%202021/MEA%20Climate%20Change%20Report%202021.pdf",
+                "text": "\nwww.Energy.Maryland.gov 2021 A Report on the Status of Programs Implemented by the Maryland Energy Administration that Support Maryland\u2019s Greenhouse Gas Reduction Efforts or Address Climate Change Citation: \u00a7 2-1305(c) of the Environmental Article MSAR#: 10684 Larry Hogan, Governor Boyd K. Rutherford, Lt. Governor Mary Beth Tung, Director\n",
+                "pub_date": "2024-08-22T02:19:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Maryland Energy Administration",
+                "url": "https://news.maryland.gov/mea/2021/07/21/maryland-energy-administration-announces-the-fy22-solar-canopy-grant-program/",
+                "text": "\nThese solar canopies are expected to generate 4,520,000 kWh of clean, renewable energy per year. These projects were made possible by the Parking Lot Solar PV Canopy with EV Charger Grant Program (aka, Solar Canopy Program), funded by the Strategic Energy Investment Fund (SEIF). Projects included canopies for an apartment building, a factory, a ...\nVisible: 0% - 100%",
+                "pub_date": "2024-06-11T09:49:00.0000000Z",
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: '2025 FY Maryland Energy Administration commercial solar incentive replacing C-CERP'",
+                "url": "",
+                "text": "# \u30100\u2020FY25 Maryland Solar Access Program | Maryland Energy Administration\u2020energy.maryland.gov\u3011\nLast Update: 16 July 2024 FY25 MEA Maryland Solar Access Program FAQ Document 1800 Washington Boulevard, Suite 755 | Baltimore, MD 21230 | Energy.Maryland.gov | 410.537.4000\n# \u30101\u2020FY25 Maryland Solar Access Program | Maryland Energy Administration\u2020energy.maryland.gov\u3011\nProgram Purpose: The Maryland Energy Administration (MEA) FY25 Maryland Solar Access Program will be provided to help eligible Maryland residents install solar photovoltaic (PV) systems to power their homes with clean, affordable, and sustainable energy. This program was established as the \u201cCustomer-sited Solar Grant Program\u201d by the Maryland General Assembly\u2019s passage of 2024 S.B. 783 ...\n# \u30102\u2020Commercial Clean Energy Rebate Program | Maryland Energy Administration\u2020energy.maryland.gov\u3011\nThe current Fiscal Year 2024 (FY24) Commercial-Clean Energy Rebate Program (C-CERP) will be the FINAL OFFERING of this Program. Applications for this program must be received no later than 3:00 P.M. ET, Friday, June 21, 2024 to be considered for a FY24 Award. This date will not be extended. Please also note that current funding is rapidly being ...\n# \u30103\u2020Clean Energy Rebate Program Online Application Portal | FY 2025 (Final ...\u2020havredegracemd.gov\u3011\nFull information on MEA\u2019s FY25 Residential Clean Energy Rebate Program can be found on the R-CERP webpage. Applicants can also access a downloadable document version of the application on the R-CERP webpage, if preferred. Please direct any questions about the R-CERP application process, or the program in general, to CERP.MEA@Maryland.gov. The ...\n# \u30104\u2020Maryland: Commercial Solar Financing + Government Incentives\u2020www.solarfeeds.com\u3011\nCommercial Clean Energy Rebate Program (C-CERP) The solar portion of the C-CERP will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial ...\n# \u30105\u2020Understanding the Brighter Tomorrow Act: A New Era for Solar Energy ...\u2020www.mslaw.com\u3011\nTo support the implementation, the Maryland Energy Administration (MEA) received $4.48 million from the U.S. Department of Energy (DOE). Establishing the Customer-Sited Solar Program in MEA to increase the number of new customer-sited solar energy generating systems and provide grants to eligible customer generators with installed systems.\n# \u30106\u2020HB 1328 Department of Legislative Services Maryland General Assembly ...\u2020mgaleg.maryland.gov\u3011\nIn 2024, the percentage requirements are 33.7% from Tier 1 sources, including at least 6.5% from solar and 0.15% from post-2022 geothermal systems, plus 2.5% from Tier 2 sources. The Tier 1 requirements escalate over time to a minimum of 50% from Tier 1 sources, including 14.5% from solar, by 2030. Climate Solutions Now Act \u2013 The Climate ...\n# \u30107\u2020Key Maryland Commercial Solar Incentives & Rebates\u2020www.commercial-solar.org\u3011\nAdditional Local Commercial Solar Incentives Maryland: Incentives, Rebates, & Grants. ... The state of Maryland offers solar systems rebates up to $30,000 through the Commercial Clean Energy Rebate Program (C-CERP). This rebate runs on a first-come, first-served basis which runs till the budget is exhausted. Currently, the 2023 to 2024 session ...\n# \u30108\u2020Maryland Commercial Clean Energy Rebate Program | Solar Rebates And ...\u2020www.cleanenergyauthority.com\u3011\nThe Maryland Energy Administration (MEA) offers rebates for mid-sized photovoltaic (PV) systems, solar water heating systems (SWH) and Geothermal Heating & Cooling (GHC) installed by businesses, non-profits, and local governments. Funding is available on first-come, first-serve basis and is subject to change based on funding availability.\n# \u30109\u2020HB 550 Department of Legislative Services | Maryland\u2020mgaleg.maryland.gov\u3011\nBill Summary: Medium-Duty and Heavy-Duty Zero-Emission Vehicle Grant Program. The bill replaces requirements that the Governor, in each of fiscal 2024 through 2027, include, in the annual budget bill, appropriations from SEIF of (1) at least $1.0 million for grants under the Medium-Duty and Heavy-Duty (MHD) Zero-Emission Vehicle Grant Program ...\n# \u301010\u2020HOUSE BILL 1328 | Maryland\u2020mgaleg.maryland.gov\u3011\n12 Annotated Code of Maryland 13 (2020 Replacement Volume and 2023 Supplement) 14 BY adding to 15 Article \u2013 State Finance and Procurement 16 Section 4\u2013325 to be under the new part \u201cPart IV. State Purchase of Solar Energy\u201d 17 Annotated Code of Maryland 18 (2021 Replacement Volume and 2023 Supplement) 19 BY adding to\n# \u301011\u2020Maryland Energy Administration | Managing for Results FY 2025\u2020dbm.maryland.gov\u3011\nObj. 1.1 Implement energy efficiency grant programs to help Maryland residents reduce energy usage and lower energy bills. Performance Measures. 2019 Act. 2020 Act. 2021 Act. 2022 Act. 2023 Est. 2024 Est. 2025 Est. Annual energy savings (million British Thermal Units-MMBTU) from energy efficiency grant programs that benefit low-to-moderate ...\n# \u301012\u2020Solar and Environmental Groups Applaud Signing of Maryland's Brighter ...\u2020environmentamerica.org\u3011\nANNAPOLIS, MD \u2013 Today, leading solar and environmental organizations celebrated Maryland Governor Wes Moore for signing the Brighter Tomorrow Act (SB 783), landmark legislation to expand solar energy access and adoption across the state. The bill, which was authored by Delegate David Fraser-Hidalgo and State Senator Sarah Elfreth, will increase solar adoption by automating the permitting ...\n# \u301013\u2020Maryland Energy Administration Announces Bold New Effort to Help More ...\u2020www.nacleanenergy.com\u3011\nThe Maryland Energy Administration announced the launch of an important new program to provide major incentives for income-eligible Maryland households to install solar panels.Contained in the Brighter Tomorrow Act of 2024 recently signed by Governor Wes Moore, the new Maryland Solar Access program will boost solar development in the state and make it easier for more Marylanders to reduce both ...\n# \u301014\u2020Welcome to Maryland Solar Program\u2020marylandcleanenergy.net\u3011\nThe Section 48 commercial credit can be applied to both customer-sited commercial solar systems and large-scale utility solar farms. The residential and commercial solar ITC has helped the U.S. solar industry grow by more than 10,000% percent since it was implemented in 2006, with an average annual growth of 50% over the last decade alone.\n# \u301015\u2020Funding Alert: MEA FY22 Commercial Clean Energy Rebate Program\u2020climatepartners.org\u3011\nFor C-CERP, eligible clean energy systems can be purchased by the applicant, or installed through third-party ownership. Applications will be accepted throughout the fiscal year (July 1, 2021 \u2013 June 30, 2022). To learn more about this opportunity and to apply, visit the Maryland Energy Administration.\n# \u301016\u2020Maryland Solar Incentives and Rebates Guide | Just Energy\u2020justenergy.com\u3011\nThis program is offered by the Maryland Energy Administration and offers a flat rebate of $1,000 per household for a solar panel installation. Established in 2005, this rebate incentive can help homeowners whose primary residence is in Maryland. Residential, multifamily residential buildings and low-income residential housing properties are ...\n# \u301017\u2020Biden-Harris Administration Announces Maryland Clean Energy Center to ...\u2020www.epa.gov\u3011\nWashington (April 23, 2024) - Today, as the Biden-Harris Administration celebrates Earth Day, the U.S. Environmental Protection Agency announced Maryland Clean Energy Center has been selected to receive $62,450,000 through the Solar for All grant competition to develop long-lasting solar programs that enable low-income and disadvantaged communities to deploy and benefit from distributed ...\n# \u301018\u20202021 A Report on the Status of Programs Implemented by the Maryland ...\u2020mde.maryland.gov\u3011\nwww.Energy.Maryland.gov 2021 A Report on the Status of Programs Implemented by the Maryland Energy Administration that Support Maryland\u2019s Greenhouse Gas Reduction Efforts or Address Climate Change Citation: \u00a7 2-1305(c) of the Environmental Article MSAR#: 10684 Larry Hogan, Governor Boyd K. Rutherford, Lt. Governor Mary Beth Tung, Director\n# \u301019\u2020Maryland Energy Administration\u2020news.maryland.gov\u3011\nThese solar canopies are expected to generate 4,520,000 kWh of clean, renewable energy per year. These projects were made possible by the Parking Lot Solar PV Canopy with EV Charger Grant Program (aka, Solar Canopy Program), funded by the Strategic Energy Investment Fund (SEIF). Projects included canopies for an apartment building, a factory, a ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "2025 FY Maryland Energy Administration commercial solar incentive replacing C-CERP"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e4e55c9a-e7a6-484a-8a1b-60874fb375be",
+          "request_id": "8c823ad55e6332d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4e55c9a-e7a6-484a-8a1b-60874fb375be",
+      "children": [
+        "df7fc21e-32bd-4639-b20c-74a422003301"
+      ]
+    },
+    "df7fc21e-32bd-4639-b20c-74a422003301": {
+      "id": "df7fc21e-32bd-4639-b20c-74a422003301",
+      "message": {
+        "id": "df7fc21e-32bd-4639-b20c-74a422003301",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727175208.263937,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "mclick([0, 2, 4, 5, 1])"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e1ba5a9f-a4e9-44b5-880c-8ce0bbd3fd5a",
+          "request_id": "8c823ad55e6332d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "e1ba5a9f-a4e9-44b5-880c-8ce0bbd3fd5a",
+      "children": [
+        "cbae82af-39bf-4f6f-b88e-6417575a38bf"
+      ]
+    },
+    "cbae82af-39bf-4f6f-b88e-6417575a38bf": {
+      "id": "cbae82af-39bf-4f6f-b88e-6417575a38bf",
+      "message": {
+        "id": "cbae82af-39bf-4f6f-b88e-6417575a38bf",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727175208.264012,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/",
+          "domain": "www.solarfeeds.com",
+          "text": "\nSolar Equipment Provided\n\n  * Tier 1 solar modules\n  * Inverter\n  * Battery energy storage system\n\nFor more information, contact us to see how UVcell Solar\u2019s PPA solution can benefit your commercial property or EPC project.\n\n## Free Commercial Solar Financing Maryland\n\nFree commercial solar financing options like Solar Power Purchase Agreements (PPAs) and Commercial Property Assessed Clean Energy (C-PACE), it\u2019s more accessible than ever. Both PPA and C-PACE financing options help Maryland businesses transition to solar energy without financial strain, promoting sustainability and long-term savings.\n\n#### Commercial Property Assessed Clean Energy (C-PACE)\n\n  * No Upfront Costs: Finance solar installations through property tax assessments.\n  * Preserve Capital: Use available funds for other business needs.\n  * Long-term Financing: Spread payments over a long period with low interest rates.\n  * Property-Linked Repayment: Loan repayment is tied to the property, not the business.\n\n#### Solar Power Purchase Agreements (PPAs)\n\n  * No Upfront Costs: Install solar panels without any initial investment.\n  * Immediate Savings: Lower electricity bills from the start.\n  * Predictable Energy Costs: Lock in lower energy rates for the long term.\n  * No Maintenance Responsibilities: The solar provider handles system maintenance and performance.\n\n## Does Maryland Have Any Solar Incentives?\u00a0\n\nYes, Maryland offers several incentives for companies looking to install commercial solar systems.\u00a0\n\nHere are the key incentives available:\n\n### Maryland\u2019s Renewable Portfolio Standard (RPS)\n\nBusinesses can benefit from \u301053\u2020Maryland\u2019s Renewable Energy Portfolio Standard (RPS) Program\u2020www.psc.state.md.us\u3011 by earning and selling Renewable Energy Credits (RECs) generated from renewable energy sources like solar, wind, and biomass. This can create an additional revenue stream.\u00a0\n\nThe program also encourages businesses to invest in renewable energy, leading to potential cost savings on energy bills and contributing to environmental sustainability. Compliance with RPS requirements can enhance a company\u2019s reputation and support state-wide renewable energy goals.\n\n### Solar Sales Tax Exemption\n\nPurchases of solar equipment in Maryland are exempt from sales tax, which is applied at the point of purchase. This exemption is managed by the \u301054\u2020Comptroller of Maryland\u2020www.marylandtaxes.gov\u3011 and benefits all taxpayers within the state.\n\n### Maryland Solar Property & Use Tax Exemptions\n\nBusinesses in Maryland can benefit from the \u301055\u2020Renewable Energy System Property Tax Exemption\u2020dat.maryland.gov\u3011 by installing solar energy systems on their properties. This exemption eliminates the additional property tax typically incurred from the increased property value due to these installations on commercial property. The ongoing exemption provides significant long-term savings and incentivizes investment in renewable energy, enhancing sustainability and reducing operational costs.\n\n### Commercial Clean Energy Rebate Program (C-CERP)\n\n\u301056\u2020The solar portion of the C-CERP\u2020energy.maryland.gov\u3011 will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial solar systems. Applications are accepted on a first-come, first-served basis until the budget is exhausted.\u00a0\n\n### Maryland Energy Storage Income Tax Credit\n\nThe \u301057\u2020Maryland Energy Storage Income Tax Credit\u2020energy.maryland.gov\u3011 provides financial incentives to promote the use of energy storage systems in commercial properties in addition to residential properties. This tax credit is aimed at enhancing the reliability and efficiency of energy consumption while supporting the state\u2019s renewable energy goals.\u00a0\n\nCredit Value\n\n  * The value of the tax credit is calculated as a percentage of the total installed cost of the energy storage system.\n  * For commercial systems, the credit is also up to 30% o f the installed cost, with a cap of $150,000.\n\nApplication Process\n\n  * Applicants must submit an application to the Maryland Energy Administration (MEA) to qualify for the tax credit.\n  * The application includes details about the energy storage system, installation costs, and certification that the system meets the required standards.\n  * The MEA reviews and approves applications on a first-come, first-served basis, subject to the availability of funds.\n\nBenefits\n\n  * Reduces the upfront cost of installing energy storage systems.\n  * Encourages the adoption of renewable energy by making it more feasible to store and use energy generated from sources like solar and wind.\n  * Enhances energy resilience and reliability for businesses.\n\nImpact on Energy Use\n\n  * By storing energy, these systems can help reduce peak demand charges and provide backup power during outages.\n  * They support the integration of renewable energy into the grid, contributing to Maryland\u2019s clean energy goals.\n\n## Federal Solar Tax Credits for Commercial Projects in Maryland\n\nBusinesses in Maryland can benefit from two major federal tax credits to alleviate the costs of installing solar energy systems:\n\n  1. \u301058\u2020Investment Tax Credit (ITC)\u2020www.energy.gov\u3011\n  2. \u301058\u2020Production Tax Credit (PTC)\u2020www.energy.gov\u3011\n\n### Investment Tax Credit (ITC)\n\nThe ITC is a federal tax incentive that allows businesses to deduct a portion of their solar installation costs from their federal taxes. This credit is a significant motivator for the adoption of renewable energy.\n\nKey Features of ITC\n\n  * Deduction Percentage: For solar systems installed between 2022 and 2032, businesses can claim a 30% tax credit.\n  * Eligibility: The ITC is available for both residential and commercial solar systems, applicable to installations on commercial properties, industrial facilities, and more.\n  * Covered Costs: The credit applies to various installation expenses, including equipment, labor, and design costs.\n  * Carryover: If the credit exceeds the business\u2019s tax liability for the year, the excess can be carried forward to future years.\n\nExample of Savings with ITC\n\nImagine a busi",
+          "title": "Maryland: Commercial Solar Financing + Government Incentives - SolarFeeds Magazine",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Maryland: Commercial Solar Financing + Government Incentives - SolarFeeds Magazine",
+                "url": "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/",
+                "text": "\nSolar Equipment Provided\n\n  * Tier 1 solar modules\n  * Inverter\n  * Battery energy storage system\n\nFor more information, contact us to see how UVcell Solar\u2019s PPA solution can benefit your commercial property or EPC project.\n\n## Free Commercial Solar Financing Maryland\n\nFree commercial solar financing options like Solar Power Purchase Agreements (PPAs) and Commercial Property Assessed Clean Energy (C-PACE), it\u2019s more accessible than ever. Both PPA and C-PACE financing options help Maryland businesses transition to solar energy without financial strain, promoting sustainability and long-term savings.\n\n#### Commercial Property Assessed Clean Energy (C-PACE)\n\n  * No Upfront Costs: Finance solar installations through property tax assessments.\n  * Preserve Capital: Use available funds for other business needs.\n  * Long-term Financing: Spread payments over a long period with low interest rates.\n  * Property-Linked Repayment: Loan repayment is tied to the property, not the business.\n\n#### Solar Power Purchase Agreements (PPAs)\n\n  * No Upfront Costs: Install solar panels without any initial investment.\n  * Immediate Savings: Lower electricity bills from the start.\n  * Predictable Energy Costs: Lock in lower energy rates for the long term.\n  * No Maintenance Responsibilities: The solar provider handles system maintenance and performance.\n\n## Does Maryland Have Any Solar Incentives?\u00a0\n\nYes, Maryland offers several incentives for companies looking to install commercial solar systems.\u00a0\n\nHere are the key incentives available:\n\n### Maryland\u2019s Renewable Portfolio Standard (RPS)\n\nBusinesses can benefit from \u301053\u2020Maryland\u2019s Renewable Energy Portfolio Standard (RPS) Program\u2020www.psc.state.md.us\u3011 by earning and selling Renewable Energy Credits (RECs) generated from renewable energy sources like solar, wind, and biomass. This can create an additional revenue stream.\u00a0\n\nThe program also encourages businesses to invest in renewable energy, leading to potential cost savings on energy bills and contributing to environmental sustainability. Compliance with RPS requirements can enhance a company\u2019s reputation and support state-wide renewable energy goals.\n\n### Solar Sales Tax Exemption\n\nPurchases of solar equipment in Maryland are exempt from sales tax, which is applied at the point of purchase. This exemption is managed by the \u301054\u2020Comptroller of Maryland\u2020www.marylandtaxes.gov\u3011 and benefits all taxpayers within the state.\n\n### Maryland Solar Property & Use Tax Exemptions\n\nBusinesses in Maryland can benefit from the \u301055\u2020Renewable Energy System Property Tax Exemption\u2020dat.maryland.gov\u3011 by installing solar energy systems on their properties. This exemption eliminates the additional property tax typically incurred from the increased property value due to these installations on commercial property. The ongoing exemption provides significant long-term savings and incentivizes investment in renewable energy, enhancing sustainability and reducing operational costs.\n\n### Commercial Clean Energy Rebate Program (C-CERP)\n\n\u301056\u2020The solar portion of the C-CERP\u2020energy.maryland.gov\u3011 will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial solar systems. Applications are accepted on a first-come, first-served basis until the budget is exhausted.\u00a0\n\n### Maryland Energy Storage Income Tax Credit\n\nThe \u301057\u2020Maryland Energy Storage Income Tax Credit\u2020energy.maryland.gov\u3011 provides financial incentives to promote the use of energy storage systems in commercial properties in addition to residential properties. This tax credit is aimed at enhancing the reliability and efficiency of energy consumption while supporting the state\u2019s renewable energy goals.\u00a0\n\nCredit Value\n\n  * The value of the tax credit is calculated as a percentage of the total installed cost of the energy storage system.\n  * For commercial systems, the credit is also up to 30% o f the installed cost, with a cap of $150,000.\n\nApplication Process\n\n  * Applicants must submit an application to the Maryland Energy Administration (MEA) to qualify for the tax credit.\n  * The application includes details about the energy storage system, installation costs, and certification that the system meets the required standards.\n  * The MEA reviews and approves applications on a first-come, first-served basis, subject to the availability of funds.\n\nBenefits\n\n  * Reduces the upfront cost of installing energy storage systems.\n  * Encourages the adoption of renewable energy by making it more feasible to store and use energy generated from sources like solar and wind.\n  * Enhances energy resilience and reliability for businesses.\n\nImpact on Energy Use\n\n  * By storing energy, these systems can help reduce peak demand charges and provide backup power during outages.\n  * They support the integration of renewable energy into the grid, contributing to Maryland\u2019s clean energy goals.\n\n## Federal Solar Tax Credits for Commercial Projects in Maryland\n\nBusinesses in Maryland can benefit from two major federal tax credits to alleviate the costs of installing solar energy systems:\n\n  1. \u301058\u2020Investment Tax Credit (ITC)\u2020www.energy.gov\u3011\n  2. \u301058\u2020Production Tax Credit (PTC)\u2020www.energy.gov\u3011\n\n### Investment Tax Credit (ITC)\n\nThe ITC is a federal tax incentive that allows businesses to deduct a portion of their solar installation costs from their federal taxes. This credit is a significant motivator for the adoption of renewable energy.\n\nKey Features of ITC\n\n  * Deduction Percentage: For solar systems installed between 2022 and 2032, businesses can claim a 30% tax credit.\n  * Eligibility: The ITC is available for both residential and commercial solar systems, applicable to installations on commercial properties, industrial facilities, and more.\n  * Covered Costs: The credit applies to various installation expenses, including equipment, labor, and design costs.\n  * Carryover: If the credit exceeds the business\u2019s tax liability for the year, the excess can be carried forward to future years.\n\nExample of Savings with ITC\n\nImagine a busi",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 2, 4, 5, 1]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "df7fc21e-32bd-4639-b20c-74a422003301",
+          "request_id": "8c823ad55e6332d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "df7fc21e-32bd-4639-b20c-74a422003301",
+      "children": [
+        "ae3e3ef7-0ddf-43b0-9313-5a1caa0df59e"
+      ]
+    },
+    "ae3e3ef7-0ddf-43b0-9313-5a1caa0df59e": {
+      "id": "ae3e3ef7-0ddf-43b0-9313-5a1caa0df59e",
+      "message": {
+        "id": "ae3e3ef7-0ddf-43b0-9313-5a1caa0df59e",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1727175208.264062,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland",
+          "domain": "www.mslaw.com",
+          "text": "\nURL: https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland\nYou need to enable JavaScript to run this app.\nVisible: 0% - 100%",
+          "title": "Miles & Stockbridge",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Miles & Stockbridge",
+                "url": "https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland",
+                "text": "\nURL: https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland\nYou need to enable JavaScript to run this app.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[0, 2, 4, 5, 1]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "cbae82af-39bf-4f6f-b88e-6417575a38bf",
+          "request_id": "8c823ad55e6332d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cbae82af-39bf-4f6f-b88e-6417575a38bf",
+      "children": [
+        "d9ff276b-096b-477d-bd88-072d4b9780b7"
+      ]
+    },
+    "d9ff276b-096b-477d-bd88-072d4b9780b7": {
+      "id": "d9ff276b-096b-477d-bd88-072d4b9780b7",
+      "message": {
+        "id": "d9ff276b-096b-477d-bd88-072d4b9780b7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1727175208.264114,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "For Fiscal Year 2025 (FY25), Maryland's Commercial Clean Energy Rebate Program (C-CERP) is being replaced by the **Commercial Solar Pilot Program**. This new program will offer incentives for commercial solar installations, with expected rebates of up to $30,000 per project, similar to the previous C-CERP. The program aims to be launched in the summer of 2024, with more details forthcoming. The focus remains on promoting solar adoption among businesses, non-profits, and local governments, aligning with Maryland\u2019s goals for clean energy and sustainability\u30106\u2020source\u3011\u30107\u2020source\u3011.\n\nIn addition to this, Maryland continues to support solar development through other programs like the **Renewable Portfolio Standard (RPS)** and property tax exemptions for solar installations, which remain key incentives\u30106\u2020source\u3011."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 560,
+              "end_ix": 570,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Maryland: Commercial Solar Financing + Government Incentives - SolarFeeds Magazine",
+                "url": "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/",
+                "text": "\nSolar Equipment Provided\n\n  * Tier 1 solar modules\n  * Inverter\n  * Battery energy storage system\n\nFor more information, contact us to see how UVcell Solar\u2019s PPA solution can benefit your commercial property or EPC project.\n\n## Free Commercial Solar Financing Maryland\n\nFree commercial solar financing options like Solar Power Purchase Agreements (PPAs) and Commercial Property Assessed Clean Energy (C-PACE), it\u2019s more accessible than ever. Both PPA and C-PACE financing options help Maryland businesses transition to solar energy without financial strain, promoting sustainability and long-term savings.\n\n#### Commercial Property Assessed Clean Energy (C-PACE)\n\n  * No Upfront Costs: Finance solar installations through property tax assessments.\n  * Preserve Capital: Use available funds for other business needs.\n  * Long-term Financing: Spread payments over a long period with low interest rates.\n  * Property-Linked Repayment: Loan repayment is tied to the property, not the business.\n\n#### Solar Power Purchase Agreements (PPAs)\n\n  * No Upfront Costs: Install solar panels without any initial investment.\n  * Immediate Savings: Lower electricity bills from the start.\n  * Predictable Energy Costs: Lock in lower energy rates for the long term.\n  * No Maintenance Responsibilities: The solar provider handles system maintenance and performance.\n\n## Does Maryland Have Any Solar Incentives?\u00a0\n\nYes, Maryland offers several incentives for companies looking to install commercial solar systems.\u00a0\n\nHere are the key incentives available:\n\n### Maryland\u2019s Renewable Portfolio Standard (RPS)\n\nBusinesses can benefit from \u301053\u2020Maryland\u2019s Renewable Energy Portfolio Standard (RPS) Program\u2020www.psc.state.md.us\u3011 by earning and selling Renewable Energy Credits (RECs) generated from renewable energy sources like solar, wind, and biomass. This can create an additional revenue stream.\u00a0\n\nThe program also encourages businesses to invest in renewable energy, leading to potential cost savings on energy bills and contributing to environmental sustainability. Compliance with RPS requirements can enhance a company\u2019s reputation and support state-wide renewable energy goals.\n\n### Solar Sales Tax Exemption\n\nPurchases of solar equipment in Maryland are exempt from sales tax, which is applied at the point of purchase. This exemption is managed by the \u301054\u2020Comptroller of Maryland\u2020www.marylandtaxes.gov\u3011 and benefits all taxpayers within the state.\n\n### Maryland Solar Property & Use Tax Exemptions\n\nBusinesses in Maryland can benefit from the \u301055\u2020Renewable Energy System Property Tax Exemption\u2020dat.maryland.gov\u3011 by installing solar energy systems on their properties. This exemption eliminates the additional property tax typically incurred from the increased property value due to these installations on commercial property. The ongoing exemption provides significant long-term savings and incentivizes investment in renewable energy, enhancing sustainability and reducing operational costs.\n\n### Commercial Clean Energy Rebate Program (C-CERP)\n\n\u301056\u2020The solar portion of the C-CERP\u2020energy.maryland.gov\u3011 will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial solar systems. Applications are accepted on a first-come, first-served basis until the budget is exhausted.\u00a0\n\n### Maryland Energy Storage Income Tax Credit\n\nThe \u301057\u2020Maryland Energy Storage Income Tax Credit\u2020energy.maryland.gov\u3011 provides financial incentives to promote the use of energy storage systems in commercial properties in addition to residential properties. This tax credit is aimed at enhancing the reliability and efficiency of energy consumption while supporting the state\u2019s renewable energy goals.\u00a0\n\nCredit Value\n\n  * The value of the tax credit is calculated as a percentage of the total installed cost of the energy storage system.\n  * For commercial systems, the credit is also up to 30% o f the installed cost, with a cap of $150,000.\n\nApplication Process\n\n  * Applicants must submit an application to the Maryland Energy Administration (MEA) to qualify for the tax credit.\n  * The application includes details about the energy storage system, installation costs, and certification that the system meets the required standards.\n  * The MEA reviews and approves applications on a first-come, first-served basis, subject to the availability of funds.\n\nBenefits\n\n  * Reduces the upfront cost of installing energy storage systems.\n  * Encourages the adoption of renewable energy by making it more feasible to store and use energy generated from sources like solar and wind.\n  * Enhances energy resilience and reliability for businesses.\n\nImpact on Energy Use\n\n  * By storing energy, these systems can help reduce peak demand charges and provide backup power during outages.\n  * They support the integration of renewable energy into the grid, contributing to Maryland\u2019s clean energy goals.\n\n## Federal Solar Tax Credits for Commercial Projects in Maryland\n\nBusinesses in Maryland can benefit from two major federal tax credits to alleviate the costs of installing solar energy systems:\n\n  1. \u301058\u2020Investment Tax Credit (ITC)\u2020www.energy.gov\u3011\n  2. \u301058\u2020Production Tax Credit (PTC)\u2020www.energy.gov\u3011\n\n### Investment Tax Credit (ITC)\n\nThe ITC is a federal tax incentive that allows businesses to deduct a portion of their solar installation costs from their federal taxes. This credit is a significant motivator for the adoption of renewable energy.\n\nKey Features of ITC\n\n  * Deduction Percentage: For solar systems installed between 2022 and 2032, businesses can claim a 30% tax credit.\n  * Eligibility: The ITC is available for both residential and commercial solar systems, applicable to installations on commercial properties, industrial facilities, and more.\n  * Covered Costs: The credit applies to various installation expenses, including equipment, labor, and design costs.\n  * Carryover: If the credit exceeds the business\u2019s tax liability for the year, the excess can be carried forward to future years.\n\nExample of Savings with ITC\n\nImagine a busi",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 570,
+              "end_ix": 580,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Miles & Stockbridge",
+                "url": "https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland#:~:text=URL%3A%20https%3A%2F%2Fwww.mslaw.com%2Fmslaw,100",
+                "text": "\nURL: https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland\nYou need to enable JavaScript to run this app.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 7,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            },
+            {
+              "start_ix": 803,
+              "end_ix": 813,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "Maryland: Commercial Solar Financing + Government Incentives - SolarFeeds Magazine",
+                "url": "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/",
+                "text": "\nSolar Equipment Provided\n\n  * Tier 1 solar modules\n  * Inverter\n  * Battery energy storage system\n\nFor more information, contact us to see how UVcell Solar\u2019s PPA solution can benefit your commercial property or EPC project.\n\n## Free Commercial Solar Financing Maryland\n\nFree commercial solar financing options like Solar Power Purchase Agreements (PPAs) and Commercial Property Assessed Clean Energy (C-PACE), it\u2019s more accessible than ever. Both PPA and C-PACE financing options help Maryland businesses transition to solar energy without financial strain, promoting sustainability and long-term savings.\n\n#### Commercial Property Assessed Clean Energy (C-PACE)\n\n  * No Upfront Costs: Finance solar installations through property tax assessments.\n  * Preserve Capital: Use available funds for other business needs.\n  * Long-term Financing: Spread payments over a long period with low interest rates.\n  * Property-Linked Repayment: Loan repayment is tied to the property, not the business.\n\n#### Solar Power Purchase Agreements (PPAs)\n\n  * No Upfront Costs: Install solar panels without any initial investment.\n  * Immediate Savings: Lower electricity bills from the start.\n  * Predictable Energy Costs: Lock in lower energy rates for the long term.\n  * No Maintenance Responsibilities: The solar provider handles system maintenance and performance.\n\n## Does Maryland Have Any Solar Incentives?\u00a0\n\nYes, Maryland offers several incentives for companies looking to install commercial solar systems.\u00a0\n\nHere are the key incentives available:\n\n### Maryland\u2019s Renewable Portfolio Standard (RPS)\n\nBusinesses can benefit from \u301053\u2020Maryland\u2019s Renewable Energy Portfolio Standard (RPS) Program\u2020www.psc.state.md.us\u3011 by earning and selling Renewable Energy Credits (RECs) generated from renewable energy sources like solar, wind, and biomass. This can create an additional revenue stream.\u00a0\n\nThe program also encourages businesses to invest in renewable energy, leading to potential cost savings on energy bills and contributing to environmental sustainability. Compliance with RPS requirements can enhance a company\u2019s reputation and support state-wide renewable energy goals.\n\n### Solar Sales Tax Exemption\n\nPurchases of solar equipment in Maryland are exempt from sales tax, which is applied at the point of purchase. This exemption is managed by the \u301054\u2020Comptroller of Maryland\u2020www.marylandtaxes.gov\u3011 and benefits all taxpayers within the state.\n\n### Maryland Solar Property & Use Tax Exemptions\n\nBusinesses in Maryland can benefit from the \u301055\u2020Renewable Energy System Property Tax Exemption\u2020dat.maryland.gov\u3011 by installing solar energy systems on their properties. This exemption eliminates the additional property tax typically incurred from the increased property value due to these installations on commercial property. The ongoing exemption provides significant long-term savings and incentivizes investment in renewable energy, enhancing sustainability and reducing operational costs.\n\n### Commercial Clean Energy Rebate Program (C-CERP)\n\n\u301056\u2020The solar portion of the C-CERP\u2020energy.maryland.gov\u3011 will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial solar systems. Applications are accepted on a first-come, first-served basis until the budget is exhausted.\u00a0\n\n### Maryland Energy Storage Income Tax Credit\n\nThe \u301057\u2020Maryland Energy Storage Income Tax Credit\u2020energy.maryland.gov\u3011 provides financial incentives to promote the use of energy storage systems in commercial properties in addition to residential properties. This tax credit is aimed at enhancing the reliability and efficiency of energy consumption while supporting the state\u2019s renewable energy goals.\u00a0\n\nCredit Value\n\n  * The value of the tax credit is calculated as a percentage of the total installed cost of the energy storage system.\n  * For commercial systems, the credit is also up to 30% o f the installed cost, with a cap of $150,000.\n\nApplication Process\n\n  * Applicants must submit an application to the Maryland Energy Administration (MEA) to qualify for the tax credit.\n  * The application includes details about the energy storage system, installation costs, and certification that the system meets the required standards.\n  * The MEA reviews and approves applications on a first-come, first-served basis, subject to the availability of funds.\n\nBenefits\n\n  * Reduces the upfront cost of installing energy storage systems.\n  * Encourages the adoption of renewable energy by making it more feasible to store and use energy generated from sources like solar and wind.\n  * Enhances energy resilience and reliability for businesses.\n\nImpact on Energy Use\n\n  * By storing energy, these systems can help reduce peak demand charges and provide backup power during outages.\n  * They support the integration of renewable energy into the grid, contributing to Maryland\u2019s clean energy goals.\n\n## Federal Solar Tax Credits for Commercial Projects in Maryland\n\nBusinesses in Maryland can benefit from two major federal tax credits to alleviate the costs of installing solar energy systems:\n\n  1. \u301058\u2020Investment Tax Credit (ITC)\u2020www.energy.gov\u3011\n  2. \u301058\u2020Production Tax Credit (PTC)\u2020www.energy.gov\u3011\n\n### Investment Tax Credit (ITC)\n\nThe ITC is a federal tax incentive that allows businesses to deduct a portion of their solar installation costs from their federal taxes. This credit is a significant motivator for the adoption of renewable energy.\n\nKey Features of ITC\n\n  * Deduction Percentage: For solar systems installed between 2022 and 2032, businesses can claim a 30% tax credit.\n  * Eligibility: The ITC is available for both residential and commercial solar systems, applicable to installations on commercial properties, industrial facilities, and more.\n  * Covered Costs: The credit applies to various installation expenses, including equipment, labor, and design costs.\n  * Carryover: If the credit exceeds the business\u2019s tax liability for the year, the excess can be carried forward to future years.\n\nExample of Savings with ITC\n\nImagine a busi",
+                "pub_date": null,
+                "extra": {
+                  "cited_message_idx": 6,
+                  "search_result_idx": null,
+                  "evidence_text": "source",
+                  "cloud_doc_url": null
+                }
+              }
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 560,
+              "end_idx": 570,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Maryland: Commercial Solar Financing + Government Incentives - SolarFeeds Magazine",
+              "url": "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/",
+              "pub_date": null,
+              "snippet": "\nSolar Equipment Provided\n\n  * Tier 1 solar modules\n  * Inverter\n  * Battery energy storage system\n\nFor more information, contact us to see how UVcell Solar\u2019s PPA solution can benefit your commercial property or EPC project.\n\n## Free Commercial Solar Financing Maryland\n\nFree commercial solar financing options like Solar Power Purchase Agreements (PPAs) and Commercial Property Assessed Clean Energy (C-PACE), it\u2019s more accessible than ever. Both PPA and C-PACE financing options help Maryland businesses transition to solar energy without financial strain, promoting sustainability and long-term savings.\n\n#### Commercial Property Assessed Clean Energy (C-PACE)\n\n  * No Upfront Costs: Finance solar installations through property tax assessments.\n  * Preserve Capital: Use available funds for other business needs.\n  * Long-term Financing: Spread payments over a long period with low interest rates.\n  * Property-Linked Repayment: Loan repayment is tied to the property, not the business.\n\n#### Solar Power Purchase Agreements (PPAs)\n\n  * No Upfront Costs: Install solar panels without any initial investment.\n  * Immediate Savings: Lower electricity bills from the start.\n  * Predictable Energy Costs: Lock in lower energy rates for the long term.\n  * No Maintenance Responsibilities: The solar provider handles system maintenance and performance.\n\n## Does Maryland Have Any Solar Incentives?\u00a0\n\nYes, Maryland offers several incentives for companies looking to install commercial solar systems.\u00a0\n\nHere are the key incentives available:\n\n### Maryland\u2019s Renewable Portfolio Standard (RPS)\n\nBusinesses can benefit from \u301053\u2020Maryland\u2019s Renewable Energy Portfolio Standard (RPS) Program\u2020www.psc.state.md.us\u3011 by earning and selling Renewable Energy Credits (RECs) generated from renewable energy sources like solar, wind, and biomass. This can create an additional revenue stream.\u00a0\n\nThe program also encourages businesses to invest in renewable energy, leading to potential cost savings on energy bills and contributing to environmental sustainability. Compliance with RPS requirements can enhance a company\u2019s reputation and support state-wide renewable energy goals.\n\n### Solar Sales Tax Exemption\n\nPurchases of solar equipment in Maryland are exempt from sales tax, which is applied at the point of purchase. This exemption is managed by the \u301054\u2020Comptroller of Maryland\u2020www.marylandtaxes.gov\u3011 and benefits all taxpayers within the state.\n\n### Maryland Solar Property & Use Tax Exemptions\n\nBusinesses in Maryland can benefit from the \u301055\u2020Renewable Energy System Property Tax Exemption\u2020dat.maryland.gov\u3011 by installing solar energy systems on their properties. This exemption eliminates the additional property tax typically incurred from the increased property value due to these installations on commercial property. The ongoing exemption provides significant long-term savings and incentivizes investment in renewable energy, enhancing sustainability and reducing operational costs.\n\n### Commercial Clean Energy Rebate Program (C-CERP)\n\n\u301056\u2020The solar portion of the C-CERP\u2020energy.maryland.gov\u3011 will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial solar systems. Applications are accepted on a first-come, first-served basis until the budget is exhausted.\u00a0\n\n### Maryland Energy Storage Income Tax Credit\n\nThe \u301057\u2020Maryland Energy Storage Income Tax Credit\u2020energy.maryland.gov\u3011 provides financial incentives to promote the use of energy storage systems in commercial properties in addition to residential properties. This tax credit is aimed at enhancing the reliability and efficiency of energy consumption while supporting the state\u2019s renewable energy goals.\u00a0\n\nCredit Value\n\n  * The value of the tax credit is calculated as a percentage of the total installed cost of the energy storage system.\n  * For commercial systems, the credit is also up to 30% o f the installed cost, with a cap of $150,000.\n\nApplication Process\n\n  * Applicants must submit an application to the Maryland Energy Administration (MEA) to qualify for the tax credit.\n  * The application includes details about the energy storage system, installation costs, and certification that the system meets the required standards.\n  * The MEA reviews and approves applications on a first-come, first-served basis, subject to the availability of funds.\n\nBenefits\n\n  * Reduces the upfront cost of installing energy storage systems.\n  * Encourages the adoption of renewable energy by making it more feasible to store and use energy generated from sources like solar and wind.\n  * Enhances energy resilience and reliability for businesses.\n\nImpact on Energy Use\n\n  * By storing energy, these systems can help reduce peak demand charges and provide backup power during outages.\n  * They support the integration of renewable energy into the grid, contributing to Maryland\u2019s clean energy goals.\n\n## Federal Solar Tax Credits for Commercial Projects in Maryland\n\nBusinesses in Maryland can benefit from two major federal tax credits to alleviate the costs of installing solar energy systems:\n\n  1. \u301058\u2020Investment Tax Credit (ITC)\u2020www.energy.gov\u3011\n  2. \u301058\u2020Production Tax Credit (PTC)\u2020www.energy.gov\u3011\n\n### Investment Tax Credit (ITC)\n\nThe ITC is a federal tax incentive that allows businesses to deduct a portion of their solar installation costs from their federal taxes. This credit is a significant motivator for the adoption of renewable energy.\n\nKey Features of ITC\n\n  * Deduction Percentage: For solar systems installed between 2022 and 2032, businesses can claim a 30% tax credit.\n  * Eligibility: The ITC is available for both residential and commercial solar systems, applicable to installations on commercial properties, industrial facilities, and more.\n  * Covered Costs: The credit applies to various installation expenses, including equipment, labor, and design costs.\n  * Carryover: If the credit exceeds the business\u2019s tax liability for the year, the excess can be carried forward to future years.\n\nExample of Savings with ITC\n\nImagine a busi"
+            },
+            {
+              "matched_text": "\u30107\u2020source\u3011",
+              "start_idx": 570,
+              "end_idx": 580,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Miles & Stockbridge",
+              "url": "https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland",
+              "pub_date": null,
+              "snippet": "\nURL: https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland\nYou need to enable JavaScript to run this app.\nVisible: 0% - 100%"
+            },
+            {
+              "matched_text": "\u30106\u2020source\u3011",
+              "start_idx": 803,
+              "end_idx": 813,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "Maryland: Commercial Solar Financing + Government Incentives - SolarFeeds Magazine",
+              "url": "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/",
+              "pub_date": null,
+              "snippet": "\nSolar Equipment Provided\n\n  * Tier 1 solar modules\n  * Inverter\n  * Battery energy storage system\n\nFor more information, contact us to see how UVcell Solar\u2019s PPA solution can benefit your commercial property or EPC project.\n\n## Free Commercial Solar Financing Maryland\n\nFree commercial solar financing options like Solar Power Purchase Agreements (PPAs) and Commercial Property Assessed Clean Energy (C-PACE), it\u2019s more accessible than ever. Both PPA and C-PACE financing options help Maryland businesses transition to solar energy without financial strain, promoting sustainability and long-term savings.\n\n#### Commercial Property Assessed Clean Energy (C-PACE)\n\n  * No Upfront Costs: Finance solar installations through property tax assessments.\n  * Preserve Capital: Use available funds for other business needs.\n  * Long-term Financing: Spread payments over a long period with low interest rates.\n  * Property-Linked Repayment: Loan repayment is tied to the property, not the business.\n\n#### Solar Power Purchase Agreements (PPAs)\n\n  * No Upfront Costs: Install solar panels without any initial investment.\n  * Immediate Savings: Lower electricity bills from the start.\n  * Predictable Energy Costs: Lock in lower energy rates for the long term.\n  * No Maintenance Responsibilities: The solar provider handles system maintenance and performance.\n\n## Does Maryland Have Any Solar Incentives?\u00a0\n\nYes, Maryland offers several incentives for companies looking to install commercial solar systems.\u00a0\n\nHere are the key incentives available:\n\n### Maryland\u2019s Renewable Portfolio Standard (RPS)\n\nBusinesses can benefit from \u301053\u2020Maryland\u2019s Renewable Energy Portfolio Standard (RPS) Program\u2020www.psc.state.md.us\u3011 by earning and selling Renewable Energy Credits (RECs) generated from renewable energy sources like solar, wind, and biomass. This can create an additional revenue stream.\u00a0\n\nThe program also encourages businesses to invest in renewable energy, leading to potential cost savings on energy bills and contributing to environmental sustainability. Compliance with RPS requirements can enhance a company\u2019s reputation and support state-wide renewable energy goals.\n\n### Solar Sales Tax Exemption\n\nPurchases of solar equipment in Maryland are exempt from sales tax, which is applied at the point of purchase. This exemption is managed by the \u301054\u2020Comptroller of Maryland\u2020www.marylandtaxes.gov\u3011 and benefits all taxpayers within the state.\n\n### Maryland Solar Property & Use Tax Exemptions\n\nBusinesses in Maryland can benefit from the \u301055\u2020Renewable Energy System Property Tax Exemption\u2020dat.maryland.gov\u3011 by installing solar energy systems on their properties. This exemption eliminates the additional property tax typically incurred from the increased property value due to these installations on commercial property. The ongoing exemption provides significant long-term savings and incentivizes investment in renewable energy, enhancing sustainability and reducing operational costs.\n\n### Commercial Clean Energy Rebate Program (C-CERP)\n\n\u301056\u2020The solar portion of the C-CERP\u2020energy.maryland.gov\u3011 will be replaced by the upcoming FY25 Commercial Solar Pilot Program (working name) to be launched in the Summer of 2024. The Maryland Energy Administration will publish more information later this year. This program offers rebates of up to $30,000 for commercial solar systems. Applications are accepted on a first-come, first-served basis until the budget is exhausted.\u00a0\n\n### Maryland Energy Storage Income Tax Credit\n\nThe \u301057\u2020Maryland Energy Storage Income Tax Credit\u2020energy.maryland.gov\u3011 provides financial incentives to promote the use of energy storage systems in commercial properties in addition to residential properties. This tax credit is aimed at enhancing the reliability and efficiency of energy consumption while supporting the state\u2019s renewable energy goals.\u00a0\n\nCredit Value\n\n  * The value of the tax credit is calculated as a percentage of the total installed cost of the energy storage system.\n  * For commercial systems, the credit is also up to 30% o f the installed cost, with a cap of $150,000.\n\nApplication Process\n\n  * Applicants must submit an application to the Maryland Energy Administration (MEA) to qualify for the tax credit.\n  * The application includes details about the energy storage system, installation costs, and certification that the system meets the required standards.\n  * The MEA reviews and approves applications on a first-come, first-served basis, subject to the availability of funds.\n\nBenefits\n\n  * Reduces the upfront cost of installing energy storage systems.\n  * Encourages the adoption of renewable energy by making it more feasible to store and use energy generated from sources like solar and wind.\n  * Enhances energy resilience and reliability for businesses.\n\nImpact on Energy Use\n\n  * By storing energy, these systems can help reduce peak demand charges and provide backup power during outages.\n  * They support the integration of renewable energy into the grid, contributing to Maryland\u2019s clean energy goals.\n\n## Federal Solar Tax Credits for Commercial Projects in Maryland\n\nBusinesses in Maryland can benefit from two major federal tax credits to alleviate the costs of installing solar energy systems:\n\n  1. \u301058\u2020Investment Tax Credit (ITC)\u2020www.energy.gov\u3011\n  2. \u301058\u2020Production Tax Credit (PTC)\u2020www.energy.gov\u3011\n\n### Investment Tax Credit (ITC)\n\nThe ITC is a federal tax incentive that allows businesses to deduct a portion of their solar installation costs from their federal taxes. This credit is a significant motivator for the adoption of renewable energy.\n\nKey Features of ITC\n\n  * Deduction Percentage: For solar systems installed between 2022 and 2032, businesses can claim a 30% tax credit.\n  * Eligibility: The ITC is available for both residential and commercial solar systems, applicable to installations on commercial properties, industrial facilities, and more.\n  * Covered Costs: The credit applies to various installation expenses, including equipment, labor, and design costs.\n  * Carryover: If the credit exceeds the business\u2019s tax liability for the year, the excess can be carried forward to future years.\n\nExample of Savings with ITC\n\nImagine a busi"
+            }
+          ],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAA",
+          "parent_id": "ae3e3ef7-0ddf-43b0-9313-5a1caa0df59e",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8c823ad55e6332d2-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ae3e3ef7-0ddf-43b0-9313-5a1caa0df59e",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d9ff276b-096b-477d-bd88-072d4b9780b7",
+  "plugin_ids": null,
+  "conversation_id": "66f29a1d-15b4-8009-b019-c202673479c7",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-marylandYou",
+    "https://www.mslaw.com/mslaw-blog/understanding-the-brighter-tomorrow-act-a-new-era-for-solar-energy-development-in-maryland",
+    "https://www.solarfeeds.com/mag/maryland-commercial-solar-financing-government-incentives/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "66f29a1d-15b4-8009-b019-c202673479c7"
+}

@@ -1,0 +1,907 @@
+{
+  "title": "Math Tutor on Fiverr",
+  "create_time": 1708479936.077138,
+  "update_time": 1708522449.84097,
+  "mapping": {
+    "F9BA7C09-8E78-44FF-BA9F-CDFEBE8FA728": {
+      "id": "F9BA7C09-8E78-44FF-BA9F-CDFEBE8FA728",
+      "message": null,
+      "parent": null,
+      "children": [
+        "638db4d3-5c21-430f-b2c7-454b810fb388"
+      ]
+    },
+    "638db4d3-5c21-430f-b2c7-454b810fb388": {
+      "id": "638db4d3-5c21-430f-b2c7-454b810fb388",
+      "message": {
+        "id": "638db4d3-5c21-430f-b2c7-454b810fb388",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "F9BA7C09-8E78-44FF-BA9F-CDFEBE8FA728",
+      "children": [
+        "a47e1c2d-ead3-4368-8a63-5bea6b191390"
+      ]
+    },
+    "a47e1c2d-ead3-4368-8a63-5bea6b191390": {
+      "id": "a47e1c2d-ead3-4368-8a63-5bea6b191390",
+      "message": {
+        "id": "a47e1c2d-ead3-4368-8a63-5bea6b191390",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708479936.078402,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Average sat score for out of state applicants at university of Michigan "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "858b4f8fcf4b07d4-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "638db4d3-5c21-430f-b2c7-454b810fb388",
+      "children": [
+        "3b4bf9e1-4cfa-4752-a465-dbf267d800e5"
+      ]
+    },
+    "3b4bf9e1-4cfa-4752-a465-dbf267d800e5": {
+      "id": "3b4bf9e1-4cfa-4752-a465-dbf267d800e5",
+      "message": {
+        "id": "3b4bf9e1-4cfa-4752-a465-dbf267d800e5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708479947.057514,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"average SAT score for out-of-state applicants University of Michigan\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "a47e1c2d-ead3-4368-8a63-5bea6b191390",
+          "request_id": "858b4f8fcf4b07d4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "a47e1c2d-ead3-4368-8a63-5bea6b191390",
+      "children": [
+        "27c73ecc-008a-4472-bff2-2139bc3a7834"
+      ]
+    },
+    "27c73ecc-008a-4472-bff2-2139bc3a7834": {
+      "id": "27c73ecc-008a-4472-bff2-2139bc3a7834",
+      "message": {
+        "id": "27c73ecc-008a-4472-bff2-2139bc3a7834",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1708479947.059577,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u2020University of Michigan SAT Scores and GPA - PrepScholar\u2020www.prepscholar.com\u3011\nThe average SAT score composite at University of Michigan is a 1435. University of Michigan SAT Score Analysis. ... This will help you compete effectively with other applicants. Admissions Rate: 17.7%. The acceptance rate at University of Michigan is 17.7%. In other words, of 100 students who apply, only 18 are admitted.\n# \u30101\u2020How to Get Into the University of Michigan: Acceptance Rate and Strategies\u2020www.collegetransitions.com\u3011\nUniversity of Michigan Out of State Acceptance Rate. In one recent admissions cycle, the UMich out of state acceptance rate was 18% compared to a 39% in-state acceptance rate. ... How Michigan Rates Applicants. ... If you possess anything shy of a 1350+ SAT score and a 3.9 GPA obtained in an honors/AP course load, you\u2019ll need to bring some ...\n# \u30102\u2020University Of Michigan Out Of State Acceptance Rate - EducationScientists\u2020educationscientists.com\u3011\nUMich Acceptance Rate Out Of State. Applications rose from 65,021 to 83,029 in the 2020-21 admissions cycle. The in-state acceptance rate is far higher than the acceptance rate for non-residents\u2014for the Class of 2024, 47.5% of state taxpayers\u2019 children were accepted compared to 21.9% of out-of-state applicants.\n# \u30103\u2020Facts & Figures \u203a University of Michigan\u2020umich.edu\u3011\nHere are a few facts and figures that help illustrate the breadth and depth of the University of Michigan. Skip global navigation. University of Michigan. Report Sexual Misconduct, Discrimination and Harassment ... 31\u201334 Average ACT; 1350-1530 Average SAT range; Athletics. 415 All-time Big 10 athletic championships ... Out-of-state: 16,009: ...\n# \u30104\u2020University of Michigan - Admission Requirements, SAT, ACT, GPA and ...\u2020www.collegesimply.com\u3011\nThe average SAT score at Michigan is 1430 out of 1600 and the range for the middle 50% of accepted students is 1340-1520. Students who get into University of Michigan score in the top 9 percent of all SAT test takers.. ... 54 percent of applicants submit ACT scores to University of Michigan.\n# \u30105\u2020This Year's University of Michigan Admission Requirements - PrepScholar\u2020www.prepscholar.com\u3011\nThe acceptance rate at University of Michigan is 17.7%. For every 100 applicants, only 18 are admitted. ... The average SAT score composite at University of Michigan is a 1435 on the 1600 SAT scale. This score makes University of Michigan Strongly Competitive for SAT test scores.\n# \u30106\u2020University of Michigan - Average SAT Scores and ... - CollegeSimply\u2020www.collegesimply.com\u3011\nIf you do elect to submit your SAT scores, the following information is helpful to understand how you compare with other applicants. Average SAT Score 1430. The average composite SAT score for admitted University of Michigan freshman is 1430 out of 1600. Michigan students have the 55th highest average SAT score in the United States.\n# \u30107\u2020University of Michigan: Acceptance Rate, SAT/ACT Scores, GPA - ThoughtCo\u2020www.thoughtco.com\u3011\n740. Math. 680. 790. ERW=Evidence-Based Reading and Writing. This admissions data tells us that most of Michigan's admitted students fall within the top 20% nationally on the SAT. For the evidence-based reading and writing section, 50% of students admitted to University of Michigan scored between 660 and 740, while 25% scored below 660 and 25% ...\n# \u30108\u2020How to Get Into the University of Michigan - InGenius Prep\u2020ingeniusprep.com\u3011\nThe out-of-state acceptance rate is 18.9% (4.1% lower than the overall rate), making the process even more competitive. ... The median ACT score range for the entering class of 2021 was 32-35, while the median SAT score range was 1400-1540. ... How difficult is it to get into the University of Michigan as an out-of-state student?\n# \u30109\u2020Selection Process | University of Michigan Office of Undergraduate ...\u2020admissions.umich.edu\u3011\nWhat kind of student will succeed at the University of Michigan? We look at each student as a whole package, a combination of talents, interests, passions, and skills. In this way, we can look beyond grades and test scores to recruit the most dynamic group of students possible. A wide variety of backgrounds, intellectual passions, and interests make up the typical applicant.\n# \u301010\u2020BBA Admissions | Michigan Ross\u2020michiganross.umich.edu\u3011\nUpper Division Tuition. (55+ credits towards program) $22,018. $62,618. The 2023-2024 tuition rates were approved by the University of Michigan Board of Regents in June 2023. 2024-2025 tuition rates and cost of attendance budget will be available July 2024. Tuition & Financial Aid.\n# \u301011\u2020University of Michigan-Ann Arbor (out-of-state) - College Raptor\u2020www.collegeraptor.com\u3011\nThe undergraduate application fee requires by the University of Michigan-Ann Arbor is $75. First-year students should submit their ACT or SAT scores to the University of Michigan-Ann Arbor when filling out the application. Usually, an ACT score of 30 - 35 or a 1,370 - 1,530 SAT score is the range that students have greater chances to be accepted.\n# \u301012\u2020UMich: 2024 Requirements, Scores & GPAs | CampusReel\u2020www.campusreel.org\u3011\nUniversity of Michigan-Ann Arbor\u2019s average GPA is 3.86. University of Michigan-Ann Arbor does require GPA. This average GPA means University of Michigan-Ann Arbor is very selective. Often times, schools in this range are trying to increase their selectivity and \u201cprestige\u201d. We can\u2019t read the minds of UMich application readers, but they ...\n# \u301013\u2020University of Michigan - Admissions and Acceptance rate - Turito\u2020www.turito.com\u3011\nUniversity of Michigan Acceptance Rate 2020-21. Michigan got 83,029 applications from freshmen for the class of 2020-21. 16,235 individuals were accepted from these applications, for an acceptance rate of 18.2 percent. It is lower than the admission rate for the class of 2019-20, which was 26%. In 2019-20, admissions were given to 16,974 ...\n# \u301014\u2020Average SAT Scores by State (Most Recent) - PrepScholar\u2020blog.prepscholar.com\u3011\nHighest Score: North Dakota (SAT Score: 1287) Wisconsin takes the cake for highest average SAT score with 1287. This is 259 points higher than the national average! But wait\u2014North Dakota also has lower test participation than most of the US at 1%. In other words, just 83 seniors who graduated in 2023 took the SAT.\n# \u301015\u2020Requirements & Deadlines | University of Michigan Office of ...\u2020admissions.umich.edu\u3011\nFeb 1. Fall Term Application Deadline. Summer Half Term Application Deadline. Mar 31. Financial Aid Deadline for All Incoming Students. May 1. Enrollment Deposit Deadline for Fall Term. Students who submit an application before they have received a high school diploma will apply as a first-year student, and should submit the following items ...\n# \u301016\u2020We looked at the 301 high schools with the most applicants to U-M. Here ...\u2020www.michigandaily.com\u3011\nOut-of-state tuition at the University ranges between $52,000 and $56,000 per year depending on class level \u2014 more than double the $21,000 average cost of tuition for an out-of-state, public college, according to U.S. News. White students are overrepresented at high schools with high application volume\n# \u301017\u2020Out-of-State versus In-State Acceptance Rates at Top Public ...\u2020www.collegetransitions.com\u3011\nThose seeking to attend an out-of-state public university will encounter very different acceptance rates and tuition costs than residents. ... SAT and GPA results for out-of-state vs. in-state applicants; ... Students admitted to UVA from Virginia possessed an average SAT score of 1419 while out-of-staters held a superior mean mark of 1466. At ...\n# \u301018\u2020Enrollment Reports | Office of the Registrar - University of Michigan\u2020ro.umich.edu\u3011\n202: Student Credit Hours Taught to Students in Own Unit vs. Those in Other Units by Unit of Instruction and Class Level\n# \u301019\u2020Michigan State: Acceptance Rate, SAT/ACT Scores, GPA - ThoughtCo\u2020www.thoughtco.com\u3011\nAcceptance Rate. During the 2018-19 admissions cycle, Michigan State University had an acceptance rate of 71%. This means that for every 100 students who applied, 71 students were admitted, making Michigan State's admissions process moderately selective. Admissions Statistics (2018-19) Number of Applicants. 44,322.\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og",
+              "regex": "\u3010(\\d+)(?::(\\d+))?\u2020([^\u2020\u3010\u3011]*)[^\u3010\u3011]*?\u3011"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "University of Michigan SAT Scores and GPA - PrepScholar",
+                "url": "https://www.prepscholar.com/sat/s/colleges/University-of-Michigan-SAT-scores-GPA",
+                "text": "\nThe average SAT score composite at University of Michigan is a 1435. University of Michigan SAT Score Analysis. ... This will help you compete effectively with other applicants. Admissions Rate: 17.7%. The acceptance rate at University of Michigan is 17.7%. In other words, of 100 students who apply, only 18 are admitted.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Get Into the University of Michigan: Acceptance Rate and Strategies",
+                "url": "https://www.collegetransitions.com/blog/how-to-get-into-the-university-of-michigan-admissions-data-and-strategies",
+                "text": "\nUniversity of Michigan Out of State Acceptance Rate. In one recent admissions cycle, the UMich out of state acceptance rate was 18% compared to a 39% in-state acceptance rate. ... How Michigan Rates Applicants. ... If you possess anything shy of a 1350+ SAT score and a 3.9 GPA obtained in an honors/AP course load, you\u2019ll need to bring some ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "University Of Michigan Out Of State Acceptance Rate - EducationScientists",
+                "url": "https://educationscientists.com/university-of-michigan-out-of-state/",
+                "text": "\nUMich Acceptance Rate Out Of State. Applications rose from 65,021 to 83,029 in the 2020-21 admissions cycle. The in-state acceptance rate is far higher than the acceptance rate for non-residents\u2014for the Class of 2024, 47.5% of state taxpayers\u2019 children were accepted compared to 21.9% of out-of-state applicants.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Facts & Figures \u203a University of Michigan",
+                "url": "https://umich.edu/facts-figures/",
+                "text": "\nHere are a few facts and figures that help illustrate the breadth and depth of the University of Michigan. Skip global navigation. University of Michigan. Report Sexual Misconduct, Discrimination and Harassment ... 31\u201334 Average ACT; 1350-1530 Average SAT range; Athletics. 415 All-time Big 10 athletic championships ... Out-of-state: 16,009: ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "University of Michigan - Admission Requirements, SAT, ACT, GPA and ...",
+                "url": "https://www.collegesimply.com/colleges/michigan/university-of-michigan-ann-arbor/admission/",
+                "text": "\nThe average SAT score at Michigan is 1430 out of 1600 and the range for the middle 50% of accepted students is 1340-1520. Students who get into University of Michigan score in the top 9 percent of all SAT test takers.. ... 54 percent of applicants submit ACT scores to University of Michigan.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "This Year's University of Michigan Admission Requirements - PrepScholar",
+                "url": "https://www.prepscholar.com/sat/s/colleges/University-of-Michigan-admission-requirements",
+                "text": "\nThe acceptance rate at University of Michigan is 17.7%. For every 100 applicants, only 18 are admitted. ... The average SAT score composite at University of Michigan is a 1435 on the 1600 SAT scale. This score makes University of Michigan Strongly Competitive for SAT test scores.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "University of Michigan - Average SAT Scores and ... - CollegeSimply",
+                "url": "https://www.collegesimply.com/colleges/michigan/university-of-michigan-ann-arbor/admission-chances-sat-score/",
+                "text": "\nIf you do elect to submit your SAT scores, the following information is helpful to understand how you compare with other applicants. Average SAT Score 1430. The average composite SAT score for admitted University of Michigan freshman is 1430 out of 1600. Michigan students have the 55th highest average SAT score in the United States.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "University of Michigan: Acceptance Rate, SAT/ACT Scores, GPA - ThoughtCo",
+                "url": "https://www.thoughtco.com/university-michigan-gpa-sat-act-data-786716",
+                "text": "\n740. Math. 680. 790. ERW=Evidence-Based Reading and Writing. This admissions data tells us that most of Michigan's admitted students fall within the top 20% nationally on the SAT. For the evidence-based reading and writing section, 50% of students admitted to University of Michigan scored between 660 and 740, while 25% scored below 660 and 25% ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to Get Into the University of Michigan - InGenius Prep",
+                "url": "https://ingeniusprep.com/blog/how-to-get-into-the-university-of-michigan/",
+                "text": "\nThe out-of-state acceptance rate is 18.9% (4.1% lower than the overall rate), making the process even more competitive. ... The median ACT score range for the entering class of 2021 was 32-35, while the median SAT score range was 1400-1540. ... How difficult is it to get into the University of Michigan as an out-of-state student?\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Selection Process | University of Michigan Office of Undergraduate ...",
+                "url": "https://admissions.umich.edu/apply/first-year-applicants/selection-process",
+                "text": "\nWhat kind of student will succeed at the University of Michigan? We look at each student as a whole package, a combination of talents, interests, passions, and skills. In this way, we can look beyond grades and test scores to recruit the most dynamic group of students possible. A wide variety of backgrounds, intellectual passions, and interests make up the typical applicant.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "BBA Admissions | Michigan Ross",
+                "url": "https://michiganross.umich.edu/undergraduate/bba/admissions",
+                "text": "\nUpper Division Tuition. (55+ credits towards program) $22,018. $62,618. The 2023-2024 tuition rates were approved by the University of Michigan Board of Regents in June 2023. 2024-2025 tuition rates and cost of attendance budget will be available July 2024. Tuition & Financial Aid.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "University of Michigan-Ann Arbor (out-of-state) - College Raptor",
+                "url": "https://www.collegeraptor.com/colleges/admissions/University-of-Michigan-Ann-Arbor-MI--170976",
+                "text": "\nThe undergraduate application fee requires by the University of Michigan-Ann Arbor is $75. First-year students should submit their ACT or SAT scores to the University of Michigan-Ann Arbor when filling out the application. Usually, an ACT score of 30 - 35 or a 1,370 - 1,530 SAT score is the range that students have greater chances to be accepted.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "UMich: 2024 Requirements, Scores & GPAs | CampusReel",
+                "url": "https://www.campusreel.org/how-to-get-into-college/university-of-michigan-ann-arbor-admissions-requirements-and-gpa",
+                "text": "\nUniversity of Michigan-Ann Arbor\u2019s average GPA is 3.86. University of Michigan-Ann Arbor does require GPA. This average GPA means University of Michigan-Ann Arbor is very selective. Often times, schools in this range are trying to increase their selectivity and \u201cprestige\u201d. We can\u2019t read the minds of UMich application readers, but they ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "University of Michigan - Admissions and Acceptance rate - Turito",
+                "url": "https://www.turito.com/blog/college-guide/michigan-admission-and-acceptance-rate",
+                "text": "\nUniversity of Michigan Acceptance Rate 2020-21. Michigan got 83,029 applications from freshmen for the class of 2020-21. 16,235 individuals were accepted from these applications, for an acceptance rate of 18.2 percent. It is lower than the admission rate for the class of 2019-20, which was 26%. In 2019-20, admissions were given to 16,974 ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Average SAT Scores by State (Most Recent) - PrepScholar",
+                "url": "https://blog.prepscholar.com/average-sat-scores-by-state-most-recent",
+                "text": "\nHighest Score: North Dakota (SAT Score: 1287) Wisconsin takes the cake for highest average SAT score with 1287. This is 259 points higher than the national average! But wait\u2014North Dakota also has lower test participation than most of the US at 1%. In other words, just 83 seniors who graduated in 2023 took the SAT.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Requirements & Deadlines | University of Michigan Office of ...",
+                "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
+                "text": "\nFeb 1. Fall Term Application Deadline. Summer Half Term Application Deadline. Mar 31. Financial Aid Deadline for All Incoming Students. May 1. Enrollment Deposit Deadline for Fall Term. Students who submit an application before they have received a high school diploma will apply as a first-year student, and should submit the following items ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "We looked at the 301 high schools with the most applicants to U-M. Here ...",
+                "url": "https://www.michigandaily.com/news/academics/we-looked-301-high-schools-most-applicants-u-m-heres-what-we-found/",
+                "text": "\nOut-of-state tuition at the University ranges between $52,000 and $56,000 per year depending on class level \u2014 more than double the $21,000 average cost of tuition for an out-of-state, public college, according to U.S. News. White students are overrepresented at high schools with high application volume\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Out-of-State versus In-State Acceptance Rates at Top Public ...",
+                "url": "https://www.collegetransitions.com/blog/out-of-state-public-university/",
+                "text": "\nThose seeking to attend an out-of-state public university will encounter very different acceptance rates and tuition costs than residents. ... SAT and GPA results for out-of-state vs. in-state applicants; ... Students admitted to UVA from Virginia possessed an average SAT score of 1419 while out-of-staters held a superior mean mark of 1466. At ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Enrollment Reports | Office of the Registrar - University of Michigan",
+                "url": "https://ro.umich.edu/reports/enrollment",
+                "text": "\n202: Student Credit Hours Taught to Students in Own Unit vs. Those in Other Units by Unit of Instruction and Class Level\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Michigan State: Acceptance Rate, SAT/ACT Scores, GPA - ThoughtCo",
+                "url": "https://www.thoughtco.com/michigan-state-university-gpa-sat-act-786548",
+                "text": "\nAcceptance Rate. During the 2018-19 admissions cycle, Michigan State University had an acceptance rate of 71%. This means that for every 100 students who applied, 71 students were admitted, making Michigan State's admissions process moderately selective. Admissions Statistics (2018-19) Number of Applicants. 44,322.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'average SAT score for out-of-state applicants University of Michigan'",
+                "url": "",
+                "text": "# \u30100\u2020University of Michigan SAT Scores and GPA - PrepScholar\u2020www.prepscholar.com\u3011\nThe average SAT score composite at University of Michigan is a 1435. University of Michigan SAT Score Analysis. ... This will help you compete effectively with other applicants. Admissions Rate: 17.7%. The acceptance rate at University of Michigan is 17.7%. In other words, of 100 students who apply, only 18 are admitted.\n# \u30101\u2020How to Get Into the University of Michigan: Acceptance Rate and Strategies\u2020www.collegetransitions.com\u3011\nUniversity of Michigan Out of State Acceptance Rate. In one recent admissions cycle, the UMich out of state acceptance rate was 18% compared to a 39% in-state acceptance rate. ... How Michigan Rates Applicants. ... If you possess anything shy of a 1350+ SAT score and a 3.9 GPA obtained in an honors/AP course load, you\u2019ll need to bring some ...\n# \u30102\u2020University Of Michigan Out Of State Acceptance Rate - EducationScientists\u2020educationscientists.com\u3011\nUMich Acceptance Rate Out Of State. Applications rose from 65,021 to 83,029 in the 2020-21 admissions cycle. The in-state acceptance rate is far higher than the acceptance rate for non-residents\u2014for the Class of 2024, 47.5% of state taxpayers\u2019 children were accepted compared to 21.9% of out-of-state applicants.\n# \u30103\u2020Facts & Figures \u203a University of Michigan\u2020umich.edu\u3011\nHere are a few facts and figures that help illustrate the breadth and depth of the University of Michigan. Skip global navigation. University of Michigan. Report Sexual Misconduct, Discrimination and Harassment ... 31\u201334 Average ACT; 1350-1530 Average SAT range; Athletics. 415 All-time Big 10 athletic championships ... Out-of-state: 16,009: ...\n# \u30104\u2020University of Michigan - Admission Requirements, SAT, ACT, GPA and ...\u2020www.collegesimply.com\u3011\nThe average SAT score at Michigan is 1430 out of 1600 and the range for the middle 50% of accepted students is 1340-1520. Students who get into University of Michigan score in the top 9 percent of all SAT test takers.. ... 54 percent of applicants submit ACT scores to University of Michigan.\n# \u30105\u2020This Year's University of Michigan Admission Requirements - PrepScholar\u2020www.prepscholar.com\u3011\nThe acceptance rate at University of Michigan is 17.7%. For every 100 applicants, only 18 are admitted. ... The average SAT score composite at University of Michigan is a 1435 on the 1600 SAT scale. This score makes University of Michigan Strongly Competitive for SAT test scores.\n# \u30106\u2020University of Michigan - Average SAT Scores and ... - CollegeSimply\u2020www.collegesimply.com\u3011\nIf you do elect to submit your SAT scores, the following information is helpful to understand how you compare with other applicants. Average SAT Score 1430. The average composite SAT score for admitted University of Michigan freshman is 1430 out of 1600. Michigan students have the 55th highest average SAT score in the United States.\n# \u30107\u2020University of Michigan: Acceptance Rate, SAT/ACT Scores, GPA - ThoughtCo\u2020www.thoughtco.com\u3011\n740. Math. 680. 790. ERW=Evidence-Based Reading and Writing. This admissions data tells us that most of Michigan's admitted students fall within the top 20% nationally on the SAT. For the evidence-based reading and writing section, 50% of students admitted to University of Michigan scored between 660 and 740, while 25% scored below 660 and 25% ...\n# \u30108\u2020How to Get Into the University of Michigan - InGenius Prep\u2020ingeniusprep.com\u3011\nThe out-of-state acceptance rate is 18.9% (4.1% lower than the overall rate), making the process even more competitive. ... The median ACT score range for the entering class of 2021 was 32-35, while the median SAT score range was 1400-1540. ... How difficult is it to get into the University of Michigan as an out-of-state student?\n# \u30109\u2020Selection Process | University of Michigan Office of Undergraduate ...\u2020admissions.umich.edu\u3011\nWhat kind of student will succeed at the University of Michigan? We look at each student as a whole package, a combination of talents, interests, passions, and skills. In this way, we can look beyond grades and test scores to recruit the most dynamic group of students possible. A wide variety of backgrounds, intellectual passions, and interests make up the typical applicant.\n# \u301010\u2020BBA Admissions | Michigan Ross\u2020michiganross.umich.edu\u3011\nUpper Division Tuition. (55+ credits towards program) $22,018. $62,618. The 2023-2024 tuition rates were approved by the University of Michigan Board of Regents in June 2023. 2024-2025 tuition rates and cost of attendance budget will be available July 2024. Tuition & Financial Aid.\n# \u301011\u2020University of Michigan-Ann Arbor (out-of-state) - College Raptor\u2020www.collegeraptor.com\u3011\nThe undergraduate application fee requires by the University of Michigan-Ann Arbor is $75. First-year students should submit their ACT or SAT scores to the University of Michigan-Ann Arbor when filling out the application. Usually, an ACT score of 30 - 35 or a 1,370 - 1,530 SAT score is the range that students have greater chances to be accepted.\n# \u301012\u2020UMich: 2024 Requirements, Scores & GPAs | CampusReel\u2020www.campusreel.org\u3011\nUniversity of Michigan-Ann Arbor\u2019s average GPA is 3.86. University of Michigan-Ann Arbor does require GPA. This average GPA means University of Michigan-Ann Arbor is very selective. Often times, schools in this range are trying to increase their selectivity and \u201cprestige\u201d. We can\u2019t read the minds of UMich application readers, but they ...\n# \u301013\u2020University of Michigan - Admissions and Acceptance rate - Turito\u2020www.turito.com\u3011\nUniversity of Michigan Acceptance Rate 2020-21. Michigan got 83,029 applications from freshmen for the class of 2020-21. 16,235 individuals were accepted from these applications, for an acceptance rate of 18.2 percent. It is lower than the admission rate for the class of 2019-20, which was 26%. In 2019-20, admissions were given to 16,974 ...\n# \u301014\u2020Average SAT Scores by State (Most Recent) - PrepScholar\u2020blog.prepscholar.com\u3011\nHighest Score: North Dakota (SAT Score: 1287) Wisconsin takes the cake for highest average SAT score with 1287. This is 259 points higher than the national average! But wait\u2014North Dakota also has lower test participation than most of the US at 1%. In other words, just 83 seniors who graduated in 2023 took the SAT.\n# \u301015\u2020Requirements & Deadlines | University of Michigan Office of ...\u2020admissions.umich.edu\u3011\nFeb 1. Fall Term Application Deadline. Summer Half Term Application Deadline. Mar 31. Financial Aid Deadline for All Incoming Students. May 1. Enrollment Deposit Deadline for Fall Term. Students who submit an application before they have received a high school diploma will apply as a first-year student, and should submit the following items ...\n# \u301016\u2020We looked at the 301 high schools with the most applicants to U-M. Here ...\u2020www.michigandaily.com\u3011\nOut-of-state tuition at the University ranges between $52,000 and $56,000 per year depending on class level \u2014 more than double the $21,000 average cost of tuition for an out-of-state, public college, according to U.S. News. White students are overrepresented at high schools with high application volume\n# \u301017\u2020Out-of-State versus In-State Acceptance Rates at Top Public ...\u2020www.collegetransitions.com\u3011\nThose seeking to attend an out-of-state public university will encounter very different acceptance rates and tuition costs than residents. ... SAT and GPA results for out-of-state vs. in-state applicants; ... Students admitted to UVA from Virginia possessed an average SAT score of 1419 while out-of-staters held a superior mean mark of 1466. At ...\n# \u301018\u2020Enrollment Reports | Office of the Registrar - University of Michigan\u2020ro.umich.edu\u3011\n202: Student Credit Hours Taught to Students in Own Unit vs. Those in Other Units by Unit of Instruction and Class Level\n# \u301019\u2020Michigan State: Acceptance Rate, SAT/ACT Scores, GPA - ThoughtCo\u2020www.thoughtco.com\u3011\nAcceptance Rate. During the 2018-19 admissions cycle, Michigan State University had an acceptance rate of 71%. This means that for every 100 students who applied, 71 students were admitted, making Michigan State's admissions process moderately selective. Admissions Statistics (2018-19) Number of Applicants. 44,322.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "average SAT score for out-of-state applicants University of Michigan"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "3b4bf9e1-4cfa-4752-a465-dbf267d800e5",
+          "request_id": "858b4f8fcf4b07d4-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3b4bf9e1-4cfa-4752-a465-dbf267d800e5",
+      "children": [
+        "f144981c-fde5-400c-bab5-696082c8da10"
+      ]
+    },
+    "f144981c-fde5-400c-bab5-696082c8da10": {
+      "id": "f144981c-fde5-400c-bab5-696082c8da10",
+      "message": {
+        "id": "f144981c-fde5-400c-bab5-696082c8da10",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708479947.062849,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The average SAT score composite at the University of Michigan is 1435 on the 1600 SAT scale\u30100\u2020source\u3011. However, this information does not specifically distinguish between out-of-state and in-state applicants. If you're an out-of-state applicant aiming for admission, considering the competitive nature of the university, achieving a score at or above this average would be beneficial."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [
+            {
+              "start_ix": 91,
+              "end_ix": 101,
+              "citation_format_type": "tether_og",
+              "invalid_reason": "Referenced message 0 in citation \u30100\u2020source\u3011 is not a quote, tether browsing display, or sonic page."
+            }
+          ],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "27c73ecc-008a-4472-bff2-2139bc3a7834",
+          "request_id": "858b4f8fcf4b07d4-IAD",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u30100\u2020source\u3011",
+              "start_idx": 91,
+              "end_idx": 101,
+              "alt": null,
+              "type": "hidden",
+              "invalid": true
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27c73ecc-008a-4472-bff2-2139bc3a7834",
+      "children": [
+        "145b634f-5389-41fe-8939-2fde78583d53"
+      ]
+    },
+    "145b634f-5389-41fe-8939-2fde78583d53": {
+      "id": "145b634f-5389-41fe-8939-2fde78583d53",
+      "message": {
+        "id": "145b634f-5389-41fe-8939-2fde78583d53",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708479964.072658,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the range "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "858b503e1ee007d4-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f144981c-fde5-400c-bab5-696082c8da10",
+      "children": [
+        "8fed7fbe-34f2-42aa-b2d0-b5670494a7ab"
+      ]
+    },
+    "8fed7fbe-34f2-42aa-b2d0-b5670494a7ab": {
+      "id": "8fed7fbe-34f2-42aa-b2d0-b5670494a7ab",
+      "message": {
+        "id": "8fed7fbe-34f2-42aa-b2d0-b5670494a7ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708479972.532851,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The SAT score range for admitted students at the University of Michigan generally falls between 1340-1530\u30103:1\u2020source\u3011. This range represents the middle 50% of admitted students, meaning that 25% of admitted students score below this range, and 25% score above it. This range applies to the total student body, and specific information distinguishing out-of-state from in-state applicants wasn't provided in the sources. Nonetheless, this range should serve as a good benchmark for all applicants, including those from out-of-state."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [
+            {
+              "start_ix": 105,
+              "end_ix": 117,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "How to Get Into the University of Michigan: Acceptance Rate and Strategies",
+                "url": "https://www.collegetransitions.com/blog/how-to-get-into-the-university-of-michigan-admissions-data-and-strategies",
+                "text": "",
+                "pub_date": null,
+                "extra": {
+                  "evidence_text": "source",
+                  "cited_message_idx": 3,
+                  "search_result_idx": 1
+                }
+              }
+            }
+          ],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "145b634f-5389-41fe-8939-2fde78583d53",
+          "request_id": "858b503e1ee007d4-IAD",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u30103:1\u2020source\u3011",
+              "start_idx": 105,
+              "end_idx": 117,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "How to Get Into the University of Michigan: Acceptance Rate and Strategies",
+              "url": "https://www.collegetransitions.com/blog/how-to-get-into-the-university-of-michigan-admissions-data-and-strategies",
+              "pub_date": null,
+              "snippet": "",
+              "attribution": "collegetransitions.com",
+              "icon_type": null
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "145b634f-5389-41fe-8939-2fde78583d53",
+      "children": [
+        "d8969a90-fc4e-43fb-b000-eb3f613e3b2e"
+      ]
+    },
+    "d8969a90-fc4e-43fb-b000-eb3f613e3b2e": {
+      "id": "d8969a90-fc4e-43fb-b000-eb3f613e3b2e",
+      "message": {
+        "id": "d8969a90-fc4e-43fb-b000-eb3f613e3b2e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708480179.736662,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can I find a good math sat tutor on Fiverr "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "858b55828d6557ae-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8fed7fbe-34f2-42aa-b2d0-b5670494a7ab",
+      "children": [
+        "cea72cad-3266-4933-8f01-ad54e09d75af"
+      ]
+    },
+    "cea72cad-3266-4933-8f01-ad54e09d75af": {
+      "id": "cea72cad-3266-4933-8f01-ad54e09d75af",
+      "message": {
+        "id": "cea72cad-3266-4933-8f01-ad54e09d75af",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708480191.848833,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"find SAT math tutor on Fiverr\")"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "d8969a90-fc4e-43fb-b000-eb3f613e3b2e",
+          "request_id": "858b55828d6557ae-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "d8969a90-fc4e-43fb-b000-eb3f613e3b2e",
+      "children": [
+        "ef4ea85c-fd78-454c-8bec-e6a5598a7e95"
+      ]
+    },
+    "ef4ea85c-fd78-454c-8bec-e6a5598a7e95": {
+      "id": "ef4ea85c-fd78-454c-8bec-e6a5598a7e95",
+      "message": {
+        "id": "ef4ea85c-fd78-454c-8bec-e6a5598a7e95",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1708480191.853413,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# \u30100\u202024 Best Math Tutor Services To Buy Online | Fiverr\u2020www.fiverr.com\u3011\n8. 9. 10. Best math tutor freelance services online. Outsource your math tutor project and get it quickly done and delivered remotely online.\n# \u30101\u2020Online Tutoring Services | Hire Tutors and Get Better Grades - Fiverr\u2020www.fiverr.com\u3011\nFind a comprehensive software development agency to handle it all. Browse agencies. Digital Marketing. ... How Fiverr Works. Other Subjects. Math Tutoring. Science Tutoring. Social Sciences Tutoring. Business Tutoring. Engineering Tutoring. Service options.\n# \u30102\u202015 Best Online SAT Tutoring Services for 2024 (75 Tutoring ... - PrepMaven\u2020prepmaven.com\u3011\nA list of the 15 best online SAT tutoring services, reviewed and ranked. Compare prices & instructor qualifications. Best overall: PrepMaven\u2019s SAT tutoring ($79\u2013349/hr). Best on a budget: Wyzant ($20\u2013600/hr). Best\u2026\n# \u30103\u202010 Best Online SAT Math Tutors Near Me in 2024 (with Profiles) - Learner\u2020www.learner.com\u3011\nHaving experience in various math topics Ashwin makes a great SAT math tutor. He builds students' confidence by teaching them to figure things out independently. He relates math problems to their current interests to help boost the student's understanding of and excitement for the material. 4,000+ hours tutoring.\n# \u30104\u2020Top 20 Online SAT Math Tutors Near Me - Varsity Tutors\u2020www.varsitytutors.com\u3011\nThe SAT Math section consists of 58 multiple-choice and grid-in questions. You must finish this part of the exam within 80 minutes. There are two subsections on the Math assessment and you are only permitted to use a calculator for one of the subsections. This part of the SAT is 50% of your total SAT score.\n# \u30105\u2020SAT Math private tutor - Math SAT classes online - Preply\u2020preply.com\u3011\nHere at Preply, we offer you online individual lessons at decent prices, starting from only 3 $ per hour. Around 413 tutors are teaching at Preply. Most of the tutors have reviews from real students, and it's average rate is 4.88. Use our search filters and find the best option, according to your needs and schedule.\n# \u30106\u202025 Highest Rated SAT Math Tutors - Wyzant\u2020www.wyzant.com\u3011\nFind a Private SAT Math Tutor in any city. The Wyzant community of private tutors spans nationwide, making it easy to find an instructor nearby who can teach 1:1 SAT Math lessons online or in person. Pass the class, ace the test, or learn a new job skill. Compare tutor costs and qualifications and find your SAT Math tutor today.\n# \u30107\u2020The 10 Best SAT Prep Tutors Near Me (for All Ages & Levels)\u2020tutors.com\u3011\nSAT tutoring costs $45 to $100 per hour on average, depending on their experience, education, location, and if it's in-person or online. High-end SAT tutors charge $150+ per hour and may offer a guarantee. SAT test prep courses cost $400 to $2,000+, including private tutoring, practice questions, and videos.\n# \u30108\u2020Math Tutor Jobs | Upwork\u2122\u2020www.upwork.com\u3011\nJob Description\uff1a 1. Marking and classifying\u2026. Math Tutor English Mathematics Tutoring Microsoft Excel Mathematica Vietnamese. See more. Need Current K-12 School Teacher for Testing App with Class (US b\u2026. Fixed-price \u2010 Posted 25 days ago. $100. Fixed-price. Entry.\n# \u30109\u2020Top 12 Freelance Math tutoring experts for Hire | Fiverr\u2020www.fiverr.com\u3011\nFind the most talented Math tutoring experts on Fiverr to bring your ideas to life. dsperera101. Level 2 Seller 5.0 (1k+) View Profile. Microsoft Office Typing Microsoft Word Data Entry. arsher. Level 2 Seller 5.0 (113) View Profile. Adobe Photoshop Javascript Java Csharp Unity 3d.\n# \u301010\u2020Mathematics tutor | Calculus | Algebra | Geometry | Latex |Writer| SAT\u2020www.upwork.com\u3011\nMathematics tutor | Calculus | Algebra | Geometry | Latex |Writer| SAT. $15.00/hr ... I have worked on Fiverr before as an online tutor, I am patient with kids and currently already teaching kids as permanent tutors throughout the year and helping them learn and understand the topics they are struggling with. ... Grade 6 & Grade 9 Math Tutor ...\n# \u301011\u2020The 10 Best SAT Prep Tutors in Greensboro, NC (2024)\u2020tutors.com\u3011\nServes Greensboro, NC. Professional Test Prep and STEM Tutor ACCEPTING STUDENTS!!!! You can reach me at 336-560-7937! I have a BA in Chemistry and BS in Biology from NC State University and also a Master\u2019s in Biomedical Sciences from Rutgers. I have been a tutor for the past 7 years and have 30+ satisfied clients.\n# \u301012\u202025 Highest Rated SAT Tutors Near Fremont, CA - Wyzant\u2020www.wyzant.com\u3011\nExperienced ACT & SAT, Middle and High School Math Tutor. In C2 Education, I was exceptionally promoted as a full-time employee because I was very popular among the students and the corporation would like to give me an offer to get more hours and teach more students. SAT Math 800, SAT Level II Math 800, SAT Physics 800, SAT Chemistry 800,...\n# \u301013\u2020The Ultimate SAT Math Prep Guide: Tips, Formulas, and Practice\u2020blog.prepscholar.com\u3011\nThis guide will serve as a directory for all the SAT Math articles and guides we've written. We'll start by going through the SAT Math section at the high level and giving you access to free practice tests and problems. After, we'll dive into the larger SAT tips you'll need for the test before finally getting into individual math topics you ...\n# \u301014\u2020Online Math Tutors: Get Help with Math Online - Preply\u2020preply.com\u3011\n1. Find the best math tutor. Choose from over 1,746 math tutors. Use filters to narrow your search and find the perfect fit. 2. Book your first lesson. Find the perfect time in your schedule and connect with your tutor in our virtual classroom. 3. Subscribe and learn regularly.\n# \u301015\u202024 Best Math Teacher Services To Buy Online | Fiverr\u2020www.fiverr.com\u3011\n8. 9. 10. Best math teacher freelance services online. Outsource your math teacher project and get it quickly done and delivered remotely online.\n# \u301016\u2020Be your math, physics, chemistry, and science tutor by ... - Fiverr\u2020www.fiverr.com\u3011\nBasic Basic. $10. Standard Standard. $20. Premium Premium. Single tutoring session to learn a problem or concept (Grade 5-8) Multiple sessions to understand different problems and concepts (Grade 9-12) Multiple sessions to understand multiple problems and concepts (University level) Exercises & supporting materials.\n# \u301017\u2020Master the SAT Math Level 1 Test - Tutor\u2020www.tutor.com\u3011\nTutor.com is all online. That way you can get help understanding tough SAT Math Level 1 questions from home, around your schedule. You and your tutor will work through your questions in our online classroom. You can work together on elementary number theory applications and other practice problems using the interactive white board and our chat ...\n# \u301018\u2020New math tutor on fiver - Improve My Gig - Fiverr Community\u2020community.fiverr.com\u3011\nNew math tutor on fiver. By nosagie. April 13, 2021 in Improve My Gig. Followers 0. 3. Posted April 13, 2021. Hey everyone, I joined Fiverr today as a math tutor.\n# \u301019\u2020Wyzant: Expert Tutors at Affordable Prices\u2020www.wyzant.com\u3011\nWe're always looking for talented tutors. Set your own rate, get paid and make a difference. Apply now. Affordable, top-rated private tutors in 300+ subjects on Wyzant. Trusted by 3 million students with our Good Fit Guarantee.\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og",
+              "regex": "\u3010(\\d+)(?::(\\d+))?\u2020([^\u2020\u3010\u3011]*)[^\u3010\u3011]*?\u3011"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "24 Best Math Tutor Services To Buy Online | Fiverr",
+                "url": "https://www.fiverr.com/gigs/math-tutor",
+                "text": "\n8. 9. 10. Best math tutor freelance services online. Outsource your math tutor project and get it quickly done and delivered remotely online.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Online Tutoring Services | Hire Tutors and Get Better Grades - Fiverr",
+                "url": "https://www.fiverr.com/categories/lifestyle/online-tutoring",
+                "text": "\nFind a comprehensive software development agency to handle it all. Browse agencies. Digital Marketing. ... How Fiverr Works. Other Subjects. Math Tutoring. Science Tutoring. Social Sciences Tutoring. Business Tutoring. Engineering Tutoring. Service options.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "15 Best Online SAT Tutoring Services for 2024 (75 Tutoring ... - PrepMaven",
+                "url": "https://prepmaven.com/blog/test-prep/best-sat-tutoring/",
+                "text": "\nA list of the 15 best online SAT tutoring services, reviewed and ranked. Compare prices & instructor qualifications. Best overall: PrepMaven\u2019s SAT tutoring ($79\u2013349/hr). Best on a budget: Wyzant ($20\u2013600/hr). Best\u2026\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "10 Best Online SAT Math Tutors Near Me in 2024 (with Profiles) - Learner",
+                "url": "https://www.learner.com/test-prep/sat-math",
+                "text": "\nHaving experience in various math topics Ashwin makes a great SAT math tutor. He builds students' confidence by teaching them to figure things out independently. He relates math problems to their current interests to help boost the student's understanding of and excitement for the material. 4,000+ hours tutoring.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Top 20 Online SAT Math Tutors Near Me - Varsity Tutors",
+                "url": "https://www.varsitytutors.com/sat_math-tutors",
+                "text": "\nThe SAT Math section consists of 58 multiple-choice and grid-in questions. You must finish this part of the exam within 80 minutes. There are two subsections on the Math assessment and you are only permitted to use a calculator for one of the subsections. This part of the SAT is 50% of your total SAT score.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "SAT Math private tutor - Math SAT classes online - Preply",
+                "url": "https://preply.com/en/online/tutors-sat-math",
+                "text": "\nHere at Preply, we offer you online individual lessons at decent prices, starting from only 3 $ per hour. Around 413 tutors are teaching at Preply. Most of the tutors have reviews from real students, and it's average rate is 4.88. Use our search filters and find the best option, according to your needs and schedule.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "25 Highest Rated SAT Math Tutors - Wyzant",
+                "url": "https://www.wyzant.com/SAT_math_tutors.aspx",
+                "text": "\nFind a Private SAT Math Tutor in any city. The Wyzant community of private tutors spans nationwide, making it easy to find an instructor nearby who can teach 1:1 SAT Math lessons online or in person. Pass the class, ace the test, or learn a new job skill. Compare tutor costs and qualifications and find your SAT Math tutor today.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The 10 Best SAT Prep Tutors Near Me (for All Ages & Levels)",
+                "url": "https://tutors.com/sat-tutoring",
+                "text": "\nSAT tutoring costs $45 to $100 per hour on average, depending on their experience, education, location, and if it's in-person or online. High-end SAT tutors charge $150+ per hour and may offer a guarantee. SAT test prep courses cost $400 to $2,000+, including private tutoring, practice questions, and videos.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Math Tutor Jobs | Upwork\u2122",
+                "url": "https://www.upwork.com/freelance-jobs/teaching-mathematics/",
+                "text": "\nJob Description\uff1a 1. Marking and classifying\u2026. Math Tutor English Mathematics Tutoring Microsoft Excel Mathematica Vietnamese. See more. Need Current K-12 School Teacher for Testing App with Class (US b\u2026. Fixed-price \u2010 Posted 25 days ago. $100. Fixed-price. Entry.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Top 12 Freelance Math tutoring experts for Hire | Fiverr",
+                "url": "https://www.fiverr.com/hire/math-tutoring",
+                "text": "\nFind the most talented Math tutoring experts on Fiverr to bring your ideas to life. dsperera101. Level 2 Seller 5.0 (1k+) View Profile. Microsoft Office Typing Microsoft Word Data Entry. arsher. Level 2 Seller 5.0 (113) View Profile. Adobe Photoshop Javascript Java Csharp Unity 3d.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Mathematics tutor | Calculus | Algebra | Geometry | Latex |Writer| SAT",
+                "url": "https://www.upwork.com/freelancers/~0187cda1aae1e6c493/",
+                "text": "\nMathematics tutor | Calculus | Algebra | Geometry | Latex |Writer| SAT. $15.00/hr ... I have worked on Fiverr before as an online tutor, I am patient with kids and currently already teaching kids as permanent tutors throughout the year and helping them learn and understand the topics they are struggling with. ... Grade 6 & Grade 9 Math Tutor ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The 10 Best SAT Prep Tutors in Greensboro, NC (2024)",
+                "url": "https://tutors.com/nc/greensboro/sat-tutoring/",
+                "text": "\nServes Greensboro, NC. Professional Test Prep and STEM Tutor ACCEPTING STUDENTS!!!! You can reach me at 336-560-7937! I have a BA in Chemistry and BS in Biology from NC State University and also a Master\u2019s in Biomedical Sciences from Rutgers. I have been a tutor for the past 7 years and have 30+ satisfied clients.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "25 Highest Rated SAT Tutors Near Fremont, CA - Wyzant",
+                "url": "https://www.wyzant.com/Fremont_CA_SAT_tutors.aspx",
+                "text": "\nExperienced ACT & SAT, Middle and High School Math Tutor. In C2 Education, I was exceptionally promoted as a full-time employee because I was very popular among the students and the corporation would like to give me an offer to get more hours and teach more students. SAT Math 800, SAT Level II Math 800, SAT Physics 800, SAT Chemistry 800,...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "The Ultimate SAT Math Prep Guide: Tips, Formulas, and Practice",
+                "url": "https://blog.prepscholar.com/sat-math-prep-guide-strategies-tips-practice",
+                "text": "\nThis guide will serve as a directory for all the SAT Math articles and guides we've written. We'll start by going through the SAT Math section at the high level and giving you access to free practice tests and problems. After, we'll dive into the larger SAT tips you'll need for the test before finally getting into individual math topics you ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Online Math Tutors: Get Help with Math Online - Preply",
+                "url": "https://preply.com/en/online/math-tutors",
+                "text": "\n1. Find the best math tutor. Choose from over 1,746 math tutors. Use filters to narrow your search and find the perfect fit. 2. Book your first lesson. Find the perfect time in your schedule and connect with your tutor in our virtual classroom. 3. Subscribe and learn regularly.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "24 Best Math Teacher Services To Buy Online | Fiverr",
+                "url": "https://www.fiverr.com/gigs/math-teacher",
+                "text": "\n8. 9. 10. Best math teacher freelance services online. Outsource your math teacher project and get it quickly done and delivered remotely online.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Be your math, physics, chemistry, and science tutor by ... - Fiverr",
+                "url": "https://www.fiverr.com/faisalalinaqvi/be-your-math-physics-chemistry-and-science-tutor",
+                "text": "\nBasic Basic. $10. Standard Standard. $20. Premium Premium. Single tutoring session to learn a problem or concept (Grade 5-8) Multiple sessions to understand different problems and concepts (Grade 9-12) Multiple sessions to understand multiple problems and concepts (University level) Exercises & supporting materials.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Master the SAT Math Level 1 Test - Tutor",
+                "url": "https://www.tutor.com/subjects/sat-math-level-1",
+                "text": "\nTutor.com is all online. That way you can get help understanding tough SAT Math Level 1 questions from home, around your schedule. You and your tutor will work through your questions in our online classroom. You can work together on elementary number theory applications and other practice problems using the interactive white board and our chat ...\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "New math tutor on fiver - Improve My Gig - Fiverr Community",
+                "url": "https://community.fiverr.com/forums/topic/246419-new-math-tutor-on-fiver/",
+                "text": "\nNew math tutor on fiver. By nosagie. April 13, 2021 in Improve My Gig. Followers 0. 3. Posted April 13, 2021. Hey everyone, I joined Fiverr today as a math tutor.\n",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Wyzant: Expert Tutors at Affordable Prices",
+                "url": "https://www.wyzant.com/",
+                "text": "\nWe're always looking for talented tutors. Set your own rate, get paid and make a difference. Apply now. Affordable, top-rated private tutors in 300+ subjects on Wyzant. Trusted by 3 million students with our Good Fit Guarantee.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'find SAT math tutor on Fiverr'",
+                "url": "",
+                "text": "# \u30100\u202024 Best Math Tutor Services To Buy Online | Fiverr\u2020www.fiverr.com\u3011\n8. 9. 10. Best math tutor freelance services online. Outsource your math tutor project and get it quickly done and delivered remotely online.\n# \u30101\u2020Online Tutoring Services | Hire Tutors and Get Better Grades - Fiverr\u2020www.fiverr.com\u3011\nFind a comprehensive software development agency to handle it all. Browse agencies. Digital Marketing. ... How Fiverr Works. Other Subjects. Math Tutoring. Science Tutoring. Social Sciences Tutoring. Business Tutoring. Engineering Tutoring. Service options.\n# \u30102\u202015 Best Online SAT Tutoring Services for 2024 (75 Tutoring ... - PrepMaven\u2020prepmaven.com\u3011\nA list of the 15 best online SAT tutoring services, reviewed and ranked. Compare prices & instructor qualifications. Best overall: PrepMaven\u2019s SAT tutoring ($79\u2013349/hr). Best on a budget: Wyzant ($20\u2013600/hr). Best\u2026\n# \u30103\u202010 Best Online SAT Math Tutors Near Me in 2024 (with Profiles) - Learner\u2020www.learner.com\u3011\nHaving experience in various math topics Ashwin makes a great SAT math tutor. He builds students' confidence by teaching them to figure things out independently. He relates math problems to their current interests to help boost the student's understanding of and excitement for the material. 4,000+ hours tutoring.\n# \u30104\u2020Top 20 Online SAT Math Tutors Near Me - Varsity Tutors\u2020www.varsitytutors.com\u3011\nThe SAT Math section consists of 58 multiple-choice and grid-in questions. You must finish this part of the exam within 80 minutes. There are two subsections on the Math assessment and you are only permitted to use a calculator for one of the subsections. This part of the SAT is 50% of your total SAT score.\n# \u30105\u2020SAT Math private tutor - Math SAT classes online - Preply\u2020preply.com\u3011\nHere at Preply, we offer you online individual lessons at decent prices, starting from only 3 $ per hour. Around 413 tutors are teaching at Preply. Most of the tutors have reviews from real students, and it's average rate is 4.88. Use our search filters and find the best option, according to your needs and schedule.\n# \u30106\u202025 Highest Rated SAT Math Tutors - Wyzant\u2020www.wyzant.com\u3011\nFind a Private SAT Math Tutor in any city. The Wyzant community of private tutors spans nationwide, making it easy to find an instructor nearby who can teach 1:1 SAT Math lessons online or in person. Pass the class, ace the test, or learn a new job skill. Compare tutor costs and qualifications and find your SAT Math tutor today.\n# \u30107\u2020The 10 Best SAT Prep Tutors Near Me (for All Ages & Levels)\u2020tutors.com\u3011\nSAT tutoring costs $45 to $100 per hour on average, depending on their experience, education, location, and if it's in-person or online. High-end SAT tutors charge $150+ per hour and may offer a guarantee. SAT test prep courses cost $400 to $2,000+, including private tutoring, practice questions, and videos.\n# \u30108\u2020Math Tutor Jobs | Upwork\u2122\u2020www.upwork.com\u3011\nJob Description\uff1a 1. Marking and classifying\u2026. Math Tutor English Mathematics Tutoring Microsoft Excel Mathematica Vietnamese. See more. Need Current K-12 School Teacher for Testing App with Class (US b\u2026. Fixed-price \u2010 Posted 25 days ago. $100. Fixed-price. Entry.\n# \u30109\u2020Top 12 Freelance Math tutoring experts for Hire | Fiverr\u2020www.fiverr.com\u3011\nFind the most talented Math tutoring experts on Fiverr to bring your ideas to life. dsperera101. Level 2 Seller 5.0 (1k+) View Profile. Microsoft Office Typing Microsoft Word Data Entry. arsher. Level 2 Seller 5.0 (113) View Profile. Adobe Photoshop Javascript Java Csharp Unity 3d.\n# \u301010\u2020Mathematics tutor | Calculus | Algebra | Geometry | Latex |Writer| SAT\u2020www.upwork.com\u3011\nMathematics tutor | Calculus | Algebra | Geometry | Latex |Writer| SAT. $15.00/hr ... I have worked on Fiverr before as an online tutor, I am patient with kids and currently already teaching kids as permanent tutors throughout the year and helping them learn and understand the topics they are struggling with. ... Grade 6 & Grade 9 Math Tutor ...\n# \u301011\u2020The 10 Best SAT Prep Tutors in Greensboro, NC (2024)\u2020tutors.com\u3011\nServes Greensboro, NC. Professional Test Prep and STEM Tutor ACCEPTING STUDENTS!!!! You can reach me at 336-560-7937! I have a BA in Chemistry and BS in Biology from NC State University and also a Master\u2019s in Biomedical Sciences from Rutgers. I have been a tutor for the past 7 years and have 30+ satisfied clients.\n# \u301012\u202025 Highest Rated SAT Tutors Near Fremont, CA - Wyzant\u2020www.wyzant.com\u3011\nExperienced ACT & SAT, Middle and High School Math Tutor. In C2 Education, I was exceptionally promoted as a full-time employee because I was very popular among the students and the corporation would like to give me an offer to get more hours and teach more students. SAT Math 800, SAT Level II Math 800, SAT Physics 800, SAT Chemistry 800,...\n# \u301013\u2020The Ultimate SAT Math Prep Guide: Tips, Formulas, and Practice\u2020blog.prepscholar.com\u3011\nThis guide will serve as a directory for all the SAT Math articles and guides we've written. We'll start by going through the SAT Math section at the high level and giving you access to free practice tests and problems. After, we'll dive into the larger SAT tips you'll need for the test before finally getting into individual math topics you ...\n# \u301014\u2020Online Math Tutors: Get Help with Math Online - Preply\u2020preply.com\u3011\n1. Find the best math tutor. Choose from over 1,746 math tutors. Use filters to narrow your search and find the perfect fit. 2. Book your first lesson. Find the perfect time in your schedule and connect with your tutor in our virtual classroom. 3. Subscribe and learn regularly.\n# \u301015\u202024 Best Math Teacher Services To Buy Online | Fiverr\u2020www.fiverr.com\u3011\n8. 9. 10. Best math teacher freelance services online. Outsource your math teacher project and get it quickly done and delivered remotely online.\n# \u301016\u2020Be your math, physics, chemistry, and science tutor by ... - Fiverr\u2020www.fiverr.com\u3011\nBasic Basic. $10. Standard Standard. $20. Premium Premium. Single tutoring session to learn a problem or concept (Grade 5-8) Multiple sessions to understand different problems and concepts (Grade 9-12) Multiple sessions to understand multiple problems and concepts (University level) Exercises & supporting materials.\n# \u301017\u2020Master the SAT Math Level 1 Test - Tutor\u2020www.tutor.com\u3011\nTutor.com is all online. That way you can get help understanding tough SAT Math Level 1 questions from home, around your schedule. You and your tutor will work through your questions in our online classroom. You can work together on elementary number theory applications and other practice problems using the interactive white board and our chat ...\n# \u301018\u2020New math tutor on fiver - Improve My Gig - Fiverr Community\u2020community.fiverr.com\u3011\nNew math tutor on fiver. By nosagie. April 13, 2021 in Improve My Gig. Followers 0. 3. Posted April 13, 2021. Hey everyone, I joined Fiverr today as a math tutor.\n# \u301019\u2020Wyzant: Expert Tutors at Affordable Prices\u2020www.wyzant.com\u3011\nWe're always looking for talented tutors. Set your own rate, get paid and make a difference. Apply now. Affordable, top-rated private tutors in 300+ subjects on Wyzant. Trusted by 3 million students with our Good Fit Guarantee.\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "find SAT math tutor on Fiverr"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "cea72cad-3266-4933-8f01-ad54e09d75af",
+          "request_id": "858b55828d6557ae-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cea72cad-3266-4933-8f01-ad54e09d75af",
+      "children": [
+        "ada1e3b5-fcf2-45aa-b0d4-790b4f55274b"
+      ]
+    },
+    "ada1e3b5-fcf2-45aa-b0d4-790b4f55274b": {
+      "id": "ada1e3b5-fcf2-45aa-b0d4-790b4f55274b",
+      "message": {
+        "id": "ada1e3b5-fcf2-45aa-b0d4-790b4f55274b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708480191.857095,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, you can find a good SAT math tutor on Fiverr. Fiverr offers a variety of math tutor freelance services, allowing you to outsource your math tutor project and get it quickly done and delivered remotely online. You can browse through the available tutors, view their profiles, ratings, and reviews to choose one that best fits your needs\u30109:0\u2020source\u3011."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [
+            {
+              "start_ix": 340,
+              "end_ix": 352,
+              "citation_format_type": "tether_og",
+              "metadata": {
+                "type": "webpage",
+                "title": "24 Best Math Tutor Services To Buy Online | Fiverr",
+                "url": "https://www.fiverr.com/gigs/math-tutor",
+                "text": "",
+                "pub_date": null,
+                "extra": {
+                  "evidence_text": "source",
+                  "cited_message_idx": 9,
+                  "search_result_idx": 0
+                }
+              }
+            }
+          ],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "ef4ea85c-fd78-454c-8bec-e6a5598a7e95",
+          "request_id": "858b55828d6557ae-IAD",
+          "timestamp_": "absolute",
+          "content_references": [
+            {
+              "matched_text": "\u30109:0\u2020source\u3011",
+              "start_idx": 340,
+              "end_idx": 352,
+              "alt": null,
+              "type": "webpage_extended",
+              "title": "24 Best Math Tutor Services To Buy Online | Fiverr",
+              "url": "https://www.fiverr.com/gigs/math-tutor",
+              "pub_date": null,
+              "snippet": "",
+              "attribution": "fiverr.com",
+              "icon_type": null
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef4ea85c-fd78-454c-8bec-e6a5598a7e95",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ada1e3b5-fcf2-45aa-b0d4-790b4f55274b",
+  "plugin_ids": null,
+  "conversation_id": "a9985114-fdca-4472-b90b-31f4e870a676",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "a9985114-fdca-4472-b90b-31f4e870a676"
+}

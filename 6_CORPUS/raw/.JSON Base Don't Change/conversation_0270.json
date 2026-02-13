@@ -1,0 +1,243 @@
+{
+  "title": "Citrus Rug Listing Summary",
+  "create_time": 1722697644.436223,
+  "update_time": 1722697656.736385,
+  "mapping": {
+    "79ac9c99-eb4a-489d-8218-b83eeef39c64": {
+      "id": "79ac9c99-eb4a-489d-8218-b83eeef39c64",
+      "message": null,
+      "parent": null,
+      "children": [
+        "7059f872-ab45-4b05-a551-d39488f68ff4"
+      ]
+    },
+    "7059f872-ab45-4b05-a551-d39488f68ff4": {
+      "id": "7059f872-ab45-4b05-a551-d39488f68ff4",
+      "message": {
+        "id": "7059f872-ab45-4b05-a551-d39488f68ff4",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79ac9c99-eb4a-489d-8218-b83eeef39c64",
+      "children": [
+        "725df8e6-e368-4721-9533-75e3a625a37d"
+      ]
+    },
+    "725df8e6-e368-4721-9533-75e3a625a37d": {
+      "id": "725df8e6-e368-4721-9533-75e3a625a37d",
+      "message": {
+        "id": "725df8e6-e368-4721-9533-75e3a625a37d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722697645.658684,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-txLj0kejI3N62uYWdEIj5LwW",
+              "size_bytes": 1154470,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-n6t2AtAhX2UcmpFuUR4gBBNY",
+              "size_bytes": 169905,
+              "width": 708,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please write listing "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "238F146E-3566-43C7-B5E0-300EFEEB0E92.jpeg",
+              "width": 1152,
+              "height": 1536,
+              "size": 1154470,
+              "id": "file-txLj0kejI3N62uYWdEIj5LwW"
+            },
+            {
+              "name": "D2B7BE92-A663-4886-A77D-7D2B94CF9E49.jpeg",
+              "size": 169905,
+              "width": 708,
+              "id": "file-n6t2AtAhX2UcmpFuUR4gBBNY",
+              "height": 1536
+            }
+          ],
+          "request_id": "8ad73793ea3a42ef-EWR",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7059f872-ab45-4b05-a551-d39488f68ff4",
+      "children": [
+        "28b1919c-c6b1-41cc-b660-024df0fea44b"
+      ]
+    },
+    "28b1919c-c6b1-41cc-b660-024df0fea44b": {
+      "id": "28b1919c-c6b1-41cc-b660-024df0fea44b",
+      "message": {
+        "id": "28b1919c-c6b1-41cc-b660-024df0fea44b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722697655.5247,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "725df8e6-e368-4721-9533-75e3a625a37d",
+          "request_id": "8ad73793ea3a42ef-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "725df8e6-e368-4721-9533-75e3a625a37d",
+      "children": [
+        "53db4423-1154-4d5a-bafa-3298a3f0e9a1"
+      ]
+    },
+    "53db4423-1154-4d5a-bafa-3298a3f0e9a1": {
+      "id": "53db4423-1154-4d5a-bafa-3298a3f0e9a1",
+      "message": {
+        "id": "53db4423-1154-4d5a-bafa-3298a3f0e9a1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1722697655.524778,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here's a listing you can use for the Citrus Blood Orange Rug:\n\n---\n\n**Citrus Blood Orange Rug - Ruggable**\n\n**Price:** $110.00 (Originally $129.00) - **Last Chance Deal**\n\n**Product Details:**\n\n- **Size:** 3'x5'\n- **Design:** This vibrant Citrus Blood Orange Rug features a playful pattern of bold orange slices, perfect for adding a splash of color to any room.\n- **Material:** High-quality tufted rug, known for its durability and easy maintenance.\n- **Thickness:** 3x thicker than standard rugs, providing extra comfort underfoot.\n- **Washable:** Just as washable as thinner rugs, making it easy to keep clean.\n\n**Special Features:**\n\n- **Easy Payment Options:** Available with Klarna, with 4 interest-free payments of $27.50.\n- **Shipping:** Ships within 1 week.\n- **Condition:** New, never used.\n\n**Purchase Details:**\n\n- **Seller:** Ruggable\n- **Customer Reviews:** Rated 4.5 stars based on 45 reviews.\n\n**Perfect For:**\n\n- Adding a bright and cheerful accent to kitchens, living rooms, or entryways.\n- Homes looking for easy-to-maintain yet stylish rugs.\n\n**Note:** This is a limited-time offer and part of a last-chance deal, so don't miss out on this unique rug at a discounted price!\n\nFor inquiries or to make a purchase, please contact the seller or visit the Ruggable website.\n\n---\n\nFeel free to adjust any details as needed!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "28b1919c-c6b1-41cc-b660-024df0fea44b",
+          "request_id": "8ad73793ea3a42ef-EWR",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "28b1919c-c6b1-41cc-b660-024df0fea44b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "53db4423-1154-4d5a-bafa-3298a3f0e9a1",
+  "plugin_ids": null,
+  "conversation_id": "ec7913e6-e85e-48d5-9c74-d74bc7160c12",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "ec7913e6-e85e-48d5-9c74-d74bc7160c12"
+}

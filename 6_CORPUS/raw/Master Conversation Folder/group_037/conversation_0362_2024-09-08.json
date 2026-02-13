@@ -1,0 +1,186 @@
+{
+  "title": "Lamp Picture Frame Spacing",
+  "create_time": 1725819676.738216,
+  "update_time": 1725819683.496114,
+  "mapping": {
+    "c7092c52-d529-4720-b335-e384862c97b9": {
+      "id": "c7092c52-d529-4720-b335-e384862c97b9",
+      "message": null,
+      "parent": null,
+      "children": [
+        "1e52d444-400c-491d-a154-09050a4075cd"
+      ]
+    },
+    "1e52d444-400c-491d-a154-09050a4075cd": {
+      "id": "1e52d444-400c-491d-a154-09050a4075cd",
+      "message": {
+        "id": "1e52d444-400c-491d-a154-09050a4075cd",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c7092c52-d529-4720-b335-e384862c97b9",
+      "children": [
+        "7326a690-85f9-498c-a754-bfe86bc8a1b8"
+      ]
+    },
+    "7326a690-85f9-498c-a754-bfe86bc8a1b8": {
+      "id": "7326a690-85f9-498c-a754-bfe86bc8a1b8",
+      "message": {
+        "id": "7326a690-85f9-498c-a754-bfe86bc8a1b8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725819676.742592,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How much space should be between the top of a lamp and the bottom of a picture frame "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8c00f512586e32b3-PHL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e52d444-400c-491d-a154-09050a4075cd",
+      "children": [
+        "237caf75-7d0f-48ff-8c14-a3b813167b1c"
+      ]
+    },
+    "237caf75-7d0f-48ff-8c14-a3b813167b1c": {
+      "id": "237caf75-7d0f-48ff-8c14-a3b813167b1c",
+      "message": {
+        "id": "237caf75-7d0f-48ff-8c14-a3b813167b1c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725819680.563027,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "7326a690-85f9-498c-a754-bfe86bc8a1b8",
+          "request_id": "8c00f512586e32b3-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7326a690-85f9-498c-a754-bfe86bc8a1b8",
+      "children": [
+        "620557fe-c69e-4e4a-b8a3-8b2aed746bdb"
+      ]
+    },
+    "620557fe-c69e-4e4a-b8a3-8b2aed746bdb": {
+      "id": "620557fe-c69e-4e4a-b8a3-8b2aed746bdb",
+      "message": {
+        "id": "620557fe-c69e-4e4a-b8a3-8b2aed746bdb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1725819680.563129,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The ideal space between the top of a lamp and the bottom of a picture frame is typically around 3 to 6 inches. This spacing allows for a balanced and visually pleasing arrangement while ensuring that neither the lamp nor the picture appears cramped or crowded. The exact distance can vary depending on the size and scale of the lamp and the artwork, as well as the overall design and layout of the room."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAA",
+          "parent_id": "237caf75-7d0f-48ff-8c14-a3b813167b1c",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8c00f512586e32b3-PHL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "237caf75-7d0f-48ff-8c14-a3b813167b1c",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "620557fe-c69e-4e4a-b8a3-8b2aed746bdb",
+  "plugin_ids": null,
+  "conversation_id": "66ddeb1c-9184-8009-a404-8cd0f79eef80",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "66ddeb1c-9184-8009-a404-8cd0f79eef80"
+}

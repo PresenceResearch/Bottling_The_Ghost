@@ -1,0 +1,589 @@
+{
+  "title": "Sales Manager Override Average",
+  "create_time": 1729194238.188702,
+  "update_time": 1729278953.323475,
+  "mapping": {
+    "872e0152-c5e3-477f-a933-445f53409862": {
+      "id": "872e0152-c5e3-477f-a933-445f53409862",
+      "message": null,
+      "parent": null,
+      "children": [
+        "85f01267-acf6-47a4-aa76-8bac0ce283e2"
+      ]
+    },
+    "85f01267-acf6-47a4-aa76-8bac0ce283e2": {
+      "id": "85f01267-acf6-47a4-aa76-8bac0ce283e2",
+      "message": {
+        "id": "85f01267-acf6-47a4-aa76-8bac0ce283e2",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "872e0152-c5e3-477f-a933-445f53409862",
+      "children": [
+        "a0a45920-b5d9-4cd5-a9e4-de9660db1c86"
+      ]
+    },
+    "a0a45920-b5d9-4cd5-a9e4-de9660db1c86": {
+      "id": "a0a45920-b5d9-4cd5-a9e4-de9660db1c86",
+      "message": {
+        "id": "a0a45920-b5d9-4cd5-a9e4-de9660db1c86",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729194238.196684,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the average override of a sales manager "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d42c7d3487dc591-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85f01267-acf6-47a4-aa76-8bac0ce283e2",
+      "children": [
+        "8292fd70-ce69-404d-9ece-a77028b4134a"
+      ]
+    },
+    "8292fd70-ce69-404d-9ece-a77028b4134a": {
+      "id": "8292fd70-ce69-404d-9ece-a77028b4134a",
+      "message": {
+        "id": "8292fd70-ce69-404d-9ece-a77028b4134a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729194243.818347,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "a0a45920-b5d9-4cd5-a9e4-de9660db1c86",
+          "request_id": "8d42c7d3487dc591-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a0a45920-b5d9-4cd5-a9e4-de9660db1c86",
+      "children": [
+        "85c9841b-3011-4077-a5db-7ec863472acb"
+      ]
+    },
+    "85c9841b-3011-4077-a5db-7ec863472acb": {
+      "id": "85c9841b-3011-4077-a5db-7ec863472acb",
+      "message": {
+        "id": "85c9841b-3011-4077-a5db-7ec863472acb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729194243.818473,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The average override for a sales manager typically ranges from 2% to 10% of the sales made by their team, depending on the industry and company structure. For industries with higher margins, such as software or technology, it might be closer to the higher end of that range. In lower-margin industries, like some retail or consumer goods sectors, it may fall on the lower side. Some companies also offer tiered override percentages based on team performance or hitting specific sales targets.\n\nDo you have a particular industry or sales model in mind for a more specific range?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8292fd70-ce69-404d-9ece-a77028b4134a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d42c7d3487dc591-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8292fd70-ce69-404d-9ece-a77028b4134a",
+      "children": [
+        "10626d0e-ab5a-41c8-ad2e-b7abe0b5e09f"
+      ]
+    },
+    "10626d0e-ab5a-41c8-ad2e-b7abe0b5e09f": {
+      "id": "10626d0e-ab5a-41c8-ad2e-b7abe0b5e09f",
+      "message": {
+        "id": "10626d0e-ab5a-41c8-ad2e-b7abe0b5e09f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729194247.718624,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Solar "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d42c80f0a26c591-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85c9841b-3011-4077-a5db-7ec863472acb",
+      "children": [
+        "6ceb65e1-012c-4261-bb42-5a7680fa56d4"
+      ]
+    },
+    "6ceb65e1-012c-4261-bb42-5a7680fa56d4": {
+      "id": "6ceb65e1-012c-4261-bb42-5a7680fa56d4",
+      "message": {
+        "id": "6ceb65e1-012c-4261-bb42-5a7680fa56d4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729194254.43618,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "User is asking about sales manager overrides specifically in the solar industry."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "10626d0e-ab5a-41c8-ad2e-b7abe0b5e09f",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d42c80f0a26c591-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "bio",
+        "channel": null
+      },
+      "parent": "10626d0e-ab5a-41c8-ad2e-b7abe0b5e09f",
+      "children": [
+        "2f5827d4-ff89-4d5d-9286-76b3a9164ca1"
+      ]
+    },
+    "2f5827d4-ff89-4d5d-9286-76b3a9164ca1": {
+      "id": "2f5827d4-ff89-4d5d-9286-76b3a9164ca1",
+      "message": {
+        "id": "2f5827d4-ff89-4d5d-9286-76b3a9164ca1",
+        "author": {
+          "role": "tool",
+          "name": "bio",
+          "metadata": {}
+        },
+        "create_time": 1729194254.436345,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Model set context updated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "kwargs": {
+            "message_id": "2f5827d4-ff89-4d5d-9286-76b3a9164ca1",
+            "pending_message_id": null,
+            "sync_write": false
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "6ceb65e1-012c-4261-bb42-5a7680fa56d4",
+          "request_id": "8d42c80f0a26c591-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "6ceb65e1-012c-4261-bb42-5a7680fa56d4",
+      "children": [
+        "93aba310-c350-4e78-aa23-5066d56d082f"
+      ]
+    },
+    "93aba310-c350-4e78-aa23-5066d56d082f": {
+      "id": "93aba310-c350-4e78-aa23-5066d56d082f",
+      "message": {
+        "id": "93aba310-c350-4e78-aa23-5066d56d082f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729194254.436455,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the solar industry, sales manager overrides typically range from 2% to 5% of the total sales volume generated by their team. The specific percentage can vary depending on the size of the projects, the company's compensation structure, and whether the manager is also responsible for business development or managing high-value commercial accounts.\n\nSome companies may also offer bonuses or additional incentives based on team performance, particularly if they exceed sales quotas or profitability targets."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2f5827d4-ff89-4d5d-9286-76b3a9164ca1",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d42c80f0a26c591-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2f5827d4-ff89-4d5d-9286-76b3a9164ca1",
+      "children": [
+        "c91e0507-3640-467a-b917-11728f57d98b"
+      ]
+    },
+    "c91e0507-3640-467a-b917-11728f57d98b": {
+      "id": "c91e0507-3640-467a-b917-11728f57d98b",
+      "message": {
+        "id": "c91e0507-3640-467a-b917-11728f57d98b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729278867.387367,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How many people live in Pakistan "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d4ad9f77fd95985-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "93aba310-c350-4e78-aa23-5066d56d082f",
+      "children": [
+        "b386f068-0e91-4535-963f-92f45609b155"
+      ]
+    },
+    "b386f068-0e91-4535-963f-92f45609b155": {
+      "id": "b386f068-0e91-4535-963f-92f45609b155",
+      "message": {
+        "id": "b386f068-0e91-4535-963f-92f45609b155",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729278870.274279,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c91e0507-3640-467a-b917-11728f57d98b",
+          "request_id": "8d4ad9f77fd95985-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c91e0507-3640-467a-b917-11728f57d98b",
+      "children": [
+        "931b7a23-116a-42be-99b7-3d4fbda9b9c9"
+      ]
+    },
+    "931b7a23-116a-42be-99b7-3d4fbda9b9c9": {
+      "id": "931b7a23-116a-42be-99b7-3d4fbda9b9c9",
+      "message": {
+        "id": "931b7a23-116a-42be-99b7-3d4fbda9b9c9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729278870.274466,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "As of 2024, the estimated population of Pakistan is approximately 248 million people, making it the fifth-most populous country in the world. The population continues to grow at a significant rate due to high birth rates."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "b386f068-0e91-4535-963f-92f45609b155",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d4ad9f77fd95985-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b386f068-0e91-4535-963f-92f45609b155",
+      "children": [
+        "8728f1d0-e13f-4b4b-9515-ccf54cd66191"
+      ]
+    },
+    "8728f1d0-e13f-4b4b-9515-ccf54cd66191": {
+      "id": "8728f1d0-e13f-4b4b-9515-ccf54cd66191",
+      "message": {
+        "id": "8728f1d0-e13f-4b4b-9515-ccf54cd66191",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729278951.847576,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey, can you hear me?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4a02c5f7-c5d4-49fd-a024-2c62697b6e40",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "931b7a23-116a-42be-99b7-3d4fbda9b9c9",
+      "children": [
+        "4ed43d97-2106-4e14-8726-f36970d8a9dd"
+      ]
+    },
+    "4ed43d97-2106-4e14-8726-f36970d8a9dd": {
+      "id": "4ed43d97-2106-4e14-8726-f36970d8a9dd",
+      "message": {
+        "id": "4ed43d97-2106-4e14-8726-f36970d8a9dd",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729278952.901018,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "8728f1d0-e13f-4b4b-9515-ccf54cd66191",
+          "request_id": "4a02c5f7-c5d4-49fd-a024-2c62697b6e40",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8728f1d0-e13f-4b4b-9515-ccf54cd66191",
+      "children": [
+        "602e79e0-c386-43fc-80c2-2679f9d4b151"
+      ]
+    },
+    "602e79e0-c386-43fc-80c2-2679f9d4b151": {
+      "id": "602e79e0-c386-43fc-80c2-2679f9d4b151",
+      "message": {
+        "id": "602e79e0-c386-43fc-80c2-2679f9d4b151",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729278952.901127,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I can\u2019t hear you, but I can read what you type! Is there something you need help with or want to chat about?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "4ed43d97-2106-4e14-8726-f36970d8a9dd",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "4a02c5f7-c5d4-49fd-a024-2c62697b6e40",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4ed43d97-2106-4e14-8726-f36970d8a9dd",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "602e79e0-c386-43fc-80c2-2679f9d4b151",
+  "plugin_ids": null,
+  "conversation_id": "671168fe-0988-8009-957a-00826d81e2c1",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "671168fe-0988-8009-957a-00826d81e2c1"
+}

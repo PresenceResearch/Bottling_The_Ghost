@@ -1,0 +1,243 @@
+{
+  "title": "Passport Stamps Analysis",
+  "create_time": 1718490712.444691,
+  "update_time": 1718490727.823266,
+  "mapping": {
+    "395771db-38f9-41db-a392-9699c0c1791a": {
+      "id": "395771db-38f9-41db-a392-9699c0c1791a",
+      "message": null,
+      "parent": null,
+      "children": [
+        "76219c82-3460-4f23-9ff3-9fa452ef032b"
+      ]
+    },
+    "76219c82-3460-4f23-9ff3-9fa452ef032b": {
+      "id": "76219c82-3460-4f23-9ff3-9fa452ef032b",
+      "message": {
+        "id": "76219c82-3460-4f23-9ff3-9fa452ef032b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "395771db-38f9-41db-a392-9699c0c1791a",
+      "children": [
+        "5f27c526-5a2e-475f-abff-6cf7e4d5a7d3"
+      ]
+    },
+    "5f27c526-5a2e-475f-abff-6cf7e4d5a7d3": {
+      "id": "5f27c526-5a2e-475f-abff-6cf7e4d5a7d3",
+      "message": {
+        "id": "5f27c526-5a2e-475f-abff-6cf7e4d5a7d3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1718490713.938945,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-RfRB6Ro79d2EcYt17J6r1V3Z",
+              "size_bytes": 801105,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-5ynxryuZUaK1CJNl2u92V0yS",
+              "size_bytes": 736863,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Please analyze this image "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "name": "A4F173D3-3D13-417B-96C5-1373EFBE6162.jpeg",
+              "width": 1152,
+              "height": 1536,
+              "size": 801105,
+              "id": "file-RfRB6Ro79d2EcYt17J6r1V3Z"
+            },
+            {
+              "size": 736863,
+              "name": "3F5EBCD8-DBCC-42CE-AA2F-F6B13028E4FF.jpeg",
+              "width": 1152,
+              "id": "file-5ynxryuZUaK1CJNl2u92V0yS",
+              "height": 1536
+            }
+          ],
+          "request_id": "89460346ddf85a0f-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "76219c82-3460-4f23-9ff3-9fa452ef032b",
+      "children": [
+        "651360a7-c360-4131-ad00-cea2af07e323"
+      ]
+    },
+    "651360a7-c360-4131-ad00-cea2af07e323": {
+      "id": "651360a7-c360-4131-ad00-cea2af07e323",
+      "message": {
+        "id": "651360a7-c360-4131-ad00-cea2af07e323",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1718490726.297155,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "5f27c526-5a2e-475f-abff-6cf7e4d5a7d3",
+          "request_id": "89460346ddf85a0f-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5f27c526-5a2e-475f-abff-6cf7e4d5a7d3",
+      "children": [
+        "fa00d10e-0cd5-4b4c-9a44-18041649b784"
+      ]
+    },
+    "fa00d10e-0cd5-4b4c-9a44-18041649b784": {
+      "id": "fa00d10e-0cd5-4b4c-9a44-18041649b784",
+      "message": {
+        "id": "fa00d10e-0cd5-4b4c-9a44-18041649b784",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1718490726.297215,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The images show passport pages with various visa stamps, indicating entries and departures at different border checkpoints. Here is a detailed analysis of the visible stamps:\n\n1. **First Image (Page 20):**\n   - **Top Left Stamp (Blue):** \n     - Date: 28 May 1996 (28 05 6 20)\n     - Location: BRECLAV (B\u0159eclav, Czech Republic)\n     - Symbols: Entry symbol\n   - **Top Right Stamp (Black):**\n     - Date: 19 May 1996 (19 05 96)\n     - Location: G\u00d6RLITZ BAHNHOF (G\u00f6rlitz Train Station, Germany)\n     - Symbols: Entry symbol, Train icon\n   - **Bottom Left Stamp (Purple):**\n     - Date: 29 June 1996 (29 06 96)\n     - Location: GORZELEC (G\u00f6rlitz, Poland)\n     - Symbols: Entry symbol, RP (Republic of Poland)\n\n2. **Second Image (Page 21):**\n   - **Top Right Stamp (Blue):**\n     - Date: 4 June 2007 (04 06 07)\n     - Location: DECIN (D\u011b\u010d\u00edn, Czech Republic)\n     - Symbols: Entry symbol\n   - **Middle Right Stamp (Blue):**\n     - Date: 25 May 2011 (25 05 11)\n     - Location: DECIN (D\u011b\u010d\u00edn, Czech Republic)\n     - Symbols: Entry symbol\n   - **Bottom Right Stamp (Blue):**\n     - Date: 24 June 2012 (24 06 12)\n     - Location: DECIN (D\u011b\u010d\u00edn, Czech Republic)\n     - Symbols: Entry symbol\n   - **Left Stamp (Blue):**\n     - Date: 5 June 2001 (05 06 1)\n     - Location: B\u0158ECLAV (B\u0159eclav, Czech Republic)\n     - Symbols: Entry symbol\n\nThese stamps indicate travels through various countries in Europe, primarily between Germany, Poland, and the Czech Republic. The dates range from 1996 to 2012, highlighting multiple entries and departures through these border points."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAA",
+          "parent_id": "651360a7-c360-4131-ad00-cea2af07e323",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "89460346ddf85a0f-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "651360a7-c360-4131-ad00-cea2af07e323",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "fa00d10e-0cd5-4b4c-9a44-18041649b784",
+  "plugin_ids": null,
+  "conversation_id": "08615bb0-1dd9-48f2-8a17-7d175efa6aad",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "08615bb0-1dd9-48f2-8a17-7d175efa6aad"
+}

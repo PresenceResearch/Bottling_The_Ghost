@@ -1,0 +1,3173 @@
+{
+  "title": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u043f\u0430\u0442\u0440\u0456\u043e\u0442\u0438\u0447\u043d\u0438\u0439 \u043f\u043b\u0430\u043a\u0430\u0442 \"\u0412\u041e\u041b\u041e\"",
+  "create_time": 1701537529.978317,
+  "update_time": 1701538647.771353,
+  "mapping": {
+    "4A7A7F65-36DD-4604-AC7A-AAC701190E54": {
+      "id": "4A7A7F65-36DD-4604-AC7A-AAC701190E54",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d580eb35-9991-45ae-b2e5-79e116fc777d"
+      ]
+    },
+    "d580eb35-9991-45ae-b2e5-79e116fc777d": {
+      "id": "d580eb35-9991-45ae-b2e5-79e116fc777d",
+      "message": {
+        "id": "d580eb35-9991-45ae-b2e5-79e116fc777d",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4A7A7F65-36DD-4604-AC7A-AAC701190E54",
+      "children": [
+        "65364547-b168-4b7a-b117-18b66adbacee"
+      ]
+    },
+    "65364547-b168-4b7a-b117-18b66adbacee": {
+      "id": "65364547-b168-4b7a-b117-18b66adbacee",
+      "message": {
+        "id": "65364547-b168-4b7a-b117-18b66adbacee",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d580eb35-9991-45ae-b2e5-79e116fc777d",
+      "children": [
+        "c6b1b356-f0d2-49e4-b772-db1f0ff2e276"
+      ]
+    },
+    "c6b1b356-f0d2-49e4-b772-db1f0ff2e276": {
+      "id": "c6b1b356-f0d2-49e4-b772-db1f0ff2e276",
+      "message": {
+        "id": "c6b1b356-f0d2-49e4-b772-db1f0ff2e276",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537529.978856,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a Ukrainian man with glasses and a beard. Show him selling lots of  items on EBay. Show him at a storage unit. His name is \u0418\u0433\u043e\u0440"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "65364547-b168-4b7a-b117-18b66adbacee",
+      "children": [
+        "e51487ad-fdb5-40cc-98ae-421d7a7717d4"
+      ]
+    },
+    "e51487ad-fdb5-40cc-98ae-421d7a7717d4": {
+      "id": "e51487ad-fdb5-40cc-98ae-421d7a7717d4",
+      "message": {
+        "id": "e51487ad-fdb5-40cc-98ae-421d7a7717d4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537547.661607,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A Ukrainian man with glasses and a beard, named Igor, is depicted at a storage unit. He is busy selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen. He is focused on his work, with a look of determination. The environment reflects a busy, organized storage space.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "c6b1b356-f0d2-49e4-b772-db1f0ff2e276",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "c6b1b356-f0d2-49e4-b772-db1f0ff2e276",
+      "children": [
+        "77b115ac-2e8d-49f9-883c-1883396b90d1"
+      ]
+    },
+    "77b115ac-2e8d-49f9-883c-1883396b90d1": {
+      "id": "77b115ac-2e8d-49f9-883c-1883396b90d1",
+      "message": {
+        "id": "77b115ac-2e8d-49f9-883c-1883396b90d1",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537547.663262,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-b8mLE4iWs190lRJ7cwUo7Gre",
+              "size_bytes": 419016,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "N07EAuJ6pJqpOn1o",
+                  "prompt": "A Ukrainian man with glasses and a beard, named Igor, is depicted at a storage unit. He is busy selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen. He is focused on his work, with a look of determination. The environment reflects a busy, organized storage space.",
+                  "seed": 1397854309,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-63atU8m3c2mqN7xsba6crOUd",
+              "size_bytes": 348252,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "9txRskztlWjYDxaD",
+                  "prompt": "A Ukrainian man with glasses and a beard, named Igor, is depicted at a storage unit. He is busy selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen. He is focused on his work, with a look of determination. The environment reflects a busy, organized storage space.",
+                  "seed": 2022356489,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e51487ad-fdb5-40cc-98ae-421d7a7717d4",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e51487ad-fdb5-40cc-98ae-421d7a7717d4",
+      "children": [
+        "14047fec-3283-4155-8d93-6d1306c2ffbb"
+      ]
+    },
+    "14047fec-3283-4155-8d93-6d1306c2ffbb": {
+      "id": "14047fec-3283-4155-8d93-6d1306c2ffbb",
+      "message": {
+        "id": "14047fec-3283-4155-8d93-6d1306c2ffbb",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537547.66364,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "77b115ac-2e8d-49f9-883c-1883396b90d1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "77b115ac-2e8d-49f9-883c-1883396b90d1",
+      "children": [
+        "cf1ea63b-12e8-413c-b59c-51d3318d95c2"
+      ]
+    },
+    "cf1ea63b-12e8-413c-b59c-51d3318d95c2": {
+      "id": "cf1ea63b-12e8-413c-b59c-51d3318d95c2",
+      "message": {
+        "id": "cf1ea63b-12e8-413c-b59c-51d3318d95c2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537547.663828,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of Igor, the Ukrainian man with glasses and a beard, selling items on eBay from his storage unit."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "14047fec-3283-4155-8d93-6d1306c2ffbb",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "14047fec-3283-4155-8d93-6d1306c2ffbb",
+      "children": [
+        "ada3eb6e-bd11-4f9c-916f-ca74b8045720"
+      ]
+    },
+    "ada3eb6e-bd11-4f9c-916f-ca74b8045720": {
+      "id": "ada3eb6e-bd11-4f9c-916f-ca74b8045720",
+      "message": {
+        "id": "ada3eb6e-bd11-4f9c-916f-ca74b8045720",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537617.833652,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please include the words \u201c\u0418\u0433\u043e\u0440 Incorporated"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf1ea63b-12e8-413c-b59c-51d3318d95c2",
+      "children": [
+        "51745512-c63d-4715-b0c1-16b64a5f70a9"
+      ]
+    },
+    "51745512-c63d-4715-b0c1-16b64a5f70a9": {
+      "id": "51745512-c63d-4715-b0c1-16b64a5f70a9",
+      "message": {
+        "id": "51745512-c63d-4715-b0c1-16b64a5f70a9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537642.252336,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A Ukrainian man with glasses and a beard, named Igor, is depicted at a storage unit with the words '\u0418\u0433\u043e\u0440 Incorporated' prominently displayed. He is busy selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen. He is focused on his work, with a look of determination. The environment reflects a busy, organized storage space.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ada3eb6e-bd11-4f9c-916f-ca74b8045720",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "ada3eb6e-bd11-4f9c-916f-ca74b8045720",
+      "children": [
+        "f94bee26-fd9f-4dd5-98c9-0d5d5cb81dc9"
+      ]
+    },
+    "f94bee26-fd9f-4dd5-98c9-0d5d5cb81dc9": {
+      "id": "f94bee26-fd9f-4dd5-98c9-0d5d5cb81dc9",
+      "message": {
+        "id": "f94bee26-fd9f-4dd5-98c9-0d5d5cb81dc9",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537642.253516,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-eWq7S6vVVa4LYWFD7QNxNoYu",
+              "size_bytes": 393528,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "LRdwHO5sX2kBnSK9",
+                  "prompt": "A Ukrainian man with glasses and a beard, named Igor, is depicted at a storage unit with the words '\u0418\u0433\u043e\u0440 Incorporated' prominently displayed. He is busy selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen. He is focused on his work, with a look of determination. The environment reflects a busy, organized storage space.",
+                  "seed": 2087395141,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-vTlaNOEH7F5ZAphMuu8UzfVY",
+              "size_bytes": 326176,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "UH7aALhgrQzFDl80",
+                  "prompt": "A Ukrainian man with glasses and a beard, named Igor, is depicted at a storage unit with the words '\u0418\u0433\u043e\u0440 Incorporated' prominently displayed. He is busy selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen. He is focused on his work, with a look of determination. The environment reflects a busy, organized storage space.",
+                  "seed": 1298406589,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "51745512-c63d-4715-b0c1-16b64a5f70a9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "51745512-c63d-4715-b0c1-16b64a5f70a9",
+      "children": [
+        "04472b05-a361-4184-a1c2-9fd44d46b393"
+      ]
+    },
+    "04472b05-a361-4184-a1c2-9fd44d46b393": {
+      "id": "04472b05-a361-4184-a1c2-9fd44d46b393",
+      "message": {
+        "id": "04472b05-a361-4184-a1c2-9fd44d46b393",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537642.25381,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f94bee26-fd9f-4dd5-98c9-0d5d5cb81dc9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f94bee26-fd9f-4dd5-98c9-0d5d5cb81dc9",
+      "children": [
+        "ebd57529-3bbe-4242-99b4-d27d647fb73d"
+      ]
+    },
+    "ebd57529-3bbe-4242-99b4-d27d647fb73d": {
+      "id": "ebd57529-3bbe-4242-99b4-d27d647fb73d",
+      "message": {
+        "id": "ebd57529-3bbe-4242-99b4-d27d647fb73d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537642.253951,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images featuring Igor at his storage unit with \"\u0418\u0433\u043e\u0440 Incorporated\" displayed."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "04472b05-a361-4184-a1c2-9fd44d46b393",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04472b05-a361-4184-a1c2-9fd44d46b393",
+      "children": [
+        "3bee0a66-22b1-421f-b4ea-f81788ae12ab"
+      ]
+    },
+    "3bee0a66-22b1-421f-b4ea-f81788ae12ab": {
+      "id": "3bee0a66-22b1-421f-b4ea-f81788ae12ab",
+      "message": {
+        "id": "3bee0a66-22b1-421f-b4ea-f81788ae12ab",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537676.663516,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please include a Ukrainian flag. Please make the man younger with shorter facial\nHair "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ebd57529-3bbe-4242-99b4-d27d647fb73d",
+      "children": [
+        "18ecb333-bd63-428f-9631-b1a8393b815e"
+      ]
+    },
+    "18ecb333-bd63-428f-9631-b1a8393b815e": {
+      "id": "18ecb333-bd63-428f-9631-b1a8393b815e",
+      "message": {
+        "id": "18ecb333-bd63-428f-9631-b1a8393b815e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537696.784263,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A younger Ukrainian man with glasses and shorter facial hair, named Igor, is depicted at a storage unit. The Ukrainian flag is prominently displayed. He is selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen, and the words '\u0418\u0433\u043e\u0440 Incorporated' are visible in the scene. He appears focused and determined in a busy, organized storage space.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "3bee0a66-22b1-421f-b4ea-f81788ae12ab",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "3bee0a66-22b1-421f-b4ea-f81788ae12ab",
+      "children": [
+        "15b5ba2e-3546-4501-bf58-6fbecc1a2146"
+      ]
+    },
+    "15b5ba2e-3546-4501-bf58-6fbecc1a2146": {
+      "id": "15b5ba2e-3546-4501-bf58-6fbecc1a2146",
+      "message": {
+        "id": "15b5ba2e-3546-4501-bf58-6fbecc1a2146",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537696.785644,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-f4vK0JUwIXiO3NBMrChTaeto",
+              "size_bytes": 394086,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "4HD8fdAFfg3jbyXe",
+                  "prompt": "A younger Ukrainian man with glasses and shorter facial hair, named Igor, is depicted at a storage unit. The Ukrainian flag is prominently displayed. He is selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen, and the words '\u0418\u0433\u043e\u0440 Incorporated' are visible in the scene. He appears focused and determined in a busy, organized storage space.",
+                  "seed": 3436836533,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-a3y7bxvIhclCXI8qekgYfwAD",
+              "size_bytes": 364624,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "x0Oc1KAcVhs8SZkw",
+                  "prompt": "A younger Ukrainian man with glasses and shorter facial hair, named Igor, is depicted at a storage unit. The Ukrainian flag is prominently displayed. He is selling a variety of items on eBay, surrounded by boxes and merchandise of different kinds. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is shown using a laptop, with the eBay website visible on the screen, and the words '\u0418\u0433\u043e\u0440 Incorporated' are visible in the scene. He appears focused and determined in a busy, organized storage space.",
+                  "seed": 2529275707,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "18ecb333-bd63-428f-9631-b1a8393b815e",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "18ecb333-bd63-428f-9631-b1a8393b815e",
+      "children": [
+        "a6663a11-d995-4fcb-89b2-7acd561d3889"
+      ]
+    },
+    "a6663a11-d995-4fcb-89b2-7acd561d3889": {
+      "id": "a6663a11-d995-4fcb-89b2-7acd561d3889",
+      "message": {
+        "id": "a6663a11-d995-4fcb-89b2-7acd561d3889",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537696.785946,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "15b5ba2e-3546-4501-bf58-6fbecc1a2146",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "15b5ba2e-3546-4501-bf58-6fbecc1a2146",
+      "children": [
+        "d88bf55e-c493-4b75-bf8c-4584d53421fc"
+      ]
+    },
+    "d88bf55e-c493-4b75-bf8c-4584d53421fc": {
+      "id": "d88bf55e-c493-4b75-bf8c-4584d53421fc",
+      "message": {
+        "id": "d88bf55e-c493-4b75-bf8c-4584d53421fc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537696.786086,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the updated images featuring a younger Igor with shorter facial hair at his storage unit, including the Ukrainian flag and \"\u0418\u0433\u043e\u0440 Incorporated\"."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "a6663a11-d995-4fcb-89b2-7acd561d3889",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a6663a11-d995-4fcb-89b2-7acd561d3889",
+      "children": [
+        "655d8e93-bc55-4d97-b6e0-8740faab170a"
+      ]
+    },
+    "655d8e93-bc55-4d97-b6e0-8740faab170a": {
+      "id": "655d8e93-bc55-4d97-b6e0-8740faab170a",
+      "message": {
+        "id": "655d8e93-bc55-4d97-b6e0-8740faab170a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537732.113145,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "This is awesome. Please make the glasses octagonal and make him smoking cigarettes "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d88bf55e-c493-4b75-bf8c-4584d53421fc",
+      "children": [
+        "831d120f-dc61-420e-a133-aa09d3ad148b"
+      ]
+    },
+    "831d120f-dc61-420e-a133-aa09d3ad148b": {
+      "id": "831d120f-dc61-420e-a133-aa09d3ad148b",
+      "message": {
+        "id": "831d120f-dc61-420e-a133-aa09d3ad148b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537755.706042,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A younger Ukrainian man with octagonal glasses and shorter facial hair, named Igor, is depicted at a storage unit, smoking a cigarette. The Ukrainian flag is prominently displayed. He is selling items on eBay, surrounded by boxes and diverse merchandise. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is using a laptop with the eBay website visible on the screen, and the words '\u0418\u0433\u043e\u0440 Incorporated' are visible in the scene. He appears focused in a busy, organized storage space.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "655d8e93-bc55-4d97-b6e0-8740faab170a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "655d8e93-bc55-4d97-b6e0-8740faab170a",
+      "children": [
+        "f93986b6-372b-46b1-9053-8d5918e11586"
+      ]
+    },
+    "f93986b6-372b-46b1-9053-8d5918e11586": {
+      "id": "f93986b6-372b-46b1-9053-8d5918e11586",
+      "message": {
+        "id": "f93986b6-372b-46b1-9053-8d5918e11586",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537755.709126,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-nHhn0JnufQkP24N4cgp4i9eo",
+              "size_bytes": 351492,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "yt8MboBstM0VK21E",
+                  "prompt": "A younger Ukrainian man with octagonal glasses and shorter facial hair, named Igor, is depicted at a storage unit, smoking a cigarette. The Ukrainian flag is prominently displayed. He is selling items on eBay, surrounded by boxes and diverse merchandise. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is using a laptop with the eBay website visible on the screen, and the words '\u0418\u0433\u043e\u0440 Incorporated' are visible in the scene. He appears focused in a busy, organized storage space.",
+                  "seed": 604185666,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-3cXQgXSnoifQmioQQyfPq0eR",
+              "size_bytes": 400272,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "TJWslGBsOdjjH8iA",
+                  "prompt": "A younger Ukrainian man with octagonal glasses and shorter facial hair, named Igor, is depicted at a storage unit, smoking a cigarette. The Ukrainian flag is prominently displayed. He is selling items on eBay, surrounded by boxes and diverse merchandise. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is using a laptop with the eBay website visible on the screen, and the words '\u0418\u0433\u043e\u0440 Incorporated' are visible in the scene. He appears focused in a busy, organized storage space.",
+                  "seed": 872527896,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "831d120f-dc61-420e-a133-aa09d3ad148b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "831d120f-dc61-420e-a133-aa09d3ad148b",
+      "children": [
+        "cf67ac95-9832-4aaa-b486-2a74a66489c5"
+      ]
+    },
+    "cf67ac95-9832-4aaa-b486-2a74a66489c5": {
+      "id": "cf67ac95-9832-4aaa-b486-2a74a66489c5",
+      "message": {
+        "id": "cf67ac95-9832-4aaa-b486-2a74a66489c5",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537755.709853,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f93986b6-372b-46b1-9053-8d5918e11586",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f93986b6-372b-46b1-9053-8d5918e11586",
+      "children": [
+        "e691e5e6-053f-4789-b1ab-8e4611aa7505"
+      ]
+    },
+    "e691e5e6-053f-4789-b1ab-8e4611aa7505": {
+      "id": "e691e5e6-053f-4789-b1ab-8e4611aa7505",
+      "message": {
+        "id": "e691e5e6-053f-4789-b1ab-8e4611aa7505",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537755.710048,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images with the younger Igor wearing octagonal glasses and smoking a cigarette, in his storage unit with the Ukrainian flag and \"\u0418\u0433\u043e\u0440 Incorporated\"."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "cf67ac95-9832-4aaa-b486-2a74a66489c5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf67ac95-9832-4aaa-b486-2a74a66489c5",
+      "children": [
+        "67bdf1a3-8213-4858-b5c1-d95cb5b7560d"
+      ]
+    },
+    "67bdf1a3-8213-4858-b5c1-d95cb5b7560d": {
+      "id": "67bdf1a3-8213-4858-b5c1-d95cb5b7560d",
+      "message": {
+        "id": "67bdf1a3-8213-4858-b5c1-d95cb5b7560d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537842.717489,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please emphasize the text "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e691e5e6-053f-4789-b1ab-8e4611aa7505",
+      "children": [
+        "a2bd504a-5e41-4ccc-b7ac-cf29a5953f2e"
+      ]
+    },
+    "a2bd504a-5e41-4ccc-b7ac-cf29a5953f2e": {
+      "id": "a2bd504a-5e41-4ccc-b7ac-cf29a5953f2e",
+      "message": {
+        "id": "a2bd504a-5e41-4ccc-b7ac-cf29a5953f2e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537867.557483,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A younger Ukrainian man with octagonal glasses and shorter facial hair, named Igor, is depicted at a storage unit, smoking a cigarette. The Ukrainian flag is prominently displayed. He is selling items on eBay, surrounded by boxes and diverse merchandise. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is using a laptop with the eBay website visible on the screen. The words '\u0418\u0433\u043e\u0440 Incorporated' are prominently and clearly displayed in large, bold letters in the scene. He appears focused in a busy, organized storage space.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "67bdf1a3-8213-4858-b5c1-d95cb5b7560d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "67bdf1a3-8213-4858-b5c1-d95cb5b7560d",
+      "children": [
+        "619505a3-0e5b-485f-bc3c-97a1b87cc91d"
+      ]
+    },
+    "619505a3-0e5b-485f-bc3c-97a1b87cc91d": {
+      "id": "619505a3-0e5b-485f-bc3c-97a1b87cc91d",
+      "message": {
+        "id": "619505a3-0e5b-485f-bc3c-97a1b87cc91d",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537867.55869,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Ne4Fe4MGXqCbFzsG4pHHnJDd",
+              "size_bytes": 356942,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "aHdBb7B3bLe1PUIy",
+                  "prompt": "A younger Ukrainian man with octagonal glasses and shorter facial hair, named Igor, is depicted at a storage unit, smoking a cigarette. The Ukrainian flag is prominently displayed. He is selling items on eBay, surrounded by boxes and diverse merchandise. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is using a laptop with the eBay website visible on the screen. The words '\u0418\u0433\u043e\u0440 Incorporated' are prominently and clearly displayed in large, bold letters in the scene. He appears focused in a busy, organized storage space.",
+                  "seed": 3669888081,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-ewPTJHlI0yqtKI2pIiW2OCq4",
+              "size_bytes": 352742,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "c8qD0JdoN6Dwr3G2",
+                  "prompt": "A younger Ukrainian man with octagonal glasses and shorter facial hair, named Igor, is depicted at a storage unit, smoking a cigarette. The Ukrainian flag is prominently displayed. He is selling items on eBay, surrounded by boxes and diverse merchandise. The storage unit is filled with items like electronics, clothes, and collectibles. Igor is using a laptop with the eBay website visible on the screen. The words '\u0418\u0433\u043e\u0440 Incorporated' are prominently and clearly displayed in large, bold letters in the scene. He appears focused in a busy, organized storage space.",
+                  "seed": 4033475239,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "a2bd504a-5e41-4ccc-b7ac-cf29a5953f2e",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a2bd504a-5e41-4ccc-b7ac-cf29a5953f2e",
+      "children": [
+        "e0cf8187-fd0c-4236-8f6d-b20fab531366"
+      ]
+    },
+    "e0cf8187-fd0c-4236-8f6d-b20fab531366": {
+      "id": "e0cf8187-fd0c-4236-8f6d-b20fab531366",
+      "message": {
+        "id": "e0cf8187-fd0c-4236-8f6d-b20fab531366",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537867.55899,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "619505a3-0e5b-485f-bc3c-97a1b87cc91d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "619505a3-0e5b-485f-bc3c-97a1b87cc91d",
+      "children": [
+        "2f34568c-20cb-4e9f-9218-243804340c2f"
+      ]
+    },
+    "2f34568c-20cb-4e9f-9218-243804340c2f": {
+      "id": "2f34568c-20cb-4e9f-9218-243804340c2f",
+      "message": {
+        "id": "2f34568c-20cb-4e9f-9218-243804340c2f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537867.559135,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images with the text \"\u0418\u0433\u043e\u0440 Incorporated\" emphasized in the scene featuring Igor."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e0cf8187-fd0c-4236-8f6d-b20fab531366",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e0cf8187-fd0c-4236-8f6d-b20fab531366",
+      "children": [
+        "e8999f1c-0bef-43cb-9898-3f019a79f72c"
+      ]
+    },
+    "e8999f1c-0bef-43cb-9898-3f019a79f72c": {
+      "id": "e8999f1c-0bef-43cb-9898-3f019a79f72c",
+      "message": {
+        "id": "e8999f1c-0bef-43cb-9898-3f019a79f72c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537971.092346,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a Soviet style propaganda poster in the heroic 1950s style featuring a muscular Ukrainian man fixing hydraulics on heavy Soviet era construction machinery. Please include his name \u201cVOLO\u201d"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2f34568c-20cb-4e9f-9218-243804340c2f",
+      "children": [
+        "fd666e2d-ea65-4fce-b5a8-e30343a6db40"
+      ]
+    },
+    "fd666e2d-ea65-4fce-b5a8-e30343a6db40": {
+      "id": "fd666e2d-ea65-4fce-b5a8-e30343a6db40",
+      "message": {
+        "id": "fd666e2d-ea65-4fce-b5a8-e30343a6db40",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537989.638379,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create a Soviet-style propaganda poster in the heroic 1950s style. The poster features a muscular Ukrainian man named 'VOLO', expertly fixing hydraulics on heavy Soviet-era construction machinery. The design embodies the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds and bold lettering. The man is shown in a heroic pose, emphasizing his strength and skill, representing the pride and power of the workforce. The background should include elements typical of Soviet-era industrial settings.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e8999f1c-0bef-43cb-9898-3f019a79f72c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "e8999f1c-0bef-43cb-9898-3f019a79f72c",
+      "children": [
+        "7d560eef-6d5e-4513-a128-9f695524f33a"
+      ]
+    },
+    "7d560eef-6d5e-4513-a128-9f695524f33a": {
+      "id": "7d560eef-6d5e-4513-a128-9f695524f33a",
+      "message": {
+        "id": "7d560eef-6d5e-4513-a128-9f695524f33a",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537989.639799,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-X2Y4uu7MuMLGg9rnbI7EXRxJ",
+              "size_bytes": 306708,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "T1uavF246AXYki2E",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style. The poster features a muscular Ukrainian man named 'VOLO', expertly fixing hydraulics on heavy Soviet-era construction machinery. The design embodies the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds and bold lettering. The man is shown in a heroic pose, emphasizing his strength and skill, representing the pride and power of the workforce. The background should include elements typical of Soviet-era industrial settings.",
+                  "seed": 3871988752,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-xDm9J92nF81q7qf9E2pP2G9Y",
+              "size_bytes": 349512,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "d7COLU3rjw3DjCoV",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style. The poster features a muscular Ukrainian man named 'VOLO', expertly fixing hydraulics on heavy Soviet-era construction machinery. The design embodies the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds and bold lettering. The man is shown in a heroic pose, emphasizing his strength and skill, representing the pride and power of the workforce. The background should include elements typical of Soviet-era industrial settings.",
+                  "seed": 785888733,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "fd666e2d-ea65-4fce-b5a8-e30343a6db40",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fd666e2d-ea65-4fce-b5a8-e30343a6db40",
+      "children": [
+        "90490a27-b827-4ac5-a543-cc8dd07faa35"
+      ]
+    },
+    "90490a27-b827-4ac5-a543-cc8dd07faa35": {
+      "id": "90490a27-b827-4ac5-a543-cc8dd07faa35",
+      "message": {
+        "id": "90490a27-b827-4ac5-a543-cc8dd07faa35",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701537989.64017,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "7d560eef-6d5e-4513-a128-9f695524f33a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7d560eef-6d5e-4513-a128-9f695524f33a",
+      "children": [
+        "d30e1f2b-5012-45e3-ac94-44b78d70b824"
+      ]
+    },
+    "d30e1f2b-5012-45e3-ac94-44b78d70b824": {
+      "id": "d30e1f2b-5012-45e3-ac94-44b78d70b824",
+      "message": {
+        "id": "d30e1f2b-5012-45e3-ac94-44b78d70b824",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701537989.640386,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the Soviet-style propaganda posters featuring the muscular Ukrainian man named 'VOLO', fixing hydraulics on heavy Soviet-era construction machinery."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "90490a27-b827-4ac5-a543-cc8dd07faa35",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "90490a27-b827-4ac5-a543-cc8dd07faa35",
+      "children": [
+        "f29e2589-5c0b-450f-999f-a6eb04834ac4"
+      ]
+    },
+    "f29e2589-5c0b-450f-999f-a6eb04834ac4": {
+      "id": "f29e2589-5c0b-450f-999f-a6eb04834ac4",
+      "message": {
+        "id": "f29e2589-5c0b-450f-999f-a6eb04834ac4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538063.533009,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please include the words \u201cVOLO\u201d. Include smiling peasants and make him fixing the hydraulics of Soviet era farm equipment "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d30e1f2b-5012-45e3-ac94-44b78d70b824",
+      "children": [
+        "c5dec62c-84b8-49ab-a2e6-4bfb4bb31b5d"
+      ]
+    },
+    "c5dec62c-84b8-49ab-a2e6-4bfb4bb31b5d": {
+      "id": "c5dec62c-84b8-49ab-a2e6-4bfb4bb31b5d",
+      "message": {
+        "id": "c5dec62c-84b8-49ab-a2e6-4bfb4bb31b5d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538095.390637,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create a Soviet-style propaganda poster in the heroic 1950s style, featuring a muscular Ukrainian man named 'VOLO'. He is shown smiling and fixing the hydraulics of Soviet-era farm equipment. The poster includes smiling peasants in the background, celebrating the work. The design embraces the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering, and the name 'VOLO' prominently displayed. The scene captures the spirit of cooperation and progress, typical of Soviet-era agricultural settings.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f29e2589-5c0b-450f-999f-a6eb04834ac4",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "f29e2589-5c0b-450f-999f-a6eb04834ac4",
+      "children": [
+        "af9be1df-e1c1-4272-873c-6a44a2badd77"
+      ]
+    },
+    "af9be1df-e1c1-4272-873c-6a44a2badd77": {
+      "id": "af9be1df-e1c1-4272-873c-6a44a2badd77",
+      "message": {
+        "id": "af9be1df-e1c1-4272-873c-6a44a2badd77",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538095.392083,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-tFpBucR2dMdlcrjXyEOGkWda",
+              "size_bytes": 330708,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "0pVYWPx3sOWrqa5d",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, featuring a muscular Ukrainian man named 'VOLO'. He is shown smiling and fixing the hydraulics of Soviet-era farm equipment. The poster includes smiling peasants in the background, celebrating the work. The design embraces the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering, and the name 'VOLO' prominently displayed. The scene captures the spirit of cooperation and progress, typical of Soviet-era agricultural settings.",
+                  "seed": 2253621349,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-N2RhSUyYDx9IftjL6u28R4yZ",
+              "size_bytes": 318458,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "7HIZOMVGSRLhB9te",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, featuring a muscular Ukrainian man named 'VOLO'. He is shown smiling and fixing the hydraulics of Soviet-era farm equipment. The poster includes smiling peasants in the background, celebrating the work. The design embraces the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering, and the name 'VOLO' prominently displayed. The scene captures the spirit of cooperation and progress, typical of Soviet-era agricultural settings.",
+                  "seed": 2406975224,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "c5dec62c-84b8-49ab-a2e6-4bfb4bb31b5d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c5dec62c-84b8-49ab-a2e6-4bfb4bb31b5d",
+      "children": [
+        "411c6128-d66f-42d7-a89a-d95da849b747"
+      ]
+    },
+    "411c6128-d66f-42d7-a89a-d95da849b747": {
+      "id": "411c6128-d66f-42d7-a89a-d95da849b747",
+      "message": {
+        "id": "411c6128-d66f-42d7-a89a-d95da849b747",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538095.392446,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "af9be1df-e1c1-4272-873c-6a44a2badd77",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "af9be1df-e1c1-4272-873c-6a44a2badd77",
+      "children": [
+        "8ff31152-ef45-4f98-8d78-254586dcb237"
+      ]
+    },
+    "8ff31152-ef45-4f98-8d78-254586dcb237": {
+      "id": "8ff31152-ef45-4f98-8d78-254586dcb237",
+      "message": {
+        "id": "8ff31152-ef45-4f98-8d78-254586dcb237",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538095.392622,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the Soviet-style propaganda posters featuring 'VOLO', the muscular Ukrainian man fixing hydraulics on Soviet-era farm equipment, with smiling peasants in the background."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "411c6128-d66f-42d7-a89a-d95da849b747",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "411c6128-d66f-42d7-a89a-d95da849b747",
+      "children": [
+        "f57a7567-000d-470e-abf7-d6ff6521a738"
+      ]
+    },
+    "f57a7567-000d-470e-abf7-d6ff6521a738": {
+      "id": "f57a7567-000d-470e-abf7-d6ff6521a738",
+      "message": {
+        "id": "f57a7567-000d-470e-abf7-d6ff6521a738",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538111.517512,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please emphasize the word VOLO"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8ff31152-ef45-4f98-8d78-254586dcb237",
+      "children": [
+        "6d731cf6-8c42-4e60-9b23-f3990a2bd40e"
+      ]
+    },
+    "6d731cf6-8c42-4e60-9b23-f3990a2bd40e": {
+      "id": "6d731cf6-8c42-4e60-9b23-f3990a2bd40e",
+      "message": {
+        "id": "6d731cf6-8c42-4e60-9b23-f3990a2bd40e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538120.030871,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, I will emphasize the word \"VOLO\" in the Soviet-style propaganda poster."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f57a7567-000d-470e-abf7-d6ff6521a738",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f57a7567-000d-470e-abf7-d6ff6521a738",
+      "children": [
+        "387a23a9-dafe-4047-9dc1-5ccefb1b3ec6"
+      ]
+    },
+    "387a23a9-dafe-4047-9dc1-5ccefb1b3ec6": {
+      "id": "387a23a9-dafe-4047-9dc1-5ccefb1b3ec6",
+      "message": {
+        "id": "387a23a9-dafe-4047-9dc1-5ccefb1b3ec6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538120.031901,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, I will emphasize the word \"VOLO\" in the Soviet-style propaganda poster."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "6d731cf6-8c42-4e60-9b23-f3990a2bd40e",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6d731cf6-8c42-4e60-9b23-f3990a2bd40e",
+      "children": [
+        "c280d029-396e-4fe0-b9b0-169521136a3d"
+      ]
+    },
+    "c280d029-396e-4fe0-b9b0-169521136a3d": {
+      "id": "c280d029-396e-4fe0-b9b0-169521136a3d",
+      "message": {
+        "id": "c280d029-396e-4fe0-b9b0-169521136a3d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538120.032861,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, I will emphasize the word \"VOLO\" in the Soviet-style propaganda poster."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "387a23a9-dafe-4047-9dc1-5ccefb1b3ec6",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "387a23a9-dafe-4047-9dc1-5ccefb1b3ec6",
+      "children": [
+        "5d350ef4-73a2-4921-91bd-04d97587883f"
+      ]
+    },
+    "5d350ef4-73a2-4921-91bd-04d97587883f": {
+      "id": "5d350ef4-73a2-4921-91bd-04d97587883f",
+      "message": {
+        "id": "5d350ef4-73a2-4921-91bd-04d97587883f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538120.03382,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, I will emphasize the word \"VOLO\" in the Soviet-style propaganda poster."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "c280d029-396e-4fe0-b9b0-169521136a3d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c280d029-396e-4fe0-b9b0-169521136a3d",
+      "children": [
+        "47ffef81-a431-43de-80a3-e2a834ffd386",
+        "fcc35dfc-1a0e-4848-ac2d-b3e4306e46cd"
+      ]
+    },
+    "47ffef81-a431-43de-80a3-e2a834ffd386": {
+      "id": "47ffef81-a431-43de-80a3-e2a834ffd386",
+      "message": {
+        "id": "47ffef81-a431-43de-80a3-e2a834ffd386",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538120.034866,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "5d350ef4-73a2-4921-91bd-04d97587883f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5d350ef4-73a2-4921-91bd-04d97587883f",
+      "children": []
+    },
+    "fcc35dfc-1a0e-4848-ac2d-b3e4306e46cd": {
+      "id": "fcc35dfc-1a0e-4848-ac2d-b3e4306e46cd",
+      "message": {
+        "id": "fcc35dfc-1a0e-4848-ac2d-b3e4306e46cd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538133.375463,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please emphasize the word VOLO"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5d350ef4-73a2-4921-91bd-04d97587883f",
+      "children": [
+        "2c533b6a-259e-4cdd-bdeb-f17cf29ee87a"
+      ]
+    },
+    "2c533b6a-259e-4cdd-bdeb-f17cf29ee87a": {
+      "id": "2c533b6a-259e-4cdd-bdeb-f17cf29ee87a",
+      "message": {
+        "id": "2c533b6a-259e-4cdd-bdeb-f17cf29ee87a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538158.247527,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create a Soviet-style propaganda poster in the heroic 1950s style, featuring a muscular Ukrainian man named 'VOLO'. He is shown smiling and fixing the hydraulics of Soviet-era farm equipment. The poster includes smiling peasants in the background, celebrating the work. The design embraces the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering, and the name 'VOLO' prominently and largely displayed in the scene. The scene captures the spirit of cooperation and progress, typical of Soviet-era agricultural settings.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "fcc35dfc-1a0e-4848-ac2d-b3e4306e46cd",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "fcc35dfc-1a0e-4848-ac2d-b3e4306e46cd",
+      "children": [
+        "6f3ca2e7-8e57-401f-9dda-fe83ead117ec"
+      ]
+    },
+    "6f3ca2e7-8e57-401f-9dda-fe83ead117ec": {
+      "id": "6f3ca2e7-8e57-401f-9dda-fe83ead117ec",
+      "message": {
+        "id": "6f3ca2e7-8e57-401f-9dda-fe83ead117ec",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538158.249118,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7NN6MAor57RPzAHfUSoJ25R0",
+              "size_bytes": 221162,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "CPJwGsh8zr2AFrbB",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, featuring a muscular Ukrainian man named 'VOLO'. He is shown smiling and fixing the hydraulics of Soviet-era farm equipment. The poster includes smiling peasants in the background, celebrating the work. The design embraces the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering, and the name 'VOLO' prominently and largely displayed in the scene. The scene captures the spirit of cooperation and progress, typical of Soviet-era agricultural settings.",
+                  "seed": 3346831797,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-6tZQN8aQBAIeu8pfMFRy2oOL",
+              "size_bytes": 246328,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "3EQxzlUP35QgNcXl",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, featuring a muscular Ukrainian man named 'VOLO'. He is shown smiling and fixing the hydraulics of Soviet-era farm equipment. The poster includes smiling peasants in the background, celebrating the work. The design embraces the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering, and the name 'VOLO' prominently and largely displayed in the scene. The scene captures the spirit of cooperation and progress, typical of Soviet-era agricultural settings.",
+                  "seed": 2386398426,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "2c533b6a-259e-4cdd-bdeb-f17cf29ee87a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2c533b6a-259e-4cdd-bdeb-f17cf29ee87a",
+      "children": [
+        "9f4129d7-3d0f-4651-864f-f4d358a48297"
+      ]
+    },
+    "9f4129d7-3d0f-4651-864f-f4d358a48297": {
+      "id": "9f4129d7-3d0f-4651-864f-f4d358a48297",
+      "message": {
+        "id": "9f4129d7-3d0f-4651-864f-f4d358a48297",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538158.249496,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "6f3ca2e7-8e57-401f-9dda-fe83ead117ec",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6f3ca2e7-8e57-401f-9dda-fe83ead117ec",
+      "children": [
+        "472f979b-2323-470b-96d2-883943ba9684"
+      ]
+    },
+    "472f979b-2323-470b-96d2-883943ba9684": {
+      "id": "472f979b-2323-470b-96d2-883943ba9684",
+      "message": {
+        "id": "472f979b-2323-470b-96d2-883943ba9684",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538158.249682,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the Soviet-style propaganda posters with the word 'VOLO' emphasized in the scene."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "9f4129d7-3d0f-4651-864f-f4d358a48297",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9f4129d7-3d0f-4651-864f-f4d358a48297",
+      "children": [
+        "6d4ccac8-6a6b-4187-a7b0-60329191d031"
+      ]
+    },
+    "6d4ccac8-6a6b-4187-a7b0-60329191d031": {
+      "id": "6d4ccac8-6a6b-4187-a7b0-60329191d031",
+      "message": {
+        "id": "6d4ccac8-6a6b-4187-a7b0-60329191d031",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538191.3094,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please make the word VOLO the primary element "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "472f979b-2323-470b-96d2-883943ba9684",
+      "children": [
+        "a6db0480-76a1-453f-b024-008198d82771"
+      ]
+    },
+    "a6db0480-76a1-453f-b024-008198d82771": {
+      "id": "a6db0480-76a1-453f-b024-008198d82771",
+      "message": {
+        "id": "a6db0480-76a1-453f-b024-008198d82771",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538214.822251,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create a Soviet-style propaganda poster in the heroic 1950s style, prominently featuring the word 'VOLO' as the primary element. Include a muscular Ukrainian man named 'VOLO', smiling and fixing the hydraulics of Soviet-era farm equipment. The poster should also have smiling peasants in the background. The design should reflect the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering. The name 'VOLO' should be the most dominant feature in the poster, capturing the spirit of strength and progress in a Soviet-era agricultural setting.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "6d4ccac8-6a6b-4187-a7b0-60329191d031",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "6d4ccac8-6a6b-4187-a7b0-60329191d031",
+      "children": [
+        "fce13edc-39e4-4002-a1fa-3fe2f4382d6e"
+      ]
+    },
+    "fce13edc-39e4-4002-a1fa-3fe2f4382d6e": {
+      "id": "fce13edc-39e4-4002-a1fa-3fe2f4382d6e",
+      "message": {
+        "id": "fce13edc-39e4-4002-a1fa-3fe2f4382d6e",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538214.823451,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-cN7Rts5YlhwVWeDu0uqLw3Mk",
+              "size_bytes": 219086,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "PiXnehedNoPVuibh",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, prominently featuring the word 'VOLO' as the primary element. Include a muscular Ukrainian man named 'VOLO', smiling and fixing the hydraulics of Soviet-era farm equipment. The poster should also have smiling peasants in the background. The design should reflect the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering. The name 'VOLO' should be the most dominant feature in the poster, capturing the spirit of strength and progress in a Soviet-era agricultural setting.",
+                  "seed": 2889618025,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-eoek9ItOoPdkXHJUGziFNdxI",
+              "size_bytes": 268782,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "U2hX98gwfLA9n1XX",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, prominently featuring the word 'VOLO' as the primary element. Include a muscular Ukrainian man named 'VOLO', smiling and fixing the hydraulics of Soviet-era farm equipment. The poster should also have smiling peasants in the background. The design should reflect the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering. The name 'VOLO' should be the most dominant feature in the poster, capturing the spirit of strength and progress in a Soviet-era agricultural setting.",
+                  "seed": 1738350464,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "a6db0480-76a1-453f-b024-008198d82771",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a6db0480-76a1-453f-b024-008198d82771",
+      "children": [
+        "63f660c5-26bb-47b4-8e56-eca6de0fca83"
+      ]
+    },
+    "63f660c5-26bb-47b4-8e56-eca6de0fca83": {
+      "id": "63f660c5-26bb-47b4-8e56-eca6de0fca83",
+      "message": {
+        "id": "63f660c5-26bb-47b4-8e56-eca6de0fca83",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538214.823731,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "fce13edc-39e4-4002-a1fa-3fe2f4382d6e",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fce13edc-39e4-4002-a1fa-3fe2f4382d6e",
+      "children": [
+        "349df606-beec-44c9-8f87-d9a0e9917ab2"
+      ]
+    },
+    "349df606-beec-44c9-8f87-d9a0e9917ab2": {
+      "id": "349df606-beec-44c9-8f87-d9a0e9917ab2",
+      "message": {
+        "id": "349df606-beec-44c9-8f87-d9a0e9917ab2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538214.823878,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the Soviet-style propaganda posters with 'VOLO' as the primary element in the design."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "63f660c5-26bb-47b4-8e56-eca6de0fca83",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "63f660c5-26bb-47b4-8e56-eca6de0fca83",
+      "children": [
+        "0cd490bf-88ce-4e39-9f9f-133b7874a7ea"
+      ]
+    },
+    "0cd490bf-88ce-4e39-9f9f-133b7874a7ea": {
+      "id": "0cd490bf-88ce-4e39-9f9f-133b7874a7ea",
+      "message": {
+        "id": "0cd490bf-88ce-4e39-9f9f-133b7874a7ea",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538236.504319,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Awesome. Please remove the Russian flag "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "349df606-beec-44c9-8f87-d9a0e9917ab2",
+      "children": [
+        "d8e93f13-6c1a-40f5-94f9-c5157c88e204"
+      ]
+    },
+    "d8e93f13-6c1a-40f5-94f9-c5157c88e204": {
+      "id": "d8e93f13-6c1a-40f5-94f9-c5157c88e204",
+      "message": {
+        "id": "d8e93f13-6c1a-40f5-94f9-c5157c88e204",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538258.395722,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create a Soviet-style propaganda poster in the heroic 1950s style, without any Russian flag. The poster prominently features the word 'VOLO' as the primary element. It includes a muscular Ukrainian man named 'VOLO', smiling and fixing the hydraulics of Soviet-era farm equipment, with smiling peasants in the background. The design reflects the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering. The name 'VOLO' is the most dominant feature in the poster, symbolizing strength and progress in a Soviet-era agricultural setting.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "0cd490bf-88ce-4e39-9f9f-133b7874a7ea",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "0cd490bf-88ce-4e39-9f9f-133b7874a7ea",
+      "children": [
+        "f5b143b4-636b-462b-bf4d-7c8a974f17e4"
+      ]
+    },
+    "f5b143b4-636b-462b-bf4d-7c8a974f17e4": {
+      "id": "f5b143b4-636b-462b-bf4d-7c8a974f17e4",
+      "message": {
+        "id": "f5b143b4-636b-462b-bf4d-7c8a974f17e4",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538258.39759,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-r0Eawf1T35TXvsJvVK6z0RJ7",
+              "size_bytes": 220272,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "CJFVwMq4ACrGukdo",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, without any Russian flag. The poster prominently features the word 'VOLO' as the primary element. It includes a muscular Ukrainian man named 'VOLO', smiling and fixing the hydraulics of Soviet-era farm equipment, with smiling peasants in the background. The design reflects the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering. The name 'VOLO' is the most dominant feature in the poster, symbolizing strength and progress in a Soviet-era agricultural setting.",
+                  "seed": 403321625,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-3f7Lw3nOUatrzC0pfOKZBLkA",
+              "size_bytes": 283452,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "CoLZnXCgnqlSgUVy",
+                  "prompt": "Create a Soviet-style propaganda poster in the heroic 1950s style, without any Russian flag. The poster prominently features the word 'VOLO' as the primary element. It includes a muscular Ukrainian man named 'VOLO', smiling and fixing the hydraulics of Soviet-era farm equipment, with smiling peasants in the background. The design reflects the bold and dramatic aesthetics of 1950s Soviet propaganda, with strong use of reds, bold lettering. The name 'VOLO' is the most dominant feature in the poster, symbolizing strength and progress in a Soviet-era agricultural setting.",
+                  "seed": 2548680853,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "d8e93f13-6c1a-40f5-94f9-c5157c88e204",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d8e93f13-6c1a-40f5-94f9-c5157c88e204",
+      "children": [
+        "6d0c2ca2-77ab-4c12-bd3a-268be09cdc25"
+      ]
+    },
+    "6d0c2ca2-77ab-4c12-bd3a-268be09cdc25": {
+      "id": "6d0c2ca2-77ab-4c12-bd3a-268be09cdc25",
+      "message": {
+        "id": "6d0c2ca2-77ab-4c12-bd3a-268be09cdc25",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538258.398035,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f5b143b4-636b-462b-bf4d-7c8a974f17e4",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f5b143b4-636b-462b-bf4d-7c8a974f17e4",
+      "children": [
+        "d52fd62f-6fdc-4117-a7c7-b5d334f5c10b"
+      ]
+    },
+    "d52fd62f-6fdc-4117-a7c7-b5d334f5c10b": {
+      "id": "d52fd62f-6fdc-4117-a7c7-b5d334f5c10b",
+      "message": {
+        "id": "d52fd62f-6fdc-4117-a7c7-b5d334f5c10b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538258.398229,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the Soviet-style propaganda posters featuring 'VOLO', without any Russian flag."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "6d0c2ca2-77ab-4c12-bd3a-268be09cdc25",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6d0c2ca2-77ab-4c12-bd3a-268be09cdc25",
+      "children": [
+        "ea77feff-f720-4d2d-a95e-7948782dea37"
+      ]
+    },
+    "ea77feff-f720-4d2d-a95e-7948782dea37": {
+      "id": "ea77feff-f720-4d2d-a95e-7948782dea37",
+      "message": {
+        "id": "ea77feff-f720-4d2d-a95e-7948782dea37",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538415.880374,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a beautiful Ukrainian model with long brown hair picking potato\u2019s "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d52fd62f-6fdc-4117-a7c7-b5d334f5c10b",
+      "children": [
+        "90adca6f-3c7a-45f6-9d66-2bbf589e2f44"
+      ]
+    },
+    "90adca6f-3c7a-45f6-9d66-2bbf589e2f44": {
+      "id": "90adca6f-3c7a-45f6-9d66-2bbf589e2f44",
+      "message": {
+        "id": "90adca6f-3c7a-45f6-9d66-2bbf589e2f44",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538440.645813,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create an image of a beautiful Ukrainian model with long brown hair. She is depicted in a rural setting, picking potatoes in a field. The model is dressed in comfortable, casual clothing suitable for farm work, with a focus on her engaging in the task with a smile. The background should be a lush, green potato field under a clear blue sky, capturing the essence of a peaceful and productive countryside.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ea77feff-f720-4d2d-a95e-7948782dea37",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "ea77feff-f720-4d2d-a95e-7948782dea37",
+      "children": [
+        "ca14219e-b80b-4665-a39f-62ff5cefa066"
+      ]
+    },
+    "ca14219e-b80b-4665-a39f-62ff5cefa066": {
+      "id": "ca14219e-b80b-4665-a39f-62ff5cefa066",
+      "message": {
+        "id": "ca14219e-b80b-4665-a39f-62ff5cefa066",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538440.647252,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-bEjURiDtVp3J6Io6CS54p9da",
+              "size_bytes": 193202,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "cVeuTAurVoZtN5Pj",
+                  "prompt": "Create an image of a beautiful Ukrainian model with long brown hair. She is depicted in a rural setting, picking potatoes in a field. The model is dressed in comfortable, casual clothing suitable for farm work, with a focus on her engaging in the task with a smile. The background should be a lush, green potato field under a clear blue sky, capturing the essence of a peaceful and productive countryside.",
+                  "seed": 3168088976,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-3uXwNotJXfiZzwP7vX5zNSEw",
+              "size_bytes": 216272,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "KsiyKpAXf6cIaree",
+                  "prompt": "Create an image of a beautiful Ukrainian model with long brown hair. She is depicted in a rural setting, picking potatoes in a field. The model is dressed in comfortable, casual clothing suitable for farm work, with a focus on her engaging in the task with a smile. The background should be a lush, green potato field under a clear blue sky, capturing the essence of a peaceful and productive countryside.",
+                  "seed": 310482573,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "90adca6f-3c7a-45f6-9d66-2bbf589e2f44",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "90adca6f-3c7a-45f6-9d66-2bbf589e2f44",
+      "children": [
+        "00a14564-bb51-451d-99fc-998d6c1a64ae"
+      ]
+    },
+    "00a14564-bb51-451d-99fc-998d6c1a64ae": {
+      "id": "00a14564-bb51-451d-99fc-998d6c1a64ae",
+      "message": {
+        "id": "00a14564-bb51-451d-99fc-998d6c1a64ae",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538440.647632,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ca14219e-b80b-4665-a39f-62ff5cefa066",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca14219e-b80b-4665-a39f-62ff5cefa066",
+      "children": [
+        "c400f939-863f-4d75-8387-140573f7f449"
+      ]
+    },
+    "c400f939-863f-4d75-8387-140573f7f449": {
+      "id": "c400f939-863f-4d75-8387-140573f7f449",
+      "message": {
+        "id": "c400f939-863f-4d75-8387-140573f7f449",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538440.64778,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of a beautiful Ukrainian model with long brown hair, picking potatoes in a field."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "00a14564-bb51-451d-99fc-998d6c1a64ae",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "00a14564-bb51-451d-99fc-998d6c1a64ae",
+      "children": [
+        "70179b1e-20ab-42d9-9db5-d2e946797201"
+      ]
+    },
+    "70179b1e-20ab-42d9-9db5-d2e946797201": {
+      "id": "70179b1e-20ab-42d9-9db5-d2e946797201",
+      "message": {
+        "id": "70179b1e-20ab-42d9-9db5-d2e946797201",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538622.130522,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please make her wearing evening wear "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c400f939-863f-4d75-8387-140573f7f449",
+      "children": [
+        "a3a7339f-fa45-4275-bccf-6d283e7729b1"
+      ]
+    },
+    "a3a7339f-fa45-4275-bccf-6d283e7729b1": {
+      "id": "a3a7339f-fa45-4275-bccf-6d283e7729b1",
+      "message": {
+        "id": "a3a7339f-fa45-4275-bccf-6d283e7729b1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538647.768656,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"Create an image of a beautiful Ukrainian model with long brown hair, picking potatoes in a field while wearing elegant evening wear. The model's attire is a striking contrast to the rural setting, adding an element of glamour to the countryside scene. She is depicted with a smile, elegantly dressed in a sophisticated gown, amidst the lush green potato field under a clear blue sky. The image captures a unique blend of elegance and the rustic charm of farm life.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "70179b1e-20ab-42d9-9db5-d2e946797201",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "70179b1e-20ab-42d9-9db5-d2e946797201",
+      "children": [
+        "f9ed80e5-da37-45b0-b17a-66c26a2330b8"
+      ]
+    },
+    "f9ed80e5-da37-45b0-b17a-66c26a2330b8": {
+      "id": "f9ed80e5-da37-45b0-b17a-66c26a2330b8",
+      "message": {
+        "id": "f9ed80e5-da37-45b0-b17a-66c26a2330b8",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538647.769885,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-PoXGmZoS4RAp8suloxpDv00n",
+              "size_bytes": 249748,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "oDGINNeqmvkBTYpU",
+                  "prompt": "Create an image of a beautiful Ukrainian model with long brown hair, picking potatoes in a field while wearing elegant evening wear. The model's attire is a striking contrast to the rural setting, adding an element of glamour to the countryside scene. She is depicted with a smile, elegantly dressed in a sophisticated gown, amidst the lush green potato field under a clear blue sky. The image captures a unique blend of elegance and the rustic charm of farm life.",
+                  "seed": 1104282831,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Us7cSUSHJnsXet37bPIUCmho",
+              "size_bytes": 274196,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "uqlFIPor3bJV5xmc",
+                  "prompt": "Create an image of a beautiful Ukrainian model with long brown hair, picking potatoes in a field while wearing elegant evening wear. The model's attire is a striking contrast to the rural setting, adding an element of glamour to the countryside scene. She is depicted with a smile, elegantly dressed in a sophisticated gown, amidst the lush green potato field under a clear blue sky. The image captures a unique blend of elegance and the rustic charm of farm life.",
+                  "seed": 2763154482,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "a3a7339f-fa45-4275-bccf-6d283e7729b1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a3a7339f-fa45-4275-bccf-6d283e7729b1",
+      "children": [
+        "171b34bd-a0ba-4de6-b34b-b426e76c7b60"
+      ]
+    },
+    "171b34bd-a0ba-4de6-b34b-b426e76c7b60": {
+      "id": "171b34bd-a0ba-4de6-b34b-b426e76c7b60",
+      "message": {
+        "id": "171b34bd-a0ba-4de6-b34b-b426e76c7b60",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1701538647.770201,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f9ed80e5-da37-45b0-b17a-66c26a2330b8",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f9ed80e5-da37-45b0-b17a-66c26a2330b8",
+      "children": [
+        "4e53a28c-1559-4c75-864f-676057cb0a7c"
+      ]
+    },
+    "4e53a28c-1559-4c75-864f-676057cb0a7c": {
+      "id": "4e53a28c-1559-4c75-864f-676057cb0a7c",
+      "message": {
+        "id": "4e53a28c-1559-4c75-864f-676057cb0a7c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1701538647.770353,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images of the Ukrainian model with long brown hair, picking potatoes in a field while dressed in elegant evening wear."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "171b34bd-a0ba-4de6-b34b-b426e76c7b60",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "171b34bd-a0ba-4de6-b34b-b426e76c7b60",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "4e53a28c-1559-4c75-864f-676057cb0a7c",
+  "plugin_ids": null,
+  "conversation_id": "b16ae55d-021e-444d-8a09-3e89f506df55",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "b16ae55d-021e-444d-8a09-3e89f506df55"
+}

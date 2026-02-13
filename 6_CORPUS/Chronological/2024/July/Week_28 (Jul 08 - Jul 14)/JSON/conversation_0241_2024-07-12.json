@@ -1,0 +1,450 @@
+{
+  "title": "Erster Satz in Deutsch",
+  "create_time": 1720794159.821936,
+  "update_time": 1720798211.895516,
+  "mapping": {
+    "ae40b5b3-2854-4463-9bc1-791e85150476": {
+      "id": "ae40b5b3-2854-4463-9bc1-791e85150476",
+      "message": null,
+      "parent": null,
+      "children": [
+        "6b24e43a-94b8-4148-bb38-fb3fcb55c63e"
+      ]
+    },
+    "6b24e43a-94b8-4148-bb38-fb3fcb55c63e": {
+      "id": "6b24e43a-94b8-4148-bb38-fb3fcb55c63e",
+      "message": {
+        "id": "6b24e43a-94b8-4148-bb38-fb3fcb55c63e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ae40b5b3-2854-4463-9bc1-791e85150476",
+      "children": [
+        "3c08e129-8147-43ad-a454-1c760212c5df"
+      ]
+    },
+    "3c08e129-8147-43ad-a454-1c760212c5df": {
+      "id": "3c08e129-8147-43ad-a454-1c760212c5df",
+      "message": {
+        "id": "3c08e129-8147-43ad-a454-1c760212c5df",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720794159.825575,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the best temperature wot wash jean"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8a21afc93d92058f-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6b24e43a-94b8-4148-bb38-fb3fcb55c63e",
+      "children": [
+        "9eeb6222-618a-45b3-8a0b-edb04e5b89c5"
+      ]
+    },
+    "9eeb6222-618a-45b3-8a0b-edb04e5b89c5": {
+      "id": "9eeb6222-618a-45b3-8a0b-edb04e5b89c5",
+      "message": {
+        "id": "9eeb6222-618a-45b3-8a0b-edb04e5b89c5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720794169.882992,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3c08e129-8147-43ad-a454-1c760212c5df",
+          "request_id": "8a21afc93d92058f-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3c08e129-8147-43ad-a454-1c760212c5df",
+      "children": [
+        "feb9991b-d305-41c5-84b5-0b4f0fbb02f3",
+        "16e519de-f496-4536-b15f-a8ef62a6714c"
+      ]
+    },
+    "feb9991b-d305-41c5-84b5-0b4f0fbb02f3": {
+      "id": "feb9991b-d305-41c5-84b5-0b4f0fbb02f3",
+      "message": {
+        "id": "feb9991b-d305-41c5-84b5-0b4f0fbb02f3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720794186.645952,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the best temperature to wash jeans"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8a21b07128b7058f-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9eeb6222-618a-45b3-8a0b-edb04e5b89c5",
+      "children": [
+        "0f8bba29-47d1-43d1-bd3e-f533bc0dab04"
+      ]
+    },
+    "16e519de-f496-4536-b15f-a8ef62a6714c": {
+      "id": "16e519de-f496-4536-b15f-a8ef62a6714c",
+      "message": {
+        "id": "16e519de-f496-4536-b15f-a8ef62a6714c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720794364.774294,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "9eeb6222-618a-45b3-8a0b-edb04e5b89c5",
+          "finish_details": {
+            "type": "interrupted"
+          },
+          "request_id": "8a21afc93d92058f-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9eeb6222-618a-45b3-8a0b-edb04e5b89c5",
+      "children": [
+        "0bb9df0b-573b-4be0-880a-45df155172d2"
+      ]
+    },
+    "0f8bba29-47d1-43d1-bd3e-f533bc0dab04": {
+      "id": "0f8bba29-47d1-43d1-bd3e-f533bc0dab04",
+      "message": {
+        "id": "0f8bba29-47d1-43d1-bd3e-f533bc0dab04",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720794191.062014,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The best temperature to wash jeans is typically cold water. Washing jeans in cold water helps to prevent fading and shrinking, and it also preserves the fabric's integrity. If your jeans are heavily soiled, you can use warm water, but avoid hot water as it can cause significant shrinkage and fading. Always turn your jeans inside out before washing to further protect the color and fabric."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "feb9991b-d305-41c5-84b5-0b4f0fbb02f3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8a21b07128b7058f-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "feb9991b-d305-41c5-84b5-0b4f0fbb02f3",
+      "children": []
+    },
+    "0bb9df0b-573b-4be0-880a-45df155172d2": {
+      "id": "0bb9df0b-573b-4be0-880a-45df155172d2",
+      "message": {
+        "id": "0bb9df0b-573b-4be0-880a-45df155172d2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720795778.725798,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do you say \u201cFirst Movement\u201d in German in a musical context"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8a21d74f8a064b8a-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "16e519de-f496-4536-b15f-a8ef62a6714c",
+      "children": [
+        "19f11674-5448-4e54-9b0b-61c81fafe70b"
+      ]
+    },
+    "19f11674-5448-4e54-9b0b-61c81fafe70b": {
+      "id": "19f11674-5448-4e54-9b0b-61c81fafe70b",
+      "message": {
+        "id": "19f11674-5448-4e54-9b0b-61c81fafe70b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720795779.962197,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In a musical context, \"First Movement\" in German is \"Erster Satz.\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "0bb9df0b-573b-4be0-880a-45df155172d2",
+          "request_id": "8a21d74f8a064b8a-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0bb9df0b-573b-4be0-880a-45df155172d2",
+      "children": [
+        "0981e5c7-b37b-445a-87a7-ece3399900f9"
+      ]
+    },
+    "0981e5c7-b37b-445a-87a7-ece3399900f9": {
+      "id": "0981e5c7-b37b-445a-87a7-ece3399900f9",
+      "message": {
+        "id": "0981e5c7-b37b-445a-87a7-ece3399900f9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720798204.2088,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-4O2EmqOmkNzhoihO6JNoCQY2",
+              "size_bytes": 488806,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "What kind of bird is this "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-4O2EmqOmkNzhoihO6JNoCQY2",
+              "height": 1536,
+              "width": 1152,
+              "name": "7031C732-0145-4274-B883-85B31784B80C.jpeg",
+              "size": 488806
+            }
+          ],
+          "request_id": "8a2212842803068c-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "19f11674-5448-4e54-9b0b-61c81fafe70b",
+      "children": [
+        "783a2138-b3e2-4d77-a11b-931c5b81f634"
+      ]
+    },
+    "783a2138-b3e2-4d77-a11b-931c5b81f634": {
+      "id": "783a2138-b3e2-4d77-a11b-931c5b81f634",
+      "message": {
+        "id": "783a2138-b3e2-4d77-a11b-931c5b81f634",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1720798211.011077,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The bird in the photo appears to be a juvenile European Starling (Sturnus vulgaris). Juvenile starlings have a brownish-gray plumage, which distinguishes them from the iridescent black plumage of adult starlings. The beak also appears more uniform in color compared to the yellow beak of the adults."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAA",
+          "parent_id": "0981e5c7-b37b-445a-87a7-ece3399900f9",
+          "request_id": "8a2212842803068c-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0981e5c7-b37b-445a-87a7-ece3399900f9",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "783a2138-b3e2-4d77-a11b-931c5b81f634",
+  "plugin_ids": null,
+  "conversation_id": "2a659018-4a2f-407a-8f08-10ca7f0afd0c",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "2a659018-4a2f-407a-8f08-10ca7f0afd0c"
+}

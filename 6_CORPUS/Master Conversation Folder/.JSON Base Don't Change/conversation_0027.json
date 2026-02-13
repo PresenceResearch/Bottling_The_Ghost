@@ -1,0 +1,278 @@
+{
+  "title": "French Horn Player Logo",
+  "create_time": 1699810521.377966,
+  "update_time": 1699810550.726041,
+  "mapping": {
+    "aaa1744d-2aa2-4a89-b157-d0949dd2ef61": {
+      "id": "aaa1744d-2aa2-4a89-b157-d0949dd2ef61",
+      "message": null,
+      "parent": null,
+      "children": [
+        "252f3497-ba2c-4d67-9584-7b6babec4889"
+      ]
+    },
+    "252f3497-ba2c-4d67-9584-7b6babec4889": {
+      "id": "252f3497-ba2c-4d67-9584-7b6babec4889",
+      "message": {
+        "id": "252f3497-ba2c-4d67-9584-7b6babec4889",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa1744d-2aa2-4a89-b157-d0949dd2ef61",
+      "children": [
+        "aaa28b0c-2584-4a18-910a-423e710e05d0"
+      ]
+    },
+    "aaa28b0c-2584-4a18-910a-423e710e05d0": {
+      "id": "aaa28b0c-2584-4a18-910a-423e710e05d0",
+      "message": {
+        "id": "aaa28b0c-2584-4a18-910a-423e710e05d0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699810521.378944,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please create a logo for a professional french horn player named shelagh abate.  "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "252f3497-ba2c-4d67-9584-7b6babec4889",
+      "children": [
+        "6edf2aea-9858-4b17-80ea-71e423de8a99"
+      ]
+    },
+    "6edf2aea-9858-4b17-80ea-71e423de8a99": {
+      "id": "6edf2aea-9858-4b17-80ea-71e423de8a99",
+      "message": {
+        "id": "6edf2aea-9858-4b17-80ea-71e423de8a99",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699810550.032994,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"size\":\"1024x1024\",\"prompt\":\"A sophisticated logo for a professional French horn player. The logo should integrate a stylized French horn, elegantly intertwined with the initials 'S.A.' in a classic and professional typeface. The design should be simple yet evocative of the grace and complexity of classical music. The color palette should be gold and black, representing the brass of the horn and the elegance of musical performance. The background should be white to make the logo stand out.\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa28b0c-2584-4a18-910a-423e710e05d0",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "aaa28b0c-2584-4a18-910a-423e710e05d0",
+      "children": [
+        "ea4769ee-81af-453d-ad0c-dd773076f0c5"
+      ]
+    },
+    "ea4769ee-81af-453d-ad0c-dd773076f0c5": {
+      "id": "ea4769ee-81af-453d-ad0c-dd773076f0c5",
+      "message": {
+        "id": "ea4769ee-81af-453d-ad0c-dd773076f0c5",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699810550.034404,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-5rt0akyzx7fbsq2LVvZnRPsK",
+              "size_bytes": 99738,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "GNp65C5io8cBHgC4",
+                  "prompt": "A sophisticated logo for a professional French horn player. The logo should integrate a stylized French horn, elegantly intertwined with the initials 'S.A.' in a classic and professional typeface. The design should be simple yet evocative of the grace and complexity of classical music. The color palette should be gold and black, representing the brass of the horn and the elegance of musical performance. The background should be white to make the logo stand out.",
+                  "seed": 790734377,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "6edf2aea-9858-4b17-80ea-71e423de8a99",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6edf2aea-9858-4b17-80ea-71e423de8a99",
+      "children": [
+        "c3554a94-ba7b-4df3-8432-4964b0f013f9"
+      ]
+    },
+    "c3554a94-ba7b-4df3-8432-4964b0f013f9": {
+      "id": "c3554a94-ba7b-4df3-8432-4964b0f013f9",
+      "message": {
+        "id": "c3554a94-ba7b-4df3-8432-4964b0f013f9",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1699810550.034721,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "ea4769ee-81af-453d-ad0c-dd773076f0c5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ea4769ee-81af-453d-ad0c-dd773076f0c5",
+      "children": [
+        "2b6ee18c-b1aa-4830-91de-b1b3b4f94c5d"
+      ]
+    },
+    "2b6ee18c-b1aa-4830-91de-b1b3b4f94c5d": {
+      "id": "2b6ee18c-b1aa-4830-91de-b1b3b4f94c5d",
+      "message": {
+        "id": "2b6ee18c-b1aa-4830-91de-b1b3b4f94c5d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1699810550.034935,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the logo for the professional French horn player."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "c3554a94-ba7b-4df3-8432-4964b0f013f9",
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3554a94-ba7b-4df3-8432-4964b0f013f9",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2b6ee18c-b1aa-4830-91de-b1b3b4f94c5d",
+  "plugin_ids": null,
+  "conversation_id": "a4bb791a-565f-4f8b-b33a-195c2f76729a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "a4bb791a-565f-4f8b-b33a-195c2f76729a"
+}

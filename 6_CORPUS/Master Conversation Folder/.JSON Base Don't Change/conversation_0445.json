@@ -1,0 +1,185 @@
+{
+  "title": "Monitor Positioning Guidelines",
+  "create_time": 1728753116.418744,
+  "update_time": 1728753119.948739,
+  "mapping": {
+    "3d236949-ccd9-4e07-af6b-0389782e2c03": {
+      "id": "3d236949-ccd9-4e07-af6b-0389782e2c03",
+      "message": null,
+      "parent": null,
+      "children": [
+        "7dec330d-3d71-4094-bf50-6dc178e7bc63"
+      ]
+    },
+    "7dec330d-3d71-4094-bf50-6dc178e7bc63": {
+      "id": "7dec330d-3d71-4094-bf50-6dc178e7bc63",
+      "message": {
+        "id": "7dec330d-3d71-4094-bf50-6dc178e7bc63",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d236949-ccd9-4e07-af6b-0389782e2c03",
+      "children": [
+        "d523854a-31cb-4912-a5c7-ec8bc0cc1181"
+      ]
+    },
+    "d523854a-31cb-4912-a5c7-ec8bc0cc1181": {
+      "id": "d523854a-31cb-4912-a5c7-ec8bc0cc1181",
+      "message": {
+        "id": "d523854a-31cb-4912-a5c7-ec8bc0cc1181",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728753116.430812,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How close to the desk should the bottom of the monitor be"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8d18b6405d38827e-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7dec330d-3d71-4094-bf50-6dc178e7bc63",
+      "children": [
+        "9cad4c8c-18f3-4d66-b718-66c840612d52"
+      ]
+    },
+    "9cad4c8c-18f3-4d66-b718-66c840612d52": {
+      "id": "9cad4c8c-18f3-4d66-b718-66c840612d52",
+      "message": {
+        "id": "9cad4c8c-18f3-4d66-b718-66c840612d52",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728753118.929624,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d523854a-31cb-4912-a5c7-ec8bc0cc1181",
+          "request_id": "8d18b6405d38827e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d523854a-31cb-4912-a5c7-ec8bc0cc1181",
+      "children": [
+        "30777ea5-abc0-420e-b465-c3cee822a2ff"
+      ]
+    },
+    "30777ea5-abc0-420e-b465-c3cee822a2ff": {
+      "id": "30777ea5-abc0-420e-b465-c3cee822a2ff",
+      "message": {
+        "id": "30777ea5-abc0-420e-b465-c3cee822a2ff",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1728753118.929824,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The bottom of your monitor should be positioned at or slightly below your eye level when you are seated comfortably. A good rule of thumb is to have the top of the screen at or just below eye level, allowing your eyes to naturally look slightly downward when viewing the center of the screen. The monitor should typically be about 20 to 30 inches (50 to 75 cm) from your eyes to reduce strain."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9cad4c8c-18f3-4d66-b718-66c840612d52",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8d18b6405d38827e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9cad4c8c-18f3-4d66-b718-66c840612d52",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "30777ea5-abc0-420e-b465-c3cee822a2ff",
+  "plugin_ids": null,
+  "conversation_id": "670aaddc-401c-8009-a732-59af8fef8c44",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "670aaddc-401c-8009-a732-59af8fef8c44"
+}

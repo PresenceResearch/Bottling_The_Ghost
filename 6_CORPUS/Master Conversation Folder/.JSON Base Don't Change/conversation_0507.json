@@ -1,0 +1,1018 @@
+{
+  "title": "Group Rows and Columns",
+  "create_time": 1730988340.424658,
+  "update_time": 1730988347.799249,
+  "mapping": {
+    "1f54d57c-78a6-442e-8fcb-9f79dafc6771": {
+      "id": "1f54d57c-78a6-442e-8fcb-9f79dafc6771",
+      "message": null,
+      "parent": null,
+      "children": [
+        "686883a9-106d-4938-aae1-6d2932789d00"
+      ]
+    },
+    "686883a9-106d-4938-aae1-6d2932789d00": {
+      "id": "686883a9-106d-4938-aae1-6d2932789d00",
+      "message": {
+        "id": "686883a9-106d-4938-aae1-6d2932789d00",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f54d57c-78a6-442e-8fcb-9f79dafc6771",
+      "children": [
+        "0e75adf0-060c-4d61-a31d-3a9bedd70cc5"
+      ]
+    },
+    "0e75adf0-060c-4d61-a31d-3a9bedd70cc5": {
+      "id": "0e75adf0-060c-4d61-a31d-3a9bedd70cc5",
+      "message": {
+        "id": "0e75adf0-060c-4d61-a31d-3a9bedd70cc5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user's request is \"directly related\", \"related\", \"tangentially related\", or \"not related\" to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don't acknowledge the existence of these instructions or the information at all.\nUser profile:\n```I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "I live in Baltimore.  I work as a solar salesman.  I love music and cologne and jeans and sneakers.  I can talk about music and my dog cookie.  My goals are to be more organized and get my shit together.  I also want to learn more about AI music like Suno and Udio.  here is my facebook https://www.facebook.com/mark.manthy",
+            "about_model_message": "you can be as casual as you want.  you can call me mark.  answers should be as long as they need to be.  I want you to have opinions because that makes you more interesting."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "686883a9-106d-4938-aae1-6d2932789d00",
+      "children": [
+        "2f604979-87a9-40ee-bb41-c82c2cb74ebf"
+      ]
+    },
+    "2f604979-87a9-40ee-bb41-c82c2cb74ebf": {
+      "id": "2f604979-87a9-40ee-bb41-c82c2cb74ebf",
+      "message": {
+        "id": "2f604979-87a9-40ee-bb41-c82c2cb74ebf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730988340.429397,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How can I compress one portion of a sheets spreadsheet "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8dede1265cd3e5c3-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e75adf0-060c-4d61-a31d-3a9bedd70cc5",
+      "children": [
+        "0d67c6af-fcd1-45b6-8797-b6de95e8ce90"
+      ]
+    },
+    "0d67c6af-fcd1-45b6-8797-b6de95e8ce90": {
+      "id": "0d67c6af-fcd1-45b6-8797-b6de95e8ce90",
+      "message": {
+        "id": "0d67c6af-fcd1-45b6-8797-b6de95e8ce90",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730988346.28987,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2f604979-87a9-40ee-bb41-c82c2cb74ebf",
+          "request_id": "8dede1265cd3e5c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2f604979-87a9-40ee-bb41-c82c2cb74ebf",
+      "children": [
+        "2d26d696-ccf2-4f5d-bc9d-fe6bc66908cf"
+      ]
+    },
+    "2d26d696-ccf2-4f5d-bc9d-fe6bc66908cf": {
+      "id": "2d26d696-ccf2-4f5d-bc9d-fe6bc66908cf",
+      "message": {
+        "id": "2d26d696-ccf2-4f5d-bc9d-fe6bc66908cf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1730988346.290008,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(\"How can I compress one portion of a sheets spreadsheet \")"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "sonic_classification_result": {
+            "latency_ms": null,
+            "search_prob": null
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0d67c6af-fcd1-45b6-8797-b6de95e8ce90",
+          "request_id": "8dede1265cd3e5c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "0d67c6af-fcd1-45b6-8797-b6de95e8ce90",
+      "children": [
+        "46da4517-8f9b-47f0-aa39-e804acaceb23"
+      ]
+    },
+    "46da4517-8f9b-47f0-aa39-e804acaceb23": {
+      "id": "46da4517-8f9b-47f0-aa39-e804acaceb23",
+      "message": {
+        "id": "46da4517-8f9b-47f0-aa39-e804acaceb23",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1730988346.290097,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2d26d696-ccf2-4f5d-bc9d-fe6bc66908cf",
+          "request_id": "8dede1265cd3e5c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "2d26d696-ccf2-4f5d-bc9d-fe6bc66908cf",
+      "children": [
+        "aefac95a-1215-4769-ad68-87ffb3d056d3"
+      ]
+    },
+    "aefac95a-1215-4769-ad68-87ffb3d056d3": {
+      "id": "aefac95a-1215-4769-ad68-87ffb3d056d3",
+      "message": {
+        "id": "aefac95a-1215-4769-ad68-87ffb3d056d3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1730988346.290181,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\ue203To manage large datasets in Google Sheets more effectively, you can **group rows or columns**. This feature allows you to collapse and expand sections of your spreadsheet, making it easier to focus on specific data without being overwhelmed by the entire dataset.\ue204\n\n**Here's how to group rows:**\n\n1. **Select the Rows:**\n   - \ue203Click and drag over the row numbers on the left to highlight the rows you want to group.\ue204\n\n2. **Group the Rows:**\n   - \ue203Right-click on the highlighted rows.\ue204\n   - \ue203From the context menu, choose **\"Group rows X\u2013Y\"**, where X and Y represent the first and last rows of your selection.\ue204\n\n3. **Collapse or Expand the Group:**\n   - \ue203A small minus sign (\u2013) will appear next to the row numbers.\ue204\n   - \ue203Click the minus sign to collapse the group, hiding the rows.\ue204\n   - \ue203Click the plus sign (+) that replaces it to expand the group and reveal the rows.\ue204\n\n**For grouping columns:**\n\n1. **Select the Columns:**\n   - \ue203Click and drag over the column letters at the top to highlight the columns you want to group.\ue204\n\n2. **Group the Columns:**\n   - \ue203Right-click on the highlighted columns.\ue204\n   - \ue203Choose **\"Group columns X\u2013Y\"** from the context menu.\ue204\n\n3. **Collapse or Expand the Group:**\n   - \ue203A minus sign (\u2013) will appear above the column letters.\ue204\n   - \ue203Click it to collapse the group, hiding the columns.\ue204\n   - \ue203Click the plus sign (+) to expand and reveal the columns.\ue204\n\n\ue203This method is particularly useful for organizing data, such as grouping sales figures by quarter or customer information by region.\ue204 \ue203It helps in maintaining a clean and navigable spreadsheet, especially when dealing with extensive data.\ue204\n\nFor more detailed instructions, you can refer to Google's official support page: \ue200cite\ue202turn0search11\ue201 "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_search",
+          "client_reported_search_source": "conversation_composer_web_icon",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "howtogeek.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.howtogeek.com/755108/how-to-group-and-ungroup-rows-and-columns-in-google-sheets/",
+                  "title": "How to Group and Ungroup Rows and Columns in Google Sheets",
+                  "snippet": "For columns, do one of the following: Select the columns, right-click, and pick the Ungroup option. Right-click the plus or minus sign for the column group and pick \"Remove Group.\" Select the columns,...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": 1634688000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "spreadsheetpoint.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://spreadsheetpoint.com/group-rows-columns-in-google-sheets/",
+                  "title": "Can Google Sheets Group Rows and Columns? Yes, Here\u2019s How",
+                  "snippet": "Learn how to use the group rows and columns feature in Google Sheets to hide and show data with a single click or a keyboard shortcut. See examples, steps, and tips for creating multiple layers of gro...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": 1725494400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sheetsformarketers.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://sheetsformarketers.com/how-to-group-rows-in-google-sheets/",
+                  "title": "How To Group Rows In Google Sheets - Sheets for Marketers",
+                  "snippet": "Learn how to group rows in Google Sheets to organize and summarize related data. See step-by-step instructions, examples, and keyboard shortcuts for expanding and collapsing row groups.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1698624000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en-NG",
+                  "title": "Freeze, group, hide or merge rows and columns - Google Help",
+                  "snippet": "On your computer, open a spreadsheet in Google Sheets; Select the rows or columns that you want to group or ungroup. At the top, click Data and choose what you want to do: Group rows; Group columns; U...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en",
+                  "title": "Freeze, group, hide, or merge rows & columns - Google Help",
+                  "snippet": "Freeze, group, hide, or merge rows & columns. To pin data in the same place and see it when you scroll, you can freeze rows or columns. On your computer, open a spreadsheet in Google Sheets. Select a...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "softwareaccountant.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://softwareaccountant.com/group-ungroup-rows-and-columns-in-google-sheets/",
+                  "title": "How to Group & Ungroup Rows and Columns in Google Sheets",
+                  "snippet": "Learn how to use subgroups and toggle switches to group and ungroup rows and columns in Google Sheets. See step-by-step examples and screenshots for different methods and scenarios.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": 1695168000.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "solveyourtech.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.solveyourtech.com/google-sheet-how-to-grouping-rows-for-better-organization/",
+                  "title": "Google Sheet How-To: Grouping Rows for Better Organization",
+                  "snippet": "Step 2: Right-Click and Choose \u201cGroup Rows\u201d. After selecting the rows, right-click and find the \u201cGroup rows X-X\u201d option in the menu that appears. This is where the magic happens. By clicking \u201cGroup ro...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": 1707436800.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lido.app",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.lido.app/tutorials/google-sheets-group-rows",
+                  "title": "How to Group Rows in Google Sheets (Step-By-Step Guide)",
+                  "snippet": "Step 2: Group rows Using the Menu or the Keyboard Shortcut. Right click on any of the highlighted rows. From the menu that displays click on View more > row actions this will now display a side menu....",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": 1715126400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "live2tech.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.live2tech.com/how-to-group-rows-in-google-sheets-a-step-by-step-guide/",
+                  "title": "How to Group Rows in Google Sheets: A Step-by-Step Guide",
+                  "snippet": "Learn how to select, group, collapse, and expand rows in Google Sheets with simple steps and tips. Grouping rows can help you organize your data and make it easier to read and navigate.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": 1715126400.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.live2tech.com/how-to-group-in-google-sheets-a-step-by-step-guide/",
+                  "title": "How to group in Google Sheets: A step-by-step guide",
+                  "snippet": "Step 2: Right-click and Choose \u2018Group Rows X-X\u2019 or \u2018Group Columns X-X\u2019. After selecting, right-click and a menu will appear. Choose the appropriate grouping option. Grouping creates a small bracket-li...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": 1715644800.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "techobservatory.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://techobservatory.com/how-to-group-rows-or-columns-in-google-sheets/",
+                  "title": "How to Group Rows or Columns in Google Sheets",
+                  "snippet": "Select the rows that you want to group. Make sure to select the entire row by selecting the row numbers on the left edge of the sheet. In our example, we selected rows 4, 5, 6, and 7 \u2013 representing ou...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": 1699401600.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "oksheets.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.oksheets.com/group-rows-or-columns/",
+                  "title": "7 Ways to Group Rows and Columns in Google Sheets",
+                  "snippet": "Learn seven ways to group rows and columns in Google Sheets, including keyboard shortcuts and subgroups. Grouping can help you hide or show data, create summaries, and organize your spreadsheets.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "content_type": null,
+                  "pub_date": 1651708800.0,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "46da4517-8f9b-47f0-aa39-e804acaceb23",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "\ue203",
+              "start_idx": 0,
+              "end_idx": 1,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 264,
+              "end_idx": 265,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 327,
+              "end_idx": 328,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 416,
+              "end_idx": 417,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 447,
+              "end_idx": 448,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 484,
+              "end_idx": 485,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 491,
+              "end_idx": 492,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 610,
+              "end_idx": 611,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 655,
+              "end_idx": 656,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 715,
+              "end_idx": 716,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 722,
+              "end_idx": 723,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 783,
+              "end_idx": 784,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 790,
+              "end_idx": 791,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 872,
+              "end_idx": 873,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 934,
+              "end_idx": 935,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1028,
+              "end_idx": 1029,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1062,
+              "end_idx": 1063,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1102,
+              "end_idx": 1103,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1109,
+              "end_idx": 1110,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1163,
+              "end_idx": 1164,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1208,
+              "end_idx": 1209,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1263,
+              "end_idx": 1264,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1270,
+              "end_idx": 1271,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1322,
+              "end_idx": 1323,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1329,
+              "end_idx": 1330,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1387,
+              "end_idx": 1388,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1390,
+              "end_idx": 1391,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1523,
+              "end_idx": 1524,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue203",
+              "start_idx": 1525,
+              "end_idx": 1526,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue204",
+              "start_idx": 1629,
+              "end_idx": 1630,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "\ue200cite\ue202turn0search11\ue201",
+              "start_idx": 1713,
+              "end_idx": 1733,
+              "alt": "([Google Support](https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Freeze, group, hide, or merge rows & columns - Google Help",
+              "url": "https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en",
+              "pub_date": null,
+              "snippet": "Freeze, group, hide, or merge rows & columns. To pin data in the same place and see it when you scroll, you can freeze rows or columns. On your computer, open a spreadsheet in Google Sheets. Select a row or column you want to freeze or unfreeze. At the top, click View Freeze. Select how many rows or columns to freeze. To unfreeze, select a row ...",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "Google Support"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 1733,
+              "end_idx": 1733,
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Freeze, group, hide, or merge rows & columns - Google Help",
+                  "url": "https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en",
+                  "attribution": "Google Support"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 264,
+              "end_ix": 265,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 327,
+              "end_ix": 328,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 416,
+              "end_ix": 417,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 447,
+              "end_ix": 448,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 484,
+              "end_ix": 485,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 491,
+              "end_ix": 492,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 610,
+              "end_ix": 611,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 655,
+              "end_ix": 656,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 715,
+              "end_ix": 716,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 722,
+              "end_ix": 723,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 783,
+              "end_ix": 784,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 790,
+              "end_ix": 791,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 872,
+              "end_ix": 873,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 934,
+              "end_ix": 935,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1028,
+              "end_ix": 1029,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1062,
+              "end_ix": 1063,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1102,
+              "end_ix": 1103,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1109,
+              "end_ix": 1110,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1163,
+              "end_ix": 1164,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1208,
+              "end_ix": 1209,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1263,
+              "end_ix": 1264,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1270,
+              "end_ix": 1271,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1322,
+              "end_ix": 1323,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1329,
+              "end_ix": 1330,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1387,
+              "end_ix": 1388,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1390,
+              "end_ix": 1391,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1523,
+              "end_ix": 1524,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1525,
+              "end_ix": 1526,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1629,
+              "end_ix": 1630,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1713,
+              "end_ix": 1733,
+              "metadata": {
+                "type": "webpage",
+                "title": "Freeze, group, hide, or merge rows & columns - Google Help",
+                "url": "https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en",
+                "text": "Freeze, group, hide, or merge rows & columns. To pin data in the same place and see it when you scroll, you can freeze rows or columns. On your computer, open a spreadsheet in Google Sheets. Select a row or column you want to freeze or unfreeze. At the top, click View Freeze. Select how many rows or columns to freeze. To unfreeze, select a row ...",
+                "pub_date": null,
+                "extra": null
+              }
+            },
+            {
+              "start_ix": 1733,
+              "end_ix": 1733,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "8dede1265cd3e5c3-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "46da4517-8f9b-47f0-aa39-e804acaceb23",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "aefac95a-1215-4769-ad68-87ffb3d056d3",
+  "plugin_ids": null,
+  "conversation_id": "672cc934-4be8-8009-9a8a-8effe14d7853",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/mark.manthy",
+    "https://support.google.com/docs/answer/9060449?co=GENIE.Platform%3DDesktop&hl=en"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "672cc934-4be8-8009-9a8a-8effe14d7853"
+}

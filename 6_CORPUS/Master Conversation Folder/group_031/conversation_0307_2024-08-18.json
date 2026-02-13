@@ -1,0 +1,186 @@
+{
+  "title": "Haiku for Women in Brass",
+  "create_time": 1723959740.652542,
+  "update_time": 1723959742.823052,
+  "mapping": {
+    "142d1681-b5a0-4aa5-90a0-bcb9e33fa55b": {
+      "id": "142d1681-b5a0-4aa5-90a0-bcb9e33fa55b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "dc1904ae-081b-4058-918b-4aa6eaa6bf01"
+      ]
+    },
+    "dc1904ae-081b-4058-918b-4aa6eaa6bf01": {
+      "id": "dc1904ae-081b-4058-918b-4aa6eaa6bf01",
+      "message": {
+        "id": "dc1904ae-081b-4058-918b-4aa6eaa6bf01",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "142d1681-b5a0-4aa5-90a0-bcb9e33fa55b",
+      "children": [
+        "f54cad8d-af8a-48a4-b315-5fd2c3871c48"
+      ]
+    },
+    "f54cad8d-af8a-48a4-b315-5fd2c3871c48": {
+      "id": "f54cad8d-af8a-48a4-b315-5fd2c3871c48",
+      "message": {
+        "id": "f54cad8d-af8a-48a4-b315-5fd2c3871c48",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723959740.656973,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you write a haiku about the international women in brass conference "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b4f94778ec53438-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dc1904ae-081b-4058-918b-4aa6eaa6bf01",
+      "children": [
+        "d78a16bf-f8c5-4cff-b889-260d8fe7abf5"
+      ]
+    },
+    "d78a16bf-f8c5-4cff-b889-260d8fe7abf5": {
+      "id": "d78a16bf-f8c5-4cff-b889-260d8fe7abf5",
+      "message": {
+        "id": "d78a16bf-f8c5-4cff-b889-260d8fe7abf5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723959741.416264,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f54cad8d-af8a-48a4-b315-5fd2c3871c48",
+          "request_id": "8b4f94778ec53438-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f54cad8d-af8a-48a4-b315-5fd2c3871c48",
+      "children": [
+        "a5684937-3dcf-4cc1-948e-86d5b317ad3d"
+      ]
+    },
+    "a5684937-3dcf-4cc1-948e-86d5b317ad3d": {
+      "id": "a5684937-3dcf-4cc1-948e-86d5b317ad3d",
+      "message": {
+        "id": "a5684937-3dcf-4cc1-948e-86d5b317ad3d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723959741.416418,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure!\n\nEchoes of brass rise,  \nWomen\u2019s strength in every note,  \nHarmony takes flight."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AA",
+          "parent_id": "d78a16bf-f8c5-4cff-b889-260d8fe7abf5",
+          "request_id": "8b4f94778ec53438-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d78a16bf-f8c5-4cff-b889-260d8fe7abf5",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a5684937-3dcf-4cc1-948e-86d5b317ad3d",
+  "plugin_ids": null,
+  "conversation_id": "fb3b0157-65e6-485b-9b43-5e6e70584d6d",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "fb3b0157-65e6-485b-9b43-5e6e70584d6d"
+}

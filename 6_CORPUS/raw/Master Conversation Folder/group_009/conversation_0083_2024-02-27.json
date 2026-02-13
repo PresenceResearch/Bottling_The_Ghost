@@ -1,0 +1,146 @@
+{
+  "title": "New chat",
+  "create_time": 1709032003.472305,
+  "update_time": 1709032007.324439,
+  "mapping": {
+    "12195727-425c-4a18-a927-503c1e06c90d": {
+      "id": "12195727-425c-4a18-a927-503c1e06c90d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "46ce922c-478d-44ca-899f-5e06e845a6a4"
+      ]
+    },
+    "46ce922c-478d-44ca-899f-5e06e845a6a4": {
+      "id": "46ce922c-478d-44ca-899f-5e06e845a6a4",
+      "message": {
+        "id": "46ce922c-478d-44ca-899f-5e06e845a6a4",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "12195727-425c-4a18-a927-503c1e06c90d",
+      "children": [
+        "e72450b0-3e79-4e3f-85ad-9613cef663c0"
+      ]
+    },
+    "e72450b0-3e79-4e3f-85ad-9613cef663c0": {
+      "id": "e72450b0-3e79-4e3f-85ad-9613cef663c0",
+      "message": {
+        "id": "e72450b0-3e79-4e3f-85ad-9613cef663c0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709032003.4734,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do you say Bulgarian split squat in Bulgarian\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85bff5c47ea2082e-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "46ce922c-478d-44ca-899f-5e06e845a6a4",
+      "children": [
+        "74513368-5f00-4577-bc7c-aef525caf761"
+      ]
+    },
+    "74513368-5f00-4577-bc7c-aef525caf761": {
+      "id": "74513368-5f00-4577-bc7c-aef525caf761",
+      "message": {
+        "id": "74513368-5f00-4577-bc7c-aef525caf761",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709032007.321375,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Bulgarian, \"Bulgarian split squat\" is translated as \"\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d \u043a\u043b\u0435\u043a\" (Bulgarian split squat). The exercise itself does not have a unique name in Bulgarian that differs significantly from the English, but it's directly translated to describe the action and origin."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "e72450b0-3e79-4e3f-85ad-9613cef663c0",
+          "request_id": "85bff5c47ea2082e-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e72450b0-3e79-4e3f-85ad-9613cef663c0",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "74513368-5f00-4577-bc7c-aef525caf761",
+  "plugin_ids": null,
+  "conversation_id": "70594dad-6b74-4293-95ce-97d1448b9278",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "70594dad-6b74-4293-95ce-97d1448b9278"
+}

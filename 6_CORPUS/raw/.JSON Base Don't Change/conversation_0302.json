@@ -1,0 +1,264 @@
+{
+  "title": "Conversation Summary Request",
+  "create_time": 1723937476.058346,
+  "update_time": 1723937499.058225,
+  "mapping": {
+    "cdeee4b1-1ef5-4850-a788-bdb107d04fc9": {
+      "id": "cdeee4b1-1ef5-4850-a788-bdb107d04fc9",
+      "message": null,
+      "parent": null,
+      "children": [
+        "882e00be-76b4-4b16-b12a-fd23ec5bb452"
+      ]
+    },
+    "882e00be-76b4-4b16-b12a-fd23ec5bb452": {
+      "id": "882e00be-76b4-4b16-b12a-fd23ec5bb452",
+      "message": {
+        "id": "882e00be-76b4-4b16-b12a-fd23ec5bb452",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cdeee4b1-1ef5-4850-a788-bdb107d04fc9",
+      "children": [
+        "5997ec3b-2c89-483e-b3fd-fb7de1684812"
+      ]
+    },
+    "5997ec3b-2c89-483e-b3fd-fb7de1684812": {
+      "id": "5997ec3b-2c89-483e-b3fd-fb7de1684812",
+      "message": {
+        "id": "5997ec3b-2c89-483e-b3fd-fb7de1684812",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "882e00be-76b4-4b16-b12a-fd23ec5bb452",
+      "children": [
+        "8a66a5f4-982e-434a-bf1b-093f63c0c796"
+      ]
+    },
+    "8a66a5f4-982e-434a-bf1b-093f63c0c796": {
+      "id": "8a66a5f4-982e-434a-bf1b-093f63c0c796",
+      "message": {
+        "id": "8a66a5f4-982e-434a-bf1b-093f63c0c796",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723937476.070481,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hello"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b4d74e72ef9264d-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5997ec3b-2c89-483e-b3fd-fb7de1684812",
+      "children": [
+        "f9fcc449-8cc8-49ba-a818-9634eb930f7e"
+      ]
+    },
+    "f9fcc449-8cc8-49ba-a818-9634eb930f7e": {
+      "id": "f9fcc449-8cc8-49ba-a818-9634eb930f7e",
+      "message": {
+        "id": "f9fcc449-8cc8-49ba-a818-9634eb930f7e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723937476.632863,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hello! How can I assist you today?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-5bNPpaVZy",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "8a66a5f4-982e-434a-bf1b-093f63c0c796",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8b4d74e72ef9264d-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8a66a5f4-982e-434a-bf1b-093f63c0c796",
+      "children": [
+        "0e973010-98b3-4b44-9713-d1fcf27f737a"
+      ]
+    },
+    "0e973010-98b3-4b44-9713-d1fcf27f737a": {
+      "id": "0e973010-98b3-4b44-9713-d1fcf27f737a",
+      "message": {
+        "id": "0e973010-98b3-4b44-9713-d1fcf27f737a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723937494.015863,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I would like to learn Japanese "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8b4d75570ae6264d-NRT",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f9fcc449-8cc8-49ba-a818-9634eb930f7e",
+      "children": [
+        "26d93ae5-4ae0-4f8a-87d1-c2c7fa99e238"
+      ]
+    },
+    "26d93ae5-4ae0-4f8a-87d1-c2c7fa99e238": {
+      "id": "26d93ae5-4ae0-4f8a-87d1-c2c7fa99e238",
+      "message": {
+        "id": "26d93ae5-4ae0-4f8a-87d1-c2c7fa99e238",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1723937498.588113,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That's great! Learning Japanese can be a rewarding experience. Here are a few tips to get you started:\n\n1. **Start with Hiragana and Katakana**: These are the basic syllabaries in Japanese. Learning them will help you read and pronounce Japanese words correctly.\n\n2. **Build Your Vocabulary**: Start with common phrases and words used in daily conversations. Apps like Anki can help you with spaced repetition.\n\n3. **Learn Basic Grammar**: Understanding sentence structure (Subject-Object-Verb) and particles (like \u306f [wa], \u304c [ga], and \u3092 [wo]) is essential.\n\n4. **Practice Listening and Speaking**: Engage with Japanese media, like anime, movies, or podcasts, and try speaking with native speakers through language exchange platforms.\n\n5. **Use Language Learning Resources**: Websites like Duolingo, textbooks like \"Genki,\" and YouTube channels can be helpful.\n\n6. **Consistency is Key**: Practice daily, even if it\u2019s just for a few minutes.\n\nIf you need any help translating or understanding Japanese texts as you learn, feel free to ask! For a professional translation service, you can check out [HIX Translate](https://hix.ai/translate), powered by ChatGPT 3.5/4."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-5bNPpaVZy",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0e973010-98b3-4b44-9713-d1fcf27f737a",
+          "request_id": "8b4d75570ae6264d-NRT",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e973010-98b3-4b44-9713-d1fcf27f737a",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "26d93ae5-4ae0-4f8a-87d1-c2c7fa99e238",
+  "plugin_ids": null,
+  "conversation_id": "f3d52dd4-1ffa-4b53-9f84-3dee8956510c",
+  "conversation_template_id": "g-5bNPpaVZy",
+  "gizmo_id": "g-5bNPpaVZy",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://hix.ai/translate"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "f3d52dd4-1ffa-4b53-9f84-3dee8956510c"
+}

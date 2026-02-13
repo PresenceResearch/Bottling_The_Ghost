@@ -1,0 +1,738 @@
+{
+  "title": "Halloween Basketball Shoes",
+  "create_time": 1709338449.379088,
+  "update_time": 1709338647.991204,
+  "mapping": {
+    "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e": {
+      "id": "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "80ca1ed9-7b2e-439e-b01e-2127b55e6256"
+      ]
+    },
+    "80ca1ed9-7b2e-439e-b01e-2127b55e6256": {
+      "id": "80ca1ed9-7b2e-439e-b01e-2127b55e6256",
+      "message": {
+        "id": "80ca1ed9-7b2e-439e-b01e-2127b55e6256",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "527b878d-b2ec-4e9f-9c6b-9a2b4f11e68e",
+      "children": [
+        "e08978ad-c61f-44cb-ba25-6cd1c2572cbc"
+      ]
+    },
+    "e08978ad-c61f-44cb-ba25-6cd1c2572cbc": {
+      "id": "e08978ad-c61f-44cb-ba25-6cd1c2572cbc",
+      "message": {
+        "id": "e08978ad-c61f-44cb-ba25-6cd1c2572cbc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338449.379862,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-phgbZz5WicJXm77b70pW8Kn3",
+              "size_bytes": 24362,
+              "width": 800,
+              "height": 450,
+              "fovea": null,
+              "metadata": null
+            },
+            "Make a man similar to this"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "size": 24362,
+              "width": 800,
+              "id": "file-phgbZz5WicJXm77b70pW8Kn3",
+              "name": "IMG_1095.webp",
+              "height": 450
+            }
+          ],
+          "request_id": "85dd2f59df4707c9-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "80ca1ed9-7b2e-439e-b01e-2127b55e6256",
+      "children": [
+        "82ccbcfa-3f18-4e5b-85f5-80945b41768a"
+      ]
+    },
+    "82ccbcfa-3f18-4e5b-85f5-80945b41768a": {
+      "id": "82ccbcfa-3f18-4e5b-85f5-80945b41768a",
+      "message": {
+        "id": "82ccbcfa-3f18-4e5b-85f5-80945b41768a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338469.261778,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\n  \"prompt\": \"Create an image of a man with a strong jawline, dark hair, a prominent bushy mustache, and wearing a military uniform with no distinct insignia, reminiscent of mid-20th century Eastern European styles. He should have a serious expression and be looking slightly to the side.\",\n  \"size\": \"1024x1024\"\n}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "e08978ad-c61f-44cb-ba25-6cd1c2572cbc",
+          "is_complete": true,
+          "request_id": "85dd2f59df4707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "e08978ad-c61f-44cb-ba25-6cd1c2572cbc",
+      "children": [
+        "b612deee-3471-45be-be8f-79f9bc2eaeca"
+      ]
+    },
+    "b612deee-3471-45be-be8f-79f9bc2eaeca": {
+      "id": "b612deee-3471-45be-be8f-79f9bc2eaeca",
+      "message": {
+        "id": "b612deee-3471-45be-be8f-79f9bc2eaeca",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338469.263426,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-zKzKyJ2C2oW7W0JNAdL2r9aw",
+              "size_bytes": 309252,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "f260TZP3WTXwZc6l",
+                  "prompt": "Create an image of a man with a strong jawline, dark hair, a prominent bushy mustache, and wearing a military uniform with no distinct insignia, reminiscent of mid-20th century Eastern European styles. He should have a serious expression and be looking slightly to the side.",
+                  "seed": 1761874358,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "82ccbcfa-3f18-4e5b-85f5-80945b41768a",
+          "request_id": "85dd2f59df4707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "82ccbcfa-3f18-4e5b-85f5-80945b41768a",
+      "children": [
+        "5b6fe780-305a-401b-ae58-37c22fe7f0ea"
+      ]
+    },
+    "5b6fe780-305a-401b-ae58-37c22fe7f0ea": {
+      "id": "5b6fe780-305a-401b-ae58-37c22fe7f0ea",
+      "message": {
+        "id": "5b6fe780-305a-401b-ae58-37c22fe7f0ea",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338469.263639,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "b612deee-3471-45be-be8f-79f9bc2eaeca",
+          "request_id": "85dd2f59df4707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b612deee-3471-45be-be8f-79f9bc2eaeca",
+      "children": [
+        "46f2eba1-0e27-44d7-91e1-5114c3b4678d"
+      ]
+    },
+    "46f2eba1-0e27-44d7-91e1-5114c3b4678d": {
+      "id": "46f2eba1-0e27-44d7-91e1-5114c3b4678d",
+      "message": {
+        "id": "46f2eba1-0e27-44d7-91e1-5114c3b4678d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338469.263771,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is a generated image of a man with the characteristics you described."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "5b6fe780-305a-401b-ae58-37c22fe7f0ea",
+          "is_complete": true,
+          "request_id": "85dd2f59df4707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5b6fe780-305a-401b-ae58-37c22fe7f0ea",
+      "children": [
+        "d89394b8-d771-4bea-8b26-fb66789f5e2a"
+      ]
+    },
+    "d89394b8-d771-4bea-8b26-fb66789f5e2a": {
+      "id": "d89394b8-d771-4bea-8b26-fb66789f5e2a",
+      "message": {
+        "id": "d89394b8-d771-4bea-8b26-fb66789f5e2a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338513.921214,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please design a pair of mid top sneakers with a picture of this man on them "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85dd30ef4a5e07c9-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "46f2eba1-0e27-44d7-91e1-5114c3b4678d",
+      "children": [
+        "37d6f3d5-00e7-4e2e-8a70-a4ede8adc5e5"
+      ]
+    },
+    "37d6f3d5-00e7-4e2e-8a70-a4ede8adc5e5": {
+      "id": "37d6f3d5-00e7-4e2e-8a70-a4ede8adc5e5",
+      "message": {
+        "id": "37d6f3d5-00e7-4e2e-8a70-a4ede8adc5e5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338539.297707,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Design a pair of mid-top sneakers that feature a printed graphic of a man with a strong jawline, dark hair, and a bushy mustache, resembling a mid-20th century Eastern European military style, on the side of each shoe. The sneakers should be stylish, with a white base color, and the graphic should be detailed and prominently displayed for visual impact.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "d89394b8-d771-4bea-8b26-fb66789f5e2a",
+          "is_complete": true,
+          "request_id": "85dd30ef4a5e07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "d89394b8-d771-4bea-8b26-fb66789f5e2a",
+      "children": [
+        "a499736c-09b1-4d38-974a-daca552cfaa9"
+      ]
+    },
+    "a499736c-09b1-4d38-974a-daca552cfaa9": {
+      "id": "a499736c-09b1-4d38-974a-daca552cfaa9",
+      "message": {
+        "id": "a499736c-09b1-4d38-974a-daca552cfaa9",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338539.299471,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-IQZiK4ZgDELqUwa7AHNWItKF",
+              "size_bytes": 380926,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "cT3O0IYuyiYtq9jZ",
+                  "prompt": "Design a pair of mid-top sneakers that feature a printed graphic of a man with a strong jawline, dark hair, and a bushy mustache, resembling a mid-20th century Eastern European military style, on the side of each shoe. The sneakers should be stylish, with a white base color, and the graphic should be detailed and prominently displayed for visual impact.",
+                  "seed": 3161836533,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "37d6f3d5-00e7-4e2e-8a70-a4ede8adc5e5",
+          "request_id": "85dd30ef4a5e07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "37d6f3d5-00e7-4e2e-8a70-a4ede8adc5e5",
+      "children": [
+        "8ec00b3d-ef74-4aff-9c73-2a06dc851ce1"
+      ]
+    },
+    "8ec00b3d-ef74-4aff-9c73-2a06dc851ce1": {
+      "id": "8ec00b3d-ef74-4aff-9c73-2a06dc851ce1",
+      "message": {
+        "id": "8ec00b3d-ef74-4aff-9c73-2a06dc851ce1",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338539.299686,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "a499736c-09b1-4d38-974a-daca552cfaa9",
+          "request_id": "85dd30ef4a5e07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a499736c-09b1-4d38-974a-daca552cfaa9",
+      "children": [
+        "4358fefe-b7d4-4f3a-9b6b-64d9f4befb80"
+      ]
+    },
+    "4358fefe-b7d4-4f3a-9b6b-64d9f4befb80": {
+      "id": "4358fefe-b7d4-4f3a-9b6b-64d9f4befb80",
+      "message": {
+        "id": "4358fefe-b7d4-4f3a-9b6b-64d9f4befb80",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338539.299816,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The design for the mid-top sneakers with the image as requested is complete."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "8ec00b3d-ef74-4aff-9c73-2a06dc851ce1",
+          "request_id": "85dd30ef4a5e07c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8ec00b3d-ef74-4aff-9c73-2a06dc851ce1",
+      "children": [
+        "0652141a-e281-4640-8fa6-4b88ec119959"
+      ]
+    },
+    "0652141a-e281-4640-8fa6-4b88ec119959": {
+      "id": "0652141a-e281-4640-8fa6-4b88ec119959",
+      "message": {
+        "id": "0652141a-e281-4640-8fa6-4b88ec119959",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338586.568599,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please design a mid rise basketball shoe with a Halloween theme featuring ghosts and goblins and skeletons "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85dd32b55c0707c9-IAD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4358fefe-b7d4-4f3a-9b6b-64d9f4befb80",
+      "children": [
+        "dc0f49fd-51d4-48c4-b7d5-2f4b17425b7f"
+      ]
+    },
+    "dc0f49fd-51d4-48c4-b7d5-2f4b17425b7f": {
+      "id": "dc0f49fd-51d4-48c4-b7d5-2f4b17425b7f",
+      "message": {
+        "id": "dc0f49fd-51d4-48c4-b7d5-2f4b17425b7f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338606.022071,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Design a pair of mid-rise basketball shoes with a Halloween theme. The shoes should be decorated with playful and spooky graphics featuring ghosts, goblins, and skeletons in a style suitable for a festive Halloween occasion. The colors should include traditional Halloween shades like orange, black, and purple, with the graphics being integrated into the overall design of the shoes, making them look both athletic and seasonal.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "0652141a-e281-4640-8fa6-4b88ec119959",
+          "is_complete": true,
+          "request_id": "85dd32b55c0707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "0652141a-e281-4640-8fa6-4b88ec119959",
+      "children": [
+        "8619d46f-26e8-4251-a0be-a9707ad419c5"
+      ]
+    },
+    "8619d46f-26e8-4251-a0be-a9707ad419c5": {
+      "id": "8619d46f-26e8-4251-a0be-a9707ad419c5",
+      "message": {
+        "id": "8619d46f-26e8-4251-a0be-a9707ad419c5",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338606.024629,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-4pUHO70sow3Yy7LJdktTXlob",
+              "size_bytes": 316584,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "tt6xh96fWtQGcIj6",
+                  "prompt": "Design a pair of mid-rise basketball shoes with a Halloween theme. The shoes should be decorated with playful and spooky graphics featuring ghosts, goblins, and skeletons in a style suitable for a festive Halloween occasion. The colors should include traditional Halloween shades like orange, black, and purple, with the graphics being integrated into the overall design of the shoes, making them look both athletic and seasonal.",
+                  "seed": 1589620142,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "dc0f49fd-51d4-48c4-b7d5-2f4b17425b7f",
+          "request_id": "85dd32b55c0707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dc0f49fd-51d4-48c4-b7d5-2f4b17425b7f",
+      "children": [
+        "a5f7343c-96a4-4e50-afe9-cfdca55bb993"
+      ]
+    },
+    "a5f7343c-96a4-4e50-afe9-cfdca55bb993": {
+      "id": "a5f7343c-96a4-4e50-afe9-cfdca55bb993",
+      "message": {
+        "id": "a5f7343c-96a4-4e50-afe9-cfdca55bb993",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1709338606.024991,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "8619d46f-26e8-4251-a0be-a9707ad419c5",
+          "request_id": "85dd32b55c0707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8619d46f-26e8-4251-a0be-a9707ad419c5",
+      "children": [
+        "b0832da6-b9ef-4e19-82bf-e4dbd178ab17"
+      ]
+    },
+    "b0832da6-b9ef-4e19-82bf-e4dbd178ab17": {
+      "id": "b0832da6-b9ef-4e19-82bf-e4dbd178ab17",
+      "message": {
+        "id": "b0832da6-b9ef-4e19-82bf-e4dbd178ab17",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1709338606.025221,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The design for the mid-rise basketball shoes with a Halloween theme is ready."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "a5f7343c-96a4-4e50-afe9-cfdca55bb993",
+          "is_complete": true,
+          "request_id": "85dd32b55c0707c9-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a5f7343c-96a4-4e50-afe9-cfdca55bb993",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "b0832da6-b9ef-4e19-82bf-e4dbd178ab17",
+  "plugin_ids": null,
+  "conversation_id": "ff648f33-d0d7-443b-babf-3a3124817a0f",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "ff648f33-d0d7-443b-babf-3a3124817a0f"
+}

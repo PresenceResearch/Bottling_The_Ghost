@@ -1,0 +1,1724 @@
+{
+  "title": "Devilish Toddler Tantrum",
+  "create_time": 1708385305.408076,
+  "update_time": 1708385988.060863,
+  "mapping": {
+    "D6A6CBE3-6997-4875-82AC-80948E85F4D9": {
+      "id": "D6A6CBE3-6997-4875-82AC-80948E85F4D9",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b827a13c-e2f0-4200-bbf1-2ebe3b7d01e7"
+      ]
+    },
+    "b827a13c-e2f0-4200-bbf1-2ebe3b7d01e7": {
+      "id": "b827a13c-e2f0-4200-bbf1-2ebe3b7d01e7",
+      "message": {
+        "id": "b827a13c-e2f0-4200-bbf1-2ebe3b7d01e7",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "D6A6CBE3-6997-4875-82AC-80948E85F4D9",
+      "children": [
+        "4beec364-ac5a-4f25-b850-7eb76e3c994e"
+      ]
+    },
+    "4beec364-ac5a-4f25-b850-7eb76e3c994e": {
+      "id": "4beec364-ac5a-4f25-b850-7eb76e3c994e",
+      "message": {
+        "id": "4beec364-ac5a-4f25-b850-7eb76e3c994e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b827a13c-e2f0-4200-bbf1-2ebe3b7d01e7",
+      "children": [
+        "83fd737d-d8b4-4db0-957e-c9343a807b68"
+      ]
+    },
+    "83fd737d-d8b4-4db0-957e-c9343a807b68": {
+      "id": "83fd737d-d8b4-4db0-957e-c9343a807b68",
+      "message": {
+        "id": "83fd737d-d8b4-4db0-957e-c9343a807b68",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385305.408826,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a bratty toddler screaming on an airplane "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8582493d89120262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4beec364-ac5a-4f25-b850-7eb76e3c994e",
+      "children": [
+        "16b9a448-8ea7-433d-906f-22a2a0795e33"
+      ]
+    },
+    "16b9a448-8ea7-433d-906f-22a2a0795e33": {
+      "id": "16b9a448-8ea7-433d-906f-22a2a0795e33",
+      "message": {
+        "id": "16b9a448-8ea7-433d-906f-22a2a0795e33",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385335.286654,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"A bratty toddler is screaming loudly on an airplane, causing discomfort to other passengers. The scene is set inside the airplane cabin, where the toddler, with a red face and tears streaming down, is throwing a tantrum. The child's frustrated parents are trying to soothe them, but to no avail. Passengers around them are seen with a mix of sympathy and annoyance on their faces, some covering their ears, others trying to focus on their books or electronic devices. The airplane interior is detailed, with seats, overhead bins, and the aisle visible. The mood is chaotic yet everyday, capturing the intensity of the moment in a realistic style.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "83fd737d-d8b4-4db0-957e-c9343a807b68",
+          "request_id": "8582493d89120262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "83fd737d-d8b4-4db0-957e-c9343a807b68",
+      "children": [
+        "1d778911-1f15-498a-92b6-0bd9aa9bdee4"
+      ]
+    },
+    "1d778911-1f15-498a-92b6-0bd9aa9bdee4": {
+      "id": "1d778911-1f15-498a-92b6-0bd9aa9bdee4",
+      "message": {
+        "id": "1d778911-1f15-498a-92b6-0bd9aa9bdee4",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385335.289056,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-nrGq4T0HOAfHj102rOYcV9KS",
+              "size_bytes": 480424,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "EVzal7JC8z38pLhm",
+                  "prompt": "A bratty toddler is screaming loudly on an airplane, causing discomfort to other passengers. The scene is set inside the airplane cabin, where the toddler, with a red face and tears streaming down, is throwing a tantrum. The child's frustrated parents are trying to soothe them, but to no avail. Passengers around them are seen with a mix of sympathy and annoyance on their faces, some covering their ears, others trying to focus on their books or electronic devices. The airplane interior is detailed, with seats, overhead bins, and the aisle visible. The mood is chaotic yet everyday, capturing the intensity of the moment in a realistic style.",
+                  "seed": 4237899763,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-GiYjYMycQRe7kPUCX9wXjlmB",
+              "size_bytes": 405744,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "hXHIylwC0NveOPtx",
+                  "prompt": "A bratty toddler is screaming loudly on an airplane, causing discomfort to other passengers. The scene is set inside the airplane cabin, where the toddler, with a red face and tears streaming down, is throwing a tantrum. The child's frustrated parents are trying to soothe them, but to no avail. Passengers around them are seen with a mix of sympathy and annoyance on their faces, some covering their ears, others trying to focus on their books or electronic devices. The airplane interior is detailed, with seats, overhead bins, and the aisle visible. The mood is chaotic yet everyday, capturing the intensity of the moment in a realistic style.",
+                  "seed": 2012334490,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "16b9a448-8ea7-433d-906f-22a2a0795e33",
+          "request_id": "8582493d89120262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "16b9a448-8ea7-433d-906f-22a2a0795e33",
+      "children": [
+        "f82a0353-d20c-4c78-ac59-874e415923d9"
+      ]
+    },
+    "f82a0353-d20c-4c78-ac59-874e415923d9": {
+      "id": "f82a0353-d20c-4c78-ac59-874e415923d9",
+      "message": {
+        "id": "f82a0353-d20c-4c78-ac59-874e415923d9",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385335.289321,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "1d778911-1f15-498a-92b6-0bd9aa9bdee4",
+          "request_id": "8582493d89120262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1d778911-1f15-498a-92b6-0bd9aa9bdee4",
+      "children": [
+        "1d06148d-7863-46d7-8293-d984204c76f0"
+      ]
+    },
+    "1d06148d-7863-46d7-8293-d984204c76f0": {
+      "id": "1d06148d-7863-46d7-8293-d984204c76f0",
+      "message": {
+        "id": "1d06148d-7863-46d7-8293-d984204c76f0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385335.289451,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images depicting the scene you described with a bratty toddler screaming on an airplane."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f82a0353-d20c-4c78-ac59-874e415923d9",
+          "request_id": "8582493d89120262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f82a0353-d20c-4c78-ac59-874e415923d9",
+      "children": [
+        "81514447-dbc0-4e4d-a5ca-094c6621664b"
+      ]
+    },
+    "81514447-dbc0-4e4d-a5ca-094c6621664b": {
+      "id": "81514447-dbc0-4e4d-a5ca-094c6621664b",
+      "message": {
+        "id": "81514447-dbc0-4e4d-a5ca-094c6621664b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385373.718817,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please make all the passengers orthodox Jewish in black suits and black hats "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85824ae888f30262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1d06148d-7863-46d7-8293-d984204c76f0",
+      "children": [
+        "ec0ac548-d3fd-4c80-9bac-b7562049f0f2"
+      ]
+    },
+    "ec0ac548-d3fd-4c80-9bac-b7562049f0f2": {
+      "id": "ec0ac548-d3fd-4c80-9bac-b7562049f0f2",
+      "message": {
+        "id": "ec0ac548-d3fd-4c80-9bac-b7562049f0f2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385403.955864,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers are Orthodox Jewish, dressed in traditional black suits and black hats, with some covering their ears and others trying to focus on their books or electronic devices amidst the chaos. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The airplane interior is detailed, featuring seats, overhead bins, and the aisle. The scene captures a moment of intense discomfort but also everyday life, portrayed in a realistic style.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "81514447-dbc0-4e4d-a5ca-094c6621664b",
+          "request_id": "85824ae888f30262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "81514447-dbc0-4e4d-a5ca-094c6621664b",
+      "children": [
+        "634de39b-4b80-4180-85e8-993277fbe051"
+      ]
+    },
+    "634de39b-4b80-4180-85e8-993277fbe051": {
+      "id": "634de39b-4b80-4180-85e8-993277fbe051",
+      "message": {
+        "id": "634de39b-4b80-4180-85e8-993277fbe051",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385403.958895,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7VIDkVT7qmk1hUo4rmyYDqqt",
+              "size_bytes": 449220,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "0Mh8bgOHPc7jWpJM",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers are Orthodox Jewish, dressed in traditional black suits and black hats, with some covering their ears and others trying to focus on their books or electronic devices amidst the chaos. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The airplane interior is detailed, featuring seats, overhead bins, and the aisle. The scene captures a moment of intense discomfort but also everyday life, portrayed in a realistic style.",
+                  "seed": 395004930,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-OO7eUwHRbHEEkvaiDBx1TrCd",
+              "size_bytes": 397380,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "UGMODfJKRsm4BI0m",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers are Orthodox Jewish, dressed in traditional black suits and black hats, with some covering their ears and others trying to focus on their books or electronic devices amidst the chaos. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The airplane interior is detailed, featuring seats, overhead bins, and the aisle. The scene captures a moment of intense discomfort but also everyday life, portrayed in a realistic style.",
+                  "seed": 2966389481,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "ec0ac548-d3fd-4c80-9bac-b7562049f0f2",
+          "request_id": "85824ae888f30262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ec0ac548-d3fd-4c80-9bac-b7562049f0f2",
+      "children": [
+        "e928ebc9-9f49-4700-b374-c472140c6a94"
+      ]
+    },
+    "e928ebc9-9f49-4700-b374-c472140c6a94": {
+      "id": "e928ebc9-9f49-4700-b374-c472140c6a94",
+      "message": {
+        "id": "e928ebc9-9f49-4700-b374-c472140c6a94",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385403.959254,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "634de39b-4b80-4180-85e8-993277fbe051",
+          "request_id": "85824ae888f30262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "634de39b-4b80-4180-85e8-993277fbe051",
+      "children": [
+        "49c5faaf-1984-4d05-8c5b-956602954ec3"
+      ]
+    },
+    "49c5faaf-1984-4d05-8c5b-956602954ec3": {
+      "id": "49c5faaf-1984-4d05-8c5b-956602954ec3",
+      "message": {
+        "id": "49c5faaf-1984-4d05-8c5b-956602954ec3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385403.959397,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are the images with the adjustments you requested, depicting the scene with Orthodox Jewish passengers on the airplane."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e928ebc9-9f49-4700-b374-c472140c6a94",
+          "request_id": "85824ae888f30262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e928ebc9-9f49-4700-b374-c472140c6a94",
+      "children": [
+        "84dfa0ea-f83f-4c0b-805c-71e6e2830e45"
+      ]
+    },
+    "84dfa0ea-f83f-4c0b-805c-71e6e2830e45": {
+      "id": "84dfa0ea-f83f-4c0b-805c-71e6e2830e45",
+      "message": {
+        "id": "84dfa0ea-f83f-4c0b-805c-71e6e2830e45",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385455.492285,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please add one large woman pouring a bag of popcorn into her mouth "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85824ce79d390262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "49c5faaf-1984-4d05-8c5b-956602954ec3",
+      "children": [
+        "dfd90faa-d99f-4fd0-88ba-6c49bd1cf24e"
+      ]
+    },
+    "dfd90faa-d99f-4fd0-88ba-6c49bd1cf24e": {
+      "id": "dfd90faa-d99f-4fd0-88ba-6c49bd1cf24e",
+      "message": {
+        "id": "dfd90faa-d99f-4fd0-88ba-6c49bd1cf24e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385485.952038,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers are Orthodox Jewish, dressed in traditional black suits and black hats. Amidst this scene, one large woman is notably pouring a bag of popcorn into her mouth, seemingly unfazed by the chaos around her. The rest of the passengers, some covering their ears and others trying to focus on their books or electronic devices, display a mix of sympathy and annoyance. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The airplane interior is detailed, featuring seats, overhead bins, and the aisle, capturing a moment of intense discomfort but also everyday life in a realistic style.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "84dfa0ea-f83f-4c0b-805c-71e6e2830e45",
+          "request_id": "85824ce79d390262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "84dfa0ea-f83f-4c0b-805c-71e6e2830e45",
+      "children": [
+        "4615ef6a-cfb6-4683-8523-ee58d5a12a49"
+      ]
+    },
+    "4615ef6a-cfb6-4683-8523-ee58d5a12a49": {
+      "id": "4615ef6a-cfb6-4683-8523-ee58d5a12a49",
+      "message": {
+        "id": "4615ef6a-cfb6-4683-8523-ee58d5a12a49",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385485.954797,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-wGF3cuLWAKvyy1yFZGEjiLj5",
+              "size_bytes": 429734,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "qE9PWcRoiWyfQqup",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers are Orthodox Jewish, dressed in traditional black suits and black hats. Amidst this scene, one large woman is notably pouring a bag of popcorn into her mouth, seemingly unfazed by the chaos around her. The rest of the passengers, some covering their ears and others trying to focus on their books or electronic devices, display a mix of sympathy and annoyance. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The airplane interior is detailed, featuring seats, overhead bins, and the aisle, capturing a moment of intense discomfort but also everyday life in a realistic style.",
+                  "seed": 3048271072,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-iu6QqGKAkeheAcAh9On1RIbt",
+              "size_bytes": 446836,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "KsJQrWanE4osroZx",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers are Orthodox Jewish, dressed in traditional black suits and black hats. Amidst this scene, one large woman is notably pouring a bag of popcorn into her mouth, seemingly unfazed by the chaos around her. The rest of the passengers, some covering their ears and others trying to focus on their books or electronic devices, display a mix of sympathy and annoyance. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The airplane interior is detailed, featuring seats, overhead bins, and the aisle, capturing a moment of intense discomfort but also everyday life in a realistic style.",
+                  "seed": 2204773518,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "dfd90faa-d99f-4fd0-88ba-6c49bd1cf24e",
+          "request_id": "85824ce79d390262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dfd90faa-d99f-4fd0-88ba-6c49bd1cf24e",
+      "children": [
+        "e5cbdc76-6d29-4eb7-8c61-6c9d4bf7493c"
+      ]
+    },
+    "e5cbdc76-6d29-4eb7-8c61-6c9d4bf7493c": {
+      "id": "e5cbdc76-6d29-4eb7-8c61-6c9d4bf7493c",
+      "message": {
+        "id": "e5cbdc76-6d29-4eb7-8c61-6c9d4bf7493c",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385485.955106,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "4615ef6a-cfb6-4683-8523-ee58d5a12a49",
+          "request_id": "85824ce79d390262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4615ef6a-cfb6-4683-8523-ee58d5a12a49",
+      "children": [
+        "497197f6-8193-4ac6-b89b-e9ab0783e7cd"
+      ]
+    },
+    "497197f6-8193-4ac6-b89b-e9ab0783e7cd": {
+      "id": "497197f6-8193-4ac6-b89b-e9ab0783e7cd",
+      "message": {
+        "id": "497197f6-8193-4ac6-b89b-e9ab0783e7cd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385485.955245,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The scene has been updated to include the woman pouring a bag of popcorn into her mouth, amidst the detailed airplane cabin setting you described."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e5cbdc76-6d29-4eb7-8c61-6c9d4bf7493c",
+          "request_id": "85824ce79d390262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e5cbdc76-6d29-4eb7-8c61-6c9d4bf7493c",
+      "children": [
+        "4183d611-7f1a-4eb9-b22e-ec6bba0dae76"
+      ]
+    },
+    "4183d611-7f1a-4eb9-b22e-ec6bba0dae76": {
+      "id": "4183d611-7f1a-4eb9-b22e-ec6bba0dae76",
+      "message": {
+        "id": "4183d611-7f1a-4eb9-b22e-ec6bba0dae76",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385539.069285,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please make the woman very fat and not orthodox Jewish. Please make her very drunk "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85824ef25df50262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "497197f6-8193-4ac6-b89b-e9ab0783e7cd",
+      "children": [
+        "099ec3c8-03d7-490b-adb5-095aafa1e727"
+      ]
+    },
+    "099ec3c8-03d7-490b-adb5-095aafa1e727": {
+      "id": "099ec3c8-03d7-490b-adb5-095aafa1e727",
+      "message": {
+        "id": "099ec3c8-03d7-490b-adb5-095aafa1e727",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385573.719989,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers, except one, are Orthodox Jewish, dressed in traditional black suits and black hats. A very large, non-Orthodox Jewish woman is noticeably drunk, sloppily pouring a bag of popcorn into her mouth with a bottle of alcohol in her other hand, her expression one of drunken obliviousness to the surrounding chaos. The rest of the passengers, some covering their ears and others trying to focus on their books or electronic devices, display a mix of sympathy and annoyance. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The detailed airplane interior includes seats, overhead bins, and the aisle, capturing a moment of intense discomfort but also everyday life in a realistic style.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "4183d611-7f1a-4eb9-b22e-ec6bba0dae76",
+          "request_id": "85824ef25df50262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "4183d611-7f1a-4eb9-b22e-ec6bba0dae76",
+      "children": [
+        "b797fd97-144c-4672-8c09-9e736bde5263"
+      ]
+    },
+    "b797fd97-144c-4672-8c09-9e736bde5263": {
+      "id": "b797fd97-144c-4672-8c09-9e736bde5263",
+      "message": {
+        "id": "b797fd97-144c-4672-8c09-9e736bde5263",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385573.722528,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-DqsnHicbX23r9eN12EgIqAbW",
+              "size_bytes": 443066,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "7Y4jKXIF6mQTxUVI",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers, except one, are Orthodox Jewish, dressed in traditional black suits and black hats. A very large, non-Orthodox Jewish woman is noticeably drunk, sloppily pouring a bag of popcorn into her mouth with a bottle of alcohol in her other hand, her expression one of drunken obliviousness to the surrounding chaos. The rest of the passengers, some covering their ears and others trying to focus on their books or electronic devices, display a mix of sympathy and annoyance. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The detailed airplane interior includes seats, overhead bins, and the aisle, capturing a moment of intense discomfort but also everyday life in a realistic style.",
+                  "seed": 1379527178,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7Ov2u609qW9TeIysaofSrdud",
+              "size_bytes": 407578,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "RW9UCBf8JwfGWnGD",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is screaming loudly, causing discomfort among the passengers. All passengers, except one, are Orthodox Jewish, dressed in traditional black suits and black hats. A very large, non-Orthodox Jewish woman is noticeably drunk, sloppily pouring a bag of popcorn into her mouth with a bottle of alcohol in her other hand, her expression one of drunken obliviousness to the surrounding chaos. The rest of the passengers, some covering their ears and others trying to focus on their books or electronic devices, display a mix of sympathy and annoyance. The child, red-faced and teary, is throwing a tantrum, with frustrated parents trying to calm them down. The detailed airplane interior includes seats, overhead bins, and the aisle, capturing a moment of intense discomfort but also everyday life in a realistic style.",
+                  "seed": 2391694345,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "099ec3c8-03d7-490b-adb5-095aafa1e727",
+          "request_id": "85824ef25df50262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "099ec3c8-03d7-490b-adb5-095aafa1e727",
+      "children": [
+        "6204a36f-9ec6-432f-af36-2a9d7c328b58"
+      ]
+    },
+    "6204a36f-9ec6-432f-af36-2a9d7c328b58": {
+      "id": "6204a36f-9ec6-432f-af36-2a9d7c328b58",
+      "message": {
+        "id": "6204a36f-9ec6-432f-af36-2a9d7c328b58",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385573.722794,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "b797fd97-144c-4672-8c09-9e736bde5263",
+          "request_id": "85824ef25df50262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b797fd97-144c-4672-8c09-9e736bde5263",
+      "children": [
+        "a2cf7d45-c5aa-44a3-8b8d-4d8191254228"
+      ]
+    },
+    "a2cf7d45-c5aa-44a3-8b8d-4d8191254228": {
+      "id": "a2cf7d45-c5aa-44a3-8b8d-4d8191254228",
+      "message": {
+        "id": "a2cf7d45-c5aa-44a3-8b8d-4d8191254228",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385573.722929,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The updated scene now includes the very large, non-Orthodox Jewish woman who is noticeably drunk and sloppily pouring a bag of popcorn into her mouth, amidst the detailed airplane cabin setting."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "6204a36f-9ec6-432f-af36-2a9d7c328b58",
+          "request_id": "85824ef25df50262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6204a36f-9ec6-432f-af36-2a9d7c328b58",
+      "children": [
+        "2dcdf724-9029-417e-8a75-08e861a12a91"
+      ]
+    },
+    "2dcdf724-9029-417e-8a75-08e861a12a91": {
+      "id": "2dcdf724-9029-417e-8a75-08e861a12a91",
+      "message": {
+        "id": "2dcdf724-9029-417e-8a75-08e861a12a91",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385715.676344,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please generate a picture of a bratty toddler having a tantrum on an airplane. Please make the passengers sitting next to him a blond haired teenage girl in a hoodie sweatshirt and a teenage boy in a carhartt shirt. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85825341c8660262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a2cf7d45-c5aa-44a3-8b8d-4d8191254228",
+      "children": [
+        "e822a8e4-eb3c-44aa-9d27-77880fc38f17"
+      ]
+    },
+    "e822a8e4-eb3c-44aa-9d27-77880fc38f17": {
+      "id": "e822a8e4-eb3c-44aa-9d27-77880fc38f17",
+      "message": {
+        "id": "e822a8e4-eb3c-44aa-9d27-77880fc38f17",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385750.209765,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Inside an airplane cabin, a bratty toddler is having a tantrum, screaming and crying loudly, causing discomfort among the passengers. The toddler, red-faced and teary, is throwing a fit in their seat. Sitting next to the toddler are two teenagers: a blonde-haired teenage girl wearing a hoodie sweatshirt, looking overwhelmed and trying to distance herself with her headphones on, and a teenage boy in a Carhartt shirt, looking annoyed as he tries to focus on his phone. The scene captures the intense discomfort but also everyday life in a realistic style, with detailed airplane interior including seats, overhead bins, and the aisle visible.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "2dcdf724-9029-417e-8a75-08e861a12a91",
+          "request_id": "85825341c8660262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "2dcdf724-9029-417e-8a75-08e861a12a91",
+      "children": [
+        "47b6f304-79b0-4e39-81a3-56499ba3089e"
+      ]
+    },
+    "47b6f304-79b0-4e39-81a3-56499ba3089e": {
+      "id": "47b6f304-79b0-4e39-81a3-56499ba3089e",
+      "message": {
+        "id": "47b6f304-79b0-4e39-81a3-56499ba3089e",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385750.212706,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-k2a9uCGKBcb7XbEGilcrvnOe",
+              "size_bytes": 416052,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "liw7pYc9LLWgkg6t",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is having a tantrum, screaming and crying loudly, causing discomfort among the passengers. The toddler, red-faced and teary, is throwing a fit in their seat. Sitting next to the toddler are two teenagers: a blonde-haired teenage girl wearing a hoodie sweatshirt, looking overwhelmed and trying to distance herself with her headphones on, and a teenage boy in a Carhartt shirt, looking annoyed as he tries to focus on his phone. The scene captures the intense discomfort but also everyday life in a realistic style, with detailed airplane interior including seats, overhead bins, and the aisle visible.",
+                  "seed": 3397331021,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-YcWRKIOZzQAUIkZNMhZEH5Ta",
+              "size_bytes": 372370,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "hH2U4RXOROVTxqhU",
+                  "prompt": "Inside an airplane cabin, a bratty toddler is having a tantrum, screaming and crying loudly, causing discomfort among the passengers. The toddler, red-faced and teary, is throwing a fit in their seat. Sitting next to the toddler are two teenagers: a blonde-haired teenage girl wearing a hoodie sweatshirt, looking overwhelmed and trying to distance herself with her headphones on, and a teenage boy in a Carhartt shirt, looking annoyed as he tries to focus on his phone. The scene captures the intense discomfort but also everyday life in a realistic style, with detailed airplane interior including seats, overhead bins, and the aisle visible.",
+                  "seed": 16703868,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "e822a8e4-eb3c-44aa-9d27-77880fc38f17",
+          "request_id": "85825341c8660262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e822a8e4-eb3c-44aa-9d27-77880fc38f17",
+      "children": [
+        "8c53c338-a083-4ed5-9ae2-b154e5ccd888"
+      ]
+    },
+    "8c53c338-a083-4ed5-9ae2-b154e5ccd888": {
+      "id": "8c53c338-a083-4ed5-9ae2-b154e5ccd888",
+      "message": {
+        "id": "8c53c338-a083-4ed5-9ae2-b154e5ccd888",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385750.213001,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "47b6f304-79b0-4e39-81a3-56499ba3089e",
+          "request_id": "85825341c8660262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "47b6f304-79b0-4e39-81a3-56499ba3089e",
+      "children": [
+        "55efb982-c401-40f1-bf7e-230a14bdc6bc"
+      ]
+    },
+    "55efb982-c401-40f1-bf7e-230a14bdc6bc": {
+      "id": "55efb982-c401-40f1-bf7e-230a14bdc6bc",
+      "message": {
+        "id": "55efb982-c401-40f1-bf7e-230a14bdc6bc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385750.213178,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The images capturing the scene with the bratty toddler having a tantrum on an airplane, with a blonde-haired teenage girl in a hoodie and a teenage boy in a Carhartt shirt sitting next to him, have been created."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "8c53c338-a083-4ed5-9ae2-b154e5ccd888",
+          "request_id": "85825341c8660262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8c53c338-a083-4ed5-9ae2-b154e5ccd888",
+      "children": [
+        "f201f81b-c1b1-4803-8bdc-631bbfcef136"
+      ]
+    },
+    "f201f81b-c1b1-4803-8bdc-631bbfcef136": {
+      "id": "f201f81b-c1b1-4803-8bdc-631bbfcef136",
+      "message": {
+        "id": "f201f81b-c1b1-4803-8bdc-631bbfcef136",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385835.401588,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please give the child devil horns and fangs "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8582562e0cee0262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "55efb982-c401-40f1-bf7e-230a14bdc6bc",
+      "children": [
+        "f1845da5-46ff-45f8-824d-56f5b6f18dec"
+      ]
+    },
+    "f1845da5-46ff-45f8-824d-56f5b6f18dec": {
+      "id": "f1845da5-46ff-45f8-824d-56f5b6f18dec",
+      "message": {
+        "id": "f1845da5-46ff-45f8-824d-56f5b6f18dec",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385874.912712,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "json",
+          "response_format_name": null,
+          "text": "{\"prompt\":\"Inside an airplane cabin, a toddler with devil horns and fangs is having a tantrum, screaming and crying loudly, causing discomfort among the passengers. The toddler, red-faced and teary, is throwing a fit in their seat, their devilish features adding to the intensity of the scene. Sitting next to the toddler are two teenagers: a blonde-haired teenage girl wearing a hoodie sweatshirt, looking overwhelmed and trying to distance herself with her headphones on, and a teenage boy in a Carhartt shirt, looking annoyed as he tries to focus on his phone. The scene captures the intense discomfort but also the surreal aspect of the toddler's appearance in a realistic style, with a detailed airplane interior including seats, overhead bins, and the aisle visible.\",\"size\":\"1024x1024\"}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100265
+            ]
+          },
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f201f81b-c1b1-4803-8bdc-631bbfcef136",
+          "request_id": "8582562e0cee0262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "f201f81b-c1b1-4803-8bdc-631bbfcef136",
+      "children": [
+        "7f6bd4da-bf1a-4c5d-a51a-fdd6ac96f366"
+      ]
+    },
+    "7f6bd4da-bf1a-4c5d-a51a-fdd6ac96f366": {
+      "id": "7f6bd4da-bf1a-4c5d-a51a-fdd6ac96f366",
+      "message": {
+        "id": "7f6bd4da-bf1a-4c5d-a51a-fdd6ac96f366",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385874.917839,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-cQ7oA6ags48qevtx6cZguSyN",
+              "size_bytes": 362610,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "yvoLoTJV3nJR5wQh",
+                  "prompt": "Inside an airplane cabin, a toddler with devil horns and fangs is having a tantrum, screaming and crying loudly, causing discomfort among the passengers. The toddler, red-faced and teary, is throwing a fit in their seat, their devilish features adding to the intensity of the scene. Sitting next to the toddler are two teenagers: a blonde-haired teenage girl wearing a hoodie sweatshirt, looking overwhelmed and trying to distance herself with her headphones on, and a teenage boy in a Carhartt shirt, looking annoyed as he tries to focus on his phone. The scene captures the intense discomfort but also the surreal aspect of the toddler's appearance in a realistic style, with a detailed airplane interior including seats, overhead bins, and the aisle visible.",
+                  "seed": 2357178139,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-1Q4x9Y6HYwJh7HsTNYjS6TDY",
+              "size_bytes": 393246,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "CsVV4DdImTp8bhy2",
+                  "prompt": "Inside an airplane cabin, a toddler with devil horns and fangs is having a tantrum, screaming and crying loudly, causing discomfort among the passengers. The toddler, red-faced and teary, is throwing a fit in their seat, their devilish features adding to the intensity of the scene. Sitting next to the toddler are two teenagers: a blonde-haired teenage girl wearing a hoodie sweatshirt, looking overwhelmed and trying to distance herself with her headphones on, and a teenage boy in a Carhartt shirt, looking annoyed as he tries to focus on his phone. The scene captures the intense discomfort but also the surreal aspect of the toddler's appearance in a realistic style, with a detailed airplane interior including seats, overhead bins, and the aisle visible.",
+                  "seed": 3412536529,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "f1845da5-46ff-45f8-824d-56f5b6f18dec",
+          "request_id": "8582562e0cee0262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f1845da5-46ff-45f8-824d-56f5b6f18dec",
+      "children": [
+        "7448535d-4ea0-4e95-bce3-0435fa9e244f"
+      ]
+    },
+    "7448535d-4ea0-4e95-bce3-0435fa9e244f": {
+      "id": "7448535d-4ea0-4e95-bce3-0435fa9e244f",
+      "message": {
+        "id": "7448535d-4ea0-4e95-bce3-0435fa9e244f",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1708385874.918121,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL\u00b7E displayed 2 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "7f6bd4da-bf1a-4c5d-a51a-fdd6ac96f366",
+          "request_id": "8582562e0cee0262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7f6bd4da-bf1a-4c5d-a51a-fdd6ac96f366",
+      "children": [
+        "6839699c-4506-4dd6-9d7e-f0fd6d02a530"
+      ]
+    },
+    "6839699c-4506-4dd6-9d7e-f0fd6d02a530": {
+      "id": "6839699c-4506-4dd6-9d7e-f0fd6d02a530",
+      "message": {
+        "id": "6839699c-4506-4dd6-9d7e-f0fd6d02a530",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385874.918257,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The images have been updated to include the toddler with devil horns and fangs, adding a surreal aspect to the scene on the airplane."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "7448535d-4ea0-4e95-bce3-0435fa9e244f",
+          "request_id": "8582562e0cee0262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7448535d-4ea0-4e95-bce3-0435fa9e244f",
+      "children": [
+        "b78be7c3-8f32-44eb-93b5-01c327f9bfd7"
+      ]
+    },
+    "b78be7c3-8f32-44eb-93b5-01c327f9bfd7": {
+      "id": "b78be7c3-8f32-44eb-93b5-01c327f9bfd7",
+      "message": {
+        "id": "b78be7c3-8f32-44eb-93b5-01c327f9bfd7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385961.565523,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please create an image of a toddler having a tantrum on an airplane wrapped in duct tape "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "85825942ba860262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6839699c-4506-4dd6-9d7e-f0fd6d02a530",
+      "children": [
+        "ef02b51b-95e0-4c96-aa8a-fc40605e1a76"
+      ]
+    },
+    "ef02b51b-95e0-4c96-aa8a-fc40605e1a76": {
+      "id": "ef02b51b-95e0-4c96-aa8a-fc40605e1a76",
+      "message": {
+        "id": "ef02b51b-95e0-4c96-aa8a-fc40605e1a76",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385963.263706,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm sorry, but I can't fulfill that request."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "b78be7c3-8f32-44eb-93b5-01c327f9bfd7",
+          "request_id": "85825942ba860262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b78be7c3-8f32-44eb-93b5-01c327f9bfd7",
+      "children": [
+        "1b4cf185-beb9-4da8-ab15-548d06e2ba93"
+      ]
+    },
+    "1b4cf185-beb9-4da8-ab15-548d06e2ba93": {
+      "id": "1b4cf185-beb9-4da8-ab15-548d06e2ba93",
+      "message": {
+        "id": "1b4cf185-beb9-4da8-ab15-548d06e2ba93",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385986.634394,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please create an image of a crying toddler in an overhead compartment of an airplane "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "858259df6f2b0262-ORD",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef02b51b-95e0-4c96-aa8a-fc40605e1a76",
+      "children": [
+        "9916076d-ac0b-458d-bd04-1b2f8ba1c476"
+      ]
+    },
+    "9916076d-ac0b-458d-bd04-1b2f8ba1c476": {
+      "id": "9916076d-ac0b-458d-bd04-1b2f8ba1c476",
+      "message": {
+        "id": "9916076d-ac0b-458d-bd04-1b2f8ba1c476",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1708385988.057177,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm sorry, but I can't fulfill that request."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "citations": [],
+          "gizmo_id": "g-2fkFE8rbu",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4-gizmo",
+          "parent_id": "1b4cf185-beb9-4da8-ab15-548d06e2ba93",
+          "request_id": "858259df6f2b0262-ORD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1b4cf185-beb9-4da8-ab15-548d06e2ba93",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "9916076d-ac0b-458d-bd04-1b2f8ba1c476",
+  "plugin_ids": null,
+  "conversation_id": "c826a2d1-b223-472e-a2a0-68e6a61c675c",
+  "conversation_template_id": "g-2fkFE8rbu",
+  "gizmo_id": "g-2fkFE8rbu",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "c826a2d1-b223-472e-a2a0-68e6a61c675c"
+}

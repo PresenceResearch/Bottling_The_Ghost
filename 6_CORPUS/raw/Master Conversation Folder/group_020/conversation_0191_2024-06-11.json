@@ -1,0 +1,185 @@
+{
+  "title": "Solar Energy Efficiency: TSRF",
+  "create_time": 1718119728.862101,
+  "update_time": 1718119747.769108,
+  "mapping": {
+    "aaa171d2-d39e-43a5-a940-1d86be5a0983": {
+      "id": "aaa171d2-d39e-43a5-a940-1d86be5a0983",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8695efb7-79bf-4859-b01c-173d1fbd3e2f"
+      ]
+    },
+    "8695efb7-79bf-4859-b01c-173d1fbd3e2f": {
+      "id": "8695efb7-79bf-4859-b01c-173d1fbd3e2f",
+      "message": {
+        "id": "8695efb7-79bf-4859-b01c-173d1fbd3e2f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa171d2-d39e-43a5-a940-1d86be5a0983",
+      "children": [
+        "aaa28f79-db11-40ba-a080-d06e7a152802"
+      ]
+    },
+    "aaa28f79-db11-40ba-a080-d06e7a152802": {
+      "id": "aaa28f79-db11-40ba-a080-d06e7a152802",
+      "message": {
+        "id": "aaa28f79-db11-40ba-a080-d06e7a152802",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1718119728.867662,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please describe TSRF or Total Solar Resource Factor"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "8922a20efccf07a8-IAD",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8695efb7-79bf-4859-b01c-173d1fbd3e2f",
+      "children": [
+        "003da649-39d9-4bec-95d0-102a1a754274"
+      ]
+    },
+    "003da649-39d9-4bec-95d0-102a1a754274": {
+      "id": "003da649-39d9-4bec-95d0-102a1a754274",
+      "message": {
+        "id": "003da649-39d9-4bec-95d0-102a1a754274",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1718119746.297938,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "aaa28f79-db11-40ba-a080-d06e7a152802",
+          "request_id": "8922a20efccf07a8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa28f79-db11-40ba-a080-d06e7a152802",
+      "children": [
+        "f9bff3e8-2de0-46b8-be1a-c14ab17a778d"
+      ]
+    },
+    "f9bff3e8-2de0-46b8-be1a-c14ab17a778d": {
+      "id": "f9bff3e8-2de0-46b8-be1a-c14ab17a778d",
+      "message": {
+        "id": "f9bff3e8-2de0-46b8-be1a-c14ab17a778d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1718119746.298072,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The Total Solar Resource Factor (TSRF) is a key metric used in the solar energy industry to evaluate the solar potential of a particular site. TSRF represents the percentage of the maximum solar energy that a solar panel can receive at a specific location, taking into account various factors that can impact solar irradiance. These factors include:\n\n1. **Shading**: Any obstructions such as trees, buildings, or other structures that can cast shadows on the solar panels and reduce the amount of sunlight they receive.\n\n2. **Orientation**: The direction the solar panels are facing (typically measured in degrees from true north) which affects how much direct sunlight they receive throughout the day.\n\n3. **Tilt Angle**: The angle at which the solar panels are installed relative to the ground. The optimal tilt angle varies depending on the latitude of the installation site and can significantly influence the amount of solar energy captured.\n\n4. **Geographical Location**: The latitude and longitude of the installation site, which determines the solar radiation available in the area.\n\nTSRF is expressed as a percentage, with 100% indicating that the solar panels receive the maximum possible solar energy without any shading, and at the optimal orientation and tilt angle. A TSRF of less than 100% indicates some level of reduction in solar energy due to shading, suboptimal orientation, or tilt angle.\n\nA higher TSRF means the site is more suitable for solar energy production, while a lower TSRF indicates potential challenges that could reduce the efficiency and output of the solar system. Assessing the TSRF helps in designing and optimizing solar installations to ensure maximum energy production and efficiency."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "pad": "AAAAAAAAAAAAAAAAAAA",
+          "parent_id": "003da649-39d9-4bec-95d0-102a1a754274",
+          "request_id": "8922a20efccf07a8-IAD",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "003da649-39d9-4bec-95d0-102a1a754274",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f9bff3e8-2de0-46b8-be1a-c14ab17a778d",
+  "plugin_ids": null,
+  "conversation_id": "d7e1d199-6ef4-4b96-8813-8e2685aa7f0f",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "d7e1d199-6ef4-4b96-8813-8e2685aa7f0f"
+}
