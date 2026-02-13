@@ -6,3 +6,19 @@
 
 # Locked or in-use files
 **/conversation_0391_2024-09-22.json
+
+# SECRETS - NEVER COMMIT THESE
+.env
+*.env
+8_DEPLOYMENT/.env
+8_DEPLOYMENT/chroma_db/
+*.key
+*.pem
+config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
