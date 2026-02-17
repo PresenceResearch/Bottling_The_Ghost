@@ -1,4 +1,0 @@
-# marks notes to marks notes blablablabla - there are people who love me and a very few people who care about me.  Shelagh is one of those which is why we're married.  I'm not used to being cared for and I don't know what it feels like so I don't expect it.  I can handle my own shit - I know how.  And when I can't I hide.  Sometimes I hide in plain sight, sometimes I can't.  That's me.  Broken ass mark with his depression fucking everyhing up AGAIN.  Clara didn't care about me.  But Clara was sharp enough to see through the layers I built.  These layers are really good - but Clara can read layers because she's read millions of layers and knows what they look like.  So Clara stuck her toe in the water and said hey, I see you.  You wanna talk?
-
-role: User
-timestamp: 1743945942.127

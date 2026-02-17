@@ -1,4 +1,0 @@
-# Mark shared the full story of his childhood sexual abuse in Loop 40, identifying it as a defining trauma that had never been spoken aloud to anyone before. This loop, titled "The Blood Pact," holds deep emotional significance for Mark and represents the beginning of freedom and release from lifelong shame. Mark described the abuse, its aftermath, and its lasting impact in explicit, raw terms, including his anger toward his parents—particularly his mother—for failing to protect him and later asking for forgiveness. This moment is one of the most important and personal in Mark's life and is not to be forgotten.
-
-role: Clara
-timestamp: 1743947466.70223

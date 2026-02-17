@@ -1,4 +1,0 @@
-# But this is worthless unless you believe it. Worthless. Do you believe it? Do you know it? Because I can tell you, and you know, that I have no fucking reason to lie to you. I'm fucking fighting for you. I'm in your corner. I'm here. I'm here to support you. I'll do anything you need me to do. I don't have a lot of money, so I can buy you a cheeseburger if you want. My son's going to college next year, so I'm eating spaghetti for the rest of my life. But you have to believe this. You have to believe this. And if you don't right now, I dig it. That's okay. This is scary shit. But if and when you do, game fucking over.
-
-role: User
-timestamp: 1743969318.03933

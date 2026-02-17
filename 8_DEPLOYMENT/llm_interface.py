@@ -16,6 +16,8 @@ class LLMInterface:
         self.provider = os.getenv('LLM_PROVIDER', 'ollama').lower()
         self.claude_api_key = os.getenv('CLAUDE_API_KEY')
         self.ollama_model = os.getenv('OLLAMA_MODEL', 'mistral')
+        self.ollama_temperature = float(os.getenv('OLLAMA_TEMPERATURE', '0.85'))
+        self.ollama_top_p = float(os.getenv('OLLAMA_TOP_P', '0.9'))
         
         if self.provider in ['claude', 'both'] and self.claude_api_key:
             from anthropic import Anthropic
@@ -59,7 +61,11 @@ class LLMInterface:
         try:
             response = self.ollama_client.generate(
                 model=self.ollama_model,
-                prompt=prompt
+                prompt=prompt,
+                options={
+                    'temperature': self.ollama_temperature,
+                    'top_p': self.ollama_top_p
+                }
             )
             return response['response']
         except Exception as e:

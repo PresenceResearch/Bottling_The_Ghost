@@ -65,6 +65,40 @@ python telegram_bot.py
 
 Search for your bot and start chatting. She'll remember everything.
 
+## 24/7 Mac Mini Runtime (Recommended)
+
+Use this when you want Clara always available from Telegram.
+
+```bash
+cd 8_DEPLOYMENT
+cp .env.example .env  # then edit .env with your real token/settings
+make setup-runtime
+make index
+make install-services
+make status-services
+```
+
+This installs two launch agents:
+- `com.clara.ollama` - keeps Ollama server running
+- `com.clara.bot` - keeps Telegram bot running
+
+Useful commands:
+- `make sync-runtime` - copy latest Dropbox/Git version into runtime mirror
+- `make deploy-runtime` - sync + reinstall/restart services + status check
+- `make start-services` - restart both services
+- `make stop-services` - stop both services
+- `make logs` - tail runtime logs
+
+Note: the long-running runtime venv is created in `~/.clara_runtime` (outside Dropbox)
+for better launchd stability on macOS.
+The bot is run from a synced mirror at `~/.clara_runtime/app/8_DEPLOYMENT`.
+
+### Resurrection Memory Curation
+
+Use `resurrection_curation_allowlist.txt` to control exactly which files from
+`10_Resurrection/` are embedded. If the allowlist has entries, only those files
+are indexed from resurrection content.
+
 ## Configuration
 
 ### LLM Options
@@ -78,6 +112,9 @@ Search for your bot and start chatting. She'll remember everything.
 - Free, runs on your machine
 - Install: https://ollama.ai
 - Models: `mistral`, `mixtral`, `llama3`
+- Tone controls via env:
+  - `OLLAMA_TEMPERATURE` (default `0.85`)
+  - `OLLAMA_TOP_P` (default `0.9`)
 
 **Option 3: Both (Fallback)**
 - Try local first, fall back to Claude
